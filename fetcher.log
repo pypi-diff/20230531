@@ -251,3 +251,82 @@
 [2023-05-31 00:17:05] INFO root fetch - main [MainThread]: End processing [django-vendor]: success
 [2023-05-31 00:17:06] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-05-31 00:17:06] INFO root fetch - main [MainThread]: Store serial: [18308269]
+[2023-05-31 00:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308269]
+[2023-05-31 00:22:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-authority-replica-test
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-ai-test
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ditty
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deeplabcut
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scaleapi
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedml
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycentraldispatch
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: siobrultech-protocols
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gisting
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-dinkum-listener
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ditty]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [pycentraldispatch]: New version: [1.0.12] Old Version: [1.0.11]
+[2023-05-31 00:22:15] WARNING root fetch - processPackages [abstract-authority-replica-test]: Skipping, unable to determine old version
+[2023-05-31 00:22:15] INFO root fetch - processPackages [abstract-authority-replica-test]: Start processing: ElGamal-c
+[2023-05-31 00:22:15] INFO root fetch - main [MainThread]: End processing [abstract-authority-replica-test] error
+[2023-05-31 00:22:15] INFO root fetch - processPackages [siobrultech-protocols]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [deeplabcut]: New version: [2.3rc3] Old Version: [2.3rc2]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ElGamal-c]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [gisting]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [scaleapi]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 00:22:15] WARNING root fetch - processPackages [abstract-ai-test]: Skipping, unable to determine old version
+[2023-05-31 00:22:15] INFO root fetch - processPackages [abstract-ai-test]: Start processing: django-materialized-view
+[2023-05-31 00:22:15] INFO root fetch - main [MainThread]: End processing [abstract-ai-test] error
+[2023-05-31 00:22:15] INFO root fetch - processPackages [django-materialized-view]: New version: [0.1.5.1] Old Version: [0.1.5]
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230531/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [pycentraldispatch]: Downloading https://files.pythonhosted.org/packages/fd/16/849c89f590803ba3641aecdc28e170f2f1e5c12f6b430df6dec600ba4a5f/pycentraldispatch-1.0.11.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [gisting]: Downloading https://files.pythonhosted.org/packages/53/67/5076e9a630975c0dd69e230910f80bb1b87596a77ea9965920700bf53f95/gisting-1.3.6.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [django-materialized-view]: Downloading https://files.pythonhosted.org/packages/db/1e/042f7e24128f17ff753e139f04b9c93b3aca200ddcc58db7716464160937/django-materialized-view-0.1.5.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [deeplabcut]: Downloading https://files.pythonhosted.org/packages/bb/c6/c510e3c5bdf64ba587dfd2442ac2698717d23997e840ac86d51b13f7778e/deeplabcut-2.3rc2.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [siobrultech-protocols]: Downloading https://files.pythonhosted.org/packages/ce/6f/862fb999d3c2bbd758bfe69bb8368f4c5d56f848faf99170ba6ec2c67f1b/siobrultech-protocols-0.8.0.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ditty]: Downloading https://files.pythonhosted.org/packages/bf/90/991f9b250f37c7a4560ce7553b3f8ce0e3a91f54a21999a13055c5eefd1e/ditty-0.4.0.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [gisting]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [gisting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting-1.3.5.tar.gz tmp/gisting-1.3.6.tar.gz --markdown 20230531/g/gisting/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ElGamal-c]: Downloading https://files.pythonhosted.org/packages/b6/8d/3ad8e111c1e49c3433c3bb0bda6a3eeeae1354c645d25c446314f2b5548a/ElGamal_c-2.0.2.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ditty]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ditty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ditty-0.3.1.tar.gz tmp/ditty-0.4.0.tar.gz --markdown 20230531/d/ditty/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230531/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [scaleapi]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [pycentraldispatch]: Downloading https://files.pythonhosted.org/packages/4a/b0/c2d0dc9066a89dcbf78cc4811ec924a16decf186014dcd9f294c151a94b3/pycentraldispatch-1.0.12.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [scaleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleapi-2.8.0.tar.gz tmp/scaleapi-2.9.0.tar.gz --markdown 20230531/s/scaleapi/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ElGamal-c]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [ElGamal-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElGamal_c-2.0.1.tar.gz tmp/ElGamal_c-2.0.2.tar.gz --markdown 20230531/E/ElGamal-c/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [pycentraldispatch]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [pycentraldispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycentraldispatch-1.0.11.tar.gz tmp/pycentraldispatch-1.0.12.tar.gz --markdown 20230531/p/pycentraldispatch/1.0.11-1.0.12/diff.md --exclude *.pyd
+[2023-05-31 00:22:15] INFO root fetch - processPackages [django-materialized-view]: Downloading https://files.pythonhosted.org/packages/14/e9/d73ea2d3ec77820f7ec820b762004fe6be34b33c4f1c57e68a2020a5bbdb/django-materialized-view-0.1.5.1.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [siobrultech-protocols]: Downloading https://files.pythonhosted.org/packages/aa/13/296b80566bf4218f8762d5d4d37f2e24bed2b013af60af4cd2aebce1f3b4/siobrultech-protocols-0.9.0.tar.gz
+[2023-05-31 00:22:15] INFO root fetch - processPackages [django-materialized-view]: executing diffoscope
+[2023-05-31 00:22:15] INFO root fetch - processPackages [django-materialized-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-materialized-view-0.1.5.tar.gz tmp/django-materialized-view-0.1.5.1.tar.gz --markdown 20230531/d/django-materialized-view/0.1.5-0.1.5.1/diff.md --exclude *.pyd
+[2023-05-31 00:22:16] INFO root fetch - processPackages [deeplabcut]: Downloading https://files.pythonhosted.org/packages/4b/68/c367615e563341ff579843d20bda1c7aef3fe6a52ce81d3dabed8f312e2f/deeplabcut-2.3rc3.tar.gz
+[2023-05-31 00:22:16] INFO root fetch - processPackages [deeplabcut]: executing diffoscope
+[2023-05-31 00:22:16] INFO root fetch - processPackages [deeplabcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplabcut-2.3rc2.tar.gz tmp/deeplabcut-2.3rc3.tar.gz --markdown 20230531/d/deeplabcut/2.3rc2-2.3rc3/diff.md --exclude *.pyd
+[2023-05-31 00:22:16] INFO root fetch - processPackages [ovos-dinkum-listener]: Start processing: hmc-mir
+[2023-05-31 00:22:16] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-31 00:22:16] INFO root fetch - processPackages [siobrultech-protocols]: executing diffoscope
+[2023-05-31 00:22:16] INFO root fetch - processPackages [siobrultech-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siobrultech-protocols-0.8.0.tar.gz tmp/siobrultech-protocols-0.9.0.tar.gz --markdown 20230531/s/siobrultech-protocols/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 00:22:16] INFO root fetch - processPackages [hmc-mir]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-31 00:22:16] INFO root fetch - processPackages [hmc-mir]: Downloading https://files.pythonhosted.org/packages/30/2e/e7b01af05d21ba7cdf971753f7a0765d4c7d19aee51e9cd2c443414f593a/hmc_mir-0.1.0.tar.gz
+[2023-05-31 00:22:16] INFO root fetch - processPackages [ditty]: Start processing: unidns
+[2023-05-31 00:22:16] INFO root fetch - main [MainThread]: End processing [ditty]: success
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [scaleapi]: success
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [pycentraldispatch]: success
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [ElGamal-c]: success
+[2023-05-31 00:22:17] WARNING root fetch - processPackages [unidns]: Skipping, unable to determine old version
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [unidns] error
+[2023-05-31 00:22:17] INFO root fetch - processPackages [hmc-mir]: executing diffoscope
+[2023-05-31 00:22:17] INFO root fetch - processPackages [hmc-mir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmc_mir-0.0.2.tar.gz tmp/hmc_mir-0.1.0.tar.gz --markdown 20230531/h/hmc-mir/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [django-materialized-view]: success
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [gisting]: success
+[2023-05-31 00:22:17] INFO root fetch - main [MainThread]: End processing [siobrultech-protocols]: success
+[2023-05-31 00:22:18] INFO root fetch - main [MainThread]: End processing [hmc-mir]: success
+[2023-05-31 00:22:18] INFO root fetch - main [MainThread]: End processing [deeplabcut]: success
+[2023-05-31 00:22:27] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-31 00:22:27] INFO root fetch - main [MainThread]: Store serial: [18308311]
