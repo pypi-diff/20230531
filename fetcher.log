@@ -104,3 +104,79 @@
 [2023-05-31 00:06:31] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
 [2023-05-31 00:06:33] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2023-05-31 00:06:33] INFO root fetch - main [MainThread]: Store serial: [18308189]
+[2023-05-31 00:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308189]
+[2023-05-31 00:11:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 00:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selve-new
+[2023-05-31 00:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-31 00:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethyca-fides
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsj-multi-database-lib
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheminftools
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-walt
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: highway-env
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polyswarm
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-intel
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opvious
+[2023-05-31 00:11:42] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [mkdocs-walt]: New version: [0.0.4.dev0] Old Version: [0.0.3.dev0]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [cheminftools]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [highway-env]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [polyswarm]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230529] Old Version: [2.14.0.dev20230528]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230531/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [cheminftools]: Downloading https://files.pythonhosted.org/packages/d1/45/69b02f23651c13181c4529d49ac3f4eda5b8590e5732aa5953892d44485b/cheminftools-0.1.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/be/e9/d68ca17b3cd1c2062002c17549043f59101242e93c2f6213fae58ccfe627/nsj_multi_database_lib-0.2.8.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/45/10/c296e8c679c18f96cba7a96d06e3cf52f1345c49811dcc9b7af36928cdf4/python-selve-new-2.0.8.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230531/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [polyswarm]: Downloading https://files.pythonhosted.org/packages/0c/6d/63b231c4d5f43cb6d6f38ecda008f315f25c9b0e1af9c5d8db7cde92889a/polyswarm-3.2.0.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/25/be/7a54767ea54b9e4065ce28697f55ec4fe041717d7f0b5a38c5b67d43d497/tf_nightly_intel-2.14.0.dev20230528-cp39-cp39-win_amd64.whl
+[2023-05-31 00:11:42] INFO root fetch - processPackages [highway-env]: Downloading https://files.pythonhosted.org/packages/1d/3e/f495e60da063fabb18c36db3c0f475c9f63d12234cd6c7b6c5f16687e018/highway-env-1.8.1.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [mkdocs-walt]: Downloading https://files.pythonhosted.org/packages/eb/3b/f83883795457ab60bd6fefb732b101366810efbaf01bf1a60b09c13f0ff1/mkdocs-walt-0.0.4.dev0.tar.gz
+[2023-05-31 00:11:42] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182569466>=10485760
+[2023-05-31 00:11:42] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: nsj-multi-database-lib
+[2023-05-31 00:11:42] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 00:11:42] INFO root fetch - processPackages [cheminftools]: Downloading https://files.pythonhosted.org/packages/f9/b0/1f3da46b6a245dd6e8145c1fb711d0bde2d3274af3cce380c1ecb9b3587c/cheminftools-0.1.1.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [mkdocs-walt]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [mkdocs-walt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-walt-0.0.3.dev0.tar.gz tmp/mkdocs-walt-0.0.4.dev0.tar.gz --markdown 20230531/m/mkdocs-walt/0.0.3.dev0-0.0.4.dev0/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [cheminftools]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [cheminftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheminftools-0.1.tar.gz tmp/cheminftools-0.1.1.tar.gz --markdown 20230531/c/cheminftools/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [highway-env]: Downloading https://files.pythonhosted.org/packages/49/61/909bd6a8aa5b0fa2feb05eccd3a7b7906b5b47eb9936e6e7df19bb5eb144/highway-env-1.8.2.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/de/68/1c75cef780f637702228e0e3fa83f7bde45252e4710acced444256376e9e/python-selve-new-2.0.9.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230531/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/9d/55/40ffe916ae17d95525340d8f6290bc6b6218007c3b13d6063a5caa8a8be9/nsj_multi_database_lib-0.2.9.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/9d/55/40ffe916ae17d95525340d8f6290bc6b6218007c3b13d6063a5caa8a8be9/nsj_multi_database_lib-0.2.9.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [polyswarm]: Downloading https://files.pythonhosted.org/packages/a8/ec/4869c31eb63823eeb19145200d221772791a63bfea6697bec8224bcc6efa/polyswarm-3.2.1.tar.gz
+[2023-05-31 00:11:42] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_multi_database_lib-0.2.8.tar.gz tmp/nsj_multi_database_lib-0.2.9.tar.gz --markdown 20230531/n/nsj-multi-database-lib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [nsj-multi-database-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_multi_database_lib-0.2.8.tar.gz tmp/nsj_multi_database_lib-0.2.9.tar.gz --markdown 20230531/n/nsj-multi-database-lib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [highway-env]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [highway-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highway-env-1.8.1.tar.gz tmp/highway-env-1.8.2.tar.gz --markdown 20230531/h/highway-env/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-31 00:11:42] INFO root fetch - processPackages [polyswarm]: executing diffoscope
+[2023-05-31 00:11:42] INFO root fetch - processPackages [polyswarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyswarm-3.2.0.tar.gz tmp/polyswarm-3.2.1.tar.gz --markdown 20230531/p/polyswarm/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-31 00:11:44] INFO root fetch - processPackages [mkdocs-walt]: Start processing: talk-codebase
+[2023-05-31 00:11:44] INFO root fetch - main [MainThread]: End processing [mkdocs-walt]: success
+[2023-05-31 00:11:44] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-05-31 00:11:44] INFO root fetch - main [MainThread]: End processing [cheminftools]: success
+[2023-05-31 00:11:44] INFO root fetch - main [MainThread]: End processing [nsj-multi-database-lib]: success
+[2023-05-31 00:11:44] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-31 00:11:44] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/f0/47/7cccb5ccfbbf86601e4210dfbfca2e25518aeea2b8e9ab8495cf7302eeec/talk_codebase-0.1.28.tar.gz
+[2023-05-31 00:11:44] INFO root fetch - main [MainThread]: End processing [nsj-multi-database-lib]: success
+[2023-05-31 00:11:44] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-05-31 00:11:44] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.27.tar.gz tmp/talk_codebase-0.1.28.tar.gz --markdown 20230531/t/talk-codebase/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-05-31 00:11:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-31 00:11:45] INFO root fetch - main [MainThread]: End processing [polyswarm]: success
+[2023-05-31 00:11:45] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 00:11:45] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-05-31 00:11:46] INFO root fetch - main [MainThread]: End processing [highway-env]: success
+[2023-05-31 00:11:51] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-31 00:11:51] INFO root fetch - main [MainThread]: Store serial: [18308226]
