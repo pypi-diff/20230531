@@ -623,3 +623,41 @@
 [2023-05-31 01:01:48] INFO root fetch - main [MainThread]: End processing [panther-analysis-tool]: success
 [2023-05-31 01:01:48] INFO root fetch - main [MainThread]: End processing [celery-types]: success
 [2023-05-31 01:01:48] INFO root fetch - main [MainThread]: Store serial: [18308477]
+[2023-05-31 01:06:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308477]
+[2023-05-31 01:06:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slam-dataset-sdk
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fnattr
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powergenome
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-apex
+[2023-05-31 01:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wavinfo
+[2023-05-31 01:06:57] WARNING root fetch - processPackages [fnattr]: Skipping, unable to determine old version
+[2023-05-31 01:06:57] INFO root fetch - main [MainThread]: End processing [fnattr] error
+[2023-05-31 01:06:57] INFO root fetch - processPackages [slam-dataset-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 01:06:57] WARNING root fetch - processPackages [powergenome]: Skipping, unable to determine old version
+[2023-05-31 01:06:57] INFO root fetch - main [MainThread]: End processing [powergenome] error
+[2023-05-31 01:06:57] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230530] Old Version: [0.7.0b20230529]
+[2023-05-31 01:06:57] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230530] Old Version: [0.7.0b20230529]
+[2023-05-31 01:06:57] INFO root fetch - processPackages [wavinfo]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-31 01:06:57] WARNING root fetch - processPackages [fastapi-apex]: Skipping, unable to determine old version
+[2023-05-31 01:06:57] INFO root fetch - main [MainThread]: End processing [fastapi-apex] error
+[2023-05-31 01:06:57] INFO root fetch - processPackages [slam-dataset-sdk]: Downloading https://files.pythonhosted.org/packages/8e/c8/917cbdf2d6183a9d466953b363af8175ea54642a39d0a5f2e7bae2ba58d6/slam_dataset_sdk-0.0.1.tar.gz
+[2023-05-31 01:06:57] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/0b/49/e45265b2d94c3f187f8b15cffbb1947b90d460ede22eb5ce9abe75e8665c/tmnt-0.7.0b20230530.tar.gz
+[2023-05-31 01:06:57] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/09/d2/ed270387258fcecce910cf96bf11f3559e9336235e0a66b9b61f961ea364/tmnt-cu101-0.7.0b20230530.tar.gz
+[2023-05-31 01:06:57] INFO root fetch - processPackages [wavinfo]: Downloading https://files.pythonhosted.org/packages/9b/a8/e9f80a722d516558eba059dfb29f166af468594dd1edf52fad79b8fba736/wavinfo-2.2.0.tar.gz
+[2023-05-31 01:06:57] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-31 01:06:57] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230529.tar.gz tmp/tmnt-0.7.0b20230530.tar.gz --markdown 20230531/t/tmnt/0.7.0b20230529-0.7.0b20230530/diff.md --exclude *.pyd
+[2023-05-31 01:06:58] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-31 01:06:58] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230529.tar.gz tmp/tmnt-cu101-0.7.0b20230530.tar.gz --markdown 20230531/t/tmnt-cu101/0.7.0b20230529-0.7.0b20230530/diff.md --exclude *.pyd
+[2023-05-31 01:06:58] INFO root fetch - processPackages [slam-dataset-sdk]: Downloading https://files.pythonhosted.org/packages/47/2c/0a809da6f42bbea98d5b3a15263432eebfbb45adf41d00f70a284964364c/slam_dataset_sdk-0.0.2.tar.gz
+[2023-05-31 01:06:58] INFO root fetch - processPackages [wavinfo]: Downloading https://files.pythonhosted.org/packages/d6/bf/b3fd2088eb7ed36f8427200c15569b24ad18bb76d5f28df4b69b944c9824/wavinfo-2.2.1.tar.gz
+[2023-05-31 01:06:58] INFO root fetch - processPackages [slam-dataset-sdk]: executing diffoscope
+[2023-05-31 01:06:58] INFO root fetch - processPackages [slam-dataset-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slam_dataset_sdk-0.0.1.tar.gz tmp/slam_dataset_sdk-0.0.2.tar.gz --markdown 20230531/s/slam-dataset-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 01:06:58] INFO root fetch - processPackages [wavinfo]: executing diffoscope
+[2023-05-31 01:06:58] INFO root fetch - processPackages [wavinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavinfo-2.2.0.tar.gz tmp/wavinfo-2.2.1.tar.gz --markdown 20230531/w/wavinfo/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-31 01:06:59] INFO root fetch - main [MainThread]: End processing [wavinfo]: success
+[2023-05-31 01:06:59] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-31 01:06:59] INFO root fetch - main [MainThread]: End processing [slam-dataset-sdk]: success
+[2023-05-31 01:07:00] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-31 01:07:00] INFO root fetch - main [MainThread]: Store serial: [18308503]
