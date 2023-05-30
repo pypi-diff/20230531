@@ -750,3 +750,33 @@
 [2023-05-31 01:17:28] INFO root fetch - main [MainThread]: End processing [mlflow-aws-rds-iam]: success
 [2023-05-31 01:17:34] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-05-31 01:17:34] INFO root fetch - main [MainThread]: Store serial: [18308565]
+[2023-05-31 01:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308565]
+[2023-05-31 01:22:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 01:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epicscorelibs
+[2023-05-31 01:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-batch
+[2023-05-31 01:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-qchem
+[2023-05-31 01:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-qchem
+[2023-05-31 01:22:43] INFO root fetch - processPackages [auto-qchem]: New version: [1.2.0] Old Version: [0.1]
+[2023-05-31 01:22:43] INFO root fetch - processPackages [quick-batch]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 01:22:43] INFO root fetch - processPackages [auto-qchem]: New version: [1.2.0] Old Version: [0.1]
+[2023-05-31 01:22:43] INFO root fetch - processPackages [epicscorelibs]: New version: [7.0.7.99.0.1a1] Old Version: [7.0.7.99.0.0a1]
+[2023-05-31 01:22:43] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/2d/b0/0cef3aca3442fcc17c899e8a583c711eea04722812355bd6a78c8508609a/auto_qchem-0.1-py3.7.egg
+[2023-05-31 01:22:43] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/2d/b0/0cef3aca3442fcc17c899e8a583c711eea04722812355bd6a78c8508609a/auto_qchem-0.1-py3.7.egg
+[2023-05-31 01:22:43] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/53/ff/dba6b8085aba8f08c9593f802a1d12316665665cb9e9c770b1f40237b198/quick_batch-0.1.7.tar.gz
+[2023-05-31 01:22:43] INFO root fetch - processPackages [epicscorelibs]: Downloading https://files.pythonhosted.org/packages/7a/97/55d72c720f78dcb3a690ad5f15b746bdfae2da4190d6f404cc2d6bce3087/epicscorelibs-7.0.7.99.0.0a1.tar.gz
+[2023-05-31 01:22:43] INFO root fetch - processPackages [quick-batch]: executing diffoscope
+[2023-05-31 01:22:43] INFO root fetch - processPackages [quick-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_batch-0.1.6.tar.gz tmp/quick_batch-0.1.7.tar.gz --markdown 20230531/q/quick-batch/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 01:22:43] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/0d/23/e17728ceb899946dd3bf73d08d2a24e318878450b65473da1b0e263d04db/auto-qchem-1.2.0.tar.gz
+[2023-05-31 01:22:43] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/0d/23/e17728ceb899946dd3bf73d08d2a24e318878450b65473da1b0e263d04db/auto-qchem-1.2.0.tar.gz
+[2023-05-31 01:22:44] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2023-05-31 01:22:44] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_qchem-0.1-py3.7.egg tmp/auto-qchem-1.2.0.tar.gz --markdown 20230531/a/auto-qchem/0.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 01:22:44] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2023-05-31 01:22:44] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_qchem-0.1-py3.7.egg tmp/auto-qchem-1.2.0.tar.gz --markdown 20230531/a/auto-qchem/0.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 01:22:44] INFO root fetch - processPackages [epicscorelibs]: Downloading https://files.pythonhosted.org/packages/45/ab/f83b31fa688344fda736a439f797d9982b52dfa05a67cb04789e00cb902b/epicscorelibs-7.0.7.99.0.1a1.tar.gz
+[2023-05-31 01:22:44] INFO root fetch - processPackages [epicscorelibs]: executing diffoscope
+[2023-05-31 01:22:44] INFO root fetch - processPackages [epicscorelibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epicscorelibs-7.0.7.99.0.0a1.tar.gz tmp/epicscorelibs-7.0.7.99.0.1a1.tar.gz --markdown 20230531/e/epicscorelibs/7.0.7.99.0.0a1-7.0.7.99.0.1a1/diff.md --exclude *.pyd
+[2023-05-31 01:22:44] INFO root fetch - main [MainThread]: End processing [quick-batch]: success
+[2023-05-31 01:22:45] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2023-05-31 01:23:00] INFO root fetch - main [MainThread]: End processing [epicscorelibs]: success
+[2023-05-31 01:23:35] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2023-05-31 01:23:35] INFO root fetch - main [MainThread]: Store serial: [18308595]
