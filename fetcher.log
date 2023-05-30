@@ -546,3 +546,41 @@
 [2023-05-31 00:44:14] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
 [2023-05-31 00:46:11] INFO root fetch - main [MainThread]: End processing [kangas]: success
 [2023-05-31 00:46:11] INFO root fetch - main [MainThread]: Store serial: [18308434]
+[2023-05-31 00:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308434]
+[2023-05-31 00:51:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: random-math-rmaiaaaa
+[2023-05-31 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miniscutil
+[2023-05-31 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zeph1rr-fastapi-utils
+[2023-05-31 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-selve-new
+[2023-05-31 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-picking-product-barcode-report
+[2023-05-31 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poe-api
+[2023-05-31 00:51:20] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-31 00:51:20] INFO root fetch - processPackages [random-math-rmaiaaaa]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-31 00:51:20] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 00:51:20] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: New version: [15.0.2.0.0] Old Version: [15.0.1.1.0.1]
+[2023-05-31 00:51:20] INFO root fetch - processPackages [miniscutil]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 00:51:20] INFO root fetch - processPackages [poe-api]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-31 00:51:20] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-05-31 00:51:20] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.0-py3-none-any.whl.zip tmp/poe_api-0.4.1-py3-none-any.whl.zip --markdown 20230531/p/poe-api/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-31 00:51:20] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 00:51:20] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 00:51:20] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/c8/64/18a86de8b57dc34612d1fe19fd5f6e19e078d2b22e505716471617a7c67d/zeph1rr_fastapi_utils-1.0.0.tar.gz
+[2023-05-31 00:51:21] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/a9/d6/3fd48463e89abf662d0b7b0f89b977beaa3ff5dbed3c0fe0734d35b82f62/miniscutil-0.2.3.tar.gz
+[2023-05-31 00:51:21] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/0b/62/c4060513c86d27cd1b3683d7af685eb6232756fa1c2f9c8996015426c8a2/odoo_addon_stock_picking_product_barcode_report-15.0.1.1.0.1-py3-none-any.whl
+[2023-05-31 00:51:21] INFO root fetch - processPackages [random-math-rmaiaaaa]: Downloading https://files.pythonhosted.org/packages/96/88/796d7d5d15b5c1f22c5951317042c29181d1e6dd7a8bda44426c039b03ed/random_math_rmaiaaaa-1.2.0.tar.gz
+[2023-05-31 00:51:21] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: executing diffoscope
+[2023-05-31 00:51:21] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeph1rr_fastapi_utils-0.2.0.tar.gz tmp/zeph1rr_fastapi_utils-1.0.0.tar.gz --markdown 20230531/z/zeph1rr-fastapi-utils/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 00:51:21] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-05-31 00:51:21] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.2.tar.gz tmp/miniscutil-0.2.3.tar.gz --markdown 20230531/m/miniscutil/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 00:51:21] INFO root fetch - processPackages [random-math-rmaiaaaa]: executing diffoscope
+[2023-05-31 00:51:21] INFO root fetch - processPackages [random-math-rmaiaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_math_rmaiaaaa-1.1.0.tar.gz tmp/random_math_rmaiaaaa-1.2.0.tar.gz --markdown 20230531/r/random-math-rmaiaaaa/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 00:51:21] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/db/b1/85f24f0e7da5e32c9752f6466f834007298033df52e4dbc73d0a847dff88/odoo_addon_stock_picking_product_barcode_report-15.0.2.0.0-py3-none-any.whl
+[2023-05-31 00:51:21] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: executing diffoscope
+[2023-05-31 00:51:21] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_product_barcode_report-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_product_barcode_report-15.0.2.0.0-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-stock-picking-product-barcode-report/15.0.1.1.0.1-15.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [zeph1rr-fastapi-utils]: success
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-barcode-report]: success
+[2023-05-31 00:51:22] INFO root fetch - main [MainThread]: Store serial: [18308451]
