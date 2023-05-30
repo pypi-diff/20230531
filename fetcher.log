@@ -661,3 +661,53 @@
 [2023-05-31 01:06:59] INFO root fetch - main [MainThread]: End processing [slam-dataset-sdk]: success
 [2023-05-31 01:07:00] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
 [2023-05-31 01:07:00] INFO root fetch - main [MainThread]: Store serial: [18308503]
+[2023-05-31 01:12:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308503]
+[2023-05-31 01:12:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reg-tables
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topoly
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyBIA
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-python
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BatteryRateCap
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webdns
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctransformers
+[2023-05-31 01:12:08] INFO root fetch - processPackages [pyBIA]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-31 01:12:08] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 01:12:08] INFO root fetch - processPackages [webdns]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 01:12:08] WARNING root fetch - processPackages [BatteryRateCap]: Skipping, unable to determine old version
+[2023-05-31 01:12:08] INFO root fetch - main [MainThread]: End processing [BatteryRateCap] error
+[2023-05-31 01:12:08] INFO root fetch - processPackages [mercury-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 01:12:08] INFO root fetch - processPackages [topoly]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 01:12:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.342] Old Version: [0.3.341]
+[2023-05-31 01:12:08] INFO root fetch - processPackages [ctransformers]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 01:12:08] INFO root fetch - processPackages [pyBIA]: Downloading https://files.pythonhosted.org/packages/3d/7f/d531d4b3573da02973cb6664f338ff778d4c7244231b5e8735d4bf8aa020/pyBIA-1.3.2.tar.gz
+[2023-05-31 01:12:08] INFO root fetch - processPackages [webdns]: Downloading https://files.pythonhosted.org/packages/03/76/1719a69551ded49f3454beaffb612725223810bccc5cc18d956c6fd500aa/webdns-0.0.8.tar.gz
+[2023-05-31 01:12:09] INFO root fetch - processPackages [mercury-python]: Downloading https://files.pythonhosted.org/packages/c6/c2/abc1fd629c2666583558643ca4d281e1c59dd229f0fcc6758574145bc35b/mercury_python-0.1.2-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2023-05-31 01:12:09] INFO root fetch - processPackages [topoly]: Downloading https://files.pythonhosted.org/packages/40/25/6fde4ed633ff34a5d25027e7f122aef26714a327ba212b6e44598e7939aa/topoly-1.0.1-cp39-cp39-win_amd64.whl
+[2023-05-31 01:12:09] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/24/67/20f4cf2980a1748da87bb06403b79de86492142fdc2bd25d52a6262dba96/reg_tables-0.1.8.tar.gz
+[2023-05-31 01:12:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1d/42/08b0c63e219815067f5d696084291e38a7771808e5bcfd1d91075a18059c/pepperize.cdk-ses-smtp-credentials-0.3.342.tar.gz
+[2023-05-31 01:12:09] WARNING root fetch - processPackages [topoly]: Skipping package: exceeds size limit 12819063>=10485760
+[2023-05-31 01:12:09] INFO root fetch - main [MainThread]: End processing [topoly] error
+[2023-05-31 01:12:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-31 01:12:09] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.341.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.342.tar.gz --markdown 20230531/p/pepperize.cdk-ses-smtp-credentials/0.3.341-0.3.342/diff.md --exclude *.pyd
+[2023-05-31 01:12:09] INFO root fetch - processPackages [mercury-python]: executing diffoscope
+[2023-05-31 01:12:09] INFO root fetch - processPackages [mercury-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_python-0.1.1-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip tmp/mercury_python-0.1.2-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip --markdown 20230531/m/mercury-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 01:12:09] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/84/3f/05517b921f40e9b52f5c1edfd22f5dce933ee780313f7815a67262626a8f/ctransformers-0.2.3.tar.gz
+[2023-05-31 01:12:09] INFO root fetch - processPackages [webdns]: Downloading https://files.pythonhosted.org/packages/45/62/295df4938815da6e40fc341d76d5299015c82a128b312549ae037072e77a/webdns-0.0.9.tar.gz
+[2023-05-31 01:12:09] INFO root fetch - processPackages [webdns]: executing diffoscope
+[2023-05-31 01:12:09] INFO root fetch - processPackages [webdns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdns-0.0.8.tar.gz tmp/webdns-0.0.9.tar.gz --markdown 20230531/w/webdns/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 01:12:09] INFO root fetch - processPackages [pyBIA]: Downloading https://files.pythonhosted.org/packages/78/4c/43067d3e3b2eb192a185d221eef6e6879464555f3da26a524a916ea43a7f/pyBIA-1.3.3.tar.gz
+[2023-05-31 01:12:09] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-05-31 01:12:09] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.2.tar.gz tmp/ctransformers-0.2.3.tar.gz --markdown 20230531/c/ctransformers/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 01:12:09] INFO root fetch - processPackages [pyBIA]: executing diffoscope
+[2023-05-31 01:12:09] INFO root fetch - processPackages [pyBIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBIA-1.3.2.tar.gz tmp/pyBIA-1.3.3.tar.gz --markdown 20230531/p/pyBIA/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-31 01:12:09] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/60/cb/8303c5aa17a1545671283f1ee1f4bef8b73de1d8178d27afa612d9ed415c/reg_tables-0.1.9.tar.gz
+[2023-05-31 01:12:09] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-05-31 01:12:09] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230531/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 01:12:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-31 01:12:10] INFO root fetch - main [MainThread]: End processing [webdns]: success
+[2023-05-31 01:12:10] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-05-31 01:12:10] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-05-31 01:12:10] INFO root fetch - main [MainThread]: End processing [pyBIA]: success
+[2023-05-31 01:12:16] INFO root fetch - main [MainThread]: End processing [mercury-python]: success
+[2023-05-31 01:12:16] INFO root fetch - main [MainThread]: Store serial: [18308541]
