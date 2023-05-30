@@ -1016,3 +1016,46 @@
 [2023-05-31 01:44:59] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-05-31 01:44:59] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-05-31 01:44:59] INFO root fetch - main [MainThread]: Store serial: [18308738]
+[2023-05-31 01:50:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308738]
+[2023-05-31 01:50:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-notifications-hq
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suxarray
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hmc-mir
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chao-par
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-braket-sdk
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qworker
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ibcdfo
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-selve-new
+[2023-05-31 01:50:08] INFO root fetch - processPackages [hmc-mir]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 01:50:08] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 01:50:08] INFO root fetch - processPackages [suxarray]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 01:50:08] INFO root fetch - processPackages [django-notifications-hq]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-31 01:50:08] WARNING root fetch - processPackages [chao-par]: Skipping, unable to determine old version
+[2023-05-31 01:50:08] INFO root fetch - main [MainThread]: End processing [chao-par] error
+[2023-05-31 01:50:08] INFO root fetch - processPackages [qworker]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-05-31 01:50:08] INFO root fetch - processPackages [ibcdfo]: New version: [1.0.0b1] Old Version: [0.0.1]
+[2023-05-31 01:50:08] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2023-05-31 01:50:08] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 01:50:08] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 01:50:08] ERROR root fetch - processPackages [ibcdfo]: Unable to fetch info: No such project/version 'ibcdfo' 0.0.1
+[2023-05-31 01:50:08] INFO root fetch - main [MainThread]: End processing [ibcdfo] error
+[2023-05-31 01:50:08] INFO root fetch - processPackages [suxarray]: Downloading https://files.pythonhosted.org/packages/6e/9b/d594af4729e30970ec0300b1277d25fe20ab0891a4c363f0e503bf87602e/suxarray-0.1.2.tar.gz
+[2023-05-31 01:50:08] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/04/81/441dcd7511ad74314049af30eafef391969ccd11fcc4cde1b4b463c298b6/qworker-1.7.6-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 01:50:08] INFO root fetch - processPackages [hmc-mir]: Downloading https://files.pythonhosted.org/packages/13/c7/4a39cf589d7bf18c583c4810916b4b2c24f227ab4845998d4783dcaf4e42/hmc_mir-0.1.1.tar.gz
+[2023-05-31 01:50:08] WARNING root fetch - processPackages [suxarray]: Skipping package: exceeds size limit 27181311>=10485760
+[2023-05-31 01:50:08] INFO root fetch - main [MainThread]: End processing [suxarray] error
+[2023-05-31 01:50:08] INFO root fetch - processPackages [django-notifications-hq]: Downloading https://files.pythonhosted.org/packages/ce/75/bbee88b83323a880d9635e1fc1933c35b7fde79282e5c97287fe3a5129f6/django-notifications-hq-1.8.1.tar.gz
+[2023-05-31 01:50:08] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-05-31 01:50:08] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.7.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.7.6-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230531/q/qworker/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-05-31 01:50:08] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2023-05-31 01:50:08] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20230531/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2023-05-31 01:50:08] INFO root fetch - processPackages [django-notifications-hq]: executing diffoscope
+[2023-05-31 01:50:08] INFO root fetch - processPackages [django-notifications-hq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-notifications-hq-1.8.0.tar.gz tmp/django-notifications-hq-1.8.1.tar.gz --markdown 20230531/d/django-notifications-hq/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-31 01:50:08] INFO root fetch - processPackages [hmc-mir]: executing diffoscope
+[2023-05-31 01:50:08] INFO root fetch - processPackages [hmc-mir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmc_mir-0.1.0.tar.gz tmp/hmc_mir-0.1.1.tar.gz --markdown 20230531/h/hmc-mir/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 01:50:09] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 01:50:09] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-05-31 01:50:09] INFO root fetch - main [MainThread]: End processing [hmc-mir]: success
+[2023-05-31 01:50:10] INFO root fetch - main [MainThread]: End processing [django-notifications-hq]: success
+[2023-05-31 01:50:10] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2023-05-31 01:50:10] INFO root fetch - main [MainThread]: Store serial: [18308765]
