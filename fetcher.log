@@ -427,3 +427,54 @@
 [2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [rsp-jupyter-extensions]: success
 [2023-05-31 00:32:51] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
 [2023-05-31 00:32:51] INFO root fetch - main [MainThread]: Store serial: [18308377]
+[2023-05-31 00:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308377]
+[2023-05-31 00:38:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wicker
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erdi8
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zeph1rr-fastapi-utils
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typegraph-std
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lp-ap-tools
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hive-archeology-bot
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-vendor-promo
+[2023-05-31 00:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weni-rp-apps
+[2023-05-31 00:38:00] INFO root fetch - processPackages [django-vendor-promo]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-31 00:38:00] INFO root fetch - processPackages [wicker]: New version: [0.0.5a0] Old Version: [0.0.4b0]
+[2023-05-31 00:38:00] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 00:38:00] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.2a6] Old Version: [2.4.2a5]
+[2023-05-31 00:38:00] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 00:38:00] WARNING root fetch - processPackages [typegraph-std]: Skipping, unable to determine old version
+[2023-05-31 00:38:00] INFO root fetch - processPackages [erdi8]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 00:38:00] INFO root fetch - main [MainThread]: End processing [typegraph-std] error
+[2023-05-31 00:38:00] INFO root fetch - processPackages [hive-archeology-bot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 00:38:00] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.2a5.tar.gz tmp/weni_rp_apps-2.4.2a6.tar.gz --markdown 20230531/w/weni-rp-apps/2.4.2a5-2.4.2a6/diff.md --exclude *.pyd
+[2023-05-31 00:38:00] INFO root fetch - processPackages [wicker]: Downloading https://files.pythonhosted.org/packages/80/7f/84f853395093177eabedf22007661e89669115af895b426de9779d56e416/wicker-0.0.4b0.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/eb/00/e1cdca7d8327ccb15b23bad76c08cbf6a566261928278d94fa9698ce55d2/lp_ap_tools-0.1.2-py3-none-any.whl
+[2023-05-31 00:38:00] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/80/ab/47b959ffb939c931537da6f09fc52b4d7a966441b77084dc9988b84176ad/zeph1rr_fastapi_utils-0.1.0.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [erdi8]: Downloading https://files.pythonhosted.org/packages/6e/74/c4364cb979b5d929631fb8ba61f678c181b42ed14682e11b4a1771613877/erdi8-0.2.0.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [hive-archeology-bot]: Downloading https://files.pythonhosted.org/packages/5b/61/c07e0dbce5370ca5c0e981add28110120452821f9957e01453d7380924ee/hive-archeology-bot-0.1.6.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [django-vendor-promo]: Downloading https://files.pythonhosted.org/packages/7a/f6/47ad5f3da9800326c5e4ea29d32ac3fc7f5590198ae02ed4e0ddf7e72faa/django-vendor-promo-0.2.4.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [hive-archeology-bot]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [hive-archeology-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-archeology-bot-0.1.5.tar.gz tmp/hive-archeology-bot-0.1.6.tar.gz --markdown 20230531/h/hive-archeology-bot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 00:38:00] INFO root fetch - processPackages [wicker]: Downloading https://files.pythonhosted.org/packages/ed/2f/3aa5e1a26a2e102dee2e64bb4dd6ed1611889c71e904ad3cd803f53507a7/wicker-0.0.5a0.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/74/a7/07c68247e840b3e2237224b58f221602d79938ce6345b09f30fa483bb1ef/lp_ap_tools-0.1.3-py3-none-any.whl
+[2023-05-31 00:38:00] INFO root fetch - processPackages [django-vendor-promo]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [django-vendor-promo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vendor-promo-0.2.3.tar.gz tmp/django-vendor-promo-0.2.4.tar.gz --markdown 20230531/d/django-vendor-promo/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-31 00:38:00] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/33/bd/cacae1cc6f1f11fadb70a10a14621e8e872e8064e8400b92480f8da79144/zeph1rr_fastapi_utils-0.2.0.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.2-py3-none-any.whl.zip tmp/lp_ap_tools-0.1.3-py3-none-any.whl.zip --markdown 20230531/l/lp-ap-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 00:38:00] INFO root fetch - processPackages [wicker]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [wicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicker-0.0.4b0.tar.gz tmp/wicker-0.0.5a0.tar.gz --markdown 20230531/w/wicker/0.0.4b0-0.0.5a0/diff.md --exclude *.pyd
+[2023-05-31 00:38:00] INFO root fetch - processPackages [erdi8]: Downloading https://files.pythonhosted.org/packages/0f/46/9a340a5cb1407f7f4116e4debbb0b4cbabbe464c323253cebcf08c500ce5/erdi8-0.3.0.tar.gz
+[2023-05-31 00:38:00] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeph1rr_fastapi_utils-0.1.0.tar.gz tmp/zeph1rr_fastapi_utils-0.2.0.tar.gz --markdown 20230531/z/zeph1rr-fastapi-utils/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 00:38:00] INFO root fetch - processPackages [erdi8]: executing diffoscope
+[2023-05-31 00:38:00] INFO root fetch - processPackages [erdi8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdi8-0.2.0.tar.gz tmp/erdi8-0.3.0.tar.gz --markdown 20230531/e/erdi8/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 00:38:01] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-05-31 00:38:01] INFO root fetch - main [MainThread]: End processing [hive-archeology-bot]: success
+[2023-05-31 00:38:02] INFO root fetch - main [MainThread]: End processing [zeph1rr-fastapi-utils]: success
+[2023-05-31 00:38:02] INFO root fetch - main [MainThread]: End processing [erdi8]: success
+[2023-05-31 00:38:02] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-31 00:38:03] INFO root fetch - main [MainThread]: End processing [django-vendor-promo]: success
+[2023-05-31 00:38:56] INFO root fetch - main [MainThread]: End processing [wicker]: success
+[2023-05-31 00:38:56] INFO root fetch - main [MainThread]: Store serial: [18308402]
