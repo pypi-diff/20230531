@@ -180,3 +180,74 @@
 [2023-05-31 00:11:46] INFO root fetch - main [MainThread]: End processing [highway-env]: success
 [2023-05-31 00:11:51] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-31 00:11:51] INFO root fetch - main [MainThread]: Store serial: [18308226]
+[2023-05-31 00:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308226]
+[2023-05-31 00:17:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cookie-consent
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: networkx-query
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-vendor
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapi-packaging-tutorial
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opvious
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bifurc2midi
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cheminftools
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-dinkum-listener
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nautobot
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taisim
+[2023-05-31 00:17:02] INFO root fetch - processPackages [cheminftools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [networkx-query]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [django-cookie-consent]: New version: [0.4.0.dev0] Old Version: [0.3.1]
+[2023-05-31 00:17:02] WARNING root fetch - processPackages [bifurc2midi]: Skipping, unable to determine old version
+[2023-05-31 00:17:02] INFO root fetch - processPackages [bifurc2midi]: Start processing: pulpcore
+[2023-05-31 00:17:02] INFO root fetch - main [MainThread]: End processing [bifurc2midi] error
+[2023-05-31 00:17:02] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 00:17:02] WARNING root fetch - processPackages [mapi-packaging-tutorial]: Skipping, unable to determine old version
+[2023-05-31 00:17:02] INFO root fetch - processPackages [taisim]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [mapi-packaging-tutorial]: Start processing: pulpcore-client
+[2023-05-31 00:17:02] INFO root fetch - main [MainThread]: End processing [mapi-packaging-tutorial] error
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [nautobot]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [django-vendor]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-31 00:17:02] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-31 00:17:02] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230531/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-31 00:17:02] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230531/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 00:17:02] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-31 00:17:02] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230531/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-31 00:17:02] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-31 00:17:02] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230531/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-31 00:17:02] INFO root fetch - processPackages [django-cookie-consent]: Downloading https://files.pythonhosted.org/packages/c0/0a/1d658c0129d7283c671b62cc2d6e084667b70b496716686ff0271418f752/django-cookie-consent-0.3.1.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [cheminftools]: Downloading https://files.pythonhosted.org/packages/cb/f2/282801729f5cf9f54358a57835d9f97de8b2cae773ccff3a8da224552853/cheminftools-0.1.2.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [django-vendor]: Downloading https://files.pythonhosted.org/packages/3c/2e/11dfc07fb9e84e26f0a524bd71443ae4fb765ea44ed400df364c9a75c276/django-vendor-0.4.2.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [networkx-query]: Downloading https://files.pythonhosted.org/packages/d9/b5/a94aed43788b770587039e8e7d7eca4f6bc5d5c7e6e4f70923d47fd1fc94/networkx_query-1.0.2.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [taisim]: Downloading https://files.pythonhosted.org/packages/ef/31/2bcd8cb9f659cdb67d3bc1d038e123d0902cb2446689352ada0a712a8343/taisim-0.0.1.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/59/83/30d3200ba3d4394379c1335ba986f2a80c46d6fbdee3085b00f2896088a6/nautobot-2.0.0a2.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [cheminftools]: executing diffoscope
+[2023-05-31 00:17:02] INFO root fetch - processPackages [cheminftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheminftools-0.1.1.tar.gz tmp/cheminftools-0.1.2.tar.gz --markdown 20230531/c/cheminftools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 00:17:02] INFO root fetch - processPackages [django-cookie-consent]: Downloading https://files.pythonhosted.org/packages/dd/b1/b4673868d5e3c61c6c296c7bacef0a3e7bff6fb3e26198d4159a6b6641ba/django-cookie-consent-0.4.0.dev0.tar.gz
+[2023-05-31 00:17:02] INFO root fetch - processPackages [networkx-query]: Downloading https://files.pythonhosted.org/packages/fe/fb/a0bb1fdc1cb8d7820bf483b4517cc34c7a0eb0dbdab4d51a087700b9e23a/networkx_query-1.0.3.tar.gz
+[2023-05-31 00:17:03] INFO root fetch - processPackages [taisim]: Downloading https://files.pythonhosted.org/packages/8a/46/2e48b149e32111b18c2ad988c0833988c11d2b788d516a30d2a3f503283a/taisim-0.0.2.tar.gz
+[2023-05-31 00:17:03] INFO root fetch - processPackages [django-vendor]: Downloading https://files.pythonhosted.org/packages/c9/a6/f32d595c1f2aaf714bc66dd4a6dcbf1e2a304e26c82b9136b743b21e7b63/django-vendor-0.4.3.tar.gz
+[2023-05-31 00:17:03] INFO root fetch - processPackages [django-cookie-consent]: executing diffoscope
+[2023-05-31 00:17:03] INFO root fetch - processPackages [django-cookie-consent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cookie-consent-0.3.1.tar.gz tmp/django-cookie-consent-0.4.0.dev0.tar.gz --markdown 20230531/d/django-cookie-consent/0.3.1-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-05-31 00:17:03] INFO root fetch - processPackages [networkx-query]: executing diffoscope
+[2023-05-31 00:17:03] INFO root fetch - processPackages [networkx-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkx_query-1.0.2.tar.gz tmp/networkx_query-1.0.3.tar.gz --markdown 20230531/n/networkx-query/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 00:17:03] INFO root fetch - processPackages [django-vendor]: executing diffoscope
+[2023-05-31 00:17:03] INFO root fetch - processPackages [django-vendor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vendor-0.4.2.tar.gz tmp/django-vendor-0.4.3.tar.gz --markdown 20230531/d/django-vendor/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-31 00:17:03] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 86772048>=10485760
+[2023-05-31 00:17:03] INFO root fetch - processPackages [nautobot]: Start processing: abstract-security-test
+[2023-05-31 00:17:03] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2023-05-31 00:17:03] INFO root fetch - processPackages [taisim]: executing diffoscope
+[2023-05-31 00:17:03] INFO root fetch - processPackages [taisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taisim-0.0.1.tar.gz tmp/taisim-0.0.2.tar.gz --markdown 20230531/t/taisim/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 00:17:03] WARNING root fetch - processPackages [abstract-security-test]: Skipping, unable to determine old version
+[2023-05-31 00:17:03] INFO root fetch - main [MainThread]: End processing [abstract-security-test] error
+[2023-05-31 00:17:03] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-31 00:17:04] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-31 00:17:04] INFO root fetch - main [MainThread]: End processing [cheminftools]: success
+[2023-05-31 00:17:04] INFO root fetch - main [MainThread]: End processing [taisim]: success
+[2023-05-31 00:17:04] INFO root fetch - main [MainThread]: End processing [networkx-query]: success
+[2023-05-31 00:17:04] INFO root fetch - main [MainThread]: End processing [django-cookie-consent]: success
+[2023-05-31 00:17:04] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-31 00:17:05] INFO root fetch - main [MainThread]: End processing [django-vendor]: success
+[2023-05-31 00:17:06] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-31 00:17:06] INFO root fetch - main [MainThread]: Store serial: [18308269]
