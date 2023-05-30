@@ -584,3 +584,17 @@
 [2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [random-math-rmaiaaaa]: success
 [2023-05-31 00:51:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-barcode-report]: success
 [2023-05-31 00:51:22] INFO root fetch - main [MainThread]: Store serial: [18308451]
+[2023-05-31 00:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308451]
+[2023-05-31 00:56:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-31 00:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdshoplib
+[2023-05-31 00:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-05-31 00:56:31] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-31 00:56:31] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230530225455] Old Version: [2.1.1.dev20230530170810]
+[2023-05-31 00:56:31] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-05-31 00:56:31] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230531/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 00:56:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3d/72/6a5291d2623192302fa4dd5403bc0ec115a2c10cf6f61a03f69fcf772277/localstack-core-2.1.1.dev20230530225455.tar.gz
+[2023-05-31 00:56:31] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-31 00:56:31] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230530170810.tar.gz tmp/localstack-core-2.1.1.dev20230530225455.tar.gz --markdown 20230531/l/localstack-core/2.1.1.dev20230530170810-2.1.1.dev20230530225455/diff.md --exclude *.pyd
+[2023-05-31 00:56:32] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-05-31 00:56:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-31 00:56:38] INFO root fetch - main [MainThread]: Store serial: [18308457]
