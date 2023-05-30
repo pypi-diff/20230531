@@ -330,3 +330,45 @@
 [2023-05-31 00:22:18] INFO root fetch - main [MainThread]: End processing [deeplabcut]: success
 [2023-05-31 00:22:27] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-31 00:22:27] INFO root fetch - main [MainThread]: Store serial: [18308311]
+[2023-05-31 00:27:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308311]
+[2023-05-31 00:27:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 00:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: urlopen2
+[2023-05-31 00:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gisting
+[2023-05-31 00:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygamal
+[2023-05-31 00:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-tetris-stats
+[2023-05-31 00:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: greeneye-monitor
+[2023-05-31 00:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydndc
+[2023-05-31 00:27:35] INFO root fetch - processPackages [urlopen2]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-31 00:27:35] INFO root fetch - processPackages [greeneye-monitor]: New version: [4.0] Old Version: [3.0.3]
+[2023-05-31 00:27:35] INFO root fetch - processPackages [pygamal]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-31 00:27:35] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [0.4.1] Old Version: [0.4.0.post1]
+[2023-05-31 00:27:35] INFO root fetch - processPackages [gisting]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-31 00:27:36] INFO root fetch - processPackages [pydndc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 00:27:36] INFO root fetch - processPackages [greeneye-monitor]: Downloading https://files.pythonhosted.org/packages/36/0f/cb158f7032330d0811deb21bd7a899a59f851d3431801c68225d6fee546f/greeneye_monitor-3.0.3-py3-none-any.whl
+[2023-05-31 00:27:36] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/a3/d6/d67b9aad6098cb949dd078921e390b9953dc77144fd1457ef4662cb086e4/nonebot_plugin_tetris_stats-0.4.0.post1.tar.gz
+[2023-05-31 00:27:36] INFO root fetch - processPackages [pydndc]: Downloading https://files.pythonhosted.org/packages/7b/95/8a66c3117f1fc34ac78cc7c2f9287078fdf39b01e29dd070e1af1d43a9fe/pydndc-1.0.1-cp39-cp39-win_amd64.whl
+[2023-05-31 00:27:36] INFO root fetch - processPackages [gisting]: Downloading https://files.pythonhosted.org/packages/e0/e2/4eba64d0dcd0b268b88928b7e58033c0a27be63e9c146da257ce081c0840/gisting-1.3.7.tar.gz
+[2023-05-31 00:27:36] INFO root fetch - processPackages [pygamal]: Downloading https://files.pythonhosted.org/packages/23/ab/166aed0f558a170629741e1503cd60014bd05dff303d9343fabd9fb01f5d/pygamal-1.0.8.tar.gz
+[2023-05-31 00:27:36] INFO root fetch - processPackages [urlopen2]: Downloading https://files.pythonhosted.org/packages/f2/65/67f1e9ee2eb434ab5da725324d43da73411e89b9a618967c365e74e34a9d/urlopen2-1.1.0.tar.gz
+[2023-05-31 00:27:36] INFO root fetch - processPackages [gisting]: executing diffoscope
+[2023-05-31 00:27:36] INFO root fetch - processPackages [gisting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gisting-1.3.6.tar.gz tmp/gisting-1.3.7.tar.gz --markdown 20230531/g/gisting/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-31 00:27:36] INFO root fetch - processPackages [pygamal]: executing diffoscope
+[2023-05-31 00:27:36] INFO root fetch - processPackages [pygamal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygamal-1.0.7.tar.gz tmp/pygamal-1.0.8.tar.gz --markdown 20230531/p/pygamal/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-31 00:27:36] INFO root fetch - processPackages [greeneye-monitor]: Downloading https://files.pythonhosted.org/packages/f3/88/1ebdfbb031826fa4ec32a75ed2dab67398680a645d5cc8d4e5dfbde76e0d/greeneye_monitor-4.0-py3-none-any.whl
+[2023-05-31 00:27:36] INFO root fetch - processPackages [urlopen2]: executing diffoscope
+[2023-05-31 00:27:36] INFO root fetch - processPackages [urlopen2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlopen2-1.0.1.tar.gz tmp/urlopen2-1.1.0.tar.gz --markdown 20230531/u/urlopen2/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 00:27:36] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/63/08/db103bb238bf4e927374c585c3ba2eb5d770c31f54ba86d6172c1d75dd93/nonebot_plugin_tetris_stats-0.4.1.tar.gz
+[2023-05-31 00:27:36] INFO root fetch - processPackages [greeneye-monitor]: executing diffoscope
+[2023-05-31 00:27:36] INFO root fetch - processPackages [greeneye-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greeneye_monitor-3.0.3-py3-none-any.whl.zip tmp/greeneye_monitor-4.0-py3-none-any.whl.zip --markdown 20230531/g/greeneye-monitor/3.0.3-4.0/diff.md --exclude *.pyd
+[2023-05-31 00:27:36] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2023-05-31 00:27:36] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-0.4.0.post1.tar.gz tmp/nonebot_plugin_tetris_stats-0.4.1.tar.gz --markdown 20230531/n/nonebot-plugin-tetris-stats/0.4.0.post1-0.4.1/diff.md --exclude *.pyd
+[2023-05-31 00:27:36] INFO root fetch - processPackages [pydndc]: Downloading https://files.pythonhosted.org/packages/3a/ab/3d03f8243dfe7fd60edf367bcae75e74f3d600fc61df2a0c5ee65f00105a/pydndc-1.0.2-cp39-cp39-macosx_10_9_universal2.whl
+[2023-05-31 00:27:37] INFO root fetch - main [MainThread]: End processing [gisting]: success
+[2023-05-31 00:27:37] INFO root fetch - main [MainThread]: End processing [greeneye-monitor]: success
+[2023-05-31 00:27:37] INFO root fetch - main [MainThread]: End processing [pygamal]: success
+[2023-05-31 00:27:37] INFO root fetch - main [MainThread]: End processing [urlopen2]: success
+[2023-05-31 00:27:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2023-05-31 00:27:38] INFO root fetch - processPackages [pydndc]: executing diffoscope
+[2023-05-31 00:27:38] INFO root fetch - processPackages [pydndc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydndc-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/pydndc-1.0.2-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20230531/p/pydndc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 00:27:39] INFO root fetch - main [MainThread]: End processing [pydndc]: success
+[2023-05-31 00:27:39] INFO root fetch - main [MainThread]: Store serial: [18308343]
