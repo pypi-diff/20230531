@@ -372,3 +372,58 @@
 [2023-05-31 00:27:38] INFO root fetch - processPackages [pydndc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydndc-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/pydndc-1.0.2-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20230531/p/pydndc/1.0.1-1.0.2/diff.md --exclude *.pyd
 [2023-05-31 00:27:39] INFO root fetch - main [MainThread]: End processing [pydndc]: success
 [2023-05-31 00:27:39] INFO root fetch - main [MainThread]: Store serial: [18308343]
+[2023-05-31 00:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308343]
+[2023-05-31 00:32:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-llm
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdlib
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hordelib
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hive-archeology-bot
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitbetter
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autobean-format
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jackass
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rsp-jupyter-extensions
+[2023-05-31 00:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lp-ap-tools
+[2023-05-31 00:32:47] INFO root fetch - processPackages [hdlib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [gitbetter]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [hive-archeology-bot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 00:32:47] WARNING root fetch - processPackages [jackass]: Skipping, unable to determine old version
+[2023-05-31 00:32:47] INFO root fetch - main [MainThread]: End processing [jackass] error
+[2023-05-31 00:32:47] INFO root fetch - processPackages [hordelib]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [git-llm]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [autobean-format]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/aa/58/2d094bcf9be9087e7fe69dc16b5c5797b84d4269bad6f5b2979582c605f3/hordelib-1.3.8.tar.gz
+[2023-05-31 00:32:47] INFO root fetch - processPackages [rsp-jupyter-extensions]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-31 00:32:47] INFO root fetch - processPackages [hdlib]: Downloading https://files.pythonhosted.org/packages/fd/76/8bbe168bc9e08445b76809940dd2735d77cd63d0827ca668c21659ae740d/hdlib-0.1.0.tar.gz
+[2023-05-31 00:32:47] WARNING root fetch - processPackages [hordelib]: Skipping package: exceeds size limit 52357531>=10485760
+[2023-05-31 00:32:47] INFO root fetch - main [MainThread]: End processing [hordelib] error
+[2023-05-31 00:32:47] INFO root fetch - processPackages [autobean-format]: Downloading https://files.pythonhosted.org/packages/0f/14/1a399627a84b630b640cc815143f2282d505798b569b22e30bc2f85264e2/autobean-format-0.1.3.tar.gz
+[2023-05-31 00:32:47] INFO root fetch - processPackages [git-llm]: Downloading https://files.pythonhosted.org/packages/85/a1/8ff12c32df1031d4001f2e0abd9d6e2b5a7c7478bf011042270daed7cc39/git_llm-0.1.0.tar.gz
+[2023-05-31 00:32:47] INFO root fetch - processPackages [hive-archeology-bot]: Downloading https://files.pythonhosted.org/packages/39/33/499136d7a5083516318da4a69a687132202bb039c319690534d633e40f71/hive-archeology-bot-0.1.5.tar.gz
+[2023-05-31 00:32:47] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-05-31 00:32:47] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.0.tar.gz tmp/lp_ap_tools-0.1.1.tar.gz --markdown 20230531/l/lp-ap-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 00:32:48] INFO root fetch - processPackages [hdlib]: Downloading https://files.pythonhosted.org/packages/3e/4d/111b04bcb8758700f6c0b0a2101e7bb948b64117f44fd17f188c14876103/hdlib-0.1.1.tar.gz
+[2023-05-31 00:32:48] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/b9/f9/c3e10e0cfb9504644f6eef6dd9cab3e1ebde3227b9e08e83a80f8812de05/gitbetter-1.2.0.tar.gz
+[2023-05-31 00:32:48] INFO root fetch - processPackages [hive-archeology-bot]: executing diffoscope
+[2023-05-31 00:32:48] INFO root fetch - processPackages [hive-archeology-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-archeology-bot-0.1.4.tar.gz tmp/hive-archeology-bot-0.1.5.tar.gz --markdown 20230531/h/hive-archeology-bot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 00:32:48] INFO root fetch - processPackages [rsp-jupyter-extensions]: Downloading https://files.pythonhosted.org/packages/ee/e8/95e8672f88a931f3e3db6f32c5e416cb120954d438c8b70bad52715199e8/rsp_jupyter_extensions-0.8.4.tar.gz
+[2023-05-31 00:32:48] INFO root fetch - processPackages [git-llm]: Downloading https://files.pythonhosted.org/packages/ca/c5/94ac4d3fe7761e8e415e2ba5f3da25a5ce7f8fa6540400090a65dd55376f/git_llm-0.1.2.tar.gz
+[2023-05-31 00:32:48] INFO root fetch - processPackages [hdlib]: executing diffoscope
+[2023-05-31 00:32:48] INFO root fetch - processPackages [hdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdlib-0.1.0.tar.gz tmp/hdlib-0.1.1.tar.gz --markdown 20230531/h/hdlib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 00:32:48] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-05-31 00:32:48] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-1.1.0.tar.gz tmp/gitbetter-1.2.0.tar.gz --markdown 20230531/g/gitbetter/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 00:32:48] INFO root fetch - processPackages [autobean-format]: Downloading https://files.pythonhosted.org/packages/8d/7a/97a80def9038d743d74d3ab3f91a9beb429de2d4784927b3b862b8a4a678/autobean-format-0.1.4.tar.gz
+[2023-05-31 00:32:48] INFO root fetch - processPackages [rsp-jupyter-extensions]: executing diffoscope
+[2023-05-31 00:32:48] INFO root fetch - processPackages [rsp-jupyter-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsp_jupyter_extensions-0.8.3.tar.gz tmp/rsp_jupyter_extensions-0.8.4.tar.gz --markdown 20230531/r/rsp-jupyter-extensions/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-31 00:32:48] INFO root fetch - processPackages [autobean-format]: executing diffoscope
+[2023-05-31 00:32:48] INFO root fetch - processPackages [autobean-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobean-format-0.1.3.tar.gz tmp/autobean-format-0.1.4.tar.gz --markdown 20230531/a/autobean-format/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-31 00:32:48] INFO root fetch - processPackages [git-llm]: executing diffoscope
+[2023-05-31 00:32:48] INFO root fetch - processPackages [git-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_llm-0.1.0.tar.gz tmp/git_llm-0.1.2.tar.gz --markdown 20230531/g/git-llm/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [hive-archeology-bot]: success
+[2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [hdlib]: success
+[2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [git-llm]: success
+[2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [autobean-format]: success
+[2023-05-31 00:32:49] INFO root fetch - main [MainThread]: End processing [rsp-jupyter-extensions]: success
+[2023-05-31 00:32:51] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-05-31 00:32:51] INFO root fetch - main [MainThread]: Store serial: [18308377]
