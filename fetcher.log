@@ -1,0 +1,51 @@
+[2023-05-31 00:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308080]
+[2023-05-31 00:01:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cenao
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Hunabku-dri-udea
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safehttpsreq
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runpod
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpler-rlp
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydiscolor
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yangsuite-coverage
+[2023-05-31 00:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlc2action
+[2023-05-31 00:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mathtranslate
+[2023-05-31 00:01:17] WARNING root fetch - processPackages [safehttpsreq]: Skipping, unable to determine old version
+[2023-05-31 00:01:17] INFO root fetch - main [MainThread]: End processing [safehttpsreq] error
+[2023-05-31 00:01:17] INFO root fetch - processPackages [runpod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-31 00:01:17] WARNING root fetch - processPackages [pydiscolor]: Skipping, unable to determine old version
+[2023-05-31 00:01:17] INFO root fetch - main [MainThread]: End processing [pydiscolor] error
+[2023-05-31 00:01:17] INFO root fetch - processPackages [Hunabku-dri-udea]: New version: [0.0.2] Old Version: [0.0.1a0]
+[2023-05-31 00:01:17] INFO root fetch - processPackages [yangsuite-coverage]: New version: [3.0.9.post0.dev2] Old Version: [3.0.9]
+[2023-05-31 00:01:17] WARNING root fetch - processPackages [simpler-rlp]: Skipping, unable to determine old version
+[2023-05-31 00:01:17] INFO root fetch - main [MainThread]: End processing [simpler-rlp] error
+[2023-05-31 00:01:17] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 00:01:17] INFO root fetch - processPackages [cenao]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 00:01:17] INFO root fetch - processPackages [mathtranslate]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-05-31 00:01:17] INFO root fetch - processPackages [yangsuite-coverage]: Downloading https://files.pythonhosted.org/packages/d0/9b/c0f963d3535b117eef30800b9dfdf490325376b28d8fb0957c9fffa4f969/yangsuite_coverage-3.0.9-py3-none-any.whl
+[2023-05-31 00:01:17] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-05-31 00:01:17] WARNING root fetch - processPackages [yangsuite-coverage]: Skipping package: exceeds size limit 14794051>=10485760
+[2023-05-31 00:01:17] INFO root fetch - main [MainThread]: End processing [yangsuite-coverage] error
+[2023-05-31 00:01:17] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-05-31 00:01:17] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.3.3.tar.gz tmp/mathtranslate-2.3.4.tar.gz --markdown 20230531/m/mathtranslate/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-05-31 00:01:17] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-05-31 00:01:17] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-05-31 00:01:17] INFO root fetch - processPackages [Hunabku-dri-udea]: Downloading https://files.pythonhosted.org/packages/40/83/37f1b525a1407ce750296dc8829170db4eefdf98d19459804034b09eeccf/Hunabku_dri_udea-0.0.1a0.tar.gz
+[2023-05-31 00:01:17] INFO root fetch - processPackages [dlc2action]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-05-31 00:01:17] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-05-31 00:01:17] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.8.tar.gz tmp/runpod-0.9.9.tar.gz --markdown 20230531/r/runpod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-31 00:01:17] INFO root fetch - processPackages [cenao]: executing diffoscope
+[2023-05-31 00:01:17] INFO root fetch - processPackages [cenao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenao-0.9.1.tar.gz tmp/cenao-0.9.2.tar.gz --markdown 20230531/c/cenao/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 00:01:17] INFO root fetch - processPackages [Hunabku-dri-udea]: Downloading https://files.pythonhosted.org/packages/a6/17/882c231d719ea8d848ab1b39028206e31d3c01fe6073e0564c571b8fa5f0/Hunabku_dri_udea-0.0.2.tar.gz
+[2023-05-31 00:01:17] INFO root fetch - processPackages [dlc2action]: Downloading https://files.pythonhosted.org/packages/a8/6c/77ca2dc0fb72e43823477a0c84a2c593854f4654eabd7a08d9a09f8d202c/dlc2action-0.2b2.tar.gz
+[2023-05-31 00:01:17] INFO root fetch - processPackages [Hunabku-dri-udea]: executing diffoscope
+[2023-05-31 00:01:17] INFO root fetch - processPackages [Hunabku-dri-udea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hunabku_dri_udea-0.0.1a0.tar.gz tmp/Hunabku_dri_udea-0.0.2.tar.gz --markdown 20230531/H/Hunabku-dri-udea/0.0.1a0-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 00:01:17] INFO root fetch - processPackages [dlc2action]: Downloading https://files.pythonhosted.org/packages/f9/f6/b3e91e7e3fde25c665232b2f1cab95f6d117f04cefb9cb512209e2db6561/dlc2action-0.2b3.tar.gz
+[2023-05-31 00:01:18] INFO root fetch - processPackages [dlc2action]: executing diffoscope
+[2023-05-31 00:01:18] INFO root fetch - processPackages [dlc2action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlc2action-0.2b2.tar.gz tmp/dlc2action-0.2b3.tar.gz --markdown 20230531/d/dlc2action/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-05-31 00:01:19] INFO root fetch - main [MainThread]: End processing [Hunabku-dri-udea]: success
+[2023-05-31 00:01:19] INFO root fetch - main [MainThread]: End processing [cenao]: success
+[2023-05-31 00:01:19] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-05-31 00:01:19] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-05-31 00:01:20] INFO root fetch - main [MainThread]: End processing [dlc2action]: success
+[2023-05-31 00:01:20] INFO root fetch - main [MainThread]: Store serial: [18308119]
