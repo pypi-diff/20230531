@@ -598,3 +598,28 @@
 [2023-05-31 00:56:32] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
 [2023-05-31 00:56:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-31 00:56:38] INFO root fetch - main [MainThread]: Store serial: [18308457]
+[2023-05-31 01:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308457]
+[2023-05-31 01:01:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dgopy
+[2023-05-31 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meltano-tap-facebook
+[2023-05-31 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celery-types
+[2023-05-31 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panther-analysis-tool
+[2023-05-31 01:01:47] INFO root fetch - processPackages [dgopy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 01:01:47] WARNING root fetch - processPackages [meltano-tap-facebook]: Skipping, unable to determine old version
+[2023-05-31 01:01:47] INFO root fetch - main [MainThread]: End processing [meltano-tap-facebook] error
+[2023-05-31 01:01:47] INFO root fetch - processPackages [celery-types]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 01:01:47] INFO root fetch - processPackages [panther-analysis-tool]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-31 01:01:47] INFO root fetch - processPackages [dgopy]: Downloading https://files.pythonhosted.org/packages/74/c0/98f3dae4ff5db0bf6c0ffe8340e7622dfd052a303db8502aa742f1684286/dgopy-0.0.2.tar.gz
+[2023-05-31 01:01:47] INFO root fetch - processPackages [celery-types]: Downloading https://files.pythonhosted.org/packages/7f/8f/4871934c1fcb1d15846e2d353dfd6077b6f3c5c6c23892c5450808cd175d/celery-types-0.9.2.tar.gz
+[2023-05-31 01:01:47] INFO root fetch - processPackages [panther-analysis-tool]: executing diffoscope
+[2023-05-31 01:01:47] INFO root fetch - processPackages [panther-analysis-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther_analysis_tool-0.8.3.tar.gz tmp/panther_analysis_tool-0.9.0.tar.gz --markdown 20230531/p/panther-analysis-tool/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 01:01:47] INFO root fetch - processPackages [dgopy]: Downloading https://files.pythonhosted.org/packages/3e/56/501fe600c52774998faf6de94795a227bcb7b1b36f34862e7c20f4d78ab6/dgopy-0.0.3.tar.gz
+[2023-05-31 01:01:47] INFO root fetch - processPackages [celery-types]: Downloading https://files.pythonhosted.org/packages/03/3e/045d508416cfbaf5b23b0546854e86f8d3c5eb6b2fc28f2fee5c7fe4d215/celery-types-0.9.3.tar.gz
+[2023-05-31 01:01:47] INFO root fetch - processPackages [dgopy]: executing diffoscope
+[2023-05-31 01:01:47] INFO root fetch - processPackages [dgopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgopy-0.0.2.tar.gz tmp/dgopy-0.0.3.tar.gz --markdown 20230531/d/dgopy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 01:01:47] INFO root fetch - processPackages [celery-types]: executing diffoscope
+[2023-05-31 01:01:47] INFO root fetch - processPackages [celery-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-types-0.9.2.tar.gz tmp/celery-types-0.9.3.tar.gz --markdown 20230531/c/celery-types/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 01:01:48] INFO root fetch - main [MainThread]: End processing [dgopy]: success
+[2023-05-31 01:01:48] INFO root fetch - main [MainThread]: End processing [panther-analysis-tool]: success
+[2023-05-31 01:01:48] INFO root fetch - main [MainThread]: End processing [celery-types]: success
+[2023-05-31 01:01:48] INFO root fetch - main [MainThread]: Store serial: [18308477]
