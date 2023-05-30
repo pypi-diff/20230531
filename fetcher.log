@@ -904,3 +904,75 @@
 [2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
 [2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [cellmaps-generate-hierarchy]: success
 [2023-05-31 01:33:59] INFO root fetch - main [MainThread]: Store serial: [18308679]
+[2023-05-31 01:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308679]
+[2023-05-31 01:39:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vector-vault
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-basic-commands
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-qchem
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-vss
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-vss
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vector-vault
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rime-sdk
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-qchem
+[2023-05-31 01:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-schema
+[2023-05-31 01:39:08] INFO root fetch - processPackages [py-basic-commands]: New version: [0.2.23] Old Version: [0.2.22]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [vector-vault]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [vector-vault]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc5] Old Version: [2.1.0rc4]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-05-31 01:39:08] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230531/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-31 01:39:08] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/a7/49/8942894a68f81c17ad939fb59846f3a800d6bd9b72784f98dc9057704c6b/py_basic_commands-0.2.22.tar.gz
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/ed/af/1aa7534006fc7ef322524ed3e5110729b322ec55c285c8670e58a55c33d9/auto_qchem-1.2.3-py3-none-any.whl
+[2023-05-31 01:39:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/47/da/3173ee274761031c13d93ab6d952921485f69b2b5404a3ffa35b4904cd51/vector_vault-1.6.0.tar.gz
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/ed/af/1aa7534006fc7ef322524ed3e5110729b322ec55c285c8670e58a55c33d9/auto_qchem-1.2.3-py3-none-any.whl
+[2023-05-31 01:39:08] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230531/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-05-31 01:39:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/47/da/3173ee274761031c13d93ab6d952921485f69b2b5404a3ffa35b4904cd51/vector_vault-1.6.0.tar.gz
+[2023-05-31 01:39:08] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230531/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_qchem-1.2.2-py3-none-any.whl.zip tmp/auto_qchem-1.2.3-py3-none-any.whl.zip --markdown 20230531/a/auto-qchem/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_qchem-1.2.2-py3-none-any.whl.zip tmp/auto_qchem-1.2.3-py3-none-any.whl.zip --markdown 20230531/a/auto-qchem/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-31 01:39:08] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230531/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 01:39:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/2e/42/e048158ae36833f72cc737d14348f76ddcae24fcea4c698cdee53ace5f92/vector_vault-1.6.1.tar.gz
+[2023-05-31 01:39:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/2e/42/e048158ae36833f72cc737d14348f76ddcae24fcea4c698cdee53ace5f92/vector_vault-1.6.1.tar.gz
+[2023-05-31 01:39:08] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/d2/4f/83f52d0eba0fa1153d642346c770e843fa2b85a6349eb691c410e2330d79/py_basic_commands-0.2.23.tar.gz
+[2023-05-31 01:39:08] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-31 01:39:08] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc4.tar.gz tmp/rime_sdk-2.1.0rc5.tar.gz --markdown 20230531/r/rime-sdk/2.1.0rc4-2.1.0rc5/diff.md --exclude *.pyd
+[2023-05-31 01:39:09] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-31 01:39:09] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.0.tar.gz tmp/vector_vault-1.6.1.tar.gz --markdown 20230531/v/vector-vault/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-31 01:39:09] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-31 01:39:09] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.0.tar.gz tmp/vector_vault-1.6.1.tar.gz --markdown 20230531/v/vector-vault/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-31 01:39:09] INFO root fetch - processPackages [py-basic-commands]: executing diffoscope
+[2023-05-31 01:39:09] INFO root fetch - processPackages [py-basic-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_basic_commands-0.2.22.tar.gz tmp/py_basic_commands-0.2.23.tar.gz --markdown 20230531/p/py-basic-commands/0.2.22-0.2.23/diff.md --exclude *.pyd
+[2023-05-31 01:39:09] INFO root fetch - processPackages [datasette-sqlite-vss]: Start processing: vector-vault
+[2023-05-31 01:39:09] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-31 01:39:10] INFO root fetch - processPackages [vector-vault]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-31 01:39:10] INFO root fetch - processPackages [auto-qchem]: Start processing: hassle
+[2023-05-31 01:39:10] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2023-05-31 01:39:10] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2023-05-31 01:39:10] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/ac/33/254f789f3406b8d7c6a7c003eef4aa09c4fb555a420b0e933d86bbcc30b5/vector_vault-1.6.2.tar.gz
+[2023-05-31 01:39:10] INFO root fetch - processPackages [hassle]: New version: [2.8.5] Old Version: [2.8.4]
+[2023-05-31 01:39:10] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-31 01:39:10] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-31 01:39:10] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.1.tar.gz tmp/vector_vault-1.6.2.tar.gz --markdown 20230531/v/vector-vault/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-31 01:39:10] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-31 01:39:10] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-31 01:39:10] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-31 01:39:10] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.4.tar.gz tmp/hassle-2.8.5.tar.gz --markdown 20230531/h/hassle/2.8.4-2.8.5/diff.md --exclude *.pyd
+[2023-05-31 01:39:10] INFO root fetch - main [MainThread]: End processing [py-basic-commands]: success
+[2023-05-31 01:39:11] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-31 01:39:11] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-31 01:39:16] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-31 01:39:19] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-31 01:39:47] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-31 01:39:47] INFO root fetch - main [MainThread]: Store serial: [18308713]
