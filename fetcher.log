@@ -862,3 +862,45 @@
 [2023-05-31 01:28:48] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-05-31 01:28:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
 [2023-05-31 01:28:49] INFO root fetch - main [MainThread]: Store serial: [18308650]
+[2023-05-31 01:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308650]
+[2023-05-31 01:33:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-llm
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-selve-new
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ts2ml
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uniccin
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-qchem
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellmaps-generate-hierarchy
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellmaps-pipeline
+[2023-05-31 01:33:57] INFO root fetch - processPackages [git-llm]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ts2ml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 01:33:57] INFO root fetch - processPackages [cellmaps-generate-hierarchy]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-05-31 01:33:57] WARNING root fetch - processPackages [uniccin]: Skipping, unable to determine old version
+[2023-05-31 01:33:57] INFO root fetch - processPackages [auto-qchem]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-31 01:33:57] INFO root fetch - main [MainThread]: End processing [uniccin] error
+[2023-05-31 01:33:57] INFO root fetch - processPackages [cellmaps-pipeline]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-05-31 01:33:57] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 01:33:57] INFO root fetch - processPackages [ts2ml]: Downloading https://files.pythonhosted.org/packages/dc/a4/21af13b59aaca9ab8c186181a116d38eabbe7078444108fad24ee083080a/ts2ml-0.0.1.tar.gz
+[2023-05-31 01:33:57] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 01:33:57] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 01:33:58] INFO root fetch - processPackages [git-llm]: Downloading https://files.pythonhosted.org/packages/be/db/f3c41bfc7b0c5204b0fb17afd7e671c531008ccf74fd535ad2a9aca22269/git_llm-0.1.3.tar.gz
+[2023-05-31 01:33:58] INFO root fetch - processPackages [cellmaps-generate-hierarchy]: Downloading https://files.pythonhosted.org/packages/58/14/967d3b0299a08d3cbf20d9f32da21e8eae95ab6598855dd67aa5a9714bbe/cellmaps_generate_hierarchy-0.1.0a5.tar.gz
+[2023-05-31 01:33:58] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/6d/9e/e4a7efd0907a0ec773927f4ce8d77c75bd15c4abac3abce944877116670c/auto_qchem-1.2.2-py3-none-any.whl
+[2023-05-31 01:33:58] INFO root fetch - processPackages [git-llm]: executing diffoscope
+[2023-05-31 01:33:58] INFO root fetch - processPackages [git-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_llm-0.1.2.tar.gz tmp/git_llm-0.1.3.tar.gz --markdown 20230531/g/git-llm/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 01:33:58] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/c8/1d/75b731be029a59118cbc9f059746c444e70b7e1ddffde2e8cf2f87813e68/cellmaps_pipeline-0.1.0a3.tar.gz
+[2023-05-31 01:33:58] INFO root fetch - processPackages [ts2ml]: Downloading https://files.pythonhosted.org/packages/4f/60/7703208ee808888e6a97fb752754232f39fec1e6e3bac8470a21bd3483ea/ts2ml-0.0.2.tar.gz
+[2023-05-31 01:33:58] INFO root fetch - processPackages [cellmaps-generate-hierarchy]: executing diffoscope
+[2023-05-31 01:33:58] INFO root fetch - processPackages [cellmaps-generate-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_generate_hierarchy-0.1.0a4.tar.gz tmp/cellmaps_generate_hierarchy-0.1.0a5.tar.gz --markdown 20230531/c/cellmaps-generate-hierarchy/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-05-31 01:33:58] INFO root fetch - processPackages [cellmaps-pipeline]: executing diffoscope
+[2023-05-31 01:33:58] INFO root fetch - processPackages [cellmaps-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_pipeline-0.1.0a2.tar.gz tmp/cellmaps_pipeline-0.1.0a3.tar.gz --markdown 20230531/c/cellmaps-pipeline/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-05-31 01:33:58] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2023-05-31 01:33:58] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_qchem-1.2.1-py3-none-any.whl.zip tmp/auto_qchem-1.2.2-py3-none-any.whl.zip --markdown 20230531/a/auto-qchem/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-31 01:33:58] INFO root fetch - processPackages [ts2ml]: executing diffoscope
+[2023-05-31 01:33:58] INFO root fetch - processPackages [ts2ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts2ml-0.0.1.tar.gz tmp/ts2ml-0.0.2.tar.gz --markdown 20230531/t/ts2ml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [git-llm]: success
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [cellmaps-pipeline]: success
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [ts2ml]: success
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: End processing [cellmaps-generate-hierarchy]: success
+[2023-05-31 01:33:59] INFO root fetch - main [MainThread]: Store serial: [18308679]
