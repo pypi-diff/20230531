@@ -49,3 +49,58 @@
 [2023-05-31 00:01:19] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
 [2023-05-31 00:01:20] INFO root fetch - main [MainThread]: End processing [dlc2action]: success
 [2023-05-31 00:01:20] INFO root fetch - main [MainThread]: Store serial: [18308119]
+[2023-05-31 00:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308119]
+[2023-05-31 00:06:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gretel-client
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcspy
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsj-rest-lib
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landingai
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-dinkum-listener
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: endf
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paasta-tools
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discolorpy
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: human-protocol-sdk
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsonschema-specifications
+[2023-05-31 00:06:29] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-05-31 00:06:29] INFO root fetch - processPackages [dcspy]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-31 00:06:29] INFO root fetch - processPackages [human-protocol-sdk]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-05-31 00:06:29] INFO root fetch - processPackages [gretel-client]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 00:06:29] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 00:06:29] INFO root fetch - processPackages [jsonschema-specifications]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-31 00:06:29] WARNING root fetch - processPackages [endf]: Skipping, unable to determine old version
+[2023-05-31 00:06:29] INFO root fetch - processPackages [endf]: Start processing: pydra-petpvc
+[2023-05-31 00:06:29] INFO root fetch - main [MainThread]: End processing [endf] error
+[2023-05-31 00:06:29] WARNING root fetch - processPackages [discolorpy]: Skipping, unable to determine old version
+[2023-05-31 00:06:29] INFO root fetch - main [MainThread]: End processing [discolorpy] error
+[2023-05-31 00:06:29] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-05-31 00:06:29] WARNING root fetch - processPackages [pydra-petpvc]: Skipping, unable to determine old version
+[2023-05-31 00:06:29] INFO root fetch - main [MainThread]: End processing [pydra-petpvc] error
+[2023-05-31 00:06:29] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230531/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 00:06:29] INFO root fetch - processPackages [human-protocol-sdk]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [human-protocol-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-sdk-1.1.2.tar.gz tmp/human-protocol-sdk-1.1.4.tar.gz --markdown 20230531/h/human-protocol-sdk/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-05-31 00:06:29] INFO root fetch - processPackages [gretel-client]: Downloading https://files.pythonhosted.org/packages/e5/5d/8a847bf48b60125db05cd6355d7daadcb9591a064a9b0ffa21bbd8f6aaf9/gretel-client-0.9.2.tar.gz
+[2023-05-31 00:06:29] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/2b/c3/b237a0c367a7ccd2e66de14b6c04ede9867720460fa203ed6900458a4c20/dcspy-2.1.1.tar.gz
+[2023-05-31 00:06:29] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/01/6f/71f9b7da32fc25ad62225267c3bd5896ce4bfb4cb596f4205c9071b821ef/nsj_rest_lib-1.0.0.tar.gz
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230531/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-31 00:06:29] INFO root fetch - processPackages [jsonschema-specifications]: Downloading https://files.pythonhosted.org/packages/bd/c6/3e68e2ac9eaaffba0e118d0541cb2d35b530637a2f197cbe65dd1dec5ac3/jsonschema_specifications-2023.5.2.tar.gz
+[2023-05-31 00:06:29] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230531/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-05-31 00:06:29] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-0.2.1.tar.gz tmp/nsj_rest_lib-1.0.0.tar.gz --markdown 20230531/n/nsj-rest-lib/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 00:06:29] INFO root fetch - processPackages [jsonschema-specifications]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [jsonschema-specifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_specifications-2023.5.1.tar.gz tmp/jsonschema_specifications-2023.5.2.tar.gz --markdown 20230531/j/jsonschema-specifications/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-31 00:06:29] INFO root fetch - processPackages [dcspy]: executing diffoscope
+[2023-05-31 00:06:29] INFO root fetch - processPackages [dcspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcspy-2.1.0.tar.gz tmp/dcspy-2.1.1.tar.gz --markdown 20230531/d/dcspy/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-31 00:06:30] WARNING root fetch - processPackages [gretel-client]: Skipping package: exceeds size limit 30354563>=10485760
+[2023-05-31 00:06:30] INFO root fetch - main [MainThread]: End processing [gretel-client] error
+[2023-05-31 00:06:30] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-31 00:06:31] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-31 00:06:31] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-05-31 00:06:31] INFO root fetch - main [MainThread]: End processing [dcspy]: success
+[2023-05-31 00:06:31] INFO root fetch - main [MainThread]: End processing [jsonschema-specifications]: success
+[2023-05-31 00:06:31] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
+[2023-05-31 00:06:33] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-05-31 00:06:33] INFO root fetch - main [MainThread]: Store serial: [18308189]
