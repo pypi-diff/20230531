@@ -478,3 +478,71 @@
 [2023-05-31 00:38:03] INFO root fetch - main [MainThread]: End processing [django-vendor-promo]: success
 [2023-05-31 00:38:56] INFO root fetch - main [MainThread]: End processing [wicker]: success
 [2023-05-31 00:38:56] INFO root fetch - main [MainThread]: Store serial: [18308402]
+[2023-05-31 00:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308402]
+[2023-05-31 00:44:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-pydantic-api
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: melexis-i2c-stick
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-dinkum-listener
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packaging-demo-eric
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: berteley
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-selve-new
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-materialized-view
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spida
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kangas
+[2023-05-31 00:44:05] INFO root fetch - processPackages [tf-agents]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [berteley]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 00:44:05] WARNING root fetch - processPackages [packaging-demo-eric]: Skipping, unable to determine old version
+[2023-05-31 00:44:05] INFO root fetch - processPackages [packaging-demo-eric]: Start processing: amazon-textract-idp-cdk-constructs
+[2023-05-31 00:44:05] INFO root fetch - main [MainThread]: End processing [packaging-demo-eric] error
+[2023-05-31 00:44:05] INFO root fetch - processPackages [flask-pydantic-api]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [melexis-i2c-stick]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [django-materialized-view]: New version: [0.1.5.2] Old Version: [0.1.5.1]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [spida]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [kangas]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230531/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [melexis-i2c-stick]: Downloading https://files.pythonhosted.org/packages/e4/89/754bcbf1fc646c9f84f0b128c29ce4c66ef62d993ea84d9fb6975280b231/melexis-i2c-stick-0.3.2.tar.gz
+[2023-05-31 00:44:05] INFO root fetch - processPackages [spida]: Downloading https://files.pythonhosted.org/packages/fe/d1/67e5b1e3e17d941cd93c5b4c09883409e8b9613a1d40c3f642bde29d6fdb/spida-0.3.4.tar.gz
+[2023-05-31 00:44:05] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/11/05/b923b6138a19724bcbd84d8660a97a2cb9a94ecf571b29f38eaa2362762d/kangas-2.4.1-py3-none-any.whl
+[2023-05-31 00:44:05] INFO root fetch - processPackages [django-materialized-view]: Downloading https://files.pythonhosted.org/packages/b6/4a/2acabac913577171021b1d5a32509db3a8fc13fa525a1bd67123ca6bd2a5/django-materialized-view-0.1.5.2.tar.gz
+[2023-05-31 00:44:05] INFO root fetch - processPackages [django-materialized-view]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [django-materialized-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-materialized-view-0.1.5.1.tar.gz tmp/django-materialized-view-0.1.5.2.tar.gz --markdown 20230531/d/django-materialized-view/0.1.5.1-0.1.5.2/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [spida]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [spida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spida-0.3.3.tar.gz tmp/spida-0.3.4.tar.gz --markdown 20230531/s/spida/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [flask-pydantic-api]: Downloading https://files.pythonhosted.org/packages/64/06/e0d8f31a450777aa9aa75efb60309a547d160e597d30779adaee5e08d2b4/flask_pydantic_api-0.9.5-py3-none-any.whl
+[2023-05-31 00:44:05] INFO root fetch - processPackages [berteley]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [berteley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berteley-0.0.8.tar.gz tmp/berteley-0.0.9.tar.gz --markdown 20230531/b/berteley/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz --markdown 20230531/a/amazon-textract-idp-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [melexis-i2c-stick]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [melexis-i2c-stick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melexis-i2c-stick-0.3.1.tar.gz tmp/melexis-i2c-stick-0.3.2.tar.gz --markdown 20230531/m/melexis-i2c-stick/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [tf-agents]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [tf-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents-0.9.0-py3-none-any.whl.zip tmp/tf_agents-0.9.0rc0-py3-none-any.whl.zip --markdown 20230531/t/tf-agents/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [flask-pydantic-api]: executing diffoscope
+[2023-05-31 00:44:05] INFO root fetch - processPackages [flask-pydantic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_pydantic_api-0.9.4-py3-none-any.whl.zip tmp/flask_pydantic_api-0.9.5-py3-none-any.whl.zip --markdown 20230531/f/flask-pydantic-api/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-31 00:44:05] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/12/67/6bd36847f859dca5a4920ca7873187c291c224e62d2cc28544a480839f4c/kangas-2.4.2-py3-none-any.whl
+[2023-05-31 00:44:06] INFO root fetch - processPackages [ovos-dinkum-listener]: Start processing: Signal8
+[2023-05-31 00:44:06] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-31 00:44:06] INFO root fetch - processPackages [Signal8]: New version: [2.0] Old Version: [1.9]
+[2023-05-31 00:44:07] INFO root fetch - processPackages [kangas]: executing diffoscope
+[2023-05-31 00:44:07] INFO root fetch - processPackages [kangas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangas-2.4.1-py3-none-any.whl.zip tmp/kangas-2.4.2-py3-none-any.whl.zip --markdown 20230531/k/kangas/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-31 00:44:07] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/88/a1/9b790ccc6c4ca97c94cd3a7bd41ce64000537f8996fa1203ab0cb5a29e43/Signal8-2.0.tar.gz
+[2023-05-31 00:44:07] INFO root fetch - main [MainThread]: End processing [berteley]: success
+[2023-05-31 00:44:07] INFO root fetch - main [MainThread]: End processing [flask-pydantic-api]: success
+[2023-05-31 00:44:07] INFO root fetch - main [MainThread]: End processing [melexis-i2c-stick]: success
+[2023-05-31 00:44:07] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-05-31 00:44:07] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-1.9.tar.gz tmp/Signal8-2.0.tar.gz --markdown 20230531/S/Signal8/1.9-2.0/diff.md --exclude *.pyd
+[2023-05-31 00:44:07] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 00:44:07] INFO root fetch - main [MainThread]: End processing [spida]: success
+[2023-05-31 00:44:07] INFO root fetch - main [MainThread]: End processing [django-materialized-view]: success
+[2023-05-31 00:44:08] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-05-31 00:44:12] INFO root fetch - main [MainThread]: End processing [tf-agents]: success
+[2023-05-31 00:44:14] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
+[2023-05-31 00:46:11] INFO root fetch - main [MainThread]: End processing [kangas]: success
+[2023-05-31 00:46:11] INFO root fetch - main [MainThread]: Store serial: [18308434]
