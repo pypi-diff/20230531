@@ -6707,3 +6707,74 @@
 [2023-05-31 05:17:42] INFO root fetch - main [MainThread]: End processing [binsync]: success
 [2023-05-31 05:17:42] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-05-31 05:17:42] INFO root fetch - main [MainThread]: Store serial: [18311863]
+[2023-05-31 05:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311863]
+[2023-05-31 05:22:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-edi-oca
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leafdb
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thsquant
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantplay
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hytest
+[2023-05-31 05:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinohub-seedwork-be
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyOpenSSL
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ezyquant-execution
+[2023-05-31 05:22:53] INFO root fetch - processPackages [leafdb]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [thsquant]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [odoo14-addon-edi-oca]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1.dev1]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quao]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ezyquant-execution]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [hytest]: New version: [0.8.5] Old Version: [0.8.3]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [pyOpenSSL]: New version: [23.2.0] Old Version: [23.1.1]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quantplay]: New version: [1.2.91] Old Version: [1.2.9]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [7.0.5] Old Version: [7.0.4]
+[2023-05-31 05:22:53] INFO root fetch - processPackages [leafdb]: Downloading https://files.pythonhosted.org/packages/a3/64/c590973c7e221bdb42cfbf621a656f0ccf68f6cef8b63f1981e1971879e4/leafdb-0.2.2.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/8f/72/f1d9e92f5d3a58aba3b71ad512de19eb9f82e7b98795662bf7b796be71e5/pyOpenSSL-23.1.1.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ezyquant-execution]: Downloading https://files.pythonhosted.org/packages/e7/2d/7b4784394bd581d08d74fc408d891226c4690e80a536ee2e819fecaf8855/ezyquant-execution-0.1.2.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [thsquant]: Downloading https://files.pythonhosted.org/packages/4e/1e/ea043cb9efaf74edc349303d12c6f8b0d18b3aeaaf28792333c92a92f8e1/thsquant-0.2.7.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/17/1b/0d04734273ce979db22a14fb5528ab72765ecd43f29e958c3eccbda715dc/cdktf-cdktf-provider-pagerduty-7.0.5.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [odoo14-addon-edi-oca]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [odoo14-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-edi-oca/14.0.1.9.1.dev1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [hytest]: Downloading https://files.pythonhosted.org/packages/21/33/407ad89a187d49f6ca50b92c031b03cd87f82de7c616f01bc07f15eed4d1/hytest-0.8.3-py3-none-any.whl
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ezyquant-execution]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [ezyquant-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyquant-execution-0.1.1.tar.gz tmp/ezyquant-execution-0.1.2.tar.gz --markdown 20230531/e/ezyquant-execution/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/f5/9c/b8ed28dd9fca4726b8c96bd35c01492831e4ded57f8ca89773c109db4116/quao-0.1.7.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/fd/08/913a1a487a7453ede6f29226c9f66c6402f7f8c85dfaf47269dafbdb7bbc/quantplay-1.2.91.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [thsquant]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [thsquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thsquant-0.2.6.tar.gz tmp/thsquant-0.2.7.tar.gz --markdown 20230531/t/thsquant/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.6.tar.gz tmp/quao-0.1.7.tar.gz --markdown 20230531/q/quao/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/be/df/75a6525d8988a89aed2393347e9db27a56cb38a3e864314fac223e905aef/pyOpenSSL-23.2.0.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230531/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-7.0.4.tar.gz tmp/cdktf-cdktf-provider-pagerduty-7.0.5.tar.gz --markdown 20230531/c/cdktf-cdktf-provider-pagerduty/7.0.4-7.0.5/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [leafdb]: Downloading https://files.pythonhosted.org/packages/ee/51/bc4843a4fcbd8d56e615fca68e5c4b55c1183af8ecd23ef9fb066a2ce628/leafdb-0.2.3.tar.gz
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.9.tar.gz tmp/quantplay-1.2.91.tar.gz --markdown 20230531/q/quantplay/1.2.9-1.2.91/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [hytest]: Downloading https://files.pythonhosted.org/packages/88/e5/2cf9691ba6380db32a7c3bc524f7dd1fcf5d2cde96a8975b53c91ea16047/hytest-0.8.5-py3-none-any.whl
+[2023-05-31 05:22:53] INFO root fetch - processPackages [leafdb]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [leafdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafdb-0.2.2.tar.gz tmp/leafdb-0.2.3.tar.gz --markdown 20230531/l/leafdb/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [hytest]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [hytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hytest-0.8.3-py3-none-any.whl.zip tmp/hytest-0.8.5-py3-none-any.whl.zip --markdown 20230531/h/hytest/0.8.3-0.8.5/diff.md --exclude *.pyd
+[2023-05-31 05:22:53] INFO root fetch - processPackages [pyOpenSSL]: executing diffoscope
+[2023-05-31 05:22:53] INFO root fetch - processPackages [pyOpenSSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyOpenSSL-23.1.1.tar.gz tmp/pyOpenSSL-23.2.0.tar.gz --markdown 20230531/p/pyOpenSSL/23.1.1-23.2.0/diff.md --exclude *.pyd
+[2023-05-31 05:22:54] INFO root fetch - processPackages [ezyquant-execution]: Start processing: meta-matching-tool
+[2023-05-31 05:22:54] INFO root fetch - main [MainThread]: End processing [ezyquant-execution]: success
+[2023-05-31 05:22:54] INFO root fetch - processPackages [meta-matching-tool]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-31 05:22:55] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/66/17/988dde2659be57680b1dbb1aad4d061913ff3d5dd0b0f993535069843385/meta_matching_tool-1.5.0.tar.gz
+[2023-05-31 05:22:55] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/45/2c/67fa1ffab257dbca9f055a7dde9beeb6c657180a20e59891e04f02f2c0cf/meta_matching_tool-1.6.0.tar.gz
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [hytest]: success
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-oca]: success
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [leafdb]: success
+[2023-05-31 05:22:55] INFO root fetch - processPackages [meta-matching-tool]: executing diffoscope
+[2023-05-31 05:22:55] INFO root fetch - processPackages [meta-matching-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_matching_tool-1.5.0.tar.gz tmp/meta_matching_tool-1.6.0.tar.gz --markdown 20230531/m/meta-matching-tool/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [pyOpenSSL]: success
+[2023-05-31 05:22:55] INFO root fetch - main [MainThread]: End processing [thsquant]: success
+[2023-05-31 05:22:56] INFO root fetch - main [MainThread]: End processing [meta-matching-tool]: success
+[2023-05-31 05:22:56] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-31 05:22:57] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-05-31 05:22:57] INFO root fetch - main [MainThread]: Store serial: [18311897]
