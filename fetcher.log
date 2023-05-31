@@ -7652,3 +7652,40 @@
 [2023-05-31 06:11:44] INFO root fetch - main [MainThread]: End processing [tdworkflow]: success
 [2023-05-31 06:11:44] INFO root fetch - main [MainThread]: End processing [mercoa]: success
 [2023-05-31 06:11:44] INFO root fetch - main [MainThread]: Store serial: [18312285]
+[2023-05-31 06:16:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312285]
+[2023-05-31 06:16:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-31 06:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jij-cimod
+[2023-05-31 06:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-05-31 06:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiolm-pytorch
+[2023-05-31 06:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaparoo-python-package
+[2023-05-31 06:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rain-orm
+[2023-05-31 06:16:53] INFO root fetch - processPackages [quao]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-31 06:16:53] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-31 06:16:53] INFO root fetch - processPackages [rain-orm]: New version: [1.0.2] Old Version: [0.1]
+[2023-05-31 06:16:53] INFO root fetch - processPackages [kaparoo-python-package]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 06:16:53] INFO root fetch - processPackages [jij-cimod]: New version: [1.4.9] Old Version: [1.4.7]
+[2023-05-31 06:16:54] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/e3/de/0303d14bf186fbca91a24bfccbd5e592cf328051572673e0b3da92427dde/audiolm-pytorch-1.1.1.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [kaparoo-python-package]: Downloading https://files.pythonhosted.org/packages/e6/9a/5bf95e989d426fcf6ac28117abdf988253b3dfe3fe42169370ac922be5ae/kaparoo_python_package-0.1.0.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/18/6b/dc78f491e184165468d9979f4b9d556e43153af7a222352599ed39941b8e/rain_orm-0.1.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [jij-cimod]: Downloading https://files.pythonhosted.org/packages/b1/1e/c38b1095e232287868756aa68624d17da65cfe5131005a61c868e9f9b386/jij_cimod-1.4.7.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/c8/32/9d85c938b19c49a06facca2c8fddb259791d35cd39b2b3539c9cb3f5735d/quao-0.1.8.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-05-31 06:16:54] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.7.tar.gz tmp/quao-0.1.8.tar.gz --markdown 20230531/q/quao/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-31 06:16:54] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/3f/1a/070001b512d0f18cb703046fd997da004de4afae2554de6e3fe6de96bd63/audiolm-pytorch-1.1.2.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/aa/78/7369fde3b0b2552f0c8c36ba57373d652dc4d2247e4c8c7c14329e68859f/rain_orm-1.0.2.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [kaparoo-python-package]: Downloading https://files.pythonhosted.org/packages/3b/b8/0a13313173be69965ff46bb33b39c596fce684a4f44bced15b104291a053/kaparoo_python_package-0.2.0.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [rain-orm]: executing diffoscope
+[2023-05-31 06:16:54] INFO root fetch - processPackages [rain-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rain_orm-0.1.tar.gz tmp/rain_orm-1.0.2.tar.gz --markdown 20230531/r/rain-orm/0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 06:16:54] INFO root fetch - processPackages [kaparoo-python-package]: executing diffoscope
+[2023-05-31 06:16:54] INFO root fetch - processPackages [kaparoo-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_python_package-0.1.0.tar.gz tmp/kaparoo_python_package-0.2.0.tar.gz --markdown 20230531/k/kaparoo-python-package/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 06:16:54] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-31 06:16:54] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.1.1.tar.gz tmp/audiolm-pytorch-1.1.2.tar.gz --markdown 20230531/a/audiolm-pytorch/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-31 06:16:54] INFO root fetch - processPackages [jij-cimod]: Downloading https://files.pythonhosted.org/packages/93/5e/59ed273ce841a0e37e6b94da34a96289dcf930918900bd81d2e33922020e/jij_cimod-1.4.9.tar.gz
+[2023-05-31 06:16:54] INFO root fetch - processPackages [jij-cimod]: executing diffoscope
+[2023-05-31 06:16:54] INFO root fetch - processPackages [jij-cimod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jij_cimod-1.4.7.tar.gz tmp/jij_cimod-1.4.9.tar.gz --markdown 20230531/j/jij-cimod/1.4.7-1.4.9/diff.md --exclude *.pyd
+[2023-05-31 06:16:55] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-05-31 06:16:55] INFO root fetch - main [MainThread]: End processing [rain-orm]: success
+[2023-05-31 06:16:55] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-31 06:16:55] INFO root fetch - main [MainThread]: End processing [kaparoo-python-package]: success
+[2023-05-31 06:16:56] INFO root fetch - main [MainThread]: End processing [jij-cimod]: success
+[2023-05-31 06:16:56] INFO root fetch - main [MainThread]: Store serial: [18312332]
