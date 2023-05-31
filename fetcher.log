@@ -11104,3 +11104,98 @@
 [2023-05-31 10:57:11] INFO root fetch - main [MainThread]: End processing [imio.helpers]: success
 [2023-05-31 10:57:12] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-31 10:57:12] INFO root fetch - main [MainThread]: Store serial: [18314386]
+[2023-05-31 11:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314386]
+[2023-05-31 11:02:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docarray
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.restapi
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svarog
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plonemeeting.restapi
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mammopy
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vwo-python-sdk
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyepy
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mpscenes
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: summa-embed
+[2023-05-31 11:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-05-31 11:02:25] INFO root fetch - processPackages [plonemeeting.restapi]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [svarog]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 11:02:25] WARNING root fetch - processPackages [eyepy]: Skipping, unable to determine old version
+[2023-05-31 11:02:25] INFO root fetch - processPackages [eyepy]: Start processing: marqo
+[2023-05-31 11:02:25] INFO root fetch - main [MainThread]: End processing [eyepy] error
+[2023-05-31 11:02:25] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [mpscenes]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [imio.restapi]: New version: [1.0b2] Old Version: [1.0b1]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [summa-embed]: New version: [0.15.4] Old Version: [0.15.0]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [marqo]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 11:02:25] INFO root fetch - processPackages [cg]: New version: [33.0.5] Old Version: [33.0.4]
+[2023-05-31 11:02:26] INFO root fetch - processPackages [plonemeeting.restapi]: Downloading https://files.pythonhosted.org/packages/b7/75/51f0a2d7034019aa03dbf0f8f4842171a2b4966e08d7dfcdcb95a27b64e3/plonemeeting.restapi-2.0.1.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230531/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [svarog]: Downloading https://files.pythonhosted.org/packages/be/6a/accd525bec44a94b1ecb548e9895781b84a77b94b144fe9b65351f51380e/svarog-0.3.1.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [imio.restapi]: Downloading https://files.pythonhosted.org/packages/5a/77/f4d76212d5aedcb3b6bf900c7baf2cf7a7fe7f7a36e06022e16066741cd7/imio.restapi-1.0b1.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/2c/7b/3ea95583b3e0beb930bf1edee6073243503e0f61f7d7f99f95acb44212b0/cg-33.0.5.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/25/de/4c17bc33b4aa558e588358415dd57b463160630d6e80827f639a46d040bb/marqo-0.9.5.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [mpscenes]: Downloading https://files.pythonhosted.org/packages/b1/fb/91891095ebad94ca9c33fd7959a729b071507475e16c64cc7471c5c3e866/mpscenes-0.4.2.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/c0/df/ebb32f8ee7ae284831376437cf8ed3541cc64d26c771229a6264ae21afce/summa_embed-0.15.4.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230531/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.0.4.tar.gz tmp/cg-33.0.5.tar.gz --markdown 20230531/c/cg/33.0.4-33.0.5/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [plonemeeting.restapi]: Downloading https://files.pythonhosted.org/packages/19/35/9c4e35255db8459d73e1ed32396eae7450ebd2f912e0661dbca9cf79a90b/plonemeeting.restapi-2.0.2.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [mpscenes]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [mpscenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpscenes-0.4.1.tar.gz tmp/mpscenes-0.4.2.tar.gz --markdown 20230531/m/mpscenes/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [imio.restapi]: Downloading https://files.pythonhosted.org/packages/2e/fb/f3682e7a885b443882a935d717227e8d65f22cb51cecbcb54a5d85a7c654/imio.restapi-1.0b2.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [plonemeeting.restapi]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [plonemeeting.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonemeeting.restapi-2.0.1.tar.gz tmp/plonemeeting.restapi-2.0.2.tar.gz --markdown 20230531/p/plonemeeting.restapi/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/f7/82/999dd0035a5acf765ac6ee2d29f6c771832fbf1efe18f4d13d09fc6c1cbf/marqo-0.9.6.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [svarog]: Downloading https://files.pythonhosted.org/packages/85/98/a3ca1de0c32ba1476ce4f7b6d4f20b93aae3a1681918bac97dbde111a994/svarog-0.3.2.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [imio.restapi]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [imio.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.restapi-1.0b1.tar.gz tmp/imio.restapi-1.0b2.tar.gz --markdown 20230531/i/imio.restapi/1.0b1-1.0b2/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.0.tar.gz tmp/summa_embed-0.15.4.tar.gz --markdown 20230531/s/summa-embed/0.15.0-0.15.4/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-05-31 11:02:26] INFO root fetch - processPackages [svarog]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [svarog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svarog-0.3.1.tar.gz tmp/svarog-0.3.2.tar.gz --markdown 20230531/s/svarog/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-0.9.5.tar.gz tmp/marqo-0.9.6.tar.gz --markdown 20230531/m/marqo/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 11:02:26] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-05-31 11:02:26] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230531/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:02:27] INFO root fetch - processPackages [mpscenes]: Start processing: routingfilter
+[2023-05-31 11:02:27] INFO root fetch - main [MainThread]: End processing [mpscenes]: success
+[2023-05-31 11:02:27] INFO root fetch - processPackages [routingfilter]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-31 11:02:28] INFO root fetch - processPackages [routingfilter]: Downloading https://files.pythonhosted.org/packages/6a/12/3062369c5243fe71dcaa7d677d4a2c13740681b1024502f73c18e4a06178/routingfilter-1.4.0.tar.gz
+[2023-05-31 11:02:28] INFO root fetch - processPackages [svarog]: Start processing: flask-openapi3
+[2023-05-31 11:02:28] INFO root fetch - main [MainThread]: End processing [svarog]: success
+[2023-05-31 11:02:28] INFO root fetch - processPackages [flask-openapi3]: New version: [2.4.0rc1] Old Version: [2.3.2]
+[2023-05-31 11:02:28] INFO root fetch - processPackages [plonemeeting.restapi]: Start processing: quark-engine
+[2023-05-31 11:02:28] INFO root fetch - main [MainThread]: End processing [plonemeeting.restapi]: success
+[2023-05-31 11:02:28] INFO root fetch - processPackages [routingfilter]: Downloading https://files.pythonhosted.org/packages/c3/df/0218203c01182d8f948ce53467bed902739b75b6491d57a8b63bed5205ab/routingfilter-1.4.1.tar.gz
+[2023-05-31 11:02:28] INFO root fetch - processPackages [vwo-python-sdk]: Start processing: labstep
+[2023-05-31 11:02:28] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-05-31 11:02:28] INFO root fetch - processPackages [routingfilter]: executing diffoscope
+[2023-05-31 11:02:28] INFO root fetch - processPackages [routingfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingfilter-1.4.0.tar.gz tmp/routingfilter-1.4.1.tar.gz --markdown 20230531/r/routingfilter/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-31 11:02:28] INFO root fetch - processPackages [flask-openapi3]: Downloading https://files.pythonhosted.org/packages/18/48/48fb74a2fa171bcc64d9566cec620132b7d5d52c6eb08e271d9fb27ff957/flask-openapi3-2.3.2.tar.gz
+[2023-05-31 11:02:28] INFO root fetch - processPackages [quark-engine]: New version: [23.5.1] Old Version: [23.4.1]
+[2023-05-31 11:02:28] INFO root fetch - processPackages [labstep]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-31 11:02:28] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/a7/f7/b8be2144d6cc2014cf61ca9086f05ace22aaebf1d35c226fed7b6068c59f/quark-engine-23.4.1.tar.gz
+[2023-05-31 11:02:28] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-05-31 11:02:28] INFO root fetch - processPackages [flask-openapi3]: Downloading https://files.pythonhosted.org/packages/44/c8/cf6cfef30345d1d00b2c8533f09a78572cf1043a01aefaa34c084c5327a3/flask-openapi3-2.4.0rc1.tar.gz
+[2023-05-31 11:02:28] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-05-31 11:02:28] INFO root fetch - processPackages [labstep]: executing diffoscope
+[2023-05-31 11:02:28] INFO root fetch - processPackages [labstep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labstep-3.8.0.tar.gz tmp/labstep-3.9.0.tar.gz --markdown 20230531/l/labstep/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:02:28] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/34/52/65ac1010e4a2ba2a8f45c17ce45cf94d1647135cb4b914d8a75968db44dc/quark-engine-23.5.1.tar.gz
+[2023-05-31 11:02:28] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-31 11:02:29] INFO root fetch - processPackages [flask-openapi3]: executing diffoscope
+[2023-05-31 11:02:29] INFO root fetch - processPackages [flask-openapi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-openapi3-2.3.2.tar.gz tmp/flask-openapi3-2.4.0rc1.tar.gz --markdown 20230531/f/flask-openapi3/2.3.2-2.4.0rc1/diff.md --exclude *.pyd
+[2023-05-31 11:02:29] INFO root fetch - processPackages [quark-engine]: executing diffoscope
+[2023-05-31 11:02:29] INFO root fetch - processPackages [quark-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quark-engine-23.4.1.tar.gz tmp/quark-engine-23.5.1.tar.gz --markdown 20230531/q/quark-engine/23.4.1-23.5.1/diff.md --exclude *.pyd
+[2023-05-31 11:02:29] INFO root fetch - main [MainThread]: End processing [imio.restapi]: success
+[2023-05-31 11:02:29] INFO root fetch - main [MainThread]: End processing [routingfilter]: success
+[2023-05-31 11:02:30] INFO root fetch - main [MainThread]: End processing [quark-engine]: success
+[2023-05-31 11:02:30] INFO root fetch - main [MainThread]: End processing [labstep]: success
+[2023-05-31 11:02:32] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-05-31 11:02:33] INFO root fetch - main [MainThread]: End processing [flask-openapi3]: success
+[2023-05-31 11:02:44] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-31 11:02:44] INFO root fetch - main [MainThread]: Store serial: [18314449]
