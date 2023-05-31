@@ -20885,3 +20885,43 @@
 [2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [simplebox]: success
 [2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [OBP-devops]: success
 [2023-05-31 19:14:17] INFO root fetch - main [MainThread]: Store serial: [18320303]
+[2023-05-31 19:19:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320303]
+[2023-05-31 19:19:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 19:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-05-31 19:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepview-converter
+[2023-05-31 19:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QZFM
+[2023-05-31 19:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sats-receiver
+[2023-05-31 19:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyclam
+[2023-05-31 19:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UEVaultManager
+[2023-05-31 19:19:27] INFO root fetch - processPackages [deepview-converter]: New version: [2.5.22] Old Version: [2.5.21]
+[2023-05-31 19:19:27] INFO root fetch - processPackages [QZFM]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 19:19:27] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-31 19:19:27] INFO root fetch - processPackages [UEVaultManager]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-31 19:19:27] INFO root fetch - processPackages [sats-receiver]: New version: [0.1.18] Old Version: [0.1.15]
+[2023-05-31 19:19:27] INFO root fetch - processPackages [pyclam]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-31 19:19:27] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-31 19:19:27] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.6.0.tar.gz tmp/UEVaultManager-1.6.1.tar.gz --markdown 20230531/U/UEVaultManager/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-31 19:19:27] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/b2/82/ccb244ed6ead8131730ea714198542147779184cf4e188d8546acc93e68e/deepview_converter-2.5.21-cp38-cp38-win_amd64.whl
+[2023-05-31 19:19:27] INFO root fetch - processPackages [QZFM]: Downloading https://files.pythonhosted.org/packages/b3/65/671d14cd566cf60a82415959a2f59647c28d8c51f50ae8876ea701524241/QZFM-0.0.3.tar.gz
+[2023-05-31 19:19:27] INFO root fetch - processPackages [sats-receiver]: Downloading https://files.pythonhosted.org/packages/74/03/dabb43303400f477ac57824a191b15471416146ecb9bbfb73106737f8782/sats_receiver-0.1.18.tar.gz
+[2023-05-31 19:19:27] INFO root fetch - processPackages [pyclam]: Downloading https://files.pythonhosted.org/packages/33/65/70afa204c4ce62b1687d382e55b7a2c3539df016f2040083415c06ea99ef/pyclam-0.7.0.tar.gz
+[2023-05-31 19:19:27] INFO root fetch - processPackages [sats-receiver]: executing diffoscope
+[2023-05-31 19:19:27] INFO root fetch - processPackages [sats-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sats_receiver-0.1.15.tar.gz tmp/sats_receiver-0.1.18.tar.gz --markdown 20230531/s/sats-receiver/0.1.15-0.1.18/diff.md --exclude *.pyd
+[2023-05-31 19:19:27] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-31 19:19:27] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230531/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-31 19:19:27] INFO root fetch - processPackages [QZFM]: Downloading https://files.pythonhosted.org/packages/8c/51/6128d5741d221ce689970cfbb68b32ec6779a87535257c70d21186206c7c/QZFM-0.0.4.tar.gz
+[2023-05-31 19:19:27] INFO root fetch - processPackages [QZFM]: executing diffoscope
+[2023-05-31 19:19:27] INFO root fetch - processPackages [QZFM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QZFM-0.0.3.tar.gz tmp/QZFM-0.0.4.tar.gz --markdown 20230531/Q/QZFM/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 19:19:27] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/70/7f/0bf056ce048c68dcd40aa58c736ccaea0d9de30051a0a9fec0cc145b3f10/deepview_converter-2.5.22-cp39-cp39-win_amd64.whl
+[2023-05-31 19:19:27] INFO root fetch - processPackages [pyclam]: Downloading https://files.pythonhosted.org/packages/03/71/2b019dfd9c43608199f483b6965d486d77d20c7bd6de6fa406c4c21f9238/pyclam-0.8.0.tar.gz
+[2023-05-31 19:19:27] INFO root fetch - processPackages [deepview-converter]: executing diffoscope
+[2023-05-31 19:19:27] INFO root fetch - processPackages [deepview-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_converter-2.5.21-cp38-cp38-win_amd64.whl.zip tmp/deepview_converter-2.5.22-cp39-cp39-win_amd64.whl.zip --markdown 20230531/d/deepview-converter/2.5.21-2.5.22/diff.md --exclude *.pyd
+[2023-05-31 19:19:27] INFO root fetch - processPackages [pyclam]: executing diffoscope
+[2023-05-31 19:19:27] INFO root fetch - processPackages [pyclam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclam-0.7.0.tar.gz tmp/pyclam-0.8.0.tar.gz --markdown 20230531/p/pyclam/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-31 19:19:28] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-31 19:19:28] INFO root fetch - main [MainThread]: End processing [QZFM]: success
+[2023-05-31 19:19:28] INFO root fetch - main [MainThread]: End processing [sats-receiver]: success
+[2023-05-31 19:19:29] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-31 19:19:29] INFO root fetch - main [MainThread]: End processing [pyclam]: success
+[2023-05-31 19:20:20] INFO root fetch - main [MainThread]: End processing [deepview-converter]: success
+[2023-05-31 19:20:20] INFO root fetch - main [MainThread]: Store serial: [18320337]
