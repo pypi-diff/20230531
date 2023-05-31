@@ -20014,3 +20014,63 @@
 [2023-05-31 18:14:47] INFO root fetch - main [MainThread]: End processing [chyp]: success
 [2023-05-31 18:14:50] INFO root fetch - main [MainThread]: End processing [qoqo-iqm]: success
 [2023-05-31 18:14:50] INFO root fetch - main [MainThread]: Store serial: [18319717]
+[2023-05-31 18:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319717]
+[2023-05-31 18:19:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TRAPT
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smart-app-framework
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perspective-python
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speech2spikes
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chyp
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-mahjong-scoreboard
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anesthetic
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dash
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arulespy
+[2023-05-31 18:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: motordantic
+[2023-05-31 18:19:59] WARNING root fetch - processPackages [speech2spikes]: Skipping, unable to determine old version
+[2023-05-31 18:19:59] INFO root fetch - main [MainThread]: End processing [speech2spikes] error
+[2023-05-31 18:19:59] INFO root fetch - processPackages [TRAPT]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: New version: [0.4.0a1] Old Version: [0.3.1.post1]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [chyp]: New version: [0.5.1] Old Version: [0.5]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [smart-app-framework]: New version: [2.1.1rc1] Old Version: [2.1.0]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [dash]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [perspective-python]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [dash]: executing diffoscope
+[2023-05-31 18:19:59] INFO root fetch - processPackages [dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-2.9.2.tar.gz tmp/dash-2.9.3.tar.gz --markdown 20230531/d/dash/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-31 18:19:59] INFO root fetch - processPackages [motordantic]: New version: [0.0.2a1] Old Version: [0.0.2a0]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [arulespy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 18:19:59] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Downloading https://files.pythonhosted.org/packages/f2/31/5b219865dd622b993d05a8fdceb65ae9941421b76811868cffcbbbe29cdd/nonebot_plugin_mahjong_scoreboard-0.3.1.post1.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [TRAPT]: Downloading https://files.pythonhosted.org/packages/be/26/d8113d08871201a51efe9bc6b2ebe87404496a165e90824c09117d4823f0/TRAPT-0.0.3.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [chyp]: Downloading https://files.pythonhosted.org/packages/ff/7a/2e5c667f8a673078fcb30b95ccaf6c13a92906b5a26d85d8edf65138a0b9/chyp-0.5.1.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/b1/b4/15bc5eec8b5a18b6b85e4039cbce8eb701b37fd02d54e09c4d5a3afe7ffe/perspective-python-2.1.4.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [motordantic]: Downloading https://files.pythonhosted.org/packages/77/5d/4f324c357a5d29396d7b9087b5e4ac96c48796e46770ea4505b3eb2a33ad/motordantic-0.0.2a0.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [TRAPT]: executing diffoscope
+[2023-05-31 18:19:59] INFO root fetch - processPackages [TRAPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TRAPT-0.0.2.tar.gz tmp/TRAPT-0.0.3.tar.gz --markdown 20230531/T/TRAPT/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 18:19:59] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/1f/04/8784f6936d07b7278b5aee55f9c87d213f5e0e9e824b5b2d33b3559dddbf/smart_app_framework-2.1.1rc1-py3-none-any.whl
+[2023-05-31 18:19:59] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: Downloading https://files.pythonhosted.org/packages/31/08/173ebe8aa19b310a081b40d969517130eb85858e98e02a46b1e210e0d112/nonebot_plugin_mahjong_scoreboard-0.4.0a1.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [chyp]: executing diffoscope
+[2023-05-31 18:19:59] INFO root fetch - processPackages [arulespy]: Downloading https://files.pythonhosted.org/packages/c8/b0/2c315918646621a3f6a940cb87beadf721a8651dc08625f22dc877029b97/arulespy-0.1.2.tar.gz
+[2023-05-31 18:19:59] INFO root fetch - processPackages [chyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chyp-0.5.tar.gz tmp/chyp-0.5.1.tar.gz --markdown 20230531/c/chyp/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-05-31 18:19:59] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-05-31 18:19:59] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230531/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-31 18:20:00] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: executing diffoscope
+[2023-05-31 18:20:00] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mahjong_scoreboard-0.3.1.post1.tar.gz tmp/nonebot_plugin_mahjong_scoreboard-0.4.0a1.tar.gz --markdown 20230531/n/nonebot-plugin-mahjong-scoreboard/0.3.1.post1-0.4.0a1/diff.md --exclude *.pyd
+[2023-05-31 18:20:00] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-05-31 18:20:00] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.1.0-py3-none-any.whl.zip tmp/smart_app_framework-2.1.1rc1-py3-none-any.whl.zip --markdown 20230531/s/smart-app-framework/2.1.0-2.1.1rc1/diff.md --exclude *.pyd
+[2023-05-31 18:20:00] INFO root fetch - processPackages [motordantic]: Downloading https://files.pythonhosted.org/packages/ab/81/c814908c8743f271f50221341e7405dd2f28de92b4917fe7598735fe2067/motordantic-0.0.2a1.tar.gz
+[2023-05-31 18:20:00] INFO root fetch - processPackages [arulespy]: executing diffoscope
+[2023-05-31 18:20:00] INFO root fetch - processPackages [arulespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arulespy-0.1.1.tar.gz tmp/arulespy-0.1.2.tar.gz --markdown 20230531/a/arulespy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 18:20:00] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/ac/a2/85b2dacc35fd99a8ceccba23bf95c09823879862e7b1287ac4ccc12e200a/perspective_python-2.2.0-cp38-cp38-macosx_11_0_arm64.whl
+[2023-05-31 18:20:00] INFO root fetch - processPackages [motordantic]: executing diffoscope
+[2023-05-31 18:20:00] INFO root fetch - processPackages [motordantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motordantic-0.0.2a0.tar.gz tmp/motordantic-0.0.2a1.tar.gz --markdown 20230531/m/motordantic/0.0.2a0-0.0.2a1/diff.md --exclude *.pyd
+[2023-05-31 18:20:00] WARNING root fetch - processPackages [perspective-python]: Skipping package: exceeds size limit 24431862>=10485760
+[2023-05-31 18:20:00] INFO root fetch - main [MainThread]: End processing [perspective-python] error
+[2023-05-31 18:20:01] INFO root fetch - main [MainThread]: End processing [TRAPT]: success
+[2023-05-31 18:20:01] INFO root fetch - main [MainThread]: End processing [chyp]: success
+[2023-05-31 18:20:01] INFO root fetch - main [MainThread]: End processing [arulespy]: success
+[2023-05-31 18:20:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mahjong-scoreboard]: success
+[2023-05-31 18:20:02] INFO root fetch - main [MainThread]: End processing [motordantic]: success
+[2023-05-31 18:20:02] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-05-31 18:20:03] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-05-31 18:20:19] INFO root fetch - main [MainThread]: End processing [dash]: success
+[2023-05-31 18:20:19] INFO root fetch - main [MainThread]: Store serial: [18319769]
