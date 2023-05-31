@@ -1724,3 +1724,73 @@
 [2023-05-31 02:33:36] INFO root fetch - main [MainThread]: End processing [psyke]: success
 [2023-05-31 02:34:24] INFO root fetch - main [MainThread]: End processing [matchmeta]: success
 [2023-05-31 02:34:24] INFO root fetch - main [MainThread]: Store serial: [18309190]
+[2023-05-31 02:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309190]
+[2023-05-31 02:39:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ops
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngscrape
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stellar-sdk-mini
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftw.referencewidget
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: health-calc-pack-py
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NEURON-gpu-nightly
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sematic
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pnsgraph
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ops]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [stellar-sdk-mini]: New version: [8.2.0.post2] Old Version: [8.2.0.post1]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ngscrape]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ftw.referencewidget]: New version: [4.0.0b2] Old Version: [4.0.0b1]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [pnsgraph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230530] Old Version: [0.1.4.dev20230529]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [health-calc-pack-py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [sematic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [NEURON-gpu-nightly]: New version: [9.0.dev1356] Old Version: [9.0.dev1355]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230531/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/37/c1/b91ed34defbaf81c8574e9f1475d5f1c13d2768bf001b96476f1019d206b/ops-2.2.0.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [stellar-sdk-mini]: Downloading https://files.pythonhosted.org/packages/e5/5c/a0edb112b9988e9361d529228a925d506325c52e8f630f1b74b98127834f/stellar-sdk-mini-8.2.0.post1.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/3c/a3/0530b477f45027103a8c4d62a956ccad7e032d9e79d5278bae2047cb29bf/pnsgraph-0.0.1.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/44/fb/40bb10ee6e600a348d5550053fb18f29e12bc917395c2e8beb500e298aa3/health_calc_pack_py-0.4.1.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [sematic]: Downloading https://files.pythonhosted.org/packages/d2/0d/a5fb8f74f229be4fb51e48b4a6b8e9e2534e8f81d0a45ea955f70dd65f86/sematic-0.8.0-py3-none-any.whl
+[2023-05-31 02:39:33] INFO root fetch - processPackages [NEURON-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/2f/da/f523d8a9e3c7c7ad8d137e697afbec3e064542c8058650990c9d40453250/NEURON_gpu_nightly-9.0.dev1355-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/13/09/94572fcd6e500877662c4453d9dd5e97cf67e3813a352762ecdf72681b33/ngscrape-1.2.0.tar.gz
+[2023-05-31 02:39:33] WARNING root fetch - processPackages [NEURON-gpu-nightly]: Skipping package: exceeds size limit 23377872>=10485760
+[2023-05-31 02:39:33] INFO root fetch - processPackages [NEURON-gpu-nightly]: Start processing: py-basic-commands
+[2023-05-31 02:39:33] INFO root fetch - main [MainThread]: End processing [NEURON-gpu-nightly] error
+[2023-05-31 02:39:33] INFO root fetch - processPackages [py-basic-commands]: New version: [0.2.24] Old Version: [0.2.23]
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ftw.referencewidget]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ftw.referencewidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.referencewidget-4.0.0b1.tar.gz tmp/ftw.referencewidget-4.0.0b2.tar.gz --markdown 20230531/f/ftw.referencewidget/4.0.0b1-4.0.0b2/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [health-calc-pack-py]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [health-calc-pack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/health_calc_pack_py-0.4.0.tar.gz tmp/health_calc_pack_py-0.4.1.tar.gz --markdown 20230531/h/health-calc-pack-py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/a1/3f/5686d753261e1e973ba1b870b963f30eef972a8d8c627cc4c9ea295757f7/aeppl-nightly-0.1.4.dev20230530.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-1.1.0.tar.gz tmp/ngscrape-1.2.0.tar.gz --markdown 20230531/n/ngscrape/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/15/cb/bda6101240768fdeeea9074c444a8f775fbc71572a64f79bea64bef22af3/ops-2.3.0.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [stellar-sdk-mini]: Downloading https://files.pythonhosted.org/packages/4c/7b/54ed8d6b90da16543479cbd9b249382565a126770cd037c780fcdb2b4a6c/stellar-sdk-mini-8.2.0.post2.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/ec/38/a0089565e18e891e22fc0f1c8f12d430d1e27802263a77df7c685883950c/pnsgraph-0.0.2-py3-none-any.whl
+[2023-05-31 02:39:33] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230529.tar.gz tmp/aeppl-nightly-0.1.4.dev20230530.tar.gz --markdown 20230531/a/aeppl-nightly/0.1.4.dev20230529-0.1.4.dev20230530/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ops]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.2.0.tar.gz tmp/ops-2.3.0.tar.gz --markdown 20230531/o/ops/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [stellar-sdk-mini]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [stellar-sdk-mini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar-sdk-mini-8.2.0.post1.tar.gz tmp/stellar-sdk-mini-8.2.0.post2.tar.gz --markdown 20230531/s/stellar-sdk-mini/8.2.0.post1-8.2.0.post2/diff.md --exclude *.pyd
+[2023-05-31 02:39:33] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/92/80/6d4e2f50c261cc4cb5fa4353ccd45f1d7b7602b143ddded759879ad0a6e7/py_basic_commands-0.2.24.tar.gz
+[2023-05-31 02:39:33] INFO root fetch - processPackages [pnsgraph]: executing diffoscope
+[2023-05-31 02:39:33] INFO root fetch - processPackages [pnsgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnsgraph-0.0.1.tar.gz tmp/pnsgraph-0.0.2-py3-none-any.whl.zip --markdown 20230531/p/pnsgraph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 02:39:34] INFO root fetch - processPackages [py-basic-commands]: executing diffoscope
+[2023-05-31 02:39:34] INFO root fetch - processPackages [py-basic-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_basic_commands-0.2.23.tar.gz tmp/py_basic_commands-0.2.24.tar.gz --markdown 20230531/p/py-basic-commands/0.2.23-0.2.24/diff.md --exclude *.pyd
+[2023-05-31 02:39:34] INFO root fetch - main [MainThread]: End processing [health-calc-pack-py]: success
+[2023-05-31 02:39:35] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-05-31 02:39:35] INFO root fetch - main [MainThread]: End processing [pnsgraph]: success
+[2023-05-31 02:39:35] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-05-31 02:39:35] INFO root fetch - processPackages [sematic]: Downloading https://files.pythonhosted.org/packages/6c/da/66aa52c982dd16ec61527b791f792948f173ec21d163d99374f27e06c2eb/sematic-0.9.0-py3-none-any.whl
+[2023-05-31 02:39:35] INFO root fetch - main [MainThread]: End processing [py-basic-commands]: success
+[2023-05-31 02:39:36] INFO root fetch - processPackages [sematic]: executing diffoscope
+[2023-05-31 02:39:36] INFO root fetch - processPackages [sematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sematic-0.8.0-py3-none-any.whl.zip tmp/sematic-0.9.0-py3-none-any.whl.zip --markdown 20230531/s/sematic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 02:39:37] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-31 02:39:37] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2023-05-31 02:39:37] INFO root fetch - main [MainThread]: End processing [ftw.referencewidget]: success
+[2023-05-31 02:39:39] INFO root fetch - main [MainThread]: End processing [stellar-sdk-mini]: success
+[2023-05-31 02:40:12] INFO root fetch - main [MainThread]: End processing [sematic]: success
+[2023-05-31 02:40:12] INFO root fetch - main [MainThread]: Store serial: [18309222]
