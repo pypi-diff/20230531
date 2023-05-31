@@ -1553,3 +1553,97 @@
 [2023-05-31 02:21:29] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-31 02:23:06] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-05-31 02:23:06] INFO root fetch - main [MainThread]: Store serial: [18309095]
+[2023-05-31 02:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309095]
+[2023-05-31 02:28:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selve-new
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aurora-globaldatabase
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tautulli
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mciwb
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-nag
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.ecs-codedeploy
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-index
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nrgpy
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dwiqc
+[2023-05-31 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama-index
+[2023-05-31 02:28:15] INFO root fetch - processPackages [tautulli]: New version: [3.3.0.2120] Old Version: [3.2.1.2120]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [mciwb]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [dwiqc]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [nrgpy]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-05-31 02:28:15] INFO root fetch - processPackages [nrgpy]: Downloading https://files.pythonhosted.org/packages/35/ac/85798ce65fdc88a31d7bb1707f718cdb4975a5b430fc77ca554ccf35c648/nrgpy-1.8.7-py3-none-any.whl
+[2023-05-31 02:28:15] INFO root fetch - processPackages [tautulli]: Downloading https://files.pythonhosted.org/packages/b5/c0/ec48eba9833531511ebb4f663d12526ec935d26597082b9a13b7510fefa0/tautulli-3.2.1.2120.tar.gz
+[2023-05-31 02:28:15] INFO root fetch - processPackages [mciwb]: Downloading https://files.pythonhosted.org/packages/9d/5c/2e3c5a3efba38049f5bf31e5e04b13aacc0fd16817063b18a41fb7529da5/mciwb-0.8.5.tar.gz
+[2023-05-31 02:28:15] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/9a/4f/2d76c1a400537dd155d190bea54353034d9ca0cf88b124b4c23106251085/dwiqc-0.3.7-py2.py3-none-any.whl
+[2023-05-31 02:28:15] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 02:28:15] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 02:28:15] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-31 02:28:15] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.3.6-py2.py3-none-any.whl.zip tmp/dwiqc-0.3.7-py2.py3-none-any.whl.zip --markdown 20230531/d/dwiqc/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230531/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230531/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [tautulli]: Downloading https://files.pythonhosted.org/packages/92/5d/451c05b23524677e1891a11ee9b35dfe0ceba264eb476e32aaef0e977ffa/tautulli-3.3.0.2120.tar.gz
+[2023-05-31 02:28:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230531/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230531/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [nrgpy]: Downloading https://files.pythonhosted.org/packages/da/87/a4214b1d38f1124d51e4b7052cd6fdbcb23bd668d453372784b3a95f020a/nrgpy-1.8.8-py3-none-any.whl
+[2023-05-31 02:28:16] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230531/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [tautulli]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [tautulli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tautulli-3.2.1.2120.tar.gz tmp/tautulli-3.3.0.2120.tar.gz --markdown 20230531/t/tautulli/3.2.1.2120-3.3.0.2120/diff.md --exclude *.pyd
+[2023-05-31 02:28:16] INFO root fetch - processPackages [nrgpy]: executing diffoscope
+[2023-05-31 02:28:16] INFO root fetch - processPackages [nrgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrgpy-1.8.7-py3-none-any.whl.zip tmp/nrgpy-1.8.8-py3-none-any.whl.zip --markdown 20230531/n/nrgpy/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-05-31 02:28:17] INFO root fetch - processPackages [mciwb]: Downloading https://files.pythonhosted.org/packages/ea/fe/2e294e9974e0bf5e7d0735eb457bcc8d4dead3ae6998f7f86031aff311a7/mciwb-0.8.6.tar.gz
+[2023-05-31 02:28:17] INFO root fetch - processPackages [mciwb]: executing diffoscope
+[2023-05-31 02:28:17] INFO root fetch - processPackages [mciwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mciwb-0.8.5.tar.gz tmp/mciwb-0.8.6.tar.gz --markdown 20230531/m/mciwb/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-05-31 02:28:17] INFO root fetch - processPackages [dwiqc]: Start processing: cdk-cr-constructs
+[2023-05-31 02:28:17] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: hledger-args
+[2023-05-31 02:28:17] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-05-31 02:28:17] INFO root fetch - processPackages [hledger-args]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-31 02:28:17] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: cdk-docker-image-deployment
+[2023-05-31 02:28:17] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230531/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 02:28:17] INFO root fetch - processPackages [python-selve-new]: Start processing: cdk-serverless-clamscan
+[2023-05-31 02:28:17] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-05-31 02:28:17] INFO root fetch - processPackages [nrgpy]: Start processing: msl09-yesno
+[2023-05-31 02:28:17] INFO root fetch - main [MainThread]: End processing [nrgpy]: success
+[2023-05-31 02:28:17] INFO root fetch - processPackages [hledger-args]: Downloading https://files.pythonhosted.org/packages/6c/c1/8676e7c736fdb604e510e11f9e7ca3cc8e090c7b11689f2f85e6e3a72a69/hledger_args-0.1.0.tar.gz
+[2023-05-31 02:28:17] WARNING root fetch - processPackages [msl09-yesno]: Skipping, unable to determine old version
+[2023-05-31 02:28:17] INFO root fetch - processPackages [msl09-yesno]: Start processing: cdk8s-image
+[2023-05-31 02:28:17] INFO root fetch - main [MainThread]: End processing [msl09-yesno] error
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-05-31 02:28:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230531/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-05-31 02:28:17] INFO root fetch - processPackages [hledger-args]: executing diffoscope
+[2023-05-31 02:28:17] INFO root fetch - processPackages [hledger-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hledger_args-0.0.8.tar.gz tmp/hledger_args-0.1.0.tar.gz --markdown 20230531/h/hledger-args/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 02:28:18] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-05-31 02:28:18] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230531/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-31 02:28:18] INFO root fetch - processPackages [tautulli]: Start processing: cdk-certbot-dns-route53
+[2023-05-31 02:28:18] INFO root fetch - main [MainThread]: End processing [tautulli]: success
+[2023-05-31 02:28:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-31 02:28:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-31 02:28:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230531/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [hledger-args]: success
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-05-31 02:28:19] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-05-31 02:28:20] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-31 02:28:20] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-31 02:28:23] INFO root fetch - main [MainThread]: End processing [mciwb]: success
+[2023-05-31 02:28:23] INFO root fetch - main [MainThread]: Store serial: [18309144]
