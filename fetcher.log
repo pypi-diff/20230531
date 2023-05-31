@@ -15814,3 +15814,176 @@
 [2023-05-31 15:14:09] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-31 15:14:33] INFO root fetch - main [MainThread]: End processing [ora2]: success
 [2023-05-31 15:14:33] INFO root fetch - main [MainThread]: Store serial: [18317164]
+[2023-05-31 15:19:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317164]
+[2023-05-31 15:19:45] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragger
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thipster
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memory-graph
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-ui
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.util
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-v4-service
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline
+[2023-05-31 15:19:45] INFO root fetch - processPackages [ragger]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [thipster]: New version: [0.13.6] Old Version: [0.13.5]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [dissect.util]: New version: [3.9.dev1] Old Version: [3.8.dev3]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [memory-graph]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 15:19:45] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/37/04/7a059f488bb3422d7c5b606beaa4a1d3870622612107df778a85f35e273c/thipster-0.13.5.tar.gz
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230531/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-31 15:19:45] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 15:19:45] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/df/e7/77c371a0a2b0168f06062005f130c1aa6db03164e32028d0396d1349fbf5/dissect.util-3.9.dev1.tar.gz
+[2023-05-31 15:19:46] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/8d/15/712b5fa4304cc36404f1f0a983f42bdff3d2545476dcfef200a90ce1c9c0/thipster-0.13.6.tar.gz
+[2023-05-31 15:19:46] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/0d/12/e7cdbd59337d1bade3d3295827141a41afb0a646de4a603bd244e7f13863/ragger-1.8.2.tar.gz
+[2023-05-31 15:19:46] INFO root fetch - processPackages [memory-graph]: executing diffoscope
+[2023-05-31 15:19:46] INFO root fetch - processPackages [memory-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_graph-0.1.8.tar.gz tmp/memory_graph-0.1.9.tar.gz --markdown 20230531/m/memory-graph/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 15:19:46] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-31 15:19:46] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230531/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:19:46] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-05-31 15:19:46] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.8.1.tar.gz tmp/ragger-1.8.2.tar.gz --markdown 20230531/r/ragger/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-31 15:19:46] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-05-31 15:19:46] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.8.dev3.tar.gz tmp/dissect.util-3.9.dev1.tar.gz --markdown 20230531/d/dissect.util/3.8.dev3-3.9.dev1/diff.md --exclude *.pyd
+[2023-05-31 15:19:46] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-31 15:19:46] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.13.5.tar.gz tmp/thipster-0.13.6.tar.gz --markdown 20230531/t/thipster/0.13.5-0.13.6/diff.md --exclude *.pyd
+[2023-05-31 15:19:47] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-31 15:19:47] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 15:19:47] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: jdAppStreamEdit
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-31 15:19:47] WARNING root fetch - processPackages [jdAppStreamEdit]: Skipping, unable to determine old version
+[2023-05-31 15:19:47] INFO root fetch - processPackages [jdAppStreamEdit]: Start processing: nbdev-sphinx
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [jdAppStreamEdit] error
+[2023-05-31 15:19:47] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-31 15:19:47] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230531/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 15:19:47] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 15:19:47] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-31 15:19:47] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230531/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:19:47] INFO root fetch - processPackages [assemblyline-ui]: Start processing: apify-client
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-31 15:19:47] INFO root fetch - processPackages [apify-client]: New version: [1.2.2b1] Old Version: [1.2.1b2]
+[2023-05-31 15:19:47] INFO root fetch - processPackages [memory-graph]: Start processing: chartgpt
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [memory-graph]: success
+[2023-05-31 15:19:47] WARNING root fetch - processPackages [chartgpt]: Skipping, unable to determine old version
+[2023-05-31 15:19:47] INFO root fetch - processPackages [chartgpt]: Start processing: quickBayes
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [chartgpt] error
+[2023-05-31 15:19:47] INFO root fetch - processPackages [quickBayes]: New version: [1.0.0b8] Old Version: [1.0.0b7]
+[2023-05-31 15:19:47] INFO root fetch - processPackages [thipster]: Start processing: minet
+[2023-05-31 15:19:47] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-31 15:19:47] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-31 15:19:48] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/bf/2e/98a5b2b35ecada0715e0bd1e80b205ddab1db8ed8754d0f86025622ce538/quickBayes-1.0.0b7-cp38-cp38-win_amd64.whl
+[2023-05-31 15:19:48] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/de/37/e8abea8877dd2c5e595dd40e0c695f0fe014afd5189312c066cf6c918f0e/apify_client-1.2.2b1.tar.gz
+[2023-05-31 15:19:48] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-31 15:19:48] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.2.1b2.tar.gz tmp/apify_client-1.2.2b1.tar.gz --markdown 20230531/a/apify-client/1.2.1b2-1.2.2b1/diff.md --exclude *.pyd
+[2023-05-31 15:19:48] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-31 15:19:48] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230531/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-31 15:19:48] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: odoo14-addon-community-maps
+[2023-05-31 15:19:48] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-31 15:19:48] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.6.dev1] Old Version: [14.0.0.1.4]
+[2023-05-31 15:19:48] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: etsy-apiv3
+[2023-05-31 15:19:48] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-31 15:19:48] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/8b/eb/c50405c59fb78eb821b0d3f2b6b32b33666e3008d84329a5475e7ce714ea/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl
+[2023-05-31 15:19:48] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-05-31 15:19:48] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/70/8a/230c4363d5e5a09eab3d3e99e4e1122334db5ebd5d1534baf9ebd5c0be33/odoo14_addon_community_maps-14.0.0.1.6.dev1-py3-none-any.whl
+[2023-05-31 15:19:48] INFO root fetch - processPackages [quickBayes]: executing diffoscope
+[2023-05-31 15:19:48] INFO root fetch - processPackages [quickBayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickBayes-1.0.0b7-cp38-cp38-win_amd64.whl.zip tmp/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl.zip --markdown 20230531/q/quickBayes/1.0.0b7-1.0.0b8/diff.md --exclude *.pyd
+[2023-05-31 15:19:49] INFO root fetch - processPackages [nbdev-scipy]: Start processing: nbdev-django
+[2023-05-31 15:19:49] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-31 15:19:49] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 15:19:49] INFO root fetch - processPackages [dissect.util]: Start processing: acquire
+[2023-05-31 15:19:49] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-05-31 15:19:49] INFO root fetch - processPackages [acquire]: New version: [3.7.dev1] Old Version: [3.6.dev9]
+[2023-05-31 15:19:49] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-05-31 15:19:49] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.4-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.6.dev1-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-community-maps/14.0.0.1.4-14.0.0.1.6.dev1/diff.md --exclude *.pyd
+[2023-05-31 15:19:49] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/7b/91/df75bdca4186dcb2264ccdfe8b330a12707683b6898375c117112bfa61f7/etsy-apiv3-1.8.5.tar.gz
+[2023-05-31 15:19:49] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-31 15:19:49] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230531/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:19:49] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-31 15:19:49] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.4.tar.gz tmp/etsy-apiv3-1.8.5.tar.gz --markdown 20230531/e/etsy-apiv3/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-05-31 15:19:49] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/a9/cd/21f4574080160684fc03e90f5c66073b5bd5e68bdd7e77fd1844b13352fc/acquire-3.7.dev1.tar.gz
+[2023-05-31 15:19:49] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-05-31 15:19:49] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.6.dev9.tar.gz tmp/acquire-3.7.dev1.tar.gz --markdown 20230531/a/acquire/3.6.dev9-3.7.dev1/diff.md --exclude *.pyd
+[2023-05-31 15:19:49] INFO root fetch - processPackages [apify-client]: Start processing: thipster
+[2023-05-31 15:19:49] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-31 15:19:49] INFO root fetch - processPackages [thipster]: New version: [0.13.6] Old Version: [0.13.5]
+[2023-05-31 15:19:49] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-31 15:19:49] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.13.5.tar.gz tmp/thipster-0.13.6.tar.gz --markdown 20230531/t/thipster/0.13.5-0.13.6/diff.md --exclude *.pyd
+[2023-05-31 15:19:50] INFO root fetch - processPackages [quickBayes]: Start processing: wikimedia-spicerack
+[2023-05-31 15:19:50] INFO root fetch - main [MainThread]: End processing [quickBayes]: success
+[2023-05-31 15:19:50] INFO root fetch - processPackages [ragger]: Start processing: SunshineDB
+[2023-05-31 15:19:50] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-05-31 15:19:50] INFO root fetch - processPackages [wikimedia-spicerack]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-05-31 15:19:50] WARNING root fetch - processPackages [SunshineDB]: Skipping, unable to determine old version
+[2023-05-31 15:19:50] INFO root fetch - processPackages [SunshineDB]: Start processing: starrailres
+[2023-05-31 15:19:50] INFO root fetch - main [MainThread]: End processing [SunshineDB] error
+[2023-05-31 15:19:50] INFO root fetch - processPackages [assemblyline]: Start processing: vadvergasov-serialization
+[2023-05-31 15:19:50] INFO root fetch - processPackages [starrailres]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 15:19:50] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-31 15:19:50] INFO root fetch - processPackages [vadvergasov-serialization]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-31 15:19:51] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/db/47/594d10f07516aa3b86c748a29f192508dd9f2c1163c7dcc6afaf1e09a2bd/starrailres-1.0.0.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/fc/41/cd2edc70631384ee3bb400cafb128b3e9c64d815e99d86b3e68a85e40611/wikimedia-spicerack-7.1.0.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [vadvergasov-serialization]: Downloading https://files.pythonhosted.org/packages/2c/16/a1254d29c2d95b40d0e2f1d7b6b462e14661ffd7719b3f19903c0f3659e6/vadvergasov_serialization-1.0.0.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [odoo14-addon-community-maps]: Start processing: punch-api
+[2023-05-31 15:19:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-05-31 15:19:51] INFO root fetch - processPackages [punch-api]: New version: [8.1.dev0] Old Version: [8.1.3]
+[2023-05-31 15:19:51] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/f2/5e/854acee5493b3e17794c67d680c3b48d0c2d2bf88d9e1d3e168e437aa917/starrailres-1.0.1.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [acquire]: Start processing: nbdev-apl
+[2023-05-31 15:19:51] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-05-31 15:19:51] INFO root fetch - processPackages [vadvergasov-serialization]: Downloading https://files.pythonhosted.org/packages/fb/0b/c0046c7f3495a4ddc98fd98a116002abd3b0e247d7ff04c07f51892fc69a/vadvergasov_serialization-1.1.0.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [punch-api]: Downloading https://files.pythonhosted.org/packages/76/d3/be2d0f76fff031feac897a1be5176a0a8aa89fe7eca7b180d0150997e319/punch_api-8.1.3.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.806] Old Version: [0.0.805]
+[2023-05-31 15:19:51] INFO root fetch - processPackages [starrailres]: executing diffoscope
+[2023-05-31 15:19:51] INFO root fetch - processPackages [starrailres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailres-1.0.0.tar.gz tmp/starrailres-1.0.1.tar.gz --markdown 20230531/s/starrailres/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 15:19:51] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/04/d5/66cdcc3914d899f977b850bdc1710139eea793ad600e8f37275d10d76771/wikimedia-spicerack-7.2.0.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [vadvergasov-serialization]: executing diffoscope
+[2023-05-31 15:19:51] INFO root fetch - processPackages [vadvergasov-serialization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vadvergasov_serialization-1.0.0.tar.gz tmp/vadvergasov_serialization-1.1.0.tar.gz --markdown 20230531/v/vadvergasov-serialization/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 15:19:51] INFO root fetch - processPackages [thipster]: Start processing: orbit-component-base
+[2023-05-31 15:19:51] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-31 15:19:51] INFO root fetch - processPackages [wikimedia-spicerack]: executing diffoscope
+[2023-05-31 15:19:51] INFO root fetch - processPackages [wikimedia-spicerack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikimedia-spicerack-7.1.0.tar.gz tmp/wikimedia-spicerack-7.2.0.tar.gz --markdown 20230531/w/wikimedia-spicerack/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-05-31 15:19:51] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/a6/83/8cd2a36e3a645e300f396be234d888cec84a9285b4e53f37e5bac5bd4c8b/nbdev-apl-0.0.806.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [minet]: Start processing: titan-iris
+[2023-05-31 15:19:51] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-31 15:19:51] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-31 15:19:51] INFO root fetch - processPackages [orbit-component-base]: New version: [0.99.5] Old Version: [0.99.2]
+[2023-05-31 15:19:51] INFO root fetch - processPackages [punch-api]: Downloading https://files.pythonhosted.org/packages/5d/c8/804f4678e38ff304071fd1cac7ff16e5375605bfc6e8083683477555c129/punch_api-8.1.dev0.tar.gz
+[2023-05-31 15:19:51] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-31 15:19:51] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.805.tar.gz tmp/nbdev-apl-0.0.806.tar.gz --markdown 20230531/n/nbdev-apl/0.0.805-0.0.806/diff.md --exclude *.pyd
+[2023-05-31 15:19:51] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-31 15:19:51] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230531/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-31 15:19:51] INFO root fetch - processPackages [punch-api]: executing diffoscope
+[2023-05-31 15:19:51] INFO root fetch - processPackages [punch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punch_api-8.1.3.tar.gz tmp/punch_api-8.1.dev0.tar.gz --markdown 20230531/p/punch-api/8.1.3-8.1.dev0/diff.md --exclude *.pyd
+[2023-05-31 15:19:51] INFO root fetch - processPackages [etsy-apiv3]: Start processing: orbit-component-vcheck
+[2023-05-31 15:19:51] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/ce/0c/866e6f2ae61281401d152d7404ddbf6ee1b6a361ce8369ff837d11af743d/orbit_component_base-0.99.5.tar.gz
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-vcheck]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-0.99.2.tar.gz tmp/orbit_component_base-0.99.5.tar.gz --markdown 20230531/o/orbit-component-base/0.99.2-0.99.5/diff.md --exclude *.pyd
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-vcheck]: Downloading https://files.pythonhosted.org/packages/4e/55/321de96d7c8260320b71e81ce5353282fdad8c048a7d15a3a0fc65593e56/orbit_component_vcheck-1.0.2.tar.gz
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-vcheck]: executing diffoscope
+[2023-05-31 15:19:52] INFO root fetch - processPackages [orbit-component-vcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_vcheck-1.0.1.tar.gz tmp/orbit_component_vcheck-1.0.2.tar.gz --markdown 20230531/o/orbit-component-vcheck/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 15:19:52] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-31 15:19:52] INFO root fetch - main [MainThread]: End processing [starrailres]: success
+[2023-05-31 15:19:53] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-31 15:19:53] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-31 15:19:53] INFO root fetch - main [MainThread]: End processing [punch-api]: success
+[2023-05-31 15:19:53] INFO root fetch - main [MainThread]: End processing [vadvergasov-serialization]: success
+[2023-05-31 15:19:53] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-05-31 15:19:53] INFO root fetch - main [MainThread]: End processing [orbit-component-vcheck]: success
+[2023-05-31 15:19:56] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
+[2023-05-31 15:20:35] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-31 15:20:35] INFO root fetch - main [MainThread]: Store serial: [18317258]
