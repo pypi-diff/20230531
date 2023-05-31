@@ -22828,3 +22828,105 @@
 [2023-05-31 21:30:03] INFO root fetch - main [MainThread]: End processing [osism]: success
 [2023-05-31 21:30:05] INFO root fetch - main [MainThread]: End processing [acryl-datahub-tc]: success
 [2023-05-31 21:30:05] INFO root fetch - main [MainThread]: Store serial: [18321437]
+[2023-05-31 21:35:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321437]
+[2023-05-31 21:35:15] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awscli
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boto3
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-config
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-ai
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autora-experimentalist-sampler-inequality
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autovf
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autora-experiment-runner-experimentation-manager-firebase
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnschema_core
+[2023-05-31 21:35:15] WARNING root fetch - processPackages [autora-experimentalist-sampler-inequality]: Skipping, unable to determine old version
+[2023-05-31 21:35:15] INFO root fetch - processPackages [autora-experimentalist-sampler-inequality]: Start processing: HanLabImport
+[2023-05-31 21:35:15] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-inequality] error
+[2023-05-31 21:35:15] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.702] Old Version: [0.0.701]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [ovos-config]: New version: [0.0.9a6] Old Version: [0.0.9a5]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [autovf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-31 21:35:15] WARNING root fetch - processPackages [HanLabImport]: Skipping, unable to determine old version
+[2023-05-31 21:35:15] INFO root fetch - processPackages [HanLabImport]: Start processing: regolith-json-template
+[2023-05-31 21:35:15] INFO root fetch - main [MainThread]: End processing [HanLabImport] error
+[2023-05-31 21:35:15] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-31 21:35:15] INFO root fetch - processPackages [regolith-json-template]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-31 21:35:16] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/9d/5e/3f488fe267a4a7d515a5a59e51484fad557ae20a56e84c2ba9b36f69c254/abstract_ai-0.0.701.tar.gz
+[2023-05-31 21:35:16] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230531/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.0a3.tar.gz tmp/autora-experiment-runner-experimentation-manager-firebase-1.0.0a4.tar.gz --markdown 20230531/a/autora-experiment-runner-experimentation-manager-firebase/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [autovf]: Downloading https://files.pythonhosted.org/packages/cf/02/6b22ddb665b69957e15ea92d4c010f80cdbabe910bd9940ce2643aa0286d/autovf-0.0.4.tar.gz
+[2023-05-31 21:35:16] INFO root fetch - processPackages [regolith-json-template]: Downloading https://files.pythonhosted.org/packages/1b/9d/3be6a303e2572c3d1418614e412443f82c98492b3bbe8b5c49aa6c53176f/regolith-json-template-1.0.0.tar.gz
+[2023-05-31 21:35:16] INFO root fetch - processPackages [autovf]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [autovf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autovf-0.0.3-py3-none-any.whl.zip tmp/autovf-0.0.4.tar.gz --markdown 20230531/a/autovf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-config-0.0.9a5.tar.gz tmp/ovos-config-0.0.9a6.tar.gz --markdown 20230531/o/ovos-config/0.0.9a5-0.0.9a6/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/6a/b0/cced8a1a1e676fda5a49aa2d11e0e65eedaf58588af1aa2ddb1cf3b0c486/abstract_ai-0.0.702.tar.gz
+[2023-05-31 21:35:16] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230531/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230531/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230531/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230531/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [regolith-json-template]: Downloading https://files.pythonhosted.org/packages/00/5c/dd901f84e188aa01a4ba14529f617954461484b8a64e1a9f843f0303bcbf/regolith-json-template-1.1.0.tar.gz
+[2023-05-31 21:35:16] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.701.tar.gz tmp/abstract_ai-0.0.702.tar.gz --markdown 20230531/a/abstract-ai/0.0.701-0.0.702/diff.md --exclude *.pyd
+[2023-05-31 21:35:16] INFO root fetch - processPackages [regolith-json-template]: executing diffoscope
+[2023-05-31 21:35:16] INFO root fetch - processPackages [regolith-json-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regolith-json-template-1.0.0.tar.gz tmp/regolith-json-template-1.1.0.tar.gz --markdown 20230531/r/regolith-json-template/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 21:35:17] INFO root fetch - processPackages [autora-experiment-runner-experimentation-manager-firebase]: Start processing: abstract-ai
+[2023-05-31 21:35:17] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-experimentation-manager-firebase]: success
+[2023-05-31 21:35:17] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.703] Old Version: [0.0.702]
+[2023-05-31 21:35:17] INFO root fetch - processPackages [autovf]: Start processing: circuitpython-display-ht16k33
+[2023-05-31 21:35:17] INFO root fetch - main [MainThread]: End processing [autovf]: success
+[2023-05-31 21:35:17] INFO root fetch - processPackages [circuitpython-display-ht16k33]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 21:35:17] INFO root fetch - processPackages [circuitpython-display-ht16k33]: Downloading https://files.pythonhosted.org/packages/fa/77/74468afdafb1fb634b64834e03593816807357641d5139bccf2280578ff5/circuitpython-display_ht16k33-0.3.0.tar.gz
+[2023-05-31 21:35:17] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/3b/71/03583ccb0d5854ec0e4969f2774ac70664f23cc7df417870d96c00aaea69/abstract_ai-0.0.703.tar.gz
+[2023-05-31 21:35:18] INFO root fetch - processPackages [ovos-config]: Start processing: opvious
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-05-31 21:35:18] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 21:35:18] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.702.tar.gz tmp/abstract_ai-0.0.703.tar.gz --markdown 20230531/a/abstract-ai/0.0.702-0.0.703/diff.md --exclude *.pyd
+[2023-05-31 21:35:18] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 21:35:18] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-31 21:35:18] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230531/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 21:35:18] INFO root fetch - processPackages [abstract-ai]: Start processing: ploomes-api-client
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 21:35:18] INFO root fetch - processPackages [circuitpython-display-ht16k33]: Downloading https://files.pythonhosted.org/packages/df/26/71e7a05ce402dc770eb65073f8d821b64a3ac5208b75d549117a3ee52b93/circuitpython-display_ht16k33-0.4.0.tar.gz
+[2023-05-31 21:35:18] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-31 21:35:18] INFO root fetch - processPackages [cloud-governance]: Start processing: enetython
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-31 21:35:18] WARNING root fetch - processPackages [enetython]: Skipping, unable to determine old version
+[2023-05-31 21:35:18] INFO root fetch - processPackages [enetython]: Start processing: MicrosoftGraphAPI
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [enetython] error
+[2023-05-31 21:35:18] INFO root fetch - processPackages [circuitpython-display-ht16k33]: executing diffoscope
+[2023-05-31 21:35:18] INFO root fetch - processPackages [circuitpython-display-ht16k33]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-display_ht16k33-0.3.0.tar.gz tmp/circuitpython-display_ht16k33-0.4.0.tar.gz --markdown 20230531/c/circuitpython-display-ht16k33/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 21:35:18] WARNING root fetch - processPackages [MicrosoftGraphAPI]: Skipping, unable to determine old version
+[2023-05-31 21:35:18] INFO root fetch - processPackages [MicrosoftGraphAPI]: Start processing: catencfamily
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [MicrosoftGraphAPI] error
+[2023-05-31 21:35:18] WARNING root fetch - processPackages [catencfamily]: Skipping, unable to determine old version
+[2023-05-31 21:35:18] INFO root fetch - processPackages [catencfamily]: Start processing: abstract-ai
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [catencfamily] error
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-31 21:35:18] INFO root fetch - main [MainThread]: End processing [regolith-json-template]: success
+[2023-05-31 21:35:18] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.703] Old Version: [0.0.702]
+[2023-05-31 21:35:18] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/a3/58/fa6fbcce2764a014e92d822e08f294c6ee7e9d664de21a9fb8e6d05cbe33/ploomes-api-client-0.1.5.tar.gz
+[2023-05-31 21:35:18] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 21:35:18] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.702.tar.gz tmp/abstract_ai-0.0.703.tar.gz --markdown 20230531/a/abstract-ai/0.0.702-0.0.703/diff.md --exclude *.pyd
+[2023-05-31 21:35:18] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-05-31 21:35:18] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.3.tar.gz tmp/ploomes-api-client-0.1.5.tar.gz --markdown 20230531/p/ploomes-api-client/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 21:35:19] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-05-31 21:35:19] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 21:35:19] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 21:35:19] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-05-31 21:35:20] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-31 21:35:20] INFO root fetch - main [MainThread]: End processing [circuitpython-display-ht16k33]: success
+[2023-05-31 21:35:30] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-31 21:35:37] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-31 21:35:37] INFO root fetch - main [MainThread]: Store serial: [18321505]
