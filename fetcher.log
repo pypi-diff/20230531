@@ -19795,3 +19795,65 @@
 [2023-05-31 17:58:36] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2023-05-31 17:58:37] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-31 17:58:37] INFO root fetch - main [MainThread]: Store serial: [18319554]
+[2023-05-31 18:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319554]
+[2023-05-31 18:03:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitorch
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fb-tools
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: servicefoundry
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlfoundry
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ia-sdk
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metaphor-connectors
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ilib
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LinSATNet
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypgstac
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: voltha-protos
+[2023-05-31 18:03:46] INFO root fetch - processPackages [fb-tools]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [unitorch]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.2] Old Version: [0.9.1rc1]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [pypgstac]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [mlfoundry]: New version: [0.8.1] Old Version: [0.8.0rc4]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [ilib]: New version: [0.2] Old Version: [0.1.1]
+[2023-05-31 18:03:46] WARNING root fetch - processPackages [LinSATNet]: Skipping, unable to determine old version
+[2023-05-31 18:03:46] INFO root fetch - processPackages [LinSATNet]: Start processing: anyGPT
+[2023-05-31 18:03:46] INFO root fetch - processPackages [pypgstac]: executing diffoscope
+[2023-05-31 18:03:46] INFO root fetch - main [MainThread]: End processing [LinSATNet] error
+[2023-05-31 18:03:46] INFO root fetch - processPackages [pypgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypgstac-0.7.7.tar.gz tmp/pypgstac-0.7.8.tar.gz --markdown 20230531/p/pypgstac/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-31 18:03:46] INFO root fetch - processPackages [voltha-protos]: New version: [5.4.4] Old Version: [5.4.3]
+[2023-05-31 18:03:46] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/46/19/35dc7c96443ee231532e8411dc202403a4af30694cb04e0146914349faf5/unitorch-0.0.0.1.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/e8/6f/82f69a0143f3f693e3e98d5722957f70345b2071719a3e3cd906d64bf143/fb_tools-2.2.2.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230531/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] WARNING root fetch - processPackages [anyGPT]: Skipping, unable to determine old version
+[2023-05-31 18:03:47] INFO root fetch - main [MainThread]: End processing [anyGPT] error
+[2023-05-31 18:03:47] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/db/e0/b4b1984bf48be927570a57ef8f451594e03065c3707c47f28eb78d0792e3/servicefoundry-0.9.2.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230531/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/86/c5/8b8344ac77a364c024fe89e086d047b05e9fe69a64321626b2cd9605955d/mlfoundry-0.8.1.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/6f/86/aa4fa549eb2a90fdf0fa2f9e4767126b06b7f8bb266f38cfd03bbe2edc1a/unitorch-0.0.0.2.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [voltha-protos]: Downloading https://files.pythonhosted.org/packages/ed/86/a15e1a017598c9ff83a2882780f92aafea1656b4d2969e0bc191c6a7e255/voltha-protos-5.4.4.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/bc/b2/9cec4bbccfd640e0b8ebf91c91f1ff01d8a05deb2c69c35ccf3ab47211de/fb_tools-2.2.3.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.1rc1.tar.gz tmp/servicefoundry-0.9.2.tar.gz --markdown 20230531/s/servicefoundry/0.9.1rc1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] INFO root fetch - processPackages [ilib]: Downloading https://files.pythonhosted.org/packages/51/8a/b1cdce023f0f9da1e4764eba5e55e5cf2467993d6f1d892973029d16d549/ilib-0.2.tar.gz
+[2023-05-31 18:03:47] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.8.0rc4.tar.gz tmp/mlfoundry-0.8.1.tar.gz --markdown 20230531/m/mlfoundry/0.8.0rc4-0.8.1/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] INFO root fetch - processPackages [unitorch]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [unitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitorch-0.0.0.1.tar.gz tmp/unitorch-0.0.0.2.tar.gz --markdown 20230531/u/unitorch/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] INFO root fetch - processPackages [fb-tools]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [fb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_tools-2.2.2.tar.gz tmp/fb_tools-2.2.3.tar.gz --markdown 20230531/f/fb-tools/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] INFO root fetch - processPackages [voltha-protos]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [voltha-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltha-protos-5.4.3.tar.gz tmp/voltha-protos-5.4.4.tar.gz --markdown 20230531/v/voltha-protos/5.4.3-5.4.4/diff.md --exclude *.pyd
+[2023-05-31 18:03:47] INFO root fetch - processPackages [ilib]: executing diffoscope
+[2023-05-31 18:03:47] INFO root fetch - processPackages [ilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilib-0.1.1.tar.gz tmp/ilib-0.2.tar.gz --markdown 20230531/i/ilib/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-05-31 18:03:48] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-05-31 18:03:48] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-31 18:03:49] INFO root fetch - main [MainThread]: End processing [ilib]: success
+[2023-05-31 18:03:49] INFO root fetch - main [MainThread]: End processing [pypgstac]: success
+[2023-05-31 18:03:49] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-05-31 18:03:49] INFO root fetch - main [MainThread]: End processing [fb-tools]: success
+[2023-05-31 18:03:50] INFO root fetch - main [MainThread]: End processing [unitorch]: success
+[2023-05-31 18:03:51] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-05-31 18:03:51] INFO root fetch - main [MainThread]: End processing [voltha-protos]: success
+[2023-05-31 18:03:51] INFO root fetch - main [MainThread]: Store serial: [18319592]
