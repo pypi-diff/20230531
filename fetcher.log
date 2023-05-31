@@ -12987,3 +12987,68 @@
 [2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [ghas-cli]: success
 [2023-05-31 12:52:14] INFO root fetch - main [MainThread]: End processing [binarycpython]: success
 [2023-05-31 12:52:14] INFO root fetch - main [MainThread]: Store serial: [18315516]
+[2023-05-31 12:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315516]
+[2023-05-31 12:57:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funcs
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: folint
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: misp-feed-manager
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wtpsplit
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mltlk
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arxivai
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phc-ingestion
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Python-Road
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bubble-sdk
+[2023-05-31 12:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: locust
+[2023-05-31 12:57:23] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [funcs]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [bubble-sdk]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-05-31 12:57:23] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230531/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-31 12:57:23] WARNING root fetch - processPackages [wtpsplit]: Skipping, unable to determine old version
+[2023-05-31 12:57:23] INFO root fetch - processPackages [wtpsplit]: Start processing: slcl1butils
+[2023-05-31 12:57:23] INFO root fetch - processPackages [Python-Road]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [folint]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 12:57:23] INFO root fetch - main [MainThread]: End processing [wtpsplit] error
+[2023-05-31 12:57:23] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [misp-feed-manager]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.9.2] Old Version: [2023.5.9]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.28] Old Version: [0.3.27]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-31 12:57:23] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.9.tar.gz tmp/slcl1butils-2023.5.9.2.tar.gz --markdown 20230531/s/slcl1butils/2023.5.9-2023.5.9.2/diff.md --exclude *.pyd
+[2023-05-31 12:57:23] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-31 12:57:23] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230531/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:57:23] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-05-31 12:57:23] INFO root fetch - processPackages [folint]: Downloading https://files.pythonhosted.org/packages/35/62/ce6fd2cb276c338de8eb6a560bc3438c5b78117e2d57b0582757c49cc9ab/folint-1.0.4.tar.gz
+[2023-05-31 12:57:23] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/06/ff/1dc1cf2b68c47a2abb973acdfbd3581d82b3031b3bedd9e63571260c0946/bubble-sdk-0.1.2.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [misp-feed-manager]: Downloading https://files.pythonhosted.org/packages/66/60/43597a65ad0af0f8621ff60a06086f7b36c17b4907df76e54bfc6bb932e7/misp-feed-manager-0.2.8.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/5f/e8/5276a8b6923dca7059f6ecd1509441407762e5389ea73b886d589f974088/funcs-0.8.0.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/5c/e2/dc2d831d63b31efd169a495e37d565bd346afd9ef1189060407c278fc8b2/phc-ingestion-0.3.28.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [Python-Road]: Downloading https://files.pythonhosted.org/packages/e4/0f/d8c8aaaa36b64be225c525a49d66aeeb8b141d891effa179ed6824211450/Python_Road-0.0.0.4.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.7.1.tar.gz tmp/funcs-0.8.0.tar.gz --markdown 20230531/f/funcs/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-31 12:57:24] INFO root fetch - processPackages [folint]: Downloading https://files.pythonhosted.org/packages/79/7d/800858b49ff48cce8f1a845a23e860f55204cdcc83362bd31243ad1edf01/folint-1.0.5.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/4c/11/9e466b7ff5eeb26c4ba68a2b92f8aa9414174899fe9ece7e50242f581c1f/bubble-sdk-0.1.5.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [Python-Road]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [Python-Road]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Road-0.0.0.3.tar.gz tmp/Python_Road-0.0.0.4.tar.gz --markdown 20230531/P/Python-Road/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-05-31 12:57:24] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [folint]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.27.tar.gz tmp/phc-ingestion-0.3.28.tar.gz --markdown 20230531/p/phc-ingestion/0.3.27-0.3.28/diff.md --exclude *.pyd
+[2023-05-31 12:57:24] INFO root fetch - processPackages [folint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folint-1.0.4.tar.gz tmp/folint-1.0.5.tar.gz --markdown 20230531/f/folint/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-31 12:57:24] INFO root fetch - processPackages [misp-feed-manager]: Downloading https://files.pythonhosted.org/packages/81/66/40a8e47679d9cf47c8d05ad244c4bd17e4a4e7ea2e7dac1553e49e25f421/misp-feed-manager-0.2.9.tar.gz
+[2023-05-31 12:57:24] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230531/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-05-31 12:57:24] INFO root fetch - processPackages [misp-feed-manager]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [misp-feed-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misp-feed-manager-0.2.8.tar.gz tmp/misp-feed-manager-0.2.9.tar.gz --markdown 20230531/m/misp-feed-manager/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 12:57:24] INFO root fetch - processPackages [bubble-sdk]: executing diffoscope
+[2023-05-31 12:57:24] INFO root fetch - processPackages [bubble-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubble-sdk-0.1.2.tar.gz tmp/bubble-sdk-0.1.5.tar.gz --markdown 20230531/b/bubble-sdk/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 12:57:25] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-31 12:57:25] INFO root fetch - main [MainThread]: End processing [Python-Road]: success
+[2023-05-31 12:57:25] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-05-31 12:57:26] INFO root fetch - main [MainThread]: End processing [misp-feed-manager]: success
+[2023-05-31 12:57:26] INFO root fetch - main [MainThread]: End processing [folint]: success
+[2023-05-31 12:57:27] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-05-31 12:57:27] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-31 12:57:27] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-05-31 12:57:28] INFO root fetch - main [MainThread]: End processing [bubble-sdk]: success
+[2023-05-31 12:57:28] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-05-31 12:57:28] INFO root fetch - main [MainThread]: Store serial: [18315549]
