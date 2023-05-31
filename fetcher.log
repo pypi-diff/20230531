@@ -21159,3 +21159,90 @@
 [2023-05-31 19:36:01] INFO root fetch - main [MainThread]: End processing [kern-smooth]: success
 [2023-05-31 19:36:21] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-05-31 19:36:21] INFO root fetch - main [MainThread]: Store serial: [18320499]
+[2023-05-31 19:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320499]
+[2023-05-31 19:41:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apf-base
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfc-tidy
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: db2ixf
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taisim
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arelle-release
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autora
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-favorite-things
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easypost
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: demosdkpypi
+[2023-05-31 19:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dh-potluck
+[2023-05-31 19:41:31] INFO root fetch - processPackages [apf-base]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [taisim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rfc-tidy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [db2ixf]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [autora]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [easypost]: New version: [7.9.0] Old Version: [7.8.0]
+[2023-05-31 19:41:31] WARNING root fetch - processPackages [demosdkpypi]: Skipping, unable to determine old version
+[2023-05-31 19:41:31] INFO root fetch - processPackages [demosdkpypi]: Start processing: rocm-docs-core
+[2023-05-31 19:41:31] INFO root fetch - main [MainThread]: End processing [demosdkpypi] error
+[2023-05-31 19:41:31] INFO root fetch - processPackages [my-favorite-things]: New version: [0.2.0] Old Version: [0.1]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 19:41:31] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230531/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rfc-tidy]: Downloading https://files.pythonhosted.org/packages/fb/3f/8af407460469b2f992b44427fa458d2cbd362b0ac7d8dc28a903910c630c/rfc-tidy-0.1.1.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [easypost]: Downloading https://files.pythonhosted.org/packages/46/d0/b0d44f42b0be2d2d2f81506d1a04905031986926caed7f8c71a21da5e75f/easypost-7.8.0.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [taisim]: Downloading https://files.pythonhosted.org/packages/0b/fd/d71af6b9d02a461b0c3e66f059c3b5fc2ab662279198b15c24f7702cc18f/taisim-0.0.3.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [my-favorite-things]: Downloading https://files.pythonhosted.org/packages/ea/89/d60016b5fb804500d69c3d759e98e5737da72895e040d6d9a58ef19d15ba/my-favorite-things-0.1.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [apf-base]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [apf-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apf_base-2.3.0.tar.gz tmp/apf_base-2.4.0.tar.gz --markdown 20230531/a/apf-base/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/77/65/e1fd92ed03846c6cc19a9a709afa7d8d8b82cdc43ccd43856b7eea19dd26/db2ixf-0.1.3.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [taisim]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [taisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taisim-0.0.2.tar.gz tmp/taisim-0.0.3.tar.gz --markdown 20230531/t/taisim/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230531/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.1.tar.gz tmp/rocm-docs-core-0.9.2.tar.gz --markdown 20230531/r/rocm-docs-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [db2ixf]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [db2ixf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db2ixf-0.1.2.tar.gz tmp/db2ixf-0.1.3.tar.gz --markdown 20230531/d/db2ixf/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0a8.tar.gz tmp/autora-3.0.0a9.tar.gz --markdown 20230531/a/autora/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [easypost]: Downloading https://files.pythonhosted.org/packages/94/bd/2bc0d4ab02adee39ec57313dd3ab27163a86395eeae1718c0676ccd1f8c2/easypost-7.9.0.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rfc-tidy]: Downloading https://files.pythonhosted.org/packages/6d/6e/ea6c72780b6cd18ff8e5688f4df91882afbf3c17d2f84e88191e0117c0d2/rfc-tidy-0.1.2.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [my-favorite-things]: Downloading https://files.pythonhosted.org/packages/49/83/c6fa28828d336600702126674f612b5b10cd16102fa7ec4997286aa1c1d6/my-favorite-things-0.2.0.tar.gz
+[2023-05-31 19:41:31] INFO root fetch - processPackages [easypost]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [easypost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypost-7.8.0.tar.gz tmp/easypost-7.9.0.tar.gz --markdown 20230531/e/easypost/7.8.0-7.9.0/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rfc-tidy]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [rfc-tidy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfc-tidy-0.1.1.tar.gz tmp/rfc-tidy-0.1.2.tar.gz --markdown 20230531/r/rfc-tidy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 19:41:31] INFO root fetch - processPackages [my-favorite-things]: executing diffoscope
+[2023-05-31 19:41:31] INFO root fetch - processPackages [my-favorite-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-favorite-things-0.1.tar.gz tmp/my-favorite-things-0.2.0.tar.gz --markdown 20230531/m/my-favorite-things/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 19:41:33] INFO root fetch - processPackages [dh-potluck]: Start processing: neuralpit
+[2023-05-31 19:41:33] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-05-31 19:41:33] INFO root fetch - processPackages [neuralpit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 19:41:33] INFO root fetch - processPackages [apf-base]: Start processing: flare-explorer-python
+[2023-05-31 19:41:33] INFO root fetch - main [MainThread]: End processing [apf-base]: success
+[2023-05-31 19:41:33] INFO root fetch - processPackages [flare-explorer-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 19:41:33] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/55/96/5fdb30060e623c7fb51d7b9a7e8dc320bfa05797f1ddb6802627e1e40e1a/neuralpit-1.0.9.tar.gz
+[2023-05-31 19:41:33] INFO root fetch - processPackages [rfc-tidy]: Start processing: eth-trader-api-proto
+[2023-05-31 19:41:33] INFO root fetch - main [MainThread]: End processing [rfc-tidy]: success
+[2023-05-31 19:41:33] WARNING root fetch - processPackages [eth-trader-api-proto]: Skipping, unable to determine old version
+[2023-05-31 19:41:33] INFO root fetch - processPackages [eth-trader-api-proto]: Start processing: mongo-tooling-metrics
+[2023-05-31 19:41:33] INFO root fetch - main [MainThread]: End processing [eth-trader-api-proto] error
+[2023-05-31 19:41:33] INFO root fetch - processPackages [flare-explorer-python]: Downloading https://files.pythonhosted.org/packages/57/e5/75015af39fee1a88c8bdfd2951295719732447b46e8f6e2b2e87a1b9664d/flare_explorer_python-0.1.2.tar.gz
+[2023-05-31 19:41:33] INFO root fetch - processPackages [mongo-tooling-metrics]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 19:41:33] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-05-31 19:41:33] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.8.tar.gz tmp/neuralpit-1.0.9.tar.gz --markdown 20230531/n/neuralpit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:41:33] INFO root fetch - main [MainThread]: End processing [taisim]: success
+[2023-05-31 19:41:33] INFO root fetch - processPackages [flare-explorer-python]: Downloading https://files.pythonhosted.org/packages/60/e2/1cd2a700f07b1b0d88256baf116054754fd15874f5f95bb6fb68649972a9/flare_explorer_python-0.1.3.tar.gz
+[2023-05-31 19:41:33] INFO root fetch - processPackages [mongo-tooling-metrics]: Downloading https://files.pythonhosted.org/packages/eb/77/94fd1938c33686c7f0eee572cb7f5e088db293965d11ac8e1f58878f2bb7/mongo_tooling_metrics-1.0.6.tar.gz
+[2023-05-31 19:41:33] INFO root fetch - processPackages [flare-explorer-python]: executing diffoscope
+[2023-05-31 19:41:33] INFO root fetch - processPackages [flare-explorer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flare_explorer_python-0.1.2.tar.gz tmp/flare_explorer_python-0.1.3.tar.gz --markdown 20230531/f/flare-explorer-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 19:41:33] INFO root fetch - main [MainThread]: End processing [my-favorite-things]: success
+[2023-05-31 19:41:34] INFO root fetch - main [MainThread]: End processing [db2ixf]: success
+[2023-05-31 19:41:34] INFO root fetch - main [MainThread]: End processing [easypost]: success
+[2023-05-31 19:41:34] INFO root fetch - processPackages [mongo-tooling-metrics]: Downloading https://files.pythonhosted.org/packages/42/45/07b4dfe359b2e22578204e069b59e308f7e9822cd406bc84bd47adf78d81/mongo_tooling_metrics-1.0.7.tar.gz
+[2023-05-31 19:41:34] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-05-31 19:41:34] INFO root fetch - processPackages [mongo-tooling-metrics]: executing diffoscope
+[2023-05-31 19:41:34] INFO root fetch - processPackages [mongo-tooling-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_tooling_metrics-1.0.6.tar.gz tmp/mongo_tooling_metrics-1.0.7.tar.gz --markdown 20230531/m/mongo-tooling-metrics/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 19:41:34] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-05-31 19:41:34] INFO root fetch - main [MainThread]: End processing [flare-explorer-python]: success
+[2023-05-31 19:41:35] INFO root fetch - main [MainThread]: End processing [mongo-tooling-metrics]: success
+[2023-05-31 19:41:36] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-05-31 19:41:41] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-05-31 19:41:41] INFO root fetch - main [MainThread]: Store serial: [18320550]
