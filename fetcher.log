@@ -18256,3 +18256,120 @@
 [2023-05-31 16:44:48] INFO root fetch - main [MainThread]: End processing [pddl]: success
 [2023-05-31 16:44:49] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2023-05-31 16:44:49] INFO root fetch - main [MainThread]: Store serial: [18318562]
+[2023-05-31 16:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18318562]
+[2023-05-31 16:49:59] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asimov
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cluster-experiments
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib310-lite
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invoker-terminal
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biclustering
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textworld
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notifications-sdk-preview
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepAttention
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bihc
+[2023-05-31 16:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-fast-treenode
+[2023-05-31 16:49:59] INFO root fetch - processPackages [asimov]: New version: [0.6.0b1] Old Version: [0.6.0a3]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [invoker-terminal]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [cluster-experiments]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [textworld]: New version: [1.5.4rc3] Old Version: [1.5.4rc2]
+[2023-05-31 16:49:59] WARNING root fetch - processPackages [deepAttention]: Skipping, unable to determine old version
+[2023-05-31 16:49:59] INFO root fetch - processPackages [deepAttention]: Start processing: th2-data-services-lwdp
+[2023-05-31 16:49:59] INFO root fetch - processPackages [bihc]: New version: [0.0.8.1] Old Version: [0.0.8.0]
+[2023-05-31 16:49:59] INFO root fetch - main [MainThread]: End processing [deepAttention] error
+[2023-05-31 16:49:59] INFO root fetch - processPackages [biclustering]: New version: [2023.5.31.4] Old Version: [2023.5.31.3]
+[2023-05-31 16:49:59] WARNING root fetch - processPackages [django-fast-treenode]: Skipping, unable to determine old version
+[2023-05-31 16:49:59] INFO root fetch - processPackages [django-fast-treenode]: Start processing: plot-antenna
+[2023-05-31 16:49:59] INFO root fetch - main [MainThread]: End processing [django-fast-treenode] error
+[2023-05-31 16:49:59] INFO root fetch - processPackages [plot-antenna]: New version: [1.6] Old Version: [1.5]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.716] Old Version: [0.1.715]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5134288687] Old Version: [2.0.3.0.dev5132523347]
+[2023-05-31 16:49:59] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-31 16:49:59] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip --markdown 20230531/a/asimov/0.6.0a3-0.6.0b1/diff.md --exclude *.pyd
+[2023-05-31 16:49:59] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/e7/2a/9c3718a5402d9bb2c376680c7f60d218872e4794cbda222fd403eff592d8/invoker_terminal-0.0.27.tar.gz
+[2023-05-31 16:49:59] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/b1/0c/9b7a617e7cb810847863e252a868f8d1dbd0d9785a4b1a624783437a86e2/bihc-0.0.8.0.tar.gz
+[2023-05-31 16:49:59] INFO root fetch - processPackages [plot-antenna]: Downloading https://files.pythonhosted.org/packages/38/2f/fd630438452cc70846d5c1469e75521afb5623705db88f55e2b5b3f74273/plot-antenna-1.6.tar.gz
+[2023-05-31 16:49:59] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/da/a2/9afa74d9f93c5b949e30c69ea05eb43d6aefd2de2458872d97a5d1c9cbe7/th2_data_services_lwdp-2.0.3.0.dev5134288687.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/29/ec/c4277b6c50c15ad1b5858f0e612ca79e502f4f7f06441cae00f1cd424581/lusid-notifications-sdk-preview-0.1.716.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/fb/e4/8faf33385aab751125dc999a83671ae185bd9498f90c0b075f432f4bb84d/textworld-1.5.4rc2.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [plot-antenna]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [plot-antenna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot-antenna-1.5.tar.gz tmp/plot-antenna-1.6.tar.gz --markdown 20230531/p/plot-antenna/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5132523347.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5134288687.tar.gz --markdown 20230531/t/th2-data-services-lwdp/2.0.3.0.dev5132523347-2.0.3.0.dev5134288687/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [biclustering]: Downloading https://files.pythonhosted.org/packages/11/25/fe204c1fab2e23ecb40d40bd0de0a6362bd82abf8ac2e3220f6c5d957cab/biclustering-2023.5.31.4.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.9.0.tar.gz tmp/cluster_experiments-0.9.1.tar.gz --markdown 20230531/c/cluster-experiments/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/ba/34/4d2d77da7be1b3d8a9f5ca4820e2427c6c01951bd62358cda9dffacbb4e8/invoker_terminal-0.0.28.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.715.tar.gz tmp/lusid-notifications-sdk-preview-0.1.716.tar.gz --markdown 20230531/l/lusid-notifications-sdk-preview/0.1.715-0.1.716/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/4a/1c/703063d9daf520fb938534c9b98d057b2153fc40d7d68869c3fe8e276315/bihc-0.0.8.1.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [biclustering]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [biclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biclustering-2023.5.31.3.tar.gz tmp/biclustering-2023.5.31.4.tar.gz --markdown 20230531/b/biclustering/2023.5.31.3-2023.5.31.4/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.27.tar.gz tmp/invoker_terminal-0.0.28.tar.gz --markdown 20230531/i/invoker-terminal/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.8.0.tar.gz tmp/bihc-0.0.8.1.tar.gz --markdown 20230531/b/bihc/0.0.8.0-0.0.8.1/diff.md --exclude *.pyd
+[2023-05-31 16:50:00] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/b4/74/684946ab7b13acab55c74c72254e04e1c4d33d88bd2f886c6eb97a06c2dc/textworld-1.5.4rc3.tar.gz
+[2023-05-31 16:50:00] INFO root fetch - processPackages [textworld]: executing diffoscope
+[2023-05-31 16:50:00] INFO root fetch - processPackages [textworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textworld-1.5.4rc2.tar.gz tmp/textworld-1.5.4rc3.tar.gz --markdown 20230531/t/textworld/1.5.4rc2-1.5.4rc3/diff.md --exclude *.pyd
+[2023-05-31 16:50:01] INFO root fetch - processPackages [asimov]: Start processing: invoker-terminal
+[2023-05-31 16:50:01] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-31 16:50:01] INFO root fetch - processPackages [invoker-terminal]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-05-31 16:50:01] INFO root fetch - processPackages [biclustering]: Start processing: pytest-qgis
+[2023-05-31 16:50:01] INFO root fetch - main [MainThread]: End processing [biclustering]: success
+[2023-05-31 16:50:01] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-31 16:50:01] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.27.tar.gz tmp/invoker_terminal-0.0.28.tar.gz --markdown 20230531/i/invoker-terminal/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-05-31 16:50:01] INFO root fetch - processPackages [pytest-qgis]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-31 16:50:01] INFO root fetch - processPackages [lib310-lite]: Start processing: eoreader
+[2023-05-31 16:50:01] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 16:50:01] INFO root fetch - processPackages [eoreader]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-31 16:50:01] INFO root fetch - processPackages [cluster-experiments]: Start processing: bppy
+[2023-05-31 16:50:01] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-05-31 16:50:01] INFO root fetch - processPackages [bppy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-31 16:50:02] INFO root fetch - processPackages [pytest-qgis]: Downloading https://files.pythonhosted.org/packages/32/b3/8ad70bc87ea6b831f839807d19ffe5a73a9bd22d6b21797a0119488b134d/pytest-qgis-1.3.2.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [eoreader]: Downloading https://files.pythonhosted.org/packages/aa/93/2526755e5e5c071b3dd1c998a47aee62dae3ad3909ed36ea6c9b45953cd7/eoreader-0.9.4.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [bppy]: Downloading https://files.pythonhosted.org/packages/17/35/6b03eb99185f86023ce35e048e7f6eb90ba6da1a9d7f9aa64e46afabf3a4/bppy-0.0.4.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [invoker-terminal]: Start processing: CDSupdate
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-31 16:50:02] WARNING root fetch - processPackages [eoreader]: Skipping package: exceeds size limit 11498903>=10485760
+[2023-05-31 16:50:02] INFO root fetch - processPackages [eoreader]: Start processing: sierras
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [eoreader] error
+[2023-05-31 16:50:02] INFO root fetch - processPackages [CDSupdate]: New version: [1.2.4] Old Version: [1.2.1]
+[2023-05-31 16:50:02] INFO root fetch - processPackages [sierras]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 16:50:02] INFO root fetch - processPackages [pytest-qgis]: Downloading https://files.pythonhosted.org/packages/29/a9/de4d24e95ec85dbcc7df09fa043a4a1ee04b45de1664ef776de69cb1c342/pytest-qgis-1.3.3.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [plot-antenna]: Start processing: bvslusa
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [plot-antenna]: success
+[2023-05-31 16:50:02] INFO root fetch - processPackages [bihc]: Start processing: cmrseq
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-05-31 16:50:02] INFO root fetch - processPackages [pytest-qgis]: executing diffoscope
+[2023-05-31 16:50:02] INFO root fetch - processPackages [pytest-qgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-qgis-1.3.2.tar.gz tmp/pytest-qgis-1.3.3.tar.gz --markdown 20230531/p/pytest-qgis/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-31 16:50:02] INFO root fetch - processPackages [bppy]: Downloading https://files.pythonhosted.org/packages/e2/3c/3a33e7181adac143f9b2bd5bb3e01bd9361c86740a64b0dcefbbba61a1f0/bppy-0.0.5.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [CDSupdate]: Downloading https://files.pythonhosted.org/packages/0e/b5/9938fed78673b5f639463709c91f8fae9aa23fcf8aeba1ab6d34d79f5807/CDSupdate-1.2.1.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-05-31 16:50:02] INFO root fetch - processPackages [sierras]: Downloading https://files.pythonhosted.org/packages/7d/47/d715a56ab3e12970d5cffb6c5ceef0d717c39dba96da1d870f7faf6c6668/sierras-0.2.1.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [bppy]: executing diffoscope
+[2023-05-31 16:50:02] INFO root fetch - processPackages [bppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bppy-0.0.4.tar.gz tmp/bppy-0.0.5.tar.gz --markdown 20230531/b/bppy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-31 16:50:02] WARNING root fetch - processPackages [bvslusa]: Skipping, unable to determine old version
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [bvslusa] error
+[2023-05-31 16:50:02] INFO root fetch - processPackages [cmrseq]: New version: [0.22] Old Version: [0.21]
+[2023-05-31 16:50:02] INFO root fetch - processPackages [CDSupdate]: Downloading https://files.pythonhosted.org/packages/be/24/1bcd588a0ef23a8ec5df5a974f52b6b28f18580223d3c9bd3694afb843a4/CDSupdate-1.2.4.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-31 16:50:02] INFO root fetch - processPackages [cmrseq]: Downloading https://files.pythonhosted.org/packages/f1/66/df646f0b45c219ebe03a3002cd4baca76e901a71a891bf2be6cdc47bd2e5/cmrseq-0.21.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [CDSupdate]: executing diffoscope
+[2023-05-31 16:50:02] INFO root fetch - processPackages [CDSupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CDSupdate-1.2.1.tar.gz tmp/CDSupdate-1.2.4.tar.gz --markdown 20230531/C/CDSupdate/1.2.1-1.2.4/diff.md --exclude *.pyd
+[2023-05-31 16:50:02] INFO root fetch - processPackages [sierras]: Downloading https://files.pythonhosted.org/packages/4d/dd/4f6f79badb571692909d101e6ff606d57af111d0436685c748608f79b04c/sierras-0.2.2.tar.gz
+[2023-05-31 16:50:02] INFO root fetch - processPackages [cmrseq]: Downloading https://files.pythonhosted.org/packages/65/d5/2b75c22f836a8661d5a907bc28df871eba13f4ceffe6e35b5aaee57e8d04/cmrseq-0.22.tar.gz
+[2023-05-31 16:50:03] INFO root fetch - processPackages [sierras]: executing diffoscope
+[2023-05-31 16:50:03] INFO root fetch - processPackages [sierras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sierras-0.2.1.tar.gz tmp/sierras-0.2.2.tar.gz --markdown 20230531/s/sierras/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 16:50:03] INFO root fetch - processPackages [cmrseq]: executing diffoscope
+[2023-05-31 16:50:03] INFO root fetch - processPackages [cmrseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmrseq-0.21.tar.gz tmp/cmrseq-0.22.tar.gz --markdown 20230531/c/cmrseq/0.21-0.22/diff.md --exclude *.pyd
+[2023-05-31 16:50:03] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [CDSupdate]: success
+[2023-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [sierras]: success
+[2023-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [bppy]: success
+[2023-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [cmrseq]: success
+[2023-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [pytest-qgis]: success
+[2023-05-31 16:50:07] INFO root fetch - main [MainThread]: End processing [textworld]: success
+[2023-05-31 16:50:07] INFO root fetch - main [MainThread]: Store serial: [18318628]
