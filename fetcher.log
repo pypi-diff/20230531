@@ -7426,3 +7426,44 @@
 [2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-fr-intrastat-product]: success
 [2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-fr-chorus-account]: success
 [2023-05-31 05:44:52] INFO root fetch - main [MainThread]: Store serial: [18312132]
+[2023-05-31 05:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312132]
+[2023-05-31 05:50:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 05:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-05-31 05:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juno-ai
+[2023-05-31 05:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-template
+[2023-05-31 05:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-identity
+[2023-05-31 05:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbipy
+[2023-05-31 05:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idem
+[2023-05-31 05:50:01] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-31 05:50:01] INFO root fetch - processPackages [flask-identity]: New version: [1.0.4] Old Version: [1.0.3.dev7]
+[2023-05-31 05:50:01] INFO root fetch - processPackages [juno-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 05:50:01] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 05:50:01] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-31 05:50:01] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230531/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 05:50:01] INFO root fetch - processPackages [pbipy]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-05-31 05:50:01] INFO root fetch - processPackages [idem]: New version: [9] Old Version: [7.6]
+[2023-05-31 05:50:02] INFO root fetch - processPackages [flask-identity]: Downloading https://files.pythonhosted.org/packages/83/ff/99db8c3906a0c009ab191fbf773e9615d6ad5b856f1d8e2cb4b8d1994acd/Flask-Identity-1.0.3.dev7.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [juno-ai]: Downloading https://files.pythonhosted.org/packages/69/33/45f3d17834598ad49827690e229c6cbf53941e243b0f27a78f5c8462460a/juno-ai-0.0.5.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/3a/1e/8721bed5d953b32a13f0dbd8b1e7ab80445368e84f9a94f78e76d6bbe5b9/pbipy-1.1.1-py2.py3-none-any.whl
+[2023-05-31 05:50:02] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/05/d1/ae55ae3db2dbdf032cc9b659329f3421a2cbccba05c19626eccb74e0a7e4/idem-7.6.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [flask-identity]: Downloading https://files.pythonhosted.org/packages/42/6f/92f578341ce9e67f75d88d87487c0a08448d0d851366d53f1fdbb2913075/flask_identity-1.0.4.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [juno-ai]: Downloading https://files.pythonhosted.org/packages/f5/b5/75915adb31589422d8cc1d299d44b7e6365ab56a31e5e53e830935719f5d/juno-ai-0.0.6.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-31 05:50:02] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230531/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 05:50:02] INFO root fetch - processPackages [flask-identity]: executing diffoscope
+[2023-05-31 05:50:02] INFO root fetch - processPackages [flask-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Identity-1.0.3.dev7.tar.gz tmp/flask_identity-1.0.4.tar.gz --markdown 20230531/f/flask-identity/1.0.3.dev7-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 05:50:02] INFO root fetch - processPackages [juno-ai]: executing diffoscope
+[2023-05-31 05:50:02] INFO root fetch - processPackages [juno-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juno-ai-0.0.5.tar.gz tmp/juno-ai-0.0.6.tar.gz --markdown 20230531/j/juno-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 05:50:02] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/e8/c0/1807c2fa6aefe00fc23d2553e66422158c6fd94ccbbd31027d572390037c/pbipy-1.1.1.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/80/07/c0fcb9ef8650ecb03eb10da8b61f2177eeeb1d6f19fd169f6f615646a69d/idem-9.tar.gz
+[2023-05-31 05:50:02] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2023-05-31 05:50:02] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-1.1.1-py2.py3-none-any.whl.zip tmp/pbipy-1.1.1.tar.gz --markdown 20230531/p/pbipy/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-31 05:50:02] INFO root fetch - processPackages [idem]: executing diffoscope
+[2023-05-31 05:50:02] INFO root fetch - processPackages [idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-7.6.tar.gz tmp/idem-9.tar.gz --markdown 20230531/i/idem/7.6-9/diff.md --exclude *.pyd
+[2023-05-31 05:50:03] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-31 05:50:03] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-31 05:50:03] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2023-05-31 05:50:03] INFO root fetch - main [MainThread]: End processing [flask-identity]: success
+[2023-05-31 05:50:03] INFO root fetch - main [MainThread]: End processing [juno-ai]: success
+[2023-05-31 05:50:04] INFO root fetch - main [MainThread]: End processing [idem]: success
+[2023-05-31 05:50:04] INFO root fetch - main [MainThread]: Store serial: [18312146]
