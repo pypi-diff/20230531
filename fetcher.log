@@ -10939,3 +10939,114 @@
 [2023-05-31 10:46:28] INFO root fetch - main [MainThread]: End processing [httplus]: success
 [2023-05-31 10:46:43] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-31 10:46:43] INFO root fetch - main [MainThread]: Store serial: [18314280]
+[2023-05-31 10:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314280]
+[2023-05-31 10:51:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: httplus
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphql-query
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tff-nightly
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pxtextmining
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resfinder
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mydocs
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qtest-reporter
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Xponge
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FJUtils
+[2023-05-31 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: balder
+[2023-05-31 10:51:52] INFO root fetch - processPackages [httplus]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [graphql-query]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-31 10:51:52] WARNING root fetch - processPackages [FJUtils]: Skipping, unable to determine old version
+[2023-05-31 10:51:52] INFO root fetch - processPackages [FJUtils]: Start processing: inputty
+[2023-05-31 10:51:52] INFO root fetch - main [MainThread]: End processing [FJUtils] error
+[2023-05-31 10:51:52] INFO root fetch - processPackages [balder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 10:51:52] WARNING root fetch - processPackages [mydocs]: Skipping, unable to determine old version
+[2023-05-31 10:51:52] INFO root fetch - processPackages [mydocs]: Start processing: jsa
+[2023-05-31 10:51:52] INFO root fetch - processPackages [resfinder]: New version: [4.3.2] Old Version: [4.3.1]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [qtest-reporter]: New version: [0.0.9] Old Version: [0.0.11]
+[2023-05-31 10:51:52] INFO root fetch - main [MainThread]: End processing [mydocs] error
+[2023-05-31 10:51:52] INFO root fetch - processPackages [pxtextmining]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [Xponge]: New version: [1.3b7] Old Version: [1.3b6]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [inputty]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [jsa]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230531] Old Version: [0.0.1.dev20230530]
+[2023-05-31 10:51:52] INFO root fetch - processPackages [balder]: executing diffoscope
+[2023-05-31 10:51:52] INFO root fetch - processPackages [balder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balder-0.1.8.tar.gz tmp/balder-0.1.9.tar.gz --markdown 20230531/b/balder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 10:51:52] INFO root fetch - processPackages [graphql-query]: Downloading https://files.pythonhosted.org/packages/d3/66/88869c650317a0c9e8494c242a9eb7c1c2e6e205bc5862ea35e7c2eb8482/graphql_query-1.1.1.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/6d/72/aefcf7491ce87f20fab233f5484df83ac8f9b51934dc4bd9e2be308a9b5c/inputty-1.0.1.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [pxtextmining]: Downloading https://files.pythonhosted.org/packages/e0/d0/35606e58314f5060ea31bca42d41dee63b99424f3ecc8087ef3f6b1d6fe5/pxtextmining-0.5.2.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [resfinder]: Downloading https://files.pythonhosted.org/packages/15/53/1f24e0eb2e146c1dba9f534d2253524e275747635b6c6ad40f5844bee234/resfinder-4.3.1.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [jsa]: Downloading https://files.pythonhosted.org/packages/f0/21/b6f4cf908473fdb42ae8665e9be3a1b99c809c6470af2d10a0819639a360/jsa-0.5.0.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [inputty]: executing diffoscope
+[2023-05-31 10:51:52] INFO root fetch - processPackages [inputty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inputty-1.0.0.tar.gz tmp/inputty-1.0.1.tar.gz --markdown 20230531/i/inputty/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 10:51:52] INFO root fetch - processPackages [graphql-query]: executing diffoscope
+[2023-05-31 10:51:52] INFO root fetch - processPackages [graphql-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_query-1.1.0.tar.gz tmp/graphql_query-1.1.1.tar.gz --markdown 20230531/g/graphql-query/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-31 10:51:52] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/07/f2/46136f04f612d92332aa2f8521ba44538b53cee39419f1efa0f0d5a689f1/tff_nightly-0.0.1.dev20230530-py2.py3-none-any.whl
+[2023-05-31 10:51:52] INFO root fetch - processPackages [qtest-reporter]: Downloading https://files.pythonhosted.org/packages/f6/b3/621ec1ff3fc0f400aac2738c76be4a0d2867ab565d6f43d5e4c969b77652/qtest_reporter-0.0.11.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [httplus]: executing diffoscope
+[2023-05-31 10:51:52] INFO root fetch - processPackages [httplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httplus-0.0.0.tar.gz tmp/httplus-0.1.0.tar.gz --markdown 20230531/h/httplus/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 10:51:52] INFO root fetch - processPackages [jsa]: executing diffoscope
+[2023-05-31 10:51:52] INFO root fetch - processPackages [jsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsa-0.4.0.tar.gz tmp/jsa-0.5.0.tar.gz --markdown 20230531/j/jsa/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 10:51:52] INFO root fetch - processPackages [Xponge]: executing diffoscope
+[2023-05-31 10:51:52] INFO root fetch - processPackages [Xponge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xponge-1.3b6.tar.gz tmp/Xponge-1.3b7.tar.gz --markdown 20230531/X/Xponge/1.3b6-1.3b7/diff.md --exclude *.pyd
+[2023-05-31 10:51:52] INFO root fetch - processPackages [pxtextmining]: Downloading https://files.pythonhosted.org/packages/3e/07/bbe63f887e1c1195b6737a95e59e30a3eb89e9e556d98f1558d3a0b8191b/pxtextmining-0.5.3.tar.gz
+[2023-05-31 10:51:52] INFO root fetch - processPackages [resfinder]: Downloading https://files.pythonhosted.org/packages/b2/19/5cba1e54204d99e5f88acae326616e46119c1b45b36ea17f6b606a78a471/resfinder-4.3.2.tar.gz
+[2023-05-31 10:51:53] INFO root fetch - processPackages [pxtextmining]: executing diffoscope
+[2023-05-31 10:51:53] INFO root fetch - processPackages [pxtextmining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxtextmining-0.5.2.tar.gz tmp/pxtextmining-0.5.3.tar.gz --markdown 20230531/p/pxtextmining/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-31 10:51:53] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/04/6d/2cfa6439e781d6a4d5a815ef505e7f081d27d82b29648d8bafea7bc2a905/tff_nightly-0.0.1.dev20230531-py2.py3-none-any.whl
+[2023-05-31 10:51:53] INFO root fetch - processPackages [qtest-reporter]: executing diffoscope
+[2023-05-31 10:51:53] INFO root fetch - processPackages [qtest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtest_reporter-0.0.11.tar.gz tmp/qtest_reporter-0.0.9.tar.gz --markdown 20230531/q/qtest-reporter/0.0.11-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:51:53] INFO root fetch - processPackages [resfinder]: executing diffoscope
+[2023-05-31 10:51:53] INFO root fetch - processPackages [resfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resfinder-4.3.1.tar.gz tmp/resfinder-4.3.2.tar.gz --markdown 20230531/r/resfinder/4.3.1-4.3.2/diff.md --exclude *.pyd
+[2023-05-31 10:51:53] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-31 10:51:53] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230530-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230531-py2.py3-none-any.whl.zip --markdown 20230531/t/tff-nightly/0.0.1.dev20230530-0.0.1.dev20230531/diff.md --exclude *.pyd
+[2023-05-31 10:51:54] INFO root fetch - processPackages [balder]: Start processing: python-selve-new
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [balder]: success
+[2023-05-31 10:51:54] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 10:51:54] INFO root fetch - processPackages [httplus]: Start processing: tf-nightly
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [httplus]: success
+[2023-05-31 10:51:54] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 10:51:54] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:51:54] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230531] Old Version: [2.14.0.dev20230530]
+[2023-05-31 10:51:54] INFO root fetch - processPackages [inputty]: Start processing: semeio
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [inputty]: success
+[2023-05-31 10:51:54] INFO root fetch - processPackages [semeio]: New version: [1.6.0rc1] Old Version: [1.6.0rc0]
+[2023-05-31 10:51:54] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/13/11/0bfbe9eca0c2b4a246b35a10fa9cdf711fc496592c5d890bc9f06526d15f/tf_nightly-2.14.0.dev20230530-cp39-cp39-win_amd64.whl
+[2023-05-31 10:51:54] INFO root fetch - processPackages [pxtextmining]: Start processing: lacuscore
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [pxtextmining]: success
+[2023-05-31 10:51:54] INFO root fetch - processPackages [lacuscore]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-05-31 10:51:54] INFO root fetch - processPackages [semeio]: Downloading https://files.pythonhosted.org/packages/3b/e3/54eadb90cd7e05486ac7b65ca4bcf8cfe9d200efad5045be6766926cd5a4/semeio-1.6.0rc0.tar.gz
+[2023-05-31 10:51:54] INFO root fetch - processPackages [graphql-query]: Start processing: vkms
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [graphql-query]: success
+[2023-05-31 10:51:54] INFO root fetch - processPackages [vkms]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 10:51:54] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/8e/e1/fcac31f8245ba9f638015a047a8126657d32f816f29bdafb11efe3ebea88/tf_nightly-2.14.0.dev20230531-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 10:51:54] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 488638493>=10485760
+[2023-05-31 10:51:54] INFO root fetch - processPackages [tf-nightly]: Start processing: cozo-client
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-31 10:51:54] INFO root fetch - processPackages [qtest-reporter]: Start processing: biobb-flexdyn
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [qtest-reporter]: success
+[2023-05-31 10:51:54] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/4f/e0/d538fba427505ead6faca0c6ea1d58470156b0d06e22ab9ca8c6bee72a60/lacuscore-1.5.0.tar.gz
+[2023-05-31 10:51:54] INFO root fetch - processPackages [vkms]: Downloading https://files.pythonhosted.org/packages/3b/37/3c26a8e231f7eeb49ac0ff992a6f1bc1df97d07e306a54aff1b2dbbb3095/vkms-1.0.1.tar.gz
+[2023-05-31 10:51:54] INFO root fetch - processPackages [cozo-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 10:51:54] WARNING root fetch - processPackages [semeio]: Skipping package: exceeds size limit 17363868>=10485760
+[2023-05-31 10:51:54] INFO root fetch - main [MainThread]: End processing [semeio] error
+[2023-05-31 10:51:54] INFO root fetch - processPackages [biobb-flexdyn]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-31 10:51:55] INFO root fetch - main [MainThread]: End processing [jsa]: success
+[2023-05-31 10:51:55] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-05-31 10:51:55] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.4.9.tar.gz tmp/lacuscore-1.5.0.tar.gz --markdown 20230531/l/lacuscore/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-05-31 10:51:55] INFO root fetch - processPackages [cozo-client]: Downloading https://files.pythonhosted.org/packages/9f/c1/f7c9ff4f9a81c0d986c67ceb1972ff554e77eb381bb166e3cdbe619fecdc/cozo_client-0.1.0.tar.gz
+[2023-05-31 10:51:55] INFO root fetch - processPackages [vkms]: Downloading https://files.pythonhosted.org/packages/7d/b2/72561089b32e07708458e14b4b648429570aa4ec2ed19bdee5822492ad0b/vkms-1.0.2.tar.gz
+[2023-05-31 10:51:55] INFO root fetch - processPackages [biobb-flexdyn]: Downloading https://files.pythonhosted.org/packages/fd/c6/72120a56460e27d576722d0ef675b58d2045ff2c14037e0297b3594b6c26/biobb_flexdyn-4.0.3.tar.gz
+[2023-05-31 10:51:55] INFO root fetch - processPackages [cozo-client]: Downloading https://files.pythonhosted.org/packages/22/9e/b0ebc6e67b1b01036cc7de8dc15b67156d782323e028c7853ce8e38378c9/cozo_client-0.1.1.tar.gz
+[2023-05-31 10:51:55] INFO root fetch - processPackages [vkms]: executing diffoscope
+[2023-05-31 10:51:55] INFO root fetch - processPackages [vkms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vkms-1.0.1.tar.gz tmp/vkms-1.0.2.tar.gz --markdown 20230531/v/vkms/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 10:51:55] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 10:51:55] INFO root fetch - processPackages [biobb-flexdyn]: executing diffoscope
+[2023-05-31 10:51:55] INFO root fetch - processPackages [biobb-flexdyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_flexdyn-4.0.2.tar.gz tmp/biobb_flexdyn-4.0.3.tar.gz --markdown 20230531/b/biobb-flexdyn/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-31 10:51:55] INFO root fetch - processPackages [cozo-client]: executing diffoscope
+[2023-05-31 10:51:55] INFO root fetch - processPackages [cozo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_client-0.1.0.tar.gz tmp/cozo_client-0.1.1.tar.gz --markdown 20230531/c/cozo-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 10:51:56] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-05-31 10:51:56] INFO root fetch - main [MainThread]: End processing [cozo-client]: success
+[2023-05-31 10:51:56] INFO root fetch - main [MainThread]: End processing [biobb-flexdyn]: success
+[2023-05-31 10:51:56] INFO root fetch - main [MainThread]: End processing [vkms]: success
+[2023-05-31 10:51:57] INFO root fetch - main [MainThread]: End processing [resfinder]: success
+[2023-05-31 10:51:58] INFO root fetch - main [MainThread]: End processing [Xponge]: success
+[2023-05-31 10:51:58] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-31 10:51:58] INFO root fetch - main [MainThread]: Store serial: [18314347]
