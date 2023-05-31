@@ -11870,3 +11870,104 @@
 [2023-05-31 11:36:29] INFO root fetch - main [MainThread]: End processing [ragger]: success
 [2023-05-31 11:36:30] INFO root fetch - main [MainThread]: End processing [clearml]: success
 [2023-05-31 11:36:30] INFO root fetch - main [MainThread]: Store serial: [18314833]
+[2023-05-31 11:41:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314833]
+[2023-05-31 11:41:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperthought-transfer
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-cone
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytrino
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zq-config
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HyperkneeFinder
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coniql
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlc-tools
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: craft-ai-sdk
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk-preview
+[2023-05-31 11:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slim-trees
+[2023-05-31 11:41:39] INFO root fetch - processPackages [py-cone]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [hyperthought-transfer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [pytrino]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [zq-config]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [slim-trees]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-31 11:41:39] WARNING root fetch - processPackages [HyperkneeFinder]: Skipping, unable to determine old version
+[2023-05-31 11:41:39] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [HyperkneeFinder]: Start processing: dsw-config
+[2023-05-31 11:41:39] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 11:41:39] INFO root fetch - main [MainThread]: End processing [HyperkneeFinder] error
+[2023-05-31 11:41:39] INFO root fetch - processPackages [coniql]: New version: [0.3] Old Version: [0.2]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [dsw-config]: New version: [3.24.0rc1] Old Version: [3.24.0]
+[2023-05-31 11:41:39] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230531/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [py-cone]: Downloading https://files.pythonhosted.org/packages/90/6f/4b800c668d89cccdc0d3f9074bdc26731b1f2c11ec17e0842418d8d76229/py-cone-1.0.8.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [pytrino]: Downloading https://files.pythonhosted.org/packages/f0/f8/f5bd9a8801e57e289a5ce7c2e75464675aa27abe158d7ef97c39738ad661/pytrino-0.0.4.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [zq-config]: Downloading https://files.pythonhosted.org/packages/13/5e/64216adff0539442cb03792449ee4350c33a6deacd7a175c8fa991a37e09/zq-config-0.1.0.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [hyperthought-transfer]: Downloading https://files.pythonhosted.org/packages/c0/c0/b37ced0eb8ad4a10b011ac6932ac3d29196f182c1bd015d3d062039d7ad5/hyperthought-transfer-0.2.2.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [slim-trees]: Downloading https://files.pythonhosted.org/packages/29/0d/d49fd0e36e4a94862e9f3963462a9cb06da37eca3b0f58d555787cf3e053/slim-trees-0.2.0.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/7d/03/751c911bb0cdeaace4a5b0ffa4dedc645d4092e908daa91810fe3d2bc50c/dsw-config-3.24.0.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [coniql]: Downloading https://files.pythonhosted.org/packages/69/4b/c82fe693175adfcde05ae936170e3854a0e2e239ae2940aaa8f689e6d329/coniql-0.2.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [pytrino]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [pytrino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrino-0.0.2.tar.gz tmp/pytrino-0.0.4.tar.gz --markdown 20230531/p/pytrino/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [hyperthought-transfer]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [hyperthought-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperthought-transfer-0.2.1.tar.gz tmp/hyperthought-transfer-0.2.2.tar.gz --markdown 20230531/h/hyperthought-transfer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [dsw-config]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [dsw-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-config-3.24.0.tar.gz tmp/dsw-config-3.24.0rc1.tar.gz --markdown 20230531/d/dsw-config/3.24.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230531/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230531/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [py-cone]: Downloading https://files.pythonhosted.org/packages/55/2a/66d50369b8f04083a261b20d73237d1d73836e07fa18ef3583f0dea62405/py-cone-1.0.9.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [slim-trees]: Downloading https://files.pythonhosted.org/packages/8a/d8/16c2576c31f0208412b88f6f8ae07a9dfa47936f4338faaf3d9f28584e49/slim-trees-0.2.1.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [coniql]: Downloading https://files.pythonhosted.org/packages/ae/06/3ca6da6e0f8895155202907b9cf05be9e72751f657b93b957beb3ff4faca/coniql-0.3.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [zq-config]: Downloading https://files.pythonhosted.org/packages/ac/f8/9cc6315a4ee42335f78fb8ad6580611528260f55b5c532a6f3519ffbf54e/zq-config-0.1.1.tar.gz
+[2023-05-31 11:41:39] INFO root fetch - processPackages [slim-trees]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [slim-trees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim-trees-0.2.0.tar.gz tmp/slim-trees-0.2.1.tar.gz --markdown 20230531/s/slim-trees/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [coniql]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [coniql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coniql-0.2.tar.gz tmp/coniql-0.3.tar.gz --markdown 20230531/c/coniql/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [py-cone]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [py-cone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-cone-1.0.8.tar.gz tmp/py-cone-1.0.9.tar.gz --markdown 20230531/p/py-cone/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:41:39] INFO root fetch - processPackages [zq-config]: executing diffoscope
+[2023-05-31 11:41:39] INFO root fetch - processPackages [zq-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-config-0.1.0.tar.gz tmp/zq-config-0.1.1.tar.gz --markdown 20230531/z/zq-config/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 11:41:40] INFO root fetch - processPackages [pytrino]: Start processing: tiledb-jupyter-bioimg
+[2023-05-31 11:41:40] INFO root fetch - main [MainThread]: End processing [pytrino]: success
+[2023-05-31 11:41:40] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.1a7] Old Version: [0.1.1a6]
+[2023-05-31 11:41:40] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/ec/7f/9c8360794b67e6375fe8f2b5b3a819b6dd062244ba5c401d6b58a2dd31e6/tiledb_jupyter_bioimg-0.1.1a7.tar.gz
+[2023-05-31 11:41:41] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-05-31 11:41:41] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.1a6.tar.gz tmp/tiledb_jupyter_bioimg-0.1.1a7.tar.gz --markdown 20230531/t/tiledb-jupyter-bioimg/0.1.1a6-0.1.1a7/diff.md --exclude *.pyd
+[2023-05-31 11:41:41] INFO root fetch - processPackages [hyperthought-transfer]: Start processing: dsw-command-queue
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [hyperthought-transfer]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-command-queue]: New version: [3.24.0rc1] Old Version: [3.24.0]
+[2023-05-31 11:41:41] INFO root fetch - processPackages [craft-ai-sdk]: Start processing: RistLang
+[2023-05-31 11:41:41] INFO root fetch - processPackages [slim-trees]: Start processing: dsw-models
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [slim-trees]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/53/58/fdc177dd30f7a20097cf563da02e6f6987579fd7fd29374644ae0b93ac90/dsw-command-queue-3.24.0.tar.gz
+[2023-05-31 11:41:41] INFO root fetch - processPackages [py-cone]: Start processing: serpyco-rs
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [py-cone]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-config]: Start processing: hpcflow-new2
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [dsw-config]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 11:41:41] INFO root fetch - processPackages [RistLang]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-models]: New version: [3.24.0rc1] Old Version: [3.24.0]
+[2023-05-31 11:41:41] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-command-queue]: executing diffoscope
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-command-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-command-queue-3.24.0.tar.gz tmp/dsw-command-queue-3.24.0rc1.tar.gz --markdown 20230531/d/dsw-command-queue/3.24.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [zq-config]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-05-31 11:41:41] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230531/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 11:41:41] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-05-31 11:41:41] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230531/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [coniql]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/ae/e2/8285ed178ee7cd6dc6ecb717f85802bb7a4826c49e78674bbe2990ddf321/dsw-models-3.24.0.tar.gz
+[2023-05-31 11:41:41] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-31 11:41:41] INFO root fetch - processPackages [RistLang]: Downloading https://files.pythonhosted.org/packages/37/80/089d4dc0712ffb60784665609d2d030247e31a908d3d678053290b1aa465/RistLang-1.2.0.tar.gz
+[2023-05-31 11:41:41] INFO root fetch - processPackages [RistLang]: executing diffoscope
+[2023-05-31 11:41:41] INFO root fetch - processPackages [RistLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RistLang-1.1.1.tar.gz tmp/RistLang-1.2.0.tar.gz --markdown 20230531/R/RistLang/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-models]: executing diffoscope
+[2023-05-31 11:41:41] INFO root fetch - processPackages [dsw-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-models-3.24.0.tar.gz tmp/dsw-models-3.24.0rc1.tar.gz --markdown 20230531/d/dsw-models/3.24.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-31 11:41:42] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-31 11:41:42] INFO root fetch - main [MainThread]: End processing [dsw-command-queue]: success
+[2023-05-31 11:41:42] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-05-31 11:41:43] INFO root fetch - main [MainThread]: End processing [dsw-models]: success
+[2023-05-31 11:41:43] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-05-31 11:41:43] INFO root fetch - main [MainThread]: End processing [RistLang]: success
+[2023-05-31 11:41:49] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-05-31 11:41:49] INFO root fetch - main [MainThread]: Store serial: [18314888]
