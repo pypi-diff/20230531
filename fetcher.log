@@ -11971,3 +11971,129 @@
 [2023-05-31 11:41:43] INFO root fetch - main [MainThread]: End processing [RistLang]: success
 [2023-05-31 11:41:49] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-05-31 11:41:49] INFO root fetch - main [MainThread]: Store serial: [18314888]
+[2023-05-31 11:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314888]
+[2023-05-31 11:46:58] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valmi-connector-lib
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsw-database
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsw-storage
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsw-tdk
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartchart
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gto
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soft-nudge
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garpix-page
+[2023-05-31 11:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaxrenderer
+[2023-05-31 11:46:58] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-tdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-storage]: New version: [3.24.0rc1] Old Version: [3.24.0]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-database]: New version: [3.24.0rc1] Old Version: [3.24.0]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [gto]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 11:46:58] WARNING root fetch - processPackages [soft-nudge]: Skipping, unable to determine old version
+[2023-05-31 11:46:58] INFO root fetch - processPackages [jaxrenderer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [soft-nudge]: Start processing: iparapheur-provisioning
+[2023-05-31 11:46:58] INFO root fetch - main [MainThread]: End processing [soft-nudge] error
+[2023-05-31 11:46:58] INFO root fetch - processPackages [smartchart]: New version: [6.6.4.1] Old Version: [6.6.4]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [garpix-page]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-tdk]: executing diffoscope
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-tdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-tdk-3.8.0.tar.gz tmp/dsw-tdk-3.9.0.tar.gz --markdown 20230531/d/dsw-tdk/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230531/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/49/b7/5f52c8845f700f9a7e6ff89887e0b909beefe51f270e1bcda2ff9ad6564e/dsw-storage-3.24.0.tar.gz
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/73/d1/7a6b1d323fafbe63871b28817915b9b3619e03225845df48c1fda19b9605/dsw-database-3.24.0.tar.gz
+[2023-05-31 11:46:58] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/47/7c/a04835748e2dc3616bed18f0c0c0045b2842447caddd8ccb6f1afe56be67/iparapheur-provisioning-1.6.5.tar.gz
+[2023-05-31 11:46:58] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/d7/a2/a10d0245f5df65d28ae086ee19c707e6deadfde0aa2b1e7e3feecb0d5963/smartchart-6.6.4.1.tar.gz
+[2023-05-31 11:46:58] INFO root fetch - processPackages [gto]: Downloading https://files.pythonhosted.org/packages/8b/8d/86f27fe36cb459e289a7e2f4a7b4551c456317e969a444bf94c6443e3bc4/gto-0.3.2.tar.gz
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-storage]: executing diffoscope
+[2023-05-31 11:46:58] INFO root fetch - processPackages [dsw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-storage-3.24.0.tar.gz tmp/dsw-storage-3.24.0rc1.tar.gz --markdown 20230531/d/dsw-storage/3.24.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-31 11:46:58] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2023-05-31 11:46:58] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.6.4.tar.gz tmp/iparapheur-provisioning-1.6.5.tar.gz --markdown 20230531/i/iparapheur-provisioning/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-31 11:46:59] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-31 11:46:59] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230531/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 11:46:59] INFO root fetch - processPackages [jaxrenderer]: Downloading https://files.pythonhosted.org/packages/46/33/a510ea868173de8e345a84ca9e978747629a0053cc6355e0f98859638da0/jaxrenderer-0.1.1.tar.gz
+[2023-05-31 11:46:59] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-05-31 11:46:59] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.4.tar.gz tmp/smartchart-6.6.4.1.tar.gz --markdown 20230531/s/smartchart/6.6.4-6.6.4.1/diff.md --exclude *.pyd
+[2023-05-31 11:46:59] INFO root fetch - processPackages [gto]: executing diffoscope
+[2023-05-31 11:46:59] INFO root fetch - processPackages [gto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gto-0.3.1.tar.gz tmp/gto-0.3.2.tar.gz --markdown 20230531/g/gto/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 11:46:59] INFO root fetch - processPackages [garpix-page]: executing diffoscope
+[2023-05-31 11:46:59] INFO root fetch - processPackages [garpix-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_page-2.8.0.tar.gz tmp/garpix_page-2.9.0.tar.gz --markdown 20230531/g/garpix-page/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:46:59] INFO root fetch - processPackages [dsw-database]: executing diffoscope
+[2023-05-31 11:46:59] INFO root fetch - processPackages [dsw-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-database-3.24.0.tar.gz tmp/dsw-database-3.24.0rc1.tar.gz --markdown 20230531/d/dsw-database/3.24.0-3.24.0rc1/diff.md --exclude *.pyd
+[2023-05-31 11:46:59] INFO root fetch - processPackages [jaxrenderer]: executing diffoscope
+[2023-05-31 11:46:59] INFO root fetch - processPackages [jaxrenderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxrenderer-0.1.0.tar.gz tmp/jaxrenderer-0.1.1.tar.gz --markdown 20230531/j/jaxrenderer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 11:47:00] INFO root fetch - processPackages [dsw-storage]: Start processing: pytrino
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [dsw-storage]: success
+[2023-05-31 11:47:00] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: insurance-gi
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-31 11:47:00] INFO root fetch - processPackages [pytrino]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-31 11:47:00] WARNING root fetch - processPackages [insurance-gi]: Skipping, unable to determine old version
+[2023-05-31 11:47:00] INFO root fetch - processPackages [insurance-gi]: Start processing: lincs
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [insurance-gi] error
+[2023-05-31 11:47:00] INFO root fetch - processPackages [lincs]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-31 11:47:00] INFO root fetch - processPackages [dsw-database]: Start processing: mlrun
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [dsw-database]: success
+[2023-05-31 11:47:00] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc8] Old Version: [1.4.0rc7]
+[2023-05-31 11:47:00] INFO root fetch - processPackages [pytrino]: Downloading https://files.pythonhosted.org/packages/26/55/06618aa7575e2ee4d1119b2c00e509609046e0d29e1bfb2a9e56e3ef46d5/pytrino-0.0.5.tar.gz
+[2023-05-31 11:47:00] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/9d/fc/2ce7d065a347373c621b5c4be15a8f2d4c56ece4aeaf2d015e83608b48ed/lincs-0.3.3.tar.gz
+[2023-05-31 11:47:00] INFO root fetch - processPackages [dsw-tdk]: Start processing: zcbot-crawl-sdk
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
+[2023-05-31 11:47:00] INFO root fetch - processPackages [zcbot-crawl-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 11:47:00] INFO root fetch - processPackages [garpix-page]: Start processing: docarray
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [garpix-page]: success
+[2023-05-31 11:47:00] INFO root fetch - processPackages [gto]: Start processing: garpix-user
+[2023-05-31 11:47:00] INFO root fetch - main [MainThread]: End processing [gto]: success
+[2023-05-31 11:47:00] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-31 11:47:01] INFO root fetch - processPackages [pytrino]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [pytrino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrino-0.0.4.tar.gz tmp/pytrino-0.0.5.tar.gz --markdown 20230531/p/pytrino/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [garpix-user]: New version: [3.6.0] Old Version: [3.5.0rc9]
+[2023-05-31 11:47:01] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc7-py3-none-any.whl.zip tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip --markdown 20230531/m/mlrun/1.4.0rc7-1.4.0rc8/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/c4/05/72e5f53eb22bdaad0bf7b452f3edf14d86c4580009e1d63434ac16dc0463/lincs-0.3.5.tar.gz
+[2023-05-31 11:47:01] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/7e/2e/0d56d19aed98f77fbf7ad0c2a469926d634446e2d5fcce7a6d3696eff9a7/garpix_user-3.5.0rc9.tar.gz
+[2023-05-31 11:47:01] INFO root fetch - processPackages [zcbot-crawl-sdk]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [zcbot-crawl-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-crawl-sdk-0.0.8.tar.gz tmp/zcbot-crawl-sdk-0.0.9.tar.gz --markdown 20230531/z/zcbot-crawl-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230531/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [lincs]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [lincs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lincs-0.3.3.tar.gz tmp/lincs-0.3.5.tar.gz --markdown 20230531/l/lincs/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [dipex]: Start processing: mlc-tools
+[2023-05-31 11:47:01] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-31 11:47:01] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-31 11:47:01] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/00/83/4f097cbb7950d33a817db35447f31c07efe96b58698c55880ce834678978/garpix_user-3.6.0.tar.gz
+[2023-05-31 11:47:01] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230531/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [garpix-user]: executing diffoscope
+[2023-05-31 11:47:01] INFO root fetch - processPackages [garpix-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_user-3.5.0rc9.tar.gz tmp/garpix_user-3.6.0.tar.gz --markdown 20230531/g/garpix-user/3.5.0rc9-3.6.0/diff.md --exclude *.pyd
+[2023-05-31 11:47:01] INFO root fetch - processPackages [jaxrenderer]: Start processing: bpmn-tools
+[2023-05-31 11:47:01] INFO root fetch - main [MainThread]: End processing [jaxrenderer]: success
+[2023-05-31 11:47:01] INFO root fetch - processPackages [bpmn-tools]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-31 11:47:02] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/88/cb/3059a158cfbf4ecd92d22da3b75112ff9aeae0258bbf484ba446ae26189a/bpmn-tools-0.1.0.tar.gz
+[2023-05-31 11:47:02] INFO root fetch - processPackages [bpmn-tools]: executing diffoscope
+[2023-05-31 11:47:02] INFO root fetch - processPackages [bpmn-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpmn-tools-0.0.3.tar.gz tmp/bpmn-tools-0.1.0.tar.gz --markdown 20230531/b/bpmn-tools/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 11:47:02] INFO root fetch - processPackages [pytrino]: Start processing: devilry
+[2023-05-31 11:47:02] INFO root fetch - main [MainThread]: End processing [pytrino]: success
+[2023-05-31 11:47:02] INFO root fetch - processPackages [devilry]: New version: [6.0.0rc1] Old Version: [5.5.3]
+[2023-05-31 11:47:02] INFO root fetch - processPackages [iparapheur-provisioning]: Start processing: translate-shell
+[2023-05-31 11:47:02] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2023-05-31 11:47:02] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 11:47:02] INFO root fetch - processPackages [devilry]: Downloading https://files.pythonhosted.org/packages/b4/01/582e78df472a56265d1f580b6193e8ed9cc159060e03b5855bbbf2f8f85a/devilry-5.5.3.tar.gz
+[2023-05-31 11:47:02] WARNING root fetch - processPackages [devilry]: Skipping package: exceeds size limit 25569869>=10485760
+[2023-05-31 11:47:02] INFO root fetch - processPackages [devilry]: Start processing: defi-services-lib
+[2023-05-31 11:47:02] INFO root fetch - main [MainThread]: End processing [devilry] error
+[2023-05-31 11:47:02] INFO root fetch - processPackages [defi-services-lib]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 11:47:02] INFO root fetch - main [MainThread]: End processing [zcbot-crawl-sdk]: success
+[2023-05-31 11:47:02] INFO root fetch - processPackages [defi-services-lib]: executing diffoscope
+[2023-05-31 11:47:02] INFO root fetch - processPackages [defi-services-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defi-services-lib-1.0.5.tar.gz tmp/defi-services-lib-1.0.6.tar.gz --markdown 20230531/d/defi-services-lib/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 11:47:02] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-05-31 11:47:02] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230531/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:47:03] INFO root fetch - main [MainThread]: End processing [lincs]: success
+[2023-05-31 11:47:03] INFO root fetch - main [MainThread]: End processing [garpix-user]: success
+[2023-05-31 11:47:03] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-31 11:47:03] INFO root fetch - main [MainThread]: End processing [bpmn-tools]: success
+[2023-05-31 11:47:04] INFO root fetch - main [MainThread]: End processing [defi-services-lib]: success
+[2023-05-31 11:47:04] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-05-31 11:47:05] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-31 11:47:07] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-31 11:47:08] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-05-31 11:47:08] INFO root fetch - main [MainThread]: Store serial: [18314964]
