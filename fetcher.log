@@ -2205,3 +2205,60 @@
 [2023-05-31 03:27:57] INFO root fetch - main [MainThread]: End processing [ZenithLib]: success
 [2023-05-31 03:27:57] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
 [2023-05-31 03:27:57] INFO root fetch - main [MainThread]: Store serial: [18309493]
+[2023-05-31 03:33:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309493]
+[2023-05-31 03:33:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GameWidgets
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zwave-js-server-python
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-jbank
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nshuman-python
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funboost
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-bom
+[2023-05-31 03:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nshuman-python
+[2023-05-31 03:33:06] INFO root fetch - processPackages [funboost]: New version: [21.2] Old Version: [21.0]
+[2023-05-31 03:33:06] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 03:33:06] INFO root fetch - processPackages [GameWidgets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 03:33:06] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 03:33:06] INFO root fetch - processPackages [django-jbank]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-05-31 03:33:06] INFO root fetch - processPackages [django-bom]: New version: [1.99] Old Version: [1.98]
+[2023-05-31 03:33:06] INFO root fetch - processPackages [GameWidgets]: Downloading https://files.pythonhosted.org/packages/ef/4c/3aa36f38904632dbb89f0039940747fdfc6eee66010fe0c1e100c51c017c/GameWidgets-0.1.1.tar.gz
+[2023-05-31 03:33:06] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/9b/21/9903c6b3a39b7dc9c8fbae927faf25012f7aa6204f338b046a7c6a006d4b/nshuman_python-0.0.7-py3-none-any.whl
+[2023-05-31 03:33:06] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/50/bf/858861c7a4f63b4597c3708585c9c010f389bf339113e2286f89ae66b8b3/funboost-21.2-py3-none-any.whl
+[2023-05-31 03:33:06] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-31 03:33:06] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230531/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:33:06] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/03/2b/a2ba0da238fdeb27eb9a5ff67b0530480a9db2feca75322e106affb60562/django-jbank-4.2.5.tar.gz
+[2023-05-31 03:33:06] INFO root fetch - processPackages [django-bom]: Downloading https://files.pythonhosted.org/packages/80/1b/2d06c8d70c326f5a704d0d712f9716965509dde7606f6a33da16354ad494/django-bom-1.98.tar.gz
+[2023-05-31 03:33:06] INFO root fetch - processPackages [GameWidgets]: Downloading https://files.pythonhosted.org/packages/8f/74/bb0db1583c9caad08eb06503408bc6614dc837db69290360cd86b5a46308/GameWidgets-0.1.2.tar.gz
+[2023-05-31 03:33:06] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-05-31 03:33:06] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-21.0-py3-none-any.whl.zip tmp/funboost-21.2-py3-none-any.whl.zip --markdown 20230531/f/funboost/21.0-21.2/diff.md --exclude *.pyd
+[2023-05-31 03:33:06] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2023-05-31 03:33:06] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.2.4.tar.gz tmp/django-jbank-4.2.5.tar.gz --markdown 20230531/d/django-jbank/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/e1/76/e1876f8ca55cdf523d2258dbde7b022ab2012e9c4d9a5379a0692c6b3cd5/nshuman_python-0.0.8-py3-none-any.whl
+[2023-05-31 03:33:07] INFO root fetch - processPackages [GameWidgets]: executing diffoscope
+[2023-05-31 03:33:07] INFO root fetch - processPackages [GameWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWidgets-0.1.1.tar.gz tmp/GameWidgets-0.1.2.tar.gz --markdown 20230531/G/GameWidgets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 03:33:07] INFO root fetch - processPackages [zwave-js-server-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-31 03:33:07] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/e1/76/e1876f8ca55cdf523d2258dbde7b022ab2012e9c4d9a5379a0692c6b3cd5/nshuman_python-0.0.8-py3-none-any.whl
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.7-py3-none-any.whl.zip tmp/nshuman_python-0.0.8-py3-none-any.whl.zip --markdown 20230531/n/nshuman-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 03:33:07] INFO root fetch - processPackages [django-bom]: Downloading https://files.pythonhosted.org/packages/5c/7e/272dd84ebceb311a0161f44cdd551ae0fd8d19719ad9f486b7ebc291805f/django-bom-1.99.tar.gz
+[2023-05-31 03:33:07] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-31 03:33:07] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230531/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-31 03:33:07] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.7-py3-none-any.whl.zip tmp/nshuman_python-0.0.8-py3-none-any.whl.zip --markdown 20230531/n/nshuman-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 03:33:07] INFO root fetch - processPackages [django-bom]: executing diffoscope
+[2023-05-31 03:33:07] INFO root fetch - processPackages [django-bom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bom-1.98.tar.gz tmp/django-bom-1.99.tar.gz --markdown 20230531/d/django-bom/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-31 03:33:07] INFO root fetch - processPackages [zwave-js-server-python]: executing diffoscope
+[2023-05-31 03:33:07] INFO root fetch - processPackages [zwave-js-server-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwave-js-server-python-0.8.0.tar.gz tmp/zwave-js-server-python-0.9.0.tar.gz --markdown 20230531/z/zwave-js-server-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 03:33:08] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-31 03:33:08] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-31 03:33:08] INFO root fetch - main [MainThread]: End processing [GameWidgets]: success
+[2023-05-31 03:33:08] INFO root fetch - main [MainThread]: End processing [zwave-js-server-python]: success
+[2023-05-31 03:33:08] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-31 03:33:09] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-31 03:33:10] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-05-31 03:33:11] INFO root fetch - main [MainThread]: End processing [django-bom]: success
+[2023-05-31 03:33:12] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2023-05-31 03:33:12] INFO root fetch - main [MainThread]: Store serial: [18309518]
