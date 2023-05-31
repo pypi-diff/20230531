@@ -15006,3 +15006,85 @@
 [2023-05-31 14:40:49] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
 [2023-05-31 14:41:05] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-05-31 14:41:05] INFO root fetch - main [MainThread]: Store serial: [18316748]
+[2023-05-31 14:46:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316748]
+[2023-05-31 14:46:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asset-tracking-pepsico
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cq23
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dvc
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybiolib
+[2023-05-31 14:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clouding-server-manager
+[2023-05-31 14:46:14] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cq23]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [clouding-server-manager]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [dvc]: New version: [3.0.0a1] Old Version: [3.0.0a0]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.930]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-31 14:46:14] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230531/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 14:46:14] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230531/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-31 14:46:14] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/83/47/81a8439788aff846fa44595ce52105d3c181ddd97e327766d486b190aa74/pybiolib-1.1.930.tar.gz
+[2023-05-31 14:46:14] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/9d/46/e3c36940d1192e37b2bbb44b9ea23478f4e3f56042d0de95a026dcc5fef3/asset_tracking_pepsico-0.0.4.tar.gz
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/e6/48/5463469e73cbf236559f0000da2fc22f232ffacddc2ab390c5eb03ff89f0/cq23-1.6.0.tar.gz
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230531/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.5.0.tar.gz tmp/cq23-1.6.0.tar.gz --markdown 20230531/c/cq23/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-31 14:46:14] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.930.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230531/p/pybiolib/1.1.930-1.1.94/diff.md --exclude *.pyd
+[2023-05-31 14:46:14] INFO root fetch - processPackages [clouding-server-manager]: Downloading https://files.pythonhosted.org/packages/1d/e8/7bcd87d5911ee26de3ca359020b97b8f259da1c8d5e841c788dc878fa059/clouding_server_manager-1.0.3.tar.gz
+[2023-05-31 14:46:14] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-31 14:46:14] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230531/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-31 14:46:14] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230531/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-31 14:46:15] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-05-31 14:46:15] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-0.0.3.tar.gz tmp/asset_tracking_pepsico-0.0.4.tar.gz --markdown 20230531/a/asset-tracking-pepsico/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 14:46:15] INFO root fetch - processPackages [clouding-server-manager]: executing diffoscope
+[2023-05-31 14:46:15] INFO root fetch - processPackages [clouding-server-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clouding_server_manager-1.0.2.tar.gz tmp/clouding_server_manager-1.0.3.tar.gz --markdown 20230531/c/clouding-server-manager/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 14:46:15] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-31 14:46:15] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.0.0a0.tar.gz tmp/dvc-3.0.0a1.tar.gz --markdown 20230531/d/dvc/3.0.0a0-3.0.0a1/diff.md --exclude *.pyd
+[2023-05-31 14:46:16] INFO root fetch - processPackages [leadguru-jobs]: Start processing: spinetoolbox
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-31 14:46:16] INFO root fetch - processPackages [spinetoolbox]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-31 14:46:16] INFO root fetch - processPackages [cdktf]: Start processing: enedis-tic
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-31 14:46:16] WARNING root fetch - processPackages [enedis-tic]: Skipping, unable to determine old version
+[2023-05-31 14:46:16] INFO root fetch - processPackages [enedis-tic]: Start processing: meshed
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [enedis-tic] error
+[2023-05-31 14:46:16] INFO root fetch - processPackages [clouding-server-manager]: Start processing: Mirolyubov-lab3-new-version
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [clouding-server-manager]: success
+[2023-05-31 14:46:16] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 14:46:16] WARNING root fetch - processPackages [Mirolyubov-lab3-new-version]: Skipping, unable to determine old version
+[2023-05-31 14:46:16] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: Start processing: alnoda-wrk
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [Mirolyubov-lab3-new-version] error
+[2023-05-31 14:46:16] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-31 14:46:16] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-05-31 14:46:16] INFO root fetch - processPackages [spinetoolbox]: Downloading https://files.pythonhosted.org/packages/f2/7a/d6e049973dd340acc282639510d6ab5adf2ff06d17d44bd59deb9db9355c/spinetoolbox-0.6.8.tar.gz
+[2023-05-31 14:46:16] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-05-31 14:46:16] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230531/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-31 14:46:16] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-05-31 14:46:17] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-31 14:46:17] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-05-31 14:46:17] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-31 14:46:17] INFO root fetch - processPackages [spinetoolbox]: Downloading https://files.pythonhosted.org/packages/54/a0/486cfdb1705edf63dd819d419d85c9080f7742c138269773edd5cf61e314/spinetoolbox-0.6.9.tar.gz
+[2023-05-31 14:46:17] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-05-31 14:46:17] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230531/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 14:46:18] INFO root fetch - processPackages [spinetoolbox]: executing diffoscope
+[2023-05-31 14:46:18] INFO root fetch - processPackages [spinetoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinetoolbox-0.6.8.tar.gz tmp/spinetoolbox-0.6.9.tar.gz --markdown 20230531/s/spinetoolbox/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-31 14:46:18] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-05-31 14:46:18] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-31 14:46:19] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-05-31 14:46:21] INFO root fetch - main [MainThread]: End processing [spinetoolbox]: success
+[2023-05-31 14:46:21] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-31 14:46:21] INFO root fetch - main [MainThread]: Store serial: [18316792]
