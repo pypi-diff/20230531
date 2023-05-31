@@ -6523,3 +6523,50 @@
 [2023-05-31 04:56:01] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
 [2023-05-31 04:56:52] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-commission]: success
 [2023-05-31 04:56:52] INFO root fetch - main [MainThread]: Store serial: [18311762]
+[2023-05-31 05:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311762]
+[2023-05-31 05:02:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-connector
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-connector
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: downscale-image
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cds-python-sdk
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybaseutils
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynacode
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sohuprompt
+[2023-05-31 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lesscode-py
+[2023-05-31 05:02:01] INFO root fetch - processPackages [odoo8-addon-connector]: New version: [8.0.3.4.0.99.dev9] Old Version: [8.0.3.4.0.99.dev8]
+[2023-05-31 05:02:01] INFO root fetch - processPackages [downscale-image]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-31 05:02:01] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-31 05:02:01] INFO root fetch - processPackages [sohuprompt]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 05:02:01] INFO root fetch - processPackages [odoo9-addon-connector]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev8]
+[2023-05-31 05:02:01] WARNING root fetch - processPackages [cds-python-sdk]: Skipping, unable to determine old version
+[2023-05-31 05:02:01] INFO root fetch - main [MainThread]: End processing [cds-python-sdk] error
+[2023-05-31 05:02:01] INFO root fetch - processPackages [pybaseutils]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-31 05:02:01] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 05:02:01] INFO root fetch - processPackages [sohuprompt]: Downloading https://files.pythonhosted.org/packages/ef/bf/fdc6bacc0eddfb1c0b29640b4620ae07e634c725190e2230337a874469a9/sohuprompt-1.0.6.tar.gz
+[2023-05-31 05:02:01] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/fd/20/8ce8c3c01b7861217418776a97802a52a7a6911da457d39773f11385fa30/pybaseutils-0.8.0.tar.gz
+[2023-05-31 05:02:01] INFO root fetch - processPackages [downscale-image]: Downloading https://files.pythonhosted.org/packages/2c/51/9ac0d12fd9b616b5852aa3f0ccfbc5afd4ac06b84638035cae1a32a1d7a6/downscale_image-1.4.1.tar.gz
+[2023-05-31 05:02:02] INFO root fetch - processPackages [odoo8-addon-connector]: Downloading https://files.pythonhosted.org/packages/97/47/3d35e845bd2879542e263fbd4550dcc82d4ed96e94de3cad45f055a91cc8/odoo8_addon_connector-8.0.3.4.0.99.dev9-py2-none-any.whl
+[2023-05-31 05:02:02] INFO root fetch - processPackages [downscale-image]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [downscale-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/downscale_image-1.4.0.tar.gz tmp/downscale_image-1.4.1.tar.gz --markdown 20230531/d/downscale-image/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-31 05:02:02] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230531/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 05:02:02] INFO root fetch - processPackages [odoo9-addon-connector]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [odoo9-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230531/o/odoo9-addon-connector/9.0.1.2.0.99.dev8-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-31 05:02:02] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230531/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 05:02:02] INFO root fetch - processPackages [odoo8-addon-connector]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [odoo8-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_connector-8.0.3.4.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_connector-8.0.3.4.0.99.dev9-py2-none-any.whl.zip --markdown 20230531/o/odoo8-addon-connector/8.0.3.4.0.99.dev8-8.0.3.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-31 05:02:02] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/ab/07/78ae8af944d359c2b8d9120474ddc7b1ec780556530e8c484aee506309c7/pybaseutils-0.8.1.tar.gz
+[2023-05-31 05:02:02] INFO root fetch - processPackages [sohuprompt]: Downloading https://files.pythonhosted.org/packages/b7/a8/96b7f6130febf945e54bda5e781dce08d5b294c3c61f52a6c79ce34644b5/sohuprompt-1.0.7.tar.gz
+[2023-05-31 05:02:02] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-0.8.0.tar.gz tmp/pybaseutils-0.8.1.tar.gz --markdown 20230531/p/pybaseutils/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-31 05:02:02] INFO root fetch - processPackages [sohuprompt]: executing diffoscope
+[2023-05-31 05:02:02] INFO root fetch - processPackages [sohuprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sohuprompt-1.0.6.tar.gz tmp/sohuprompt-1.0.7.tar.gz --markdown 20230531/s/sohuprompt/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 05:02:03] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-31 05:02:03] INFO root fetch - main [MainThread]: End processing [downscale-image]: success
+[2023-05-31 05:02:03] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-05-31 05:02:03] INFO root fetch - main [MainThread]: End processing [sohuprompt]: success
+[2023-05-31 05:02:04] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2023-05-31 05:02:04] INFO root fetch - main [MainThread]: End processing [odoo8-addon-connector]: success
+[2023-05-31 05:02:04] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
+[2023-05-31 05:02:04] INFO root fetch - main [MainThread]: Store serial: [18311787]
