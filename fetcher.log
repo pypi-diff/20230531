@@ -21135,3 +21135,27 @@
 [2023-05-31 19:30:50] INFO root fetch - main [MainThread]: End processing [finac]: success
 [2023-05-31 19:30:50] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
 [2023-05-31 19:30:50] INFO root fetch - main [MainThread]: Store serial: [18320483]
+[2023-05-31 19:35:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320483]
+[2023-05-31 19:35:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 19:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: su6
+[2023-05-31 19:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib310-lite
+[2023-05-31 19:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kern-smooth
+[2023-05-31 19:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-ai
+[2023-05-31 19:35:59] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 19:35:59] INFO root fetch - processPackages [kern-smooth]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-31 19:35:59] INFO root fetch - processPackages [su6]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-31 19:35:59] ERROR root fetch - processPackages [abstract-ai]: Unable to get metadata: No such project 'abstract-ai'
+[2023-05-31 19:35:59] INFO root fetch - main [MainThread]: End processing [abstract-ai] error
+[2023-05-31 19:35:59] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 19:35:59] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:35:59] INFO root fetch - processPackages [kern-smooth]: Downloading https://files.pythonhosted.org/packages/31/57/53bbe4f4e03ed8ea39fe865e77f273b5c95fbd9fba3f5e2c359d93520cd4/kern-smooth-1.1.1.tar.gz
+[2023-05-31 19:35:59] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/e8/52/a309e0b60e74de14f96e61fea1f91ba95e6e21a41071739cb35e8e7eb0f4/su6-0.8.0.tar.gz
+[2023-05-31 19:35:59] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-31 19:35:59] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.7.2.tar.gz tmp/su6-0.8.0.tar.gz --markdown 20230531/s/su6/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-31 19:36:00] INFO root fetch - processPackages [kern-smooth]: Downloading https://files.pythonhosted.org/packages/37/06/9927d204c5920382469af390ece3426346fa84df9445fadd8bf06711458c/kern-smooth-1.1.2.tar.gz
+[2023-05-31 19:36:00] INFO root fetch - processPackages [kern-smooth]: executing diffoscope
+[2023-05-31 19:36:00] INFO root fetch - processPackages [kern-smooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kern-smooth-1.1.1.tar.gz tmp/kern-smooth-1.1.2.tar.gz --markdown 20230531/k/kern-smooth/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-31 19:36:00] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 19:36:01] INFO root fetch - main [MainThread]: End processing [kern-smooth]: success
+[2023-05-31 19:36:21] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-31 19:36:21] INFO root fetch - main [MainThread]: Store serial: [18320499]
