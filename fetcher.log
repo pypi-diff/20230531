@@ -12179,3 +12179,88 @@
 [2023-05-31 11:52:20] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
 [2023-05-31 11:52:22] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-05-31 11:52:22] INFO root fetch - main [MainThread]: Store serial: [18315006]
+[2023-05-31 11:57:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315006]
+[2023-05-31 11:57:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asset-tracking-pepsico
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bifixer
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codeforlife-portal
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Simplex
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfl-common
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-scoped-idx
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sai-awesome-test-project
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansible-later
+[2023-05-31 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: garpixcms
+[2023-05-31 11:57:31] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [ansible-later]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-05-31 11:57:32] WARNING root fetch - processPackages [sai-awesome-test-project]: Skipping, unable to determine old version
+[2023-05-31 11:57:32] INFO root fetch - processPackages [sai-awesome-test-project]: Start processing: bdffont
+[2023-05-31 11:57:32] WARNING root fetch - processPackages [django-scoped-idx]: Skipping, unable to determine old version
+[2023-05-31 11:57:32] INFO root fetch - main [MainThread]: End processing [sai-awesome-test-project] error
+[2023-05-31 11:57:32] INFO root fetch - processPackages [django-scoped-idx]: Start processing: mdast-cli-core
+[2023-05-31 11:57:32] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-05-31 11:57:32] INFO root fetch - main [MainThread]: End processing [django-scoped-idx] error
+[2023-05-31 11:57:32] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bifixer]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230531.9.54.740119] Old Version: [20230530.9.43.768438]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [garpixcms]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [mdast-cli-core]: New version: [2023.5.1] Old Version: [2022.8.8]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/dc/0a/ff7c13772f9161a0264e2bab8c3540f602d04d668410a8ad950c747f6f68/asset_tracking_pepsico-0.0.3.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/14/ab/5160bdb4261af3ae42c13c5857d3ddf5ea277faa8d7d09d309bcb07a6395/certora-cli-alpha-master-20230530.9.43.768438.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [mdast-cli-core]: Downloading https://files.pythonhosted.org/packages/ec/8c/d8525daa5dfcb99c8202167aec6f1170b28570b1615d9bf8d1b16b79fb60/mdast_cli_core-2022.8.8.tar.gz
+[2023-05-31 11:57:32] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39091477>=10485760
+[2023-05-31 11:57:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: hcai-nova-server-nightly
+[2023-05-31 11:57:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bifixer]: Downloading https://files.pythonhosted.org/packages/bb/34/eb46f0731036003645bb38cf3f8ed585212d3845f6f322c3355dea8a402f/bifixer-0.8.8.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-0.0.2.tar.gz tmp/asset_tracking_pepsico-0.0.3.tar.gz --markdown 20230531/a/asset-tracking-pepsico/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/f5/d8/3e82737725c4a326665d07c4359ad9e99615ebd88d2da9321d113f56cb5d/ansible_later-3.3.3.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230531/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.7.dev202305310956] Old Version: [0.1.7.dev202305261329]
+[2023-05-31 11:57:32] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/6b/67/9021d16fb3074fca17705315ff5b730c565961dbb3a39a09b17607600918/garpixcms-4.3.0.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/cb/1d/a43b84db5c4d3d9bdecfbaa4cbf25995eedcd5543266587876372fb4e338/bdffont-0.0.9.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230531/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230531/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [ansible-later]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [ansible-later]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_later-3.3.2.tar.gz tmp/ansible_later-3.3.3.tar.gz --markdown 20230531/a/ansible-later/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20230531/b/bdffont/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.2.0.tar.gz tmp/garpixcms-4.3.0.tar.gz --markdown 20230531/g/garpixcms/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [mdast-cli-core]: Downloading https://files.pythonhosted.org/packages/c5/d7/aaaac49248ef9816f347c9a904f82667ab3af13181480684a16ef9fcf99a/mdast_cli_core-2023.5.1.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [mdast-cli-core]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [mdast-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdast_cli_core-2022.8.8.tar.gz tmp/mdast_cli_core-2023.5.1.tar.gz --markdown 20230531/m/mdast-cli-core/2022.8.8-2023.5.1/diff.md --exclude *.pyd
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bifixer]: Downloading https://files.pythonhosted.org/packages/e4/12/9b4dba1cb8fd3a2d556a3caf6872374c4d0682f1c8c0cccd2c965359462d/bifixer-0.8.9.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/ee/31/e4baccd52e12aec76590f0a971e3bd5a096b3be607d40090a49b561fd488/hcai-nova-server-nightly-0.1.7.dev202305310956.tar.gz
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bifixer]: executing diffoscope
+[2023-05-31 11:57:32] INFO root fetch - processPackages [bifixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bifixer-0.8.8.tar.gz tmp/bifixer-0.8.9.tar.gz --markdown 20230531/b/bifixer/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-31 11:57:33] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-31 11:57:33] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.7.dev202305261329.tar.gz tmp/hcai-nova-server-nightly-0.1.7.dev202305310956.tar.gz --markdown 20230531/h/hcai-nova-server-nightly/0.1.7.dev202305261329-0.1.7.dev202305310956/diff.md --exclude *.pyd
+[2023-05-31 11:57:33] INFO root fetch - processPackages [asset-tracking-pepsico]: Start processing: flake8-eradicate
+[2023-05-31 11:57:33] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-05-31 11:57:33] INFO root fetch - processPackages [flake8-eradicate]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-31 11:57:34] INFO root fetch - processPackages [flake8-eradicate]: Downloading https://files.pythonhosted.org/packages/74/6a/f99a1f021804d2c4a0f880218e34fc2f21a0727b9780d8f4e2ffb45f0326/flake8-eradicate-1.4.0.tar.gz
+[2023-05-31 11:57:34] INFO root fetch - processPackages [mdast-cli-core]: Start processing: mongo-manager-juan-palma-borda
+[2023-05-31 11:57:34] INFO root fetch - main [MainThread]: End processing [mdast-cli-core]: success
+[2023-05-31 11:57:34] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-31 11:57:34] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2023-05-31 11:57:34] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-05-31 11:57:34] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-31 11:57:34] INFO root fetch - processPackages [flake8-eradicate]: Downloading https://files.pythonhosted.org/packages/9e/72/a3975dfa4287396e9fb8fc2b4ee94a80d0809babbf92abed5af9c8e29c95/flake8_eradicate-1.5.0.tar.gz
+[2023-05-31 11:57:34] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: executing diffoscope
+[2023-05-31 11:57:34] INFO root fetch - processPackages [mongo-manager-juan-palma-borda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo-manager-juan-palma-borda-0.7.2.tar.gz tmp/mongo-manager-juan-palma-borda-0.8.0.tar.gz --markdown 20230531/m/mongo-manager-juan-palma-borda/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-31 11:57:34] INFO root fetch - main [MainThread]: End processing [ansible-later]: success
+[2023-05-31 11:57:34] INFO root fetch - processPackages [flake8-eradicate]: executing diffoscope
+[2023-05-31 11:57:34] INFO root fetch - processPackages [flake8-eradicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-eradicate-1.4.0.tar.gz tmp/flake8_eradicate-1.5.0.tar.gz --markdown 20230531/f/flake8-eradicate/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-31 11:57:35] INFO root fetch - main [MainThread]: End processing [mongo-manager-juan-palma-borda]: success
+[2023-05-31 11:57:35] INFO root fetch - main [MainThread]: End processing [flake8-eradicate]: success
+[2023-05-31 11:57:35] INFO root fetch - main [MainThread]: End processing [bifixer]: success
+[2023-05-31 11:57:35] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-05-31 11:57:38] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-05-31 11:57:59] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-05-31 11:57:59] INFO root fetch - main [MainThread]: Store serial: [18315059]
