@@ -13828,3 +13828,49 @@
 [2023-05-31 13:34:27] INFO root fetch - main [MainThread]: End processing [tft-artemis]: success
 [2023-05-31 13:34:28] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-05-31 13:34:28] INFO root fetch - main [MainThread]: Store serial: [18315980]
+[2023-05-31 13:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315980]
+[2023-05-31 13:39:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchmark-runner
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-data-services-lwdp
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: titan-iris
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzmq
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-core
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-60s
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wrapper-secrets-manager
+[2023-05-31 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: doblib-legacy
+[2023-05-31 13:39:37] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5132316436] Old Version: [2.0.3.0.dev5118085147]
+[2023-05-31 13:39:37] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-31 13:39:37] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-31 13:39:37] INFO root fetch - processPackages [qwak-core]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-05-31 13:39:37] INFO root fetch - processPackages [pyzmq]: New version: [25.1.1b1] Old Version: [25.1.0]
+[2023-05-31 13:39:37] WARNING root fetch - processPackages [wrapper-secrets-manager]: Skipping, unable to determine old version
+[2023-05-31 13:39:37] INFO root fetch - main [MainThread]: End processing [wrapper-secrets-manager] error
+[2023-05-31 13:39:37] INFO root fetch - processPackages [nonebot-plugin-60s]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-31 13:39:37] INFO root fetch - processPackages [doblib-legacy]: New version: [0.17.0] Old Version: [0.16.3]
+[2023-05-31 13:39:37] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230531/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-31 13:39:37] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230531/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 13:39:37] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.90.tar.gz tmp/qwak_core-0.0.91.tar.gz --markdown 20230531/q/qwak-core/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-05-31 13:39:37] INFO root fetch - processPackages [nonebot-plugin-60s]: Downloading https://files.pythonhosted.org/packages/ca/1b/c49f23477cbdff9310ba74e1c6a249dda7840728006badcab266d81fa339/nonebot_plugin_60s-0.1.9.tar.gz
+[2023-05-31 13:39:37] INFO root fetch - processPackages [pyzmq]: Downloading https://files.pythonhosted.org/packages/5f/82/3a9c984b67b2977fcd39613d3bc6d1c6424a4aa59a74759cab1c4fb874bb/pyzmq-25.1.1b1.tar.gz
+[2023-05-31 13:39:37] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/34/93/4be388a490338397d1ab8cc692cff27fcc9aa3c8f8f35e4167b3c2a5ad27/th2_data_services_lwdp-2.0.3.0.dev5132316436.tar.gz
+[2023-05-31 13:39:37] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5118085147.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5132316436.tar.gz --markdown 20230531/t/th2-data-services-lwdp/2.0.3.0.dev5118085147-2.0.3.0.dev5132316436/diff.md --exclude *.pyd
+[2023-05-31 13:39:37] INFO root fetch - processPackages [pyzmq]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [pyzmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzmq-25.1.0.tar.gz tmp/pyzmq-25.1.1b1.tar.gz --markdown 20230531/p/pyzmq/25.1.0-25.1.1b1/diff.md --exclude *.pyd
+[2023-05-31 13:39:37] INFO root fetch - processPackages [doblib-legacy]: Downloading https://files.pythonhosted.org/packages/61/54/09092917aba46357e9848483c0e278250618924ad7ae507b852dd58eb12c/doblib_legacy-0.17.0-py2-none-any.whl
+[2023-05-31 13:39:37] INFO root fetch - processPackages [nonebot-plugin-60s]: Downloading https://files.pythonhosted.org/packages/86/1f/448acb3faf4772bb73a3c116c612a6822a6afbd221c0ba0a92149208dee1/nonebot_plugin_60s-0.2.0.tar.gz
+[2023-05-31 13:39:37] INFO root fetch - processPackages [doblib-legacy]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [doblib-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doblib_legacy-0.16.3-py2-none-any.whl.zip tmp/doblib_legacy-0.17.0-py2-none-any.whl.zip --markdown 20230531/d/doblib-legacy/0.16.3-0.17.0/diff.md --exclude *.pyd
+[2023-05-31 13:39:37] INFO root fetch - processPackages [nonebot-plugin-60s]: executing diffoscope
+[2023-05-31 13:39:37] INFO root fetch - processPackages [nonebot-plugin-60s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_60s-0.1.9.tar.gz tmp/nonebot_plugin_60s-0.2.0.tar.gz --markdown 20230531/n/nonebot-plugin-60s/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 13:39:38] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-31 13:39:39] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-05-31 13:39:39] INFO root fetch - main [MainThread]: End processing [doblib-legacy]: success
+[2023-05-31 13:39:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-60s]: success
+[2023-05-31 13:39:39] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-05-31 13:39:42] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-31 13:39:43] INFO root fetch - main [MainThread]: End processing [pyzmq]: success
+[2023-05-31 13:39:43] INFO root fetch - main [MainThread]: Store serial: [18316008]
