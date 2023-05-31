@@ -12590,3 +12590,58 @@
 [2023-05-31 12:25:13] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2023-05-31 12:25:13] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-31 12:25:13] INFO root fetch - main [MainThread]: Store serial: [18315242]
+[2023-05-31 12:30:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315242]
+[2023-05-31 12:30:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docstruct
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pandas
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ippython
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcarhilclient
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roj-agrirouter-sdk-python
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biclustering
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sarus-data-spec-public
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: binary-refinery
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mwj-apitest
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funnylog
+[2023-05-31 12:30:22] WARNING root fetch - processPackages [ippython]: Skipping, unable to determine old version
+[2023-05-31 12:30:22] INFO root fetch - processPackages [mb-pandas]: New version: [1.0.202305311026] Old Version: [1.0.202305301635]
+[2023-05-31 12:30:22] INFO root fetch - processPackages [ippython]: Start processing: summa-embed
+[2023-05-31 12:30:22] INFO root fetch - main [MainThread]: End processing [ippython] error
+[2023-05-31 12:30:22] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 12:30:22] WARNING root fetch - processPackages [biclustering]: Skipping, unable to determine old version
+[2023-05-31 12:30:22] INFO root fetch - main [MainThread]: End processing [biclustering] error
+[2023-05-31 12:30:22] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 12:30:22] WARNING root fetch - processPackages [funnylog]: Skipping, unable to determine old version
+[2023-05-31 12:30:22] INFO root fetch - processPackages [vcarhilclient]: New version: [1.0.531] Old Version: [1.0.526]
+[2023-05-31 12:30:22] INFO root fetch - main [MainThread]: End processing [funnylog] error
+[2023-05-31 12:30:22] INFO root fetch - processPackages [summa-embed]: New version: [0.15.4] Old Version: [0.15.0]
+[2023-05-31 12:30:22] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.4.1] Old Version: [3.3.0.dev3]
+[2023-05-31 12:30:22] WARNING root fetch - processPackages [mwj-apitest]: Skipping, unable to determine old version
+[2023-05-31 12:30:22] INFO root fetch - processPackages [binary-refinery]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-31 12:30:22] INFO root fetch - main [MainThread]: End processing [mwj-apitest] error
+[2023-05-31 12:30:22] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-05-31 12:30:22] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.0.tar.gz tmp/summa_embed-0.15.4.tar.gz --markdown 20230531/s/summa-embed/0.15.0-0.15.4/diff.md --exclude *.pyd
+[2023-05-31 12:30:22] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Downloading https://files.pythonhosted.org/packages/70/22/713cb016cba632468a19ad416fca658029c11326f627eb1e92e34906bbd4/roj-agrirouter-sdk-python-1.0.3.tar.gz
+[2023-05-31 12:30:22] INFO root fetch - processPackages [mb-pandas]: Downloading https://files.pythonhosted.org/packages/f4/3d/e3e8115b1e220b0053646c4160ba79acb567bd574644280477f41e126551/mb_pandas-1.0.202305311026-py3-none-any.whl
+[2023-05-31 12:30:23] INFO root fetch - processPackages [mb-pandas]: executing diffoscope
+[2023-05-31 12:30:23] INFO root fetch - processPackages [mb-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pandas-1.0.202305301635-py3-none-any.whl.zip tmp/mb_pandas-1.0.202305311026-py3-none-any.whl.zip --markdown 20230531/m/mb-pandas/1.0.202305301635-1.0.202305311026/diff.md --exclude *.pyd
+[2023-05-31 12:30:23] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/dc/d6/ad2c235d920a479c0cd2e61696ab4903af102867c451f9e8fc7f26b5afd9/vcarhilclient-1.0.531.tar.gz
+[2023-05-31 12:30:23] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/f2/45/6876397a8fe5fafaf3824f0f7d47fd96b544131016b6f44ad743b7a92ca8/sarus_data_spec_public-3.4.1.tar.gz
+[2023-05-31 12:30:23] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-05-31 12:30:23] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230531/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:30:23] INFO root fetch - processPackages [binary-refinery]: Downloading https://files.pythonhosted.org/packages/78/e7/f24f5f15d7ebee0b386c6c723bfad23fe1c68536032f72a004c714a54ccf/binary-refinery-0.6.8.tar.gz
+[2023-05-31 12:30:23] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: executing diffoscope
+[2023-05-31 12:30:23] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roj-agrirouter-sdk-python-1.0.2.tar.gz tmp/roj-agrirouter-sdk-python-1.0.3.tar.gz --markdown 20230531/r/roj-agrirouter-sdk-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 12:30:23] INFO root fetch - processPackages [vcarhilclient]: executing diffoscope
+[2023-05-31 12:30:23] INFO root fetch - processPackages [vcarhilclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcarhilclient-1.0.526.tar.gz tmp/vcarhilclient-1.0.531.tar.gz --markdown 20230531/v/vcarhilclient/1.0.526-1.0.531/diff.md --exclude *.pyd
+[2023-05-31 12:30:23] INFO root fetch - processPackages [binary-refinery]: executing diffoscope
+[2023-05-31 12:30:23] INFO root fetch - processPackages [binary-refinery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary-refinery-0.6.7.tar.gz tmp/binary-refinery-0.6.8.tar.gz --markdown 20230531/b/binary-refinery/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-31 12:30:23] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-31 12:30:23] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.3.0.dev3.tar.gz tmp/sarus_data_spec_public-3.4.1.tar.gz --markdown 20230531/s/sarus-data-spec-public/3.3.0.dev3-3.4.1/diff.md --exclude *.pyd
+[2023-05-31 12:30:24] INFO root fetch - main [MainThread]: End processing [mb-pandas]: success
+[2023-05-31 12:30:24] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-05-31 12:30:24] INFO root fetch - main [MainThread]: End processing [vcarhilclient]: success
+[2023-05-31 12:30:24] INFO root fetch - main [MainThread]: End processing [roj-agrirouter-sdk-python]: success
+[2023-05-31 12:30:24] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-05-31 12:30:25] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-31 12:30:26] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
+[2023-05-31 12:30:26] INFO root fetch - main [MainThread]: Store serial: [18315283]
