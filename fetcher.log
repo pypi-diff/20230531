@@ -19390,3 +19390,182 @@
 [2023-05-31 17:40:05] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2023-05-31 17:42:03] INFO root fetch - main [MainThread]: End processing [argilla]: success
 [2023-05-31 17:42:03] INFO root fetch - main [MainThread]: Store serial: [18319253]
+[2023-05-31 17:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319253]
+[2023-05-31 17:47:12] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: federated-content-connector
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycWB
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyromark
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rach-pack
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-dnoticias-auth
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnx2tf
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matchmaps
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cumulus-library-covid
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RL-OM
+[2023-05-31 17:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dh-potluck
+[2023-05-31 17:47:13] INFO root fetch - processPackages [rach-pack]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pycWB]: New version: [0.15.9] Old Version: [0.15.8]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [federated-content-connector]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [RL-OM]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [matchmaps]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-31 17:47:13] WARNING root fetch - processPackages [cumulus-library-covid]: Skipping, unable to determine old version
+[2023-05-31 17:47:13] INFO root fetch - processPackages [cumulus-library-covid]: Start processing: sparrow-patterns
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pyromark]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 17:47:13] INFO root fetch - main [MainThread]: End processing [cumulus-library-covid] error
+[2023-05-31 17:47:13] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [sparrow-patterns]: New version: [0.5.3.dev1685547900] Old Version: [0.5.2.dev1685547783]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230531/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pycWB]: Downloading https://files.pythonhosted.org/packages/41/29/5b50c05273a3f2b22833fc6c2b5bb413c5511c4716917f297f57983c072c/pycWB-0.15.8.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [matchmaps]: Downloading https://files.pythonhosted.org/packages/90/e8/49a827d2f2178651f3c08fd9336be055a5bccd45c12e56ec1d14eeca0949/matchmaps-0.2.0.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [rach-pack]: Downloading https://files.pythonhosted.org/packages/bd/52/f454da4ae5debabc5563db6724c6eaa9567690ddd868daabf95279c7b9ff/rach_pack-0.3.0.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/78/c6/669846136772408a849dcf2d95b4cc98c2fadfc6650374be12765d57d5d6/RL_OM-0.0.6.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [sparrow-patterns]: Downloading https://files.pythonhosted.org/packages/88/88/cb27bbf51d4e742d56ea299e9e6d3aa1794b06ce43165d61c78141147a83/sparrow-patterns-0.5.2.dev1685547783.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/95/f7/b674be260d39e3e8bca7defce3a9a853cfdc9e17de039829e00e5c565afb/federated-content-connector-0.1.1.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pyromark]: Downloading https://files.pythonhosted.org/packages/35/45/639555fb53c9a66bc511f41fd0041b80bfd284f2a72d561c8b5147080ac1/pyromark-0.1.2.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.0.5.tar.gz tmp/RL_OM-0.0.6.tar.gz --markdown 20230531/R/RL-OM/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] WARNING root fetch - processPackages [pycWB]: Skipping package: exceeds size limit 39444171>=10485760
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pycWB]: Start processing: opentera
+[2023-05-31 17:47:13] INFO root fetch - main [MainThread]: End processing [pycWB] error
+[2023-05-31 17:47:13] INFO root fetch - processPackages [opentera]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-31 17:47:13] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230531/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [rach-pack]: Downloading https://files.pythonhosted.org/packages/04/d7/3ab91ed0f553dd1a64baeec9c4369125210a1292ea45e5c705f62af77809/rach_pack-0.4.0.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [matchmaps]: Downloading https://files.pythonhosted.org/packages/64/99/364c40e38487c502a8a05153807ac250f47ccddf359acf4ac7c2b7d8dd85/matchmaps-0.3.0.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/e0/fc/ce94f52b6823a70bc4126e5b48a80d955845f2ca8b77f540e88d000296f3/federated-content-connector-0.2.0.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230531/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pyromark]: Downloading https://files.pythonhosted.org/packages/98/ce/30fc7cabe6af01c2dfee8a6f3e997f055ecb8b50f2a19632fbbfe32b63a9/pyromark-0.1.3.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [sparrow-patterns]: Downloading https://files.pythonhosted.org/packages/13/20/971657b295f747f5463ff236a56c83fcff27fc6dd4ec2b6f9f9fcec96d39/sparrow-patterns-0.5.3.dev1685547900.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [rach-pack]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [rach-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rach_pack-0.3.0.tar.gz tmp/rach_pack-0.4.0.tar.gz --markdown 20230531/r/rach-pack/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [federated-content-connector]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [federated-content-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federated-content-connector-0.1.1.tar.gz tmp/federated-content-connector-0.2.0.tar.gz --markdown 20230531/f/federated-content-connector/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [sparrow-patterns]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pyromark]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [sparrow-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-patterns-0.5.2.dev1685547783.tar.gz tmp/sparrow-patterns-0.5.3.dev1685547900.tar.gz --markdown 20230531/s/sparrow-patterns/0.5.2.dev1685547783-0.5.3.dev1685547900/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [pyromark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyromark-0.1.2.tar.gz tmp/pyromark-0.1.3.tar.gz --markdown 20230531/p/pyromark/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [matchmaps]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [matchmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchmaps-0.2.0.tar.gz tmp/matchmaps-0.3.0.tar.gz --markdown 20230531/m/matchmaps/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 17:47:13] INFO root fetch - processPackages [opentera]: Downloading https://files.pythonhosted.org/packages/d2/cb/b88ea9b81818977171e9c30fe0104d388bc41622112fda4119c34adb416b/opentera-1.2.3.tar.gz
+[2023-05-31 17:47:13] INFO root fetch - processPackages [opentera]: executing diffoscope
+[2023-05-31 17:47:13] INFO root fetch - processPackages [opentera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentera-1.2.2.tar.gz tmp/opentera-1.2.3.tar.gz --markdown 20230531/o/opentera/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-31 17:47:14] INFO root fetch - processPackages [dh-potluck]: Start processing: dls-servbase
+[2023-05-31 17:47:14] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-05-31 17:47:14] INFO root fetch - processPackages [dls-servbase]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-31 17:47:14] INFO root fetch - processPackages [rach-pack]: Start processing: appier
+[2023-05-31 17:47:14] INFO root fetch - main [MainThread]: End processing [rach-pack]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [appier]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/38/f8/cd8634af4c6420b582cde37cc2e4e8b74830c5504ad56f19d411ea91f105/dls-servbase-1.5.0.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [pyromark]: Start processing: dapr-dev
+[2023-05-31 17:47:15] INFO root fetch - main [MainThread]: End processing [pyromark]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dls-servbase]: executing diffoscope
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dls-servbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-servbase-1.4.1.tar.gz tmp/dls-servbase-1.5.0.tar.gz --markdown 20230531/d/dls-servbase/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1601] Old Version: [1.9.0rc1.dev1580]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [django-dnoticias-auth]: Start processing: dapr-ext-workflow-dev
+[2023-05-31 17:47:15] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1601] Old Version: [0.0.1rc1.dev1580]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/7b/9d/507a45b5a5473835ed463146cb3115fe0797af0f641aeac92e2367d50241/dapr-dev-1.9.0rc1.dev1580.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [appier]: executing diffoscope
+[2023-05-31 17:47:15] INFO root fetch - processPackages [appier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier-1.9.8.tar.gz tmp/appier-1.9.9.tar.gz --markdown 20230531/a/appier/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-31 17:47:15] INFO root fetch - processPackages [sparrow-patterns]: Start processing: flask-dapr-dev
+[2023-05-31 17:47:15] INFO root fetch - main [MainThread]: End processing [sparrow-patterns]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1601] Old Version: [1.9.0rc1.dev1580]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/53/a5/360310a460d0e7f4d93f2d2855c5ed8a512b28cfc931a2129ca033b421ec/dapr-dev-1.9.0rc1.dev1601.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/f9/91/1a4d54b8196a7568ef5bf979d6f5cccea1ccfbf660ed8571c4f5f323a370/dapr-ext-workflow-dev-0.0.1rc1.dev1580.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1580.tar.gz tmp/dapr-dev-1.9.0rc1.dev1601.tar.gz --markdown 20230531/d/dapr-dev/1.9.0rc1.dev1580-1.9.0rc1.dev1601/diff.md --exclude *.pyd
+[2023-05-31 17:47:15] INFO root fetch - processPackages [federated-content-connector]: Start processing: dapr-ext-grpc-dev
+[2023-05-31 17:47:15] INFO root fetch - main [MainThread]: End processing [federated-content-connector]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [matchmaps]: Start processing: dapr-ext-fastapi-dev
+[2023-05-31 17:47:15] INFO root fetch - main [MainThread]: End processing [matchmaps]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/46/5e/ad152f5e4e7876666c8a0545e111a8b8a5519799549c194d72b3cdd9a134/flask-dapr-dev-1.9.0rc1.dev1580.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1601] Old Version: [1.9.0rc1.dev1580]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1601] Old Version: [1.9.0rc1.dev1580]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [RL-OM]: Start processing: domain-paas-sdk-python
+[2023-05-31 17:47:15] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/7d/55/4a44e502a3428fa4dc0c81e56ab8449826b9bca2d1f7cfbeac3199bff89e/dapr-ext-workflow-dev-0.0.1rc1.dev1601.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/f2/2f/9f60aea4778f89c65ca9aa682598a1cee6c1215359939d3a4146d78dd520/dapr-ext-grpc-dev-1.9.0rc1.dev1580.tar.gz
+[2023-05-31 17:47:15] INFO root fetch - processPackages [domain-paas-sdk-python]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 17:47:15] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/da/62/1a4e85648e456b18d0509b18bd4d71c66b6232d238438f76997e648735b2/dapr-ext-fastapi-dev-1.9.0rc1.dev1580.tar.gz
+[2023-05-31 17:47:16] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/50/93/cbc16433bc7ded35e4dcc4a143838f46501323b7c34432b9c1309882544a/flask-dapr-dev-1.9.0rc1.dev1601.tar.gz
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1580.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1601.tar.gz --markdown 20230531/d/dapr-ext-workflow-dev/0.0.1rc1.dev1580-0.0.1rc1.dev1601/diff.md --exclude *.pyd
+[2023-05-31 17:47:16] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-05-31 17:47:16] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1580.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1601.tar.gz --markdown 20230531/f/flask-dapr-dev/1.9.0rc1.dev1580-1.9.0rc1.dev1601/diff.md --exclude *.pyd
+[2023-05-31 17:47:16] INFO root fetch - processPackages [domain-paas-sdk-python]: Downloading https://files.pythonhosted.org/packages/ea/c7/582b850d630da50b22297dd27fd49a6e63a359b369a19163efcd900de2f7/domain-paas-sdk-python-1.0.6.tar.gz
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/4c/41/22a7e2703054603f49a5ea17522812302c0f928eee8b72676d62528cc495/dapr-ext-grpc-dev-1.9.0rc1.dev1601.tar.gz
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/4f/98/51d288f2c33aec7281eaad16f122b57fbf3424a563e20f0e95bfd0634dd3/dapr-ext-fastapi-dev-1.9.0rc1.dev1601.tar.gz
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1580.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1601.tar.gz --markdown 20230531/d/dapr-ext-grpc-dev/1.9.0rc1.dev1580-1.9.0rc1.dev1601/diff.md --exclude *.pyd
+[2023-05-31 17:47:16] INFO root fetch - processPackages [opentera]: Start processing: textworld
+[2023-05-31 17:47:16] INFO root fetch - main [MainThread]: End processing [opentera]: success
+[2023-05-31 17:47:16] INFO root fetch - processPackages [domain-paas-sdk-python]: executing diffoscope
+[2023-05-31 17:47:16] INFO root fetch - processPackages [domain-paas-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-paas-sdk-python-1.0.5.tar.gz tmp/domain-paas-sdk-python-1.0.6.tar.gz --markdown 20230531/d/domain-paas-sdk-python/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-05-31 17:47:16] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1580.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1601.tar.gz --markdown 20230531/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1580-1.9.0rc1.dev1601/diff.md --exclude *.pyd
+[2023-05-31 17:47:16] INFO root fetch - processPackages [textworld]: New version: [1.5.4rc5] Old Version: [1.5.4rc4]
+[2023-05-31 17:47:16] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/c5/86/095aa9c8e90ebd865a59c39a4e789226353260715cb6b77c009ee1f90ae3/textworld-1.5.4rc5.tar.gz
+[2023-05-31 17:47:16] INFO root fetch - processPackages [textworld]: executing diffoscope
+[2023-05-31 17:47:16] INFO root fetch - processPackages [textworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textworld-1.5.4rc4.tar.gz tmp/textworld-1.5.4rc5.tar.gz --markdown 20230531/t/textworld/1.5.4rc4-1.5.4rc5/diff.md --exclude *.pyd
+[2023-05-31 17:47:17] INFO root fetch - processPackages [flask-dapr-dev]: Start processing: sparrow-patterns
+[2023-05-31 17:47:17] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-05-31 17:47:17] INFO root fetch - processPackages [sparrow-patterns]: New version: [0.5.3.dev1685547900] Old Version: [0.5.3]
+[2023-05-31 17:47:17] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: themis-imager-readfile
+[2023-05-31 17:47:17] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-05-31 17:47:17] INFO root fetch - processPackages [themis-imager-readfile]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-05-31 17:47:17] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Start processing: dagshub
+[2023-05-31 17:47:17] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-05-31 17:47:17] INFO root fetch - processPackages [sparrow-patterns]: Downloading https://files.pythonhosted.org/packages/c4/77/4ce93a5a25193e632cf70fecbef7027f344dcea7945c040840f257876420/sparrow-patterns-0.5.3.tar.gz
+[2023-05-31 17:47:17] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-05-31 17:47:17] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Start processing: DE-DataBaseConnect
+[2023-05-31 17:47:17] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-05-31 17:47:17] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-05-31 17:47:17] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-05-31 17:47:17] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230531/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-05-31 17:47:17] INFO root fetch - processPackages [themis-imager-readfile]: Downloading https://files.pythonhosted.org/packages/67/3d/d3dcad6f37a2f15e9cd75092ccc491ebe1efdb4c3491152f3ae37f977198/themis_imager_readfile-1.1.4.tar.gz
+[2023-05-31 17:47:17] INFO root fetch - processPackages [sparrow-patterns]: executing diffoscope
+[2023-05-31 17:47:17] INFO root fetch - processPackages [sparrow-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-patterns-0.5.3.tar.gz tmp/sparrow-patterns-0.5.3.dev1685547900.tar.gz --markdown 20230531/s/sparrow-patterns/0.5.3-0.5.3.dev1685547900/diff.md --exclude *.pyd
+[2023-05-31 17:47:17] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/34/48/2078ddfc5acb06c12bf6dbb09abdfb4a9ef915ce4151dbda24934c88be3a/DE_DataBaseConnect-0.0.66.tar.gz
+[2023-05-31 17:47:18] INFO root fetch - processPackages [themis-imager-readfile]: Downloading https://files.pythonhosted.org/packages/fa/f3/654a31497fd3ff4ecc805489e09ad02bff7cde5a6287c80b0dd3b05ee80c/themis_imager_readfile-1.2.0.tar.gz
+[2023-05-31 17:47:18] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/9e/77/978970affc0c9a25c676032ca091e210bbe1ff1fab23db3133d60edc93d1/DE_DataBaseConnect-0.0.67.tar.gz
+[2023-05-31 17:47:18] INFO root fetch - processPackages [themis-imager-readfile]: executing diffoscope
+[2023-05-31 17:47:18] INFO root fetch - processPackages [themis-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themis_imager_readfile-1.1.4.tar.gz tmp/themis_imager_readfile-1.2.0.tar.gz --markdown 20230531/t/themis-imager-readfile/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 17:47:18] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2023-05-31 17:47:18] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DE_DataBaseConnect-0.0.66.tar.gz tmp/DE_DataBaseConnect-0.0.67.tar.gz --markdown 20230531/D/DE-DataBaseConnect/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-05-31 17:47:18] INFO root fetch - processPackages [dls-servbase]: Start processing: keypact
+[2023-05-31 17:47:18] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
+[2023-05-31 17:47:18] INFO root fetch - processPackages [keypact]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-31 17:47:18] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/45/d9/cabbbc32bf4127994aa1e3bd23d9376ae62f890c424a1643aa37a169b8b6/keypact-0.6.0.tar.gz
+[2023-05-31 17:47:18] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-05-31 17:47:18] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.5.0.tar.gz tmp/keypact-0.6.0.tar.gz --markdown 20230531/k/keypact/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-31 17:47:18] INFO root fetch - processPackages [dapr-dev]: Start processing: FastaTransformer
+[2023-05-31 17:47:18] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-05-31 17:47:18] INFO root fetch - processPackages [dagshub]: Start processing: sparrow-patterns
+[2023-05-31 17:47:18] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-05-31 17:47:18] WARNING root fetch - processPackages [FastaTransformer]: Skipping, unable to determine old version
+[2023-05-31 17:47:18] INFO root fetch - processPackages [FastaTransformer]: Start processing: utility-stella
+[2023-05-31 17:47:18] INFO root fetch - main [MainThread]: End processing [FastaTransformer] error
+[2023-05-31 17:47:18] INFO root fetch - processPackages [sparrow-patterns]: New version: [0.5.3.dev1685547900] Old Version: [0.5.3]
+[2023-05-31 17:47:18] WARNING root fetch - processPackages [utility-stella]: Skipping, unable to determine old version
+[2023-05-31 17:47:18] INFO root fetch - processPackages [utility-stella]: Start processing: rick
+[2023-05-31 17:47:18] INFO root fetch - main [MainThread]: End processing [utility-stella] error
+[2023-05-31 17:47:18] INFO root fetch - processPackages [rick]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-31 17:47:19] INFO root fetch - processPackages [sparrow-patterns]: executing diffoscope
+[2023-05-31 17:47:19] INFO root fetch - processPackages [sparrow-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-patterns-0.5.3.tar.gz tmp/sparrow-patterns-0.5.3.dev1685547900.tar.gz --markdown 20230531/s/sparrow-patterns/0.5.3-0.5.3.dev1685547900/diff.md --exclude *.pyd
+[2023-05-31 17:47:19] INFO root fetch - main [MainThread]: End processing [appier]: success
+[2023-05-31 17:47:19] INFO root fetch - processPackages [rick]: Downloading https://files.pythonhosted.org/packages/ba/df/391d176322f19db0ecbeac00e70ab068213658106de5f1bc74cae6b4b468/rick-0.6.1.tar.gz
+[2023-05-31 17:47:19] INFO root fetch - processPackages [rick]: executing diffoscope
+[2023-05-31 17:47:19] INFO root fetch - processPackages [rick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rick-0.6.0.tar.gz tmp/rick-0.6.1.tar.gz --markdown 20230531/r/rick/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-31 17:47:19] INFO root fetch - main [MainThread]: End processing [sparrow-patterns]: success
+[2023-05-31 17:47:19] INFO root fetch - main [MainThread]: End processing [themis-imager-readfile]: success
+[2023-05-31 17:47:19] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2023-05-31 17:47:20] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-05-31 17:47:20] INFO root fetch - main [MainThread]: End processing [textworld]: success
+[2023-05-31 17:47:20] INFO root fetch - main [MainThread]: End processing [sparrow-patterns]: success
+[2023-05-31 17:47:20] INFO root fetch - main [MainThread]: End processing [rick]: success
+[2023-05-31 17:47:21] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-31 17:47:30] INFO root fetch - main [MainThread]: End processing [domain-paas-sdk-python]: success
+[2023-05-31 17:47:30] INFO root fetch - main [MainThread]: Store serial: [18319417]
