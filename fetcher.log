@@ -10798,3 +10798,96 @@
 [2023-05-31 10:35:39] INFO root fetch - main [MainThread]: End processing [fp-NGFW-SMC-python]: success
 [2023-05-31 10:35:39] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
 [2023-05-31 10:35:39] INFO root fetch - main [MainThread]: Store serial: [18314197]
+[2023-05-31 10:40:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314197]
+[2023-05-31 10:40:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-lsp-ruff
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-security
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playwrightcapture
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmclient-core
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpservice
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: umap-project
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mitzu
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chargebee
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-estimator-nightly
+[2023-05-31 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsa
+[2023-05-31 10:40:48] INFO root fetch - processPackages [playwrightcapture]: New version: [1.20.0] Old Version: [1.19.9]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [lmclient-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [python-lsp-ruff]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [umap-project]: New version: [1.3.0a0] Old Version: [1.3.0]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [jsa]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mitzu]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-05-31 10:40:48] WARNING root fetch - processPackages [abstract-security]: Skipping, unable to determine old version
+[2023-05-31 10:40:48] INFO root fetch - processPackages [abstract-security]: Start processing: gpt4-api
+[2023-05-31 10:40:48] INFO root fetch - main [MainThread]: End processing [abstract-security] error
+[2023-05-31 10:40:48] WARNING root fetch - processPackages [gpt4-api]: Skipping, unable to determine old version
+[2023-05-31 10:40:48] INFO root fetch - processPackages [gpt4-api]: Start processing: rio-cogeo
+[2023-05-31 10:40:48] INFO root fetch - main [MainThread]: End processing [gpt4-api] error
+[2023-05-31 10:40:48] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [rio-cogeo]: New version: [4.0.0] Old Version: [3.5.2]
+[2023-05-31 10:40:48] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/a1/38/9018bb1b5739538fae73b477228cc626656ca6d3c5c03cc00a83fdd599c0/umap-project-1.3.0.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/25/01/03583f2faeba7034209fa7ae302174ac283a63d2a61456c744453c28e2a0/lmclient-core-0.2.1.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [jsa]: Downloading https://files.pythonhosted.org/packages/68/42/f542fa317e92ec0bb28f52b14ae6e2a9b73d6c7d81ea6e4f36b326c367bd/jsa-0.4.0.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230531/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/f0/be/675cd4cfb6388e8613c8afa6d147752bc2411844789a5b819c13606f35f9/playwrightcapture-1.20.0.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [lmclient-core]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [lmclient-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmclient-core-0.2.0.tar.gz tmp/lmclient-core-0.2.1.tar.gz --markdown 20230531/l/lmclient-core/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [jsa]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [jsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsa-0.3.0.tar.gz tmp/jsa-0.4.0.tar.gz --markdown 20230531/j/jsa/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/ea/f0/225e3640f32a3b76dd60bab9f215f3de9c0777e82c9bed6020652c5418fd/mitzu-0.6.2.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [python-lsp-ruff]: Downloading https://files.pythonhosted.org/packages/de/26/6fb2d8525c3ada0112d85a161f73e39270a37190fad0ed32691d8f0559cf/python-lsp-ruff-1.5.1.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.19.9.tar.gz tmp/playwrightcapture-1.20.0.tar.gz --markdown 20230531/p/playwrightcapture/1.19.9-1.20.0/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230531/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap-project-1.3.0.tar.gz tmp/umap-project-1.3.0a0.tar.gz --markdown 20230531/u/umap-project/1.3.0-1.3.0a0/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [python-lsp-ruff]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [python-lsp-ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lsp-ruff-1.5.0.tar.gz tmp/python-lsp-ruff-1.5.1.tar.gz --markdown 20230531/p/python-lsp-ruff/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.1.tar.gz tmp/mitzu-0.6.2.tar.gz --markdown 20230531/m/mitzu/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [rio-cogeo]: Downloading https://files.pythonhosted.org/packages/13/e0/c050dfeb342248d1f137a856eca12955bffe0cd3536133cfd5b78b1a3735/rio_cogeo-4.0.0.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2023-05-31 10:40:48] INFO root fetch - processPackages [rio-cogeo]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [rio-cogeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_cogeo-3.5.2.tar.gz tmp/rio_cogeo-4.0.0.tar.gz --markdown 20230531/r/rio-cogeo/3.5.2-4.0.0/diff.md --exclude *.pyd
+[2023-05-31 10:40:48] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2023-05-31 10:40:48] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20230531/c/chargebee/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 10:40:50] INFO root fetch - processPackages [lmclient-core]: Start processing: cartoonart
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [lmclient-core]: success
+[2023-05-31 10:40:50] INFO root fetch - processPackages [playwrightcapture]: Start processing: epmc-xml
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-05-31 10:40:50] WARNING root fetch - processPackages [cartoonart]: Skipping, unable to determine old version
+[2023-05-31 10:40:50] INFO root fetch - processPackages [cartoonart]: Start processing: anoncreds
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [cartoonart] error
+[2023-05-31 10:40:50] WARNING root fetch - processPackages [epmc-xml]: Skipping, unable to determine old version
+[2023-05-31 10:40:50] INFO root fetch - processPackages [epmc-xml]: Start processing: protloc-mex-x
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [epmc-xml] error
+[2023-05-31 10:40:50] INFO root fetch - processPackages [anoncreds]: New version: [0.1.0.dev19] Old Version: [0.1.0.dev18]
+[2023-05-31 10:40:50] INFO root fetch - processPackages [protloc-mex-x]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 10:40:50] INFO root fetch - processPackages [mpservice]: Start processing: morecantile
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-31 10:40:50] INFO root fetch - processPackages [morecantile]: New version: [4.0.1] Old Version: [4.0.0a1]
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [jsa]: success
+[2023-05-31 10:40:50] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/7e/f6/224dfe595550f451167d8dbfae9d93c606db6e9222abd5fab6ccd9626972/protloc_mex_x-0.0.1.tar.gz
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [rio-cogeo]: success
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [python-lsp-ruff]: success
+[2023-05-31 10:40:50] INFO root fetch - processPackages [anoncreds]: Downloading https://files.pythonhosted.org/packages/df/36/9aaf9930d4e5e4eef8c11875ddefad91da1f089eca5470d2e1926ed7eaa9/anoncreds-0.1.0.dev19-py3-none-win_amd64.whl
+[2023-05-31 10:40:50] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/ef/31/fac4f0c04eb099f42325cd68b9e1d1065a90cbe4ce91f22b4d57d37edeb5/morecantile-4.0.1.tar.gz
+[2023-05-31 10:40:50] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/88/d0/fc85fe4f310c77cc8b36414385b7a1c01a6ecf43a9807681e08aa7c2c3e1/protloc_mex_x-0.0.2.tar.gz
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2023-05-31 10:40:50] INFO root fetch - processPackages [anoncreds]: executing diffoscope
+[2023-05-31 10:40:50] INFO root fetch - processPackages [anoncreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoncreds-0.1.0.dev18-py3-none-win_amd64.whl.zip tmp/anoncreds-0.1.0.dev19-py3-none-win_amd64.whl.zip --markdown 20230531/a/anoncreds/0.1.0.dev18-0.1.0.dev19/diff.md --exclude *.pyd
+[2023-05-31 10:40:50] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-05-31 10:40:50] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-4.0.0a1.tar.gz tmp/morecantile-4.0.1.tar.gz --markdown 20230531/m/morecantile/4.0.0a1-4.0.1/diff.md --exclude *.pyd
+[2023-05-31 10:40:50] INFO root fetch - processPackages [protloc-mex-x]: executing diffoscope
+[2023-05-31 10:40:50] INFO root fetch - processPackages [protloc-mex-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex_x-0.0.1.tar.gz tmp/protloc_mex_x-0.0.2.tar.gz --markdown 20230531/p/protloc-mex-x/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 10:40:50] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-31 10:40:51] INFO root fetch - main [MainThread]: End processing [protloc-mex-x]: success
+[2023-05-31 10:40:52] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-05-31 10:40:52] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-05-31 10:40:53] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-05-31 10:41:11] INFO root fetch - main [MainThread]: End processing [anoncreds]: success
+[2023-05-31 10:41:11] INFO root fetch - main [MainThread]: Store serial: [18314257]
