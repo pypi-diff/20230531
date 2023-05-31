@@ -1794,3 +1794,44 @@
 [2023-05-31 02:39:39] INFO root fetch - main [MainThread]: End processing [stellar-sdk-mini]: success
 [2023-05-31 02:40:12] INFO root fetch - main [MainThread]: End processing [sematic]: success
 [2023-05-31 02:40:12] INFO root fetch - main [MainThread]: Store serial: [18309222]
+[2023-05-31 02:45:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309222]
+[2023-05-31 02:45:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-storage-blob
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngscrape
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-qchem
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: es7s
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-utilities-test
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-utilities-test
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ngscrape]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [auto-qchem]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [abstract-utilities-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [abstract-utilities-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [azure-storage-blob]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-31 02:45:31] INFO root fetch - processPackages [abstract-utilities-test]: executing diffoscope
+[2023-05-31 02:45:31] INFO root fetch - processPackages [abstract-utilities-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities_test-0.0.1.tar.gz tmp/abstract_utilities_test-0.0.2.tar.gz --markdown 20230531/a/abstract-utilities-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 02:45:31] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2023-05-31 02:45:31] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_qchem-1.2.4-py3-none-any.whl.zip tmp/auto_qchem-1.2.5-py3-none-any.whl.zip --markdown 20230531/a/auto-qchem/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-31 02:45:31] INFO root fetch - processPackages [abstract-utilities-test]: executing diffoscope
+[2023-05-31 02:45:31] INFO root fetch - processPackages [abstract-utilities-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities_test-0.0.1.tar.gz tmp/abstract_utilities_test-0.0.2.tar.gz --markdown 20230531/a/abstract-utilities-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 02:45:31] INFO root fetch - processPackages [ngscrape]: Downloading https://files.pythonhosted.org/packages/4c/95/901d8f008c176e8a1801d39ca25123fea77b3c4bbaa0af1afec24cdd6201/ngscrape-1.2.1.tar.gz
+[2023-05-31 02:45:32] INFO root fetch - processPackages [azure-storage-blob]: Downloading https://files.pythonhosted.org/packages/c5/34/d8f27776120042fec155c906020747981035a243fc3496798c89d0bd0df7/azure-storage-blob-2.0.1.tar.gz
+[2023-05-31 02:45:32] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-31 02:45:32] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230531/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 02:45:32] INFO root fetch - processPackages [ngscrape]: executing diffoscope
+[2023-05-31 02:45:32] INFO root fetch - processPackages [ngscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngscrape-1.2.0.tar.gz tmp/ngscrape-1.2.1.tar.gz --markdown 20230531/n/ngscrape/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-31 02:45:32] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-31 02:45:32] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230531/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-31 02:45:32] INFO root fetch - processPackages [azure-storage-blob]: Downloading https://files.pythonhosted.org/packages/0e/76/bd6eadc0f2b481bcfb43c37caacf77372401fc013c1431861561b794e06a/azure-storage-blob-2.1.0.tar.gz
+[2023-05-31 02:45:32] INFO root fetch - processPackages [azure-storage-blob]: executing diffoscope
+[2023-05-31 02:45:32] INFO root fetch - processPackages [azure-storage-blob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-storage-blob-2.0.1.tar.gz tmp/azure-storage-blob-2.1.0.tar.gz --markdown 20230531/a/azure-storage-blob/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [abstract-utilities-test]: success
+[2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [abstract-utilities-test]: success
+[2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [azure-storage-blob]: success
+[2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-31 02:45:34] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
+[2023-05-31 02:45:34] INFO root fetch - main [MainThread]: Store serial: [18309249]
