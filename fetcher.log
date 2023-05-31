@@ -6683,3 +6683,27 @@
 [2023-05-31 05:12:30] INFO root fetch - main [MainThread]: End processing [carpo-student]: success
 [2023-05-31 05:12:30] INFO root fetch - main [MainThread]: End processing [odoo10-addon-delivery-carrier-label-postlogistics]: success
 [2023-05-31 05:12:30] INFO root fetch - main [MainThread]: Store serial: [18311846]
+[2023-05-31 05:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311846]
+[2023-05-31 05:17:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 05:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binsync
+[2023-05-31 05:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfgcyk
+[2023-05-31 05:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-05-31 05:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbilr
+[2023-05-31 05:17:40] WARNING root fetch - processPackages [cfgcyk]: Skipping, unable to determine old version
+[2023-05-31 05:17:40] INFO root fetch - main [MainThread]: End processing [cfgcyk] error
+[2023-05-31 05:17:40] INFO root fetch - processPackages [fbilr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 05:17:40] INFO root fetch - processPackages [binsync]: New version: [3.9.0] Old Version: [3.6.0]
+[2023-05-31 05:17:40] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230531] Old Version: [0.0.17.dev20230530]
+[2023-05-31 05:17:40] INFO root fetch - processPackages [fbilr]: Downloading https://files.pythonhosted.org/packages/59/32/461a5f78e9e6fbf4915f60fd16026b0333769c822e5e52fd85c5c0e25f7b/fbilr-1.0.2.tar.gz
+[2023-05-31 05:17:40] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/5d/86/0f74674c40f47829da84864eaec26ba497230b42f01f49d17fd222934bac/GANDLF-0.0.17.dev20230531.tar.gz
+[2023-05-31 05:17:40] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-31 05:17:40] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230530.tar.gz tmp/GANDLF-0.0.17.dev20230531.tar.gz --markdown 20230531/G/GANDLF/0.0.17.dev20230530-0.0.17.dev20230531/diff.md --exclude *.pyd
+[2023-05-31 05:17:41] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2023-05-31 05:17:41] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-3.6.0.tar.gz tmp/binsync-3.9.0.tar.gz --markdown 20230531/b/binsync/3.6.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-31 05:17:41] INFO root fetch - processPackages [fbilr]: Downloading https://files.pythonhosted.org/packages/c1/44/56869272092807bfeb35edd84d6905ce73c11c855b68240b9b0487cc54c2/fbilr-1.0.3.tar.gz
+[2023-05-31 05:17:41] INFO root fetch - processPackages [fbilr]: executing diffoscope
+[2023-05-31 05:17:41] INFO root fetch - processPackages [fbilr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbilr-1.0.2.tar.gz tmp/fbilr-1.0.3.tar.gz --markdown 20230531/f/fbilr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 05:17:41] INFO root fetch - main [MainThread]: End processing [fbilr]: success
+[2023-05-31 05:17:42] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2023-05-31 05:17:42] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-31 05:17:42] INFO root fetch - main [MainThread]: Store serial: [18311863]
