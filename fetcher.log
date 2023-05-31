@@ -6487,3 +6487,39 @@
 [2023-05-31 04:50:47] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-05-31 04:50:49] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-31 04:50:49] INFO root fetch - main [MainThread]: Store serial: [18311738]
+[2023-05-31 04:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311738]
+[2023-05-31 04:56:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ke-airflow-dag-generator
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wfsutil
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xruletest
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yard-wfs
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inhandtest
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addons-oca-commission
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lp-ap-tools
+[2023-05-31 04:56:00] WARNING root fetch - processPackages [yard-wfs]: Skipping, unable to determine old version
+[2023-05-31 04:56:00] INFO root fetch - main [MainThread]: End processing [yard-wfs] error
+[2023-05-31 04:56:00] INFO root fetch - processPackages [odoo14-addons-oca-commission]: New version: [14.0.20230530.0] Old Version: [14.0.20230524.0]
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ke-airflow-dag-generator]: New version: [0.1.dev1] Old Version: [0.0.0]
+[2023-05-31 04:56:00] WARNING root fetch - processPackages [wfsutil]: Skipping, unable to determine old version
+[2023-05-31 04:56:00] INFO root fetch - main [MainThread]: End processing [wfsutil] error
+[2023-05-31 04:56:00] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 04:56:00] WARNING root fetch - processPackages [xruletest]: Skipping, unable to determine old version
+[2023-05-31 04:56:00] INFO root fetch - main [MainThread]: End processing [xruletest] error
+[2023-05-31 04:56:00] INFO root fetch - processPackages [inhandtest]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-05-31 04:56:00] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-05-31 04:56:00] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.2-py3-none-any.whl.zip tmp/lp_ap_tools-0.1.3-py3-none-any.whl.zip --markdown 20230531/l/lp-ap-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ke-airflow-dag-generator]: Downloading https://files.pythonhosted.org/packages/7e/20/1377eb04e6a62d593018eaa92fca07db1d6b5fc3ae95df9600342ab00b16/ke_airflow_dag_generator-0.0.0.tar.gz
+[2023-05-31 04:56:00] INFO root fetch - processPackages [odoo14-addons-oca-commission]: Downloading https://files.pythonhosted.org/packages/58/07/85f7669773068cdc5b8e680600d87ba8953a947236fb357d24cac7038cc1/odoo14_addons_oca_commission-14.0.20230530.0-py3-none-any.whl
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ke-airflow-dag-generator]: Downloading https://files.pythonhosted.org/packages/1c/bb/b926469f1447de3f5f4f25b5bdbbdcc4ac99688e939dd1df25865a58157c/ke_airflow_dag_generator-0.1.dev1.tar.gz
+[2023-05-31 04:56:00] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/84/15/fa282cfe6dcdcd2f9202d9b5ea7337653c5bd64996ffb7efe2fe37b30a66/inhandtest-0.0.50.tar.gz
+[2023-05-31 04:56:00] INFO root fetch - processPackages [odoo14-addons-oca-commission]: executing diffoscope
+[2023-05-31 04:56:00] INFO root fetch - processPackages [odoo14-addons-oca-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_commission-14.0.20230524.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_commission-14.0.20230530.0-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addons-oca-commission/14.0.20230524.0-14.0.20230530.0/diff.md --exclude *.pyd
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ke-airflow-dag-generator]: executing diffoscope
+[2023-05-31 04:56:00] INFO root fetch - processPackages [ke-airflow-dag-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ke_airflow_dag_generator-0.0.0.tar.gz tmp/ke_airflow_dag_generator-0.1.dev1.tar.gz --markdown 20230531/k/ke-airflow-dag-generator/0.0.0-0.1.dev1/diff.md --exclude *.pyd
+[2023-05-31 04:56:00] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-31 04:56:00] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.49.tar.gz tmp/inhandtest-0.0.50.tar.gz --markdown 20230531/i/inhandtest/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-05-31 04:56:01] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-05-31 04:56:01] INFO root fetch - main [MainThread]: End processing [ke-airflow-dag-generator]: success
+[2023-05-31 04:56:01] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-31 04:56:52] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-commission]: success
+[2023-05-31 04:56:52] INFO root fetch - main [MainThread]: Store serial: [18311762]
