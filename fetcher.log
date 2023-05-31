@@ -22330,3 +22330,80 @@
 [2023-05-31 20:55:58] INFO root fetch - main [MainThread]: End processing [seaplayer]: success
 [2023-05-31 20:56:01] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
 [2023-05-31 20:56:01] INFO root fetch - main [MainThread]: Store serial: [18321144]
+[2023-05-31 21:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321144]
+[2023-05-31 21:01:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-pdf-generator
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astronomer-cosmos
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autora-theorist-darts
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forevd
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: busy
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabric-virt-tools
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cfdi
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transit2
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autora-theorist-bsr
+[2023-05-31 21:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bahire-hasab
+[2023-05-31 21:01:11] ERROR root fetch - processPackages [python-pdf-generator]: Unable to get metadata: No such project 'python-pdf-generator'
+[2023-05-31 21:01:11] INFO root fetch - processPackages [python-pdf-generator]: Start processing: dwiqc
+[2023-05-31 21:01:11] INFO root fetch - main [MainThread]: End processing [python-pdf-generator] error
+[2023-05-31 21:01:11] INFO root fetch - processPackages [forevd]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [fabric-virt-tools]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [autora-theorist-darts]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [busy]: New version: [5.0.2] Old Version: [5.0.0]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [bahire-hasab]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [astronomer-cosmos]: New version: [0.7.0rc2] Old Version: [0.7.0rc1]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [dwiqc]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [bahire-hasab]: executing diffoscope
+[2023-05-31 21:01:11] INFO root fetch - processPackages [bahire-hasab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bahire-hasab-0.2.4.tar.gz tmp/bahire-hasab-0.2.5.tar.gz --markdown 20230531/b/bahire-hasab/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-31 21:01:11] INFO root fetch - processPackages [autora-theorist-bsr]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-31 21:01:11] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.3.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.3.9-py2.py3-none-any.whl.zip --markdown 20230531/d/dwiqc/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 21:01:11] WARNING root fetch - processPackages [transit2]: Skipping, unable to determine old version
+[2023-05-31 21:01:11] INFO root fetch - processPackages [transit2]: Start processing: autora-theorist-bms
+[2023-05-31 21:01:11] INFO root fetch - main [MainThread]: End processing [transit2] error
+[2023-05-31 21:01:11] INFO root fetch - processPackages [autora-theorist-darts]: Downloading https://files.pythonhosted.org/packages/48/dd/e3585169d9c9f183f6b6c4fc46fa6bc66bd3751415e586569fff69e99e51/autora-theorist-darts-1.0.0a4.tar.gz
+[2023-05-31 21:01:11] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/6f/10/86a240901128890c3a026228d23a913c34d6b4b6a7e6e6236b8450987439/forevd-0.1.3.tar.gz
+[2023-05-31 21:01:11] INFO root fetch - processPackages [fabric-virt-tools]: Downloading https://files.pythonhosted.org/packages/8c/de/b931ea96bb0471b2656897da6a086c0692897fb31e3ef82f516af59c7f83/fabric-virt-tools-1.0.0b5.tar.gz
+[2023-05-31 21:01:11] INFO root fetch - processPackages [autora-theorist-bms]: New version: [1.0.0b0] Old Version: [1.0.0a0]
+[2023-05-31 21:01:11] INFO root fetch - processPackages [fabric-virt-tools]: executing diffoscope
+[2023-05-31 21:01:11] INFO root fetch - processPackages [fabric-virt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_virt_tools-1.0.0b4.tar.gz tmp/fabric-virt-tools-1.0.0b5.tar.gz --markdown 20230531/f/fabric-virt-tools/1.0.0b4-1.0.0b5/diff.md --exclude *.pyd
+[2023-05-31 21:01:11] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/5d/04/dc1db58e7f54d16f1fcd0b7eec03057d5815491aa383017a7f4260872050/busy-5.0.2.tar.gz
+[2023-05-31 21:01:11] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2023-05-31 21:01:11] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20230531/d/django-cfdi/2.98-2.99/diff.md --exclude *.pyd
+[2023-05-31 21:01:11] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2023-05-31 21:01:11] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-0.7.0rc1.tar.gz tmp/astronomer_cosmos-0.7.0rc2.tar.gz --markdown 20230531/a/astronomer-cosmos/0.7.0rc1-0.7.0rc2/diff.md --exclude *.pyd
+[2023-05-31 21:01:11] INFO root fetch - processPackages [busy]: executing diffoscope
+[2023-05-31 21:01:11] INFO root fetch - processPackages [autora-theorist-bms]: Downloading https://files.pythonhosted.org/packages/cd/08/f7458f7385d224c873ee4a0e1aa9d23a4bbc340e033e25a08a7f74a45eea/autora-theorist-bms-1.0.0a0.tar.gz
+[2023-05-31 21:01:11] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-5.0.0.tar.gz tmp/busy-5.0.2.tar.gz --markdown 20230531/b/busy/5.0.0-5.0.2/diff.md --exclude *.pyd
+[2023-05-31 21:01:12] INFO root fetch - processPackages [autora-theorist-bsr]: executing diffoscope
+[2023-05-31 21:01:12] INFO root fetch - processPackages [autora-theorist-bsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-theorist-bsr-1.0.0rc0.tar.gz tmp/autora-theorist-bsr-1.0.0rc1.tar.gz --markdown 20230531/a/autora-theorist-bsr/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-31 21:01:12] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/10/9b/9fb50a65f72f1b8972fd9bf153906a34093aafe92613920d6ac287d0a3a3/forevd-0.1.5.tar.gz
+[2023-05-31 21:01:12] INFO root fetch - processPackages [forevd]: executing diffoscope
+[2023-05-31 21:01:12] INFO root fetch - processPackages [forevd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forevd-0.1.3.tar.gz tmp/forevd-0.1.5.tar.gz --markdown 20230531/f/forevd/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 21:01:12] INFO root fetch - processPackages [autora-theorist-darts]: Downloading https://files.pythonhosted.org/packages/b0/9a/9b2f7fd633fd775b1a6b45de02584737bc21df65544e89c42de1fa2d6dfc/autora-theorist-darts-1.0.0a5.tar.gz
+[2023-05-31 21:01:12] INFO root fetch - processPackages [autora-theorist-bms]: Downloading https://files.pythonhosted.org/packages/b2/c1/3e9f9e76a046b72098069c3a755b52a6cfb23623dba0103bdb2464037d98/autora-theorist-bms-1.0.0b0.tar.gz
+[2023-05-31 21:01:12] INFO root fetch - processPackages [autora-theorist-bms]: executing diffoscope
+[2023-05-31 21:01:12] INFO root fetch - processPackages [autora-theorist-bms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-theorist-bms-1.0.0a0.tar.gz tmp/autora-theorist-bms-1.0.0b0.tar.gz --markdown 20230531/a/autora-theorist-bms/1.0.0a0-1.0.0b0/diff.md --exclude *.pyd
+[2023-05-31 21:01:13] INFO root fetch - processPackages [bahire-hasab]: Start processing: ovos-microphone-plugin-alsa
+[2023-05-31 21:01:13] INFO root fetch - main [MainThread]: End processing [bahire-hasab]: success
+[2023-05-31 21:01:13] INFO root fetch - processPackages [dwiqc]: Start processing: crxcavatorpy
+[2023-05-31 21:01:13] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-31 21:01:13] INFO root fetch - processPackages [ovos-microphone-plugin-alsa]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2023-05-31 21:01:13] INFO root fetch - processPackages [crxcavatorpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 21:01:13] INFO root fetch - processPackages [autora-theorist-darts]: executing diffoscope
+[2023-05-31 21:01:13] INFO root fetch - processPackages [autora-theorist-darts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-theorist-darts-1.0.0a4.tar.gz tmp/autora-theorist-darts-1.0.0a5.tar.gz --markdown 20230531/a/autora-theorist-darts/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-05-31 21:01:13] INFO root fetch - main [MainThread]: End processing [fabric-virt-tools]: success
+[2023-05-31 21:01:13] INFO root fetch - processPackages [crxcavatorpy]: executing diffoscope
+[2023-05-31 21:01:13] INFO root fetch - processPackages [crxcavatorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crxcavatorpy-0.1.1.tar.gz tmp/crxcavatorpy-0.1.2.tar.gz --markdown 20230531/c/crxcavatorpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 21:01:13] INFO root fetch - processPackages [ovos-microphone-plugin-alsa]: executing diffoscope
+[2023-05-31 21:01:13] INFO root fetch - processPackages [ovos-microphone-plugin-alsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-microphone-plugin-alsa-0.0.0a2.tar.gz tmp/ovos-microphone-plugin-alsa-0.0.0a3.tar.gz --markdown 20230531/o/ovos-microphone-plugin-alsa/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2023-05-31 21:01:13] INFO root fetch - main [MainThread]: End processing [forevd]: success
+[2023-05-31 21:01:13] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2023-05-31 21:01:14] INFO root fetch - main [MainThread]: End processing [autora-theorist-bsr]: success
+[2023-05-31 21:01:14] INFO root fetch - main [MainThread]: End processing [crxcavatorpy]: success
+[2023-05-31 21:01:14] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2023-05-31 21:01:14] INFO root fetch - main [MainThread]: End processing [ovos-microphone-plugin-alsa]: success
+[2023-05-31 21:01:14] INFO root fetch - main [MainThread]: End processing [autora-theorist-darts]: success
+[2023-05-31 21:01:15] INFO root fetch - main [MainThread]: End processing [autora-theorist-bms]: success
+[2023-05-31 21:01:20] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2023-05-31 21:01:20] INFO root fetch - main [MainThread]: Store serial: [18321186]
