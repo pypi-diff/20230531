@@ -6058,3 +6058,65 @@
 [2023-05-31 04:28:14] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-05-31 04:28:33] INFO root fetch - main [MainThread]: End processing [configwizard]: success
 [2023-05-31 04:28:33] INFO root fetch - main [MainThread]: Store serial: [18311488]
+[2023-05-31 04:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311488]
+[2023-05-31 04:33:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harlequin
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-utilities
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-imageprocess
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-analytic-base-department
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vrchatapi
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-account-cutoff-base
+[2023-05-31 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-account-cutoff-accrual-picking
+[2023-05-31 04:33:42] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [harlequin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo12-addon-analytic-base-department]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: New version: [13.0.2.0.0] Old Version: [13.0.1.0.1.dev7]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: New version: [13.0.2.0.0] Old Version: [13.0.1.0.2.dev5]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [policyengine-us]: New version: [0.330.1] Old Version: [0.330.0]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [chatllm]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [vrchatapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: executing diffoscope
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo13-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_cutoff_base-13.0.1.0.2.dev5-py3-none-any.whl.zip tmp/odoo13_addon_account_cutoff_base-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230531/o/odoo13-addon-account-cutoff-base/13.0.1.0.2.dev5-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-31 04:33:42] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/df/32/55c06e8c30115600a9ee9889d3fcdc9796ca0a3783f133b7d3a5a47140a2/abstract_utilities-0.0.1.tar.gz
+[2023-05-31 04:33:42] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-31 04:33:42] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230531/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-31 04:33:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-05-31 04:33:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230531/c/chatllm/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo12-addon-analytic-base-department]: Downloading https://files.pythonhosted.org/packages/dc/9b/5f7037f706764968742ebbc29fc5873c95d613d2f46039063b0e194776c0/odoo12_addon_analytic_base_department-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-31 04:33:42] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/11/1d/52c8da9295bdb7f9131bd66873190e9a838b620c28f7fa600ed2efaf07a0/policyengine-us-0.330.1.tar.gz
+[2023-05-31 04:33:42] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: Downloading https://files.pythonhosted.org/packages/a8/45/3abe5921bacbb5e88ae1573d899d951b02b1d396aea745d537a73beb0285/aliyun-python-sdk-imageprocess-2.0.5.tar.gz
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: executing diffoscope
+[2023-05-31 04:33:42] INFO root fetch - processPackages [odoo13-addon-account-cutoff-accrual-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_cutoff_accrual_picking-13.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_account_cutoff_accrual_picking-13.0.2.0.0-py3-none-any.whl.zip --markdown 20230531/o/odoo13-addon-account-cutoff-accrual-picking/13.0.1.0.1.dev7-13.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-31 04:33:42] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/ff/8b/88945a19e189b1baa0e126c157beab97590c6faf2c036b3fe1207854fd98/vrchatapi-1.9.0.tar.gz
+[2023-05-31 04:33:42] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-05-31 04:33:42] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/76/d9/cf865b63e70c4a9b4ac9a2e2842d8d2a980e62767b96db18f1e38deee637/abstract_utilities-0.0.2.tar.gz
+[2023-05-31 04:33:42] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.8.tar.gz tmp/harlequin-0.0.9.tar.gz --markdown 20230531/h/harlequin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 04:33:43] INFO root fetch - processPackages [odoo12-addon-analytic-base-department]: Downloading https://files.pythonhosted.org/packages/87/85/b83f9b9fb1f700caff40b9f16b3479c85ddbcf537e15eba5706977ccd9da/odoo12_addon_analytic_base_department-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-05-31 04:33:43] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: Downloading https://files.pythonhosted.org/packages/eb/ad/d3a7c00c014f68fbac4aa50534523ce7b69abc4582dd1e13e763b8f4953f/aliyun-python-sdk-imageprocess-2.0.6.tar.gz
+[2023-05-31 04:33:43] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 04:33:43] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.1.tar.gz tmp/abstract_utilities-0.0.2.tar.gz --markdown 20230531/a/abstract-utilities/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 04:33:43] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-31 04:33:43] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.330.0.tar.gz tmp/policyengine-us-0.330.1.tar.gz --markdown 20230531/p/policyengine-us/0.330.0-0.330.1/diff.md --exclude *.pyd
+[2023-05-31 04:33:43] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: executing diffoscope
+[2023-05-31 04:33:43] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-imageprocess-2.0.5.tar.gz tmp/aliyun-python-sdk-imageprocess-2.0.6.tar.gz --markdown 20230531/a/aliyun-python-sdk-imageprocess/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-31 04:33:43] INFO root fetch - processPackages [odoo12-addon-analytic-base-department]: executing diffoscope
+[2023-05-31 04:33:43] INFO root fetch - processPackages [odoo12-addon-analytic-base-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_analytic_base_department-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_analytic_base_department-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230531/o/odoo12-addon-analytic-base-department/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-31 04:33:43] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/4c/cc/4f4d3d2b865f5784be60e8ee4c993538bac9e5dde7647891cd68fee27fb3/vrchatapi-1.9.1.tar.gz
+[2023-05-31 04:33:43] INFO root fetch - processPackages [vrchatapi]: executing diffoscope
+[2023-05-31 04:33:43] INFO root fetch - processPackages [vrchatapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrchatapi-1.9.0.tar.gz tmp/vrchatapi-1.9.1.tar.gz --markdown 20230531/v/vrchatapi/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-31 04:33:44] INFO root fetch - main [MainThread]: End processing [odoo12-addon-analytic-base-department]: success
+[2023-05-31 04:33:44] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-imageprocess]: success
+[2023-05-31 04:33:44] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-base]: success
+[2023-05-31 04:33:44] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-05-31 04:33:44] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 04:33:45] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-cutoff-accrual-picking]: success
+[2023-05-31 04:33:46] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-31 04:33:46] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-05-31 04:33:46] INFO root fetch - main [MainThread]: End processing [vrchatapi]: success
+[2023-05-31 04:35:01] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-31 04:35:01] INFO root fetch - main [MainThread]: Store serial: [18311520]
