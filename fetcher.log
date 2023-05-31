@@ -15221,3 +15221,227 @@
 [2023-05-31 14:51:37] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
 [2023-05-31 14:51:38] INFO root fetch - main [MainThread]: End processing [spine-items]: success
 [2023-05-31 14:51:38] INFO root fetch - main [MainThread]: Store serial: [18316866]
+[2023-05-31 14:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316866]
+[2023-05-31 14:56:48] INFO root fetch - main [MainThread]: Found 41 changed packages
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlyy-toolkit
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-airticketopen
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: predictionguard
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: girder-audit-logs
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-authorized-upload
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: girder-autojoin
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: girder-dicom-viewer
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: girder-download-statistics
+[2023-05-31 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: girder-google-analytics
+[2023-05-31 14:56:48] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [predictionguard]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-31 14:56:48] WARNING root fetch - processPackages [xlyy-toolkit]: Skipping, unable to determine old version
+[2023-05-31 14:56:48] INFO root fetch - processPackages [xlyy-toolkit]: Start processing: girder-gravatar
+[2023-05-31 14:56:48] INFO root fetch - main [MainThread]: End processing [xlyy-toolkit] error
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-authorized-upload]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-autojoin]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-audit-logs]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-google-analytics]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-dicom-viewer]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-download-statistics]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-gravatar]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:48] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/0c/1d/194ee0b08010bb47d5c31aa7288c02d311250c03f328b159c93e8496dc6e/aliyun-python-sdk-airticketopen-1.0.6.tar.gz
+[2023-05-31 14:56:48] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/68/44/8d622a62f53dccda8116cc86f5d77cd415d727299585ea71c5d265a38688/predictionguard-1.1.0.tar.gz
+[2023-05-31 14:56:48] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/21/97/cd413794a97fbfac5e234f9eac931ee6a9354ccc7e51f456e510176f9c4d/aliyun-python-sdk-airticketopen-1.0.7.tar.gz
+[2023-05-31 14:56:48] INFO root fetch - processPackages [predictionguard]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [predictionguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predictionguard-1.0.0.tar.gz tmp/predictionguard-1.1.0.tar.gz --markdown 20230531/p/predictionguard/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-authorized-upload]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-authorized-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-authorized-upload-3.1.9.dev6.tar.gz tmp/girder-authorized-upload-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-authorized-upload/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-audit-logs]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-audit-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-audit-logs-3.1.9.dev6.tar.gz tmp/girder-audit-logs-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-audit-logs/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-gravatar]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-gravatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-gravatar-3.1.9.dev6.tar.gz tmp/girder-gravatar-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-gravatar/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-1.0.6.tar.gz tmp/aliyun-python-sdk-airticketopen-1.0.7.tar.gz --markdown 20230531/a/aliyun-python-sdk-airticketopen/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-download-statistics]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-download-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-download-statistics-3.1.9.dev6.tar.gz tmp/girder-download-statistics-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-download-statistics/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-google-analytics]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-google-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-google-analytics-3.1.9.dev6.tar.gz tmp/girder-google-analytics-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-google-analytics/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-3.1.9.dev6.tar.gz tmp/girder-3.1.9.dev8.tar.gz --markdown 20230531/g/girder/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-dicom-viewer]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-dicom-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-dicom-viewer-3.1.9.dev6.tar.gz tmp/girder-dicom-viewer-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-dicom-viewer/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-autojoin]: executing diffoscope
+[2023-05-31 14:56:48] INFO root fetch - processPackages [girder-autojoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-autojoin-3.1.9.dev6.tar.gz tmp/girder-autojoin-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-autojoin/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:50] INFO root fetch - processPackages [predictionguard]: Start processing: girder-hashsum-download
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [predictionguard]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-hashsum-download]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-audit-logs]: Start processing: girder-homepage
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-audit-logs]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-authorized-upload]: Start processing: girder-item-licenses
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-authorized-upload]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-homepage]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-item-licenses]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-google-analytics]: Start processing: girder-jobs
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-google-analytics]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-hashsum-download]: executing diffoscope
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-hashsum-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-hashsum-download-3.1.9.dev6.tar.gz tmp/girder-hashsum-download-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-hashsum-download/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-jobs]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-dicom-viewer]: Start processing: ntmpackage
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-dicom-viewer]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [ntmpackage]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-autojoin]: Start processing: girder-ldap
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-autojoin]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Start processing: girder-oauth
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-download-statistics]: Start processing: girder-readme
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-download-statistics]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-ldap]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-gravatar]: Start processing: girder-sentry
+[2023-05-31 14:56:50] INFO root fetch - main [MainThread]: End processing [girder-gravatar]: success
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-readme]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-oauth]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-sentry]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-item-licenses]: executing diffoscope
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-item-licenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-item-licenses-3.1.9.dev6.tar.gz tmp/girder-item-licenses-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-item-licenses/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-homepage]: executing diffoscope
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-homepage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-homepage-3.1.9.dev6.tar.gz tmp/girder-homepage-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-homepage/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:50] INFO root fetch - processPackages [ntmpackage]: Downloading https://files.pythonhosted.org/packages/4e/58/27f849f6f8d06fcef03fc23ea4b10e298047cb494aaf744466e6adc48ad1/ntmpackage-0.4.0.tar.gz
+[2023-05-31 14:56:50] INFO root fetch - processPackages [ntmpackage]: executing diffoscope
+[2023-05-31 14:56:50] INFO root fetch - processPackages [ntmpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntmpackage-0.3.0.tar.gz tmp/ntmpackage-0.4.0.tar.gz --markdown 20230531/n/ntmpackage/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-jobs]: executing diffoscope
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-jobs-3.1.9.dev6.tar.gz tmp/girder-jobs-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-jobs/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-readme]: executing diffoscope
+[2023-05-31 14:56:50] INFO root fetch - processPackages [girder-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-readme-3.1.9.dev6.tar.gz tmp/girder-readme-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-readme/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:51] INFO root fetch - processPackages [girder-sentry]: executing diffoscope
+[2023-05-31 14:56:51] INFO root fetch - processPackages [girder-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-sentry-3.1.9.dev6.tar.gz tmp/girder-sentry-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-sentry/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:51] INFO root fetch - processPackages [girder-ldap]: executing diffoscope
+[2023-05-31 14:56:51] INFO root fetch - processPackages [girder-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-ldap-3.1.9.dev6.tar.gz tmp/girder-ldap-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-ldap/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:51] INFO root fetch - processPackages [girder-oauth]: executing diffoscope
+[2023-05-31 14:56:51] INFO root fetch - processPackages [girder-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-oauth-3.1.9.dev6.tar.gz tmp/girder-oauth-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-oauth/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-hashsum-download]: Start processing: girder-terms
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-hashsum-download]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-terms]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-homepage]: Start processing: girder-thumbnails
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-homepage]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-thumbnails]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-terms]: executing diffoscope
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-terms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-terms-3.1.9.dev6.tar.gz tmp/girder-terms-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-terms/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-item-licenses]: Start processing: girder-user-quota
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-item-licenses]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-user-quota]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-jobs]: Start processing: girder-virtual-folders
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-jobs]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-readme]: Start processing: qsl
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-readme]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [ntmpackage]: Start processing: pytest-girder
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [ntmpackage]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-virtual-folders]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [qsl]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [pytest-girder]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-thumbnails]: executing diffoscope
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-thumbnails-3.1.9.dev6.tar.gz tmp/girder-thumbnails-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-thumbnails/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-ldap]: Start processing: girder-client
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-ldap]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-client]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-sentry]: Start processing: sampledb
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-sentry]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [qsl]: Downloading https://files.pythonhosted.org/packages/fa/3e/ec03d8c58c49416fad438a42b671cba5b9d9e0df889c07440a7d45feda55/qsl-0.2.7-py2.py3-none-any.whl
+[2023-05-31 14:56:52] INFO root fetch - processPackages [sampledb]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-user-quota]: executing diffoscope
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-user-quota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-user-quota-3.1.9.dev6.tar.gz tmp/girder-user-quota-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-user-quota/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-oauth]: Start processing: quick-batch
+[2023-05-31 14:56:52] INFO root fetch - main [MainThread]: End processing [girder-oauth]: success
+[2023-05-31 14:56:52] INFO root fetch - processPackages [quick-batch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-virtual-folders]: executing diffoscope
+[2023-05-31 14:56:52] INFO root fetch - processPackages [girder-virtual-folders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-virtual-folders-3.1.9.dev6.tar.gz tmp/girder-virtual-folders-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-virtual-folders/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:52] INFO root fetch - processPackages [sampledb]: Downloading https://files.pythonhosted.org/packages/c3/d3/ba4fbe1e93c5973353b06ea95a683e0fb95c7bf660c322c9d5c4818f1b82/sampledb-0.8.1.tar.gz
+[2023-05-31 14:56:53] INFO root fetch - processPackages [pytest-girder]: executing diffoscope
+[2023-05-31 14:56:53] INFO root fetch - processPackages [pytest-girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-girder-3.1.9.dev6.tar.gz tmp/pytest-girder-3.1.9.dev8.tar.gz --markdown 20230531/p/pytest-girder/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:53] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/15/1c/478e719ecaf658c1a590f8e01b54a767faf97e07ab33769040c9be3a7515/quick_batch-0.1.9.tar.gz
+[2023-05-31 14:56:53] INFO root fetch - processPackages [girder-client]: executing diffoscope
+[2023-05-31 14:56:53] INFO root fetch - processPackages [girder-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-client-3.1.9.dev6.tar.gz tmp/girder-client-3.1.9.dev8.tar.gz --markdown 20230531/g/girder-client/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-31 14:56:53] INFO root fetch - processPackages [quick-batch]: executing diffoscope
+[2023-05-31 14:56:53] INFO root fetch - processPackages [quick-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_batch-0.1.8.tar.gz tmp/quick_batch-0.1.9.tar.gz --markdown 20230531/q/quick-batch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:56:53] INFO root fetch - processPackages [qsl]: Downloading https://files.pythonhosted.org/packages/f6/01/6e058a87a04bfedace339d12b47a404f3a16e0f7a011640656c68ca8dc6e/qsl-0.2.8-py2.py3-none-any.whl
+[2023-05-31 14:56:53] INFO root fetch - processPackages [sampledb]: Downloading https://files.pythonhosted.org/packages/c4/34/df88919267ed7af4854ffeeaf3d3aa4fb500a4fdab9dbdde957dcd24a019/sampledb-0.9.0.tar.gz
+[2023-05-31 14:56:53] INFO root fetch - processPackages [girder-terms]: Start processing: AeholdSerializer
+[2023-05-31 14:56:53] INFO root fetch - main [MainThread]: End processing [girder-terms]: success
+[2023-05-31 14:56:53] INFO root fetch - processPackages [AeholdSerializer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 14:56:54] INFO root fetch - processPackages [qsl]: executing diffoscope
+[2023-05-31 14:56:54] INFO root fetch - processPackages [qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsl-0.2.7-py2.py3-none-any.whl.zip tmp/qsl-0.2.8-py2.py3-none-any.whl.zip --markdown 20230531/q/qsl/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-31 14:56:54] INFO root fetch - processPackages [AeholdSerializer]: Downloading https://files.pythonhosted.org/packages/b8/3c/9882a26f92cb3745fa6021b4799793e716c0fdc32f2fa661c524a3d9bf3a/AeholdSerializer-0.2.3.tar.gz
+[2023-05-31 14:56:54] INFO root fetch - processPackages [AeholdSerializer]: executing diffoscope
+[2023-05-31 14:56:54] INFO root fetch - processPackages [AeholdSerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AeholdSerializer-0.2.2.tar.gz tmp/AeholdSerializer-0.2.3.tar.gz --markdown 20230531/A/AeholdSerializer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 14:56:54] INFO root fetch - processPackages [girder-thumbnails]: Start processing: dh-potluck
+[2023-05-31 14:56:54] INFO root fetch - main [MainThread]: End processing [girder-thumbnails]: success
+[2023-05-31 14:56:54] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-31 14:56:54] INFO root fetch - processPackages [girder-user-quota]: Start processing: Mirolyubov-lab3-new-version
+[2023-05-31 14:56:54] INFO root fetch - main [MainThread]: End processing [girder-user-quota]: success
+[2023-05-31 14:56:54] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: New version: [3.0.1] Old Version: [2.0.1]
+[2023-05-31 14:56:54] INFO root fetch - processPackages [girder-virtual-folders]: Start processing: nvfuser-cu121
+[2023-05-31 14:56:54] INFO root fetch - main [MainThread]: End processing [girder-virtual-folders]: success
+[2023-05-31 14:56:54] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-05-31 14:56:54] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230531/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-31 14:56:54] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-31 14:56:54] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: Downloading https://files.pythonhosted.org/packages/fc/41/b2625b74e3898ca44ab962a7f4a987bfc6025b382d42ab15e7577c723d4e/Mirolyubov_lab3_new_version-2.0.1.tar.gz
+[2023-05-31 14:56:54] INFO root fetch - processPackages [pytest-girder]: Start processing: un-yaml
+[2023-05-31 14:56:54] INFO root fetch - main [MainThread]: End processing [pytest-girder]: success
+[2023-05-31 14:56:54] WARNING root fetch - processPackages [un-yaml]: Skipping, unable to determine old version
+[2023-05-31 14:56:54] INFO root fetch - processPackages [un-yaml]: Start processing: pulumi-cloudflare
+[2023-05-31 14:56:54] INFO root fetch - main [MainThread]: End processing [un-yaml] error
+[2023-05-31 14:56:54] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.3.0a1685536495] Old Version: [5.3.0a1685164914]
+[2023-05-31 14:56:54] INFO root fetch - processPackages [sampledb]: executing diffoscope
+[2023-05-31 14:56:54] INFO root fetch - processPackages [sampledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampledb-0.8.1.tar.gz tmp/sampledb-0.9.0.tar.gz --markdown 20230531/s/sampledb/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 14:56:54] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: Downloading https://files.pythonhosted.org/packages/0f/0f/6953ed3a9d5b818474d6fe10a496da25795e61955418775c20a1c8159bc6/Mirolyubov_lab3_new_version-3.0.1.tar.gz
+[2023-05-31 14:56:54] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: executing diffoscope
+[2023-05-31 14:56:54] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mirolyubov_lab3_new_version-2.0.1.tar.gz tmp/Mirolyubov_lab3_new_version-3.0.1.tar.gz --markdown 20230531/M/Mirolyubov-lab3-new-version/2.0.1-3.0.1/diff.md --exclude *.pyd
+[2023-05-31 14:56:54] INFO root fetch - processPackages [quick-batch]: Start processing: omero-web
+[2023-05-31 14:56:54] INFO root fetch - main [MainThread]: End processing [quick-batch]: success
+[2023-05-31 14:56:54] INFO root fetch - processPackages [omero-web]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-05-31 14:56:54] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-05-31 14:56:54] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230531/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-31 14:56:54] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/72/f0/96f6c289c5c4a6493ae86abd7c78965e8b04b24faf76e6764ddd941a0f27/pulumi_cloudflare-5.3.0a1685536495.tar.gz
+[2023-05-31 14:56:54] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/ef/56/ca934f6599bd2daf503a86e6203dce722bddc087ffae9459329b73fbf470/omero-web-5.9.1.tar.gz
+[2023-05-31 14:56:55] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-31 14:56:55] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.3.0a1685164914.tar.gz tmp/pulumi_cloudflare-5.3.0a1685536495.tar.gz --markdown 20230531/p/pulumi-cloudflare/5.3.0a1685164914-5.3.0a1685536495/diff.md --exclude *.pyd
+[2023-05-31 14:56:55] INFO root fetch - processPackages [girder-client]: Start processing: apideck
+[2023-05-31 14:56:55] INFO root fetch - main [MainThread]: End processing [girder-client]: success
+[2023-05-31 14:56:55] INFO root fetch - processPackages [apideck]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-31 14:56:55] INFO root fetch - processPackages [AeholdSerializer]: Start processing: sdss-tree
+[2023-05-31 14:56:55] INFO root fetch - main [MainThread]: End processing [AeholdSerializer]: success
+[2023-05-31 14:56:55] INFO root fetch - processPackages [sdss-tree]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-05-31 14:56:55] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/c2/59/432acbe049275dd7552b25167cccbc4568fa7c7dd0674620cb500682e072/apideck-0.2.0.tar.gz
+[2023-05-31 14:56:55] INFO root fetch - processPackages [sdss-tree]: Downloading https://files.pythonhosted.org/packages/98/17/3d0041497e0cb3b9610cc2dd59dd2d3ea8fc8be7607a76697b25ecc09ad0/sdss-tree-3.1.6.tar.gz
+[2023-05-31 14:56:55] INFO root fetch - processPackages [apideck]: executing diffoscope
+[2023-05-31 14:56:55] INFO root fetch - processPackages [apideck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apideck-0.1.1.tar.gz tmp/apideck-0.2.0.tar.gz --markdown 20230531/a/apideck/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 14:56:55] INFO root fetch - processPackages [sdss-tree]: Downloading https://files.pythonhosted.org/packages/d4/54/2ecce737afd19f7167431e6c1d49a4804bb036ea85acbe40755a465db6a6/sdss-tree-3.1.7.tar.gz
+[2023-05-31 14:56:55] INFO root fetch - processPackages [sdss-tree]: executing diffoscope
+[2023-05-31 14:56:55] INFO root fetch - processPackages [sdss-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss-tree-3.1.6.tar.gz tmp/sdss-tree-3.1.7.tar.gz --markdown 20230531/s/sdss-tree/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-05-31 14:56:55] INFO root fetch - processPackages [Mirolyubov-lab3-new-version]: Start processing: tasksource
+[2023-05-31 14:56:55] INFO root fetch - main [MainThread]: End processing [Mirolyubov-lab3-new-version]: success
+[2023-05-31 14:56:56] INFO root fetch - processPackages [tasksource]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 14:56:56] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/87/b1/97dedd01aff39d93e282ea870287e6bf741460c2d7cae96d7dcae38d4d30/omero-web-5.9.2.tar.gz
+[2023-05-31 14:56:56] INFO root fetch - processPackages [tasksource]: executing diffoscope
+[2023-05-31 14:56:56] INFO root fetch - processPackages [tasksource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksource-0.0.8.tar.gz tmp/tasksource-0.0.9.tar.gz --markdown 20230531/t/tasksource/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:56:56] INFO root fetch - processPackages [dh-potluck]: Start processing: request-time-tracker
+[2023-05-31 14:56:56] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-05-31 14:56:56] INFO root fetch - processPackages [request-time-tracker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-31 14:56:56] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/55/2b/74bf12369cc72866a94768c03c01805c700d1850abd59740a5b13d60e891/request-time-tracker-0.0.6.tar.gz
+[2023-05-31 14:56:56] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/25/45/a86a985f8c1e3cb63fe3f456e23f49e57e0a50a44a23544686436b6adec5/request-time-tracker-0.0.7.tar.gz
+[2023-05-31 14:56:56] INFO root fetch - processPackages [request-time-tracker]: executing diffoscope
+[2023-05-31 14:56:56] INFO root fetch - processPackages [request-time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-time-tracker-0.0.6.tar.gz tmp/request-time-tracker-0.0.7.tar.gz --markdown 20230531/r/request-time-tracker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-31 14:56:57] INFO root fetch - processPackages [nvfuser-cu121]: Start processing: selenium-supporter
+[2023-05-31 14:56:57] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-05-31 14:56:57] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 14:56:57] INFO root fetch - processPackages [omero-web]: executing diffoscope
+[2023-05-31 14:56:57] INFO root fetch - processPackages [omero-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-web-5.9.1.tar.gz tmp/omero-web-5.9.2.tar.gz --markdown 20230531/o/omero-web/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-05-31 14:56:57] INFO root fetch - main [MainThread]: End processing [sdss-tree]: success
+[2023-05-31 14:56:57] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-05-31 14:56:57] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.8.tar.gz tmp/selenium-supporter-0.0.9.tar.gz --markdown 20230531/s/selenium-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:56:58] INFO root fetch - main [MainThread]: End processing [tasksource]: success
+[2023-05-31 14:56:58] INFO root fetch - main [MainThread]: End processing [request-time-tracker]: success
+[2023-05-31 14:56:58] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-31 14:56:58] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-05-31 14:57:00] INFO root fetch - main [MainThread]: End processing [girder]: success
+[2023-05-31 14:57:00] INFO root fetch - main [MainThread]: End processing [sampledb]: success
+[2023-05-31 14:57:08] INFO root fetch - main [MainThread]: End processing [omero-web]: success
+[2023-05-31 14:57:19] INFO root fetch - main [MainThread]: End processing [qsl]: success
+[2023-05-31 14:57:41] INFO root fetch - main [MainThread]: End processing [apideck]: success
+[2023-05-31 14:57:41] INFO root fetch - main [MainThread]: Store serial: [18316975]
