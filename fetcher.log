@@ -11704,3 +11704,82 @@
 [2023-05-31 11:25:14] INFO root fetch - main [MainThread]: End processing [mango]: success
 [2023-05-31 11:25:14] INFO root fetch - main [MainThread]: End processing [typedb-client]: success
 [2023-05-31 11:25:14] INFO root fetch - main [MainThread]: Store serial: [18314733]
+[2023-05-31 11:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314733]
+[2023-05-31 11:30:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mango
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shakenfist-utilities
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowdin-api-client
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memphis-py
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlilliput
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlc-tools
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagshub
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starmerxauth-erp
+[2023-05-31 11:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlilliput
+[2023-05-31 11:30:24] INFO root fetch - processPackages [mango]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [shakenfist-utilities]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [memphis-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [crowdin-api-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [sqlilliput]: New version: [0.3] Old Version: [0.2]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [starmerxauth-erp]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [sqlilliput]: New version: [0.3] Old Version: [0.2]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [kodexa]: New version: [6.2.25131147355] Old Version: [6.2.25121670917]
+[2023-05-31 11:30:24] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-31 11:30:24] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230531/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-31 11:30:24] INFO root fetch - processPackages [mango]: executing diffoscope
+[2023-05-31 11:30:24] INFO root fetch - processPackages [mango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-0.0.5.tar.gz tmp/mango-0.0.6.tar.gz --markdown 20230531/m/mango/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 11:30:24] INFO root fetch - processPackages [sqlilliput]: Downloading https://files.pythonhosted.org/packages/7a/7b/fd62a640f736ca79743e4e20f8bffa6a3f30f57d8333eb61a538328056be/sqlilliput-0.2.tar.gz
+[2023-05-31 11:30:24] INFO root fetch - processPackages [sqlilliput]: Downloading https://files.pythonhosted.org/packages/7a/7b/fd62a640f736ca79743e4e20f8bffa6a3f30f57d8333eb61a538328056be/sqlilliput-0.2.tar.gz
+[2023-05-31 11:30:24] INFO root fetch - processPackages [memphis-py]: Downloading https://files.pythonhosted.org/packages/e4/36/4b10e46ff3ef601563984e870c18468b16470e502403e8b8f84f900cb4b9/memphis-py-1.0.1.tar.gz
+[2023-05-31 11:30:24] INFO root fetch - processPackages [crowdin-api-client]: Downloading https://files.pythonhosted.org/packages/8f/64/d4dbb685c8770f980727d75c643667295d082998741d850ba04bb5189a0e/crowdin-api-client-1.8.0.tar.gz
+[2023-05-31 11:30:24] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/7b/c3/4b56eeb0eb2cf4a33e2bea6d6ad9d957245d61916f01de17d22c8d45dacc/starmerxauth_erp-0.2.5.tar.gz
+[2023-05-31 11:30:25] INFO root fetch - processPackages [shakenfist-utilities]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [shakenfist-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-utilities-0.4.0.tar.gz tmp/shakenfist-utilities-0.5.0.tar.gz --markdown 20230531/s/shakenfist-utilities/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [starmerxauth-erp]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [starmerxauth-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerxauth_erp-0.2.4.tar.gz tmp/starmerxauth_erp-0.2.5.tar.gz --markdown 20230531/s/starmerxauth-erp/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [memphis-py]: Downloading https://files.pythonhosted.org/packages/c2/a9/8e395068f627bc21a587351ef979bc20c3d6a57a4d66ceece1332ba383e8/memphis-py-1.0.2.tar.gz
+[2023-05-31 11:30:25] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/10/c0/87f24a0f58fdaf14636874b51f8fa85ccf725de405f4eecd99aea45380b3/kodexa-6.2.25131147355.tar.gz
+[2023-05-31 11:30:25] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230531/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [sqlilliput]: Downloading https://files.pythonhosted.org/packages/d5/43/9fb39c7703038b7d40385c8eef0326b6d0f8c8298285c23b994288d7e4cc/sqlilliput-0.3.tar.gz
+[2023-05-31 11:30:25] INFO root fetch - processPackages [sqlilliput]: Downloading https://files.pythonhosted.org/packages/d5/43/9fb39c7703038b7d40385c8eef0326b6d0f8c8298285c23b994288d7e4cc/sqlilliput-0.3.tar.gz
+[2023-05-31 11:30:25] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.25121670917.tar.gz tmp/kodexa-6.2.25131147355.tar.gz --markdown 20230531/k/kodexa/6.2.25121670917-6.2.25131147355/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [crowdin-api-client]: Downloading https://files.pythonhosted.org/packages/15/3f/3daba2ef4dc2dcbe405b9804e3fd575a613fb32aa00c0ec02fffa4f86646/crowdin-api-client-1.9.0.tar.gz
+[2023-05-31 11:30:25] INFO root fetch - processPackages [sqlilliput]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [sqlilliput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlilliput-0.2.tar.gz tmp/sqlilliput-0.3.tar.gz --markdown 20230531/s/sqlilliput/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [memphis-py]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [memphis-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memphis-py-1.0.1.tar.gz tmp/memphis-py-1.0.2.tar.gz --markdown 20230531/m/memphis-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [sqlilliput]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [sqlilliput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlilliput-0.2.tar.gz tmp/sqlilliput-0.3.tar.gz --markdown 20230531/s/sqlilliput/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-31 11:30:25] INFO root fetch - processPackages [crowdin-api-client]: executing diffoscope
+[2023-05-31 11:30:25] INFO root fetch - processPackages [crowdin-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdin-api-client-1.8.0.tar.gz tmp/crowdin-api-client-1.9.0.tar.gz --markdown 20230531/c/crowdin-api-client/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:30:26] INFO root fetch - processPackages [starmerxauth-erp]: Start processing: netdevice
+[2023-05-31 11:30:26] INFO root fetch - main [MainThread]: End processing [starmerxauth-erp]: success
+[2023-05-31 11:30:26] INFO root fetch - processPackages [netdevice]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-31 11:30:26] INFO root fetch - processPackages [netdevice]: executing diffoscope
+[2023-05-31 11:30:26] INFO root fetch - processPackages [netdevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdevice-1.2.6.tar.gz tmp/netdevice-1.2.7.tar.gz --markdown 20230531/n/netdevice/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-31 11:30:26] INFO root fetch - processPackages [dagshub]: Start processing: playmolecule
+[2023-05-31 11:30:26] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-05-31 11:30:26] INFO root fetch - processPackages [playmolecule]: New version: [1.8.5] Old Version: [1.8.4.2]
+[2023-05-31 11:30:26] INFO root fetch - processPackages [shakenfist-utilities]: Start processing: revChatGPT
+[2023-05-31 11:30:26] INFO root fetch - main [MainThread]: End processing [shakenfist-utilities]: success
+[2023-05-31 11:30:26] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-31 11:30:26] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.4.2.tar.gz tmp/playmolecule-1.8.5.tar.gz --markdown 20230531/p/playmolecule/1.8.4.2-1.8.5/diff.md --exclude *.pyd
+[2023-05-31 11:30:26] INFO root fetch - main [MainThread]: End processing [sqlilliput]: success
+[2023-05-31 11:30:26] INFO root fetch - main [MainThread]: End processing [sqlilliput]: success
+[2023-05-31 11:30:26] INFO root fetch - processPackages [revChatGPT]: New version: [6.0.0] Old Version: [5.3.3]
+[2023-05-31 11:30:27] INFO root fetch - main [MainThread]: End processing [memphis-py]: success
+[2023-05-31 11:30:27] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/7a/07/ce576a1999372a708205ed2010781c827cea6748cd14b45dd666362e8dbd/revChatGPT-6.0.0.tar.gz
+[2023-05-31 11:30:27] INFO root fetch - main [MainThread]: End processing [crowdin-api-client]: success
+[2023-05-31 11:30:27] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-05-31 11:30:27] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-5.3.3.tar.gz tmp/revChatGPT-6.0.0.tar.gz --markdown 20230531/r/revChatGPT/5.3.3-6.0.0/diff.md --exclude *.pyd
+[2023-05-31 11:30:27] INFO root fetch - main [MainThread]: End processing [mango]: success
+[2023-05-31 11:30:27] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-31 11:30:28] INFO root fetch - main [MainThread]: End processing [netdevice]: success
+[2023-05-31 11:30:28] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-31 11:30:28] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-05-31 11:31:16] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-31 11:31:16] INFO root fetch - main [MainThread]: Store serial: [18314772]
