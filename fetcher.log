@@ -16110,3 +16110,55 @@
 [2023-05-31 15:25:50] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
 [2023-05-31 15:25:52] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2023-05-31 15:25:52] INFO root fetch - main [MainThread]: Store serial: [18317348]
+[2023-05-31 15:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317348]
+[2023-05-31 15:31:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hordelib
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etsy-apiv3
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openeo
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nssurge-cli
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asociita
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: etsy-apiv3
+[2023-05-31 15:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: econoplots
+[2023-05-31 15:31:02] INFO root fetch - processPackages [nssurge-cli]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [openeo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [asociita]: New version: [0.1.7] Old Version: [0.1.6.9]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [hordelib]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [econoplots]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 15:31:02] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/aa/58/2d094bcf9be9087e7fe69dc16b5c5797b84d4269bad6f5b2979582c605f3/hordelib-1.3.8.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-31 15:31:02] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230531/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-31 15:31:02] INFO root fetch - processPackages [nssurge-cli]: Downloading https://files.pythonhosted.org/packages/eb/f9/04ecaed124106ff99c1304b9ffcacfd63108e55745f2dcda2db56d9b0135/nssurge-cli-2.0.3.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/3d/fe/78ceec40f400b7f1ed380a27138fd9df4ef8e2b18bd9b6bd4246d0698b2f/etsy-apiv3-1.8.8.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/3d/fe/78ceec40f400b7f1ed380a27138fd9df4ef8e2b18bd9b6bd4246d0698b2f/etsy-apiv3-1.8.8.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.7.tar.gz tmp/etsy-apiv3-1.8.8.tar.gz --markdown 20230531/e/etsy-apiv3/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-05-31 15:31:02] INFO root fetch - processPackages [openeo]: Downloading https://files.pythonhosted.org/packages/1d/c6/cdbb6d178b5569bf3413f228e8651f9eb8d82779c40ecece036392bf1f0c/openeo-0.9.1-py3-none-any.whl
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-31 15:31:02] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.7.tar.gz tmp/etsy-apiv3-1.8.8.tar.gz --markdown 20230531/e/etsy-apiv3/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-05-31 15:31:02] WARNING root fetch - processPackages [hordelib]: Skipping package: exceeds size limit 52357531>=10485760
+[2023-05-31 15:31:02] INFO root fetch - main [MainThread]: End processing [hordelib] error
+[2023-05-31 15:31:02] INFO root fetch - processPackages [econoplots]: Downloading https://files.pythonhosted.org/packages/61/36/0d74ea9d699c6ac8cf070fbf6b85df6c211908e6241d5bb2bb951f9d43c1/econoplots-0.1.1.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/29/8b/70cfcf6270c1447943c8c9fc6b60454f1e5b20cbc877f0ab93726ee43cf0/asociita-0.1.7.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-31 15:31:02] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.6.9.tar.gz tmp/asociita-0.1.7.tar.gz --markdown 20230531/a/asociita/0.1.6.9-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 15:31:02] INFO root fetch - processPackages [nssurge-cli]: Downloading https://files.pythonhosted.org/packages/ca/b6/f56abeffde162a67cd0fa369aefc60e74d0e4db43b06ba3628454f66e82b/nssurge_cli-2.0.4.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [nssurge-cli]: executing diffoscope
+[2023-05-31 15:31:02] INFO root fetch - processPackages [nssurge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nssurge-cli-2.0.3.tar.gz tmp/nssurge_cli-2.0.4.tar.gz --markdown 20230531/n/nssurge-cli/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-31 15:31:02] INFO root fetch - processPackages [openeo]: Downloading https://files.pythonhosted.org/packages/9e/26/79a23eafc556905fcb0509a1f1ba6ca15917dd65b0bf9f9d21c474707af0/openeo-0.9.2-py3-none-any.whl
+[2023-05-31 15:31:02] INFO root fetch - processPackages [econoplots]: Downloading https://files.pythonhosted.org/packages/cf/26/0208199a2adf0c41a70c8e31dca4b2cf7da1a2aa79cc45272b00e8b2f0e4/econoplots-0.1.2.tar.gz
+[2023-05-31 15:31:02] INFO root fetch - processPackages [econoplots]: executing diffoscope
+[2023-05-31 15:31:02] INFO root fetch - processPackages [econoplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econoplots-0.1.1.tar.gz tmp/econoplots-0.1.2.tar.gz --markdown 20230531/e/econoplots/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 15:31:03] INFO root fetch - processPackages [openeo]: executing diffoscope
+[2023-05-31 15:31:03] INFO root fetch - processPackages [openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo-0.9.1-py3-none-any.whl.zip tmp/openeo-0.9.2-py3-none-any.whl.zip --markdown 20230531/o/openeo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 15:31:03] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-31 15:31:03] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-31 15:31:03] INFO root fetch - main [MainThread]: End processing [nssurge-cli]: success
+[2023-05-31 15:31:04] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-31 15:31:04] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-31 15:31:04] INFO root fetch - main [MainThread]: End processing [econoplots]: success
+[2023-05-31 15:31:05] INFO root fetch - main [MainThread]: End processing [openeo]: success
+[2023-05-31 15:31:05] INFO root fetch - main [MainThread]: Store serial: [18317374]
