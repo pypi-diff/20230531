@@ -2053,3 +2053,45 @@
 [2023-05-31 03:06:48] INFO root fetch - main [MainThread]: End processing [ontogpt]: success
 [2023-05-31 03:06:57] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-05-31 03:06:57] INFO root fetch - main [MainThread]: Store serial: [18309374]
+[2023-05-31 03:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309374]
+[2023-05-31 03:12:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strongmind-platform-sdk
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arxivai
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GenMine
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-test-package
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-for-messanger
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: example-package-anellenson
+[2023-05-31 03:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nshuman-python
+[2023-05-31 03:12:05] INFO root fetch - processPackages [strongmind-platform-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-31 03:12:05] INFO root fetch - processPackages [abstract-test-package]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 03:12:05] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 03:12:05] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 03:12:05] INFO root fetch - processPackages [GenMine]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 03:12:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 03:12:05] WARNING root fetch - processPackages [lib-for-messanger]: Skipping, unable to determine old version
+[2023-05-31 03:12:05] INFO root fetch - main [MainThread]: End processing [lib-for-messanger] error
+[2023-05-31 03:12:05] WARNING root fetch - processPackages [example-package-anellenson]: Skipping, unable to determine old version
+[2023-05-31 03:12:05] INFO root fetch - main [MainThread]: End processing [example-package-anellenson] error
+[2023-05-31 03:12:05] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-31 03:12:05] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230531/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 03:12:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-31 03:12:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230531/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:12:05] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-31 03:12:05] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.2-py3-none-any.whl.zip tmp/nshuman_python-0.0.3-py3-none-any.whl.zip --markdown 20230531/n/nshuman-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 03:12:05] INFO root fetch - processPackages [abstract-test-package]: Downloading https://files.pythonhosted.org/packages/c7/fe/f63c0541503e04b0bc7a5124160b43df9ebed14991afd07c488abdd1fa65/abstract_test_package-0.0.3.tar.gz
+[2023-05-31 03:12:05] INFO root fetch - processPackages [GenMine]: Downloading https://files.pythonhosted.org/packages/a9/03/89fb5662af37ceac9410011497a10e71585d4a052f0fd7312b25901eeb4f/GenMine-1.0.8.tar.gz
+[2023-05-31 03:12:05] INFO root fetch - processPackages [abstract-test-package]: executing diffoscope
+[2023-05-31 03:12:05] INFO root fetch - processPackages [abstract-test-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_test_package-0.0.2.tar.gz tmp/abstract_test_package-0.0.3.tar.gz --markdown 20230531/a/abstract-test-package/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 03:12:05] INFO root fetch - processPackages [strongmind-platform-sdk]: executing diffoscope
+[2023-05-31 03:12:05] INFO root fetch - processPackages [strongmind-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind-platform-sdk-2.9.0.tar.gz tmp/strongmind-platform-sdk-2.9.1.tar.gz --markdown 20230531/s/strongmind-platform-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-31 03:12:06] INFO root fetch - processPackages [GenMine]: Downloading https://files.pythonhosted.org/packages/ef/98/46ffb723f91ea4c410b10100980c262c32b879dc4971f36d84b28d0b492c/GenMine-1.0.9.tar.gz
+[2023-05-31 03:12:06] INFO root fetch - processPackages [GenMine]: executing diffoscope
+[2023-05-31 03:12:06] INFO root fetch - processPackages [GenMine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenMine-1.0.8.tar.gz tmp/GenMine-1.0.9.tar.gz --markdown 20230531/G/GenMine/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 03:12:06] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [abstract-test-package]: success
+[2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [strongmind-platform-sdk]: success
+[2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [GenMine]: success
+[2023-05-31 03:12:07] INFO root fetch - main [MainThread]: Store serial: [18309406]
