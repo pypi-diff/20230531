@@ -21246,3 +21246,95 @@
 [2023-05-31 19:41:36] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
 [2023-05-31 19:41:41] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2023-05-31 19:41:41] INFO root fetch - main [MainThread]: Store serial: [18320550]
+[2023-05-31 19:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320550]
+[2023-05-31 19:46:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skoufas-dbf-reader
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygeoweaver
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: werk24
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytez
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datarobot-predict
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ascend-io-cli
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taisim
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-xray
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atuin-graph
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skoufas-dbf-reader
+[2023-05-31 19:46:50] INFO root fetch - processPackages [bytez]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [datarobot-predict]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [werk24]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [skoufas-dbf-reader]: New version: [0.0.2rc156.post1] Old Version: [0.0.2rc155.post1]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [taisim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ascend-io-cli]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-05-31 19:46:50] WARNING root fetch - processPackages [fastapi-xray]: Skipping, unable to determine old version
+[2023-05-31 19:46:50] INFO root fetch - processPackages [fastapi-xray]: Start processing: PDFNetPython3
+[2023-05-31 19:46:50] INFO root fetch - processPackages [atuin-graph]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [skoufas-dbf-reader]: New version: [0.0.2rc156.post1] Old Version: [0.0.2rc155.post1]
+[2023-05-31 19:46:50] INFO root fetch - main [MainThread]: End processing [fastapi-xray] error
+[2023-05-31 19:46:50] INFO root fetch - processPackages [PDFNetPython3]: New version: [9.5.0.post2] Old Version: [9.5.0.post1]
+[2023-05-31 19:46:50] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-31 19:46:50] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.98.tar.gz tmp/bytez-0.1.99.tar.gz --markdown 20230531/b/bytez/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 19:46:50] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/f0/25/2dd19d1dd5f9ab57a43898f625e9a28085ea86160591d35dbe1deb3f3c64/skoufas_dbf_reader-0.0.2rc155.post1.tar.gz
+[2023-05-31 19:46:50] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/f0/25/2dd19d1dd5f9ab57a43898f625e9a28085ea86160591d35dbe1deb3f3c64/skoufas_dbf_reader-0.0.2rc155.post1.tar.gz
+[2023-05-31 19:46:50] INFO root fetch - processPackages [werk24]: Downloading https://files.pythonhosted.org/packages/5c/4e/35ffc56e26a1bc44bd9e3202f0fe856c3e3244935b7e506ec6f132ff5c16/werk24-1.4.1.tar.gz
+[2023-05-31 19:46:50] INFO root fetch - processPackages [datarobot-predict]: Downloading https://files.pythonhosted.org/packages/5d/57/4490414863cf39334f4385141623fd4173b6abab5e42c8a17b1a18bb5cb6/datarobot_predict-1.1.0-py3-none-any.whl
+[2023-05-31 19:46:50] INFO root fetch - processPackages [atuin-graph]: Downloading https://files.pythonhosted.org/packages/a8/14/0885fac80b5908aca21c3dfc1fd2fc8154e7a5119cfcb0dd6bf8113cc7cc/atuin_graph-1.1.0.tar.gz
+[2023-05-31 19:46:50] INFO root fetch - processPackages [ascend-io-cli]: Downloading https://files.pythonhosted.org/packages/1b/a0/6ca7ec37b0a157f5c5aa4b6eb7e5060ac201fe18fa011515029c3172094e/ascend_io_cli-1.0.6.tar.gz
+[2023-05-31 19:46:50] INFO root fetch - processPackages [taisim]: Downloading https://files.pythonhosted.org/packages/f2/a2/a79d4c006cd4e083a4088c406cfb93016b9e898fa10b6aa51002b1f6c504/taisim-0.0.4.tar.gz
+[2023-05-31 19:46:50] WARNING root fetch - processPackages [datarobot-predict]: Skipping package: exceeds size limit 16246799>=10485760
+[2023-05-31 19:46:50] INFO root fetch - processPackages [datarobot-predict]: Start processing: appengine-python-standard
+[2023-05-31 19:46:50] INFO root fetch - main [MainThread]: End processing [datarobot-predict] error
+[2023-05-31 19:46:50] INFO root fetch - processPackages [PDFNetPython3]: Downloading https://files.pythonhosted.org/packages/a6/d2/5ca030e896066a605d99ebb262da09846bb7066b289a27832606b29137c1/PDFNetPython3-9.5.0.post1-cp39-cp39-win_amd64.whl
+[2023-05-31 19:46:51] WARNING root fetch - processPackages [PDFNetPython3]: Skipping package: exceeds size limit 24254381>=10485760
+[2023-05-31 19:46:51] INFO root fetch - processPackages [PDFNetPython3]: Start processing: csv-scavenger
+[2023-05-31 19:46:51] INFO root fetch - main [MainThread]: End processing [PDFNetPython3] error
+[2023-05-31 19:46:51] INFO root fetch - processPackages [taisim]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [taisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taisim-0.0.3.tar.gz tmp/taisim-0.0.4.tar.gz --markdown 20230531/t/taisim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [appengine-python-standard]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-31 19:46:51] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/6e/2c/84fb52bd3be8ab41dec1d18def48d5ae84a8798f6e0617196a2d49e21436/pygeoweaver-0.6.7.tar.gz
+[2023-05-31 19:46:51] WARNING root fetch - processPackages [csv-scavenger]: Skipping, unable to determine old version
+[2023-05-31 19:46:51] INFO root fetch - processPackages [csv-scavenger]: Start processing: enetython
+[2023-05-31 19:46:51] INFO root fetch - main [MainThread]: End processing [csv-scavenger] error
+[2023-05-31 19:46:51] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.6.tar.gz tmp/pygeoweaver-0.6.7.tar.gz --markdown 20230531/p/pygeoweaver/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/5b/f5/96bd33075e576cb5b5a321592672b466b1b42863e252528bb515aa78c837/skoufas_dbf_reader-0.0.2rc156.post1.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/5b/f5/96bd33075e576cb5b5a321592672b466b1b42863e252528bb515aa78c837/skoufas_dbf_reader-0.0.2rc156.post1.tar.gz
+[2023-05-31 19:46:51] WARNING root fetch - processPackages [enetython]: Skipping, unable to determine old version
+[2023-05-31 19:46:51] INFO root fetch - processPackages [enetython]: Start processing: thoughtful
+[2023-05-31 19:46:51] INFO root fetch - main [MainThread]: End processing [enetython] error
+[2023-05-31 19:46:51] INFO root fetch - processPackages [werk24]: Downloading https://files.pythonhosted.org/packages/ca/1e/9f36a0dfa738ad685d4fa9b6dd8535d6756de9127989229910bce6d72f7a/werk24-1.5.0.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [atuin-graph]: Downloading https://files.pythonhosted.org/packages/32/ae/c3311729f659e3de5724ea488fef6b1c76b99a8872c36ff4dae216836d00/atuin_graph-1.1.1.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [ascend-io-cli]: Downloading https://files.pythonhosted.org/packages/ab/97/f80dad76a4815d10f3b381ca4ef7ca03721ddcc642ce0cac950f0a7cc95f/ascend_io_cli-1.0.8.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [thoughtful]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-05-31 19:46:51] INFO root fetch - processPackages [skoufas-dbf-reader]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [skoufas-dbf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skoufas_dbf_reader-0.0.2rc155.post1.tar.gz tmp/skoufas_dbf_reader-0.0.2rc156.post1.tar.gz --markdown 20230531/s/skoufas-dbf-reader/0.0.2rc155.post1-0.0.2rc156.post1/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [appengine-python-standard]: Downloading https://files.pythonhosted.org/packages/45/0f/0ef98a92229145c29169f518fa180046f5a4b126298382f7c424bc76ed08/appengine-python-standard-1.1.1.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [skoufas-dbf-reader]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [skoufas-dbf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skoufas_dbf_reader-0.0.2rc155.post1.tar.gz tmp/skoufas_dbf_reader-0.0.2rc156.post1.tar.gz --markdown 20230531/s/skoufas-dbf-reader/0.0.2rc155.post1-0.0.2rc156.post1/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [werk24]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [werk24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werk24-1.4.1.tar.gz tmp/werk24-1.5.0.tar.gz --markdown 20230531/w/werk24/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [atuin-graph]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [atuin-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atuin_graph-1.1.0.tar.gz tmp/atuin_graph-1.1.1.tar.gz --markdown 20230531/a/atuin-graph/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [ascend-io-cli]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [ascend-io-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_io_cli-1.0.6.tar.gz tmp/ascend_io_cli-1.0.8.tar.gz --markdown 20230531/a/ascend-io-cli/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [appengine-python-standard]: Downloading https://files.pythonhosted.org/packages/73/aa/117a706ff55cc4154160205bad619a207e75e9d6d10f1cc472a415c3479b/appengine-python-standard-1.1.2.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [appengine-python-standard]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [appengine-python-standard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appengine-python-standard-1.1.1.tar.gz tmp/appengine-python-standard-1.1.2.tar.gz --markdown 20230531/a/appengine-python-standard/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-31 19:46:51] INFO root fetch - processPackages [thoughtful]: Downloading https://files.pythonhosted.org/packages/9f/29/f3fd8bbda5e7096faae6ee9b2dfacaffd803c4d0b6ce935dd328c1d36b88/thoughtful-2.0.0rc2.tar.gz
+[2023-05-31 19:46:51] INFO root fetch - processPackages [thoughtful]: executing diffoscope
+[2023-05-31 19:46:51] INFO root fetch - processPackages [thoughtful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtful-2.0.0rc1.tar.gz tmp/thoughtful-2.0.0rc2.tar.gz --markdown 20230531/t/thoughtful/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-05-31 19:46:52] INFO root fetch - processPackages [bytez]: Start processing: lib310-lite
+[2023-05-31 19:46:52] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-31 19:46:52] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 19:46:52] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 19:46:52] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:46:52] INFO root fetch - main [MainThread]: End processing [taisim]: success
+[2023-05-31 19:46:52] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-05-31 19:46:53] INFO root fetch - main [MainThread]: End processing [ascend-io-cli]: success
+[2023-05-31 19:46:53] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 19:46:53] INFO root fetch - main [MainThread]: End processing [werk24]: success
+[2023-05-31 19:46:53] INFO root fetch - main [MainThread]: End processing [thoughtful]: success
+[2023-05-31 19:46:54] INFO root fetch - main [MainThread]: End processing [skoufas-dbf-reader]: success
+[2023-05-31 19:46:54] INFO root fetch - main [MainThread]: End processing [appengine-python-standard]: success
+[2023-05-31 19:46:55] INFO root fetch - main [MainThread]: End processing [atuin-graph]: success
+[2023-05-31 19:46:56] INFO root fetch - main [MainThread]: End processing [skoufas-dbf-reader]: success
+[2023-05-31 19:46:56] INFO root fetch - main [MainThread]: Store serial: [18320614]
