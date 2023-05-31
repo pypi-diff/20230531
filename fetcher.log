@@ -10340,3 +10340,53 @@
 [2023-05-31 10:02:18] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-31 10:02:25] INFO root fetch - main [MainThread]: End processing [mmdet3d]: success
 [2023-05-31 10:02:25] INFO root fetch - main [MainThread]: Store serial: [18313936]
+[2023-05-31 10:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313936]
+[2023-05-31 10:07:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epcpy
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: privlib
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepfinder
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: license-authorize
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2023-05-31 10:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: starmerxauth-erp
+[2023-05-31 10:07:34] INFO root fetch - processPackages [privlib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [license-authorize]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [epcpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [deepfinder]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [starmerxauth-erp]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [chatllm]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230531080539] Old Version: [2.1.1.dev20230530225455]
+[2023-05-31 10:07:34] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230531] Old Version: [0.3.1.dev20230530]
+[2023-05-31 10:07:35] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230531/c/chatllm/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [privlib]: Downloading https://files.pythonhosted.org/packages/02/e0/a111597d81752f6424a7628ae69a8b3ca37156603d6dfd188bc09c7eaa0d/privlib-0.0.3.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [license-authorize]: Downloading https://files.pythonhosted.org/packages/ac/1c/e1865e68a688080ac9165f87e3d2abbb3aa86aa74eeb39a7c2d25f47d0e9/license_authorize-1.0.4.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/51/73/e26e0b35530e743ebf311fc2a36cd8411b082811b1eee6f0cbb4fcbb2c81/starmerxauth_erp-0.2.3.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e3/b2/3de7fbb9c21017571597a6a489a75aec4cf6a45f1bfe0949974ea33e02ea/localstack-core-2.1.1.dev20230531080539.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [deepfinder]: Downloading https://files.pythonhosted.org/packages/80/82/bf2277e18b3a786b3aab1640d89bc95bb49415a3f315335e52a95b5a3c01/deepfinder-1.4.1.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/e0/9b/171b608418ade8efcf1b04e498659c2d429a133bf3da5f254a326acf7d6a/pyglove-0.3.1.dev20230531.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [license-authorize]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [license-authorize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_authorize-1.0.3.tar.gz tmp/license_authorize-1.0.4.tar.gz --markdown 20230531/l/license-authorize/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [privlib]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [privlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privlib-0.0.2.tar.gz tmp/privlib-0.0.3.tar.gz --markdown 20230531/p/privlib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [epcpy]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [epcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epcpy-0.1.6.tar.gz tmp/epcpy-0.1.7.tar.gz --markdown 20230531/e/epcpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [starmerxauth-erp]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [starmerxauth-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerxauth_erp-0.2.2.tar.gz tmp/starmerxauth_erp-0.2.3.tar.gz --markdown 20230531/s/starmerxauth-erp/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230530.tar.gz tmp/pyglove-0.3.1.dev20230531.tar.gz --markdown 20230531/p/pyglove/0.3.1.dev20230530-0.3.1.dev20230531/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [deepfinder]: Downloading https://files.pythonhosted.org/packages/aa/f4/60f8f5f59f87d18abcc23252b3d0c012191235931ef29f55ea2ba1888b22/deepfinder-1.4.2.tar.gz
+[2023-05-31 10:07:35] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230530225455.tar.gz tmp/localstack-core-2.1.1.dev20230531080539.tar.gz --markdown 20230531/l/localstack-core/2.1.1.dev20230530225455-2.1.1.dev20230531080539/diff.md --exclude *.pyd
+[2023-05-31 10:07:35] INFO root fetch - processPackages [deepfinder]: executing diffoscope
+[2023-05-31 10:07:35] INFO root fetch - processPackages [deepfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfinder-1.4.1.tar.gz tmp/deepfinder-1.4.2.tar.gz --markdown 20230531/d/deepfinder/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-31 10:07:36] INFO root fetch - main [MainThread]: End processing [license-authorize]: success
+[2023-05-31 10:07:36] INFO root fetch - main [MainThread]: End processing [starmerxauth-erp]: success
+[2023-05-31 10:07:36] INFO root fetch - main [MainThread]: End processing [epcpy]: success
+[2023-05-31 10:07:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-05-31 10:07:37] INFO root fetch - main [MainThread]: End processing [privlib]: success
+[2023-05-31 10:07:38] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-31 10:07:45] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-31 10:08:26] INFO root fetch - main [MainThread]: End processing [deepfinder]: success
+[2023-05-31 10:08:26] INFO root fetch - main [MainThread]: Store serial: [18313960]
