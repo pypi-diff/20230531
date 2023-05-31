@@ -8626,3 +8626,34 @@
 [2023-05-31 07:41:24] INFO root fetch - main [MainThread]: End processing [gravitas]: success
 [2023-05-31 07:41:26] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2023-05-31 07:41:26] INFO root fetch - main [MainThread]: Store serial: [18312923]
+[2023-05-31 07:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312923]
+[2023-05-31 07:46:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-31 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchmark-runner
+[2023-05-31 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Alpha-Rabbit
+[2023-05-31 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snk
+[2023-05-31 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-api-testka-dev
+[2023-05-31 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readlog
+[2023-05-31 07:46:36] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-31 07:46:36] INFO root fetch - processPackages [readlog]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-31 07:46:36] INFO root fetch - processPackages [snk]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-31 07:46:36] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-31 07:46:36] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-05-31 07:46:36] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-31 07:46:36] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230531/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-31 07:46:36] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/5f/25/498a68ee6957c8cba1824b2d29b4e7dfead6be445897b17214e03e59d6d2/snk-0.6.8.tar.gz
+[2023-05-31 07:46:36] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-05-31 07:46:36] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.7.tar.gz tmp/snk-0.6.8.tar.gz --markdown 20230531/s/snk/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-31 07:46:36] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-05-31 07:46:36] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230531/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 07:46:36] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/20/15/e2313f9bd3f6c79ae9b70cfe4bbde09d960e143aa5e2f52ecd80b9b8744a/je_api_testka_dev-0.0.91.tar.gz
+[2023-05-31 07:46:36] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/f3/63/e9b34ec56624b7c4e20b78df492eb8764950591d7a55ad295756d35cbb66/readlog-1.1.4.tar.gz
+[2023-05-31 07:46:36] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-05-31 07:46:36] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.90.tar.gz tmp/je_api_testka_dev-0.0.91.tar.gz --markdown 20230531/j/je-api-testka-dev/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-05-31 07:46:36] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-05-31 07:46:36] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.3.tar.gz tmp/readlog-1.1.4.tar.gz --markdown 20230531/r/readlog/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-31 07:46:37] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-31 07:46:37] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-05-31 07:46:37] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-05-31 07:46:37] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-05-31 07:47:29] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-05-31 07:47:29] INFO root fetch - main [MainThread]: Store serial: [18312953]
