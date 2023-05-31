@@ -14924,3 +14924,85 @@
 [2023-05-31 14:35:29] INFO root fetch - main [MainThread]: End processing [pyvium]: success
 [2023-05-31 14:35:32] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
 [2023-05-31 14:35:32] INFO root fetch - main [MainThread]: Store serial: [18316713]
+[2023-05-31 14:40:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316713]
+[2023-05-31 14:40:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3local
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: javaman
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swh.lister
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spine-engine
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybiolib
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tasksource
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aleph-message
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-flaui
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text2story
+[2023-05-31 14:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: message-ix-models
+[2023-05-31 14:40:42] INFO root fetch - processPackages [javaman]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [spine-engine]: New version: [0.22.0] Old Version: [0.21.0]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [s3local]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [tasksource]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [swh.lister]: New version: [5.6.0] Old Version: [5.5.0]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [message-ix-models]: New version: [2023.5.31rc1] Old Version: [2023.5.31]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [aleph-message]: New version: [0.4.0a1] Old Version: [0.3.2]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [robotframework-flaui]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.929]
+[2023-05-31 14:40:42] INFO root fetch - processPackages [message-ix-models]: Downloading https://files.pythonhosted.org/packages/02/93/f5741a1b92653ab1309379a6ae039f8f2d3ce1bf4fa22b8c0eebf25cea19/message-ix-models-2023.5.31.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3d/80/6c616ca76c7d7471e698af8e8ccbd1d0b69fc47e9a15ed9dcad39c0fc05e/pybiolib-1.1.929.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [s3local]: Downloading https://files.pythonhosted.org/packages/f6/3d/278a5c64350356f267422a7a29830a9fe37bdd929222454f1065165f0443/s3local-0.3.0.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [spine-engine]: Downloading https://files.pythonhosted.org/packages/84/39/f76644b50334aeb18605459ccf2e188c435d795228014eae8e5a2c8124f4/spine_engine-0.21.0.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [aleph-message]: Downloading https://files.pythonhosted.org/packages/cd/20/9a980f1849a5602099e5cedf69c0158d2bef4c72ac0e4a2a0125cbfaaccd/aleph-message-0.3.2.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [robotframework-flaui]: Downloading https://files.pythonhosted.org/packages/69/57/bc294d2b8af21eb0210a450a911113196a7efb3bda68a92486b839b3571b/robotframework-flaui-2.0.8.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [message-ix-models]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [message-ix-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-ix-models-2023.5.31.tar.gz tmp/message-ix-models-2023.5.31rc1.tar.gz --markdown 20230531/m/message-ix-models/2023.5.31-2023.5.31rc1/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [javaman]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [javaman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/javaman-1.0.8.tar.gz tmp/javaman-1.0.9.tar.gz --markdown 20230531/j/javaman/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/03/93/a4bc15e028f0671ff775195670f4f258f4ef5b763ae5b1085293a362552a/swh.lister-5.6.0.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230531/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [s3local]: Downloading https://files.pythonhosted.org/packages/72/77/dae926a0b463782f817216d33c2706413c02b41a3c84bac3dfa28a3ee23a/s3local-0.4.0.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [tasksource]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [tasksource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksource-0.0.8.tar.gz tmp/tasksource-0.0.9.tar.gz --markdown 20230531/t/tasksource/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [aleph-message]: Downloading https://files.pythonhosted.org/packages/c6/8a/ee671d57f3ae9da32b006120502907d4f7b5be0c6c21bca3846ff783d0f9/aleph-message-0.4.0a1.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.5.0.tar.gz tmp/swh.lister-5.6.0.tar.gz --markdown 20230531/s/swh.lister/5.5.0-5.6.0/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [s3local]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [s3local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3local-0.3.0.tar.gz tmp/s3local-0.4.0.tar.gz --markdown 20230531/s/s3local/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [robotframework-flaui]: Downloading https://files.pythonhosted.org/packages/e5/ac/c28d44ee8c22f617f3cf72104278ff563f0aa8d7acb82c5a159881cd1e2c/robotframework-flaui-2.0.9.tar.gz
+[2023-05-31 14:40:42] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-31 14:40:42] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.929.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230531/p/pybiolib/1.1.929-1.1.94/diff.md --exclude *.pyd
+[2023-05-31 14:40:42] INFO root fetch - processPackages [spine-engine]: Downloading https://files.pythonhosted.org/packages/3f/b9/12f95180beb03728219e4245fcc8e02cdf1b88a39c0da227011e0e9c84c1/spine_engine-0.22.0.tar.gz
+[2023-05-31 14:40:43] INFO root fetch - processPackages [aleph-message]: executing diffoscope
+[2023-05-31 14:40:43] INFO root fetch - processPackages [aleph-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-message-0.3.2.tar.gz tmp/aleph-message-0.4.0a1.tar.gz --markdown 20230531/a/aleph-message/0.3.2-0.4.0a1/diff.md --exclude *.pyd
+[2023-05-31 14:40:43] INFO root fetch - processPackages [robotframework-flaui]: executing diffoscope
+[2023-05-31 14:40:43] INFO root fetch - processPackages [robotframework-flaui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-flaui-2.0.8.tar.gz tmp/robotframework-flaui-2.0.9.tar.gz --markdown 20230531/r/robotframework-flaui/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:40:43] INFO root fetch - processPackages [spine-engine]: executing diffoscope
+[2023-05-31 14:40:43] INFO root fetch - processPackages [spine-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_engine-0.21.0.tar.gz tmp/spine_engine-0.22.0.tar.gz --markdown 20230531/s/spine-engine/0.21.0-0.22.0/diff.md --exclude *.pyd
+[2023-05-31 14:40:44] INFO root fetch - processPackages [javaman]: Start processing: swagger-petstore-3-sdk
+[2023-05-31 14:40:44] INFO root fetch - main [MainThread]: End processing [javaman]: success
+[2023-05-31 14:40:44] INFO root fetch - processPackages [swagger-petstore-3-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 14:40:44] INFO root fetch - processPackages [aleph-message]: Start processing: akeyless
+[2023-05-31 14:40:44] INFO root fetch - main [MainThread]: End processing [aleph-message]: success
+[2023-05-31 14:40:44] INFO root fetch - processPackages [akeyless]: New version: [3.3.6] Old Version: [3.3.5]
+[2023-05-31 14:40:44] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Downloading https://files.pythonhosted.org/packages/a7/6e/c562174f4152ae16a1cd9a45630066397b0a6b9fe56c80de6eec5482a7d8/swagger-petstore-3-sdk-1.0.1.tar.gz
+[2023-05-31 14:40:44] INFO root fetch - processPackages [s3local]: Start processing: DLMS-SPODES
+[2023-05-31 14:40:44] INFO root fetch - main [MainThread]: End processing [s3local]: success
+[2023-05-31 14:40:44] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-31 14:40:44] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-31 14:40:44] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230531/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 14:40:44] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Downloading https://files.pythonhosted.org/packages/c7/ea/3827c69aa4c3995799c465a2c7dd6bb2d8004bbc0c18a3534761c40c5e89/swagger-petstore-3-sdk-1.0.2.tar.gz
+[2023-05-31 14:40:44] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/d0/a4/50eae748be41e2588e100d3df4339c83df95fbc9772fae994d866daaff90/akeyless-3.3.6.tar.gz
+[2023-05-31 14:40:44] INFO root fetch - processPackages [swagger-petstore-3-sdk]: executing diffoscope
+[2023-05-31 14:40:44] INFO root fetch - processPackages [swagger-petstore-3-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger-petstore-3-sdk-1.0.1.tar.gz tmp/swagger-petstore-3-sdk-1.0.2.tar.gz --markdown 20230531/s/swagger-petstore-3-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 14:40:44] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-05-31 14:40:44] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.5.tar.gz tmp/akeyless-3.3.6.tar.gz --markdown 20230531/a/akeyless/3.3.5-3.3.6/diff.md --exclude *.pyd
+[2023-05-31 14:40:45] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-31 14:40:45] INFO root fetch - main [MainThread]: End processing [robotframework-flaui]: success
+[2023-05-31 14:40:45] INFO root fetch - main [MainThread]: End processing [spine-engine]: success
+[2023-05-31 14:40:45] INFO root fetch - main [MainThread]: End processing [tasksource]: success
+[2023-05-31 14:40:46] INFO root fetch - main [MainThread]: End processing [swagger-petstore-3-sdk]: success
+[2023-05-31 14:40:46] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-31 14:40:47] INFO root fetch - main [MainThread]: End processing [message-ix-models]: success
+[2023-05-31 14:40:47] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-31 14:40:49] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-05-31 14:41:05] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-05-31 14:41:05] INFO root fetch - main [MainThread]: Store serial: [18316748]
