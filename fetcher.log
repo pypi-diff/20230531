@@ -15686,3 +15686,131 @@
 [2023-05-31 15:08:41] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
 [2023-05-31 15:08:42] INFO root fetch - main [MainThread]: End processing [splunk-appinspect]: success
 [2023-05-31 15:08:42] INFO root fetch - main [MainThread]: Store serial: [18317084]
+[2023-05-31 15:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317084]
+[2023-05-31 15:13:56] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veetility
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycognaize
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bahire-hasab
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-embedded
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded-serial
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-embedded-serial-esp
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-embedded-idf
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-embedded-jtag
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-embedded-qemu
+[2023-05-31 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-embedded-arduino
+[2023-05-31 15:13:56] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [bahire-hasab]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pycognaize]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-05-31 15:13:56] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-31 15:13:56] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230531/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/83/f0/65d354669986c4d24e968eaa0869330e567d271b957e2d731749dd6f13c1/pytest-embedded-serial-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/b8/cd/aac4783e6897175dfbb7f22be2a3067f9602e61a6fa3efbd299a9f1b913b/pytest-embedded-arduino-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/83/07/ec18b8a7f37c932afa16400228c3bb112251f545c028f7ff10af39d65944/pytest-embedded-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/e1/38/025903972c8fc18c5a25cc7a84346aa78e3216b8b410d36f3fcc4fe2d446/pytest-embedded-idf-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/a6/0e/f454bb60fdec6ff5417637882b0f3090b58bf3aafd8550b4e430d06cbb59/pytest-embedded-serial-esp-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/9e/9d/4e91cfbbc59b1e919bc87b14a54652fe28a2cdf2ee518fa85281876e1cf3/pytest-embedded-jtag-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/fe/17/45f2c91de5d26f206a09aa3a949eb4c51e2fd7c3f274ec05629485ad9f65/pytest-embedded-qemu-1.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [bahire-hasab]: Downloading https://files.pythonhosted.org/packages/8d/27/a1bca7d6cfe065cb5075b797ebdf158c60cc000594ac073c3fce30eb52c9/bahire-hasab-0.2.5.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/cd/bd/58d1ceeca25dd3723b096701fb97e19372469b85d69f43c326d459fae5b9/pycognaize-1.4.3.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/7f/06/a35060bf160c3bc60e414eb8b112021fa74e86a99a0f7b6010d0bd8b6566/pytest-embedded-arduino-1.3.0.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/8f/56/1dc9c6278bdf35baa404065269f10c377e7908329de31c32186a63e55df2/pytest-embedded-serial-esp-1.3.0.tar.gz
+[2023-05-31 15:13:56] INFO root fetch - processPackages [bahire-hasab]: executing diffoscope
+[2023-05-31 15:13:56] INFO root fetch - processPackages [bahire-hasab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bahire-hasab-0.2.4.tar.gz tmp/bahire-hasab-0.2.5.tar.gz --markdown 20230531/b/bahire-hasab/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.2.tar.gz tmp/pycognaize-1.4.3.tar.gz --markdown 20230531/p/pycognaize/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-serial-esp-1.2.5.tar.gz tmp/pytest-embedded-serial-esp-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded-serial-esp/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:56] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/37/41/214442d3b0ca2a799c0081d79b153ce8d8f008bf9987630d038e18ab751c/pytest-embedded-serial-1.3.0.tar.gz
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/68/20/08c9d054cc859656af052ff9de65db667892f770fa3eb70fea8623f7f1e6/pytest-embedded-1.3.0.tar.gz
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/dc/be/ec3dcb66eddc0a0357b109d7aa9daec548f3d69fec756f81ad37efb73a75/pytest-embedded-qemu-1.3.0.tar.gz
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/76/e8/a4dfc170369af07c81a473ada0a43d5566727a7223b720832c555c1744f6/pytest-embedded-idf-1.3.0.tar.gz
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/d1/4a/bf4e77a31877dbc467d73a4a018f9c832a376afe0c76cf40c93ed077816c/pytest-embedded-jtag-1.3.0.tar.gz
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-arduino-1.2.5.tar.gz tmp/pytest-embedded-arduino-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded-arduino/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-qemu-1.2.5.tar.gz tmp/pytest-embedded-qemu-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded-qemu/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-jtag-1.2.5.tar.gz tmp/pytest-embedded-jtag-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded-jtag/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-idf-1.2.5.tar.gz tmp/pytest-embedded-idf-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded-idf/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-serial-1.2.5.tar.gz tmp/pytest-embedded-serial-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded-serial/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2023-05-31 15:13:57] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-1.2.5.tar.gz tmp/pytest-embedded-1.3.0.tar.gz --markdown 20230531/p/pytest-embedded/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 15:13:58] INFO root fetch - processPackages [veetility]: Start processing: nbdev-numpy
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-31 15:13:58] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230531/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:13:58] INFO root fetch - processPackages [bahire-hasab]: Start processing: ansible-lint
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [bahire-hasab]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [ansible-lint]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Start processing: nbdev-pandas
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [pytest-embedded-arduino]: Start processing: cosmian-py-ggml
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-31 15:13:58] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230531/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:13:58] WARNING root fetch - processPackages [cosmian-py-ggml]: Skipping, unable to determine old version
+[2023-05-31 15:13:58] INFO root fetch - processPackages [cosmian-py-ggml]: Start processing: mainnet
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml] error
+[2023-05-31 15:13:58] INFO root fetch - processPackages [pytest-embedded-serial]: Start processing: ora2
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [ora2]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [pytest-embedded-jtag]: Start processing: authomize-rest-api-client
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [pytest-embedded-qemu]: Start processing: protloc-mex-x
+[2023-05-31 15:13:58] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2023-05-31 15:13:58] INFO root fetch - processPackages [ansible-lint]: executing diffoscope
+[2023-05-31 15:13:58] INFO root fetch - processPackages [ansible-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-lint-6.9.0.tar.gz tmp/ansible-lint-6.9.1.tar.gz --markdown 20230531/a/ansible-lint/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-05-31 15:13:58] INFO root fetch - processPackages [protloc-mex-x]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-05-31 15:13:58] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-31 15:13:58] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230531/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 15:13:58] INFO root fetch - processPackages [protloc-mex-x]: Downloading https://files.pythonhosted.org/packages/64/63/841b63fee71fee4a76b510ef361cc1ade4f8e4dd7df2a731871d91984cf7/protloc_mex_x-0.0.3.tar.gz
+[2023-05-31 15:13:59] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/27/bb/73671bc6553b51e4bb692c15764d59b31354869e5518c529c6d6cba8e486/authomize-rest-api-client-4.1.5.tar.gz
+[2023-05-31 15:13:59] INFO root fetch - processPackages [pytest-embedded-idf]: Start processing: nbdev-pytorch
+[2023-05-31 15:13:59] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2023-05-31 15:13:59] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/76/96/dbe8f570b589ecf86adf3c30bfc3885285c690d8479c8a9882bd374ac494/ora2-5.0.2.tar.gz
+[2023-05-31 15:13:59] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 15:13:59] INFO root fetch - processPackages [protloc-mex-x]: executing diffoscope
+[2023-05-31 15:13:59] INFO root fetch - processPackages [protloc-mex-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex_x-0.0.2.tar.gz tmp/protloc_mex_x-0.0.3.tar.gz --markdown 20230531/p/protloc-mex-x/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 15:13:59] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-05-31 15:13:59] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.1.4.tar.gz tmp/authomize-rest-api-client-4.1.5.tar.gz --markdown 20230531/a/authomize-rest-api-client/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-05-31 15:13:59] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-31 15:13:59] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230531/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:13:59] INFO root fetch - processPackages [pytest-embedded]: Start processing: LumosWeb
+[2023-05-31 15:13:59] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2023-05-31 15:13:59] INFO root fetch - processPackages [LumosWeb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:13:59] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-05-31 15:13:59] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-0.0.8.tar.gz tmp/LumosWeb-0.0.9.tar.gz --markdown 20230531/L/LumosWeb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:13:59] INFO root fetch - processPackages [pycognaize]: Start processing: projen
+[2023-05-31 15:13:59] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-05-31 15:13:59] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-31 15:13:59] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-31 15:13:59] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230531/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-31 15:14:00] INFO root fetch - processPackages [ora2]: executing diffoscope
+[2023-05-31 15:14:00] INFO root fetch - processPackages [ora2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora2-5.0.1.tar.gz tmp/ora2-5.0.2.tar.gz --markdown 20230531/o/ora2/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-05-31 15:14:00] INFO root fetch - processPackages [protloc-mex-x]: Start processing: oleg-custom-serializer
+[2023-05-31 15:14:00] INFO root fetch - main [MainThread]: End processing [protloc-mex-x]: success
+[2023-05-31 15:14:00] WARNING root fetch - processPackages [oleg-custom-serializer]: Skipping, unable to determine old version
+[2023-05-31 15:14:00] INFO root fetch - main [MainThread]: End processing [oleg-custom-serializer] error
+[2023-05-31 15:14:00] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-31 15:14:00] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-31 15:14:00] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-31 15:14:01] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-05-31 15:14:01] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-05-31 15:14:01] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-31 15:14:05] INFO root fetch - main [MainThread]: End processing [ansible-lint]: success
+[2023-05-31 15:14:09] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-31 15:14:33] INFO root fetch - main [MainThread]: End processing [ora2]: success
+[2023-05-31 15:14:33] INFO root fetch - main [MainThread]: Store serial: [18317164]
