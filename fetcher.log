@@ -1882,3 +1882,53 @@
 [2023-05-31 02:50:47] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2023-05-31 02:50:54] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-31 02:50:54] INFO root fetch - main [MainThread]: Store serial: [18309277]
+[2023-05-31 02:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309277]
+[2023-05-31 02:56:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metal-sdk
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-payment
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langdash
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firmetix
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: db2ixf
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-jbank
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projen
+[2023-05-31 02:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-databrew-cicd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [langdash]: New version: [0.0.3.dev2] Old Version: [0.0.3.dev1]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [db2ixf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [metal-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [firmetix]: New version: [7.1.0] Old Version: [7.0.2]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [xj-payment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [django-jbank]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-31 02:56:03] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230531/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/0d/9a/8241688f9f07d4d81d6f1b30d25a114961bdd723f7bd33529e86cfd2ef8d/langdash-0.0.3.dev2.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/7f/1e/3ab02202efe73ae68c3114dbab2f32aa4090343f94165228a3f38356e2ed/db2ixf-0.1.0.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [firmetix]: Downloading https://files.pythonhosted.org/packages/4f/d8/d264992313ba91ae5968d550eeb451c8afbe4af6a1597520e18273cca4be/firmetix-7.0.2.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [metal-sdk]: Downloading https://files.pythonhosted.org/packages/0f/55/94edaf78dbf789fd8c8d6a709dd4ea0c21f10cf21b8ec9121e69904a7b57/metal_sdk-1.0.5.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/94/7b/9455eb1b783bc01e423bfd6217946bf235c1057acfa8c06e153849b9f6bf/django-jbank-4.2.4.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-0.0.3.dev1.tar.gz tmp/langdash-0.0.3.dev2.tar.gz --markdown 20230531/l/langdash/0.0.3.dev1-0.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [metal-sdk]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [metal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_sdk-1.0.4.tar.gz tmp/metal_sdk-1.0.5.tar.gz --markdown 20230531/m/metal-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [xj-payment]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [xj-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_payment-1.0.8.tar.gz tmp/xj_payment-1.0.9.tar.gz --markdown 20230531/x/xj-payment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230531/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/09/6d/4207c7651b508ffcb3b2835e5a93f6a1db4386eaa70c96ccb705f56855e3/db2ixf-0.1.1.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [firmetix]: Downloading https://files.pythonhosted.org/packages/dd/4d/4ea716561f8268ee8538d530426c1c8aa0ea36d853d305e929efcdc1d9a1/firmetix-7.1.0.tar.gz
+[2023-05-31 02:56:03] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.2.3.tar.gz tmp/django-jbank-4.2.4.tar.gz --markdown 20230531/d/django-jbank/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [firmetix]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [firmetix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firmetix-7.0.2.tar.gz tmp/firmetix-7.1.0.tar.gz --markdown 20230531/f/firmetix/7.0.2-7.1.0/diff.md --exclude *.pyd
+[2023-05-31 02:56:03] INFO root fetch - processPackages [db2ixf]: executing diffoscope
+[2023-05-31 02:56:03] INFO root fetch - processPackages [db2ixf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db2ixf-0.1.0.tar.gz tmp/db2ixf-0.1.1.tar.gz --markdown 20230531/d/db2ixf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 02:56:04] INFO root fetch - main [MainThread]: End processing [metal-sdk]: success
+[2023-05-31 02:56:05] INFO root fetch - main [MainThread]: End processing [xj-payment]: success
+[2023-05-31 02:56:05] INFO root fetch - main [MainThread]: End processing [db2ixf]: success
+[2023-05-31 02:56:05] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-31 02:56:05] INFO root fetch - main [MainThread]: End processing [firmetix]: success
+[2023-05-31 02:56:06] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-31 02:56:07] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2023-05-31 02:56:07] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-05-31 02:56:07] INFO root fetch - main [MainThread]: Store serial: [18309299]
