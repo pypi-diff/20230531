@@ -8175,3 +8175,38 @@
 [2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-05-31 06:53:47] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
 [2023-05-31 06:53:47] INFO root fetch - main [MainThread]: Store serial: [18312564]
+[2023-05-31 06:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312564]
+[2023-05-31 06:58:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 06:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sprttandem
+[2023-05-31 06:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-sale-product-set
+[2023-05-31 06:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabinet
+[2023-05-31 06:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web3-ethereum-defi
+[2023-05-31 06:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-utilities
+[2023-05-31 06:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twb-project
+[2023-05-31 06:58:55] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-05-31 06:58:55] ERROR root fetch - processPackages [sprttandem]: Unable to get metadata: No such project 'sprttandem'
+[2023-05-31 06:58:55] INFO root fetch - main [MainThread]: End processing [sprttandem] error
+[2023-05-31 06:58:55] INFO root fetch - processPackages [cabinet]: New version: [2023.5.30.1] Old Version: [2023.5.29.1]
+[2023-05-31 06:58:55] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-31 06:58:55] INFO root fetch - processPackages [twb-project]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-31 06:58:55] INFO root fetch - processPackages [odoo9-addon-sale-product-set]: New version: [9.0.1.0.1.99.dev9] Old Version: [9.0.1.0.1.99.dev8]
+[2023-05-31 06:58:56] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/ac/19/b82f48a4d72ea8f9c2a629870c96581c1260a3480d5daaf70137c29888e8/abstract_utilities-0.0.7.tar.gz
+[2023-05-31 06:58:56] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-05-31 06:58:56] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 06:58:56] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230531/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-31 06:58:56] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.6.tar.gz tmp/abstract_utilities-0.0.7.tar.gz --markdown 20230531/a/abstract-utilities/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-31 06:58:56] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/32/36/618e05ee5a7344de2754c3f27d3de86d2e3f76f7f3c448aeffd2e6d503a3/cabinet-2023.5.30.1.tar.gz
+[2023-05-31 06:58:56] INFO root fetch - processPackages [odoo9-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/6c/ab/8edd92f968b3272bde52ee98a96ba4677d32d378442674d9e0f1d54f5fc1/odoo9_addon_sale_product_set-9.0.1.0.1.99.dev9-py2-none-any.whl
+[2023-05-31 06:58:56] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/2c/a1/84658a9e867828027bfe171d8ad9a9605f2cb3ff9631907c868edfa99880/twb_project-1.1.2.tar.gz
+[2023-05-31 06:58:56] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-05-31 06:58:56] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.5.29.1.tar.gz tmp/cabinet-2023.5.30.1.tar.gz --markdown 20230531/c/cabinet/2023.5.29.1-2023.5.30.1/diff.md --exclude *.pyd
+[2023-05-31 06:58:56] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-05-31 06:58:56] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-1.1.1.tar.gz tmp/twb_project-1.1.2.tar.gz --markdown 20230531/t/twb-project/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-31 06:58:56] INFO root fetch - processPackages [odoo9-addon-sale-product-set]: executing diffoscope
+[2023-05-31 06:58:56] INFO root fetch - processPackages [odoo9-addon-sale-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_product_set-9.0.1.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_sale_product_set-9.0.1.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230531/o/odoo9-addon-sale-product-set/9.0.1.0.1.99.dev8-9.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-31 06:58:57] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-05-31 06:58:57] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 06:58:57] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-05-31 06:58:58] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-product-set]: success
+[2023-05-31 06:58:58] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-05-31 06:58:58] INFO root fetch - main [MainThread]: Store serial: [18312585]
