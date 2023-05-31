@@ -20925,3 +20925,109 @@
 [2023-05-31 19:19:29] INFO root fetch - main [MainThread]: End processing [pyclam]: success
 [2023-05-31 19:20:20] INFO root fetch - main [MainThread]: End processing [deepview-converter]: success
 [2023-05-31 19:20:20] INFO root fetch - main [MainThread]: Store serial: [18320337]
+[2023-05-31 19:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320337]
+[2023-05-31 19:25:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: envreqs
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DE-DataBaseConnect
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agenta
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypothesis
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rekono-cli
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpamaker
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk-preview
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echofish-aws-indexing-lambda
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyuniverse
+[2023-05-31 19:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tecton
+[2023-05-31 19:25:29] WARNING root fetch - processPackages [envreqs]: Skipping, unable to determine old version
+[2023-05-31 19:25:29] INFO root fetch - processPackages [envreqs]: Start processing: spanishconjugator
+[2023-05-31 19:25:29] INFO root fetch - main [MainThread]: End processing [envreqs] error
+[2023-05-31 19:25:29] INFO root fetch - processPackages [agenta]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [rekono-cli]: New version: [2.0.1.post1] Old Version: [2.0.0]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.74] Old Version: [0.0.73]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230531171908] Old Version: [1.0.0.dev20230531170356]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [policyuniverse]: New version: [1.5.1.20230531] Old Version: [1.5.1.20230526]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-05-31 19:25:29] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230531/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:25:29] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/4a/6f/875844184637a9e25c5e132787b1c526fc1fff4dce7478d48963c7cc45ae/DE_DataBaseConnect-0.0.73.tar.gz
+[2023-05-31 19:25:29] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-31 19:25:29] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230531/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-31 19:25:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-31 19:25:29] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/35/56/df95be3d8be00ad9a1d69c3a8ff9c1cfd4c8e722746b0ea994d92a33f566/agenta-0.1.4.tar.gz
+[2023-05-31 19:25:29] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/b8/a9/ac2be0ded1d2d1ee9a2e3f088b5528d06d22c4decd6a46f0e0cfd0af8416/echofish-aws-indexing-lambda-1.0.0.dev20230531171908.tar.gz
+[2023-05-31 19:25:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-31 19:25:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230531/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-31 19:25:29] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-05-31 19:25:29] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.3.tar.gz tmp/agenta-0.1.4.tar.gz --markdown 20230531/a/agenta/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-31 19:25:30] INFO root fetch - processPackages [rekono-cli]: Downloading https://files.pythonhosted.org/packages/d2/d9/746e0ec84601fd2e8fa62eb830cad771e16d94c0bed1ba7e9aa575265daa/rekono-cli-2.0.1.post1.tar.gz
+[2023-05-31 19:25:30] INFO root fetch - processPackages [policyuniverse]: Downloading https://files.pythonhosted.org/packages/8c/3b/2aff7bed0f72d6e2d537eb6f798910f0de0b499b00b40cf9f9324178ab9f/policyuniverse-1.5.1.20230531.tar.gz
+[2023-05-31 19:25:30] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-05-31 19:25:30] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230531/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-31 19:25:30] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-31 19:25:30] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230531170356.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230531171908.tar.gz --markdown 20230531/e/echofish-aws-indexing-lambda/1.0.0.dev20230531170356-1.0.0.dev20230531171908/diff.md --exclude *.pyd
+[2023-05-31 19:25:30] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-31 19:25:30] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230531/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-31 19:25:30] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/d5/c6/9acb561ff6454d7aa1c65c829c39b9e02247f17c6514f63ace773c2310d6/DE_DataBaseConnect-0.0.74.tar.gz
+[2023-05-31 19:25:30] INFO root fetch - processPackages [rekono-cli]: executing diffoscope
+[2023-05-31 19:25:30] INFO root fetch - processPackages [rekono-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekono-cli-2.0.0.tar.gz tmp/rekono-cli-2.0.1.post1.tar.gz --markdown 20230531/r/rekono-cli/2.0.0-2.0.1.post1/diff.md --exclude *.pyd
+[2023-05-31 19:25:30] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2023-05-31 19:25:30] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DE_DataBaseConnect-0.0.73.tar.gz tmp/DE_DataBaseConnect-0.0.74.tar.gz --markdown 20230531/D/DE-DataBaseConnect/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2023-05-31 19:25:30] INFO root fetch - processPackages [policyuniverse]: executing diffoscope
+[2023-05-31 19:25:30] INFO root fetch - processPackages [policyuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyuniverse-1.5.1.20230526.tar.gz tmp/policyuniverse-1.5.1.20230531.tar.gz --markdown 20230531/p/policyuniverse/1.5.1.20230526-1.5.1.20230531/diff.md --exclude *.pyd
+[2023-05-31 19:25:31] INFO root fetch - processPackages [rpamaker]: Start processing: p4p
+[2023-05-31 19:25:31] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-05-31 19:25:31] INFO root fetch - processPackages [p4p]: New version: [4.1.7a2] Old Version: [4.1.7a1]
+[2023-05-31 19:25:31] INFO root fetch - processPackages [p4p]: Downloading https://files.pythonhosted.org/packages/1c/b1/724a8b6a8ae563ba10ac19e39bc086d61a32bcaa19350f12e2a506abe852/p4p-4.1.7a2.tar.gz
+[2023-05-31 19:25:31] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Start processing: DE-DataBaseConnect
+[2023-05-31 19:25:31] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-31 19:25:31] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.74] Old Version: [0.0.73]
+[2023-05-31 19:25:31] INFO root fetch - processPackages [p4p]: executing diffoscope
+[2023-05-31 19:25:31] INFO root fetch - processPackages [p4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4p-4.1.7a1.tar.gz tmp/p4p-4.1.7a2.tar.gz --markdown 20230531/p/p4p/4.1.7a1-4.1.7a2/diff.md --exclude *.pyd
+[2023-05-31 19:25:31] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2023-05-31 19:25:31] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DE_DataBaseConnect-0.0.73.tar.gz tmp/DE_DataBaseConnect-0.0.74.tar.gz --markdown 20230531/D/DE-DataBaseConnect/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2023-05-31 19:25:31] INFO root fetch - processPackages [agenta]: Start processing: spanishconjugator
+[2023-05-31 19:25:31] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-05-31 19:25:31] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-31 19:25:32] INFO root fetch - processPackages [DE-DataBaseConnect]: Start processing: dbt-semantic-interfaces
+[2023-05-31 19:25:32] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2023-05-31 19:25:32] INFO root fetch - processPackages [dbt-semantic-interfaces]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2023-05-31 19:25:32] INFO root fetch - processPackages [luminesce-sdk-preview]: Start processing: histomics-stream
+[2023-05-31 19:25:32] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-31 19:25:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-31 19:25:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230531/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-31 19:25:32] INFO root fetch - processPackages [histomics-stream]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-05-31 19:25:32] INFO root fetch - processPackages [spanishconjugator]: Start processing: monday-python
+[2023-05-31 19:25:32] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-31 19:25:32] WARNING root fetch - processPackages [monday-python]: Skipping, unable to determine old version
+[2023-05-31 19:25:32] INFO root fetch - processPackages [monday-python]: Start processing: td-ml-ps-stats-scan
+[2023-05-31 19:25:32] INFO root fetch - main [MainThread]: End processing [monday-python] error
+[2023-05-31 19:25:32] INFO root fetch - processPackages [rekono-cli]: Start processing: gl-client
+[2023-05-31 19:25:32] INFO root fetch - main [MainThread]: End processing [rekono-cli]: success
+[2023-05-31 19:25:32] INFO root fetch - processPackages [td-ml-ps-stats-scan]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 19:25:32] INFO root fetch - processPackages [histomics-stream]: Downloading https://files.pythonhosted.org/packages/5b/53/22ef97aeab4512a4e23c3577b207b9529ee0b74d82d4b2aa52c03b1c3d49/histomics_stream-2.3.3.tar.gz
+[2023-05-31 19:25:32] INFO root fetch - processPackages [dbt-semantic-interfaces]: Downloading https://files.pythonhosted.org/packages/c4/97/1c36601d2c571b5cdabc8ac1d305ef36b44e254d68d8e071de69809744b9/dbt_semantic_interfaces-0.1.0.dev2.tar.gz
+[2023-05-31 19:25:32] INFO root fetch - processPackages [gl-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 19:25:32] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-05-31 19:25:32] INFO root fetch - processPackages [td-ml-ps-stats-scan]: executing diffoscope
+[2023-05-31 19:25:32] INFO root fetch - processPackages [td-ml-ps-stats-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_ps_stats_scan-0.0.8.tar.gz tmp/td_ml_ps_stats_scan-0.0.9.tar.gz --markdown 20230531/t/td-ml-ps-stats-scan/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:25:32] INFO root fetch - processPackages [dbt-semantic-interfaces]: executing diffoscope
+[2023-05-31 19:25:32] INFO root fetch - processPackages [dbt-semantic-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_semantic_interfaces-0.1.0.dev1.tar.gz tmp/dbt_semantic_interfaces-0.1.0.dev2.tar.gz --markdown 20230531/d/dbt-semantic-interfaces/0.1.0.dev1-0.1.0.dev2/diff.md --exclude *.pyd
+[2023-05-31 19:25:32] INFO root fetch - processPackages [gl-client]: Downloading https://files.pythonhosted.org/packages/a8/b2/7c968356ad0f09527159ac6ef614ac646861fb554c676d39c83ab5ad7989/gl_client-0.1.6.tar.gz
+[2023-05-31 19:25:32] INFO root fetch - processPackages [histomics-stream]: Downloading https://files.pythonhosted.org/packages/09/1c/23981c86e5506e1a353785b3948c3371709b3b39da7d64973307ab076759/histomics_stream-2.4.0.tar.gz
+[2023-05-31 19:25:32] INFO root fetch - processPackages [histomics-stream]: executing diffoscope
+[2023-05-31 19:25:32] INFO root fetch - processPackages [histomics-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomics_stream-2.3.3.tar.gz tmp/histomics_stream-2.4.0.tar.gz --markdown 20230531/h/histomics-stream/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-05-31 19:25:32] INFO root fetch - processPackages [gl-client]: Downloading https://files.pythonhosted.org/packages/5f/87/b8c4537211555a45ea1633ccb6e00d8f82ea36542830e6ab2a2f4516a8ad/gl_client-0.1.7-cp37-abi3-manylinux_2_27_x86_64.whl
+[2023-05-31 19:25:33] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2023-05-31 19:25:33] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-31 19:25:33] INFO root fetch - processPackages [gl-client]: executing diffoscope
+[2023-05-31 19:25:33] INFO root fetch - processPackages [gl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gl_client-0.1.6.tar.gz tmp/gl_client-0.1.7-cp37-abi3-manylinux_2_27_x86_64.whl.zip --markdown 20230531/g/gl-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 19:25:33] INFO root fetch - main [MainThread]: End processing [p4p]: success
+[2023-05-31 19:25:33] INFO root fetch - main [MainThread]: End processing [td-ml-ps-stats-scan]: success
+[2023-05-31 19:25:34] INFO root fetch - main [MainThread]: End processing [histomics-stream]: success
+[2023-05-31 19:25:34] INFO root fetch - main [MainThread]: End processing [dbt-semantic-interfaces]: success
+[2023-05-31 19:25:35] INFO root fetch - main [MainThread]: End processing [policyuniverse]: success
+[2023-05-31 19:25:35] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-31 19:25:36] INFO root fetch - main [MainThread]: End processing [gl-client]: success
+[2023-05-31 19:25:36] INFO root fetch - main [MainThread]: Store serial: [18320412]
