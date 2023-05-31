@@ -23207,3 +23207,82 @@
 [2023-05-31 21:51:21] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-05-31 21:51:25] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-31 21:51:25] INFO root fetch - main [MainThread]: Store serial: [18321659]
+[2023-05-31 21:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321659]
+[2023-05-31 21:56:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EduDraw
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latch
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edk2-pytool-library
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archytas
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SPRT-TANDEM
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: contrast-agent
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiositi-mex
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dask-cuda
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vosk-autosrt
+[2023-05-31 21:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: binmergetool
+[2023-05-31 21:56:36] INFO root fetch - processPackages [EduDraw]: New version: [1.3.2] Old Version: [1.3]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [SPRT-TANDEM]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [edk2-pytool-library]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [archytas]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [aiositi-mex]: New version: [0.0.5.dev0] Old Version: [0.0.4]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [contrast-agent]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-05-31 21:56:36] WARNING root fetch - processPackages [binmergetool]: Skipping, unable to determine old version
+[2023-05-31 21:56:36] INFO root fetch - processPackages [binmergetool]: Start processing: repast4py
+[2023-05-31 21:56:36] INFO root fetch - main [MainThread]: End processing [binmergetool] error
+[2023-05-31 21:56:36] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [repast4py]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230531] Old Version: [23.8.0a230526]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [edk2-pytool-library]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [edk2-pytool-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-library-0.9.1.tar.gz tmp/edk2-pytool-library-0.9.2.tar.gz --markdown 20230531/e/edk2-pytool-library/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/34/da/b1df3541cff86e4094963003f438d9f7de618eea34abf3e2f52d4edc0345/archytas-0.3.0.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [SPRT-TANDEM]: Downloading https://files.pythonhosted.org/packages/28/8b/0b0a72ec49514702b019303d3cf2f650c35a38b6e6610e31db27502e8986/SPRT-TANDEM-0.1.3.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [aiositi-mex]: Downloading https://files.pythonhosted.org/packages/ae/60/3e1d4a6ba7cd01d50b4d0a52f4451a3afd7995f0a3b2d990d7760af840e6/aiositi-mex-0.0.4.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/62/a9/a92400dc2728ff47029bd0f7ffd16844a57b34ddc10cbc04c3a60042a7f7/dask-cuda-23.8.0a230531.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/fa/4f/561dff848ab959988cacc16c02374f870dfce30cde6aa7b8bb1e9d9a7b11/contrast-agent-5.9.0.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/4b/c5/20976fd42c6112190382481a3c5a646de3227b1d6e16f7d88ed214e1cb0d/vosk_autosrt-0.0.1.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [repast4py]: Downloading https://files.pythonhosted.org/packages/b3/c2/c030516d3f6f701a402352d3e8a469de8e9f626036ecb2d0c2efc1e46522/repast4py-1.1.2.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [SPRT-TANDEM]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [SPRT-TANDEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPRT-TANDEM-0.1.2.tar.gz tmp/SPRT-TANDEM-0.1.3.tar.gz --markdown 20230531/S/SPRT-TANDEM/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [EduDraw]: Downloading https://files.pythonhosted.org/packages/7a/2e/4239a50992ef611966793eb82954ac37eba47f3f2f41d1c6cb996b04c697/edudraw-1.3.2.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230526.tar.gz tmp/dask-cuda-23.8.0a230531.tar.gz --markdown 20230531/d/dask-cuda/23.8.0a230526-23.8.0a230531/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [EduDraw]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [EduDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edudraw-1.3.tar.gz tmp/edudraw-1.3.2.tar.gz --markdown 20230531/E/EduDraw/1.3-1.3.2/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [aiositi-mex]: Downloading https://files.pythonhosted.org/packages/db/95/55d0b141ec0f04ce4bc6a645df913a80549af27afe6f4345d3f98f257c68/aiositi-mex-0.0.5.dev0.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/2c/39/ce82ddc9f03e1c5050a391a2b4b2a088571bc880fb831781c481d161990a/vosk_autosrt-0.0.2.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230531/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/92/4d/478e5c8b22f82b41666fbdc4d2325e32a8066b8abaf4ac71f332ba6ba841/archytas-1.0.0.tar.gz
+[2023-05-31 21:56:36] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21456349>=10485760
+[2023-05-31 21:56:36] INFO root fetch - processPackages [vosk-autosrt]: Start processing: wipac-keycloak-rest-services
+[2023-05-31 21:56:36] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-05-31 21:56:36] INFO root fetch - processPackages [archytas]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [archytas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archytas-0.3.0.tar.gz tmp/archytas-1.0.0.tar.gz --markdown 20230531/a/archytas/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [repast4py]: Downloading https://files.pythonhosted.org/packages/10/8c/f9343bdde0ebb5563fd76cdcc4ae920df21c80019a97f7ecf484a2400676/repast4py-1.1.3.tar.gz
+[2023-05-31 21:56:36] INFO root fetch - processPackages [repast4py]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [repast4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repast4py-1.1.2.tar.gz tmp/repast4py-1.1.3.tar.gz --markdown 20230531/r/repast4py/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-31 21:56:36] INFO root fetch - processPackages [wipac-keycloak-rest-services]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-05-31 21:56:36] WARNING root fetch - processPackages [contrast-agent]: Skipping package: exceeds size limit 10668876>=10485760
+[2023-05-31 21:56:36] INFO root fetch - processPackages [contrast-agent]: Start processing: usort
+[2023-05-31 21:56:36] INFO root fetch - main [MainThread]: End processing [contrast-agent] error
+[2023-05-31 21:56:36] INFO root fetch - processPackages [usort]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2023-05-31 21:56:36] INFO root fetch - processPackages [aiositi-mex]: executing diffoscope
+[2023-05-31 21:56:36] INFO root fetch - processPackages [aiositi-mex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiositi-mex-0.0.4.tar.gz tmp/aiositi-mex-0.0.5.dev0.tar.gz --markdown 20230531/a/aiositi-mex/0.0.4-0.0.5.dev0/diff.md --exclude *.pyd
+[2023-05-31 21:56:37] INFO root fetch - processPackages [usort]: Downloading https://files.pythonhosted.org/packages/02/cf/2cb4841fd66c1a18e81d733beeaec33ba737071642c8ed1cab022f18965c/usort-1.1.0b1.tar.gz
+[2023-05-31 21:56:37] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/5c/a1/8083c21fba5d8be82a8da67cd7f44355caae6ef9afa386c2a38e81f1278b/wipac-keycloak-rest-services-1.4.0.tar.gz
+[2023-05-31 21:56:37] INFO root fetch - processPackages [wipac-keycloak-rest-services]: executing diffoscope
+[2023-05-31 21:56:37] INFO root fetch - processPackages [wipac-keycloak-rest-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-keycloak-rest-services-1.3.9.tar.gz tmp/wipac-keycloak-rest-services-1.4.0.tar.gz --markdown 20230531/w/wipac-keycloak-rest-services/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-05-31 21:56:37] INFO root fetch - processPackages [usort]: Downloading https://files.pythonhosted.org/packages/bb/24/b1c802fa8022c59b8daa02e0df0d3e826fb2c4fe2f776e8e97ead935926a/usort-1.1.0b2.tar.gz
+[2023-05-31 21:56:37] INFO root fetch - processPackages [usort]: executing diffoscope
+[2023-05-31 21:56:37] INFO root fetch - processPackages [usort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usort-1.1.0b1.tar.gz tmp/usort-1.1.0b2.tar.gz --markdown 20230531/u/usort/1.1.0b1-1.1.0b2/diff.md --exclude *.pyd
+[2023-05-31 21:56:37] INFO root fetch - main [MainThread]: End processing [edk2-pytool-library]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [EduDraw]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [repast4py]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [aiositi-mex]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [wipac-keycloak-rest-services]: success
+[2023-05-31 21:56:38] INFO root fetch - main [MainThread]: End processing [archytas]: success
+[2023-05-31 21:56:39] INFO root fetch - main [MainThread]: End processing [usort]: success
+[2023-05-31 21:56:39] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-31 21:56:39] INFO root fetch - main [MainThread]: Store serial: [18321706]
