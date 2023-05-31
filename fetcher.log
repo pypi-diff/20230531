@@ -7506,3 +7506,82 @@
 [2023-05-31 05:55:15] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
 [2023-05-31 05:55:16] INFO root fetch - main [MainThread]: End processing [openjij]: success
 [2023-05-31 05:55:16] INFO root fetch - main [MainThread]: Store serial: [18312195]
+[2023-05-31 06:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312195]
+[2023-05-31 06:00:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-stock-account-date
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-romania
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-delivery-gls-asm
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-google
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bp-data-grid
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mage-ai
+[2023-05-31 06:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: New version: [16.0.20230530.2] Old Version: [16.0.20230514.1]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: New version: [12.0.1.0.8.99.dev1] Old Version: [12.0.1.0.8]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.86]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [7.0.8] Old Version: [7.0.7]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-grid]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [7.0.8] Old Version: [7.0.7]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/ba/df/e17bacf4197ea2dde4c6c6b4fddfd6382fd1bf9edd4cd5c3ef34090b6e13/mage-ai-0.8.86.tar.gz
+[2023-05-31 06:00:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/60/88/b50d045dcecb39a93c079d74488e70c5692d0b7b6550bc8f6f7198e3c3e0/cdktf-cdktf-provider-google_beta-7.0.7.tar.gz
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/7d/37/3351a4855732a59431658db54750d63596609e73cd61ef2b8d42fee7ffea/odoo12_addon_delivery_gls_asm-12.0.1.0.8.99.dev1-py3-none-any.whl
+[2023-05-31 06:00:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/6b/2f/284487910f96e200eb9f6eb174164474f06ea92ff7eca00f573af5b914e5/cdktf-cdktf-provider-google-7.0.7.tar.gz
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/77/9c/d14ba1a3558c81f7258b750502f3de90071305f50ed2a672451207ee9057/odoo_addons_oca_l10n_romania-16.0.20230514.1-py3-none-any.whl
+[2023-05-31 06:00:25] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/d5/53/0bb20dbee5efe50520d811aae24a374de7333ef8649a73df803b251d06d9/abstract_gui-0.0.1.tar.gz
+[2023-05-31 06:00:25] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 19121168>=10485760
+[2023-05-31 06:00:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Start processing: bp-data-fabric
+[2023-05-31 06:00:25] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/4c/78/a09ef295a4750d2883f2b42309d1a24d0453bd4c619466028d61cbb1b79c/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo12-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_delivery_gls_asm-12.0.1.0.8-py3-none-any.whl.zip tmp/odoo12_addon_delivery_gls_asm-12.0.1.0.8.99.dev1-py3-none-any.whl.zip --markdown 20230531/o/odoo12-addon-delivery-gls-asm/12.0.1.0.8-12.0.1.0.8.99.dev1/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 21794977>=10485760
+[2023-05-31 06:00:25] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Start processing: langchainplus-sdk
+[2023-05-31 06:00:25] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date]: Downloading https://files.pythonhosted.org/packages/a4/4b/4dd277aa9ff869a1f46fec50113a8720bbb5a91cc5eaf87c3201f7670782/odoo_addon_l10n_ro_stock_account_date-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-31 06:00:25] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230531/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.8.tar.gz tmp/bp_data_fabric-1.0.9.tar.gz --markdown 20230531/b/bp-data-fabric/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/85/e5/2e1fbf3c9935f70fcfb365ffd4566a09608282fb4dd04f8834d9e97d1abc/bp_data_grid-1.0.7.tar.gz
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/22/71/706fd41436475648228e593c21c95bcd2e3eec8d465a7df6a88cb2e20953/odoo_addons_oca_l10n_romania-16.0.20230530.2-py3-none-any.whl
+[2023-05-31 06:00:25] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.1rc1] Old Version: [0.0.1]
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-l10n-ro-stock-account/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_romania-16.0.20230514.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_romania-16.0.20230530.2-py3-none-any.whl.zip --markdown 20230531/o/odoo-addons-oca-l10n-romania/16.0.20230514.1-16.0.20230530.2/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/b8/19/ee56bc09d7a2a5ac1e3c871594d8db0c1a65147c15e04362a30de3922390/abstract_gui-0.0.2.tar.gz
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-1.0.6.tar.gz tmp/bp_data_grid-1.0.7.tar.gz --markdown 20230531/b/bp-data-grid/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date]: executing diffoscope
+[2023-05-31 06:00:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account_date-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account_date-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-l10n-ro-stock-account-date/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-31 06:00:25] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/45/9d/38e2177d5c55729d0804de02a4958834f65bd928f34fae33fe06ed406fdc/langchainplus_sdk-0.0.1.tar.gz
+[2023-05-31 06:00:26] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-05-31 06:00:26] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.86.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230531/m/mage-ai/0.8.86-0.8.9/diff.md --exclude *.pyd
+[2023-05-31 06:00:26] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-05-31 06:00:26] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.1.tar.gz tmp/abstract_gui-0.0.2.tar.gz --markdown 20230531/a/abstract-gui/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 06:00:26] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/4c/f1/7c8e6db06003b5d42cdc8dc4c59a990659226f3d87469fb36fab8c981a14/langchainplus_sdk-0.0.1rc1.tar.gz
+[2023-05-31 06:00:26] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-05-31 06:00:26] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.1.tar.gz tmp/langchainplus_sdk-0.0.1rc1.tar.gz --markdown 20230531/l/langchainplus-sdk/0.0.1-0.0.1rc1/diff.md --exclude *.pyd
+[2023-05-31 06:00:27] INFO root fetch - processPackages [bp-data-fabric]: Start processing: langchainplus-sdk
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-31 06:00:27] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.1rc1] Old Version: [0.0.1]
+[2023-05-31 06:00:27] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-05-31 06:00:27] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.1.tar.gz tmp/langchainplus_sdk-0.0.1rc1.tar.gz --markdown 20230531/l/langchainplus-sdk/0.0.1-0.0.1rc1/diff.md --exclude *.pyd
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-romania]: success
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-delivery-gls-asm]: success
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-date]: success
+[2023-05-31 06:00:27] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-05-31 06:00:28] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-05-31 06:00:31] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-31 06:01:20] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-05-31 06:01:20] INFO root fetch - main [MainThread]: Store serial: [18312234]
