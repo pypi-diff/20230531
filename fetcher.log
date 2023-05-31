@@ -12920,3 +12920,70 @@
 [2023-05-31 12:46:52] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
 [2023-05-31 12:46:55] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-05-31 12:46:55] INFO root fetch - main [MainThread]: Store serial: [18315475]
+[2023-05-31 12:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315475]
+[2023-05-31 12:52:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watch-bot
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neurolink
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serialdatalog
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-cognito-lib
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binarycpython
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghas-cli
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genopyc
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genopyc
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steampunk-spotter
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: junkpy
+[2023-05-31 12:52:11] INFO root fetch - processPackages [flask-cognito-lib]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-31 12:52:11] WARNING root fetch - processPackages [neurolink]: Skipping, unable to determine old version
+[2023-05-31 12:52:11] INFO root fetch - processPackages [neurolink]: Start processing: biclustering
+[2023-05-31 12:52:11] INFO root fetch - main [MainThread]: End processing [neurolink] error
+[2023-05-31 12:52:11] INFO root fetch - processPackages [serialdatalog]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [binarycpython]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ghas-cli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.0rc1] Old Version: [1.2.9a2]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [watch-bot]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-31 12:52:11] INFO root fetch - processPackages [biclustering]: New version: [2023.5.31.1] Old Version: [2023.5.31.0]
+[2023-05-31 12:52:11] WARNING root fetch - processPackages [junkpy]: Skipping, unable to determine old version
+[2023-05-31 12:52:11] INFO root fetch - processPackages [junkpy]: Start processing: google-waleed
+[2023-05-31 12:52:11] INFO root fetch - main [MainThread]: End processing [junkpy] error
+[2023-05-31 12:52:11] INFO root fetch - processPackages [biclustering]: executing diffoscope
+[2023-05-31 12:52:11] INFO root fetch - processPackages [biclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biclustering-2023.5.31.0.tar.gz tmp/biclustering-2023.5.31.1.tar.gz --markdown 20230531/b/biclustering/2023.5.31.0-2023.5.31.1/diff.md --exclude *.pyd
+[2023-05-31 12:52:11] INFO root fetch - processPackages [binarycpython]: Downloading https://files.pythonhosted.org/packages/d6/08/8de82f76a2ba376d8e4a2ec047a5db5e67e43c76094612b1e590e74425ac/binarycpython-0.9.6.tar.gz
+[2023-05-31 12:52:11] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/1d/c1/a7aa14333437faedd1997ec61b16a9b76ef53846fa6ca5454a348a5c1070/flask_cognito_lib-1.3.1.tar.gz
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/71/62/0c9d7213a0799cb592048cbbb5a6026da6a2e0ca0956236fb9d186fc0c51/genopyc-0.3.1-py3-none-any.whl
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/71/62/0c9d7213a0799cb592048cbbb5a6026da6a2e0ca0956236fb9d186fc0c51/genopyc-0.3.1-py3-none-any.whl
+[2023-05-31 12:52:11] WARNING root fetch - processPackages [google-waleed]: Skipping, unable to determine old version
+[2023-05-31 12:52:11] INFO root fetch - main [MainThread]: End processing [google-waleed] error
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ghas-cli]: Downloading https://files.pythonhosted.org/packages/b0/f3/2468130f381f459d480bc3f51c03502d697fa6b3a5fc2a6f8e5354ee799b/ghas_cli-1.5.0.tar.gz
+[2023-05-31 12:52:11] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-05-31 12:52:11] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-1.2.9a2-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.0rc1-py3-none-any.whl.zip --markdown 20230531/s/steampunk-spotter/1.2.9a2-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.3.0-py3-none-any.whl.zip tmp/genopyc-0.3.1-py3-none-any.whl.zip --markdown 20230531/g/genopyc/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 12:52:11] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.3.0-py3-none-any.whl.zip tmp/genopyc-0.3.1-py3-none-any.whl.zip --markdown 20230531/g/genopyc/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 12:52:11] INFO root fetch - processPackages [serialdatalog]: Downloading https://files.pythonhosted.org/packages/2d/af/9a0a17c3df148dd87da468bb1dedf4d094de1d84152fa8a5231b4af0943f/serialdatalog-0.1.7.tar.gz
+[2023-05-31 12:52:11] INFO root fetch - processPackages [watch-bot]: Downloading https://files.pythonhosted.org/packages/ce/8f/02beb6f2a9a96132b9f86f52e1fdd65eb07dab86737bca6f56b121614edb/watch-bot-0.2.1.tar.gz
+[2023-05-31 12:52:11] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/f6/15/7867d5ed2656c9bb5925f3c5c60eab09f0bf97a9bb2adae5b8f2fa4e44a3/flask_cognito_lib-1.3.2.tar.gz
+[2023-05-31 12:52:11] INFO root fetch - processPackages [serialdatalog]: executing diffoscope
+[2023-05-31 12:52:11] INFO root fetch - processPackages [serialdatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialdatalog-0.1.6.tar.gz tmp/serialdatalog-0.1.7.tar.gz --markdown 20230531/s/serialdatalog/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 12:52:11] INFO root fetch - processPackages [watch-bot]: executing diffoscope
+[2023-05-31 12:52:11] INFO root fetch - processPackages [watch-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-bot-0.2.0.tar.gz tmp/watch-bot-0.2.1.tar.gz --markdown 20230531/w/watch-bot/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 12:52:11] INFO root fetch - processPackages [ghas-cli]: Downloading https://files.pythonhosted.org/packages/9a/56/5ec7b03354c0b8043746bca50392fd47133f0da626f17e75f47280e13dee/ghas_cli-1.5.1.tar.gz
+[2023-05-31 12:52:12] INFO root fetch - processPackages [flask-cognito-lib]: executing diffoscope
+[2023-05-31 12:52:12] INFO root fetch - processPackages [flask-cognito-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cognito_lib-1.3.1.tar.gz tmp/flask_cognito_lib-1.3.2.tar.gz --markdown 20230531/f/flask-cognito-lib/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-31 12:52:12] INFO root fetch - processPackages [ghas-cli]: executing diffoscope
+[2023-05-31 12:52:12] INFO root fetch - processPackages [ghas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghas_cli-1.5.0.tar.gz tmp/ghas_cli-1.5.1.tar.gz --markdown 20230531/g/ghas-cli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-31 12:52:12] INFO root fetch - processPackages [binarycpython]: Downloading https://files.pythonhosted.org/packages/57/90/9aadfff7761596f1b87ce424676454ec56ab0dcf4668ad511b65f10c91bf/binarycpython-1.0.0.tar.gz
+[2023-05-31 12:52:12] INFO root fetch - processPackages [binarycpython]: executing diffoscope
+[2023-05-31 12:52:12] INFO root fetch - processPackages [binarycpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binarycpython-0.9.6.tar.gz tmp/binarycpython-1.0.0.tar.gz --markdown 20230531/b/binarycpython/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [biclustering]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [flask-cognito-lib]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [serialdatalog]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [watch-bot]: success
+[2023-05-31 12:52:13] INFO root fetch - main [MainThread]: End processing [ghas-cli]: success
+[2023-05-31 12:52:14] INFO root fetch - main [MainThread]: End processing [binarycpython]: success
+[2023-05-31 12:52:14] INFO root fetch - main [MainThread]: Store serial: [18315516]
