@@ -12645,3 +12645,71 @@
 [2023-05-31 12:30:25] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-05-31 12:30:26] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
 [2023-05-31 12:30:26] INFO root fetch - main [MainThread]: Store serial: [18315283]
+[2023-05-31 12:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315283]
+[2023-05-31 12:35:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summa-embed
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwebclient
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docstruct
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myfootballanalytics
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ippython
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-reader
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image-fragment
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lana
+[2023-05-31 12:35:35] WARNING root fetch - processPackages [myfootballanalytics]: Skipping, unable to determine old version
+[2023-05-31 12:35:35] INFO root fetch - processPackages [myfootballanalytics]: Start processing: biclustering
+[2023-05-31 12:35:35] WARNING root fetch - processPackages [my-reader]: Skipping, unable to determine old version
+[2023-05-31 12:35:35] INFO root fetch - main [MainThread]: End processing [myfootballanalytics] error
+[2023-05-31 12:35:35] INFO root fetch - processPackages [my-reader]: Start processing: winter
+[2023-05-31 12:35:35] INFO root fetch - processPackages [image-fragment]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 12:35:35] INFO root fetch - main [MainThread]: End processing [my-reader] error
+[2023-05-31 12:35:35] INFO root fetch - processPackages [lana]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [summa-embed]: New version: [0.15.6] Old Version: [0.15.4]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ippython]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230531103058] Old Version: [2.1.1.dev20230531080539]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [biclustering]: New version: [2023.5.31.1] Old Version: [2023.5.31.0]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-05-31 12:35:35] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-05-31 12:35:35] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230531/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:35:35] INFO root fetch - processPackages [ippython]: Downloading https://files.pythonhosted.org/packages/ca/a9/fed9f3f780e956eacd44ba72f12d80ca4007b4eece126639d45e87e36fee/ippython-0.0.1.tar.gz
+[2023-05-31 12:35:35] INFO root fetch - processPackages [biclustering]: Downloading https://files.pythonhosted.org/packages/5f/9f/75773501fc18fa286c984422ba669a87009c7149e291ea9133f327df9c00/biclustering-2023.5.31.0.tar.gz
+[2023-05-31 12:35:35] INFO root fetch - processPackages [image-fragment]: Downloading https://files.pythonhosted.org/packages/a0/48/fb56b06cc1ddc55ad0f567ac8f58cc7d8f66f6d0cedf6d2770098360eac7/image_fragment-0.2.2.tar.gz
+[2023-05-31 12:35:35] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/d9/5e/9e6206d6538798922e97f3b3515bd8242c64900722264964e813a00a6d4a/lana-0.1.5.tar.gz
+[2023-05-31 12:35:35] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/06/58/d43d7606198994ca27a4d72b1005e96159510c4e95bf5242351064ad3e22/localstack-core-2.1.1.dev20230531103058.tar.gz
+[2023-05-31 12:35:36] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230531/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.1.4.tar.gz tmp/lana-0.1.5.tar.gz --markdown 20230531/l/lana/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/3a/ff/9ab285bbfeed5ac1099441a99085be2637d2ef522d57176536e2903bf504/summa_embed-0.15.6.tar.gz
+[2023-05-31 12:35:36] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230531/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [ippython]: Downloading https://files.pythonhosted.org/packages/23/6a/8b79e88b34d0bcd8ab4d7d88feb113876a1cfd58960659dc95b05f5bca11/ippython-0.0.2.tar.gz
+[2023-05-31 12:35:36] INFO root fetch - processPackages [biclustering]: Downloading https://files.pythonhosted.org/packages/5a/2e/ea3b028ec3c052c29da6bffcd13526c35b25ffdd415e4b85f00da4a77a67/biclustering-2023.5.31.1.tar.gz
+[2023-05-31 12:35:36] INFO root fetch - processPackages [image-fragment]: Downloading https://files.pythonhosted.org/packages/53/df/b8b2dbdf94473594d73a780a0b7a5344a7152cc08c5f9db7f6889cf3d5fe/image_fragment-0.2.3.tar.gz
+[2023-05-31 12:35:36] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230531/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.4.tar.gz tmp/summa_embed-0.15.6.tar.gz --markdown 20230531/s/summa-embed/0.15.4-0.15.6/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [image-fragment]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [image-fragment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_fragment-0.2.2.tar.gz tmp/image_fragment-0.2.3.tar.gz --markdown 20230531/i/image-fragment/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [ippython]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [ippython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ippython-0.0.1.tar.gz tmp/ippython-0.0.2.tar.gz --markdown 20230531/i/ippython/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [biclustering]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [biclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biclustering-2023.5.31.0.tar.gz tmp/biclustering-2023.5.31.1.tar.gz --markdown 20230531/b/biclustering/2023.5.31.0-2023.5.31.1/diff.md --exclude *.pyd
+[2023-05-31 12:35:36] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-31 12:35:36] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230531080539.tar.gz tmp/localstack-core-2.1.1.dev20230531103058.tar.gz --markdown 20230531/l/localstack-core/2.1.1.dev20230531080539-2.1.1.dev20230531103058/diff.md --exclude *.pyd
+[2023-05-31 12:35:37] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-31 12:35:37] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-05-31 12:35:37] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-31 12:35:37] INFO root fetch - main [MainThread]: End processing [biclustering]: success
+[2023-05-31 12:35:37] INFO root fetch - main [MainThread]: End processing [image-fragment]: success
+[2023-05-31 12:35:38] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-31 12:35:38] INFO root fetch - main [MainThread]: End processing [ippython]: success
+[2023-05-31 12:35:38] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-05-31 12:35:39] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-05-31 12:35:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-31 12:35:44] INFO root fetch - main [MainThread]: Store serial: [18315352]
