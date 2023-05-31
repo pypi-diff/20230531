@@ -8570,3 +8570,59 @@
 [2023-05-31 07:36:14] ERROR root fetch - processPackages [mayan-edms]: Timeout during execution of pkgdiff
 [2023-05-31 07:36:14] INFO root fetch - main [MainThread]: End processing [mayan-edms] error
 [2023-05-31 07:36:14] INFO root fetch - main [MainThread]: Store serial: [18312855]
+[2023-05-31 07:41:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312855]
+[2023-05-31 07:41:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SPRT-TANDEM
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Alpha-Rabbit
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-plugins
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravitas
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tengu-py
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aa-drifters
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ReadLammpsTraj
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: np-queuey
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drjson
+[2023-05-31 07:41:22] WARNING root fetch - processPackages [ReadLammpsTraj]: Skipping, unable to determine old version
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ReadLammpsTraj]: Start processing: th2-data-services
+[2023-05-31 07:41:22] INFO root fetch - main [MainThread]: End processing [ReadLammpsTraj] error
+[2023-05-31 07:41:22] WARNING root fetch - processPackages [tengu-py]: Skipping, unable to determine old version
+[2023-05-31 07:41:22] INFO root fetch - main [MainThread]: End processing [tengu-py] error
+[2023-05-31 07:41:22] WARNING root fetch - processPackages [aa-drifters]: Skipping, unable to determine old version
+[2023-05-31 07:41:22] WARNING root fetch - processPackages [drjson]: Skipping, unable to determine old version
+[2023-05-31 07:41:22] INFO root fetch - processPackages [SPRT-TANDEM]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 07:41:22] INFO root fetch - main [MainThread]: End processing [aa-drifters] error
+[2023-05-31 07:41:22] INFO root fetch - main [MainThread]: End processing [drjson] error
+[2023-05-31 07:41:22] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:41:22] INFO root fetch - processPackages [BioSAK]: New version: [1.66.0] Old Version: [1.65.0]
+[2023-05-31 07:41:22] INFO root fetch - processPackages [gravitas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 07:41:22] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-31 07:41:22] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5129283461] Old Version: [2.0.0.dev5122037338]
+[2023-05-31 07:41:22] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 07:41:23] INFO root fetch - processPackages [SPRT-TANDEM]: Downloading https://files.pythonhosted.org/packages/ae/36/0882881919618e52ae2fcfda855ccd138a23714a8994119612a1b0958a6d/SPRT-TANDEM-0.1.1.tar.gz
+[2023-05-31 07:41:23] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/8d/5c/d1b7c6f5a1a6cd777dac70d07efd117a8849579da78c5ed441b61f9f993f/ml_plugins-0.0.8.tar.gz
+[2023-05-31 07:41:23] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/3e/70/945c5a457ef49d3452511fcd42fee235e91a723b8a5620ad1fc78d83e7b0/th2_data_services-2.0.0.dev5129283461.tar.gz
+[2023-05-31 07:41:23] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/48/fa/033ea2b4477824fe97ee5f13a1b9994054c7784b5c247d844473cd6cd4a9/gravitas-0.1.5.tar.gz
+[2023-05-31 07:41:23] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/81/1f/a31f4e5dc2832dd93cd1ea6f524b85c13e271a749a4b05dcb42adac5b1cc/BioSAK-1.65.0.tar.gz
+[2023-05-31 07:41:23] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21173564>=10485760
+[2023-05-31 07:41:23] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-31 07:41:23] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-05-31 07:41:23] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.1.4.tar.gz tmp/gravitas-0.1.5.tar.gz --markdown 20230531/g/gravitas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 07:41:23] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-31 07:41:23] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5122037338.tar.gz tmp/th2_data_services-2.0.0.dev5129283461.tar.gz --markdown 20230531/t/th2-data-services/2.0.0.dev5122037338-2.0.0.dev5129283461/diff.md --exclude *.pyd
+[2023-05-31 07:41:23] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/e7/7d/b6e0fbc63a7fba7e7f13092dbd6e0e235405c3a610a161dab84beb57f63e/ml_plugins-0.0.9.tar.gz
+[2023-05-31 07:41:23] INFO root fetch - processPackages [SPRT-TANDEM]: Downloading https://files.pythonhosted.org/packages/07/a0/84fef6b7e97c59b65e7c503a42cc23522eef5d9ce6cacbb1e009dd501f72/SPRT-TANDEM-0.1.2.tar.gz
+[2023-05-31 07:41:23] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-31 07:41:23] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230531/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-31 07:41:23] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-31 07:41:23] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230531/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 07:41:23] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-31 07:41:23] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.8.tar.gz tmp/ml_plugins-0.0.9.tar.gz --markdown 20230531/m/ml-plugins/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:41:23] INFO root fetch - processPackages [SPRT-TANDEM]: executing diffoscope
+[2023-05-31 07:41:23] INFO root fetch - processPackages [SPRT-TANDEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPRT-TANDEM-0.1.1.tar.gz tmp/SPRT-TANDEM-0.1.2.tar.gz --markdown 20230531/S/SPRT-TANDEM/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 07:41:24] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-31 07:41:24] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-31 07:41:24] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM]: success
+[2023-05-31 07:41:24] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-31 07:41:24] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-05-31 07:41:26] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-31 07:41:26] INFO root fetch - main [MainThread]: Store serial: [18312923]
