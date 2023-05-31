@@ -17175,3 +17175,164 @@
 [2023-05-31 16:09:09] INFO root fetch - main [MainThread]: End processing [pyroute2]: success
 [2023-05-31 16:09:12] INFO root fetch - main [MainThread]: End processing [pythonfinder]: success
 [2023-05-31 16:09:12] INFO root fetch - main [MainThread]: Store serial: [18317885]
+[2023-05-31 16:14:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317885]
+[2023-05-31 16:14:22] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webviz-ert
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ert-storage
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuralpit
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepchem
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: home-assistant-frontend
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-dinkum-listener
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqdconvert
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nssurge-api
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: permutate
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: berlin-appointment-finder
+[2023-05-31 16:14:22] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-31 16:14:22] INFO root fetch - processPackages [permutate]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 16:14:22] INFO root fetch - processPackages [nssurge-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 16:14:22] INFO root fetch - processPackages [permutate]: executing diffoscope
+[2023-05-31 16:14:22] INFO root fetch - processPackages [permutate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permutate-0.0.1.tar.gz tmp/permutate-0.0.2.tar.gz --markdown 20230531/p/permutate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ert-storage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 16:14:23] INFO root fetch - processPackages [berlin-appointment-finder]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 16:14:23] WARNING root fetch - processPackages [sqdconvert]: Skipping, unable to determine old version
+[2023-05-31 16:14:23] INFO root fetch - processPackages [webviz-ert]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-31 16:14:23] INFO root fetch - processPackages [sqdconvert]: Start processing: anova-analysis
+[2023-05-31 16:14:23] INFO root fetch - main [MainThread]: End processing [sqdconvert] error
+[2023-05-31 16:14:23] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230531.0] Old Version: [20230526.0]
+[2023-05-31 16:14:23] INFO root fetch - processPackages [nssurge-api]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [nssurge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nssurge-api-0.2.8.tar.gz tmp/nssurge-api-0.2.9.tar.gz --markdown 20230531/n/nssurge-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230531/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230531141025] Old Version: [2.7.2.dev20230526200256]
+[2023-05-31 16:14:23] WARNING root fetch - processPackages [anova-analysis]: Skipping, unable to determine old version
+[2023-05-31 16:14:23] INFO root fetch - processPackages [anova-analysis]: Start processing: nameless-deploy-tools
+[2023-05-31 16:14:23] INFO root fetch - main [MainThread]: End processing [anova-analysis] error
+[2023-05-31 16:14:23] INFO root fetch - processPackages [neuralpit]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 16:14:23] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/42/2e/2a78192610d4f39bb9dec74ed01cefc6cfcb3612dbc54cc208c158bbc90c/home_assistant_frontend-20230526.0-py3-none-any.whl
+[2023-05-31 16:14:23] INFO root fetch - processPackages [berlin-appointment-finder]: Downloading https://files.pythonhosted.org/packages/ae/ab/2c50bd864e865b77b481a23fcd02c641d69c06b913ed997cd11a611559cb/berlin-appointment-finder-1.0.3.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [webviz-ert]: Downloading https://files.pythonhosted.org/packages/73/f4/8a0c1aeca579e1210780fa8a2868b9efebcb80a1d6a2a3cfb043dcac0807/webviz-ert-0.5.4.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ert-storage]: Downloading https://files.pythonhosted.org/packages/7c/40/e43467d9d6ed2f04b0f62b7f350664d362f362a1e8b231afca72396dfcbb/ert_storage-0.3.8-py3-none-any.whl
+[2023-05-31 16:14:23] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 44542667>=10485760
+[2023-05-31 16:14:23] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: predeployed-generator
+[2023-05-31 16:14:23] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-05-31 16:14:23] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-05-31 16:14:23] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/46/57/cc63f7249090613f1cd89d170e7d3db3609b57bc5e6f0b5d4ffc9959253b/neuralpit-1.0.6.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [predeployed-generator]: New version: [1.1.0b0] Old Version: [1.1.0a9]
+[2023-05-31 16:14:23] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/29/b0/68d2b7312621691045b89a94b5fbf23306699230cfbfa285f60944d146ea/deepchem-2.7.2.dev20230531141025.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [berlin-appointment-finder]: Downloading https://files.pythonhosted.org/packages/e1/c5/f62bbe64d66237870526478a7c232a797281365bb17633ace72247880844/berlin-appointment-finder-1.0.4.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/0d/c8/8c3c9f7254326f089bfaaf17c4f26d37fda0baf5993e7674c3c324a4ddc8/nameless-deploy-tools-1.98.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230526200256.tar.gz tmp/deepchem-2.7.2.dev20230531141025.tar.gz --markdown 20230531/d/deepchem/2.7.2.dev20230526200256-2.7.2.dev20230531141025/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ert-storage]: Downloading https://files.pythonhosted.org/packages/09/16/a28e21f34daada2b0bf38f30bfcd3d95e3710e8ab4489b684af3863fed10/ert_storage-0.3.9-py3-none-any.whl
+[2023-05-31 16:14:23] INFO root fetch - processPackages [webviz-ert]: Downloading https://files.pythonhosted.org/packages/ff/c9/fce3abc8ea6744392c718b2e3db85810b673b25fc8a46ddbf17fe7e61bbd/webviz-ert-0.5.5.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [berlin-appointment-finder]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [berlin-appointment-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berlin-appointment-finder-1.0.3.tar.gz tmp/berlin-appointment-finder-1.0.4.tar.gz --markdown 20230531/b/berlin-appointment-finder/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/1f/76/da439a2670327f97b7216cb5b64497676cfc15cc311e3e80f719d9ac6fec/neuralpit-1.0.7.tar.gz
+[2023-05-31 16:14:23] INFO root fetch - processPackages [webviz-ert]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [webviz-ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-ert-0.5.4.tar.gz tmp/webviz-ert-0.5.5.tar.gz --markdown 20230531/w/webviz-ert/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.6.tar.gz tmp/neuralpit-1.0.7.tar.gz --markdown 20230531/n/neuralpit/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ert-storage]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [ert-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert_storage-0.3.8-py3-none-any.whl.zip tmp/ert_storage-0.3.9-py3-none-any.whl.zip --markdown 20230531/e/ert-storage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [predeployed-generator]: executing diffoscope
+[2023-05-31 16:14:23] INFO root fetch - processPackages [predeployed-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predeployed-generator-1.1.0a9.tar.gz tmp/predeployed-generator-1.1.0b0.tar.gz --markdown 20230531/p/predeployed-generator/1.1.0a9-1.1.0b0/diff.md --exclude *.pyd
+[2023-05-31 16:14:23] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/fe/19/ea262f36b269c4dbb14250dd1ad53e26d137416f57251e88cd4db4227090/nameless-deploy-tools-1.99.tar.gz
+[2023-05-31 16:14:24] INFO root fetch - processPackages [permutate]: Start processing: XAIoGraphs
+[2023-05-31 16:14:24] INFO root fetch - main [MainThread]: End processing [permutate]: success
+[2023-05-31 16:14:24] WARNING root fetch - processPackages [XAIoGraphs]: Skipping, unable to determine old version
+[2023-05-31 16:14:24] INFO root fetch - processPackages [XAIoGraphs]: Start processing: nssurge-api
+[2023-05-31 16:14:24] INFO root fetch - main [MainThread]: End processing [XAIoGraphs] error
+[2023-05-31 16:14:24] INFO root fetch - processPackages [nssurge-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 16:14:24] INFO root fetch - processPackages [nssurge-api]: Start processing: projen
+[2023-05-31 16:14:24] INFO root fetch - main [MainThread]: End processing [nssurge-api]: success
+[2023-05-31 16:14:24] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-31 16:14:24] INFO root fetch - processPackages [ovos-dinkum-listener]: Start processing: SC2Spa
+[2023-05-31 16:14:24] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-31 16:14:24] INFO root fetch - processPackages [nssurge-api]: executing diffoscope
+[2023-05-31 16:14:24] INFO root fetch - processPackages [nssurge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nssurge-api-0.2.8.tar.gz tmp/nssurge-api-0.2.9.tar.gz --markdown 20230531/n/nssurge-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 16:14:24] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-31 16:14:24] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230531/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-31 16:14:24] INFO root fetch - processPackages [SC2Spa]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-31 16:14:24] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-05-31 16:14:24] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230531/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-31 16:14:24] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/31/85/275a74b825819db411550924ced3a2cb178cd858e73f5093275c273af6ea/SC2Spa-1.1.8.tar.gz
+[2023-05-31 16:14:25] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/89/c4/0d39bae848d836cad43b7c294d181cc0302cb2430b1681f20bd248b3dd01/SC2Spa-1.1.9.tar.gz
+[2023-05-31 16:14:25] INFO root fetch - processPackages [berlin-appointment-finder]: Start processing: cyberdrop-dl
+[2023-05-31 16:14:25] INFO root fetch - main [MainThread]: End processing [berlin-appointment-finder]: success
+[2023-05-31 16:14:25] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.56] Old Version: [4.2.55]
+[2023-05-31 16:14:25] INFO root fetch - processPackages [SC2Spa]: executing diffoscope
+[2023-05-31 16:14:25] INFO root fetch - processPackages [SC2Spa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC2Spa-1.1.8.tar.gz tmp/SC2Spa-1.1.9.tar.gz --markdown 20230531/S/SC2Spa/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 16:14:25] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-31 16:14:25] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.55.tar.gz tmp/cyberdrop-dl-4.2.56.tar.gz --markdown 20230531/c/cyberdrop-dl/4.2.55-4.2.56/diff.md --exclude *.pyd
+[2023-05-31 16:14:25] INFO root fetch - processPackages [neuralpit]: Start processing: jupyverse-api
+[2023-05-31 16:14:25] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-05-31 16:14:25] INFO root fetch - processPackages [jupyverse-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:25] INFO root fetch - processPackages [jupyverse-api]: executing diffoscope
+[2023-05-31 16:14:25] INFO root fetch - processPackages [jupyverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse_api-0.1.6.tar.gz tmp/jupyverse_api-0.1.7.tar.gz --markdown 20230531/j/jupyverse-api/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:25] INFO root fetch - processPackages [predeployed-generator]: Start processing: fps-noauth
+[2023-05-31 16:14:25] INFO root fetch - main [MainThread]: End processing [predeployed-generator]: success
+[2023-05-31 16:14:25] INFO root fetch - processPackages [fps-noauth]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:25] INFO root fetch - processPackages [fps-noauth]: executing diffoscope
+[2023-05-31 16:14:25] INFO root fetch - processPackages [fps-noauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_noauth-0.1.6.tar.gz tmp/fps_noauth-0.1.7.tar.gz --markdown 20230531/f/fps-noauth/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:25] INFO root fetch - processPackages [nssurge-api]: Start processing: fps-auth
+[2023-05-31 16:14:25] INFO root fetch - main [MainThread]: End processing [nssurge-api]: success
+[2023-05-31 16:14:25] INFO root fetch - processPackages [fps-auth]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:25] INFO root fetch - processPackages [ert-storage]: Start processing: fps-auth-fief
+[2023-05-31 16:14:25] INFO root fetch - main [MainThread]: End processing [ert-storage]: success
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-auth-fief]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-auth]: executing diffoscope
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth-0.1.6.tar.gz tmp/fps_auth-0.1.7.tar.gz --markdown 20230531/f/fps-auth/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-auth-fief]: executing diffoscope
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-auth-fief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_fief-0.1.6.tar.gz tmp/fps_auth_fief-0.1.7.tar.gz --markdown 20230531/f/fps-auth-fief/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:26] INFO root fetch - processPackages [projen]: Start processing: fps-contents
+[2023-05-31 16:14:26] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-contents]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-contents]: executing diffoscope
+[2023-05-31 16:14:26] INFO root fetch - processPackages [fps-contents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_contents-0.1.6.tar.gz tmp/fps_contents-0.1.7.tar.gz --markdown 20230531/f/fps-contents/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [cyberdrop-dl]: Start processing: fgo-api-types
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [nameless-deploy-tools]: Start processing: fps-frontend
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-frontend]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.5.31.14.13.56] Old Version: [2023.5.30.4.51.47]
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-frontend]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_frontend-0.1.6.tar.gz tmp/fps_frontend-0.1.7.tar.gz --markdown 20230531/f/fps-frontend/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [jupyverse-api]: Start processing: fps-jupyterlab
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [jupyverse-api]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-jupyterlab]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-noauth]: Start processing: fps-kernels
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [fps-noauth]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-kernels]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:27] INFO root fetch - processPackages [SC2Spa]: Start processing: fps-lab
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [SC2Spa]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-jupyterlab]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupyterlab-0.1.6.tar.gz tmp/fps_jupyterlab-0.1.7.tar.gz --markdown 20230531/f/fps-jupyterlab/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-lab]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-kernels]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_kernels-0.1.6.tar.gz tmp/fps_kernels-0.1.7.tar.gz --markdown 20230531/f/fps-kernels/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-lab]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_lab-0.1.6.tar.gz tmp/fps_lab-0.1.7.tar.gz --markdown 20230531/f/fps-lab/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [deepchem]: Start processing: lincs
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-auth-fief]: Start processing: fps-nbconvert
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [fps-auth-fief]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [lincs]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/22/38/699a8b31706a961aac6cf4f6775c326b0602d55b39586b8ace4c59953fd1/fgo_api_types-2023.5.31.14.13.56.tar.gz
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-nbconvert]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [webviz-ert]: success
+[2023-05-31 16:14:27] INFO root fetch - main [MainThread]: End processing [fps-auth]: success
+[2023-05-31 16:14:27] INFO root fetch - processPackages [lincs]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [lincs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lincs-0.3.3.tar.gz tmp/lincs-0.3.5.tar.gz --markdown 20230531/l/lincs/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.5.30.4.51.47.tar.gz tmp/fgo_api_types-2023.5.31.14.13.56.tar.gz --markdown 20230531/f/fgo-api-types/2023.5.30.4.51.47-2023.5.31.14.13.56/diff.md --exclude *.pyd
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-nbconvert]: executing diffoscope
+[2023-05-31 16:14:27] INFO root fetch - processPackages [fps-nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_nbconvert-0.1.6.tar.gz tmp/fps_nbconvert-0.1.7.tar.gz --markdown 20230531/f/fps-nbconvert/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 16:14:28] INFO root fetch - main [MainThread]: End processing [fps-contents]: success
+[2023-05-31 16:14:28] INFO root fetch - main [MainThread]: End processing [fps-frontend]: success
+[2023-05-31 16:14:28] INFO root fetch - main [MainThread]: End processing [fps-jupyterlab]: success
+[2023-05-31 16:14:29] INFO root fetch - main [MainThread]: End processing [fps-lab]: success
+[2023-05-31 16:14:29] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-05-31 16:14:29] INFO root fetch - main [MainThread]: End processing [fps-nbconvert]: success
+[2023-05-31 16:14:29] INFO root fetch - main [MainThread]: End processing [fps-kernels]: success
+[2023-05-31 16:14:30] INFO root fetch - main [MainThread]: End processing [lincs]: success
+[2023-05-31 16:14:30] INFO root fetch - main [MainThread]: Store serial: [18317977]
