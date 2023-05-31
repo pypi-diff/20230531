@@ -12540,3 +12540,53 @@
 [2023-05-31 12:19:47] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-31 12:19:59] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-31 12:19:59] INFO root fetch - main [MainThread]: Store serial: [18315203]
+[2023-05-31 12:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315203]
+[2023-05-31 12:25:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serialdatalog
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conductor-python
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-oai-pmh-harvester
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotsos
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notifications-sdk-preview
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-selve-new
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sri-dict-mt
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwak-core
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poetry-plugin-ignore-build-script
+[2023-05-31 12:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ntmpackage
+[2023-05-31 12:25:08] INFO root fetch - processPackages [conductor-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 12:25:08] WARNING root fetch - processPackages [sri-dict-mt]: Skipping, unable to determine old version
+[2023-05-31 12:25:08] INFO root fetch - main [MainThread]: End processing [sri-dict-mt] error
+[2023-05-31 12:25:08] INFO root fetch - processPackages [serialdatalog]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 12:25:08] WARNING root fetch - processPackages [poetry-plugin-ignore-build-script]: Skipping, unable to determine old version
+[2023-05-31 12:25:08] INFO root fetch - main [MainThread]: End processing [poetry-plugin-ignore-build-script] error
+[2023-05-31 12:25:08] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-05-31 12:25:08] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 12:25:08] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-31 12:25:08] INFO root fetch - processPackages [qwak-core]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-05-31 12:25:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.714] Old Version: [0.1.711]
+[2023-05-31 12:25:08] WARNING root fetch - processPackages [ntmpackage]: Skipping, unable to determine old version
+[2023-05-31 12:25:08] INFO root fetch - main [MainThread]: End processing [ntmpackage] error
+[2023-05-31 12:25:08] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:25:08] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.8.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.9.tar.gz --markdown 20230531/o/oarepo-oai-pmh-harvester/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:25:08] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230531/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-05-31 12:25:08] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/8e/58/3600352a9571e93710ab600195867861c13151ccab7e88254f9aa55ced43/qwak_core-0.0.91.tar.gz
+[2023-05-31 12:25:08] INFO root fetch - processPackages [serialdatalog]: Downloading https://files.pythonhosted.org/packages/85/b3/47adb51e36fa6a200abf4189f969d4b208ec5191048b97944710e6428778/serialdatalog-0.1.6.tar.gz
+[2023-05-31 12:25:08] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.90.tar.gz tmp/qwak_core-0.0.91.tar.gz --markdown 20230531/q/qwak-core/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-05-31 12:25:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/93/6c/ff85ea030b22c898df2f2fe2445dbd3c939ad1dce3d914171c792a6ee959/lusid-notifications-sdk-preview-0.1.714.tar.gz
+[2023-05-31 12:25:08] INFO root fetch - processPackages [serialdatalog]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [serialdatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialdatalog-0.1.5.tar.gz tmp/serialdatalog-0.1.6.tar.gz --markdown 20230531/s/serialdatalog/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 12:25:08] INFO root fetch - processPackages [conductor-python]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [conductor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conductor-python-1.0.8.tar.gz tmp/conductor-python-1.0.9.tar.gz --markdown 20230531/c/conductor-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:25:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-31 12:25:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.711.tar.gz tmp/lusid-notifications-sdk-preview-0.1.714.tar.gz --markdown 20230531/l/lusid-notifications-sdk-preview/0.1.711-0.1.714/diff.md --exclude *.pyd
+[2023-05-31 12:25:09] INFO root fetch - main [MainThread]: End processing [serialdatalog]: success
+[2023-05-31 12:25:09] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 12:25:10] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-31 12:25:10] INFO root fetch - main [MainThread]: End processing [conductor-python]: success
+[2023-05-31 12:25:11] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-05-31 12:25:13] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-31 12:25:13] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-31 12:25:13] INFO root fetch - main [MainThread]: Store serial: [18315242]
