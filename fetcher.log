@@ -13959,3 +13959,166 @@
 [2023-05-31 13:50:06] INFO root fetch - main [MainThread]: End processing [gaussian-suite]: success
 [2023-05-31 13:50:06] INFO root fetch - main [MainThread]: End processing [pedanlib]: success
 [2023-05-31 13:50:06] INFO root fetch - main [MainThread]: Store serial: [18316104]
+[2023-05-31 13:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316104]
+[2023-05-31 13:55:15] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-geomodeling
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycrux
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldeep
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-superset-iteco
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csle-ryu
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csle-collector
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csle-common
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csle-attacker
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csle-defender
+[2023-05-31 13:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csle-system-identification
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-ryu]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [apache-superset-iteco]: New version: [2.1.1.4] Old Version: [2.1.1.3]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [pycrux]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [dask-geomodeling]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-common]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-system-identification]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-defender]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-attacker]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-collector]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [dask-geomodeling]: Downloading https://files.pythonhosted.org/packages/8b/fa/84f419db190e90d98f5a994a22a101df1bd8a8a28d88889ec9c023e3e183/dask-geomodeling-2.4.1.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-common]: Downloading https://files.pythonhosted.org/packages/2a/08/4642cc14e07aada1cb88700fde25bc1ccc97eff6777cce593844e3161ba0/csle_common-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-attacker]: Downloading https://files.pythonhosted.org/packages/ca/c6/9e8cd503ec89f4f4da4001da042e3fcd6345d55c0cad215ec777ef38590c/csle_attacker-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-defender]: Downloading https://files.pythonhosted.org/packages/af/c2/b55bdcd1d46a0481348ea0143a02672415e23880a5a3e923f471c3acbd17/csle_defender-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [apache-superset-iteco]: Downloading https://files.pythonhosted.org/packages/ec/0a/150225c899873d11210b4bc0d0cd72d2cccc4474b51f1bb532a3ab26f194/apache_superset_iteco-2.1.1.3-py3-none-any.whl
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-collector]: Downloading https://files.pythonhosted.org/packages/47/05/74e5b022e66903626db427e0dfc85b1a96425d0284a9f5671beb1fd5eac2/csle_collector-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-system-identification]: Downloading https://files.pythonhosted.org/packages/7e/37/dc1cf4f62ff0209eabecbf5c098047b7ab9000f37b6a187f13bec0973d96/csle_system_identification-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-ryu]: Downloading https://files.pythonhosted.org/packages/ae/cb/b24937c2dbeeaeb62359e088bec752d7b1ce4c71a0337831e8167ade4d31/csle_ryu-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [pycrux]: Downloading https://files.pythonhosted.org/packages/34/08/2eb8a4a13f16e6b4314da5297d5ba84b47a89504e63335f90dea4fa41a04/pycrux-0.3.0.tar.gz
+[2023-05-31 13:55:16] WARNING root fetch - processPackages [apache-superset-iteco]: Skipping package: exceeds size limit 96331466>=10485760
+[2023-05-31 13:55:16] INFO root fetch - processPackages [apache-superset-iteco]: Start processing: gym-csle-stopping-game
+[2023-05-31 13:55:16] INFO root fetch - main [MainThread]: End processing [apache-superset-iteco] error
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-defender]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-defender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_defender-0.2.1.tar.gz tmp/csle_defender-0.2.2.tar.gz --markdown 20230531/c/csle-defender/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [gym-csle-stopping-game]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-system-identification]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-system-identification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_system_identification-0.2.1.tar.gz tmp/csle_system_identification-0.2.2.tar.gz --markdown 20230531/c/csle-system-identification/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-collector]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_collector-0.2.1.tar.gz tmp/csle_collector-0.2.2.tar.gz --markdown 20230531/c/csle-collector/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-attacker]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-attacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_attacker-0.2.1.tar.gz tmp/csle_attacker-0.2.2.tar.gz --markdown 20230531/c/csle-attacker/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-common]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_common-0.2.1.tar.gz tmp/csle_common-0.2.2.tar.gz --markdown 20230531/c/csle-common/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20230531/l/ldeep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-ryu]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [csle-ryu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_ryu-0.2.1.tar.gz tmp/csle_ryu-0.2.2.tar.gz --markdown 20230531/c/csle-ryu/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [pycrux]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [pycrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrux-0.2.0.tar.gz tmp/pycrux-0.3.0.tar.gz --markdown 20230531/p/pycrux/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [gym-csle-stopping-game]: Downloading https://files.pythonhosted.org/packages/a0/c9/2c6dcb6ee61b56897bf7ad62d70adfde7c1b0c9497264aee49e696cff078/gym_csle_stopping_game-0.2.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [dask-geomodeling]: Downloading https://files.pythonhosted.org/packages/79/bc/91fd5513ac5d5ce8df6d7219c1c4eb617367e106ab191da5fca136f537ee/dask-geomodeling-2.4.2.tar.gz
+[2023-05-31 13:55:16] INFO root fetch - processPackages [dask-geomodeling]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [dask-geomodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-geomodeling-2.4.1.tar.gz tmp/dask-geomodeling-2.4.2.tar.gz --markdown 20230531/d/dask-geomodeling/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:16] INFO root fetch - processPackages [gym-csle-stopping-game]: executing diffoscope
+[2023-05-31 13:55:16] INFO root fetch - processPackages [gym-csle-stopping-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_csle_stopping_game-0.2.1.tar.gz tmp/gym_csle_stopping_game-0.2.2.tar.gz --markdown 20230531/g/gym-csle-stopping-game/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:17] INFO root fetch - processPackages [csle-defender]: Start processing: gym-csle-intrusion-response-game
+[2023-05-31 13:55:17] INFO root fetch - main [MainThread]: End processing [csle-defender]: success
+[2023-05-31 13:55:17] INFO root fetch - processPackages [gym-csle-intrusion-response-game]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [gym-csle-intrusion-response-game]: Downloading https://files.pythonhosted.org/packages/90/57/5189040282c48b8f66e8e2c05021ac5afb2bf66bc4afae8c137a96b2ee66/gym_csle_intrusion_response_game-0.2.2.tar.gz
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-attacker]: Start processing: csle-agents
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [csle-attacker]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-agents]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [pycrux]: Start processing: ssb-altinn3-util
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [pycrux]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [gym-csle-intrusion-response-game]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [gym-csle-intrusion-response-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_csle_intrusion_response_game-0.2.1.tar.gz tmp/gym_csle_intrusion_response_game-0.2.2.tar.gz --markdown 20230531/g/gym-csle-intrusion-response-game/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-agents]: Downloading https://files.pythonhosted.org/packages/aa/c9/41630885a8c0cee9f1083eeb11826acab2bd31e3cf6853d975300f403bf8/csle_agents-0.2.2.tar.gz
+[2023-05-31 13:55:18] INFO root fetch - processPackages [gym-csle-stopping-game]: Start processing: csle-rest-api
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [gym-csle-stopping-game]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [ldeep]: Start processing: csle-cli
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-system-identification]: Start processing: csle-cluster
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [csle-system-identification]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-rest-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cluster]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-agents]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_agents-0.2.1.tar.gz tmp/csle_agents-0.2.2.tar.gz --markdown 20230531/c/csle-agents/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [dask-geomodeling]: Start processing: quao
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [dask-geomodeling]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-rest-api]: Downloading https://files.pythonhosted.org/packages/22/a0/97841c24bc5dd0539942655e9540c3be550712a1e50e332ca06b42486e22/csle_rest_api-0.2.2.tar.gz
+[2023-05-31 13:55:18] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230531/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cli]: Downloading https://files.pythonhosted.org/packages/37/da/fed8a2e490a9060691bdb6a4bb22bc23b643892ef3450a259488c517c98a/csle_cli-0.2.2.tar.gz
+[2023-05-31 13:55:18] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cluster]: Downloading https://files.pythonhosted.org/packages/a5/5c/c077419f3c90fa282168e7d6adb3aef9df0ae9973d669c389b8c0e8e1ce7/csle_cluster-0.2.2.tar.gz
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-ryu]: Start processing: cnd-cr-object
+[2023-05-31 13:55:18] INFO root fetch - main [MainThread]: End processing [csle-ryu]: success
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cli]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_cli-0.2.1.tar.gz tmp/csle_cli-0.2.2.tar.gz --markdown 20230531/c/csle-cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [cnd-cr-object]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cluster]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-cluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_cluster-0.2.1.tar.gz tmp/csle_cluster-0.2.2.tar.gz --markdown 20230531/c/csle-cluster/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230531/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-rest-api]: executing diffoscope
+[2023-05-31 13:55:18] INFO root fetch - processPackages [csle-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csle_rest_api-0.2.1.tar.gz tmp/csle_rest_api-0.2.2.tar.gz --markdown 20230531/c/csle-rest-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:18] INFO root fetch - processPackages [cnd-cr-object]: Downloading https://files.pythonhosted.org/packages/20/c6/f8aff61493c69e6178dd99ca390346fcad62972e3f23ef87d80907795c42/cnd_cr_object-0.1.0-py3-none-any.whl
+[2023-05-31 13:55:19] INFO root fetch - processPackages [cnd-cr-object]: Downloading https://files.pythonhosted.org/packages/cd/47/c1b981634d96b2a0876bfed25aaf860d1dcaed020be5bce7dff790b73e3e/cnd_cr_object-0.2.0-py3-none-any.whl
+[2023-05-31 13:55:19] INFO root fetch - processPackages [cnd-cr-object]: executing diffoscope
+[2023-05-31 13:55:19] INFO root fetch - processPackages [cnd-cr-object]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnd_cr_object-0.1.0-py3-none-any.whl.zip tmp/cnd_cr_object-0.2.0-py3-none-any.whl.zip --markdown 20230531/c/cnd-cr-object/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 13:55:19] INFO root fetch - processPackages [gym-csle-intrusion-response-game]: Start processing: cnd-cr
+[2023-05-31 13:55:19] INFO root fetch - main [MainThread]: End processing [gym-csle-intrusion-response-game]: success
+[2023-05-31 13:55:19] INFO root fetch - processPackages [cnd-cr]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-31 13:55:19] INFO root fetch - processPackages [cnd-cr]: Downloading https://files.pythonhosted.org/packages/46/47/69f77e6b6d7866825d9d0ca8e2096238d76eeef1ab266b2448f7573ba15c/cnd_cr-0.1.2-py3-none-any.whl
+[2023-05-31 13:55:19] INFO root fetch - processPackages [csle-agents]: Start processing: skysurvey
+[2023-05-31 13:55:19] INFO root fetch - main [MainThread]: End processing [csle-agents]: success
+[2023-05-31 13:55:19] INFO root fetch - processPackages [skysurvey]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-31 13:55:20] INFO root fetch - processPackages [cnd-cr]: Downloading https://files.pythonhosted.org/packages/9b/72/9fd0d20378cb01b338b575a029314974b57ac808b247bc2dbd7bfec5da5f/cnd_cr-0.2.0-py3-none-any.whl
+[2023-05-31 13:55:20] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/e5/23/f00fa69df684d3d40c991d9c343c5a44ccc981f358c6ecd199b587b70e17/skysurvey-0.4.3.tar.gz
+[2023-05-31 13:55:20] INFO root fetch - processPackages [cnd-cr]: executing diffoscope
+[2023-05-31 13:55:20] INFO root fetch - processPackages [cnd-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnd_cr-0.1.2-py3-none-any.whl.zip tmp/cnd_cr-0.2.0-py3-none-any.whl.zip --markdown 20230531/c/cnd-cr/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 13:55:20] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2023-05-31 13:55:20] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.4.2.tar.gz tmp/skysurvey-0.4.3.tar.gz --markdown 20230531/s/skysurvey/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-31 13:55:20] INFO root fetch - processPackages [csle-collector]: Start processing: aioslimproto
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [csle-collector]: success
+[2023-05-31 13:55:20] INFO root fetch - processPackages [aioslimproto]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-31 13:55:20] INFO root fetch - processPackages [quao]: Start processing: odoo-addon-l10n-es-ticketbai-api
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-05-31 13:55:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.1]
+[2023-05-31 13:55:20] INFO root fetch - processPackages [cnd-cr-object]: Start processing: odoo-addon-l10n-es-ticketbai-pos
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [cnd-cr-object]: success
+[2023-05-31 13:55:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-05-31 13:55:20] INFO root fetch - processPackages [ssb-altinn3-util]: Start processing: insight-python-win
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-05-31 13:55:20] INFO root fetch - processPackages [insight-python-win]: New version: [4.4.0] Old Version: [4.3.2]
+[2023-05-31 13:55:20] INFO root fetch - processPackages [aioslimproto]: Downloading https://files.pythonhosted.org/packages/18/6a/592820ea4f5f833e12c5f585f76be415cc7b12f0e2c52ef5bc96a4786144/aioslimproto-2.2.2.tar.gz
+[2023-05-31 13:55:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/3a/ab/bb84ee0df4a99feac38927841e190fc4737a883136b03fb7a5120b256e56/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.0.1-py3-none-any.whl
+[2023-05-31 13:55:20] INFO root fetch - processPackages [aioslimproto]: executing diffoscope
+[2023-05-31 13:55:20] INFO root fetch - processPackages [aioslimproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioslimproto-2.2.1.tar.gz tmp/aioslimproto-2.2.2.tar.gz --markdown 20230531/a/aioslimproto/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:20] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/60/bc/b49b273a041d143e8d3072aa04ce38b979f7c06ae3443dad8cde1f6cf94f/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.1-py3-none-any.whl
+[2023-05-31 13:55:20] INFO root fetch - processPackages [insight-python-win]: Downloading https://files.pythonhosted.org/packages/23/3c/6ac18d6cd46a19fb9ce8ca8deb576a6065e6f00c91aa6650ccd9a85a0dd8/insight_python_win-4.3.2.tar.gz
+[2023-05-31 13:55:20] WARNING root fetch - processPackages [insight-python-win]: Skipping package: exceeds size limit 14680019>=10485760
+[2023-05-31 13:55:20] INFO root fetch - processPackages [insight-python-win]: Start processing: nanobind
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [insight-python-win] error
+[2023-05-31 13:55:20] INFO root fetch - processPackages [nanobind]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-31 13:55:20] INFO root fetch - processPackages [csle-cli]: Start processing: bibka-custom-serializer
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [csle-cli]: success
+[2023-05-31 13:55:20] WARNING root fetch - processPackages [bibka-custom-serializer]: Skipping, unable to determine old version
+[2023-05-31 13:55:20] INFO root fetch - main [MainThread]: End processing [bibka-custom-serializer] error
+[2023-05-31 13:55:20] INFO root fetch - processPackages [nanobind]: Downloading https://files.pythonhosted.org/packages/a8/39/16ef46072bbfe55fcb5f7f0884befc06ffeae304c9ad1a2515029471c21b/nanobind-1.2.0-py3-none-any.whl
+[2023-05-31 13:55:21] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/2b/05/d3981ebe7ca34734e5718a4917d8f1b0ae05b53003df9275c3294cef4360/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.2-py3-none-any.whl
+[2023-05-31 13:55:21] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-05-31 13:55:21] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-l10n-es-ticketbai-pos/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-31 13:55:21] INFO root fetch - main [MainThread]: End processing [cnd-cr]: success
+[2023-05-31 13:55:21] INFO root fetch - processPackages [nanobind]: Downloading https://files.pythonhosted.org/packages/93/6e/43f732d8f62be9ffc4a948e872c99932af56e7462947e1484a86393e8fe2/nanobind-1.3.0-py3-none-any.whl
+[2023-05-31 13:55:21] INFO root fetch - processPackages [nanobind]: executing diffoscope
+[2023-05-31 13:55:21] INFO root fetch - processPackages [nanobind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanobind-1.2.0-py3-none-any.whl.zip tmp/nanobind-1.3.0-py3-none-any.whl.zip --markdown 20230531/n/nanobind/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 13:55:21] INFO root fetch - main [MainThread]: End processing [aioslimproto]: success
+[2023-05-31 13:55:21] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2023-05-31 13:55:22] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/c6/ea/a0ae6e532308f1df9f9a4407467e1f707ca1677f76e682e5520db3d3563d/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.1-py3-none-any.whl
+[2023-05-31 13:55:22] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-05-31 13:55:22] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_api-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-l10n-es-ticketbai-api/16.0.1.0.0.1-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-31 13:55:22] INFO root fetch - main [MainThread]: End processing [csle-rest-api]: success
+[2023-05-31 13:55:22] INFO root fetch - main [MainThread]: End processing [csle-common]: success
+[2023-05-31 13:55:23] INFO root fetch - main [MainThread]: End processing [nanobind]: success
+[2023-05-31 13:55:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-api]: success
+[2023-05-31 13:55:23] INFO root fetch - main [MainThread]: End processing [csle-cluster]: success
+[2023-05-31 13:55:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-pos]: success
+[2023-05-31 13:55:30] INFO root fetch - main [MainThread]: Store serial: [18316216]
