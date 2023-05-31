@@ -21338,3 +21338,51 @@
 [2023-05-31 19:46:55] INFO root fetch - main [MainThread]: End processing [atuin-graph]: success
 [2023-05-31 19:46:56] INFO root fetch - main [MainThread]: End processing [skoufas-dbf-reader]: success
 [2023-05-31 19:46:56] INFO root fetch - main [MainThread]: Store serial: [18320614]
+[2023-05-31 19:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320614]
+[2023-05-31 19:52:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-oci
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KaruhaBot
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alignn
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-sam-cli
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crxcavatorpy
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apf-base
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ez-a-sync
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emailcrawl1
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: watch-bot
+[2023-05-31 19:52:05] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-31 19:52:05] WARNING root fetch - processPackages [KaruhaBot]: Skipping, unable to determine old version
+[2023-05-31 19:52:05] INFO root fetch - main [MainThread]: End processing [KaruhaBot] error
+[2023-05-31 19:52:05] INFO root fetch - processPackages [alignn]: New version: [2023.5.3] Old Version: [2023.5.25]
+[2023-05-31 19:52:05] INFO root fetch - processPackages [apf-base]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-31 19:52:05] INFO root fetch - processPackages [watch-bot]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 19:52:05] INFO root fetch - processPackages [emailcrawl1]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ez-a-sync]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 19:52:05] WARNING root fetch - processPackages [crxcavatorpy]: Skipping, unable to determine old version
+[2023-05-31 19:52:05] INFO root fetch - main [MainThread]: End processing [crxcavatorpy] error
+[2023-05-31 19:52:05] INFO root fetch - processPackages [aws-sam-cli]: New version: [1.9.0] Old Version: [1.85.0]
+[2023-05-31 19:52:05] INFO root fetch - processPackages [watch-bot]: executing diffoscope
+[2023-05-31 19:52:05] INFO root fetch - processPackages [watch-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-bot-0.2.1.tar.gz tmp/watch-bot-0.2.2.tar.gz --markdown 20230531/w/watch-bot/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 19:52:05] INFO root fetch - processPackages [apf-base]: executing diffoscope
+[2023-05-31 19:52:05] INFO root fetch - processPackages [apf-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apf_base-2.3.0.tar.gz tmp/apf_base-2.4.0.tar.gz --markdown 20230531/a/apf-base/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-31 19:52:05] INFO root fetch - processPackages [alignn]: Downloading https://files.pythonhosted.org/packages/d6/4a/5ec28a9e48130e3e09097345bcf1cea4bb715173746e338f402c43d51639/alignn-2023.5.25.tar.gz
+[2023-05-31 19:52:05] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/4d/27/98ca0d829e28a5e3295105485ca1f1b49135e5ea6c8711d98955236e46e7/aws-sam-cli-1.85.0.tar.gz
+[2023-05-31 19:52:05] INFO root fetch - processPackages [emailcrawl1]: Downloading https://files.pythonhosted.org/packages/80/fb/3882d17cf5fdde5762acea5be4d7e08fc1271328971bec6165893c34e2ae/emailcrawl1-0.0.4.tar.gz
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/4d/e0/ecd4d09a4e60e6ed718a2af170d587a4f29faf71b341fc591c67840de466/ez-a-sync-0.1.6.tar.gz
+[2023-05-31 19:52:05] WARNING root fetch - processPackages [alignn]: Skipping package: exceeds size limit 30080940>=10485760
+[2023-05-31 19:52:05] INFO root fetch - main [MainThread]: End processing [alignn] error
+[2023-05-31 19:52:05] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-31 19:52:05] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230531/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-31 19:52:05] INFO root fetch - processPackages [emailcrawl1]: executing diffoscope
+[2023-05-31 19:52:05] INFO root fetch - processPackages [emailcrawl1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailcrawl1-0.0.3.tar.gz tmp/emailcrawl1-0.0.4.tar.gz --markdown 20230531/e/emailcrawl1/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/75/81/9171a6e39d864118d3d7dcd52c4b416679f25e26fc830505dfe8ce335dee/ez-a-sync-0.1.7.tar.gz
+[2023-05-31 19:52:05] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/8e/09/60d46eac8dc6ddae92dd2cb060368f950675fd7ceead7796fe8652121e0a/aws-sam-cli-1.9.0.tar.gz
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-05-31 19:52:05] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.1.6.tar.gz tmp/ez-a-sync-0.1.7.tar.gz --markdown 20230531/e/ez-a-sync/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-31 19:52:06] WARNING root fetch - processPackages [aws-sam-cli]: Skipping package: exceeds size limit 11785570>=10485760
+[2023-05-31 19:52:06] INFO root fetch - main [MainThread]: End processing [aws-sam-cli] error
+[2023-05-31 19:52:06] INFO root fetch - main [MainThread]: End processing [watch-bot]: success
+[2023-05-31 19:52:06] INFO root fetch - main [MainThread]: End processing [emailcrawl1]: success
+[2023-05-31 19:52:06] INFO root fetch - main [MainThread]: End processing [apf-base]: success
+[2023-05-31 19:52:06] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-05-31 19:52:49] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-31 19:52:49] INFO root fetch - main [MainThread]: Store serial: [18320643]
