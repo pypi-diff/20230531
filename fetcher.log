@@ -9704,3 +9704,39 @@
 [2023-05-31 09:17:39] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-31 09:17:47] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-31 09:17:47] INFO root fetch - main [MainThread]: Store serial: [18313559]
+[2023-05-31 09:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313559]
+[2023-05-31 09:22:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3-uploads
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freecurrencyapi
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cprint-jianjun
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eon-integration-adapter
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: db2ixf
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sailboat-gym
+[2023-05-31 09:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkov
+[2023-05-31 09:22:56] WARNING root fetch - processPackages [eon-integration-adapter]: Skipping, unable to determine old version
+[2023-05-31 09:22:56] WARNING root fetch - processPackages [s3-uploads]: Skipping, unable to determine old version
+[2023-05-31 09:22:56] INFO root fetch - main [MainThread]: End processing [eon-integration-adapter] error
+[2023-05-31 09:22:56] INFO root fetch - main [MainThread]: End processing [s3-uploads] error
+[2023-05-31 09:22:56] WARNING root fetch - processPackages [freecurrencyapi]: Skipping, unable to determine old version
+[2023-05-31 09:22:56] INFO root fetch - main [MainThread]: End processing [freecurrencyapi] error
+[2023-05-31 09:22:56] INFO root fetch - processPackages [cprint-jianjun]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-31 09:22:56] INFO root fetch - processPackages [db2ixf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 09:22:56] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 09:22:56] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-31 09:22:56] INFO root fetch - processPackages [db2ixf]: Downloading https://files.pythonhosted.org/packages/b6/f9/488a938e6e7a8a956dab74039c44a34ed8c7c3ae97dbdfca31f955f5b6cd/db2ixf-0.1.2.tar.gz
+[2023-05-31 09:22:56] INFO root fetch - processPackages [cprint-jianjun]: Downloading https://files.pythonhosted.org/packages/a0/6e/df178b3dffb59505408d752dbf471180a80bba1ebb7cf5c66b9e39514d62/cprint-jianjun-1.4.0.tar.gz
+[2023-05-31 09:22:56] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/59/23/7f4d47e3c929467d98858cd6f97a9e7ab3b4d923f76f04cecccb4ba7fc98/sailboat-gym-1.0.3.tar.gz
+[2023-05-31 09:22:56] INFO root fetch - processPackages [db2ixf]: executing diffoscope
+[2023-05-31 09:22:56] INFO root fetch - processPackages [db2ixf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db2ixf-0.1.1.tar.gz tmp/db2ixf-0.1.2.tar.gz --markdown 20230531/d/db2ixf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 09:22:56] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-31 09:22:56] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230531/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-31 09:22:56] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-05-31 09:22:56] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.2.tar.gz tmp/sailboat-gym-1.0.3.tar.gz --markdown 20230531/s/sailboat-gym/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 09:22:56] INFO root fetch - processPackages [cprint-jianjun]: Downloading https://files.pythonhosted.org/packages/1d/57/dd6c3d754a6b761e6c833f1dbd39f2eb4b88f99dfe46379b720b835ad1ee/cprint-jianjun-1.5.0.tar.gz
+[2023-05-31 09:22:56] INFO root fetch - processPackages [cprint-jianjun]: executing diffoscope
+[2023-05-31 09:22:56] INFO root fetch - processPackages [cprint-jianjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cprint-jianjun-1.4.0.tar.gz tmp/cprint-jianjun-1.5.0.tar.gz --markdown 20230531/c/cprint-jianjun/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-31 09:22:57] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-05-31 09:22:57] INFO root fetch - main [MainThread]: End processing [db2ixf]: success
+[2023-05-31 09:22:57] INFO root fetch - main [MainThread]: End processing [cprint-jianjun]: success
+[2023-05-31 09:23:36] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-31 09:23:36] INFO root fetch - main [MainThread]: Store serial: [18313587]
