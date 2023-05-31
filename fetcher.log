@@ -18373,3 +18373,113 @@
 [2023-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [pytest-qgis]: success
 [2023-05-31 16:50:07] INFO root fetch - main [MainThread]: End processing [textworld]: success
 [2023-05-31 16:50:07] INFO root fetch - main [MainThread]: Store serial: [18318628]
+[2023-05-31 16:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18318628]
+[2023-05-31 16:55:16] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conf-ini-g
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygments-git
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtdb
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vtk-u3dexporter
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: overhave
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invoker-terminal
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clubscore
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: merlin-dataloader
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycln
+[2023-05-31 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvtabular
+[2023-05-31 16:55:16] WARNING root fetch - processPackages [vtk-u3dexporter]: Skipping, unable to determine old version
+[2023-05-31 16:55:16] INFO root fetch - processPackages [vtk-u3dexporter]: Start processing: pysortcsv
+[2023-05-31 16:55:16] INFO root fetch - main [MainThread]: End processing [vtk-u3dexporter] error
+[2023-05-31 16:55:16] INFO root fetch - processPackages [pygments-git]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [xtdb]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [invoker-terminal]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [conf-ini-g]: New version: [2023.5] Old Version: [2023.4]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [pycln]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [clubscore]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [nvtabular]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [merlin-dataloader]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 16:55:16] WARNING root fetch - processPackages [pysortcsv]: Skipping, unable to determine old version
+[2023-05-31 16:55:16] INFO root fetch - processPackages [pysortcsv]: Start processing: shipyard-shortcut
+[2023-05-31 16:55:16] INFO root fetch - main [MainThread]: End processing [pysortcsv] error
+[2023-05-31 16:55:16] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [shipyard-shortcut]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 16:55:16] INFO root fetch - processPackages [pycln]: Downloading https://files.pythonhosted.org/packages/f2/e8/ebb1df768c28f811aa35daabd9ae9889ab7d8ec8110a0a3916226f481bb8/pycln-2.1.3.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/52/20/1c081fd64a5ab5bb9e49ea6d9a4b8e085ebef579617d6b451ecc239bcc89/invoker_terminal-0.0.29.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/e1/cc/6133446cd66d6539188ea9d642bd840ff17960707d32150dadecd0cb1289/conf-ini-g-2023.4.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [nvtabular]: Downloading https://files.pythonhosted.org/packages/e7/57/fc7496f3dc8efde8ba98645a792f932536221780c108da6de1d5d075ffc4/nvtabular-23.4.0.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [merlin-dataloader]: Downloading https://files.pythonhosted.org/packages/59/42/4fd92e070bd04e680d0369c4208136310c34b0bfeaf02480d3df439f5009/merlin-dataloader-23.4.0.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.28.tar.gz tmp/invoker_terminal-0.0.29.tar.gz --markdown 20230531/i/invoker-terminal/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/0a/92/4065db1446b7db5aff4374d6e4c21a451a877044ec39fd19e5a15fa481d0/xtdb-0.4.0.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [pygments-git]: Downloading https://files.pythonhosted.org/packages/8b/39/8c0668e66f3f67eef5c4d87e70903bd4126486b6fce65436d6f820e4096c/pygments_git-1.4.1.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/4b/89/493d513843048e1dc3242632703b0160d46f98a65ff0565c50b2b71a7985/clubscore-0.2.0.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [shipyard-shortcut]: Downloading https://files.pythonhosted.org/packages/33/a5/e68297a546bd0cfccf901ca3672ef4eb0529869069d1f5237c3ab7b815cf/shipyard_shortcut-0.1.3.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [pycln]: Downloading https://files.pythonhosted.org/packages/cf/c9/6a2c132d83580460551b8cb73e17811946b3a6ed6738891bbdfa24d66b3a/pycln-2.1.4.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230531/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.3.0.tar.gz tmp/xtdb-0.4.0.tar.gz --markdown 20230531/x/xtdb/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [pygments-git]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [pygments-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments_git-1.4.0.tar.gz tmp/pygments_git-1.4.1.tar.gz --markdown 20230531/p/pygments-git/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/84/cc/ae3564e64c09472e0fad55394f84af9956fbf4a7754b774024a0daab686f/conf-ini-g-2023.5.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.1.9.tar.gz tmp/clubscore-0.2.0.tar.gz --markdown 20230531/c/clubscore/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [nvtabular]: Downloading https://files.pythonhosted.org/packages/19/80/c9e609a86b60ce42f81723cc399dde6fb517283dc9654608648850e06bfd/nvtabular-23.5.0.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [merlin-dataloader]: Downloading https://files.pythonhosted.org/packages/b6/d9/7b145e9e3201c401540a9f0acfccabb457ba2dd3bcd03924127450eecc64/merlin-dataloader-23.5.0.tar.gz
+[2023-05-31 16:55:17] INFO root fetch - processPackages [pycln]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [pycln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycln-2.1.3.tar.gz tmp/pycln-2.1.4.tar.gz --markdown 20230531/p/pycln/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [conf-ini-g]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [conf-ini-g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf-ini-g-2023.4.tar.gz tmp/conf-ini-g-2023.5.tar.gz --markdown 20230531/c/conf-ini-g/2023.4-2023.5/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [shipyard-shortcut]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [shipyard-shortcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_shortcut-0.1.2.tar.gz tmp/shipyard_shortcut-0.1.3.tar.gz --markdown 20230531/s/shipyard-shortcut/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [nvtabular]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [nvtabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvtabular-23.4.0.tar.gz tmp/nvtabular-23.5.0.tar.gz --markdown 20230531/n/nvtabular/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:17] INFO root fetch - processPackages [merlin-dataloader]: executing diffoscope
+[2023-05-31 16:55:17] INFO root fetch - processPackages [merlin-dataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-dataloader-23.4.0.tar.gz tmp/merlin-dataloader-23.5.0.tar.gz --markdown 20230531/m/merlin-dataloader/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:18] INFO root fetch - processPackages [xtdb]: Start processing: paketmutfak
+[2023-05-31 16:55:18] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2023-05-31 16:55:18] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pygments-git]: Start processing: ga4-data-import
+[2023-05-31 16:55:19] INFO root fetch - main [MainThread]: End processing [pygments-git]: success
+[2023-05-31 16:55:19] INFO root fetch - processPackages [ga4-data-import]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 16:55:19] INFO root fetch - processPackages [clubscore]: Start processing: pyrsig
+[2023-05-31 16:55:19] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pycln]: Start processing: valmi-connector-lib
+[2023-05-31 16:55:19] INFO root fetch - main [MainThread]: End processing [pycln]: success
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pyrsig]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-31 16:55:19] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 16:55:19] INFO root fetch - processPackages [invoker-terminal]: Start processing: apache-beam
+[2023-05-31 16:55:19] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-31 16:55:19] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-31 16:55:19] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230531/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 16:55:19] INFO root fetch - processPackages [apache-beam]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 16:55:19] INFO root fetch - processPackages [shipyard-shortcut]: Start processing: modo-data-science-helpers
+[2023-05-31 16:55:19] INFO root fetch - main [MainThread]: End processing [shipyard-shortcut]: success
+[2023-05-31 16:55:19] INFO root fetch - processPackages [ga4-data-import]: Downloading https://files.pythonhosted.org/packages/eb/c4/527edbdedae34ac3bb42ad98e8b645fa40e33547615c24cc9d5dd5fb8b81/ga4_data_import-0.1.2-py3-none-any.whl
+[2023-05-31 16:55:19] INFO root fetch - processPackages [modo-data-science-helpers]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pyrsig]: Downloading https://files.pythonhosted.org/packages/85/dd/061d8f86fa793abe3e0ed6e15221e3459a7a1b3ca6f45615e1878b93cc03/pyrsig-0.3.1.tar.gz
+[2023-05-31 16:55:19] INFO root fetch - processPackages [ga4-data-import]: executing diffoscope
+[2023-05-31 16:55:19] INFO root fetch - processPackages [ga4-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga4_data_import-0.1.1-py3-none-any.whl.zip tmp/ga4_data_import-0.1.2-py3-none-any.whl.zip --markdown 20230531/g/ga4-data-import/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 16:55:19] INFO root fetch - processPackages [modo-data-science-helpers]: executing diffoscope
+[2023-05-31 16:55:19] INFO root fetch - processPackages [modo-data-science-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modo_data_science_helpers-0.3.0.tar.gz tmp/modo_data_science_helpers-0.4.0.tar.gz --markdown 20230531/m/modo-data-science-helpers/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:19] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-05-31 16:55:19] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230531/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pyrsig]: Downloading https://files.pythonhosted.org/packages/68/4b/0aee9d3ab2760c72bb611b82b048ceca203e6e7c1f7bb37d18164f959d13/pyrsig-0.4.0.tar.gz
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pyrsig]: executing diffoscope
+[2023-05-31 16:55:19] INFO root fetch - processPackages [pyrsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsig-0.3.1.tar.gz tmp/pyrsig-0.4.0.tar.gz --markdown 20230531/p/pyrsig/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:19] INFO root fetch - processPackages [apache-beam]: executing diffoscope
+[2023-05-31 16:55:19] INFO root fetch - processPackages [apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-2.8.0.zip tmp/apache-beam-2.9.0.zip --markdown 20230531/a/apache-beam/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 16:55:19] INFO root fetch - processPackages [conf-ini-g]: Start processing: hestia-earth-validation
+[2023-05-31 16:55:19] INFO root fetch - main [MainThread]: End processing [conf-ini-g]: success
+[2023-05-31 16:55:20] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 16:55:20] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-05-31 16:55:20] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-05-31 16:55:20] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230531/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 16:55:20] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-31 16:55:20] INFO root fetch - main [MainThread]: End processing [merlin-dataloader]: success
+[2023-05-31 16:55:20] INFO root fetch - main [MainThread]: End processing [modo-data-science-helpers]: success
+[2023-05-31 16:55:20] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-05-31 16:55:20] INFO root fetch - main [MainThread]: End processing [ga4-data-import]: success
+[2023-05-31 16:55:21] INFO root fetch - main [MainThread]: End processing [pyrsig]: success
+[2023-05-31 16:55:21] INFO root fetch - main [MainThread]: End processing [nvtabular]: success
+[2023-05-31 16:55:21] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-05-31 16:55:29] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
+[2023-05-31 16:55:29] INFO root fetch - main [MainThread]: Store serial: [18318718]
