@@ -13874,3 +13874,50 @@
 [2023-05-31 13:39:42] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-31 13:39:43] INFO root fetch - main [MainThread]: End processing [pyzmq]: success
 [2023-05-31 13:39:43] INFO root fetch - main [MainThread]: Store serial: [18316008]
+[2023-05-31 13:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316008]
+[2023-05-31 13:44:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genomepy
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doblib
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyre-check-nightly
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tradernet-sdk
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geolibs
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ail-typo-squatting
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naapc
+[2023-05-31 13:44:52] INFO root fetch - processPackages [tradernet-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 13:44:52] INFO root fetch - processPackages [genomepy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 13:44:52] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 13:44:52] INFO root fetch - processPackages [doblib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 13:44:52] INFO root fetch - processPackages [ail-typo-squatting]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-31 13:44:52] INFO root fetch - processPackages [naapc]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-05-31 13:44:52] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-31 13:44:53] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101685531524] Old Version: [0.0.101685445044]
+[2023-05-31 13:44:53] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230531/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 13:44:53] INFO root fetch - processPackages [tradernet-sdk]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [tradernet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradernet_sdk-0.3.8.tar.gz tmp/tradernet_sdk-0.3.9.tar.gz --markdown 20230531/t/tradernet-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 13:44:53] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230531/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-31 13:44:53] INFO root fetch - processPackages [ail-typo-squatting]: Downloading https://files.pythonhosted.org/packages/c8/e7/7545a0542fe6b33707aaddcf47ca2ba986bc1aa01c980b06e833da00032e/ail_typo_squatting-2.4.3.tar.gz
+[2023-05-31 13:44:53] INFO root fetch - processPackages [genomepy]: Downloading https://files.pythonhosted.org/packages/84/72/3477e7341ff87a8de13081741bad61a16a4faca2273acfc8b032d4d96662/genomepy-0.9.2.tar.gz
+[2023-05-31 13:44:53] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/b5/6c/db930821199ce722d78a53fc2e957a860eed7d48f46fed95b9065aa3563a/pyre_check_nightly-0.0.101685445044-py3-none-manylinux1_x86_64.whl
+[2023-05-31 13:44:53] INFO root fetch - processPackages [ail-typo-squatting]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [ail-typo-squatting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ail_typo_squatting-2.4.2.tar.gz tmp/ail_typo_squatting-2.4.3.tar.gz --markdown 20230531/a/ail-typo-squatting/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-31 13:44:53] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 45986106>=10485760
+[2023-05-31 13:44:53] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-31 13:44:53] INFO root fetch - processPackages [naapc]: Downloading https://files.pythonhosted.org/packages/41/d2/5eb40fc3d45d1ded017456a3aca18b2e48428cef752337ea72c72e84d942/naapc-1.7.0.tar.gz
+[2023-05-31 13:44:53] INFO root fetch - processPackages [doblib]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [doblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doblib-0.9.0-py3-none-any.whl.zip tmp/doblib-0.9.1-py3-none-any.whl.zip --markdown 20230531/d/doblib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 13:44:53] INFO root fetch - processPackages [naapc]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [naapc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naapc-1.6.1.tar.gz tmp/naapc-1.7.0.tar.gz --markdown 20230531/n/naapc/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-05-31 13:44:53] INFO root fetch - processPackages [genomepy]: Downloading https://files.pythonhosted.org/packages/8b/a6/df0705d219058b7f7a2285c36b1676bda43c0b9e8d4d55e7e2697e21e5a7/genomepy-0.9.3.tar.gz
+[2023-05-31 13:44:53] INFO root fetch - processPackages [genomepy]: executing diffoscope
+[2023-05-31 13:44:53] INFO root fetch - processPackages [genomepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomepy-0.9.2.tar.gz tmp/genomepy-0.9.3.tar.gz --markdown 20230531/g/genomepy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 13:44:54] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-05-31 13:44:54] INFO root fetch - main [MainThread]: End processing [tradernet-sdk]: success
+[2023-05-31 13:44:54] INFO root fetch - main [MainThread]: End processing [doblib]: success
+[2023-05-31 13:44:54] INFO root fetch - main [MainThread]: End processing [ail-typo-squatting]: success
+[2023-05-31 13:44:54] INFO root fetch - main [MainThread]: End processing [genomepy]: success
+[2023-05-31 13:44:54] INFO root fetch - main [MainThread]: End processing [naapc]: success
+[2023-05-31 13:44:55] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-31 13:44:55] INFO root fetch - main [MainThread]: Store serial: [18316047]
