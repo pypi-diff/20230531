@@ -16764,3 +16764,79 @@
 [2023-05-31 15:47:56] INFO root fetch - main [MainThread]: End processing [csle-common]: success
 [2023-05-31 15:48:00] INFO root fetch - main [MainThread]: End processing [tartube]: success
 [2023-05-31 15:48:00] INFO root fetch - main [MainThread]: Store serial: [18317650]
+[2023-05-31 15:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317650]
+[2023-05-31 15:53:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: laptrack
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mokka
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marionette-predeployed
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lndb
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastestimator-nightly
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntmpackage
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dll2exe
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-datasets-nightly
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scargo
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-radiance
+[2023-05-31 15:53:11] INFO root fetch - processPackages [laptrack]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [lndb]: New version: [0.45a4] Old Version: [0.45a3]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [mokka]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b1] Old Version: [2.0.0b0]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ntmpackage]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-31 15:53:11] WARNING root fetch - processPackages [dll2exe]: Skipping, unable to determine old version
+[2023-05-31 15:53:11] INFO root fetch - processPackages [dll2exe]: Start processing: zonesmart-utils
+[2023-05-31 15:53:11] INFO root fetch - main [MainThread]: End processing [dll2exe] error
+[2023-05-31 15:53:11] INFO root fetch - processPackages [scargo]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202305310417] Old Version: [1.5.0.dev202304171323]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202305311351] Old Version: [0.1.9.dev202305261329]
+[2023-05-31 15:53:11] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-05-31 15:53:11] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230531/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 15:53:11] INFO root fetch - processPackages [mokka]: Downloading https://files.pythonhosted.org/packages/e7/8c/e724de77b4198bb6234ada323fc3335a4a86c21c97f17487d7e7f761e93a/mokka-1.0.0.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-05-31 15:53:11] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.5.0.dev202304171323.tar.gz tmp/fastestimator-nightly-1.6.0.dev202305310417.tar.gz --markdown 20230531/f/fastestimator-nightly/1.5.0.dev202304171323-1.6.0.dev202305310417/diff.md --exclude *.pyd
+[2023-05-31 15:53:11] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/b4/f5/0aa35ae6fc22db6b2ceadd0271c6a5cc23e1293d28a076f6f5c168a38c51/laptrack-0.9.0.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ntmpackage]: Downloading https://files.pythonhosted.org/packages/22/f8/cd4140536e6e225ecc75ba57ebc331005733317da7affa8b5711d522870c/ntmpackage-0.7.0.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/d3/fb/ef5ceab2c6a50cd3b709d81d0ef3ffafa4d83f0803b4f144455f610a99bb/zonesmart-utils-0.3.0.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ntmpackage]: executing diffoscope
+[2023-05-31 15:53:11] INFO root fetch - processPackages [ntmpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntmpackage-0.6.0.tar.gz tmp/ntmpackage-0.7.0.tar.gz --markdown 20230531/n/ntmpackage/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-31 15:53:11] INFO root fetch - processPackages [lndb]: Downloading https://files.pythonhosted.org/packages/9a/8e/caacda76b6475504d0811e07e67a3bd55dfafbd09b6cbf3e1f6938b1a78f/lndb-0.45a4.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/a0/3e/5d659d8bf9983e5618e00d4fd32b0602e43396750138bf68a0c2fd8ac579/scargo-1.6.0.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [mokka]: Downloading https://files.pythonhosted.org/packages/7c/da/9fc9845dce3438ef19c18a50f4f390ea60df0585a679c20151fbf9e38695/mokka-1.0.1.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-05-31 15:53:11] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b0.tar.gz tmp/marionette-predeployed-2.0.0b1.tar.gz --markdown 20230531/m/marionette-predeployed/2.0.0b0-2.0.0b1/diff.md --exclude *.pyd
+[2023-05-31 15:53:11] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/7b/1e/ddcd907a51337a0424d73877a60fe0866c6cc439a59b0132f2c89fc226ec/hcai-datasets-nightly-0.1.9.dev202305311351.tar.gz
+[2023-05-31 15:53:11] INFO root fetch - processPackages [lndb]: executing diffoscope
+[2023-05-31 15:53:11] INFO root fetch - processPackages [lndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb-0.45a3.tar.gz tmp/lndb-0.45a4.tar.gz --markdown 20230531/l/lndb/0.45a3-0.45a4/diff.md --exclude *.pyd
+[2023-05-31 15:53:11] INFO root fetch - processPackages [scargo]: executing diffoscope
+[2023-05-31 15:53:11] INFO root fetch - processPackages [scargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scargo-1.5.0.tar.gz tmp/scargo-1.6.0.tar.gz --markdown 20230531/s/scargo/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-31 15:53:12] INFO root fetch - processPackages [mokka]: executing diffoscope
+[2023-05-31 15:53:12] INFO root fetch - processPackages [mokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mokka-1.0.0.tar.gz tmp/mokka-1.0.1.tar.gz --markdown 20230531/m/mokka/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 15:53:12] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-31 15:53:12] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202305261329.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202305311351.tar.gz --markdown 20230531/h/hcai-datasets-nightly/0.1.9.dev202305261329-0.1.9.dev202305311351/diff.md --exclude *.pyd
+[2023-05-31 15:53:12] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/1c/4c/b12ae3ccd4f432f689ad7afddb3d8926c75e748844b97a95049491aa4f56/zonesmart-utils-0.3.1.tar.gz
+[2023-05-31 15:53:12] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2023-05-31 15:53:12] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.3.0.tar.gz tmp/zonesmart-utils-0.3.1.tar.gz --markdown 20230531/z/zonesmart-utils/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 15:53:12] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/20/7c/08983aa29eb72f42019a5cde5753fde7dedac1946ec3d4f63e1fd14d2879/laptrack-0.9.1.tar.gz
+[2023-05-31 15:53:12] INFO root fetch - processPackages [laptrack]: executing diffoscope
+[2023-05-31 15:53:12] INFO root fetch - processPackages [laptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laptrack-0.9.0.tar.gz tmp/laptrack-0.9.1.tar.gz --markdown 20230531/l/laptrack/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 15:53:13] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: pyheartlib
+[2023-05-31 15:53:13] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-05-31 15:53:13] INFO root fetch - processPackages [ntmpackage]: Start processing: dragonfly-energy
+[2023-05-31 15:53:13] INFO root fetch - main [MainThread]: End processing [ntmpackage]: success
+[2023-05-31 15:53:13] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:53:13] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-31 15:53:13] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-05-31 15:53:13] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-05-31 15:53:13] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230531/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-31 15:53:13] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-05-31 15:53:13] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.8.tar.gz tmp/pyheartlib-0.0.9.tar.gz --markdown 20230531/p/pyheartlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:53:13] INFO root fetch - main [MainThread]: End processing [mokka]: success
+[2023-05-31 15:53:13] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-31 15:53:13] INFO root fetch - main [MainThread]: End processing [laptrack]: success
+[2023-05-31 15:53:14] INFO root fetch - main [MainThread]: End processing [lndb]: success
+[2023-05-31 15:53:14] INFO root fetch - main [MainThread]: End processing [scargo]: success
+[2023-05-31 15:53:14] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2023-05-31 15:53:14] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-05-31 15:53:16] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-05-31 15:53:22] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-05-31 15:53:22] INFO root fetch - main [MainThread]: Store serial: [18317696]
