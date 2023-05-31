@@ -6570,3 +6570,47 @@
 [2023-05-31 05:02:04] INFO root fetch - main [MainThread]: End processing [odoo8-addon-connector]: success
 [2023-05-31 05:02:04] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
 [2023-05-31 05:02:04] INFO root fetch - main [MainThread]: Store serial: [18311787]
+[2023-05-31 05:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311787]
+[2023-05-31 05:07:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-common
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VisageSnap
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-credit-control
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: econdata
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arxivai
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meta-matching-tool-leqi
+[2023-05-31 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-crm
+[2023-05-31 05:07:13] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-05-31 05:07:13] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 05:07:13] INFO root fetch - processPackages [VisageSnap]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 05:07:13] INFO root fetch - processPackages [pg-common]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 05:07:13] WARNING root fetch - processPackages [meta-matching-tool-leqi]: Skipping, unable to determine old version
+[2023-05-31 05:07:13] INFO root fetch - main [MainThread]: End processing [meta-matching-tool-leqi] error
+[2023-05-31 05:07:13] INFO root fetch - processPackages [odoo-addons-oca-crm]: New version: [16.0.20230530.0] Old Version: [16.0.20230425.0]
+[2023-05-31 05:07:13] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-31 05:07:13] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230531/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 05:07:13] INFO root fetch - processPackages [econdata]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 05:07:13] INFO root fetch - processPackages [pg-common]: Downloading https://files.pythonhosted.org/packages/d7/36/b4ac8f9f52787e9084e1ee1a37225ef654bf44bd84cbca7b1f992795a56f/pg_common-1.0.0.tar.gz
+[2023-05-31 05:07:13] INFO root fetch - processPackages [VisageSnap]: Downloading https://files.pythonhosted.org/packages/65/92/43f1dee5756539fa0eda4c499ac519c845e03b2cb4a5fb840ccb5402be48/VisageSnap-0.3.2.tar.gz
+[2023-05-31 05:07:13] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/d0/2b/450baf7290b80a24474471a8d07cdf0226a107dd725b994ef28123a19340/odoo_addons_oca_crm-16.0.20230425.0-py3-none-any.whl
+[2023-05-31 05:07:13] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/bf/17/5f267d3f057fd70a41385747852a234d0168d61d0386a50f064e58cb265e/odoo_addon_account_credit_control-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-31 05:07:13] INFO root fetch - processPackages [VisageSnap]: executing diffoscope
+[2023-05-31 05:07:13] INFO root fetch - processPackages [VisageSnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisageSnap-0.3.1.tar.gz tmp/VisageSnap-0.3.2.tar.gz --markdown 20230531/V/VisageSnap/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 05:07:13] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/e6/23/32eb3dde0f4d62e6071164725d8340b36d489630198c1643a5f2c7ef88ad/econdata-1.0.1.tar.gz
+[2023-05-31 05:07:14] INFO root fetch - processPackages [pg-common]: Downloading https://files.pythonhosted.org/packages/8a/27/348ac57147d80c0e59a18f9a8ebf841e43646b2954cd8403a05af9949028/pg_common-1.0.1.tar.gz
+[2023-05-31 05:07:14] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/92/46/cb1b340e464bb2bb8059131994cb0c998ca59c5e279dc49d2b157e02f1b0/econdata-1.0.2.tar.gz
+[2023-05-31 05:07:14] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/eb/ab/97f4f186a751359a620d7146984270c44e78a66b31679731c32874ffeb8c/odoo_addons_oca_crm-16.0.20230530.0-py3-none-any.whl
+[2023-05-31 05:07:14] INFO root fetch - processPackages [pg-common]: executing diffoscope
+[2023-05-31 05:07:14] INFO root fetch - processPackages [pg-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_common-1.0.0.tar.gz tmp/pg_common-1.0.1.tar.gz --markdown 20230531/p/pg-common/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 05:07:14] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-05-31 05:07:14] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-account-credit-control/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-31 05:07:14] INFO root fetch - processPackages [econdata]: executing diffoscope
+[2023-05-31 05:07:14] INFO root fetch - processPackages [econdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econdata-1.0.1.tar.gz tmp/econdata-1.0.2.tar.gz --markdown 20230531/e/econdata/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 05:07:14] INFO root fetch - processPackages [odoo-addons-oca-crm]: executing diffoscope
+[2023-05-31 05:07:14] INFO root fetch - processPackages [odoo-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_crm-16.0.20230425.0-py3-none-any.whl.zip tmp/odoo_addons_oca_crm-16.0.20230530.0-py3-none-any.whl.zip --markdown 20230531/o/odoo-addons-oca-crm/16.0.20230425.0-16.0.20230530.0/diff.md --exclude *.pyd
+[2023-05-31 05:07:14] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-31 05:07:15] INFO root fetch - main [MainThread]: End processing [VisageSnap]: success
+[2023-05-31 05:07:15] INFO root fetch - main [MainThread]: End processing [pg-common]: success
+[2023-05-31 05:07:15] INFO root fetch - main [MainThread]: End processing [econdata]: success
+[2023-05-31 05:07:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-crm]: success
+[2023-05-31 05:07:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-05-31 05:07:16] INFO root fetch - main [MainThread]: Store serial: [18311810]
