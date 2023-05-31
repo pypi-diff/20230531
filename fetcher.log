@@ -6280,3 +6280,99 @@
 [2023-05-31 04:40:17] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
 [2023-05-31 04:40:18] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-comment-template]: success
 [2023-05-31 04:40:18] INFO root fetch - main [MainThread]: Store serial: [18311591]
+[2023-05-31 04:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18311591]
+[2023-05-31 04:45:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-base-comment-template
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-comment-template
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-account-invoice-reporting
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meta-matching-tool
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-24
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpc-obscodes
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogencase
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automaxprocs
+[2023-05-31 04:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thsquant
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addon-account-comment-template]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo11-addon-base-comment-template]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev7]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: New version: [16.0.20230530.0] Old Version: [16.0.20230515.1]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [meta-matching-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 04:45:27] WARNING root fetch - processPackages [automaxprocs]: Skipping, unable to determine old version
+[2023-05-31 04:45:27] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.5.5] Old Version: [2023.5.31]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [automaxprocs]: Start processing: arxivai
+[2023-05-31 04:45:27] INFO root fetch - processPackages [thsquant]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-31 04:45:27] INFO root fetch - main [MainThread]: End processing [automaxprocs] error
+[2023-05-31 04:45:27] WARNING root fetch - processPackages [autogencase]: Skipping, unable to determine old version
+[2023-05-31 04:45:27] INFO root fetch - processPackages [autogencase]: Start processing: cdk8s-plus-25
+[2023-05-31 04:45:27] INFO root fetch - main [MainThread]: End processing [autogencase] error
+[2023-05-31 04:45:27] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.7] Old Version: [2.8.6]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.7] Old Version: [2.8.6]
+[2023-05-31 04:45:27] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230531/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/54/56/c4e54cc27f70b7a10306211cdd12fcb70b9ebecc6224ebe0c4445a0ebb80/mpc_obscodes-2023.5.31.tar.gz
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Downloading https://files.pythonhosted.org/packages/7f/e9/dcc51c44a4b6469cb3e141d785765cc7a62a4194f8fad0bce157508709c0/odoo_addons_oca_account_invoice_reporting-16.0.20230515.1-py3-none-any.whl
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Downloading https://files.pythonhosted.org/packages/ba/c5/0b4d4a71eea60a470290b25330faf368dca6e993d64a5d0541c50d1905c5/odoo_addon_account_comment_template-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-31 04:45:27] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/5f/ab/79dc7cde6219ab6e7f2c13fac8a7276564d031c572d79615cbb4e5936066/meta_matching_tool-1.0.0-py3-none-any.whl
+[2023-05-31 04:45:27] INFO root fetch - processPackages [thsquant]: Downloading https://files.pythonhosted.org/packages/b8/17/4b45bd38cfa6b69547099b3cd4824efbc67025e9b64097f4f1b7ed18f558/thsquant-0.2.4.tar.gz
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo11-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/0f/7a/38a8c59cc942dbeb19a09cca37676634a6a3fe8ac2c53ce9bc0521c28b38/odoo11_addon_base_comment_template-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-05-31 04:45:27] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/1d/55/fb9d5039a606a602011d9b5712d689fd9f099826be6473c071ff3cf09620/cdk8s-plus-25-2.8.7.tar.gz
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addon-account-comment-template]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addon-account-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_comment_template-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_comment_template-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-account-comment-template/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/9e/c9/4f4f2fc59e2790c4bd79fe3f2d40c15689c9af4035151a58172848151e7a/cdk8s-plus-24-2.8.7.tar.gz
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Downloading https://files.pythonhosted.org/packages/4d/b9/9061e73573492b6467a8646a36f5b8f07461bbd95c9488775ef90152a07e/odoo_addons_oca_account_invoice_reporting-16.0.20230530.0-py3-none-any.whl
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo11-addon-base-comment-template]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo11-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_base_comment_template-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_base_comment_template-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230531/o/odoo11-addon-base-comment-template/11.0.1.0.0.99.dev7-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/66/90/65dab332c871a2a997df41856c474a50c4433deaef3718277d91b2b46cdd/meta_matching_tool-1.0.1-py3-none-any.whl
+[2023-05-31 04:45:27] INFO root fetch - processPackages [thsquant]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [thsquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thsquant-0.2.3.tar.gz tmp/thsquant-0.2.4.tar.gz --markdown 20230531/t/thsquant/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230531/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/da/c4/8b81f28ad9451675ebc85587236ad8c5a89d61ce67fe99d3aab673f1894a/mpc_obscodes-2023.5.5.tar.gz
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoice_reporting-16.0.20230515.1-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoice_reporting-16.0.20230530.0-py3-none-any.whl.zip --markdown 20230531/o/odoo-addons-oca-account-invoice-reporting/16.0.20230515.1-16.0.20230530.0/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.6.tar.gz tmp/cdk8s-plus-25-2.8.7.tar.gz --markdown 20230531/c/cdk8s-plus-25/2.8.6-2.8.7/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [meta-matching-tool]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [meta-matching-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_matching_tool-1.0.0-py3-none-any.whl.zip tmp/meta_matching_tool-1.0.1-py3-none-any.whl.zip --markdown 20230531/m/meta-matching-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 04:45:27] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-05-31 04:45:27] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.5.31.tar.gz tmp/mpc_obscodes-2023.5.5.tar.gz --markdown 20230531/m/mpc-obscodes/2023.5.31-2023.5.5/diff.md --exclude *.pyd
+[2023-05-31 04:45:28] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-31 04:45:28] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.6.tar.gz tmp/cdk8s-plus-24-2.8.7.tar.gz --markdown 20230531/c/cdk8s-plus-24/2.8.6-2.8.7/diff.md --exclude *.pyd
+[2023-05-31 04:45:28] INFO root fetch - processPackages [arxivai]: Start processing: meta-matching-tool
+[2023-05-31 04:45:28] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-31 04:45:28] INFO root fetch - processPackages [meta-matching-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 04:45:28] INFO root fetch - processPackages [meta-matching-tool]: executing diffoscope
+[2023-05-31 04:45:28] INFO root fetch - processPackages [meta-matching-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_matching_tool-1.0.0-py3-none-any.whl.zip tmp/meta_matching_tool-1.0.1-py3-none-any.whl.zip --markdown 20230531/m/meta-matching-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 04:45:29] INFO root fetch - processPackages [meta-matching-tool]: Start processing: odoo14-addon-account-move-post-block
+[2023-05-31 04:45:29] INFO root fetch - main [MainThread]: End processing [meta-matching-tool]: success
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Start processing: thsquant
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev2]
+[2023-05-31 04:45:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoice-reporting]: success
+[2023-05-31 04:45:29] INFO root fetch - processPackages [thsquant]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-31 04:45:29] INFO root fetch - processPackages [thsquant]: Start processing: odoo14-addons-oca-account-invoicing
+[2023-05-31 04:45:29] INFO root fetch - main [MainThread]: End processing [thsquant]: success
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: executing diffoscope
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo14-addon-account-move-post-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_post_block-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_move_post_block-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-account-move-post-block/14.0.1.0.2.dev2-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo14-addons-oca-account-invoicing]: New version: [14.0.20230530.0] Old Version: [14.0.20230324.0]
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo11-addon-base-comment-template]: Start processing: prismstudio-dev
+[2023-05-31 04:45:29] INFO root fetch - main [MainThread]: End processing [odoo11-addon-base-comment-template]: success
+[2023-05-31 04:45:29] INFO root fetch - processPackages [thsquant]: Downloading https://files.pythonhosted.org/packages/4f/85/363084861e8aa9cefccfa193438833c9d8ede3ecaa49561cb33a87bcb2b1/thsquant-0.2.5.tar.gz
+[2023-05-31 04:45:29] WARNING root fetch - processPackages [prismstudio-dev]: Skipping, unable to determine old version
+[2023-05-31 04:45:29] INFO root fetch - main [MainThread]: End processing [prismstudio-dev] error
+[2023-05-31 04:45:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-comment-template]: success
+[2023-05-31 04:45:29] INFO root fetch - processPackages [odoo14-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/ac/ff/c4c62054467a7c14b76959b7795d4b1fd10d4a152a493e46c5fa02030c22/odoo14_addons_oca_account_invoicing-14.0.20230324.0-py3-none-any.whl
+[2023-05-31 04:45:29] INFO root fetch - processPackages [thsquant]: executing diffoscope
+[2023-05-31 04:45:29] INFO root fetch - processPackages [thsquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thsquant-0.2.4.tar.gz tmp/thsquant-0.2.5.tar.gz --markdown 20230531/t/thsquant/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-31 04:45:30] INFO root fetch - main [MainThread]: End processing [meta-matching-tool]: success
+[2023-05-31 04:45:30] INFO root fetch - processPackages [odoo14-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/f2/e2/be222792769e9c16091a6d419b5417398747b80605133765cd09e3034c41/odoo14_addons_oca_account_invoicing-14.0.20230530.0-py3-none-any.whl
+[2023-05-31 04:45:30] INFO root fetch - processPackages [odoo14-addons-oca-account-invoicing]: executing diffoscope
+[2023-05-31 04:45:30] INFO root fetch - processPackages [odoo14-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_account_invoicing-14.0.20230324.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_account_invoicing-14.0.20230530.0-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addons-oca-account-invoicing/14.0.20230324.0-14.0.20230530.0/diff.md --exclude *.pyd
+[2023-05-31 04:45:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-post-block]: success
+[2023-05-31 04:45:30] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-05-31 04:45:31] INFO root fetch - main [MainThread]: End processing [thsquant]: success
+[2023-05-31 04:45:31] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-invoicing]: success
+[2023-05-31 04:45:32] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-31 04:45:32] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-31 04:45:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-05-31 04:45:33] INFO root fetch - main [MainThread]: Store serial: [18311638]
