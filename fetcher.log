@@ -22576,3 +22576,86 @@
 [2023-05-31 21:11:53] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-31 21:13:37] INFO root fetch - main [MainThread]: End processing [datadog-api-client]: success
 [2023-05-31 21:13:37] INFO root fetch - main [MainThread]: Store serial: [18321297]
+[2023-05-31 21:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321297]
+[2023-05-31 21:18:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-oci
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-jupyterlibrary
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf-generator-python
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-idaice
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tweet2latex
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-tc
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladybug-vtk
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrepseq
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sway
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iotbr
+[2023-05-31 21:18:47] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-31 21:18:47] WARNING root fetch - processPackages [pdf-generator-python]: Skipping, unable to determine old version
+[2023-05-31 21:18:47] INFO root fetch - processPackages [pdf-generator-python]: Start processing: qsiprep
+[2023-05-31 21:18:47] INFO root fetch - main [MainThread]: End processing [pdf-generator-python] error
+[2023-05-31 21:18:47] INFO root fetch - processPackages [honeybee-idaice]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [robotframework-jupyterlibrary]: New version: [0.5.0a0] Old Version: [0.4.2]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [acryl-datahub-tc]: New version: [0.10.2rc1] Old Version: [0.10.0.3]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [pyrepseq]: New version: [1.1] Old Version: [1.0]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [sway]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ladybug-vtk]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [tweet2latex]: New version: [1.3] Old Version: [1.2]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [qsiprep]: New version: [0.9.0b1] Old Version: [0.8.0rc3]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [iotbr]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 21:18:47] INFO root fetch - processPackages [qsiprep]: Downloading https://files.pythonhosted.org/packages/25/72/b50c245c0e16d407ead09f18650eb86573378dcd6e8c6b6b13bd52ac8ea7/qsiprep-0.8.0rc3.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [tweet2latex]: Downloading https://files.pythonhosted.org/packages/c1/72/2a81d36f4bcd834b0628c8ca4c09328b9bb216eea5164dfbc39ea2e52606/tweet2latex-1.2.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [pyrepseq]: Downloading https://files.pythonhosted.org/packages/53/88/117c964bf05e99f446ee034cf644db7b38babb91c6c840fb877e68e3c715/pyrepseq-1.0.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [honeybee-idaice]: Downloading https://files.pythonhosted.org/packages/d8/1d/b27a4637ee89ad9cd98f038a0946caf2e0693c68855240baf7fa6e21fa77/honeybee-idaice-0.3.3.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [ladybug-vtk]: Downloading https://files.pythonhosted.org/packages/27/3d/d344480086dcaa65c90440daee15aee266a3937ef3dab9d40ea954008f5f/ladybug-vtk-0.8.2.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [acryl-datahub-tc]: Downloading https://files.pythonhosted.org/packages/bb/e2/222085218d399842111affe3e349d2ba5e0ff8f5208868eeb299836ef06a/acryl-datahub-tc-0.10.0.3.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [robotframework-jupyterlibrary]: Downloading https://files.pythonhosted.org/packages/00/fc/3c0595b65b7c67da549792ab816e01f87e46af194aa82fc75ca136b4d3bb/robotframework-jupyterlibrary-0.4.2.tar.gz
+[2023-05-31 21:18:47] INFO root fetch - processPackages [iotbr]: Downloading https://files.pythonhosted.org/packages/57/50/327ed9be7b2e5c0e3c5d608223a84d87943dc449216470792d93dfcb4836/iotbr-0.0.8.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [honeybee-idaice]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [honeybee-idaice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-idaice-0.3.2.tar.gz tmp/honeybee-idaice-0.3.3.tar.gz --markdown 20230531/h/honeybee-idaice/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [sway]: Downloading https://files.pythonhosted.org/packages/61/bf/49b1983fe7b255c216af0f7b77478e0817698ea3bb60a489ee4313d31c63/sway-0.1.4.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230531/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [sway]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [sway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sway-0.1.3.tar.gz tmp/sway-0.1.4.tar.gz --markdown 20230531/s/sway/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [iotbr]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [iotbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotbr-0.0.7.tar.gz tmp/iotbr-0.0.8.tar.gz --markdown 20230531/i/iotbr/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [tweet2latex]: Downloading https://files.pythonhosted.org/packages/11/f9/3103298b50e132d9198e5bb08374fc52fc9c8040a2ff5df88f3442c98237/tweet2latex-1.3.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [pyrepseq]: Downloading https://files.pythonhosted.org/packages/38/bb/4c7ec5857987459bdc64b7719ec97c4be8d4ea4c351107aba0e2d8cab594/pyrepseq-1.1.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [robotframework-jupyterlibrary]: Downloading https://files.pythonhosted.org/packages/82/ca/b097ed44f673011b163f71377a3f5a7e5c6feeff918cf8c8c1da997b1f5c/robotframework_jupyterlibrary-0.5.0a0.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [tweet2latex]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [tweet2latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweet2latex-1.2.tar.gz tmp/tweet2latex-1.3.tar.gz --markdown 20230531/t/tweet2latex/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [acryl-datahub-tc]: Downloading https://files.pythonhosted.org/packages/d8/42/a164326a278dd192b4c1ee4bd38fb229537302d3343618b9d6ffb0304cb5/acryl-datahub-tc-0.10.2rc1.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [pyrepseq]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [pyrepseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepseq-1.0.tar.gz tmp/pyrepseq-1.1.tar.gz --markdown 20230531/p/pyrepseq/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [ladybug-vtk]: Downloading https://files.pythonhosted.org/packages/b0/5e/1d69765db583e9a6f3d79145b3e65eccdb89a71d578197d235653eed2151/ladybug-vtk-0.9.0.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [robotframework-jupyterlibrary]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [robotframework-jupyterlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-jupyterlibrary-0.4.2.tar.gz tmp/robotframework_jupyterlibrary-0.5.0a0.tar.gz --markdown 20230531/r/robotframework-jupyterlibrary/0.4.2-0.5.0a0/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [ladybug-vtk]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [ladybug-vtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-vtk-0.8.2.tar.gz tmp/ladybug-vtk-0.9.0.tar.gz --markdown 20230531/l/ladybug-vtk/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [qsiprep]: Downloading https://files.pythonhosted.org/packages/a0/c2/1274352045ea91a7476ee614ea9f58459883c4b2a81fb5ea87fe6ed4f19a/qsiprep-0.9.0b1.tar.gz
+[2023-05-31 21:18:48] INFO root fetch - processPackages [acryl-datahub-tc]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [acryl-datahub-tc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-tc-0.10.0.3.tar.gz tmp/acryl-datahub-tc-0.10.2rc1.tar.gz --markdown 20230531/a/acryl-datahub-tc/0.10.0.3-0.10.2rc1/diff.md --exclude *.pyd
+[2023-05-31 21:18:48] INFO root fetch - processPackages [qsiprep]: executing diffoscope
+[2023-05-31 21:18:48] INFO root fetch - processPackages [qsiprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsiprep-0.8.0rc3.tar.gz tmp/qsiprep-0.9.0b1.tar.gz --markdown 20230531/q/qsiprep/0.8.0rc3-0.9.0b1/diff.md --exclude *.pyd
+[2023-05-31 21:18:49] INFO root fetch - processPackages [sway]: Start processing: openplugin
+[2023-05-31 21:18:49] INFO root fetch - main [MainThread]: End processing [sway]: success
+[2023-05-31 21:18:49] INFO root fetch - processPackages [openplugin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 21:18:49] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/1f/f1/39ff4ab67b52ee9c71a07cc5cf0b0c7b85223a3ccde98ad071ec78b6772b/openplugin-0.0.1.tar.gz
+[2023-05-31 21:18:49] INFO root fetch - processPackages [tweet2latex]: Start processing: PHX
+[2023-05-31 21:18:49] INFO root fetch - main [MainThread]: End processing [tweet2latex]: success
+[2023-05-31 21:18:49] INFO root fetch - main [MainThread]: End processing [pyrepseq]: success
+[2023-05-31 21:18:49] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-31 21:18:49] INFO root fetch - main [MainThread]: End processing [honeybee-idaice]: success
+[2023-05-31 21:18:49] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/97/1a/ea9ba0361a5f59cfe306b14d20888105abf0ca67de002b6ca3773cd5be58/openplugin-0.0.2.tar.gz
+[2023-05-31 21:18:50] INFO root fetch - processPackages [openplugin]: executing diffoscope
+[2023-05-31 21:18:50] INFO root fetch - processPackages [openplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-0.0.1.tar.gz tmp/openplugin-0.0.2.tar.gz --markdown 20230531/o/openplugin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 21:18:50] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-05-31 21:18:50] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230531/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 21:18:50] INFO root fetch - main [MainThread]: End processing [robotframework-jupyterlibrary]: success
+[2023-05-31 21:18:50] INFO root fetch - main [MainThread]: End processing [ladybug-vtk]: success
+[2023-05-31 21:18:51] INFO root fetch - main [MainThread]: End processing [openplugin]: success
+[2023-05-31 21:18:51] INFO root fetch - main [MainThread]: End processing [qsiprep]: success
+[2023-05-31 21:18:52] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-05-31 21:18:54] INFO root fetch - main [MainThread]: End processing [iotbr]: success
+[2023-05-31 21:19:11] INFO root fetch - main [MainThread]: End processing [acryl-datahub-tc]: success
+[2023-05-31 21:19:31] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-31 21:19:31] INFO root fetch - main [MainThread]: Store serial: [18321340]
