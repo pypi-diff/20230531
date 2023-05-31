@@ -7467,3 +7467,42 @@
 [2023-05-31 05:50:03] INFO root fetch - main [MainThread]: End processing [juno-ai]: success
 [2023-05-31 05:50:04] INFO root fetch - main [MainThread]: End processing [idem]: success
 [2023-05-31 05:50:04] INFO root fetch - main [MainThread]: Store serial: [18312146]
+[2023-05-31 05:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312146]
+[2023-05-31 05:55:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idem
+[2023-05-31 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xt-st-common
+[2023-05-31 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openjij
+[2023-05-31 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-http-sd
+[2023-05-31 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-ro-stock-report
+[2023-05-31 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-ro-stock-report
+[2023-05-31 05:55:13] INFO root fetch - processPackages [xt-st-common]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-31 05:55:13] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-05-31 05:55:13] INFO root fetch - processPackages [idem]: New version: [9] Old Version: [7.6]
+[2023-05-31 05:55:13] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [15.0.6.7.0] Old Version: [15.0.6.6.1]
+[2023-05-31 05:55:13] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: New version: [14.0.6.7.1.dev1] Old Version: [14.0.6.7.0]
+[2023-05-31 05:55:13] INFO root fetch - processPackages [openjij]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-31 05:55:13] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-05-31 05:55:13] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-15.0.6.6.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-15.0.6.7.0-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-l10n-ro-stock-report/15.0.6.6.1-15.0.6.7.0/diff.md --exclude *.pyd
+[2023-05-31 05:55:13] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/02/1b/7079e33239d935f1ae995d37868b18e78a21bd6ced70e090782251010f70/xt_st_common-0.4.1.tar.gz
+[2023-05-31 05:55:13] INFO root fetch - processPackages [openjij]: Downloading https://files.pythonhosted.org/packages/f4/db/d81006e08d26f9c8f4fd9ce60a532253dba841593f408315c48c05f1a146/openjij-0.7.1.tar.gz
+[2023-05-31 05:55:13] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/9b/c3/e42135a30b9bfd10e1b9faf6bff05d8c01fe1b137e6403f56dceaed00711/odoo14_addon_l10n_ro_stock_report-14.0.6.7.1.dev1-py3-none-any.whl
+[2023-05-31 05:55:13] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/ca/e8/c4f5a8d013efa915a9baa0e561ca87ba07a2fba64601c00ffd0a62a240be/prometheus_http_sd-1.3.0.tar.gz
+[2023-05-31 05:55:13] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/0f/49/2495818c6da5d3aed7304dfc52544318cf25d639269e2bdaa8d755659def/xt_st_common-0.5.0.tar.gz
+[2023-05-31 05:55:13] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2023-05-31 05:55:13] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.2.4.tar.gz tmp/prometheus_http_sd-1.3.0.tar.gz --markdown 20230531/p/prometheus-http-sd/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 05:55:14] INFO root fetch - processPackages [idem]: executing diffoscope
+[2023-05-31 05:55:14] INFO root fetch - processPackages [idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-7.6.tar.gz tmp/idem-9.tar.gz --markdown 20230531/i/idem/7.6-9/diff.md --exclude *.pyd
+[2023-05-31 05:55:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-05-31 05:55:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_report-14.0.6.7.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_report-14.0.6.7.1.dev1-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-l10n-ro-stock-report/14.0.6.7.0-14.0.6.7.1.dev1/diff.md --exclude *.pyd
+[2023-05-31 05:55:14] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-05-31 05:55:14] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.4.1.tar.gz tmp/xt_st_common-0.5.0.tar.gz --markdown 20230531/x/xt-st-common/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 05:55:14] INFO root fetch - processPackages [openjij]: Downloading https://files.pythonhosted.org/packages/41/a2/cde5e905046e686cf42773dfa40f9901e42319b3ffaeeda2ff30de436e6c/openjij-0.7.2.tar.gz
+[2023-05-31 05:55:14] INFO root fetch - processPackages [openjij]: executing diffoscope
+[2023-05-31 05:55:14] INFO root fetch - processPackages [openjij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openjij-0.7.1.tar.gz tmp/openjij-0.7.2.tar.gz --markdown 20230531/o/openjij/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-31 05:55:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2023-05-31 05:55:15] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2023-05-31 05:55:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-report]: success
+[2023-05-31 05:55:15] INFO root fetch - main [MainThread]: End processing [idem]: success
+[2023-05-31 05:55:15] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-05-31 05:55:16] INFO root fetch - main [MainThread]: End processing [openjij]: success
+[2023-05-31 05:55:16] INFO root fetch - main [MainThread]: Store serial: [18312195]
