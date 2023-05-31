@@ -12097,3 +12097,85 @@
 [2023-05-31 11:47:07] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-31 11:47:08] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-05-31 11:47:08] INFO root fetch - main [MainThread]: Store serial: [18314964]
+[2023-05-31 11:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314964]
+[2023-05-31 11:52:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prisma-pynext
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msaBase
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fakeldap
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kevbits
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ebi-eva-common-pyutils
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BaseNN
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dinohub-seedwork-be
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccpem-utils
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aspose-barcode-for-python-via-java
+[2023-05-31 11:52:17] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.3rc0] Old Version: [0.8.3b0]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ccpem-utils]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [kevbits]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [fakeldap]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [BaseNN]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.5.5.dev0] Old Version: [0.5.4]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [jupyterlab]: New version: [4.0.1] Old Version: [4.0.0rc1]
+[2023-05-31 11:52:17] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-31 11:52:17] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230531/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 11:52:17] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/e4/44/f831fdf6d598a77d9efd713b89cde4b7641d559b5f52f552d9206cd83f32/msaBase-0.0.83.tar.gz
+[2023-05-31 11:52:17] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/ae/9c/81fb474ac3adc1f48e3ed27349b54ed496c68b25c86274b0d8eb5cff40ff/aspose-barcode-for-python-via-java-23.4.0.tar.gz
+[2023-05-31 11:52:17] INFO root fetch - processPackages [prisma-pynext]: Downloading https://files.pythonhosted.org/packages/58/79/6be65cf7fa79e1630ff66152f5965b3402e16b1b1369915eee36e5dbfb94/prisma_pynext-0.8.3b0.tar.gz
+[2023-05-31 11:52:17] INFO root fetch - processPackages [kevbits]: Downloading https://files.pythonhosted.org/packages/bf/41/89071d9fcb03ab0d40cb02dcf7e69b58efdd4ca49fc098d54ecd4b989b49/kevbits-0.4.0.tar.gz
+[2023-05-31 11:52:17] INFO root fetch - processPackages [fakeldap]: Downloading https://files.pythonhosted.org/packages/18/0b/465725a2a1c54aba531591e5087ba10c076e545c293560ce788a0f83ddd8/fakeldap-0.6.5.tar.gz
+[2023-05-31 11:52:17] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/56/31/5bb599548c97026d79d7b4cfe0a9b68d75743d2f86ce86400f1350b84196/jupyterlab-4.0.0rc1.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [BaseNN]: Downloading https://files.pythonhosted.org/packages/ec/cb/19fa2fad4041c0a01baa6ca4fb3d03a8426aa831501d575eea48044fde6c/BaseNN-0.1.6.tar.gz
+[2023-05-31 11:52:18] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 18259195>=10485760
+[2023-05-31 11:52:18] INFO root fetch - processPackages [jupyterlab]: Start processing: pytest-dbt
+[2023-05-31 11:52:18] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2023-05-31 11:52:18] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/98/ab/b2b5fd0ae2aa3394ee48e32855cb560122367d50381ebde128509a1844a6/ebi_eva_common_pyutils-0.5.5.dev0.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [ccpem-utils]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [ccpem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpem_utils-0.0.1.dev8.tar.gz tmp/ccpem_utils-0.0.1.dev9.tar.gz --markdown 20230531/c/ccpem-utils/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] WARNING root fetch - processPackages [aspose-barcode-for-python-via-java]: Skipping package: exceeds size limit 14166938>=10485760
+[2023-05-31 11:52:18] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Start processing: docarray
+[2023-05-31 11:52:18] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-java] error
+[2023-05-31 11:52:18] WARNING root fetch - processPackages [pytest-dbt]: Skipping, unable to determine old version
+[2023-05-31 11:52:18] INFO root fetch - processPackages [pytest-dbt]: Start processing: perun
+[2023-05-31 11:52:18] INFO root fetch - main [MainThread]: End processing [pytest-dbt] error
+[2023-05-31 11:52:18] INFO root fetch - processPackages [prisma-pynext]: Downloading https://files.pythonhosted.org/packages/64/c3/833b3254bde8d103e7a0db16bef53b5efbced14496e5d19bd2e2ec7a5767/prisma_pynext-0.8.3rc0.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.83.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230531/m/msaBase/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [perun]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 11:52:18] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-31 11:52:18] INFO root fetch - processPackages [BaseNN]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [BaseNN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseNN-0.1.5.tar.gz tmp/BaseNN-0.1.6.tar.gz --markdown 20230531/B/BaseNN/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [kevbits]: Downloading https://files.pythonhosted.org/packages/59/9a/98ab4945a18eacb96b856279735c5778b063a16dd3b31dc694c471966e28/kevbits-0.5.0.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.5.4.tar.gz tmp/ebi_eva_common_pyutils-0.5.5.dev0.tar.gz --markdown 20230531/e/ebi-eva-common-pyutils/0.5.4-0.5.5.dev0/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.3b0.tar.gz tmp/prisma_pynext-0.8.3rc0.tar.gz --markdown 20230531/p/prisma-pynext/0.8.3b0-0.8.3rc0/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [fakeldap]: Downloading https://files.pythonhosted.org/packages/95/24/25aada5647ebfe3743e655ed3e3abeda9cd2e3eb7bc6f3218a84a69dd3b0/fakeldap-0.6.6.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230531/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [kevbits]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [kevbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevbits-0.4.0.tar.gz tmp/kevbits-0.5.0.tar.gz --markdown 20230531/k/kevbits/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/59/bc/459efb95378165b70151e47acb67c7a10eac7f85016d88442ca00d21f0c5/perun-0.2.0.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [fakeldap]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [fakeldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeldap-0.6.5.tar.gz tmp/fakeldap-0.6.6.tar.gz --markdown 20230531/f/fakeldap/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-31 11:52:18] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/32/98/0353568e698f550e6e723123ab682e03762db4e92ea51d8d8fa6836794f6/perun-0.3.0.tar.gz
+[2023-05-31 11:52:18] INFO root fetch - processPackages [perun]: executing diffoscope
+[2023-05-31 11:52:18] INFO root fetch - processPackages [perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun-0.2.0.tar.gz tmp/perun-0.3.0.tar.gz --markdown 20230531/p/perun/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 11:52:19] INFO root fetch - processPackages [msaBase]: Start processing: asset-tracking-pepsico
+[2023-05-31 11:52:19] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-31 11:52:19] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 11:52:19] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-05-31 11:52:19] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-0.0.1.tar.gz tmp/asset_tracking_pepsico-0.0.2.tar.gz --markdown 20230531/a/asset-tracking-pepsico/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 11:52:19] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2023-05-31 11:52:19] INFO root fetch - main [MainThread]: End processing [BaseNN]: success
+[2023-05-31 11:52:19] INFO root fetch - main [MainThread]: End processing [fakeldap]: success
+[2023-05-31 11:52:19] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
+[2023-05-31 11:52:19] INFO root fetch - main [MainThread]: End processing [kevbits]: success
+[2023-05-31 11:52:20] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-05-31 11:52:20] INFO root fetch - main [MainThread]: End processing [perun]: success
+[2023-05-31 11:52:20] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-31 11:52:20] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-05-31 11:52:22] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-31 11:52:22] INFO root fetch - main [MainThread]: Store serial: [18315006]
