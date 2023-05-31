@@ -16341,3 +16341,131 @@
 [2023-05-31 15:36:46] INFO root fetch - main [MainThread]: End processing [wmagent]: success
 [2023-05-31 15:37:04] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-05-31 15:37:04] INFO root fetch - main [MainThread]: Store serial: [18317463]
+[2023-05-31 15:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317463]
+[2023-05-31 15:42:14] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valmi-connector-lib
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcentrapi
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vmk-spectrum
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: custom-json-serializer-1234
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services
+[2023-05-31 15:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gribscan
+[2023-05-31 15:42:14] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230531133603] Old Version: [2.1.1.dev20230531121446]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [vmk-spectrum]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [custom-json-serializer-1234]: New version: [1.5] Old Version: [1.3]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [gribscan]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5133539304] Old Version: [2.0.0.dev5131986477]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-31 15:42:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/aa/52/66d4e4c827e12a0ac15bb1bcd2899825469c9cbf8b606c553af9b4c45e09/localstack-core-2.1.1.dev20230531133603.tar.gz
+[2023-05-31 15:42:14] INFO root fetch - processPackages [gribscan]: Downloading https://files.pythonhosted.org/packages/4a/bc/d7e2f982e8301c5baf5235673c6d3d75fddbdbea02ed90e3dbf0e8ab7d2f/gribscan-0.0.6-py3-none-any.whl
+[2023-05-31 15:42:15] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/9a/55/ba57bd259486a6127bd078ed40b30aee2eb63b75dcf03c49bcb9734fc5d0/th2_data_services-2.0.0.dev5133539304.tar.gz
+[2023-05-31 15:42:15] INFO root fetch - processPackages [vmk-spectrum]: Downloading https://files.pythonhosted.org/packages/a7/53/f95bfbf4dbbf8ed75da72b83110718881a6316f65ba97e46ab5ddbb69a87/vmk_spectrum-0.0.9-cp311-cp311-win_amd64.whl
+[2023-05-31 15:42:15] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5131986477.tar.gz tmp/th2_data_services-2.0.0.dev5133539304.tar.gz --markdown 20230531/t/th2-data-services/2.0.0.dev5131986477-2.0.0.dev5133539304/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/fe/3f/04bcb5c6dea0f02cd585d2094a86bfffdf9087ce17213aeb17632fafb7c0/dcentrapi-0.2.3.tar.gz
+[2023-05-31 15:42:15] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [custom-json-serializer-1234]: Downloading https://files.pythonhosted.org/packages/81/2f/8760776859afa8c3a6e9239ec8040ec44482f4fa2609e1a123c13df9e61c/custom-json-serializer-1234-1.5.tar.gz
+[2023-05-31 15:42:15] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230531/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230531/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230531/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230531/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [gribscan]: Downloading https://files.pythonhosted.org/packages/41/e6/7586e7aed267b6c03f2ab5b3f4b3ade7857fa20359d39230f858469f7147/gribscan-0.0.7.tar.gz
+[2023-05-31 15:42:15] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.2.tar.gz tmp/dcentrapi-0.2.3.tar.gz --markdown 20230531/d/dcentrapi/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [custom-json-serializer-1234]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [custom-json-serializer-1234]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-json-serializer-1234-1.3.tar.gz tmp/custom-json-serializer-1234-1.5.tar.gz --markdown 20230531/c/custom-json-serializer-1234/1.3-1.5/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [vmk-spectrum]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [vmk-spectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmk_spectrum-0.0.8-cp311-cp311-win_amd64.whl.zip tmp/vmk_spectrum-0.0.9-cp311-cp311-win_amd64.whl.zip --markdown 20230531/v/vmk-spectrum/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [gribscan]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [gribscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gribscan-0.0.6-py3-none-any.whl.zip tmp/gribscan-0.0.7.tar.gz --markdown 20230531/g/gribscan/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-31 15:42:15] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-31 15:42:15] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230531121446.tar.gz tmp/localstack-core-2.1.1.dev20230531133603.tar.gz --markdown 20230531/l/localstack-core/2.1.1.dev20230531121446-2.1.1.dev20230531133603/diff.md --exclude *.pyd
+[2023-05-31 15:42:16] INFO root fetch - processPackages [wmill-pg]: Start processing: dragonfly-core
+[2023-05-31 15:42:16] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-31 15:42:16] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-31 15:42:16] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-05-31 15:42:16] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230531/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 15:42:16] INFO root fetch - processPackages [wmill]: Start processing: nssurge-cli
+[2023-05-31 15:42:16] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-31 15:42:16] INFO root fetch - processPackages [nssurge-cli]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-31 15:42:16] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: rapidpe-rift-pipe
+[2023-05-31 15:42:16] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-31 15:42:17] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 15:42:17] INFO root fetch - processPackages [nssurge-cli]: Downloading https://files.pythonhosted.org/packages/59/ca/cc44952742b1fdb83fee1ed133d937540643cd00db0e644c366b1a28f220/nssurge_cli-2.0.5.tar.gz
+[2023-05-31 15:42:17] INFO root fetch - processPackages [gribscan]: Start processing: blockapi
+[2023-05-31 15:42:17] INFO root fetch - main [MainThread]: End processing [gribscan]: success
+[2023-05-31 15:42:17] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-31 15:42:17] INFO root fetch - processPackages [custom-json-serializer-1234]: Start processing: thrivve-core
+[2023-05-31 15:42:17] INFO root fetch - main [MainThread]: End processing [custom-json-serializer-1234]: success
+[2023-05-31 15:42:17] INFO root fetch - processPackages [dcentrapi]: Start processing: hummuspy
+[2023-05-31 15:42:17] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-05-31 15:42:17] INFO root fetch - processPackages [nssurge-cli]: executing diffoscope
+[2023-05-31 15:42:17] INFO root fetch - processPackages [nssurge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nssurge_cli-2.0.4.tar.gz tmp/nssurge_cli-2.0.5.tar.gz --markdown 20230531/n/nssurge-cli/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-31 15:42:17] INFO root fetch - processPackages [th2-data-services]: Start processing: botbuilder-adapters-slack
+[2023-05-31 15:42:17] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-31 15:42:17] INFO root fetch - processPackages [thrivve-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 15:42:17] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/b2/ce/85befbb58faf311987de657a047096e929064e1de57ddea4e1d860c6c358/rapidpe_rift_pipe-0.3.2.tar.gz
+[2023-05-31 15:42:17] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:42:17] INFO root fetch - processPackages [vmk-spectrum]: Start processing: botbuilder-ai
+[2023-05-31 15:42:17] INFO root fetch - main [MainThread]: End processing [vmk-spectrum]: success
+[2023-05-31 15:42:17] INFO root fetch - processPackages [botbuilder-adapters-slack]: New version: [4.9.3] Old Version: [4.9.2]
+[2023-05-31 15:42:17] INFO root fetch - processPackages [botbuilder-ai]: New version: [4.9.3] Old Version: [4.9.2]
+[2023-05-31 15:42:17] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-31 15:42:17] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.3.1.tar.gz tmp/rapidpe_rift_pipe-0.3.2.tar.gz --markdown 20230531/r/rapidpe-rift-pipe/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 15:42:17] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2023-05-31 15:42:17] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20230531/b/blockapi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 15:42:17] INFO root fetch - processPackages [botbuilder-adapters-slack]: Downloading https://files.pythonhosted.org/packages/dc/67/664860fb3977936d6158c776331c8dce2647f65eb21fc67bdb2648a32b90/botbuilder_adapters_slack-4.9.2-py3-none-any.whl
+[2023-05-31 15:42:17] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/c5/45/a8f9bf8b96af88ff7801d8f3465d5434e7d6b1c76c34c8c635180af4dd24/thrivve_core-0.3.1.tar.gz
+[2023-05-31 15:42:17] INFO root fetch - processPackages [botbuilder-ai]: Downloading https://files.pythonhosted.org/packages/9c/d1/2208b35f57f62dd58027d7eeff91d3ebf4367de9b2f4612286fe6a45e5f1/botbuilder_ai-4.9.2-py3-none-any.whl
+[2023-05-31 15:42:17] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-31 15:42:17] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230531/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:42:17] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-31 15:42:17] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.3.0.tar.gz tmp/thrivve_core-0.3.1.tar.gz --markdown 20230531/t/thrivve-core/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-ai]: Downloading https://files.pythonhosted.org/packages/e5/7f/b0c82bcc7bc39c8213bfe980630c518ece1f07c828de16f3902307810384/botbuilder_ai-4.9.3-py3-none-any.whl
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-ai]: executing diffoscope
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botbuilder_ai-4.9.2-py3-none-any.whl.zip tmp/botbuilder_ai-4.9.3-py3-none-any.whl.zip --markdown 20230531/b/botbuilder-ai/4.9.2-4.9.3/diff.md --exclude *.pyd
+[2023-05-31 15:42:18] INFO root fetch - processPackages [nssurge-cli]: Start processing: botbuilder-applicationinsights
+[2023-05-31 15:42:18] INFO root fetch - main [MainThread]: End processing [nssurge-cli]: success
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-applicationinsights]: New version: [4.9.3] Old Version: [4.9.2]
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-applicationinsights]: Downloading https://files.pythonhosted.org/packages/c2/1d/e29d1efd443e55e670e6c705b94ee9748386d34ab63b404c67c7e458a80e/botbuilder_applicationinsights-4.9.2-py3-none-any.whl
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-adapters-slack]: Downloading https://files.pythonhosted.org/packages/b1/c8/998c7d6b0ce8db4ddc7fb239e4707985a6edd2ebb58c7263b35ec9d5baf8/botbuilder_adapters_slack-4.9.3-py3-none-any.whl
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-adapters-slack]: executing diffoscope
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-adapters-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botbuilder_adapters_slack-4.9.2-py3-none-any.whl.zip tmp/botbuilder_adapters_slack-4.9.3-py3-none-any.whl.zip --markdown 20230531/b/botbuilder-adapters-slack/4.9.2-4.9.3/diff.md --exclude *.pyd
+[2023-05-31 15:42:18] INFO root fetch - processPackages [hummuspy]: Start processing: botbuilder-azure
+[2023-05-31 15:42:18] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-31 15:42:18] INFO root fetch - processPackages [botbuilder-applicationinsights]: Downloading https://files.pythonhosted.org/packages/fa/bb/be21b3b15cd0e8245c6bae549121605af36234f7978da13c5bdcff5b9373/botbuilder_applicationinsights-4.9.3-py3-none-any.whl
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-azure]: New version: [4.9.3] Old Version: [4.9.2]
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-applicationinsights]: executing diffoscope
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-applicationinsights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botbuilder_applicationinsights-4.9.2-py3-none-any.whl.zip tmp/botbuilder_applicationinsights-4.9.3-py3-none-any.whl.zip --markdown 20230531/b/botbuilder-applicationinsights/4.9.2-4.9.3/diff.md --exclude *.pyd
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-azure]: Downloading https://files.pythonhosted.org/packages/96/6e/65c8c39eccd807d964d1c74d338bca6bc4afebf2acad26ff1badc43e0bb6/botbuilder_azure-4.9.2-py3-none-any.whl
+[2023-05-31 15:42:19] INFO root fetch - processPackages [thrivve-core]: Start processing: botbuilder-core
+[2023-05-31 15:42:19] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-31 15:42:19] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-05-31 15:42:19] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-core]: New version: [4.9.3] Old Version: [4.9.2]
+[2023-05-31 15:42:19] INFO root fetch - main [MainThread]: End processing [botbuilder-ai]: success
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-azure]: Downloading https://files.pythonhosted.org/packages/70/02/00456b26565522f830444aa8f01943409f8d4e303afd2e741aef965ec184/botbuilder_azure-4.9.3-py3-none-any.whl
+[2023-05-31 15:42:19] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-core]: Downloading https://files.pythonhosted.org/packages/4c/51/3a5e2e09caea1048174e7cc797fad725f1a9b12590a0d94d05aeba679428/botbuilder_core-4.9.2-py3-none-any.whl
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-azure]: executing diffoscope
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botbuilder_azure-4.9.2-py3-none-any.whl.zip tmp/botbuilder_azure-4.9.3-py3-none-any.whl.zip --markdown 20230531/b/botbuilder-azure/4.9.2-4.9.3/diff.md --exclude *.pyd
+[2023-05-31 15:42:19] INFO root fetch - main [MainThread]: End processing [botbuilder-adapters-slack]: success
+[2023-05-31 15:42:19] INFO root fetch - processPackages [botbuilder-core]: Downloading https://files.pythonhosted.org/packages/22/e4/b4585a3f45b3434f60bb6d5fda69988e32314abe7868fe119d5e01b907f3/botbuilder_core-4.9.3-py3-none-any.whl
+[2023-05-31 15:42:20] INFO root fetch - processPackages [botbuilder-core]: executing diffoscope
+[2023-05-31 15:42:20] INFO root fetch - processPackages [botbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botbuilder_core-4.9.2-py3-none-any.whl.zip tmp/botbuilder_core-4.9.3-py3-none-any.whl.zip --markdown 20230531/b/botbuilder-core/4.9.2-4.9.3/diff.md --exclude *.pyd
+[2023-05-31 15:42:20] INFO root fetch - main [MainThread]: End processing [botbuilder-applicationinsights]: success
+[2023-05-31 15:42:20] INFO root fetch - main [MainThread]: End processing [botbuilder-azure]: success
+[2023-05-31 15:42:21] INFO root fetch - main [MainThread]: End processing [botbuilder-core]: success
+[2023-05-31 15:42:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-31 15:42:34] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-31 15:42:34] INFO root fetch - main [MainThread]: Store serial: [18317521]
