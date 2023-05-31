@@ -20823,3 +20823,65 @@
 [2023-05-31 19:09:01] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
 [2023-05-31 19:09:06] INFO root fetch - main [MainThread]: End processing [stcal]: success
 [2023-05-31 19:09:06] INFO root fetch - main [MainThread]: Store serial: [18320277]
+[2023-05-31 19:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320277]
+[2023-05-31 19:14:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OBP-devops
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bytez
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sherbystats
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphpro
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seleniumbot
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplebox
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Qmlview
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelpack
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: defog
+[2023-05-31 19:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DE-DataBaseConnect
+[2023-05-31 19:14:15] INFO root fetch - processPackages [sherbystats]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [graphpro]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [seleniumbot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [OBP-devops]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a156] Old Version: [0.0.1a155]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [Qmlview]: New version: [3.2.2b5] Old Version: [3.2.2b4]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [bytez]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [modelpack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 19:14:15] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-05-31 19:14:15] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230531/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 19:14:15] INFO root fetch - processPackages [Qmlview]: Downloading https://files.pythonhosted.org/packages/74/a4/d9a4e42862554da9da1fe15850177cb031ec891a23e1ee29fbdccbe290ce/Qmlview-3.2.2b4.tar.gz
+[2023-05-31 19:14:15] INFO root fetch - processPackages [graphpro]: Downloading https://files.pythonhosted.org/packages/99/85/93d48379fc849ea833c9e89f1ae400216d027781c0656ddac6a088ae3ed2/graphpro-0.3.6.tar.gz
+[2023-05-31 19:14:15] INFO root fetch - processPackages [sherbystats]: Downloading https://files.pythonhosted.org/packages/e4/7b/a12146e99aa0a4e21c022123f1981824d9cc7e6603c9668d6deeea92b993/sherbystats-0.0.8.tar.gz
+[2023-05-31 19:14:15] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/86/ea/6579e1f9c6828d6838d1d2d5da83c787eef5550db3c43752614b14d5cb6b/DE_DataBaseConnect-0.0.71.tar.gz
+[2023-05-31 19:14:15] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/6f/57/4e68ae108718ff5be45c118ffbb08780cb5ac0a9e5bce14d2f5e99f44be0/simplebox-0.0.1a156-py3-none-any.whl
+[2023-05-31 19:14:15] WARNING root fetch - processPackages [Qmlview]: Skipping package: exceeds size limit 11342787>=10485760
+[2023-05-31 19:14:15] INFO root fetch - main [MainThread]: End processing [Qmlview] error
+[2023-05-31 19:14:15] INFO root fetch - processPackages [seleniumbot]: Downloading https://files.pythonhosted.org/packages/88/87/0a13eb69683f51be616a1e7aa6b23c03acddddb667ce638a6d330dc825be/seleniumbot-0.0.6.tar.gz
+[2023-05-31 19:14:15] INFO root fetch - processPackages [modelpack]: Downloading https://files.pythonhosted.org/packages/6c/e5/688371879b71260df67bfa54bee5af8e666e2222926cd3664551dbabd2b1/modelpack-2.0.8-cp39-cp39-win_amd64.whl
+[2023-05-31 19:14:16] INFO root fetch - processPackages [graphpro]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [graphpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphpro-0.3.5.tar.gz tmp/graphpro-0.3.6.tar.gz --markdown 20230531/g/graphpro/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-31 19:14:16] INFO root fetch - processPackages [seleniumbot]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [seleniumbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbot-0.0.5.tar.gz tmp/seleniumbot-0.0.6.tar.gz --markdown 20230531/s/seleniumbot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 19:14:16] INFO root fetch - processPackages [OBP-devops]: Downloading https://files.pythonhosted.org/packages/f0/2a/727679f03c0ca5d8d82566091b7e622f7a11ef05bbfcf58dac1f6ab82973/OBP_devops-0.0.2.tar.gz
+[2023-05-31 19:14:16] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a155-py3-none-any.whl.zip tmp/simplebox-0.0.1a156-py3-none-any.whl.zip --markdown 20230531/s/simplebox/0.0.1a155-0.0.1a156/diff.md --exclude *.pyd
+[2023-05-31 19:14:16] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.98.tar.gz tmp/bytez-0.1.99.tar.gz --markdown 20230531/b/bytez/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 19:14:16] INFO root fetch - processPackages [sherbystats]: Downloading https://files.pythonhosted.org/packages/62/37/82696674be7cc19593237fb5c490e19b384059a1647d0f5ddb4a2bbc17e8/sherbystats-0.0.9.tar.gz
+[2023-05-31 19:14:16] INFO root fetch - processPackages [sherbystats]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [sherbystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherbystats-0.0.8.tar.gz tmp/sherbystats-0.0.9.tar.gz --markdown 20230531/s/sherbystats/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:14:16] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/e6/6f/1e9d9836babd4700ae7db88caef5c5c01b0df63c856c448b21fbe11e0892/DE_DataBaseConnect-0.0.72.tar.gz
+[2023-05-31 19:14:16] INFO root fetch - processPackages [OBP-devops]: Downloading https://files.pythonhosted.org/packages/99/ac/c0ab9cbc5aea589e76fa1a08d1b4db5fd7b31bc0a2c56eac4f743243f95e/OBP_devops-0.1.0.tar.gz
+[2023-05-31 19:14:16] WARNING root fetch - processPackages [modelpack]: Skipping package: exceeds size limit 91008962>=10485760
+[2023-05-31 19:14:16] INFO root fetch - main [MainThread]: End processing [modelpack] error
+[2023-05-31 19:14:16] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DE_DataBaseConnect-0.0.71.tar.gz tmp/DE_DataBaseConnect-0.0.72.tar.gz --markdown 20230531/D/DE-DataBaseConnect/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-05-31 19:14:16] INFO root fetch - processPackages [OBP-devops]: executing diffoscope
+[2023-05-31 19:14:16] INFO root fetch - processPackages [OBP-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_devops-0.0.2.tar.gz tmp/OBP_devops-0.1.0.tar.gz --markdown 20230531/O/OBP-devops/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [seleniumbot]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [graphpro]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [sherbystats]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: End processing [OBP-devops]: success
+[2023-05-31 19:14:17] INFO root fetch - main [MainThread]: Store serial: [18320303]
