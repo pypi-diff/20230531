@@ -20263,3 +20263,123 @@
 [2023-05-31 18:36:35] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-05-31 18:36:38] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2023-05-31 18:36:38] INFO root fetch - main [MainThread]: Store serial: [18319961]
+[2023-05-31 18:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319961]
+[2023-05-31 18:41:48] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: relativedate
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-request
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feathub-nightly
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparclclient
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezmail
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyechorobotics
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utility-stella
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: didas
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cabinet
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: civicutils
+[2023-05-31 18:41:48] INFO root fetch - processPackages [ezmail]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [utility-stella]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [cabinet]: New version: [2023.5.31.3] Old Version: [2023.5.31.2]
+[2023-05-31 18:41:48] WARNING root fetch - processPackages [pyechorobotics]: Skipping, unable to determine old version
+[2023-05-31 18:41:48] INFO root fetch - processPackages [pyechorobotics]: Start processing: geti-sdk
+[2023-05-31 18:41:48] INFO root fetch - main [MainThread]: End processing [pyechorobotics] error
+[2023-05-31 18:41:48] INFO root fetch - processPackages [didas]: New version: [3.0.1rc1] Old Version: [3.0.0]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [relativedate]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.6.1.dev2] Old Version: [14.0.1.6.1.dev1]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [sparclclient]: New version: [1.2.0b4.dev2] Old Version: [1.2.0b4.dev1]
+[2023-05-31 18:41:48] WARNING root fetch - processPackages [civicutils]: Skipping, unable to determine old version
+[2023-05-31 18:41:48] INFO root fetch - processPackages [civicutils]: Start processing: edx-enterprise
+[2023-05-31 18:41:48] INFO root fetch - main [MainThread]: End processing [civicutils] error
+[2023-05-31 18:41:48] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-05-31 18:41:48] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230531] Old Version: [0.1.dev20230530]
+[2023-05-31 18:41:49] INFO root fetch - processPackages [utility-stella]: Downloading https://files.pythonhosted.org/packages/92/3c/317e68660ed256ca2dcf79b07d7b68224e2d8eba2f23a14067d85721417f/utility_stella-0.0.1.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [ezmail]: Downloading https://files.pythonhosted.org/packages/03/93/d34dad4d06524cd2e3efeda5d71bd6c49ed5bea3e8c0158854383d952111/ezmail-1.0.1.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/72/e3/fad685052fd307c45b32fda1244ca86ed2ee7b95b7436b4a605a6b442744/cabinet-2023.5.31.3.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [didas]: Downloading https://files.pythonhosted.org/packages/4a/03/ce6648731626da46c9d1b284b1a33e7713cc50c90a8ed6f66bc6fd045c17/didas-3.0.0.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/5d/7d/61990addb33afee282a445fc17e7d38585990caab1103134210c7fe41490/feathub_nightly-0.1.dev20230530-py3-none-any.whl
+[2023-05-31 18:41:49] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.5.31.2.tar.gz tmp/cabinet-2023.5.31.3.tar.gz --markdown 20230531/c/cabinet/2023.5.31.2-2023.5.31.3/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12200786>=10485760
+[2023-05-31 18:41:49] INFO root fetch - processPackages [feathub-nightly]: Start processing: skoufas-dbf-reader
+[2023-05-31 18:41:49] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-31 18:41:49] INFO root fetch - processPackages [skoufas-dbf-reader]: New version: [0.0.2rc152.post1] Old Version: [0.0.2rc140.post1]
+[2023-05-31 18:41:49] INFO root fetch - processPackages [relativedate]: Downloading https://files.pythonhosted.org/packages/8b/d4/da7c9da70fc18e499c3b86ee2857aa7970dbf4f1fa3ac63747702b57d2a5/relativedate-1.3.3.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [ezmail]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [ezmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezmail-1.0.0.tar.gz tmp/ezmail-1.0.1.tar.gz --markdown 20230531/e/ezmail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.6.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.6.1.dev2-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-stock-request/14.0.1.6.1.dev1-14.0.1.6.1.dev2/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/24/4b/8f7118d272edb83ef2e5bfe91f6ce86f03ba36899dcb8d1a47522a8c6972/geti-sdk-1.5.7.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [sparclclient]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [sparclclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparclclient-1.2.0b4.dev1-py3-none-any.whl.zip tmp/sparclclient-1.2.0b4.dev2-py3-none-any.whl.zip --markdown 20230531/s/sparclclient/1.2.0b4.dev1-1.2.0b4.dev2/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [utility-stella]: Downloading https://files.pythonhosted.org/packages/ad/b6/4d86624ed01e17df3b220dc9575f6b6dff8ba47552b9600ba356b9ac157a/utility_stella-0.0.2.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [didas]: Downloading https://files.pythonhosted.org/packages/ca/9d/f93ae0d4be858a015d946277287f05016a8fad6379a844c27799b4b96fb4/didas-3.0.1rc1.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [relativedate]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [relativedate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relativedate-1.3.2.tar.gz tmp/relativedate-1.3.3.tar.gz --markdown 20230531/r/relativedate/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/46/be/8da099f9d1a3f7b0d70e8ee717661708ae483de179b198107c1cfd4de85e/skoufas-dbf-reader-0.0.2rc140.post1.tar.gz
+[2023-05-31 18:41:49] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230531/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [didas]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [didas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didas-3.0.0.tar.gz tmp/didas-3.0.1rc1.tar.gz --markdown 20230531/d/didas/3.0.0-3.0.1rc1/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.6.tar.gz tmp/geti-sdk-1.5.7.tar.gz --markdown 20230531/g/geti-sdk/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-05-31 18:41:49] INFO root fetch - processPackages [utility-stella]: executing diffoscope
+[2023-05-31 18:41:49] INFO root fetch - processPackages [utility-stella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utility_stella-0.0.1.tar.gz tmp/utility_stella-0.0.2.tar.gz --markdown 20230531/u/utility-stella/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 18:41:50] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/93/35/c9cb406f4560d383349428656b13588afaf2247ebde76672524f6294c51e/skoufas_dbf_reader-0.0.2rc152.post1.tar.gz
+[2023-05-31 18:41:50] INFO root fetch - processPackages [skoufas-dbf-reader]: executing diffoscope
+[2023-05-31 18:41:50] INFO root fetch - processPackages [skoufas-dbf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skoufas-dbf-reader-0.0.2rc140.post1.tar.gz tmp/skoufas_dbf_reader-0.0.2rc152.post1.tar.gz --markdown 20230531/s/skoufas-dbf-reader/0.0.2rc140.post1-0.0.2rc152.post1/diff.md --exclude *.pyd
+[2023-05-31 18:41:50] INFO root fetch - processPackages [sparclclient]: Start processing: bvslusa
+[2023-05-31 18:41:50] INFO root fetch - main [MainThread]: End processing [sparclclient]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [relativedate]: Start processing: scaleapi
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [relativedate]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [bvslusa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 18:41:51] INFO root fetch - processPackages [scaleapi]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 18:41:51] INFO root fetch - processPackages [cabinet]: Start processing: mlflow-watsonml
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [mlflow-watsonml]: New version: [0.7.3] Old Version: [0.6.3]
+[2023-05-31 18:41:51] INFO root fetch - processPackages [ezmail]: Start processing: fastkafka
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [ezmail]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [fastkafka]: New version: [0.7.0rc2] Old Version: [0.7.0rc1]
+[2023-05-31 18:41:51] INFO root fetch - processPackages [scaleapi]: executing diffoscope
+[2023-05-31 18:41:51] INFO root fetch - processPackages [scaleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleapi-2.8.0.tar.gz tmp/scaleapi-2.9.0.tar.gz --markdown 20230531/s/scaleapi/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 18:41:51] INFO root fetch - processPackages [bvslusa]: Downloading https://files.pythonhosted.org/packages/a7/f4/09aa6081df9ecc63fce0591142b2e31c75b65383bd2e5d2706d1d8606c76/bvslusa-0.0.1.tar.gz
+[2023-05-31 18:41:51] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-05-31 18:41:51] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.7.0rc1.tar.gz tmp/fastkafka-0.7.0rc2.tar.gz --markdown 20230531/f/fastkafka/0.7.0rc1-0.7.0rc2/diff.md --exclude *.pyd
+[2023-05-31 18:41:51] INFO root fetch - processPackages [didas]: Start processing: shbin
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [didas]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [mlflow-watsonml]: Downloading https://files.pythonhosted.org/packages/2e/f7/f37ec308bbbb22c81f5046b729b938535e703b0f16775d6a2e8f73340042/mlflow-watsonml-0.6.3.tar.gz
+[2023-05-31 18:41:51] INFO root fetch - processPackages [shbin]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 18:41:51] INFO root fetch - processPackages [utility-stella]: Start processing: git-darcs
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [utility-stella]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [git-darcs]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 18:41:51] INFO root fetch - processPackages [bvslusa]: Downloading https://files.pythonhosted.org/packages/34/9d/ea070c6355a5982d079657bd8fd4d685ba971913489ebe3044fcd2b6c031/bvslusa-0.0.2.tar.gz
+[2023-05-31 18:41:51] INFO root fetch - processPackages [git-darcs]: Downloading https://files.pythonhosted.org/packages/f1/59/f385f0603222f645788c9b6253ee8479362e8220892cd33620fbac38dbfc/git_darcs-0.9.1.tar.gz
+[2023-05-31 18:41:51] INFO root fetch - processPackages [bvslusa]: executing diffoscope
+[2023-05-31 18:41:51] INFO root fetch - processPackages [bvslusa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvslusa-0.0.1.tar.gz tmp/bvslusa-0.0.2.tar.gz --markdown 20230531/b/bvslusa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 18:41:51] INFO root fetch - processPackages [mlflow-watsonml]: Downloading https://files.pythonhosted.org/packages/e8/b3/ca1a1bf04df146c37d375e8156ef2aa6544b26f00247cb953cda5d71ac07/mlflow-watsonml-0.7.3.tar.gz
+[2023-05-31 18:41:51] INFO root fetch - processPackages [git-darcs]: executing diffoscope
+[2023-05-31 18:41:51] INFO root fetch - processPackages [git-darcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_darcs-0.9.0.tar.gz tmp/git_darcs-0.9.1.tar.gz --markdown 20230531/g/git-darcs/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 18:41:51] INFO root fetch - processPackages [shbin]: Downloading https://files.pythonhosted.org/packages/c7/f6/80411913bc948f27782d7edf95be00ac13c46f47b4788bee2287983670cd/shbin-0.3.0.tar.gz
+[2023-05-31 18:41:51] INFO root fetch - processPackages [mlflow-watsonml]: executing diffoscope
+[2023-05-31 18:41:51] INFO root fetch - processPackages [mlflow-watsonml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-watsonml-0.6.3.tar.gz tmp/mlflow-watsonml-0.7.3.tar.gz --markdown 20230531/m/mlflow-watsonml/0.6.3-0.7.3/diff.md --exclude *.pyd
+[2023-05-31 18:41:51] INFO root fetch - processPackages [odoo14-addon-stock-request]: Start processing: ottrlib
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-05-31 18:41:51] INFO root fetch - processPackages [shbin]: executing diffoscope
+[2023-05-31 18:41:51] INFO root fetch - processPackages [shbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shbin-0.2.0.tar.gz tmp/shbin-0.3.0.tar.gz --markdown 20230531/s/shbin/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 18:41:51] WARNING root fetch - processPackages [ottrlib]: Skipping, unable to determine old version
+[2023-05-31 18:41:51] INFO root fetch - processPackages [ottrlib]: Start processing: pyechorobotics
+[2023-05-31 18:41:51] INFO root fetch - main [MainThread]: End processing [ottrlib] error
+[2023-05-31 18:41:51] INFO root fetch - processPackages [pyechorobotics]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 18:41:52] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/43/c0/7bdace574efe5b327296b2ebe97307cd57d03be62013b17b07c064cfac88/pyechorobotics-0.0.1.tar.gz
+[2023-05-31 18:41:52] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/39/72/9d7dca34001f4a4807485c0af8b85a1cdda1bc24793dc23e5ac16abbf916/pyechorobotics-0.0.2.tar.gz
+[2023-05-31 18:41:52] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-05-31 18:41:52] INFO root fetch - processPackages [pyechorobotics]: executing diffoscope
+[2023-05-31 18:41:52] INFO root fetch - processPackages [pyechorobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyechorobotics-0.0.1.tar.gz tmp/pyechorobotics-0.0.2.tar.gz --markdown 20230531/p/pyechorobotics/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 18:41:52] INFO root fetch - main [MainThread]: End processing [scaleapi]: success
+[2023-05-31 18:41:52] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-05-31 18:41:52] INFO root fetch - main [MainThread]: End processing [bvslusa]: success
+[2023-05-31 18:41:53] INFO root fetch - main [MainThread]: End processing [mlflow-watsonml]: success
+[2023-05-31 18:41:53] INFO root fetch - main [MainThread]: End processing [shbin]: success
+[2023-05-31 18:41:53] INFO root fetch - main [MainThread]: End processing [git-darcs]: success
+[2023-05-31 18:41:53] INFO root fetch - main [MainThread]: End processing [pyechorobotics]: success
+[2023-05-31 18:41:54] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-05-31 18:42:07] INFO root fetch - main [MainThread]: End processing [skoufas-dbf-reader]: success
+[2023-05-31 18:42:07] INFO root fetch - main [MainThread]: Store serial: [18320030]
