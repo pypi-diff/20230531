@@ -7339,3 +7339,30 @@
 [2023-05-31 05:34:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-relative]: success
 [2023-05-31 05:34:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-personal-equipment-request-tier-validation]: success
 [2023-05-31 05:34:30] INFO root fetch - main [MainThread]: Store serial: [18312091]
+[2023-05-31 05:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312091]
+[2023-05-31 05:39:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyRVC
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuto
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ia-wumpus
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ez-colab
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-gui
+[2023-05-31 05:39:39] WARNING root fetch - processPackages [ez-colab]: Skipping, unable to determine old version
+[2023-05-31 05:39:39] INFO root fetch - main [MainThread]: End processing [ez-colab] error
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ia-wumpus]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-31 05:39:39] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 05:39:39] INFO root fetch - processPackages [PyRVC]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-31 05:39:39] WARNING root fetch - processPackages [abstract-gui]: Skipping, unable to determine old version
+[2023-05-31 05:39:39] INFO root fetch - main [MainThread]: End processing [abstract-gui] error
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ia-wumpus]: Downloading https://files.pythonhosted.org/packages/82/3a/ceb50aacae372bbde3637f4c36f97ac7449d353dea4b5e577d31af820ed7/ia_wumpus-0.3.8.tar.gz
+[2023-05-31 05:39:39] INFO root fetch - processPackages [PyRVC]: Downloading https://files.pythonhosted.org/packages/90/db/7375ce44c621737dfd96eb54a3c56d4ceef93f13ef3df985375800569cd6/PyRVC-1.7.0-cp310-cp310-linux-x86_64.egg
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ia-wumpus]: executing diffoscope
+[2023-05-31 05:39:39] INFO root fetch - processPackages [ia-wumpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia_wumpus-0.3.7.tar.gz tmp/ia_wumpus-0.3.8.tar.gz --markdown 20230531/i/ia-wumpus/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-31 05:39:39] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-31 05:39:39] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230531/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 05:39:40] INFO root fetch - processPackages [PyRVC]: Downloading https://files.pythonhosted.org/packages/d7/03/93647de2ee598007d3f30af17212b632f3b3b9c7cda438d7c05d81bd113c/PyRVC-1.7.1-cp37-cp37m-win_amd64.whl
+[2023-05-31 05:39:40] INFO root fetch - processPackages [PyRVC]: executing diffoscope
+[2023-05-31 05:39:40] INFO root fetch - processPackages [PyRVC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyRVC-1.7.0-cp310-cp310-linux-x86_64.egg tmp/PyRVC-1.7.1-cp37-cp37m-win_amd64.whl.zip --markdown 20230531/P/PyRVC/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-31 05:39:40] INFO root fetch - main [MainThread]: End processing [ia-wumpus]: success
+[2023-05-31 05:39:40] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-31 05:39:41] INFO root fetch - main [MainThread]: End processing [PyRVC]: success
+[2023-05-31 05:39:41] INFO root fetch - main [MainThread]: Store serial: [18312104]
