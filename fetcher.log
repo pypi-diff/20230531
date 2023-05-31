@@ -20590,3 +20590,113 @@
 [2023-05-31 18:57:49] INFO root fetch - main [MainThread]: End processing [rekono-cli]: success
 [2023-05-31 18:58:28] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-05-31 18:58:28] INFO root fetch - main [MainThread]: Store serial: [18320141]
+[2023-05-31 19:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320141]
+[2023-05-31 19:03:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyMieSim
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kedro
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emailcrawl1
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MPSPlots
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphpro
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textworld
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robusta-cli
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: starbear
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-metadata-service
+[2023-05-31 19:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meltano-tap-linkedin-ads
+[2023-05-31 19:03:37] INFO root fetch - processPackages [PyMieSim]: New version: [0.11.2] Old Version: [0.11.1]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [kedro]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [MPSPlots]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [emailcrawl1]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [graphpro]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-31 19:03:37] WARNING root fetch - processPackages [meltano-tap-linkedin-ads]: Skipping, unable to determine old version
+[2023-05-31 19:03:37] INFO root fetch - processPackages [meltano-tap-linkedin-ads]: Start processing: spark-rapids-user-tools
+[2023-05-31 19:03:37] INFO root fetch - main [MainThread]: End processing [meltano-tap-linkedin-ads] error
+[2023-05-31 19:03:37] INFO root fetch - processPackages [textworld]: New version: [1.5.4rc6] Old Version: [1.5.4rc5]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [starbear]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [kedro]: Downloading https://files.pythonhosted.org/packages/23/1a/50d6b7065ca75273f99faf3f700a3979a6a1a7c2e80a2423426cf6a766ee/kedro-0.18.8.tar.gz
+[2023-05-31 19:03:37] ERROR root fetch - processPackages [PyMieSim]: Unable to fetch info: No such project/version 'PyMieSim' 0.11.1
+[2023-05-31 19:03:37] INFO root fetch - processPackages [PyMieSim]: Start processing: agenta
+[2023-05-31 19:03:37] INFO root fetch - main [MainThread]: End processing [PyMieSim] error
+[2023-05-31 19:03:37] INFO root fetch - processPackages [spark-rapids-user-tools]: New version: [23.4.1] Old Version: [23.4.0]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [emailcrawl1]: Downloading https://files.pythonhosted.org/packages/a3/58/74753133ff89fd666429207ad65b385d36116e9badec31817acb58375abc/emailcrawl1-0.0.2.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [MPSPlots]: Downloading https://files.pythonhosted.org/packages/1b/16/0d8a0764f0c897dd584d3fe2d4f2f492213547b0f17081706f47ffe63a9a/MPSPlots-0.3.8-py3-none-any.whl
+[2023-05-31 19:03:37] INFO root fetch - processPackages [graphpro]: Downloading https://files.pythonhosted.org/packages/2e/e4/5aaa8e78f4076ead4c67b7b4045e5b99a8afd440dbe4222185da7ff96a4c/graphpro-0.3.5.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/0c/64/bd406f8acce02ed41ba91a0a0f60809196f9efa879c48822606df80ac8a4/textworld-1.5.4rc6.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [agenta]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 19:03:37] INFO root fetch - processPackages [starbear]: Downloading https://files.pythonhosted.org/packages/81/d6/6c0be39baabce8a3a2f9d01a4715516b59c79111d39e92265b137363faf7/starbear-0.0.2.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [graphpro]: executing diffoscope
+[2023-05-31 19:03:37] INFO root fetch - processPackages [graphpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphpro-0.3.4.tar.gz tmp/graphpro-0.3.5.tar.gz --markdown 20230531/g/graphpro/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-31 19:03:37] INFO root fetch - processPackages [spark-rapids-user-tools]: Downloading https://files.pythonhosted.org/packages/54/7c/14a219c3a65cce593d00ddb449db30e309371d6a70281934026c0050352d/spark_rapids_user_tools-23.4.0-127_7804c08-py3-none-any.whl
+[2023-05-31 19:03:37] INFO root fetch - processPackages [kedro]: Downloading https://files.pythonhosted.org/packages/aa/53/6a90bfe0b53ad0fc35c180ef617dd06424f09b123e188f4b85586a95d5be/kedro-0.18.9.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/65/27/8e740f0b99677064dc6bb08c2bb4db5a60df240fcfa521d909eb16f6251c/aind_metadata_service-0.4.4.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f9/43/b4d266bdd4e869be4baa68bea6aa36380b7add6515c7d7bd8b4350d104ca/agenta-0.1.2.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [textworld]: executing diffoscope
+[2023-05-31 19:03:37] INFO root fetch - processPackages [textworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textworld-1.5.4rc5.tar.gz tmp/textworld-1.5.4rc6.tar.gz --markdown 20230531/t/textworld/1.5.4rc5-1.5.4rc6/diff.md --exclude *.pyd
+[2023-05-31 19:03:37] INFO root fetch - processPackages [MPSPlots]: Downloading https://files.pythonhosted.org/packages/29/a0/5fe107b9d2936d29569831fb0275d2cd50961aaecb7dd1e0c9f7b8d8fd7a/MPSPlots-0.3.9-py3-none-any.whl
+[2023-05-31 19:03:37] INFO root fetch - processPackages [emailcrawl1]: Downloading https://files.pythonhosted.org/packages/d3/0f/06628890d3bac4fd6f1b8a0db46a8d91e15dc7f34c53b4698708b764d734/emailcrawl1-0.0.3.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-05-31 19:03:37] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230531/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-31 19:03:37] INFO root fetch - processPackages [starbear]: Downloading https://files.pythonhosted.org/packages/3c/9a/d458e644723ff99d855dfaf965b0e9e20f529554c819a86629ea671fe505/starbear-0.0.3.tar.gz
+[2023-05-31 19:03:37] INFO root fetch - processPackages [kedro]: executing diffoscope
+[2023-05-31 19:03:37] INFO root fetch - processPackages [kedro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-0.18.8.tar.gz tmp/kedro-0.18.9.tar.gz --markdown 20230531/k/kedro/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-31 19:03:37] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-05-31 19:03:37] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.8-py3-none-any.whl.zip tmp/MPSPlots-0.3.9-py3-none-any.whl.zip --markdown 20230531/M/MPSPlots/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 19:03:38] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2023-05-31 19:03:38] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.4.3.tar.gz tmp/aind_metadata_service-0.4.4.tar.gz --markdown 20230531/a/aind-metadata-service/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-31 19:03:38] INFO root fetch - processPackages [emailcrawl1]: executing diffoscope
+[2023-05-31 19:03:38] INFO root fetch - processPackages [emailcrawl1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailcrawl1-0.0.2.tar.gz tmp/emailcrawl1-0.0.3.tar.gz --markdown 20230531/e/emailcrawl1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 19:03:38] INFO root fetch - processPackages [starbear]: executing diffoscope
+[2023-05-31 19:03:38] INFO root fetch - processPackages [starbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starbear-0.0.2.tar.gz tmp/starbear-0.0.3.tar.gz --markdown 20230531/s/starbear/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 19:03:38] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/cf/60/5be1084e67c2f36a189d7467fd24bad21941c01cb3cc69d9a708eeba7132/agenta-0.1.3.tar.gz
+[2023-05-31 19:03:38] INFO root fetch - processPackages [spark-rapids-user-tools]: Downloading https://files.pythonhosted.org/packages/75/f1/2c163ad013c3a35d854852fc5b4903fde68efc4b76038f760444a92fec16/spark_rapids_user_tools-23.4.1-137_b601490-py3-none-any.whl
+[2023-05-31 19:03:38] INFO root fetch - processPackages [spark-rapids-user-tools]: executing diffoscope
+[2023-05-31 19:03:38] INFO root fetch - processPackages [spark-rapids-user-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_rapids_user_tools-23.4.0-127_7804c08-py3-none-any.whl.zip tmp/spark_rapids_user_tools-23.4.1-137_b601490-py3-none-any.whl.zip --markdown 20230531/s/spark-rapids-user-tools/23.4.0-23.4.1/diff.md --exclude *.pyd
+[2023-05-31 19:03:38] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-05-31 19:03:38] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.2.tar.gz tmp/agenta-0.1.3.tar.gz --markdown 20230531/a/agenta/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 19:03:39] INFO root fetch - processPackages [emailcrawl1]: Start processing: pytomography
+[2023-05-31 19:03:39] INFO root fetch - main [MainThread]: End processing [emailcrawl1]: success
+[2023-05-31 19:03:39] INFO root fetch - processPackages [MPSPlots]: Start processing: s2aff
+[2023-05-31 19:03:39] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-05-31 19:03:39] INFO root fetch - processPackages [pytomography]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-31 19:03:39] INFO root fetch - processPackages [s2aff]: New version: [0.59] Old Version: [0.58]
+[2023-05-31 19:03:39] INFO root fetch - processPackages [graphpro]: Start processing: agenta
+[2023-05-31 19:03:39] INFO root fetch - main [MainThread]: End processing [graphpro]: success
+[2023-05-31 19:03:39] INFO root fetch - processPackages [agenta]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 19:03:39] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-05-31 19:03:39] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.2.tar.gz tmp/agenta-0.1.3.tar.gz --markdown 20230531/a/agenta/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 19:03:40] INFO root fetch - processPackages [pytomography]: Downloading https://files.pythonhosted.org/packages/cf/7e/fefc0a352d7d125d39739260cbf5a62adeb81075ec6a2ba337fb06ec2949/pytomography-0.6.0.tar.gz
+[2023-05-31 19:03:40] INFO root fetch - processPackages [agenta]: Start processing: wifi-guard
+[2023-05-31 19:03:40] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-05-31 19:03:40] INFO root fetch - processPackages [wifi-guard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 19:03:40] WARNING root fetch - processPackages [pytomography]: Skipping package: exceeds size limit 17099361>=10485760
+[2023-05-31 19:03:40] INFO root fetch - processPackages [pytomography]: Start processing: determined
+[2023-05-31 19:03:40] INFO root fetch - main [MainThread]: End processing [pytomography] error
+[2023-05-31 19:03:40] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/c5/94/6bfcdc0d91c266622fb44c146e234cc4a248b3231b2266773b9e50230d1d/s2aff-0.59.tar.gz
+[2023-05-31 19:03:40] INFO root fetch - processPackages [determined]: New version: [0.23.0rc0] Old Version: [0.22.2rc1]
+[2023-05-31 19:03:40] INFO root fetch - processPackages [starbear]: Start processing: model-hub
+[2023-05-31 19:03:40] INFO root fetch - main [MainThread]: End processing [starbear]: success
+[2023-05-31 19:03:40] INFO root fetch - processPackages [model-hub]: New version: [0.23.0rc0] Old Version: [0.22.2rc1]
+[2023-05-31 19:03:40] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-31 19:03:40] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.58.tar.gz tmp/s2aff-0.59.tar.gz --markdown 20230531/s/s2aff/0.58-0.59/diff.md --exclude *.pyd
+[2023-05-31 19:03:40] INFO root fetch - processPackages [wifi-guard]: Downloading https://files.pythonhosted.org/packages/b4/e0/95d20cf754997892795b8f77ae4f03d53b8e8dba36289b536b34eb7fa873/wifi_guard-0.0.1-py3-none-any.whl
+[2023-05-31 19:03:40] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-05-31 19:03:40] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/9c/73/9c6628953d0f40b62a49371e6e32fb620867ad1490bf703b73d633837206/determined-0.23.0rc0-py3-none-any.whl
+[2023-05-31 19:03:40] INFO root fetch - processPackages [wifi-guard]: Downloading https://files.pythonhosted.org/packages/7a/6c/c286ab1a78d087bfbf239aa957a19d928773e6345f2c4684436ce14d8eea/wifi_guard-0.0.2-py3-none-any.whl
+[2023-05-31 19:03:40] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/7b/59/98ac15f617439273dd400686d0a68e23b8259266d85287fdd16a08264059/model_hub-0.23.0rc0-py3-none-any.whl
+[2023-05-31 19:03:40] INFO root fetch - processPackages [wifi-guard]: executing diffoscope
+[2023-05-31 19:03:40] INFO root fetch - processPackages [wifi-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wifi_guard-0.0.1-py3-none-any.whl.zip tmp/wifi_guard-0.0.2-py3-none-any.whl.zip --markdown 20230531/w/wifi-guard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 19:03:40] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-31 19:03:40] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.22.2rc1-py3-none-any.whl.zip tmp/determined-0.23.0rc0-py3-none-any.whl.zip --markdown 20230531/d/determined/0.22.2rc1-0.23.0rc0/diff.md --exclude *.pyd
+[2023-05-31 19:03:40] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-31 19:03:40] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.22.2rc1-py3-none-any.whl.zip tmp/model_hub-0.23.0rc0-py3-none-any.whl.zip --markdown 20230531/m/model-hub/0.22.2rc1-0.23.0rc0/diff.md --exclude *.pyd
+[2023-05-31 19:03:41] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2023-05-31 19:03:41] INFO root fetch - main [MainThread]: End processing [kedro]: success
+[2023-05-31 19:03:41] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-05-31 19:03:41] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-31 19:03:41] INFO root fetch - main [MainThread]: End processing [textworld]: success
+[2023-05-31 19:03:41] INFO root fetch - main [MainThread]: End processing [spark-rapids-user-tools]: success
+[2023-05-31 19:03:42] INFO root fetch - main [MainThread]: End processing [wifi-guard]: success
+[2023-05-31 19:03:42] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-31 19:03:46] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-31 19:03:46] INFO root fetch - main [MainThread]: Store serial: [18320215]
