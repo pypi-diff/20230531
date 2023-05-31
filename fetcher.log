@@ -20149,3 +20149,51 @@
 [2023-05-31 18:25:32] INFO root fetch - main [MainThread]: End processing [neuromllite]: success
 [2023-05-31 18:25:33] INFO root fetch - main [MainThread]: End processing [pdfo]: success
 [2023-05-31 18:25:33] INFO root fetch - main [MainThread]: Store serial: [18319825]
+[2023-05-31 18:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319825]
+[2023-05-31 18:30:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-for-messanger
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: referencing
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiny-ai-helper
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: propan
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iris-pex-embedded-python
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chiapos
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: su6
+[2023-05-31 18:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-notifications-sdk-preview
+[2023-05-31 18:30:42] INFO root fetch - processPackages [lib-for-messanger]: New version: [0.3] Old Version: [0.2]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [tiny-ai-helper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [propan]: New version: [0.1.2.6] Old Version: [0.1.2.5]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.716] Old Version: [0.1.715]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [su6]: New version: [0.7.2] Old Version: [0.7.0]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [chiapos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 18:30:42] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-31 18:30:42] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.715.tar.gz tmp/lusid-notifications-sdk-preview-0.1.716.tar.gz --markdown 20230531/l/lusid-notifications-sdk-preview/0.1.715-0.1.716/diff.md --exclude *.pyd
+[2023-05-31 18:30:42] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/28/5e/fb4fd94c427b6b5fb0673ef8f3f04177933743227cbd4ccb0c88c453a9d2/propan-0.1.2.6.tar.gz
+[2023-05-31 18:30:42] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/f7/25/8085161f287bbaba7b5c8b22a340446ce8e294ce0e63673870c04de661d4/iris_pex_embedded_python-2.3.1.tar.gz
+[2023-05-31 18:30:42] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/c1/8b/cc8a613bd39405de60886bb75d0967cfdf7b430f7c4d716e322ac903174b/lib_for_messanger-0.3.tar.gz
+[2023-05-31 18:30:42] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-05-31 18:30:42] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.2.5.tar.gz tmp/propan-0.1.2.6.tar.gz --markdown 20230531/p/propan/0.1.2.5-0.1.2.6/diff.md --exclude *.pyd
+[2023-05-31 18:30:42] INFO root fetch - processPackages [tiny-ai-helper]: Downloading https://files.pythonhosted.org/packages/67/b9/a8002bd44df5647c2e404e47cfd82abedb51ae58382a4ac06333e91f80b1/tiny_ai_helper-0.1.9.tar.gz
+[2023-05-31 18:30:42] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-05-31 18:30:42] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.3.0.tar.gz tmp/iris_pex_embedded_python-2.3.1.tar.gz --markdown 20230531/i/iris-pex-embedded-python/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-31 18:30:42] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/58/76/58e064fbcdf64f0c0f004ebc2d5140e66db0ae93224e63378671b8d752ad/su6-0.7.2.tar.gz
+[2023-05-31 18:30:43] INFO root fetch - processPackages [tiny-ai-helper]: executing diffoscope
+[2023-05-31 18:30:43] INFO root fetch - processPackages [tiny-ai-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_ai_helper-0.1.8.tar.gz tmp/tiny_ai_helper-0.1.9.tar.gz --markdown 20230531/t/tiny-ai-helper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 18:30:43] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-05-31 18:30:43] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.8.tar.gz tmp/chiapos-1.0.9.tar.gz --markdown 20230531/c/chiapos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 18:30:43] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-05-31 18:30:43] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230531/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 18:30:43] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-05-31 18:30:43] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-0.2.tar.gz tmp/lib_for_messanger-0.3.tar.gz --markdown 20230531/l/lib-for-messanger/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-31 18:30:43] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-05-31 18:30:43] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-0.7.0.tar.gz tmp/su6-0.7.2.tar.gz --markdown 20230531/s/su6/0.7.0-0.7.2/diff.md --exclude *.pyd
+[2023-05-31 18:30:44] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-05-31 18:30:44] INFO root fetch - main [MainThread]: End processing [tiny-ai-helper]: success
+[2023-05-31 18:30:44] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-05-31 18:30:44] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-05-31 18:30:44] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-31 18:30:45] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-05-31 18:30:45] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-05-31 18:31:15] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-05-31 18:31:15] INFO root fetch - main [MainThread]: Store serial: [18319871]
