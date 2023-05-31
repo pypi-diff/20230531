@@ -9097,3 +9097,31 @@
 [2023-05-31 08:29:41] INFO root fetch - main [MainThread]: End processing [blacksheep]: success
 [2023-05-31 08:29:41] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-05-31 08:29:41] INFO root fetch - main [MainThread]: Store serial: [18313225]
+[2023-05-31 08:34:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313225]
+[2023-05-31 08:34:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sailboat-gym
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-model-builder-ui
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catgpt
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordlist-dp
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ango
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ango]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 08:34:50] INFO root fetch - processPackages [catgpt]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-31 08:34:50] INFO root fetch - processPackages [oarepo-model-builder-ui]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-31 08:34:50] WARNING root fetch - processPackages [wordlist-dp]: Skipping, unable to determine old version
+[2023-05-31 08:34:50] WARNING root fetch - processPackages [sailboat-gym]: Skipping, unable to determine old version
+[2023-05-31 08:34:50] INFO root fetch - main [MainThread]: End processing [wordlist-dp] error
+[2023-05-31 08:34:50] INFO root fetch - main [MainThread]: End processing [sailboat-gym] error
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/14/9a/0ed66d876ca465110e1b4f36e518fc9ac5175d201797cce9367594521a52/ango-1.0.7.tar.gz
+[2023-05-31 08:34:50] INFO root fetch - processPackages [oarepo-model-builder-ui]: Downloading https://files.pythonhosted.org/packages/57/eb/f66c0fd7d670d87919d893588257b3a3a24b7fd1672d3ad0e0004f03768e/oarepo-model-builder-ui-4.0.3.tar.gz
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-05-31 08:34:50] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.0.6.tar.gz tmp/ango-1.0.7.tar.gz --markdown 20230531/a/ango/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 08:34:50] INFO root fetch - processPackages [oarepo-model-builder-ui]: executing diffoscope
+[2023-05-31 08:34:50] INFO root fetch - processPackages [oarepo-model-builder-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-ui-4.0.2.tar.gz tmp/oarepo-model-builder-ui-4.0.3.tar.gz --markdown 20230531/o/oarepo-model-builder-ui/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-31 08:34:50] INFO root fetch - processPackages [catgpt]: Downloading https://files.pythonhosted.org/packages/e4/1f/b74e0229dda3f28afc9aa2844d177b5b4161b71e7adbb99380d3991cec4f/catgpt-0.0.2.tar.gz
+[2023-05-31 08:34:50] INFO root fetch - processPackages [catgpt]: Downloading https://files.pythonhosted.org/packages/1c/3a/0cca53ed45d64093b3e44e94d14fb7d1d03a790a5fb7fd202e07bbfcbacf/catgpt-0.0.4.tar.gz
+[2023-05-31 08:34:51] INFO root fetch - processPackages [catgpt]: executing diffoscope
+[2023-05-31 08:34:51] INFO root fetch - processPackages [catgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catgpt-0.0.2.tar.gz tmp/catgpt-0.0.4.tar.gz --markdown 20230531/c/catgpt/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 08:34:51] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-ui]: success
+[2023-05-31 08:34:51] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-05-31 08:34:51] INFO root fetch - main [MainThread]: End processing [catgpt]: success
+[2023-05-31 08:34:51] INFO root fetch - main [MainThread]: Store serial: [18313245]
