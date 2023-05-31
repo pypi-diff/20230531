@@ -19199,3 +19199,106 @@
 [2023-05-31 17:28:51] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
 [2023-05-31 17:28:51] INFO root fetch - main [MainThread]: End processing [juice-core-uplink-api-client]: success
 [2023-05-31 17:28:51] INFO root fetch - main [MainThread]: Store serial: [18319150]
+[2023-05-31 17:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319150]
+[2023-05-31 17:34:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invoker-terminal
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: human-protocol-basemodels
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monome-druid
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ibm-cloud-sdk-core
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sh-expand
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rach-pack
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adder-xoxogamewolf
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: romancal
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: human-protocol-sdk
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: textworld
+[2023-05-31 17:34:00] INFO root fetch - processPackages [ibm-cloud-sdk-core]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-31 17:34:00] INFO root fetch - processPackages [sh-expand]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 17:34:01] WARNING root fetch - processPackages [adder-xoxogamewolf]: Skipping, unable to determine old version
+[2023-05-31 17:34:01] WARNING root fetch - processPackages [rach-pack]: Skipping, unable to determine old version
+[2023-05-31 17:34:01] INFO root fetch - processPackages [adder-xoxogamewolf]: Start processing: tasksource
+[2023-05-31 17:34:01] INFO root fetch - main [MainThread]: End processing [adder-xoxogamewolf] error
+[2023-05-31 17:34:01] INFO root fetch - processPackages [rach-pack]: Start processing: webscrapbook
+[2023-05-31 17:34:01] INFO root fetch - processPackages [invoker-terminal]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-05-31 17:34:01] INFO root fetch - main [MainThread]: End processing [rach-pack] error
+[2023-05-31 17:34:01] INFO root fetch - processPackages [romancal]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [monome-druid]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-basemodels]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-sdk]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [textworld]: New version: [1.5.4rc4] Old Version: [1.5.4rc3]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [tasksource]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [webscrapbook]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-31 17:34:01] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-2.0.0b8.tar.gz tmp/webscrapbook-2.0.0b9.tar.gz --markdown 20230531/w/webscrapbook/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [sh-expand]: Downloading https://files.pythonhosted.org/packages/af/7a/40c4e36295a269aec389b6e31154bea0bad70b9ec20b8bbde83629868905/sh-expand-0.1.0.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [tasksource]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [tasksource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksource-0.0.8.tar.gz tmp/tasksource-0.0.9.tar.gz --markdown 20230531/t/tasksource/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-sdk]: Downloading https://files.pythonhosted.org/packages/77/18/a61675919af2e7e29e9dd0d349e9698a896071b73c4e1a8f1d2445455200/human-protocol-sdk-1.1.5.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [romancal]: Downloading https://files.pythonhosted.org/packages/35/fa/f1876bfb1c13b0ff62d899e03437804b6ac8bbc622d2f29d59254240844e/romancal-0.8.1.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [textworld]: Downloading https://files.pythonhosted.org/packages/6f/ed/b9460ae3155a71db2fcd03a8bdd8ea8225d6bf6af627e475bf5cff3ad5c8/textworld-1.5.4rc4.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [monome-druid]: Downloading https://files.pythonhosted.org/packages/cb/72/ba437f704c474197d0becfe076440801d624308e7bc542110c7fc6575c6c/monome-druid-1.1.4.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-basemodels]: Downloading https://files.pythonhosted.org/packages/11/f1/6c9c9919606318086633b760aa7dbe18c00d3f86c19feab1b8bd09ce07a9/human-protocol-basemodels-1.1.5.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/57/c4/e2cb880f75752ff64ea25786975dfabffdd33ca79725d319166cbf496cd1/invoker_terminal-0.0.30.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [ibm-cloud-sdk-core]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [ibm-cloud-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-cloud-sdk-core-3.8.0.tar.gz tmp/ibm-cloud-sdk-core-3.9.0.tar.gz --markdown 20230531/i/ibm-cloud-sdk-core/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-sdk]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [sh-expand]: Downloading https://files.pythonhosted.org/packages/32/1f/2e19b3354155257e92cb6f0547eed1bd6364eb6091d14a05290bc62415d5/sh_expand-0.1.1-py3-none-any.whl
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-sdk-1.1.4.tar.gz tmp/human-protocol-sdk-1.1.5.tar.gz --markdown 20230531/h/human-protocol-sdk/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.29.tar.gz tmp/invoker_terminal-0.0.30.tar.gz --markdown 20230531/i/invoker-terminal/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-basemodels]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [human-protocol-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-basemodels-1.1.4.tar.gz tmp/human-protocol-basemodels-1.1.5.tar.gz --markdown 20230531/h/human-protocol-basemodels/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [textworld]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [textworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textworld-1.5.4rc3.tar.gz tmp/textworld-1.5.4rc4.tar.gz --markdown 20230531/t/textworld/1.5.4rc3-1.5.4rc4/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [sh-expand]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [sh-expand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-expand-0.1.0.tar.gz tmp/sh_expand-0.1.1-py3-none-any.whl.zip --markdown 20230531/s/sh-expand/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [monome-druid]: Downloading https://files.pythonhosted.org/packages/7b/82/654f6dd999892dc58a7dc3a5675a51c6deb3c87a11bd0727a5dd41d14a5c/monome-druid-1.1.5.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [romancal]: Downloading https://files.pythonhosted.org/packages/d6/be/de7fa0bdd51d16e9a3202d4e37de72d371b43574abd057ff3506ba7101e0/romancal-0.9.0.tar.gz
+[2023-05-31 17:34:01] INFO root fetch - processPackages [monome-druid]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [monome-druid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monome-druid-1.1.4.tar.gz tmp/monome-druid-1.1.5.tar.gz --markdown 20230531/m/monome-druid/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-31 17:34:01] INFO root fetch - processPackages [romancal]: executing diffoscope
+[2023-05-31 17:34:01] INFO root fetch - processPackages [romancal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romancal-0.8.1.tar.gz tmp/romancal-0.9.0.tar.gz --markdown 20230531/r/romancal/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 17:34:02] INFO root fetch - processPackages [sh-expand]: Start processing: pylint-super-not-called
+[2023-05-31 17:34:02] INFO root fetch - main [MainThread]: End processing [sh-expand]: success
+[2023-05-31 17:34:02] WARNING root fetch - processPackages [pylint-super-not-called]: Skipping, unable to determine old version
+[2023-05-31 17:34:02] INFO root fetch - processPackages [pylint-super-not-called]: Start processing: lpsds
+[2023-05-31 17:34:02] INFO root fetch - main [MainThread]: End processing [pylint-super-not-called] error
+[2023-05-31 17:34:02] INFO root fetch - processPackages [lpsds]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-31 17:34:03] INFO root fetch - processPackages [monome-druid]: Start processing: zh-langchain
+[2023-05-31 17:34:03] INFO root fetch - main [MainThread]: End processing [monome-druid]: success
+[2023-05-31 17:34:03] INFO root fetch - processPackages [lpsds]: Downloading https://files.pythonhosted.org/packages/f7/23/55f8a8f52fd59b16cff08741d5dc20ab161ece558be559f6f0ba8f00db62/lpsds-0.8.2.tar.gz
+[2023-05-31 17:34:03] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 17:34:03] INFO root fetch - processPackages [invoker-terminal]: Start processing: frouros
+[2023-05-31 17:34:03] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-31 17:34:03] INFO root fetch - processPackages [human-protocol-basemodels]: Start processing: odoo14-addon-l10n-br-currency-rate-update
+[2023-05-31 17:34:03] INFO root fetch - main [MainThread]: End processing [human-protocol-basemodels]: success
+[2023-05-31 17:34:03] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/71/e0/d8fae560637c63de2a6300081aa7fd97f0d9fd18883be31200ef725d3785/zh-langchain-0.1.8.tar.gz
+[2023-05-31 17:34:03] INFO root fetch - processPackages [frouros]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-31 17:34:03] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17370952>=10485760
+[2023-05-31 17:34:03] INFO root fetch - processPackages [zh-langchain]: Start processing: configdict
+[2023-05-31 17:34:03] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-31 17:34:03] INFO root fetch - processPackages [configdict]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-31 17:34:03] INFO root fetch - main [MainThread]: End processing [ibm-cloud-sdk-core]: success
+[2023-05-31 17:34:03] INFO root fetch - processPackages [lpsds]: Downloading https://files.pythonhosted.org/packages/69/a1/5fe19ff55431d46c96ee42292c87b1379841f571b898d7765bc2a4597ecf/lpsds-0.9.0.tar.gz
+[2023-05-31 17:34:03] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/49/73/1ead45802985bba29270ee288d138b49271f39eeaf6ab595f1b3101b01f5/frouros-0.2.7.tar.gz
+[2023-05-31 17:34:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-currency-rate-update]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-05-31 17:34:03] INFO root fetch - processPackages [configdict]: executing diffoscope
+[2023-05-31 17:34:03] INFO root fetch - processPackages [configdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configdict-2.6.0.tar.gz tmp/configdict-2.6.1-py3-none-any.whl.zip --markdown 20230531/c/configdict/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-31 17:34:03] INFO root fetch - processPackages [lpsds]: executing diffoscope
+[2023-05-31 17:34:03] INFO root fetch - processPackages [lpsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpsds-0.8.2.tar.gz tmp/lpsds-0.9.0.tar.gz --markdown 20230531/l/lpsds/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 17:34:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/09/36/4f1d8c701b27afc87c65596780828e7853e4cc0b914604861e5938eaf15e/odoo14_addon_l10n_br_currency_rate_update-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-31 17:34:03] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/a4/c6/74f326eb9ef421cb3f7d12cf529a8a2f11a2362312ca718de39278dfcc11/frouros-0.3.0.tar.gz
+[2023-05-31 17:34:03] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-05-31 17:34:03] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.2.7.tar.gz tmp/frouros-0.3.0.tar.gz --markdown 20230531/f/frouros/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 17:34:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/a1/be/d60bf50ec73a1c99059d362172dce8fff2aaaf691d7f7e825dea57bf7b0d/odoo14_addon_l10n_br_currency_rate_update-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-31 17:34:04] INFO root fetch - main [MainThread]: End processing [tasksource]: success
+[2023-05-31 17:34:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-currency-rate-update]: executing diffoscope
+[2023-05-31 17:34:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_currency_rate_update-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_currency_rate_update-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-l10n-br-currency-rate-update/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-31 17:34:04] INFO root fetch - main [MainThread]: End processing [configdict]: success
+[2023-05-31 17:34:05] INFO root fetch - main [MainThread]: End processing [lpsds]: success
+[2023-05-31 17:34:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-currency-rate-update]: success
+[2023-05-31 17:34:05] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-31 17:34:05] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-05-31 17:34:06] INFO root fetch - main [MainThread]: End processing [romancal]: success
+[2023-05-31 17:34:08] INFO root fetch - main [MainThread]: End processing [textworld]: success
+[2023-05-31 17:34:51] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
+[2023-05-31 17:34:51] INFO root fetch - main [MainThread]: Store serial: [18319211]
