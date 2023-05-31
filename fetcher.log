@@ -21861,3 +21861,54 @@
 [2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
 [2023-05-31 20:24:25] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
 [2023-05-31 20:24:25] INFO root fetch - main [MainThread]: Store serial: [18320902]
+[2023-05-31 20:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320902]
+[2023-05-31 20:29:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experimentalist-sampler-nearest-value
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib310-lite
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-ai
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jj-wingman
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-ai
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sosecrets
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naturtag
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abstract-ai
+[2023-05-31 20:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enetython
+[2023-05-31 20:29:34] WARNING root fetch - processPackages [autora-experimentalist-sampler-nearest-value]: Skipping, unable to determine old version
+[2023-05-31 20:29:34] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-nearest-value] error
+[2023-05-31 20:29:34] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [naturtag]: New version: [0.8.0.dev4] Old Version: [0.8.0.dev3]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [jj-wingman]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [sosecrets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 20:29:34] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 20:29:34] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 20:29:34] WARNING root fetch - processPackages [enetython]: Skipping, unable to determine old version
+[2023-05-31 20:29:34] INFO root fetch - main [MainThread]: End processing [enetython] error
+[2023-05-31 20:29:34] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/87/74/30687c6dbb3e8d7c93230ea6c3b0bad6c8e28b8d8cb00928d59dd7a04641/abstract_ai-0.0.5.tar.gz
+[2023-05-31 20:29:34] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/87/74/30687c6dbb3e8d7c93230ea6c3b0bad6c8e28b8d8cb00928d59dd7a04641/abstract_ai-0.0.5.tar.gz
+[2023-05-31 20:29:34] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/87/74/30687c6dbb3e8d7c93230ea6c3b0bad6c8e28b8d8cb00928d59dd7a04641/abstract_ai-0.0.5.tar.gz
+[2023-05-31 20:29:34] INFO root fetch - processPackages [naturtag]: Downloading https://files.pythonhosted.org/packages/2e/f9/20051468cd690041ae2d8e441d7ccbd61f6529438d51e96e95a7ec795f68/naturtag-0.8.0.dev3.tar.gz
+[2023-05-31 20:29:34] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/c3/3b/ac02158030a00b21944aa8060e7bde0fb9f78f4c2e3fe988118352bf4536/jj_wingman-0.2.2.tar.gz
+[2023-05-31 20:29:35] INFO root fetch - processPackages [sosecrets]: executing diffoscope
+[2023-05-31 20:29:35] INFO root fetch - processPackages [sosecrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosecrets-0.1.8.tar.gz tmp/sosecrets-0.1.9.tar.gz --markdown 20230531/s/sosecrets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/81/de/cc2481a9dacc1dfb6e8d571eb6023d70f4e67af54f44884be07cdb387c61/abstract_ai-0.0.6.tar.gz
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/81/de/cc2481a9dacc1dfb6e8d571eb6023d70f4e67af54f44884be07cdb387c61/abstract_ai-0.0.6.tar.gz
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/81/de/cc2481a9dacc1dfb6e8d571eb6023d70f4e67af54f44884be07cdb387c61/abstract_ai-0.0.6.tar.gz
+[2023-05-31 20:29:35] INFO root fetch - processPackages [jj-wingman]: executing diffoscope
+[2023-05-31 20:29:35] INFO root fetch - processPackages [jj-wingman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jj_wingman-0.2.1.tar.gz tmp/jj_wingman-0.2.2.tar.gz --markdown 20230531/j/jj-wingman/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.5.tar.gz tmp/abstract_ai-0.0.6.tar.gz --markdown 20230531/a/abstract-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.5.tar.gz tmp/abstract_ai-0.0.6.tar.gz --markdown 20230531/a/abstract-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:29:35] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.5.tar.gz tmp/abstract_ai-0.0.6.tar.gz --markdown 20230531/a/abstract-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 20:29:35] WARNING root fetch - processPackages [naturtag]: Skipping package: exceeds size limit 25329326>=10485760
+[2023-05-31 20:29:35] INFO root fetch - main [MainThread]: End processing [naturtag] error
+[2023-05-31 20:29:35] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [sosecrets]: success
+[2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [jj-wingman]: success
+[2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:29:36] INFO root fetch - main [MainThread]: Store serial: [18320932]
