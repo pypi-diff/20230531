@@ -19302,3 +19302,91 @@
 [2023-05-31 17:34:08] INFO root fetch - main [MainThread]: End processing [textworld]: success
 [2023-05-31 17:34:51] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
 [2023-05-31 17:34:51] INFO root fetch - main [MainThread]: Store serial: [18319211]
+[2023-05-31 17:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319211]
+[2023-05-31 17:40:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk-preview
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orbit-component-base
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easybill-rest
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ShellUtilities
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asset-tracking-pepsico
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rego-imager-readfile
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellxgene-census
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argilla
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: UEVaultManager
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ShellUtilities]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [easybill-rest]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [orbit-component-base]: New version: [0.99.6] Old Version: [0.99.5]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [rego-imager-readfile]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [cellxgene-census]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [UEVaultManager]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [argilla]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ShellUtilities]: Downloading https://files.pythonhosted.org/packages/03/e0/ffea1624f3da16ff72ed01e230bef730392b402069ff00bf32cc3e4315d5/ShellUtilities-2.1.4.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [rego-imager-readfile]: Downloading https://files.pythonhosted.org/packages/13/4c/e3ea9c62cae61933b3f7c24677e4f4edd11b8d4c95525318039ef281af06/rego_imager_readfile-1.2.0.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/aa/ad/971aeba1ff2fc20cb8553127d56ffc8f92648b7cf43a51ac7f81ed9cc4fd/asset_tracking_pepsico-0.0.6.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [rego-imager-readfile]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [rego-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rego_imager_readfile-1.1.2.tar.gz tmp/rego_imager_readfile-1.2.0.tar.gz --markdown 20230531/r/rego-imager-readfile/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [easybill-rest]: Downloading https://files.pythonhosted.org/packages/68/ca/271de962feec9162cfd9f0745b01694283713038a1b8f0fb8d598573ec5c/easybill_rest-0.3.1.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/62/74/96819456e523c8cb40c2b872b73bf74f59eaf9d4015e45431c7bc9fb4dd6/UEVaultManager-1.6.0.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/f0/34/a4b2b834bad6e5ba9a9b0595146146deec1ae7e4755184fd8816d688c9b9/argilla-1.7.0.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-0.0.5.tar.gz tmp/asset_tracking_pepsico-0.0.6.tar.gz --markdown 20230531/a/asset-tracking-pepsico/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ShellUtilities]: Downloading https://files.pythonhosted.org/packages/31/1a/be79733d1f089ee45f8e79e36cd0104bd136fa2355117afde90fd0b2491b/ShellUtilities-2.1.5.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/24/30/626e205f508a0ecbe20491a3ec94081ab0cd7f9e52b0e36e4e6cdb3f24e0/cellxgene_census-1.1.0.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ShellUtilities]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [ShellUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShellUtilities-2.1.4.tar.gz tmp/ShellUtilities-2.1.5.tar.gz --markdown 20230531/S/ShellUtilities/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/bf/60/d243107563f5b2dc080632e59d3a0bd6c3e68360be0e0a758969722179e1/orbit_component_base-0.99.6.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230531/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.0.2.tar.gz tmp/cellxgene_census-1.1.0.tar.gz --markdown 20230531/c/cellxgene-census/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-0.99.5.tar.gz tmp/orbit_component_base-0.99.6.tar.gz --markdown 20230531/o/orbit-component-base/0.99.5-0.99.6/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [easybill-rest]: Downloading https://files.pythonhosted.org/packages/1e/44/c6ad71c7f11f737f76ff1fa9c7a23afd7968da1c5bc1be727858d51fc37b/easybill_rest-0.3.2.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230531/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/f8/22/55a706a0077ee278144d4717694699073db197fd64b1ec67e797bf4c4550/UEVaultManager-1.6.1.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [easybill-rest]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [easybill-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybill_rest-0.3.1.tar.gz tmp/easybill_rest-0.3.2.tar.gz --markdown 20230531/e/easybill-rest/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 17:40:01] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/63/3c/2adc8bbdc37604d3bfc0eea97ee56d1ba2d7463315123d81f7065ab57e47/argilla-1.8.0.tar.gz
+[2023-05-31 17:40:01] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-31 17:40:01] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.6.0.tar.gz tmp/UEVaultManager-1.6.1.tar.gz --markdown 20230531/U/UEVaultManager/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-31 17:40:02] INFO root fetch - processPackages [argilla]: executing diffoscope
+[2023-05-31 17:40:02] INFO root fetch - processPackages [argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla-1.7.0.tar.gz tmp/argilla-1.8.0.tar.gz --markdown 20230531/a/argilla/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-31 17:40:02] INFO root fetch - processPackages [rego-imager-readfile]: Start processing: pypendency
+[2023-05-31 17:40:02] INFO root fetch - main [MainThread]: End processing [rego-imager-readfile]: success
+[2023-05-31 17:40:02] INFO root fetch - processPackages [pypendency]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 17:40:03] INFO root fetch - processPackages [asset-tracking-pepsico]: Start processing: metaphor-connectors
+[2023-05-31 17:40:03] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-05-31 17:40:03] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-31 17:40:03] INFO root fetch - processPackages [ShellUtilities]: Start processing: wiliot-deployment-tools
+[2023-05-31 17:40:03] INFO root fetch - main [MainThread]: End processing [ShellUtilities]: success
+[2023-05-31 17:40:03] INFO root fetch - processPackages [pypendency]: Downloading https://files.pythonhosted.org/packages/af/9f/127d9632f7c272880ad6fa2487a753ca97d548894fc7b8cf001827f04711/pypendency-0.5.0.tar.gz
+[2023-05-31 17:40:03] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-05-31 17:40:03] INFO root fetch - processPackages [pypendency]: executing diffoscope
+[2023-05-31 17:40:03] INFO root fetch - processPackages [pypendency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypendency-0.4.0.tar.gz tmp/pypendency-0.5.0.tar.gz --markdown 20230531/p/pypendency/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 17:40:03] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-31 17:40:03] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230531/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-31 17:40:03] INFO root fetch - processPackages [orbit-component-base]: Start processing: hyperthought-transfer
+[2023-05-31 17:40:03] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-05-31 17:40:03] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/dc/92/c5b9a483fe38ba3d8168fab282f11332917de54eb6ba9ef5c674f0fd6f98/wiliot-deployment-tools-4.0.7.tar.gz
+[2023-05-31 17:40:03] INFO root fetch - processPackages [hyperthought-transfer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 17:40:03] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-05-31 17:40:03] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-05-31 17:40:03] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.6.tar.gz tmp/wiliot-deployment-tools-4.0.7.tar.gz --markdown 20230531/w/wiliot-deployment-tools/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-05-31 17:40:03] INFO root fetch - processPackages [hyperthought-transfer]: Downloading https://files.pythonhosted.org/packages/d3/fb/4e0354ffbc2f653d943bfb94b1d92be4aa190412d4921971760ff6050ab4/hyperthought-transfer-0.2.3.tar.gz
+[2023-05-31 17:40:03] INFO root fetch - processPackages [hyperthought-transfer]: executing diffoscope
+[2023-05-31 17:40:03] INFO root fetch - processPackages [hyperthought-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperthought-transfer-0.2.2.tar.gz tmp/hyperthought-transfer-0.2.3.tar.gz --markdown 20230531/h/hyperthought-transfer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 17:40:04] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-31 17:40:04] INFO root fetch - main [MainThread]: End processing [easybill-rest]: success
+[2023-05-31 17:40:04] INFO root fetch - main [MainThread]: End processing [pypendency]: success
+[2023-05-31 17:40:05] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-05-31 17:40:05] INFO root fetch - main [MainThread]: End processing [hyperthought-transfer]: success
+[2023-05-31 17:40:05] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-31 17:40:05] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-31 17:40:05] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-31 17:42:03] INFO root fetch - main [MainThread]: End processing [argilla]: success
+[2023-05-31 17:42:03] INFO root fetch - main [MainThread]: Store serial: [18319253]
