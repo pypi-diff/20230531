@@ -10891,3 +10891,51 @@
 [2023-05-31 10:40:53] INFO root fetch - main [MainThread]: End processing [umap-project]: success
 [2023-05-31 10:41:11] INFO root fetch - main [MainThread]: End processing [anoncreds]: success
 [2023-05-31 10:41:11] INFO root fetch - main [MainThread]: Store serial: [18314257]
+[2023-05-31 10:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314257]
+[2023-05-31 10:46:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fps_webdav
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gauth
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyHarshit
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: balder
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-model-builder-ui
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-console-scripts
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfp-nightly
+[2023-05-31 10:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: httplus
+[2023-05-31 10:46:26] INFO root fetch - processPackages [PyHarshit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 10:46:26] INFO root fetch - processPackages [gauth]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 10:46:26] INFO root fetch - processPackages [oarepo-model-builder-ui]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-31 10:46:26] WARNING root fetch - processPackages [fps_webdav]: Skipping, unable to determine old version
+[2023-05-31 10:46:26] INFO root fetch - main [MainThread]: End processing [fps_webdav] error
+[2023-05-31 10:46:26] INFO root fetch - processPackages [balder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 10:46:26] INFO root fetch - processPackages [pytest-console-scripts]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-31 10:46:26] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-31 10:46:26] INFO root fetch - processPackages [httplus]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-31 10:46:26] INFO root fetch - processPackages [PyHarshit]: Downloading https://files.pythonhosted.org/packages/bc/6f/2672d2becba72fb4ffd8f29bf5a50a5ad05829ffe5fea37978eb3c2f8345/PyHarshit-0.0.5.tar.gz
+[2023-05-31 10:46:26] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-31 10:46:26] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230531/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-31 10:46:26] INFO root fetch - processPackages [oarepo-model-builder-ui]: Downloading https://files.pythonhosted.org/packages/95/b8/b89d6b89de5dd50ddf5791747ac8aef59c800ef158d727927580dfc3eeaf/oarepo-model-builder-ui-4.0.4.tar.gz
+[2023-05-31 10:46:26] INFO root fetch - processPackages [gauth]: Downloading https://files.pythonhosted.org/packages/28/1a/ea4939318c65c9bd1e5e63ee2dc38b793176180571e981d0cfea1aee736a/gauth-1.0.5.tar.gz
+[2023-05-31 10:46:26] INFO root fetch - processPackages [balder]: executing diffoscope
+[2023-05-31 10:46:26] INFO root fetch - processPackages [balder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balder-0.1.8.tar.gz tmp/balder-0.1.9.tar.gz --markdown 20230531/b/balder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 10:46:26] INFO root fetch - processPackages [httplus]: Downloading https://files.pythonhosted.org/packages/6b/1e/5f18a7d9417b98b1a103a7a9cc87783b0c57614c456154144a31c7de9845/httplus-0.0.0.tar.gz
+[2023-05-31 10:46:26] INFO root fetch - processPackages [oarepo-model-builder-ui]: executing diffoscope
+[2023-05-31 10:46:26] INFO root fetch - processPackages [oarepo-model-builder-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-ui-4.0.3.tar.gz tmp/oarepo-model-builder-ui-4.0.4.tar.gz --markdown 20230531/o/oarepo-model-builder-ui/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-31 10:46:26] INFO root fetch - processPackages [gauth]: executing diffoscope
+[2023-05-31 10:46:26] INFO root fetch - processPackages [pytest-console-scripts]: Downloading https://files.pythonhosted.org/packages/a1/85/2fbafaea1fa948497ef7f52574448e7ff99236c71a1519e312b8a2f01008/pytest-console-scripts-1.4.1.tar.gz
+[2023-05-31 10:46:26] INFO root fetch - processPackages [gauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth-1.0.4.tar.gz tmp/gauth-1.0.5.tar.gz --markdown 20230531/g/gauth/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-31 10:46:26] INFO root fetch - processPackages [PyHarshit]: Downloading https://files.pythonhosted.org/packages/22/d9/1625978acd7f38c98535fb1f03772aa00a88f61d91e7b4eb84feb7a6050e/PyHarshit-0.0.6.tar.gz
+[2023-05-31 10:46:26] INFO root fetch - processPackages [pytest-console-scripts]: executing diffoscope
+[2023-05-31 10:46:26] INFO root fetch - processPackages [pytest-console-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-console-scripts-1.4.0.tar.gz tmp/pytest-console-scripts-1.4.1.tar.gz --markdown 20230531/p/pytest-console-scripts/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-31 10:46:26] INFO root fetch - processPackages [PyHarshit]: executing diffoscope
+[2023-05-31 10:46:26] INFO root fetch - processPackages [PyHarshit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHarshit-0.0.5.tar.gz tmp/PyHarshit-0.0.6.tar.gz --markdown 20230531/P/PyHarshit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 10:46:26] INFO root fetch - processPackages [httplus]: Downloading https://files.pythonhosted.org/packages/06/10/3a8b219c8ac19c48875a529036b53e6a8ad4661f04be21a8171e84a7aca1/httplus-0.1.0.tar.gz
+[2023-05-31 10:46:27] INFO root fetch - processPackages [httplus]: executing diffoscope
+[2023-05-31 10:46:27] INFO root fetch - processPackages [httplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httplus-0.0.0.tar.gz tmp/httplus-0.1.0.tar.gz --markdown 20230531/h/httplus/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 10:46:27] INFO root fetch - main [MainThread]: End processing [balder]: success
+[2023-05-31 10:46:27] INFO root fetch - main [MainThread]: End processing [gauth]: success
+[2023-05-31 10:46:27] INFO root fetch - main [MainThread]: End processing [pytest-console-scripts]: success
+[2023-05-31 10:46:27] INFO root fetch - main [MainThread]: End processing [PyHarshit]: success
+[2023-05-31 10:46:27] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-ui]: success
+[2023-05-31 10:46:28] INFO root fetch - main [MainThread]: End processing [httplus]: success
+[2023-05-31 10:46:43] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-31 10:46:43] INFO root fetch - main [MainThread]: Store serial: [18314280]
