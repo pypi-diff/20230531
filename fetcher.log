@@ -1092,3 +1092,54 @@
 [2023-05-31 01:55:21] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
 [2023-05-31 01:55:30] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-05-31 01:55:30] INFO root fetch - main [MainThread]: Store serial: [18308785]
+[2023-05-31 02:00:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308785]
+[2023-05-31 02:00:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywebgo
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: triton-model-analyzer
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tritonclient
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-Ayra
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-ai-test
+[2023-05-31 02:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odin
+[2023-05-31 02:00:42] INFO root fetch - processPackages [py-Ayra]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [odin]: New version: [2.8] Old Version: [2.6]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [triton-model-analyzer]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [pywebgo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [abstract-ai-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [tritonclient]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 02:00:42] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/76/28/27cc4c2e503759329d37d6281328aa4d933e10e777dd18690075a72203ac/py-Ayra-1.8.1.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [abstract-ai-test]: Downloading https://files.pythonhosted.org/packages/4e/09/917acf0020a829c6e119f55526afff2ac400b3e37d81a57625de1a4ab697/abstract_ai_test-0.0.1.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [odin]: Downloading https://files.pythonhosted.org/packages/8c/63/51f3ea82d19230918f208ba509cacd19d89133166a16c23574b29fa36e43/odin-2.6.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/85/c8/5a79953ad4f05b4fc3da8dac9d1c81ecbf88d2d46c0c377987e0bd2c10be/pywebgo-0.0.4.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [triton-model-analyzer]: Downloading https://files.pythonhosted.org/packages/e4/95/c1a2235fbea9614bd44d50d85c82baec45d9df35a6940561683723df51c6/triton_model_analyzer-1.8.2-py3-none-manylinux1_x86_64.whl
+[2023-05-31 02:00:42] INFO root fetch - processPackages [tritonclient]: Downloading https://files.pythonhosted.org/packages/d3/2b/39c37626d2e5c8c79d220dc21875f8137024b2235222a19ba0c582d24fba/tritonclient-2.8.0-py3-none-manylinux2014_aarch64.whl
+[2023-05-31 02:00:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/45/0e/c03305bdaf4e9d9b69f86302c06ba0993c6736f506b4c8a28a40b2313618/rapidpe_rift_pipe-0.3.1.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/06/17/4380a8704eb05a2c8e1a971d49c665d0ccb17addda468e69a98742332aa8/py-Ayra-1.8.2.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [odin]: Downloading https://files.pythonhosted.org/packages/23/12/6d0070b78312fd5f1249979da59e7f52e832f9848db09e537ccdb5336d1d/odin-2.8.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [abstract-ai-test]: Downloading https://files.pythonhosted.org/packages/2a/21/64dcbf63fb97de250aafe39bbdae97c1ce7b382e2a897ef3e9a19b05c9cc/abstract_ai_test-0.0.2-py3.11.egg
+[2023-05-31 02:00:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-31 02:00:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.3.0.tar.gz tmp/rapidpe_rift_pipe-0.3.1.tar.gz --markdown 20230531/r/rapidpe-rift-pipe/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 02:00:42] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/7f/97/2f41ee31c5df8cbf5cc3cd3e08ebf3eabc674e2f069f949ca0738fc2471b/pywebgo-0.0.5.tar.gz
+[2023-05-31 02:00:42] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-05-31 02:00:42] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-1.8.1.tar.gz tmp/py-Ayra-1.8.2.tar.gz --markdown 20230531/p/py-Ayra/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-31 02:00:42] INFO root fetch - processPackages [abstract-ai-test]: executing diffoscope
+[2023-05-31 02:00:42] INFO root fetch - processPackages [abstract-ai-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai_test-0.0.1.tar.gz tmp/abstract_ai_test-0.0.2-py3.11.egg --markdown 20230531/a/abstract-ai-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 02:00:42] INFO root fetch - processPackages [pywebgo]: executing diffoscope
+[2023-05-31 02:00:42] INFO root fetch - processPackages [pywebgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebgo-0.0.4.tar.gz tmp/pywebgo-0.0.5.tar.gz --markdown 20230531/p/pywebgo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-31 02:00:43] INFO root fetch - processPackages [odin]: executing diffoscope
+[2023-05-31 02:00:43] INFO root fetch - processPackages [odin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin-2.6.tar.gz tmp/odin-2.8.tar.gz --markdown 20230531/o/odin/2.6-2.8/diff.md --exclude *.pyd
+[2023-05-31 02:00:43] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-31 02:00:43] INFO root fetch - main [MainThread]: End processing [abstract-ai-test]: success
+[2023-05-31 02:00:44] INFO root fetch - main [MainThread]: End processing [pywebgo]: success
+[2023-05-31 02:00:44] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-05-31 02:00:44] INFO root fetch - processPackages [triton-model-analyzer]: Downloading https://files.pythonhosted.org/packages/82/41/75e5ffa380231754a15d5198d358e5dd821ffdf154976cf8ff9a2980408c/triton_model_analyzer-1.9.0-py3-none-manylinux1_x86_64.whl
+[2023-05-31 02:00:45] INFO root fetch - processPackages [tritonclient]: Downloading https://files.pythonhosted.org/packages/b5/32/79fc08cc5ad2aaf6611d63e0226bd62257bb0dda65ba2f8b84d981e1b715/tritonclient-2.9.0-py3-none-manylinux2014_aarch64.whl
+[2023-05-31 02:00:45] INFO root fetch - main [MainThread]: End processing [odin]: success
+[2023-05-31 02:00:45] INFO root fetch - processPackages [triton-model-analyzer]: executing diffoscope
+[2023-05-31 02:00:45] INFO root fetch - processPackages [triton-model-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_model_analyzer-1.8.2-py3-none-manylinux1_x86_64.whl.zip tmp/triton_model_analyzer-1.9.0-py3-none-manylinux1_x86_64.whl.zip --markdown 20230531/t/triton-model-analyzer/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 02:00:47] INFO root fetch - processPackages [tritonclient]: executing diffoscope
+[2023-05-31 02:00:47] INFO root fetch - processPackages [tritonclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonclient-2.8.0-py3-none-manylinux2014_aarch64.whl.zip tmp/tritonclient-2.9.0-py3-none-manylinux2014_aarch64.whl.zip --markdown 20230531/t/tritonclient/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 02:01:55] INFO root fetch - main [MainThread]: End processing [triton-model-analyzer]: success
+[2023-05-31 02:03:11] INFO root fetch - main [MainThread]: End processing [tritonclient]: success
+[2023-05-31 02:03:11] INFO root fetch - main [MainThread]: Store serial: [18308806]
