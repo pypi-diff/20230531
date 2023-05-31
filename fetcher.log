@@ -8495,3 +8495,78 @@
 [2023-05-31 07:27:52] INFO root fetch - main [MainThread]: End processing [p4p]: success
 [2023-05-31 07:28:00] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
 [2023-05-31 07:28:00] INFO root fetch - main [MainThread]: Store serial: [18312799]
+[2023-05-31 07:33:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312799]
+[2023-05-31 07:33:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SPRT-TANDEM
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addons-oca-survey
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poe-api
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: midiferenciacion
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beads-mc
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4-api
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mayan-edms
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-hmac-authentication
+[2023-05-31 07:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo11-addon-membership-withdrawal
+[2023-05-31 07:33:10] WARNING root fetch - processPackages [SPRT-TANDEM]: Skipping, unable to determine old version
+[2023-05-31 07:33:10] INFO root fetch - processPackages [SPRT-TANDEM]: Start processing: xt-st-common
+[2023-05-31 07:33:10] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM] error
+[2023-05-31 07:33:10] INFO root fetch - processPackages [poe-api]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [gpt4-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [django-hmac-authentication]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [odoo11-addon-membership-withdrawal]: New version: [11.0.1.0.0.99.dev7] Old Version: [11.0.1.0.0.99.dev6]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [midiferenciacion]: New version: [0.45] Old Version: [0.44]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [odoo13-addons-oca-survey]: New version: [13.0.20230530.0] Old Version: [13.0.20230211.0]
+[2023-05-31 07:33:10] WARNING root fetch - processPackages [beads-mc]: Skipping, unable to determine old version
+[2023-05-31 07:33:10] INFO root fetch - processPackages [beads-mc]: Start processing: adata
+[2023-05-31 07:33:10] INFO root fetch - main [MainThread]: End processing [beads-mc] error
+[2023-05-31 07:33:10] INFO root fetch - processPackages [xt-st-common]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [mayan-edms]: New version: [4.4.6] Old Version: [4.4.5]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [odoo11-addon-membership-withdrawal]: Downloading https://files.pythonhosted.org/packages/5e/95/c4741f9eb5ee3fdf596bbc26b27cbccf00d49cb3e977ae6c9ab8433715ac/odoo11_addon_membership_withdrawal-11.0.1.0.0.99.dev6-py2.py3-none-any.whl
+[2023-05-31 07:33:10] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/8d/9b/91c8db4bb199eee9321655b4592eec2cc7aa27a31eeaadc8e171c51842f7/gpt4-api-0.0.1.tar.gz
+[2023-05-31 07:33:10] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/82/72/405294abd52dcc05a28d41803c41ad561111555f823a193654f029005fbf/poe_api-0.4.2-py3-none-any.whl
+[2023-05-31 07:33:10] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-31 07:33:10] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/9b/a2/587e0da9beab0bece2f87502274ba5b37d2dac3883d62aa7d7703229eb8b/django_hmac_authentication-1.1.1.tar.gz
+[2023-05-31 07:33:10] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/68/34/787c9811fbd35acd51d02ef0833dc7c5240576b6b26248af0cb3c7cdf8ae/xt_st_common-0.5.1.tar.gz
+[2023-05-31 07:33:10] INFO root fetch - processPackages [midiferenciacion]: Downloading https://files.pythonhosted.org/packages/8e/bf/b91afebf9e0da0728119d359d31d1fb966a6a24dd92b21505da52c9dcd38/midiferenciacion-0.44.tar.gz
+[2023-05-31 07:33:10] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/01/29/ad8d127545139c096517064f7c1b411305e126784049618dad9f7c6cfb7f/odoo13_addons_oca_survey-13.0.20230211.0-py3-none-any.whl
+[2023-05-31 07:33:11] INFO root fetch - processPackages [odoo11-addon-membership-withdrawal]: Downloading https://files.pythonhosted.org/packages/f0/4e/35a581f0889577749e2dd12b564b32b1b4ce41a661ef3e6371480e9df941/odoo11_addon_membership_withdrawal-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-05-31 07:33:11] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/28/f9/a37f98eeb573504ec1a2d07a4a865be24742f8e4baf248a7c7a53d443895/gpt4-api-0.0.2.tar.gz
+[2023-05-31 07:33:11] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230531/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/09/82/436f69d980bdeb14351a841abc445f4c6550f22fade11c8152353a9c7b0c/django_hmac_authentication-1.2.0.tar.gz
+[2023-05-31 07:33:11] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/8c/79/0f0821fa102dd61b40feba4667392c3d31a369d5a648ea4b3a08f1bfa207/mayan-edms-4.4.5.tar.gz
+[2023-05-31 07:33:11] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/71/97/71ef3bd9026bb46ca0f0cd49bd5d5a71b5e806362a1a1a89961b94719454/odoo13_addons_oca_survey-13.0.20230530.0-py3-none-any.whl
+[2023-05-31 07:33:11] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/81/65/b0c3e3731608ee4f9b1201a80f4953c53987c028dfc8f035e43dd599346c/poe_api-0.4.3-py3-none-any.whl
+[2023-05-31 07:33:11] INFO root fetch - processPackages [midiferenciacion]: Downloading https://files.pythonhosted.org/packages/04/9c/cc6db4436c923fe67fcb7f81357e72e97c4741423919f6bc6d723dcab9bf/midiferenciacion-0.45.tar.gz
+[2023-05-31 07:33:11] INFO root fetch - processPackages [odoo11-addon-membership-withdrawal]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [odoo11-addon-membership-withdrawal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_membership_withdrawal-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_membership_withdrawal-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230531/o/odoo11-addon-membership-withdrawal/11.0.1.0.0.99.dev6-11.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [django-hmac-authentication]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [django-hmac-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hmac_authentication-1.1.1.tar.gz tmp/django_hmac_authentication-1.2.0.tar.gz --markdown 20230531/d/django-hmac-authentication/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230531/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.2-py3-none-any.whl.zip tmp/poe_api-0.4.3-py3-none-any.whl.zip --markdown 20230531/p/poe-api/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [odoo13-addons-oca-survey]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [odoo13-addons-oca-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_survey-13.0.20230211.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_survey-13.0.20230530.0-py3-none-any.whl.zip --markdown 20230531/o/odoo13-addons-oca-survey/13.0.20230211.0-13.0.20230530.0/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.0.1.tar.gz tmp/gpt4-api-0.0.2.tar.gz --markdown 20230531/g/gpt4-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 07:33:11] INFO root fetch - processPackages [midiferenciacion]: executing diffoscope
+[2023-05-31 07:33:11] INFO root fetch - processPackages [midiferenciacion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midiferenciacion-0.44.tar.gz tmp/midiferenciacion-0.45.tar.gz --markdown 20230531/m/midiferenciacion/0.44-0.45/diff.md --exclude *.pyd
+[2023-05-31 07:33:12] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-05-31 07:33:12] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.5.0.tar.gz tmp/xt_st_common-0.5.1.tar.gz --markdown 20230531/x/xt-st-common/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-31 07:33:12] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-31 07:33:12] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/93/75/d85a075ed5743caa32d55b1402ac5a6c50b98a5dffb79f75c43a8f848506/mayan-edms-4.4.6.tar.gz
+[2023-05-31 07:33:12] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-survey]: success
+[2023-05-31 07:33:12] INFO root fetch - main [MainThread]: End processing [midiferenciacion]: success
+[2023-05-31 07:33:12] INFO root fetch - main [MainThread]: End processing [django-hmac-authentication]: success
+[2023-05-31 07:33:12] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-05-31 07:33:12] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-05-31 07:33:13] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-31 07:33:13] INFO root fetch - main [MainThread]: End processing [odoo11-addon-membership-withdrawal]: success
+[2023-05-31 07:33:14] INFO root fetch - processPackages [mayan-edms]: executing diffoscope
+[2023-05-31 07:33:14] INFO root fetch - processPackages [mayan-edms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-edms-4.4.5.tar.gz tmp/mayan-edms-4.4.6.tar.gz --markdown 20230531/m/mayan-edms/4.4.5-4.4.6/diff.md --exclude *.pyd
+[2023-05-31 07:33:15] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-05-31 07:36:14] ERROR root fetch - processPackages [mayan-edms]: Timeout during execution of pkgdiff
+[2023-05-31 07:36:14] INFO root fetch - main [MainThread]: End processing [mayan-edms] error
+[2023-05-31 07:36:14] INFO root fetch - main [MainThread]: Store serial: [18312855]
