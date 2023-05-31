@@ -14844,3 +14844,83 @@
 [2023-05-31 14:30:14] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-31 14:30:15] INFO root fetch - main [MainThread]: End processing [pybabylonjs]: success
 [2023-05-31 14:30:15] INFO root fetch - main [MainThread]: Store serial: [18316670]
+[2023-05-31 14:35:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316670]
+[2023-05-31 14:35:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spinedb-api
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cxbind
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AeholdSerializer
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterhub-backendspawner
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-rod
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvium
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decore-Base
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bioumlsim
+[2023-05-31 14:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-05-31 14:35:24] INFO root fetch - processPackages [spinedb-api]: New version: [0.29.0] Old Version: [0.28.0]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [cxbind]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [pyvium]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [AeholdSerializer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [bioumlsim]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [lightning-rod]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [decore-Base]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-31 14:35:24] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230531/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-31 14:35:24] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [AeholdSerializer]: Downloading https://files.pythonhosted.org/packages/d0/94/40b063756bc48720232885f11d896e5c7e76031db09591eba653f0ca8ac4/AeholdSerializer-0.2.2.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/92/91/8d335e197858ad27b3b06be005b8dd1ea2f22fd5e55dfe762743a3af3d6d/jupyterhub-backendspawner-0.3.3.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [cxbind]: Downloading https://files.pythonhosted.org/packages/53/6a/784785b2de62c0143d189c14454ef6872f575bc7731910a0a89930562ea3/cxbind-0.1.0.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/d2/28/7aa73027c5a0d7f1d8e38b333f84adb6e51d5f578f9ca5ae6858bcf67af6/lightning_rod-0.2.1.tar.gz
+[2023-05-31 14:35:24] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-31 14:35:24] INFO root fetch - processPackages [edwh]: Start processing: pycrux
+[2023-05-31 14:35:24] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-31 14:35:24] INFO root fetch - processPackages [pycrux]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-31 14:35:24] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/17/c5/38161f95866d3233381390c690d128999bf118edd4b0a0da308aa3f09abf/pyvium-0.1.8b0.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-31 14:35:24] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.3.2.tar.gz tmp/jupyterhub-backendspawner-0.3.3.tar.gz --markdown 20230531/j/jupyterhub-backendspawner/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-31 14:35:24] INFO root fetch - processPackages [AeholdSerializer]: executing diffoscope
+[2023-05-31 14:35:24] INFO root fetch - processPackages [AeholdSerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AeholdSerializer-0.2.1.tar.gz tmp/AeholdSerializer-0.2.2.tar.gz --markdown 20230531/A/AeholdSerializer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 14:35:24] INFO root fetch - processPackages [spinedb-api]: Downloading https://files.pythonhosted.org/packages/ab/5e/ace290038ad5d8ee527e5240135ba917456ed5c0aa999cda1063ea692a12/spinedb_api-0.28.0.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/13/78/bc8555e9be9f557afa980132c6eb1fa68886c234d8d026bbe8957e717962/decore_Base-0.0.14.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/56/99/f649174901efc289ee1451d3c7b08dbad923f3969bebc0102692f47b42b1/bioumlsim-0.4.2.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [cxbind]: Downloading https://files.pythonhosted.org/packages/db/50/19cecd9d97b741f09288dac30d7da0a286e39c16cfcdaf59df3e40f801bb/cxbind-0.1.1.tar.gz
+[2023-05-31 14:35:24] INFO root fetch - processPackages [pycrux]: Downloading https://files.pythonhosted.org/packages/64/cc/d6a65b293b217447bc25f2d58fae4902f8be43beeb67589b4db372b01a7a/pycrux-0.6.0.tar.gz
+[2023-05-31 14:35:25] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-05-31 14:35:25] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.13.tar.gz tmp/decore_Base-0.0.14.tar.gz --markdown 20230531/d/decore-Base/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-31 14:35:25] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/3d/35/453f4c70a0db2153d43cf531c4b73e006e83003e9d44992114561ab2cb95/lightning_rod-0.2.2.tar.gz
+[2023-05-31 14:35:25] INFO root fetch - processPackages [cxbind]: executing diffoscope
+[2023-05-31 14:35:25] INFO root fetch - processPackages [cxbind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxbind-0.1.0.tar.gz tmp/cxbind-0.1.1.tar.gz --markdown 20230531/c/cxbind/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 14:35:25] INFO root fetch - processPackages [spinedb-api]: Downloading https://files.pythonhosted.org/packages/91/1e/1179a9208056e8d632447c5c08246267c186bff12dc12cf5b748eeefe0f9/spinedb_api-0.29.0.tar.gz
+[2023-05-31 14:35:25] INFO root fetch - processPackages [pycrux]: executing diffoscope
+[2023-05-31 14:35:25] INFO root fetch - processPackages [pycrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrux-0.5.0.tar.gz tmp/pycrux-0.6.0.tar.gz --markdown 20230531/p/pycrux/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-31 14:35:25] INFO root fetch - processPackages [lightning-rod]: executing diffoscope
+[2023-05-31 14:35:25] INFO root fetch - processPackages [lightning-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_rod-0.2.1.tar.gz tmp/lightning_rod-0.2.2.tar.gz --markdown 20230531/l/lightning-rod/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 14:35:25] INFO root fetch - processPackages [spinedb-api]: executing diffoscope
+[2023-05-31 14:35:25] INFO root fetch - processPackages [spinedb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinedb_api-0.28.0.tar.gz tmp/spinedb_api-0.29.0.tar.gz --markdown 20230531/s/spinedb-api/0.28.0-0.29.0/diff.md --exclude *.pyd
+[2023-05-31 14:35:25] INFO root fetch - processPackages [bioumlsim]: executing diffoscope
+[2023-05-31 14:35:25] INFO root fetch - processPackages [bioumlsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioumlsim-0.4.1.tar.gz tmp/bioumlsim-0.4.2.tar.gz --markdown 20230531/b/bioumlsim/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-31 14:35:26] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: tiktokdow
+[2023-05-31 14:35:26] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-31 14:35:26] WARNING root fetch - processPackages [tiktokdow]: Skipping, unable to determine old version
+[2023-05-31 14:35:26] INFO root fetch - processPackages [tiktokdow]: Start processing: testit-cli
+[2023-05-31 14:35:26] INFO root fetch - main [MainThread]: End processing [tiktokdow] error
+[2023-05-31 14:35:26] INFO root fetch - main [MainThread]: End processing [AeholdSerializer]: success
+[2023-05-31 14:35:26] INFO root fetch - processPackages [testit-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 14:35:26] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/00/23/91173c8f5a55e8450166dec4c959d7aa93374788cba459cc457a9c295666/pyvium-0.1.9b0.tar.gz
+[2023-05-31 14:35:26] INFO root fetch - main [MainThread]: End processing [pycrux]: success
+[2023-05-31 14:35:26] INFO root fetch - processPackages [testit-cli]: Downloading https://files.pythonhosted.org/packages/93/39/f349d1625861cab58fb76f632cf91b1563ba5ca2f16b06ef7931210755a7/testit-cli-0.1.6.tar.gz
+[2023-05-31 14:35:26] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-31 14:35:26] INFO root fetch - processPackages [testit-cli]: executing diffoscope
+[2023-05-31 14:35:26] INFO root fetch - processPackages [testit-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-cli-0.1.5.tar.gz tmp/testit-cli-0.1.6.tar.gz --markdown 20230531/t/testit-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 14:35:26] INFO root fetch - main [MainThread]: End processing [lightning-rod]: success
+[2023-05-31 14:35:27] INFO root fetch - main [MainThread]: End processing [bioumlsim]: success
+[2023-05-31 14:35:27] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-31 14:35:27] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.8b0.tar.gz tmp/pyvium-0.1.9b0.tar.gz --markdown 20230531/p/pyvium/0.1.8b0-0.1.9b0/diff.md --exclude *.pyd
+[2023-05-31 14:35:27] INFO root fetch - main [MainThread]: End processing [cxbind]: success
+[2023-05-31 14:35:27] INFO root fetch - main [MainThread]: End processing [testit-cli]: success
+[2023-05-31 14:35:28] INFO root fetch - main [MainThread]: End processing [spinedb-api]: success
+[2023-05-31 14:35:29] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-31 14:35:32] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-05-31 14:35:32] INFO root fetch - main [MainThread]: Store serial: [18316713]
