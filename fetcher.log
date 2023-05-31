@@ -12713,3 +12713,108 @@
 [2023-05-31 12:35:39] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
 [2023-05-31 12:35:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-31 12:35:44] INFO root fetch - main [MainThread]: Store serial: [18315352]
+[2023-05-31 12:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315352]
+[2023-05-31 12:40:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dgl_client
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskerapi
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyquet
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talisman-dm
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Aehold
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stitch-n-split
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idp-engine
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gauth
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recon-lw
+[2023-05-31 12:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyquickhelper
+[2023-05-31 12:40:54] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [dgl_client]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-31 12:40:54] WARNING root fetch - processPackages [taskerapi]: Skipping, unable to determine old version
+[2023-05-31 12:40:54] INFO root fetch - processPackages [taskerapi]: Start processing: cognite-extractor-utils
+[2023-05-31 12:40:54] INFO root fetch - main [MainThread]: End processing [taskerapi] error
+[2023-05-31 12:40:54] WARNING root fetch - processPackages [Aehold]: Skipping, unable to determine old version
+[2023-05-31 12:40:54] INFO root fetch - processPackages [Aehold]: Start processing: chatllm
+[2023-05-31 12:40:54] INFO root fetch - processPackages [gauth]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 12:40:54] INFO root fetch - main [MainThread]: End processing [Aehold] error
+[2023-05-31 12:40:54] INFO root fetch - processPackages [stitch-n-split]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [pyquickhelper]: New version: [1.9.3418] Old Version: [1.9.3396]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5131824702] Old Version: [2.0.0.dev5090178202]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [idp-engine]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [pyquet]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [chatllm]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-31 12:40:54] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230531/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-31 12:40:54] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/7a/15/722745e6cf12e9c6038c09a005196831e8746c1d4f2e94d4768ae6315d50/dgl_client-0.3.3.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [gauth]: Downloading https://files.pythonhosted.org/packages/31/35/eda514c2db74879bce6ef1c529f5cf0c4655f179042509f78dd300fd2a31/gauth-1.0.7.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [pyquickhelper]: Downloading https://files.pythonhosted.org/packages/8a/a0/03f235af1d032013f680e6920695d6339209d287276f0fae23ab8673b33f/pyquickhelper-1.9.3396-py3-none-any.whl
+[2023-05-31 12:40:54] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230531/c/chatllm/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-31 12:40:54] INFO root fetch - processPackages [stitch-n-split]: Downloading https://files.pythonhosted.org/packages/50/0c/2ebb701ecd6b1792fc4a0ee9e55732b683624e054ae3bb3c161aacb3b511/stitch_n_split-0.1.1.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [idp-engine]: Downloading https://files.pythonhosted.org/packages/c2/56/e7d7614d1395ba78fb3034c48f3858070597cddf1ee68e55ab5f2af0ca3e/idp-engine-0.9.1.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/cf/c3/c0ca0d9f89826f5aee5f66de79f869afe87ece3ac84d253f479cb1ead967/recon_lw-2.0.0.dev5131824702.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/39/8c/f9e71e97104c39daf6f11884f94e988e3e3478138ee8860ac571fc561cf2/dgl_client-0.3.4.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/a9/65/bf03f505359adb8c2faa309c9b44f82f0be4857b1ee91558a03a1451b0e9/cognite_extractor_utils-5.0.1.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [pyquet]: Downloading https://files.pythonhosted.org/packages/da/52/98343c99fbec109f06819473fde7c4456133c084ba0b68e0149af745e2be/pyquet-0.1.5.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [gauth]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [gauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth-1.0.6.tar.gz tmp/gauth-1.0.7.tar.gz --markdown 20230531/g/gauth/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 12:40:54] INFO root fetch - processPackages [stitch-n-split]: Downloading https://files.pythonhosted.org/packages/35/f3/bc447179c82767ec79d80bc99f41787ea222b21a88c77d78d4094fc2abb7/stitch_n_split-0.1.2.tar.gz
+[2023-05-31 12:40:54] INFO root fetch - processPackages [dgl_client]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [dgl_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl_client-0.3.3.tar.gz tmp/dgl_client-0.3.4.tar.gz --markdown 20230531/d/dgl_client/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-31 12:40:54] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-5.0.0.tar.gz tmp/cognite_extractor_utils-5.0.1.tar.gz --markdown 20230531/c/cognite-extractor-utils/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-31 12:40:54] INFO root fetch - processPackages [pyquet]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [pyquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquet-0.1.4.tar.gz tmp/pyquet-0.1.5.tar.gz --markdown 20230531/p/pyquet/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 12:40:54] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-31 12:40:54] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5090178202.tar.gz tmp/recon_lw-2.0.0.dev5131824702.tar.gz --markdown 20230531/r/recon-lw/2.0.0.dev5090178202-2.0.0.dev5131824702/diff.md --exclude *.pyd
+[2023-05-31 12:40:55] INFO root fetch - processPackages [idp-engine]: Downloading https://files.pythonhosted.org/packages/e1/8a/29e67b33532a7e3d03c5b0b6fbd8a50d2752af3edee49e88bcb2320cb454/idp-engine-0.9.2.tar.gz
+[2023-05-31 12:40:55] INFO root fetch - processPackages [stitch-n-split]: executing diffoscope
+[2023-05-31 12:40:55] INFO root fetch - processPackages [stitch-n-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stitch_n_split-0.1.1.tar.gz tmp/stitch_n_split-0.1.2.tar.gz --markdown 20230531/s/stitch-n-split/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 12:40:55] INFO root fetch - processPackages [idp-engine]: executing diffoscope
+[2023-05-31 12:40:55] INFO root fetch - processPackages [idp-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idp-engine-0.9.1.tar.gz tmp/idp-engine-0.9.2.tar.gz --markdown 20230531/i/idp-engine/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 12:40:55] INFO root fetch - processPackages [pyquickhelper]: Downloading https://files.pythonhosted.org/packages/f6/41/1dbdf34f341e0059943e57caf1d3535c6a4ab8cb98ddb5b92a4d4c0d1f41/pyquickhelper-1.9.3418-py3-none-any.whl
+[2023-05-31 12:40:56] INFO root fetch - processPackages [dgl_client]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [dgl_client]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [gauth]: Start processing: py-gis-utility
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [gauth]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-31 12:40:56] INFO root fetch - processPackages [py-gis-utility]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 12:40:56] INFO root fetch - processPackages [pyquet]: Start processing: sj-tool
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [pyquet]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-31 12:40:56] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230531/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-31 12:40:56] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 12:40:56] INFO root fetch - processPackages [talisman-dm]: Start processing: norman-ai
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [py-gis-utility]: Downloading https://files.pythonhosted.org/packages/af/8f/04f28f5287ba949b6e55141b30ef54e8058f55e4dbcd270b9ffad9cc86a4/py-gis-utility-0.2.1.tar.gz
+[2023-05-31 12:40:56] INFO root fetch - processPackages [norman-ai]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-31 12:40:56] INFO root fetch - processPackages [cognite-extractor-utils]: Start processing: biobb-flexserv
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [biobb-flexserv]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-31 12:40:56] INFO root fetch - processPackages [stitch-n-split]: Start processing: acryl-datahub
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [stitch-n-split]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-31 12:40:56] INFO root fetch - processPackages [pyquickhelper]: executing diffoscope
+[2023-05-31 12:40:56] INFO root fetch - processPackages [pyquickhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquickhelper-1.9.3396-py3-none-any.whl.zip tmp/pyquickhelper-1.9.3418-py3-none-any.whl.zip --markdown 20230531/p/pyquickhelper/1.9.3396-1.9.3418/diff.md --exclude *.pyd
+[2023-05-31 12:40:56] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-31 12:40:56] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-31 12:40:56] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230531/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:40:56] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-31 12:40:56] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230531/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-31 12:40:56] INFO root fetch - processPackages [biobb-flexserv]: Downloading https://files.pythonhosted.org/packages/21/e2/3a63a307cc0ade38f6b8125ea495eb4ca7a2a9e27a5a2deb2e95b9746c7a/biobb_flexserv-4.0.2.tar.gz
+[2023-05-31 12:40:56] INFO root fetch - processPackages [py-gis-utility]: Downloading https://files.pythonhosted.org/packages/14/cf/15ef3369b2bc7e9253d60aca856e5bb7f69076d826c1741c9633a6c5b0cd/py-gis-utility-0.2.2.tar.gz
+[2023-05-31 12:40:56] INFO root fetch - processPackages [norman-ai]: Downloading https://files.pythonhosted.org/packages/cd/36/bb493716e8138e8dc11204820039afe9fe045541bfdac6f784ec2b04407c/norman_ai-0.0.9.tar.gz
+[2023-05-31 12:40:56] INFO root fetch - processPackages [py-gis-utility]: executing diffoscope
+[2023-05-31 12:40:56] INFO root fetch - processPackages [py-gis-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-gis-utility-0.2.1.tar.gz tmp/py-gis-utility-0.2.2.tar.gz --markdown 20230531/p/py-gis-utility/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 12:40:57] INFO root fetch - processPackages [biobb-flexserv]: executing diffoscope
+[2023-05-31 12:40:57] INFO root fetch - processPackages [biobb-flexserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_flexserv-4.0.1.tar.gz tmp/biobb_flexserv-4.0.2.tar.gz --markdown 20230531/b/biobb-flexserv/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-31 12:40:57] INFO root fetch - processPackages [norman-ai]: executing diffoscope
+[2023-05-31 12:40:57] INFO root fetch - processPackages [norman-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/norman_ai-0.0.7.tar.gz tmp/norman_ai-0.0.9.tar.gz --markdown 20230531/n/norman-ai/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:40:57] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-05-31 12:40:57] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-31 12:40:58] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-31 12:40:58] INFO root fetch - main [MainThread]: End processing [py-gis-utility]: success
+[2023-05-31 12:40:58] INFO root fetch - main [MainThread]: End processing [biobb-flexserv]: success
+[2023-05-31 12:40:58] INFO root fetch - main [MainThread]: End processing [norman-ai]: success
+[2023-05-31 12:40:58] INFO root fetch - main [MainThread]: End processing [idp-engine]: success
+[2023-05-31 12:41:02] INFO root fetch - main [MainThread]: End processing [pyquickhelper]: success
+[2023-05-31 12:41:02] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-31 12:41:02] INFO root fetch - main [MainThread]: Store serial: [18315413]
