@@ -9527,3 +9527,66 @@
 [2023-05-31 09:04:16] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-31 09:04:26] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-31 09:04:26] INFO root fetch - main [MainThread]: Store serial: [18313463]
+[2023-05-31 09:09:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313463]
+[2023-05-31 09:09:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-utilities
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: constant-check-and-kill
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnv-c
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ggvlib
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-utilities
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylint-nautobot
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steamship
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-visualizer
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyndjs
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lino
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [lino]: New version: [23.5.3] Old Version: [23.5.2]
+[2023-05-31 09:09:36] WARNING root fetch - processPackages [constant-check-and-kill]: Skipping, unable to determine old version
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pyndjs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [constant-check-and-kill]: Start processing: abstract-utilities
+[2023-05-31 09:09:36] INFO root fetch - main [MainThread]: End processing [constant-check-and-kill] error
+[2023-05-31 09:09:36] INFO root fetch - processPackages [langchain-visualizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [fnv-c]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 09:09:36] ERROR root fetch - processPackages [pylint-nautobot]: Unable to get metadata: No such project 'pylint-nautobot'
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pylint-nautobot]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-31 09:09:36] INFO root fetch - main [MainThread]: End processing [pylint-nautobot] error
+[2023-05-31 09:09:36] INFO root fetch - processPackages [langchain-visualizer]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [langchain-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_visualizer-0.0.8.tar.gz tmp/langchain_visualizer-0.0.9.tar.gz --markdown 20230531/l/langchain-visualizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pyndjs]: Downloading https://files.pythonhosted.org/packages/02/7d/92cf8ea12b329e772373607949012dec4f61d4e694108ec80d9064f2c396/pyndjs-0.0.3.tar.gz
+[2023-05-31 09:09:36] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230531/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230531/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [fnv-c]: Downloading https://files.pythonhosted.org/packages/f3/50/b042b0d5eefeb8d0da9b724a7772bb95c7fc434cd611768feef2ca54ef8a/fnv-c-0.1.5.tar.gz
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230531/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [fnv-c]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [fnv-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnv-c-0.1.4.tar.gz tmp/fnv-c-0.1.5.tar.gz --markdown 20230531/f/fnv-c/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/57/61/a554b4c3458acccccba2af32a386fed9385f53b49a03bf3c88a19cf2a38b/lino-23.5.3.tar.gz
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230531/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230531/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230531/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pyndjs]: Downloading https://files.pythonhosted.org/packages/55/f3/9e95e56f9d4648d2d3ebf8e8812f800c7e044e9952b80984d7e9867d5a92/pyndjs-0.0.4.tar.gz
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pyndjs]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [pyndjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyndjs-0.0.3.tar.gz tmp/pyndjs-0.0.4.tar.gz --markdown 20230531/p/pyndjs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 09:09:36] INFO root fetch - processPackages [lino]: executing diffoscope
+[2023-05-31 09:09:36] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-23.5.2.tar.gz tmp/lino-23.5.3.tar.gz --markdown 20230531/l/lino/23.5.2-23.5.3/diff.md --exclude *.pyd
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [fnv-c]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [langchain-visualizer]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [pyndjs]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-31 09:09:38] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 09:09:41] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-31 09:12:24] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2023-05-31 09:12:24] INFO root fetch - main [MainThread]: Store serial: [18313500]
