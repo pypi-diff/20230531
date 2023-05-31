@@ -8808,3 +8808,25 @@
 [2023-05-31 08:03:14] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
 [2023-05-31 08:03:15] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
 [2023-05-31 08:03:15] INFO root fetch - main [MainThread]: Store serial: [18313044]
+[2023-05-31 08:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313044]
+[2023-05-31 08:08:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cherryblossom
+[2023-05-31 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meta-matching-tool
+[2023-05-31 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-05-31 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-indices
+[2023-05-31 08:08:25] INFO root fetch - processPackages [cherryblossom]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 08:08:25] WARNING root fetch - processPackages [napari-indices]: Skipping, unable to determine old version
+[2023-05-31 08:08:25] INFO root fetch - main [MainThread]: End processing [napari-indices] error
+[2023-05-31 08:08:25] INFO root fetch - processPackages [meta-matching-tool]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-31 08:08:25] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230530] Old Version: [2.4.0.dev20230529]
+[2023-05-31 08:08:25] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-31 08:08:25] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230529.tar.gz tmp/pyg_nightly-2.4.0.dev20230530.tar.gz --markdown 20230531/p/pyg-nightly/2.4.0.dev20230529-2.4.0.dev20230530/diff.md --exclude *.pyd
+[2023-05-31 08:08:25] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/d9/73/69117c594f42fb34a428b6db1814646ea0f802e000e66cb56750bc988fb5/meta_matching_tool-1.7.2.tar.gz
+[2023-05-31 08:08:25] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/7b/35/55780ac447d4dbdb7d14b9216b6b281c8a65cb739d030d99bc410909110b/cherryblossom-0.1.6.tar.gz
+[2023-05-31 08:08:25] WARNING root fetch - processPackages [meta-matching-tool]: Skipping package: exceeds size limit 23609883>=10485760
+[2023-05-31 08:08:25] INFO root fetch - main [MainThread]: End processing [meta-matching-tool] error
+[2023-05-31 08:08:25] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-05-31 08:08:25] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.1.5.tar.gz tmp/cherryblossom-0.1.6.tar.gz --markdown 20230531/c/cherryblossom/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 08:08:26] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-05-31 08:08:30] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-31 08:08:30] INFO root fetch - main [MainThread]: Store serial: [18313056]
