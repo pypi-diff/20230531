@@ -12514,3 +12514,29 @@
 [2023-05-31 12:13:48] INFO root fetch - main [MainThread]: End processing [Products.MeetingCommunes]: success
 [2023-05-31 12:14:33] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-31 12:14:33] INFO root fetch - main [MainThread]: Store serial: [18315190]
+[2023-05-31 12:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315190]
+[2023-05-31 12:19:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 12:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterhub-backendspawner
+[2023-05-31 12:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainlit
+[2023-05-31 12:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nashbanksync
+[2023-05-31 12:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-05-31 12:19:42] INFO root fetch - processPackages [chainlit]: New version: [0.2.109] Old Version: [0.2.108]
+[2023-05-31 12:19:42] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 12:19:42] INFO root fetch - processPackages [returnn]: New version: [1.20230531.120344] Old Version: [1.20230530.231117]
+[2023-05-31 12:19:42] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 12:19:42] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/95/55/1a9b2b4fc48f1f015037b93cef9f7c25292c5b34bd802e10a0bd0184483d/returnn-1.20230531.120344.tar.gz
+[2023-05-31 12:19:42] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/5f/e3/45a3c06d3f52e70215620517d603cf0388fb7a88285371fd0ad0055a1187/chainlit-0.2.109.tar.gz
+[2023-05-31 12:19:43] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-31 12:19:43] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230531/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 12:19:43] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-31 12:19:43] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230530.231117.tar.gz tmp/returnn-1.20230531.120344.tar.gz --markdown 20230531/r/returnn/1.20230530.231117-1.20230531.120344/diff.md --exclude *.pyd
+[2023-05-31 12:19:43] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-05-31 12:19:43] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.2.108.tar.gz tmp/chainlit-0.2.109.tar.gz --markdown 20230531/c/chainlit/0.2.108-0.2.109/diff.md --exclude *.pyd
+[2023-05-31 12:19:43] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/be/eb/c3026583596fbd3c9b75c8f0f9c8bb3919891d6fa56e79a122812cd0fe48/jupyterhub-backendspawner-0.3.2.tar.gz
+[2023-05-31 12:19:43] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-31 12:19:43] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.3.1.tar.gz tmp/jupyterhub-backendspawner-0.3.2.tar.gz --markdown 20230531/j/jupyterhub-backendspawner/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 12:19:44] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-31 12:19:44] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-31 12:19:47] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-31 12:19:59] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-05-31 12:19:59] INFO root fetch - main [MainThread]: Store serial: [18315203]
