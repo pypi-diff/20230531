@@ -10021,3 +10021,70 @@
 [2023-05-31 09:40:47] INFO root fetch - main [MainThread]: End processing [lmclient-core]: success
 [2023-05-31 09:40:48] INFO root fetch - main [MainThread]: End processing [django-admin-datta]: success
 [2023-05-31 09:40:48] INFO root fetch - main [MainThread]: Store serial: [18313776]
+[2023-05-31 09:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313776]
+[2023-05-31 09:45:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hoyo-daily-logins-helper
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embedbase
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satosacontrib.perun
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memphis-py-beta
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: field-s3-uploads
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sailboat-gym
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: umap-project
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyponic
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nestedtext
+[2023-05-31 09:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gefyra
+[2023-05-31 09:45:57] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [memphis-py-beta]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [umap-project]: New version: [1.3.0a0] Old Version: [1.2.7]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [nestedtext]: New version: [3.6] Old Version: [3.5]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [hyponic]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-31 09:45:57] WARNING root fetch - processPackages [field-s3-uploads]: Skipping, unable to determine old version
+[2023-05-31 09:45:57] INFO root fetch - processPackages [field-s3-uploads]: Start processing: investor8-sdk
+[2023-05-31 09:45:57] INFO root fetch - main [MainThread]: End processing [field-s3-uploads] error
+[2023-05-31 09:45:57] INFO root fetch - processPackages [embedbase]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [gefyra]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-05-31 09:45:57] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.5.tar.gz tmp/sailboat-gym-1.0.6.tar.gz --markdown 20230531/s/sailboat-gym/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 09:45:57] INFO root fetch - processPackages [memphis-py-beta]: executing diffoscope
+[2023-05-31 09:45:57] INFO root fetch - processPackages [memphis-py-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memphis-py-beta-1.0.2.tar.gz tmp/memphis-py-beta-1.0.3.tar.gz --markdown 20230531/m/memphis-py-beta/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 09:45:57] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.9] Old Version: [1.1.86]
+[2023-05-31 09:45:57] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/3c/c5/82c7badde51cc5ff22e5ee0c9787e790534e0d06e1f68defc83375d6d19b/hoyo-daily-logins-helper-2.4.2.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [nestedtext]: Downloading https://files.pythonhosted.org/packages/a5/f6/d648899c46a3341cc34b5ce8c3cb1a634b679596b6eb2fb2440ab53a80e5/nestedtext-3.5.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [hyponic]: Downloading https://files.pythonhosted.org/packages/53/bc/6f056e11c21ed68fed71c3d2f2e4069ffedbaff24ad8f781d4c6f8ac654c/hyponic-0.0.3.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/ee/a5/9735511f052e5e76eac42c676d69b17fca466f577ae62d97693825cab944/embedbase-1.2.6.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/44/e7/abb821e566d0255c5c0d038ef4b212c4c591cf4143bec85504a860efaad8/satosacontrib.perun-3.4.0.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/db/7e/2cf7b4891e7862c455f628410eb557d9f6f79859a1369a23942b03b567e7/investor8-sdk-1.1.86.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/01/b4/e822d2cdd42ad8edaea7d976e27863913695e7c621bcb75c24d355bdc7ad/umap-project-1.3.0a0.tar.gz
+[2023-05-31 09:45:57] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-05-31 09:45:57] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.2.5.tar.gz tmp/embedbase-1.2.6.tar.gz --markdown 20230531/e/embedbase/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [gefyra]: Downloading https://files.pythonhosted.org/packages/21/d6/80122b42f89ccb180ed64bbc87b48e74e7189779a9b37f6999512806c0bb/gefyra-1.1.1.tar.gz
+[2023-05-31 09:45:58] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.3.0.tar.gz tmp/satosacontrib.perun-3.4.0.tar.gz --markdown 20230531/s/satosacontrib.perun/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [hyponic]: Downloading https://files.pythonhosted.org/packages/05/e8/46fe892c1c69b5bf6f192887892751c9258022ef30c649d684d13b231bb2/hyponic-0.1.0.tar.gz
+[2023-05-31 09:45:58] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/14/45/37d4b4c3ca44634e2750eac4f0ba2db4e6fa98cbae57ef0f9766eab89864/hoyo-daily-logins-helper-2.5.0.tar.gz
+[2023-05-31 09:45:58] INFO root fetch - processPackages [nestedtext]: Downloading https://files.pythonhosted.org/packages/8e/6f/6ccfa8ac66ed2210376c3e5bbf1d92fc2bcafcacafab2fff12d8cbfcfe0c/nestedtext-3.6.tar.gz
+[2023-05-31 09:45:58] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap-project-1.2.7.tar.gz tmp/umap-project-1.3.0a0.tar.gz --markdown 20230531/u/umap-project/1.2.7-1.3.0a0/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [hyponic]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [hyponic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyponic-0.0.3.tar.gz tmp/hyponic-0.1.0.tar.gz --markdown 20230531/h/hyponic/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.4.2.tar.gz tmp/hoyo-daily-logins-helper-2.5.0.tar.gz --markdown 20230531/h/hoyo-daily-logins-helper/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [gefyra]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-1.1.0.tar.gz tmp/gefyra-1.1.1.tar.gz --markdown 20230531/g/gefyra/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [nestedtext]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [nestedtext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedtext-3.5.tar.gz tmp/nestedtext-3.6.tar.gz --markdown 20230531/n/nestedtext/3.5-3.6/diff.md --exclude *.pyd
+[2023-05-31 09:45:58] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-05-31 09:45:58] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.86.tar.gz tmp/investor8-sdk-1.1.9.tar.gz --markdown 20230531/i/investor8-sdk/1.1.86-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 09:45:59] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-05-31 09:45:59] INFO root fetch - main [MainThread]: End processing [memphis-py-beta]: success
+[2023-05-31 09:45:59] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-05-31 09:45:59] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-05-31 09:46:00] INFO root fetch - main [MainThread]: End processing [hyponic]: success
+[2023-05-31 09:46:00] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-31 09:46:00] INFO root fetch - main [MainThread]: End processing [gefyra]: success
+[2023-05-31 09:46:00] INFO root fetch - main [MainThread]: End processing [nestedtext]: success
+[2023-05-31 09:46:03] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-05-31 09:46:33] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-05-31 09:46:33] INFO root fetch - main [MainThread]: Store serial: [18313815]
