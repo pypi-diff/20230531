@@ -7366,3 +7366,63 @@
 [2023-05-31 05:39:40] INFO root fetch - main [MainThread]: End processing [kuto]: success
 [2023-05-31 05:39:41] INFO root fetch - main [MainThread]: End processing [PyRVC]: success
 [2023-05-31 05:39:41] INFO root fetch - main [MainThread]: Store serial: [18312104]
+[2023-05-31 05:44:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312104]
+[2023-05-31 05:44:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bp-data-grid
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schemamodels
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-l10n-fr-chorus-account
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp-data-fabric
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-l10n-fr-intrastat-service
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo10-addon-l10n-fr-department
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo10-addon-l10n-fr-intrastat-product
+[2023-05-31 05:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ez-colab
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-chorus-account]: New version: [10.0.3.0.0.99.dev7] Old Version: [10.0.3.0.0.99.dev6]
+[2023-05-31 05:44:50] INFO root fetch - processPackages [schemamodels]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-31 05:44:50] WARNING root fetch - processPackages [abstract-gui]: Skipping, unable to determine old version
+[2023-05-31 05:44:50] INFO root fetch - main [MainThread]: End processing [abstract-gui] error
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-product]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-grid]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-service]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-05-31 05:44:50] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 05:44:50] WARNING root fetch - processPackages [ez-colab]: Skipping, unable to determine old version
+[2023-05-31 05:44:50] INFO root fetch - main [MainThread]: End processing [ez-colab] error
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-department]: New version: [10.0.1.1.0.99.dev1] Old Version: [10.0.1.1.0]
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.8.tar.gz tmp/bp_data_fabric-1.0.9.tar.gz --markdown 20230531/b/bp-data-fabric/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 05:44:50] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-31 05:44:50] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230531/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 05:44:50] INFO root fetch - processPackages [schemamodels]: Downloading https://files.pythonhosted.org/packages/1a/66/edc3132c0b889eb85d6d48309e8057e565de28d11e3f7405d3b5747e474b/schemamodels-0.6.1.tar.gz
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-chorus-account]: Downloading https://files.pythonhosted.org/packages/bb/a0/4976f868bf437b5c06de9931f4d2181afb504e257e8836303ae393cd6e5b/odoo10_addon_l10n_fr_chorus_account-10.0.3.0.0.99.dev6-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/d0/34/3c71d81dde16a5cadd1a1619a5eb359e8c6bf856968e9b89b52e970b68a5/odoo10_addon_l10n_fr_intrastat_product-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/61/57/a11efb14c598a47b49a78b930c006e24a7aad69d79b367965e9490493ca1/bp_data_grid-1.0.6.tar.gz
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-service]: Downloading https://files.pythonhosted.org/packages/38/5a/fac0998c8ee973bff888105ce71e0ebc469ee82b4822f1e61aad951aa6b3/odoo10_addon_l10n_fr_intrastat_service-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/cf/6d/438df0167eb252fa9bb2fd0be0267dd85677ef735e00b6ea32a1184241e9/odoo10_addon_l10n_fr_department-10.0.1.1.0-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-05-31 05:44:50] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-1.0.5.tar.gz tmp/bp_data_grid-1.0.6.tar.gz --markdown 20230531/b/bp-data-grid/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 05:44:50] INFO root fetch - processPackages [schemamodels]: Downloading https://files.pythonhosted.org/packages/da/78/988be6d474712ce81f2289d027e126cd4a6760de90e98df4e6bd59055cb9/schemamodels-0.7.0.tar.gz
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/d0/cc/7f24fa91afc693419418b5a7f6392a25799485d7751b0e40d6258e526746/odoo10_addon_l10n_fr_department-10.0.1.1.0.99.dev1-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [schemamodels]: executing diffoscope
+[2023-05-31 05:44:50] INFO root fetch - processPackages [schemamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemamodels-0.6.1.tar.gz tmp/schemamodels-0.7.0.tar.gz --markdown 20230531/s/schemamodels/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-service]: Downloading https://files.pythonhosted.org/packages/a9/96/d52fa7d70a4ffc45f0e1efda726a980ce3cd1b18f6823fec4799b241c852/odoo10_addon_l10n_fr_intrastat_service-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/66/75/bd38304989aa538829df4e910bfad638e0c97c6d6d2f1c3cfb77cc2d1658/odoo10_addon_l10n_fr_intrastat_product-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-department]: executing diffoscope
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_fr_department-10.0.1.1.0-py2-none-any.whl.zip tmp/odoo10_addon_l10n_fr_department-10.0.1.1.0.99.dev1-py2-none-any.whl.zip --markdown 20230531/o/odoo10-addon-l10n-fr-department/10.0.1.1.0-10.0.1.1.0.99.dev1/diff.md --exclude *.pyd
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-product]: executing diffoscope
+[2023-05-31 05:44:50] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_fr_intrastat_product-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_l10n_fr_intrastat_product-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230531/o/odoo10-addon-l10n-fr-intrastat-product/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-31 05:44:51] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-service]: executing diffoscope
+[2023-05-31 05:44:51] INFO root fetch - processPackages [odoo10-addon-l10n-fr-intrastat-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_fr_intrastat_service-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_l10n_fr_intrastat_service-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230531/o/odoo10-addon-l10n-fr-intrastat-service/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-31 05:44:51] INFO root fetch - processPackages [odoo10-addon-l10n-fr-chorus-account]: Downloading https://files.pythonhosted.org/packages/0f/dc/773db1340f609f1d4014a5c98e4720a161d22a31d9988ba1701326196937/odoo10_addon_l10n_fr_chorus_account-10.0.3.0.0.99.dev7-py2-none-any.whl
+[2023-05-31 05:44:51] INFO root fetch - processPackages [odoo10-addon-l10n-fr-chorus-account]: executing diffoscope
+[2023-05-31 05:44:51] INFO root fetch - processPackages [odoo10-addon-l10n-fr-chorus-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_fr_chorus_account-10.0.3.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_l10n_fr_chorus_account-10.0.3.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230531/o/odoo10-addon-l10n-fr-chorus-account/10.0.3.0.0.99.dev6-10.0.3.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-31 05:44:51] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-31 05:44:51] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-31 05:44:51] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [schemamodels]: success
+[2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-fr-department]: success
+[2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-fr-intrastat-service]: success
+[2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-fr-intrastat-product]: success
+[2023-05-31 05:44:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-fr-chorus-account]: success
+[2023-05-31 05:44:52] INFO root fetch - main [MainThread]: Store serial: [18312132]
