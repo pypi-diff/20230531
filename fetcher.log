@@ -1999,3 +1999,57 @@
 [2023-05-31 03:01:19] INFO root fetch - main [MainThread]: End processing [Files.com]: success
 [2023-05-31 03:01:37] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-31 03:01:37] INFO root fetch - main [MainThread]: Store serial: [18309345]
+[2023-05-31 03:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309345]
+[2023-05-31 03:06:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-gcp
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MEGABYTE-pytorch
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ontogpt
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-test-package
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-wget
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lifetimefitting
+[2023-05-31 03:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-31 03:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aemcmc-nightly
+[2023-05-31 03:06:46] INFO root fetch - processPackages [MEGABYTE-pytorch]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [lifetimefitting]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [ontogpt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [abstract-test-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230530] Old Version: [0.0.8.dev20230529]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230531/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230531/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230531/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [abstract-test-package]: Downloading https://files.pythonhosted.org/packages/e8/a3/8cc9f5eb40ed8c7f4ad81aab94a156d3a0b9bf21f1274e13fc8a994b4f64/abstract_test_package-0.0.1.tar.gz
+[2023-05-31 03:06:46] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/53/b1/8b8514e2e711ce4dfb6aac9c17bdb75a6c27f9be80462d9384f815416c6c/lifetimefitting-0.0.22.tar.gz
+[2023-05-31 03:06:46] INFO root fetch - processPackages [MEGABYTE-pytorch]: Downloading https://files.pythonhosted.org/packages/6a/17/dc81a89a9dd3450516443a40a428004b26c1da3341bd5fb381133b240aa4/MEGABYTE-pytorch-0.1.4.tar.gz
+[2023-05-31 03:06:46] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/0f/d7/83a8a4af994989ff759191c14410e1ac9eb80d0501a954863bd739670ff8/aemcmc-nightly-0.0.8.dev20230530.tar.gz
+[2023-05-31 03:06:46] INFO root fetch - processPackages [ontogpt]: Downloading https://files.pythonhosted.org/packages/93/6e/b67b71573793ffac0eff9bbe757d402a6168f681aa53e1953ea9d7976f94/ontogpt-0.2.8.tar.gz
+[2023-05-31 03:06:46] INFO root fetch - processPackages [MEGABYTE-pytorch]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [lifetimefitting]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [MEGABYTE-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEGABYTE-pytorch-0.1.2.tar.gz tmp/MEGABYTE-pytorch-0.1.4.tar.gz --markdown 20230531/M/MEGABYTE-pytorch/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [lifetimefitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifetimefitting-0.0.21.tar.gz tmp/lifetimefitting-0.0.22.tar.gz --markdown 20230531/l/lifetimefitting/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230531/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230529.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230530.tar.gz --markdown 20230531/a/aemcmc-nightly/0.0.8.dev20230529-0.0.8.dev20230530/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [abstract-test-package]: Downloading https://files.pythonhosted.org/packages/3a/02/c86b5b7e5aa577b9cbbc2b662c0ef02325d29ce30484da6b2f6a1d327ed3/abstract_test_package-0.0.2.tar.gz
+[2023-05-31 03:06:46] INFO root fetch - processPackages [ontogpt]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [ontogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontogpt-0.2.7.tar.gz tmp/ontogpt-0.2.8.tar.gz --markdown 20230531/o/ontogpt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-31 03:06:46] INFO root fetch - processPackages [abstract-test-package]: executing diffoscope
+[2023-05-31 03:06:46] INFO root fetch - processPackages [abstract-test-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_test_package-0.0.1.tar.gz tmp/abstract_test_package-0.0.2.tar.gz --markdown 20230531/a/abstract-test-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 03:06:47] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-31 03:06:47] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-31 03:06:47] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-31 03:06:47] INFO root fetch - main [MainThread]: End processing [MEGABYTE-pytorch]: success
+[2023-05-31 03:06:48] INFO root fetch - main [MainThread]: End processing [abstract-test-package]: success
+[2023-05-31 03:06:48] INFO root fetch - main [MainThread]: End processing [lifetimefitting]: success
+[2023-05-31 03:06:48] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-31 03:06:48] INFO root fetch - main [MainThread]: End processing [ontogpt]: success
+[2023-05-31 03:06:57] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-05-31 03:06:57] INFO root fetch - main [MainThread]: Store serial: [18309374]
