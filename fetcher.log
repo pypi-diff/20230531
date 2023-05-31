@@ -1835,3 +1835,50 @@
 [2023-05-31 02:45:33] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-05-31 02:45:34] INFO root fetch - main [MainThread]: End processing [ngscrape]: success
 [2023-05-31 02:45:34] INFO root fetch - main [MainThread]: Store serial: [18309249]
+[2023-05-31 02:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309249]
+[2023-05-31 02:50:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-data-transfer
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mosaicml-cli
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileblocks
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langdash
+[2023-05-31 02:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-pagerduty
+[2023-05-31 02:50:42] INFO root fetch - processPackages [fileblocks]: New version: [2023.5.30] Old Version: [2023.5.25]
+[2023-05-31 02:50:42] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [langdash]: New version: [0.0.3.dev1] Old Version: [0.0.2.dev2]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305300044] Old Version: [4.9.2.dev202305290045]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-05-31 02:50:43] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-31 02:50:43] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230531/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-05-31 02:50:43] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-31 02:50:43] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-31 02:50:43] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/d1/ff/b4a84dbf58aed327f8c145dfccff39f696a841b94d90c7a15d521f958678/langdash-0.0.3.dev1.tar.gz
+[2023-05-31 02:50:43] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230531/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-31 02:50:43] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/a7/74/2890e64f08d9c915392dbfe7b11c5c08a568c68970839d5c55037c579182/mosaicml-cli-0.4.5.tar.gz
+[2023-05-31 02:50:43] INFO root fetch - processPackages [fileblocks]: Downloading https://files.pythonhosted.org/packages/2d/23/64bdf543e8b92c3b15cfd934cd7c7748d1685a169e04295a225a93d6a986/fileblocks-2023.5.30.tar.gz
+[2023-05-31 02:50:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/1d/64/df3cfd1bb1f55abd55fd40559df0f53360235656607c4e159ae733391c65/tfds-nightly-4.9.2.dev202305300044.tar.gz
+[2023-05-31 02:50:43] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-0.0.2.dev2.tar.gz tmp/langdash-0.0.3.dev1.tar.gz --markdown 20230531/l/langdash/0.0.2.dev2-0.0.3.dev1/diff.md --exclude *.pyd
+[2023-05-31 02:50:43] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20230531/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 02:50:43] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.4.tar.gz tmp/mosaicml-cli-0.4.5.tar.gz --markdown 20230531/m/mosaicml-cli/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-31 02:50:43] INFO root fetch - processPackages [fileblocks]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [fileblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileblocks-2023.5.25.tar.gz tmp/fileblocks-2023.5.30.tar.gz --markdown 20230531/f/fileblocks/2023.5.25-2023.5.30/diff.md --exclude *.pyd
+[2023-05-31 02:50:43] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-31 02:50:43] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305290045.tar.gz tmp/tfds-nightly-4.9.2.dev202305300044.tar.gz --markdown 20230531/t/tfds-nightly/4.9.2.dev202305290045-4.9.2.dev202305300044/diff.md --exclude *.pyd
+[2023-05-31 02:50:44] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-31 02:50:44] INFO root fetch - main [MainThread]: End processing [fileblocks]: success
+[2023-05-31 02:50:45] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-05-31 02:50:45] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2023-05-31 02:50:47] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-05-31 02:50:47] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-05-31 02:50:54] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-31 02:50:54] INFO root fetch - main [MainThread]: Store serial: [18309277]
