@@ -16162,3 +16162,182 @@
 [2023-05-31 15:31:04] INFO root fetch - main [MainThread]: End processing [econoplots]: success
 [2023-05-31 15:31:05] INFO root fetch - main [MainThread]: End processing [openeo]: success
 [2023-05-31 15:31:05] INFO root fetch - main [MainThread]: Store serial: [18317374]
+[2023-05-31 15:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317374]
+[2023-05-31 15:36:14] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoomaker
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vmngclient
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watson-machine-learning
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.target
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Genuine-fake
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lakefs-client
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gracy
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: domjudge-utility
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-openitag
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anypy
+[2023-05-31 15:36:14] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [Genuine-fake]: New version: [1.2.9] Old Version: [1.2.21]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [zoomaker]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-31 15:36:14] WARNING root fetch - processPackages [anypy]: Skipping, unable to determine old version
+[2023-05-31 15:36:14] INFO root fetch - processPackages [domjudge-utility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:36:14] WARNING root fetch - processPackages [aliyun-python-sdk-openitag]: Skipping, unable to determine old version
+[2023-05-31 15:36:14] INFO root fetch - processPackages [anypy]: Start processing: un-yaml
+[2023-05-31 15:36:14] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [aliyun-python-sdk-openitag]: Start processing: nbformat
+[2023-05-31 15:36:14] INFO root fetch - main [MainThread]: End processing [anypy] error
+[2023-05-31 15:36:14] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-openitag] error
+[2023-05-31 15:36:14] INFO root fetch - processPackages [lakefs-client]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [un-yaml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [nbformat]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-05-31 15:36:14] INFO root fetch - processPackages [nbformat]: Downloading https://files.pythonhosted.org/packages/08/b7/8b964e977438037b57de31d312d67046e215295899107576e3708b0ea223/nbformat-5.8.0.tar.gz
+[2023-05-31 15:36:14] INFO root fetch - processPackages [Genuine-fake]: Downloading https://files.pythonhosted.org/packages/c6/bd/f814092f921f54c31c2869feafaf474020d56f8486c7844418c3101451da/Genuine-fake-1.2.21.tar.gz
+[2023-05-31 15:36:14] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/39/84/e21e0799a6971def0e3b9f567d92958dcde4f46812e866e68d236cab7ec1/un_yaml-0.1.0.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Genuine-fake]: Downloading https://files.pythonhosted.org/packages/56/30/5b23a1d9bb9f955ac1fb35583d6d510416c683344c090b5893dc2932a970/Genuine-fake-1.2.9.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [nbformat]: Downloading https://files.pythonhosted.org/packages/73/b0/7dcb4288e9096fc544e4c511253c5720210748dd37c23f0486541d145a0a/nbformat-5.9.0.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/ca/11/4bb40aed45ba4feaf9363bd84a6017d0e0256d0519d48382f470ccfbac39/zoomaker-0.6.0.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/1f/79/c99bf6690af55fba08c91b3facb3c7ccffc7bfb9fdeb45887baadb280824/un_yaml-0.1.1.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Genuine-fake]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Genuine-fake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Genuine-fake-1.2.21.tar.gz tmp/Genuine-fake-1.2.9.tar.gz --markdown 20230531/G/Genuine-fake/1.2.21-1.2.9/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230531/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-0.98.0.tar.gz tmp/lakefs-client-0.99.0.tar.gz --markdown 20230531/l/lakefs-client/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [zoomaker]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [zoomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoomaker-0.5.0.tar.gz tmp/zoomaker-0.6.0.tar.gz --markdown 20230531/z/zoomaker/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [nbformat]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [nbformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbformat-5.8.0.tar.gz tmp/nbformat-5.9.0.tar.gz --markdown 20230531/n/nbformat/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230531/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [domjudge-utility]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [domjudge-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domjudge_utility-0.0.8.tar.gz tmp/domjudge_utility-0.0.9.tar.gz --markdown 20230531/d/domjudge-utility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [un-yaml]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [un-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/un_yaml-0.1.0.tar.gz tmp/un_yaml-0.1.1.tar.gz --markdown 20230531/u/un-yaml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-31 15:36:15] INFO root fetch - processPackages [dissect.target]: Start processing: Simba-UW-tf-dev
+[2023-05-31 15:36:15] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-31 15:36:15] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230531/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.61.7] Old Version: [1.61.6]
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/34/5a/566eeebc89a4f9b83d58356bec6de3c51a1a62c0a1a970ec7d53bdfb3d30/Simba-UW-tf-dev-1.61.7.tar.gz
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-31 15:36:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.61.6.tar.gz tmp/Simba-UW-tf-dev-1.61.7.tar.gz --markdown 20230531/S/Simba-UW-tf-dev/1.61.6-1.61.7/diff.md --exclude *.pyd
+[2023-05-31 15:36:16] INFO root fetch - processPackages [Genuine-fake]: Start processing: alnoda-wrk
+[2023-05-31 15:36:16] INFO root fetch - main [MainThread]: End processing [Genuine-fake]: success
+[2023-05-31 15:36:16] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-31 15:36:16] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-05-31 15:36:16] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230531/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-31 15:36:16] INFO root fetch - processPackages [zoomaker]: Start processing: balanna
+[2023-05-31 15:36:16] INFO root fetch - main [MainThread]: End processing [zoomaker]: success
+[2023-05-31 15:36:16] INFO root fetch - processPackages [balanna]: New version: [1.2.1] Old Version: [1.2]
+[2023-05-31 15:36:16] INFO root fetch - processPackages [domjudge-utility]: Start processing: TRAPT
+[2023-05-31 15:36:16] INFO root fetch - main [MainThread]: End processing [domjudge-utility]: success
+[2023-05-31 15:36:16] INFO root fetch - processPackages [TRAPT]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 15:36:17] INFO root fetch - processPackages [un-yaml]: Start processing: lingfo
+[2023-05-31 15:36:17] INFO root fetch - main [MainThread]: End processing [un-yaml]: success
+[2023-05-31 15:36:17] INFO root fetch - processPackages [lingfo]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 15:36:17] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/2a/ef/64faeb97e617545615426caf2e12a5611c29d7fbebe1a86b4baa97a226ef/balanna-1.2.1.tar.gz
+[2023-05-31 15:36:17] INFO root fetch - processPackages [TRAPT]: Downloading https://files.pythonhosted.org/packages/fa/80/1ae9d0e162be4b1ba091266652039fb0de108abcf6001f8cf03edd12840c/TRAPT-0.0.1.tar.gz
+[2023-05-31 15:36:17] INFO root fetch - processPackages [balanna]: executing diffoscope
+[2023-05-31 15:36:17] INFO root fetch - processPackages [balanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanna-1.2.tar.gz tmp/balanna-1.2.1.tar.gz --markdown 20230531/b/balanna/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-05-31 15:36:17] INFO root fetch - processPackages [lingfo]: Downloading https://files.pythonhosted.org/packages/72/93/25c6b24749d48af62ce9d5c67b649e3d17f53442b4e02806fdcac55519e8/lingfo-0.2.2.tar.gz
+[2023-05-31 15:36:17] INFO root fetch - processPackages [TRAPT]: Downloading https://files.pythonhosted.org/packages/61/09/59ae0ad99a808f29b5da4a512b3f8615769ab242044fd4696f3faa93097f/TRAPT-0.0.2.tar.gz
+[2023-05-31 15:36:17] INFO root fetch - processPackages [TRAPT]: executing diffoscope
+[2023-05-31 15:36:17] INFO root fetch - processPackages [TRAPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TRAPT-0.0.1.tar.gz tmp/TRAPT-0.0.2.tar.gz --markdown 20230531/T/TRAPT/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 15:36:17] INFO root fetch - processPackages [lingfo]: Downloading https://files.pythonhosted.org/packages/9b/e8/3f8ebd794b7105e4669476b4a1aeba144bbaff287d074549de42f4a8819d/lingfo-0.2.3.tar.gz
+[2023-05-31 15:36:17] INFO root fetch - processPackages [lingfo]: executing diffoscope
+[2023-05-31 15:36:17] INFO root fetch - processPackages [lingfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingfo-0.2.2.tar.gz tmp/lingfo-0.2.3.tar.gz --markdown 20230531/l/lingfo/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 15:36:17] INFO root fetch - processPackages [gracy]: Start processing: acdcserver
+[2023-05-31 15:36:17] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-05-31 15:36:17] INFO root fetch - processPackages [acdcserver]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:18] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-05-31 15:36:18] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.1rc4.tar.gz tmp/acdcserver-2.2.1rc5.tar.gz --markdown 20230531/a/acdcserver/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:18] INFO root fetch - processPackages [balanna]: Start processing: global-workqueue
+[2023-05-31 15:36:18] INFO root fetch - main [MainThread]: End processing [balanna]: success
+[2023-05-31 15:36:18] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:18] INFO root fetch - processPackages [TRAPT]: Start processing: reqmgr2ms-pileup
+[2023-05-31 15:36:18] INFO root fetch - main [MainThread]: End processing [TRAPT]: success
+[2023-05-31 15:36:18] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-05-31 15:36:18] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.1rc4.tar.gz tmp/global-workqueue-2.2.1rc5.tar.gz --markdown 20230531/g/global-workqueue/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:18] INFO root fetch - processPackages [lakefs-client]: Start processing: reqmgr2ms-transferor
+[2023-05-31 15:36:18] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:18] INFO root fetch - processPackages [lingfo]: Start processing: reqmgr2ms-unmerged
+[2023-05-31 15:36:18] INFO root fetch - main [MainThread]: End processing [lingfo]: success
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.1rc4.tar.gz tmp/reqmgr2ms-transferor-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2ms-transferor/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-05-31 15:36:18] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.1rc4.tar.gz tmp/reqmgr2ms-pileup-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2ms-pileup/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:19] INFO root fetch - processPackages [vmngclient]: Start processing: reqmgr2
+[2023-05-31 15:36:19] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-05-31 15:36:19] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:19] INFO root fetch - processPackages [nbformat]: Start processing: wmagent
+[2023-05-31 15:36:19] INFO root fetch - main [MainThread]: End processing [nbformat]: success
+[2023-05-31 15:36:19] INFO root fetch - processPackages [wmagent]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:19] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-05-31 15:36:19] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.1rc4.tar.gz tmp/reqmgr2ms-unmerged-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2ms-unmerged/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:19] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-05-31 15:36:19] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.1rc4.tar.gz tmp/reqmgr2-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:19] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-05-31 15:36:19] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.1rc4.tar.gz tmp/wmagent-2.2.1rc5.tar.gz --markdown 20230531/w/wmagent/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:20] INFO root fetch - processPackages [acdcserver]: Start processing: wmcore
+[2023-05-31 15:36:20] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-05-31 15:36:20] INFO root fetch - processPackages [wmcore]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:20] INFO root fetch - processPackages [alnoda-wrk]: Start processing: reqmgr2ms-monitor
+[2023-05-31 15:36:20] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-05-31 15:36:20] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-05-31 15:36:20] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.1rc4.tar.gz tmp/wmcore-2.2.1rc5.tar.gz --markdown 20230531/w/wmcore/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:20] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:20] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-05-31 15:36:20] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.1rc4.tar.gz tmp/reqmgr2ms-monitor-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2ms-monitor/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:22] INFO root fetch - processPackages [reqmgr2ms-pileup]: Start processing: reqmgr2ms-rulecleaner
+[2023-05-31 15:36:22] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-05-31 15:36:22] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:22] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: wmagent-devtools
+[2023-05-31 15:36:22] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-05-31 15:36:22] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:22] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-05-31 15:36:22] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.1rc4.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2ms-rulecleaner/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:22] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/7c/b5/f8bd57c5fab38dfa5b59240d12c2c4148b28dc6f694f21da4b87bab1cef0/wmagent-devtools-2.2.1rc4.tar.gz
+[2023-05-31 15:36:22] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11428805>=10485760
+[2023-05-31 15:36:22] INFO root fetch - processPackages [wmagent-devtools]: Start processing: reqmgr2ms-output
+[2023-05-31 15:36:22] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-05-31 15:36:22] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:23] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-05-31 15:36:23] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.1rc4.tar.gz tmp/reqmgr2ms-output-2.2.1rc5.tar.gz --markdown 20230531/r/reqmgr2ms-output/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:24] INFO root fetch - processPackages [global-workqueue]: Start processing: reqmon
+[2023-05-31 15:36:24] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-05-31 15:36:24] INFO root fetch - processPackages [reqmon]: New version: [2.2.1rc5] Old Version: [2.2.1rc4]
+[2023-05-31 15:36:24] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: wicked-expressions
+[2023-05-31 15:36:24] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-05-31 15:36:24] INFO root fetch - processPackages [wicked-expressions]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-31 15:36:24] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-05-31 15:36:24] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.1rc4.tar.gz tmp/reqmon-2.2.1rc5.tar.gz --markdown 20230531/r/reqmon/2.2.1rc4-2.2.1rc5/diff.md --exclude *.pyd
+[2023-05-31 15:36:24] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/a6/76/6d468e647751724c2fcc3b17f98e68651296576dc709cedc4678f2c9b58d/wicked_expressions-0.6.3.tar.gz
+[2023-05-31 15:36:24] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-05-31 15:36:24] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.6.2.tar.gz tmp/wicked_expressions-0.6.3.tar.gz --markdown 20230531/w/wicked-expressions/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-31 15:36:25] INFO root fetch - processPackages [reqmgr2ms-transferor]: Start processing: odoo-addon-ddmrp
+[2023-05-31 15:36:25] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-05-31 15:36:25] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.8.1] Old Version: [15.0.1.8.0.2]
+[2023-05-31 15:36:25] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/2c/a6/d99b05167a872c380cd90441ec1eaa8fcc3e1c566f473dba63ac259bf9f4/odoo_addon_ddmrp-15.0.1.8.1-py3-none-any.whl
+[2023-05-31 15:36:25] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-05-31 15:36:25] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.8.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.8.1-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-ddmrp/15.0.1.8.0.2-15.0.1.8.1/diff.md --exclude *.pyd
+[2023-05-31 15:36:26] INFO root fetch - processPackages [Simba-UW-tf-dev]: Start processing: localstack-core
+[2023-05-31 15:36:26] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-31 15:36:26] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230531121446] Old Version: [2.1.1.dev20230531121333]
+[2023-05-31 15:36:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-31 15:36:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230531121333.tar.gz tmp/localstack-core-2.1.1.dev20230531121446.tar.gz --markdown 20230531/l/localstack-core/2.1.1.dev20230531121333-2.1.1.dev20230531121446/diff.md --exclude *.pyd
+[2023-05-31 15:36:26] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-05-31 15:36:26] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-05-31 15:36:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-05-31 15:36:28] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-05-31 15:36:29] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-05-31 15:36:29] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-05-31 15:36:29] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-05-31 15:36:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-31 15:36:46] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-05-31 15:37:04] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-05-31 15:37:04] INFO root fetch - main [MainThread]: Store serial: [18317463]
