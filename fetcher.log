@@ -14667,3 +14667,71 @@
 [2023-05-31 14:18:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-31 14:18:22] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-31 14:18:22] INFO root fetch - main [MainThread]: Store serial: [18316543]
+[2023-05-31 14:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316543]
+[2023-05-31 14:23:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experimentalist-sampler-novelty
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydrs
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-adbc
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scipp
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lyrebird-api-coverage
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: defog
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edwh-sshfs-plugin
+[2023-05-31 14:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: financetoolkit
+[2023-05-31 14:23:31] INFO root fetch - processPackages [pydrs]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [async-adbc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 14:23:31] WARNING root fetch - processPackages [autora-experimentalist-sampler-novelty]: Skipping, unable to determine old version
+[2023-05-31 14:23:31] INFO root fetch - processPackages [scipp]: New version: [23.5.0] Old Version: [23.3.2]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [autora-experimentalist-sampler-novelty]: Start processing: DLMS-SPODES
+[2023-05-31 14:23:31] INFO root fetch - processPackages [lyrebird-api-coverage]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-31 14:23:31] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-novelty] error
+[2023-05-31 14:23:31] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [edwh-sshfs-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-31 14:23:31] WARNING root fetch - processPackages [financetoolkit]: Skipping, unable to determine old version
+[2023-05-31 14:23:31] INFO root fetch - processPackages [financetoolkit]: Start processing: epyt
+[2023-05-31 14:23:31] INFO root fetch - main [MainThread]: End processing [financetoolkit] error
+[2023-05-31 14:23:31] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [epyt]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 14:23:31] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-31 14:23:31] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230531/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 14:23:31] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-05-31 14:23:31] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230531/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 14:23:31] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-05-31 14:23:31] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230531/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:23:31] INFO root fetch - processPackages [pydrs]: Downloading https://files.pythonhosted.org/packages/cb/18/89790af711508bb0353819e353015dff80bf1271840bb2b92d931da7cfad/pydrs-2.2.0.tar.gz
+[2023-05-31 14:23:31] INFO root fetch - processPackages [edwh-sshfs-plugin]: Downloading https://files.pythonhosted.org/packages/59/9b/386ed832055c91a8a66f0468ace5b0d9b70a613deaab619906d7930be263/edwh_sshfs_plugin-0.1.1.tar.gz
+[2023-05-31 14:23:31] INFO root fetch - processPackages [scipp]: Downloading https://files.pythonhosted.org/packages/c1/d4/948bc773a79863a8f8f4de1ba2a643f87ff6830ba96c40da0e7be231cdeb/scipp-23.3.2.tar.gz
+[2023-05-31 14:23:31] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/25/0a/dd8826c87a089e7f52de4f913cd0bbc7412ab7930391b688b53e9fd332c1/epyt-1.0.4.tar.gz
+[2023-05-31 14:23:31] INFO root fetch - processPackages [lyrebird-api-coverage]: Downloading https://files.pythonhosted.org/packages/11/67/94135f5aea9733c7c257cbaf79eb56cca225809a9b559ebff95da6cfc0cf/lyrebird-api-coverage-0.4.1.tar.gz
+[2023-05-31 14:23:31] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-05-31 14:23:31] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.8.tar.gz tmp/async_adbc-1.0.9.tar.gz --markdown 20230531/a/async-adbc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:23:31] INFO root fetch - processPackages [edwh-sshfs-plugin]: Downloading https://files.pythonhosted.org/packages/11/15/35067b8b3e590b2a5530509cf74c2ca0137cd6e8ffebfbade9aebbddec9d/edwh_sshfs_plugin-0.1.2.tar.gz
+[2023-05-31 14:23:31] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-31 14:23:31] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230531/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-31 14:23:32] INFO root fetch - processPackages [scipp]: Downloading https://files.pythonhosted.org/packages/34/96/6caeb6145805f9967fe31625561f3dd67f88256ce609a121a49066c02f55/scipp-23.5.0.tar.gz
+[2023-05-31 14:23:32] INFO root fetch - processPackages [lyrebird-api-coverage]: executing diffoscope
+[2023-05-31 14:23:32] INFO root fetch - processPackages [lyrebird-api-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-api-coverage-0.4.0.tar.gz tmp/lyrebird-api-coverage-0.4.1.tar.gz --markdown 20230531/l/lyrebird-api-coverage/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-31 14:23:32] INFO root fetch - processPackages [edwh-sshfs-plugin]: executing diffoscope
+[2023-05-31 14:23:32] INFO root fetch - processPackages [edwh-sshfs-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_sshfs_plugin-0.1.1.tar.gz tmp/edwh_sshfs_plugin-0.1.2.tar.gz --markdown 20230531/e/edwh-sshfs-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 14:23:32] INFO root fetch - processPackages [pydrs]: Downloading https://files.pythonhosted.org/packages/92/c0/21d110d8907a0b6d4fe87e81ef1327738bb8b19368dc12051e7e23d2cf02/pydrs-2.3.0.tar.gz
+[2023-05-31 14:23:32] INFO root fetch - processPackages [scipp]: executing diffoscope
+[2023-05-31 14:23:32] INFO root fetch - processPackages [scipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipp-23.3.2.tar.gz tmp/scipp-23.5.0.tar.gz --markdown 20230531/s/scipp/23.3.2-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 14:23:32] INFO root fetch - processPackages [pydrs]: executing diffoscope
+[2023-05-31 14:23:32] INFO root fetch - processPackages [pydrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydrs-2.2.0.tar.gz tmp/pydrs-2.3.0.tar.gz --markdown 20230531/p/pydrs/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-31 14:23:32] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/a1/b1/c4e5d71558de13f10bf4d71e8d08828be86c96a7fa4c92b5535af6dcaee1/epyt-1.0.5.tar.gz
+[2023-05-31 14:23:32] INFO root fetch - processPackages [epyt]: executing diffoscope
+[2023-05-31 14:23:32] INFO root fetch - processPackages [epyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyt-1.0.4.tar.gz tmp/epyt-1.0.5.tar.gz --markdown 20230531/e/epyt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-31 14:23:33] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-05-31 14:23:33] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-05-31 14:23:33] INFO root fetch - main [MainThread]: End processing [edwh-sshfs-plugin]: success
+[2023-05-31 14:23:33] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-31 14:23:33] INFO root fetch - main [MainThread]: End processing [pydrs]: success
+[2023-05-31 14:23:34] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-05-31 14:23:34] INFO root fetch - main [MainThread]: End processing [scipp]: success
+[2023-05-31 14:23:34] INFO root fetch - main [MainThread]: End processing [lyrebird-api-coverage]: success
+[2023-05-31 14:23:37] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-31 14:24:59] INFO root fetch - main [MainThread]: End processing [epyt]: success
+[2023-05-31 14:24:59] INFO root fetch - main [MainThread]: Store serial: [18316603]
