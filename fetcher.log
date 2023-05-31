@@ -20700,3 +20700,126 @@
 [2023-05-31 19:03:42] INFO root fetch - main [MainThread]: End processing [model-hub]: success
 [2023-05-31 19:03:46] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-05-31 19:03:46] INFO root fetch - main [MainThread]: Store serial: [18320215]
+[2023-05-31 19:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320215]
+[2023-05-31 19:08:55] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-hub
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyGachi
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biom3d
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkpkg
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cim-optimizer
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modisco-lite
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplebox
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hiperwalk
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vosk-autosrt
+[2023-05-31 19:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dgl_client
+[2023-05-31 19:08:55] INFO root fetch - processPackages [hiperwalk]: New version: [2.0a2] Old Version: [2.0a1]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-31 19:08:55] WARNING root fetch - processPackages [vosk-autosrt]: Skipping, unable to determine old version
+[2023-05-31 19:08:55] INFO root fetch - processPackages [vosk-autosrt]: Start processing: echofish-aws-indexing-lambda
+[2023-05-31 19:08:55] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-05-31 19:08:55] INFO root fetch - processPackages [modisco-lite]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [cim-optimizer]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a155] Old Version: [0.0.1a154]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [dgl_client]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [pyGachi]: New version: [1.6] Old Version: [1.5]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [mkpkg]: New version: [2023.5.4] Old Version: [2023.5.1]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230531170356] Old Version: [1.0.0.dev20230531161853]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [model-hub]: New version: [0.23.0rc0] Old Version: [0.22.2rc1]
+[2023-05-31 19:08:55] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-31 19:08:55] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.22.2rc1-py3-none-any.whl.zip tmp/model_hub-0.23.0rc0-py3-none-any.whl.zip --markdown 20230531/m/model-hub/0.22.2rc1-0.23.0rc0/diff.md --exclude *.pyd
+[2023-05-31 19:08:55] INFO root fetch - processPackages [mkpkg]: Downloading https://files.pythonhosted.org/packages/5f/d8/d57c2dbac0092b88e5140af658f534c78762426b28de15831443db702a2e/mkpkg-2023.5.1.tar.gz
+[2023-05-31 19:08:55] INFO root fetch - processPackages [cim-optimizer]: Downloading https://files.pythonhosted.org/packages/62/4c/95f566dcf6bc31aeb3a444a830a890aa27a0162397bcfc89f914541f1665/cim-optimizer-1.0.3.tar.gz
+[2023-05-31 19:08:55] INFO root fetch - processPackages [pyGachi]: Downloading https://files.pythonhosted.org/packages/fb/6d/718b9731a3af48bad37420a40a95fef480a80867a3e74614a25f8bd55570/pyGachi-1.5.tar.gz
+[2023-05-31 19:08:55] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/b6/95/bf8c655bfefe237705f9b702a74c8befa5389a4d9f307f564f80bd09c9ad/dgl_client-0.3.5.tar.gz
+[2023-05-31 19:08:55] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/81/0f/099bd75b21a900d6d95968ed37a168917dfab8173ea708d0248c7ed467b2/echofish-aws-indexing-lambda-1.0.0.dev20230531170356.tar.gz
+[2023-05-31 19:08:56] WARNING root fetch - processPackages [pyGachi]: Skipping package: exceeds size limit 14175397>=10485760
+[2023-05-31 19:08:56] INFO root fetch - processPackages [pyGachi]: Start processing: whatsapp-auto
+[2023-05-31 19:08:56] INFO root fetch - main [MainThread]: End processing [pyGachi] error
+[2023-05-31 19:08:56] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230531161853.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230531170356.tar.gz --markdown 20230531/e/echofish-aws-indexing-lambda/1.0.0.dev20230531161853-1.0.0.dev20230531170356/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/dd/7c/b329087f5c06b71be988b09a154620b14f6c75d47920665aff409c237131/simplebox-0.0.1a155-py3-none-any.whl
+[2023-05-31 19:08:56] INFO root fetch - processPackages [hiperwalk]: Downloading https://files.pythonhosted.org/packages/e8/68/524b8782cbd94f15de779054d1e298de1be97866b52751e1f0a3a4a22e38/hiperwalk-2.0a2.tar.gz
+[2023-05-31 19:08:56] INFO root fetch - processPackages [modisco-lite]: Downloading https://files.pythonhosted.org/packages/37/1a/fd28cb68ef3e6fa2e83ed1e4ab2283300cd497b9f89a23891697fd48631e/modisco-lite-2.2.0.tar.gz
+[2023-05-31 19:08:56] WARNING root fetch - processPackages [whatsapp-auto]: Skipping, unable to determine old version
+[2023-05-31 19:08:56] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [whatsapp-auto]: Start processing: mafic
+[2023-05-31 19:08:56] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230531/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - main [MainThread]: End processing [whatsapp-auto] error
+[2023-05-31 19:08:56] INFO root fetch - processPackages [dgl_client]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [dgl_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl_client-0.3.4.tar.gz tmp/dgl_client-0.3.5.tar.gz --markdown 20230531/d/dgl_client/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [cim-optimizer]: Downloading https://files.pythonhosted.org/packages/82/2e/eeb7ebcf9555dd2903ae6c5a2a1a5a2db31e937247f8ac6c015cdecd2fad/cim-optimizer-1.0.4.tar.gz
+[2023-05-31 19:08:56] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a154-py3-none-any.whl.zip tmp/simplebox-0.0.1a155-py3-none-any.whl.zip --markdown 20230531/s/simplebox/0.0.1a154-0.0.1a155/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [modisco-lite]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [modisco-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modisco-lite-2.1.1.tar.gz tmp/modisco-lite-2.2.0.tar.gz --markdown 20230531/m/modisco-lite/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mafic]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-05-31 19:08:56] INFO root fetch - processPackages [hiperwalk]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [hiperwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiperwalk-2.0a1.tar.gz tmp/hiperwalk-2.0a2.tar.gz --markdown 20230531/h/hiperwalk/2.0a1-2.0a2/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mkpkg]: Downloading https://files.pythonhosted.org/packages/36/4f/49822ab0593d3d878187d2042f3f5dba69bc6c612dcd9e22a68877714a71/mkpkg-2023.5.4.tar.gz
+[2023-05-31 19:08:56] INFO root fetch - processPackages [cim-optimizer]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [cim-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim-optimizer-1.0.3.tar.gz tmp/cim-optimizer-1.0.4.tar.gz --markdown 20230531/c/cim-optimizer/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mkpkg]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mkpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkpkg-2023.5.1.tar.gz tmp/mkpkg-2023.5.4.tar.gz --markdown 20230531/m/mkpkg/2023.5.1-2023.5.4/diff.md --exclude *.pyd
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mafic]: Downloading https://files.pythonhosted.org/packages/d5/c3/ae7192dac4dd67c151ab3b3255171fa962df687d042e8ebe78f1a76bb036/mafic-2.5.0.tar.gz
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mafic]: executing diffoscope
+[2023-05-31 19:08:56] INFO root fetch - processPackages [mafic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafic-2.4.2.tar.gz tmp/mafic-2.5.0.tar.gz --markdown 20230531/m/mafic/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-05-31 19:08:57] INFO root fetch - processPackages [model-hub]: Start processing: stcal
+[2023-05-31 19:08:57] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-31 19:08:57] INFO root fetch - processPackages [stcal]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-31 19:08:57] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Start processing: assemblyline-service-client
+[2023-05-31 19:08:57] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-31 19:08:57] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 19:08:57] INFO root fetch - processPackages [stcal]: Downloading https://files.pythonhosted.org/packages/53/8d/f254832f6c020ea4bf6afe0769a8da5bda1ccdc35eb0166859b848942fa1/stcal-1.3.7.tar.gz
+[2023-05-31 19:08:57] INFO root fetch - processPackages [dgl_client]: Start processing: assemblyline-service-server
+[2023-05-31 19:08:57] INFO root fetch - main [MainThread]: End processing [dgl_client]: success
+[2023-05-31 19:08:57] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 19:08:57] INFO root fetch - processPackages [modisco-lite]: Start processing: assemblyline-ui
+[2023-05-31 19:08:57] INFO root fetch - main [MainThread]: End processing [modisco-lite]: success
+[2023-05-31 19:08:57] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-31 19:08:57] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 19:08:57] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 19:08:58] INFO root fetch - processPackages [cim-optimizer]: Start processing: veb
+[2023-05-31 19:08:58] INFO root fetch - main [MainThread]: End processing [cim-optimizer]: success
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [stcal]: Downloading https://files.pythonhosted.org/packages/be/21/9f55b7cf74acb4024b31eb2735813036922a0724c10170748de98be8d3ab/stcal-1.3.8.tar.gz
+[2023-05-31 19:08:58] INFO root fetch - processPackages [biom3d]: Start processing: assemblyline-v4-service
+[2023-05-31 19:08:58] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 19:08:58] INFO root fetch - processPackages [veb]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-05-31 19:08:58] INFO root fetch - processPackages [stcal]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [stcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stcal-1.3.7.tar.gz tmp/stcal-1.3.8.tar.gz --markdown 20230531/s/stcal/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230531/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [mkpkg]: Start processing: assemblyline
+[2023-05-31 19:08:58] INFO root fetch - main [MainThread]: End processing [mkpkg]: success
+[2023-05-31 19:08:58] INFO root fetch - processPackages [veb]: Downloading https://files.pythonhosted.org/packages/0e/fd/ee7f785fe364b558e6df24d9784d90d124ec794f4e2db6f621ae4b187ddb/veb-0.2.1.tar.gz
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230531/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [simplebox]: Start processing: DE-DataBaseConnect
+[2023-05-31 19:08:58] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-31 19:08:58] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-05-31 19:08:58] INFO root fetch - processPackages [veb]: Downloading https://files.pythonhosted.org/packages/a1/2a/077e942aa5748c34405e9e33055eb886bace3b7a923f749c2c902d8d0dd4/veb-0.2.3.tar.gz
+[2023-05-31 19:08:58] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DE_DataBaseConnect-0.0.68.tar.gz tmp/DE_DataBaseConnect-0.0.69.tar.gz --markdown 20230531/D/DE-DataBaseConnect/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [veb]: executing diffoscope
+[2023-05-31 19:08:58] INFO root fetch - processPackages [veb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veb-0.2.1.tar.gz tmp/veb-0.2.3.tar.gz --markdown 20230531/v/veb/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 19:08:58] INFO root fetch - processPackages [hiperwalk]: Start processing: assemblyline-core
+[2023-05-31 19:08:58] INFO root fetch - main [MainThread]: End processing [hiperwalk]: success
+[2023-05-31 19:08:58] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-05-31 19:08:59] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-31 19:08:59] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230531/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-05-31 19:08:59] INFO root fetch - main [MainThread]: End processing [mafic]: success
+[2023-05-31 19:08:59] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-31 19:08:59] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-31 19:09:00] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2023-05-31 19:09:00] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-31 19:09:00] INFO root fetch - main [MainThread]: End processing [veb]: success
+[2023-05-31 19:09:00] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-31 19:09:01] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-31 19:09:01] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-31 19:09:06] INFO root fetch - main [MainThread]: End processing [stcal]: success
+[2023-05-31 19:09:06] INFO root fetch - main [MainThread]: Store serial: [18320277]
