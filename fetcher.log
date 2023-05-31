@@ -21912,3 +21912,77 @@
 [2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
 [2023-05-31 20:29:36] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
 [2023-05-31 20:29:36] INFO root fetch - main [MainThread]: Store serial: [18320932]
+[2023-05-31 20:34:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320932]
+[2023-05-31 20:34:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enetython
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitbuilding
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eth-trader-api-proto
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyechorobotics
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib310-lite
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-ai
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tpdp
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphicle
+[2023-05-31 20:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autora-experimentalist-sampler-nearest-value
+[2023-05-31 20:34:45] ERROR root fetch - processPackages [enetython]: Unable to get metadata: No such project 'enetython'
+[2023-05-31 20:34:45] INFO root fetch - processPackages [enetython]: Start processing: dxtils
+[2023-05-31 20:34:45] INFO root fetch - main [MainThread]: End processing [enetython] error
+[2023-05-31 20:34:45] INFO root fetch - processPackages [pyechorobotics]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [autora-experimentalist-sampler-nearest-value]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [eth-trader-api-proto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [tpdp]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [graphicle]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [dxtils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-31 20:34:45] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 20:34:45] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 20:34:45] INFO root fetch - processPackages [eth-trader-api-proto]: Downloading https://files.pythonhosted.org/packages/e5/97/951489ae605eeb4cf05cebababe6db8767b1c20b748f95d3f4a96800edc1/eth-trader-api-proto-0.0.4.tar.gz
+[2023-05-31 20:34:45] INFO root fetch - processPackages [autora-experimentalist-sampler-nearest-value]: Downloading https://files.pythonhosted.org/packages/ca/cd/90fb88473e88dab009fbf4f964ad84277c0a1d53462133ecb4ff8b86874b/autora-experimentalist-sampler-nearest-value-1.0.0.tar.gz
+[2023-05-31 20:34:45] INFO root fetch - processPackages [tpdp]: Downloading https://files.pythonhosted.org/packages/34/cb/107626f8335b8d56caf33b3d8bda1437a318730f760b0153d697af17740d/tpdp-0.0.1-py3-none-any.whl
+[2023-05-31 20:34:46] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/5a/1f/8dafd0e463341fcdfda43c0842e4dc60128a26deb7bf1fbf5a9444938489/pyechorobotics-0.0.3.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/69/c7/99fbbc9014f1780147a3b9b13005086de8cf207b7fbb7e6744f2d47a0811/abstract_ai-0.0.62.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/6a/d6/e84a6dcc5c7b4ddd64bac013a70e4b8275630396661dce769dbc8785b00b/graphicle-0.2.8.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/4a/9f/df18b8975d44d40261cfb736e864e9a64adfc6537bd16497855fa1eaf301/dxtils-0.0.1.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [pyechorobotics]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [pyechorobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyechorobotics-0.0.2.tar.gz tmp/pyechorobotics-0.0.3.tar.gz --markdown 20230531/p/pyechorobotics/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20230531/g/gitbuilding/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230531/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [eth-trader-api-proto]: Downloading https://files.pythonhosted.org/packages/22/a2/7e46c6adb97b95b45fc332416d9fcf9f8dfc7483d5451c31f5be7de48574/eth-trader-api-proto-0.0.5.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [autora-experimentalist-sampler-nearest-value]: Downloading https://files.pythonhosted.org/packages/4d/88/a4ed448660b2c6e53c99eff4542ee9cc75bc3cd4746661e6b9d7b462c413/autora-experimentalist-sampler-nearest-value-1.0.1.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/6c/d8/a2dcebfd9c327edcace31d40aa200c7fa5184ac0281633bec989c99d139a/dxtils-0.0.2.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [tpdp]: Downloading https://files.pythonhosted.org/packages/d4/08/840b4616243c500b9cd19e0194b078153797f4d8c847aebbc4c48a1430d1/tpdp-0.1.0.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/f5/11/7189c51c2e6cc462e955114f02b1a3ddd6b6e2a6ad3c87f9b3ad29382fcf/abstract_ai-0.0.63.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/bc/3b/0e9053e582b9521708aadd4dafdcbb0225f91eceaec2ae15e7db501e9062/graphicle-0.2.9.tar.gz
+[2023-05-31 20:34:46] INFO root fetch - processPackages [tpdp]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [tpdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpdp-0.0.1-py3-none-any.whl.zip tmp/tpdp-0.1.0.tar.gz --markdown 20230531/t/tpdp/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [eth-trader-api-proto]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [eth-trader-api-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-trader-api-proto-0.0.4.tar.gz tmp/eth-trader-api-proto-0.0.5.tar.gz --markdown 20230531/e/eth-trader-api-proto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [autora-experimentalist-sampler-nearest-value]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [autora-experimentalist-sampler-nearest-value]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-sampler-nearest-value-1.0.0.tar.gz tmp/autora-experimentalist-sampler-nearest-value-1.0.1.tar.gz --markdown 20230531/a/autora-experimentalist-sampler-nearest-value/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [graphicle]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [graphicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphicle-0.2.8.tar.gz tmp/graphicle-0.2.9.tar.gz --markdown 20230531/g/graphicle/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.62.tar.gz tmp/abstract_ai-0.0.63.tar.gz --markdown 20230531/a/abstract-ai/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-31 20:34:46] INFO root fetch - processPackages [dxtils]: executing diffoscope
+[2023-05-31 20:34:46] INFO root fetch - processPackages [dxtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxtils-0.0.1.tar.gz tmp/dxtils-0.0.2.tar.gz --markdown 20230531/d/dxtils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 20:34:47] INFO root fetch - processPackages [lib310-lite]: Start processing: abstract-ai
+[2023-05-31 20:34:47] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 20:34:47] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-31 20:34:47] INFO root fetch - main [MainThread]: End processing [pyechorobotics]: success
+[2023-05-31 20:34:47] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:34:47] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.62.tar.gz tmp/abstract_ai-0.0.63.tar.gz --markdown 20230531/a/abstract-ai/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-31 20:34:47] INFO root fetch - main [MainThread]: End processing [tpdp]: success
+[2023-05-31 20:34:47] INFO root fetch - main [MainThread]: End processing [eth-trader-api-proto]: success
+[2023-05-31 20:34:48] INFO root fetch - main [MainThread]: End processing [dxtils]: success
+[2023-05-31 20:34:48] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-nearest-value]: success
+[2023-05-31 20:34:48] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:34:48] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:34:49] INFO root fetch - main [MainThread]: End processing [graphicle]: success
+[2023-05-31 20:34:50] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-31 20:34:51] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2023-05-31 20:34:51] INFO root fetch - main [MainThread]: Store serial: [18320970]
