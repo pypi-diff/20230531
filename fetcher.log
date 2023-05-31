@@ -8127,3 +8127,51 @@
 [2023-05-31 06:48:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-request-department]: success
 [2023-05-31 06:48:35] INFO root fetch - main [MainThread]: End processing [semantic-navigator]: success
 [2023-05-31 06:48:35] INFO root fetch - main [MainThread]: Store serial: [18312538]
+[2023-05-31 06:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312538]
+[2023-05-31 06:53:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azpype
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sprttandem
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quao
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-metrics-api
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipeline-name
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-utilities
+[2023-05-31 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: searchlogit
+[2023-05-31 06:53:44] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-31 06:53:44] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-05-31 06:53:44] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 06:53:44] WARNING root fetch - processPackages [azpype]: Skipping, unable to determine old version
+[2023-05-31 06:53:44] INFO root fetch - main [MainThread]: End processing [azpype] error
+[2023-05-31 06:53:44] INFO root fetch - processPackages [pipeline-name]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 06:53:44] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 06:53:44] INFO root fetch - processPackages [flux-metrics-api]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-31 06:53:44] INFO root fetch - processPackages [sprttandem]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 06:53:44] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-31 06:53:44] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230531/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 06:53:44] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-05-31 06:53:44] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230531/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 06:53:44] INFO root fetch - processPackages [pipeline-name]: Downloading https://files.pythonhosted.org/packages/9b/c3/de9d9fffe64b63fd4d3d5c5a39c05e057656449e5ddf40be7b2046456beb/pipeline_name-0.0.1.tar.gz
+[2023-05-31 06:53:44] INFO root fetch - processPackages [sprttandem]: Downloading https://files.pythonhosted.org/packages/b2/01/49c190ff4f2cdabdd992cb7c989a170c8c4d9c62b7300c0f8cc7b6cbe7fe/sprttandem-0.1.0.tar.gz
+[2023-05-31 06:53:44] INFO root fetch - processPackages [flux-metrics-api]: Downloading https://files.pythonhosted.org/packages/22/17/06f110854bd42126ed4e090a29710ddb67d5651dd93fe81d3a796b325b64/flux-metrics-api-0.0.0.tar.gz
+[2023-05-31 06:53:44] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/38/dd/9438fb27188f5ad0041d8ca7dd4fb54834ea581dfd1972ca1042c28596e8/abstract_utilities-0.0.6.tar.gz
+[2023-05-31 06:53:44] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 06:53:44] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.5.tar.gz tmp/abstract_utilities-0.0.6.tar.gz --markdown 20230531/a/abstract-utilities/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 06:53:44] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-31 06:53:44] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230531/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 06:53:44] INFO root fetch - processPackages [pipeline-name]: Downloading https://files.pythonhosted.org/packages/ae/81/5a3063cf7776149f05bd6acfbd0e6445e1ad9cf7f2929ced42cb0f18edc4/pipeline_name-0.0.2.tar.gz
+[2023-05-31 06:53:44] INFO root fetch - processPackages [sprttandem]: Downloading https://files.pythonhosted.org/packages/c8/9a/de312d430d78c11d2d777592d06eec5e1b7107060fa656b3daf68647278b/sprttandem-0.1.1.tar.gz
+[2023-05-31 06:53:44] INFO root fetch - processPackages [flux-metrics-api]: Downloading https://files.pythonhosted.org/packages/e1/ba/fcc6d6e18dfa3f363e33a675a1c9f515c39c66704fa8db72746e3b1380d5/flux-metrics-api-0.0.1.tar.gz
+[2023-05-31 06:53:45] INFO root fetch - processPackages [pipeline-name]: executing diffoscope
+[2023-05-31 06:53:45] INFO root fetch - processPackages [pipeline-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_name-0.0.1.tar.gz tmp/pipeline_name-0.0.2.tar.gz --markdown 20230531/p/pipeline-name/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 06:53:45] INFO root fetch - processPackages [sprttandem]: executing diffoscope
+[2023-05-31 06:53:45] INFO root fetch - processPackages [sprttandem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprttandem-0.1.0.tar.gz tmp/sprttandem-0.1.1.tar.gz --markdown 20230531/s/sprttandem/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 06:53:45] INFO root fetch - processPackages [flux-metrics-api]: executing diffoscope
+[2023-05-31 06:53:45] INFO root fetch - processPackages [flux-metrics-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-metrics-api-0.0.0.tar.gz tmp/flux-metrics-api-0.0.1.tar.gz --markdown 20230531/f/flux-metrics-api/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [pipeline-name]: success
+[2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [flux-metrics-api]: success
+[2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [sprttandem]: success
+[2023-05-31 06:53:46] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-31 06:53:47] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-31 06:53:47] INFO root fetch - main [MainThread]: Store serial: [18312564]
