@@ -17077,3 +17077,101 @@
 [2023-05-31 16:03:53] INFO root fetch - main [MainThread]: End processing [ODtools]: success
 [2023-05-31 16:03:54] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-31 16:03:54] INFO root fetch - main [MainThread]: Store serial: [18317833]
+[2023-05-31 16:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317833]
+[2023-05-31 16:09:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quiltplus
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-idaice
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-orca
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sb-arch-opt
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morastrja
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argos-netbox
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonfinder
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dqadk4all
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyroute2
+[2023-05-31 16:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unified-planning
+[2023-05-31 16:09:03] INFO root fetch - processPackages [morastrja]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [argos-netbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [honeybee-idaice]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [quiltplus]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-31 16:09:03] WARNING root fetch - processPackages [dqadk4all]: Skipping, unable to determine old version
+[2023-05-31 16:09:03] INFO root fetch - processPackages [sb-arch-opt]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [dqadk4all]: Start processing: refractio
+[2023-05-31 16:09:03] INFO root fetch - processPackages [py-orca]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-31 16:09:03] INFO root fetch - main [MainThread]: End processing [dqadk4all] error
+[2023-05-31 16:09:03] INFO root fetch - processPackages [pyroute2]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [pythonfinder]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [refractio]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-31 16:09:03] INFO root fetch - processPackages [morastrja]: executing diffoscope
+[2023-05-31 16:09:03] INFO root fetch - processPackages [morastrja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morastrja-0.8.8.tar.gz tmp/morastrja-0.8.9.tar.gz --markdown 20230531/m/morastrja/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-31 16:09:03] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-31 16:09:03] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230531/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [py-orca]: Downloading https://files.pythonhosted.org/packages/bc/ae/d1078956ba231d9709fbc263ec78b67b1c48fa9a50552e2ba611fb5e3fbc/py-orca-1.2.0.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pyroute2]: Downloading https://files.pythonhosted.org/packages/bf/f2/7a96aa171eb3148e769f3c8250d0391cc625e7d47e831ed3da8c000b7ace/pyroute2-0.7.8.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [argos-netbox]: Downloading https://files.pythonhosted.org/packages/83/29/fedf627c6b9dbc83281cdb95441f58663256b358cc760bc2e9c9ef629ff2/argos_netbox-0.1.0.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [sb-arch-opt]: Downloading https://files.pythonhosted.org/packages/82/9b/ee1e206058eca625f5e2948490dcae33025f9c99e1ba7be0a64219b303f7/sb-arch-opt-1.1.0.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [sb-arch-opt]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [sb-arch-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sb-arch-opt-1.0.0.tar.gz tmp/sb-arch-opt-1.1.0.tar.gz --markdown 20230531/s/sb-arch-opt/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/9c/b4/d233854178fe13ff39fa1dc055edfb5468caa0028dee53b5f471bf1e0900/quiltplus-0.9.0.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/22/49/b4de174056dfc320433888ce063948845d0c9bb2805d5465e66793c97402/pythonfinder-2.0.4.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [refractio]: Downloading https://files.pythonhosted.org/packages/51/44/f3a1b1b46aad4c1d25b6c53db974a826bad9a7bea8494e6404ed3cd25561/refractio-2.0.5.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [quiltplus]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [quiltplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltplus-0.8.1.tar.gz tmp/quiltplus-0.9.0.tar.gz --markdown 20230531/q/quiltplus/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [honeybee-idaice]: Downloading https://files.pythonhosted.org/packages/2e/d3/30c878b71b3889f8f7c98bdcbce2294d73aeb2a9bce40d1596afec2f01bd/honeybee-idaice-0.3.1.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pyroute2]: Downloading https://files.pythonhosted.org/packages/f9/f4/5aa161de059353367a3505a8647f475d11f5ce2af4d2375651a2166a1ef3/pyroute2-0.7.9.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pythonfinder]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pythonfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonfinder-2.0.3.tar.gz tmp/pythonfinder-2.0.4.tar.gz --markdown 20230531/p/pythonfinder/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [refractio]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [refractio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refractio-2.0.4.tar.gz tmp/refractio-2.0.5.tar.gz --markdown 20230531/r/refractio/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [argos-netbox]: Downloading https://files.pythonhosted.org/packages/34/14/33db4bdb2bd4d478427af79ec0ff798212ec17c9c49893c5ccf31cc4bc8c/argos_netbox-0.1.1.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [honeybee-idaice]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [honeybee-idaice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-idaice-0.3.0.tar.gz tmp/honeybee-idaice-0.3.1.tar.gz --markdown 20230531/h/honeybee-idaice/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [py-orca]: Downloading https://files.pythonhosted.org/packages/b2/b2/053c4864d8487735ca07c4caf1ecdd30b0d99cadb49d2b366fe6c24202e4/py-orca-1.3.0.tar.gz
+[2023-05-31 16:09:04] INFO root fetch - processPackages [argos-netbox]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [argos-netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argos_netbox-0.1.0.tar.gz tmp/argos_netbox-0.1.1.tar.gz --markdown 20230531/a/argos-netbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pyroute2]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [pyroute2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroute2-0.7.8.tar.gz tmp/pyroute2-0.7.9.tar.gz --markdown 20230531/p/pyroute2/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-31 16:09:04] INFO root fetch - processPackages [py-orca]: executing diffoscope
+[2023-05-31 16:09:04] INFO root fetch - processPackages [py-orca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-orca-1.2.0.tar.gz tmp/py-orca-1.3.0.tar.gz --markdown 20230531/p/py-orca/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 16:09:05] INFO root fetch - processPackages [quiltplus]: Start processing: django-fast-treenode
+[2023-05-31 16:09:05] INFO root fetch - main [MainThread]: End processing [quiltplus]: success
+[2023-05-31 16:09:05] WARNING root fetch - processPackages [django-fast-treenode]: Skipping, unable to determine old version
+[2023-05-31 16:09:05] INFO root fetch - processPackages [django-fast-treenode]: Start processing: torchlie
+[2023-05-31 16:09:05] INFO root fetch - main [MainThread]: End processing [django-fast-treenode] error
+[2023-05-31 16:09:05] INFO root fetch - processPackages [morastrja]: Start processing: tensorflow-aarch64
+[2023-05-31 16:09:05] INFO root fetch - main [MainThread]: End processing [morastrja]: success
+[2023-05-31 16:09:05] INFO root fetch - processPackages [torchlie]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2023-05-31 16:09:05] INFO root fetch - processPackages [tensorflow-aarch64]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-31 16:09:06] INFO root fetch - processPackages [sb-arch-opt]: Start processing: denvilk-serializer
+[2023-05-31 16:09:06] INFO root fetch - main [MainThread]: End processing [sb-arch-opt]: success
+[2023-05-31 16:09:06] INFO root fetch - processPackages [torchlie]: Downloading https://files.pythonhosted.org/packages/78/05/e816c8b53ac1af09c2bda21a75116c5ea50b3874c750c0de9a03360a4880/torchlie-0.0.1.dev2.tar.gz
+[2023-05-31 16:09:06] WARNING root fetch - processPackages [denvilk-serializer]: Skipping, unable to determine old version
+[2023-05-31 16:09:06] INFO root fetch - processPackages [denvilk-serializer]: Start processing: pyAutoSummarizer
+[2023-05-31 16:09:06] INFO root fetch - main [MainThread]: End processing [denvilk-serializer] error
+[2023-05-31 16:09:06] INFO root fetch - processPackages [tensorflow-aarch64]: Downloading https://files.pythonhosted.org/packages/ba/06/457adfba44d487f3e1b7711265d4375cf63f91d726fa8789041d48b1e7e3/tensorflow_aarch64-2.9.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-31 16:09:06] INFO root fetch - processPackages [pyAutoSummarizer]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-05-31 16:09:06] INFO root fetch - processPackages [refractio]: Start processing: vdk-dag
+[2023-05-31 16:09:06] INFO root fetch - main [MainThread]: End processing [refractio]: success
+[2023-05-31 16:09:06] INFO root fetch - processPackages [vdk-dag]: New version: [0.1.884801326] Old Version: [0.1.872432630]
+[2023-05-31 16:09:06] INFO root fetch - main [MainThread]: End processing [honeybee-idaice]: success
+[2023-05-31 16:09:06] INFO root fetch - processPackages [pyAutoSummarizer]: Downloading https://files.pythonhosted.org/packages/84/c1/3f4004985157b3220b19d633cd40f9de8540dc0af88fa3ddc5ed371b68f6/pyAutoSummarizer-1.0.2.tar.gz
+[2023-05-31 16:09:06] INFO root fetch - processPackages [torchlie]: Downloading https://files.pythonhosted.org/packages/63/47/23d9c1960086da9f9157bbdec9363c41d59e4d9e07a703c2bf8f4025ef0a/torchlie-0.0.1.dev3.tar.gz
+[2023-05-31 16:09:06] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/f1/49/be74eb1318b6efc8952ab509ca9edc5746d0f44796d2009449f67f33d0d1/vdk-dag-0.1.884801326.tar.gz
+[2023-05-31 16:09:06] INFO root fetch - processPackages [torchlie]: executing diffoscope
+[2023-05-31 16:09:06] INFO root fetch - processPackages [torchlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlie-0.0.1.dev2.tar.gz tmp/torchlie-0.0.1.dev3.tar.gz --markdown 20230531/t/torchlie/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2023-05-31 16:09:06] INFO root fetch - processPackages [vdk-dag]: executing diffoscope
+[2023-05-31 16:09:06] INFO root fetch - processPackages [vdk-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-dag-0.1.872432630.tar.gz tmp/vdk-dag-0.1.884801326.tar.gz --markdown 20230531/v/vdk-dag/0.1.872432630-0.1.884801326/diff.md --exclude *.pyd
+[2023-05-31 16:09:06] INFO root fetch - processPackages [pyAutoSummarizer]: Downloading https://files.pythonhosted.org/packages/9c/40/132395a9950cdecd07a5fcfc95101bee58c5f91bddada46cd7905d6c7f25/pyAutoSummarizer-1.0.4.tar.gz
+[2023-05-31 16:09:06] INFO root fetch - main [MainThread]: End processing [py-orca]: success
+[2023-05-31 16:09:06] INFO root fetch - processPackages [pyAutoSummarizer]: executing diffoscope
+[2023-05-31 16:09:06] INFO root fetch - processPackages [pyAutoSummarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAutoSummarizer-1.0.2.tar.gz tmp/pyAutoSummarizer-1.0.4.tar.gz --markdown 20230531/p/pyAutoSummarizer/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 16:09:06] WARNING root fetch - processPackages [tensorflow-aarch64]: Skipping package: exceeds size limit 192526126>=10485760
+[2023-05-31 16:09:06] INFO root fetch - main [MainThread]: End processing [tensorflow-aarch64] error
+[2023-05-31 16:09:07] INFO root fetch - main [MainThread]: End processing [argos-netbox]: success
+[2023-05-31 16:09:07] INFO root fetch - main [MainThread]: End processing [vdk-dag]: success
+[2023-05-31 16:09:07] INFO root fetch - main [MainThread]: End processing [torchlie]: success
+[2023-05-31 16:09:07] INFO root fetch - main [MainThread]: End processing [pyAutoSummarizer]: success
+[2023-05-31 16:09:08] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-31 16:09:09] INFO root fetch - main [MainThread]: End processing [pyroute2]: success
+[2023-05-31 16:09:12] INFO root fetch - main [MainThread]: End processing [pythonfinder]: success
+[2023-05-31 16:09:12] INFO root fetch - main [MainThread]: Store serial: [18317885]
