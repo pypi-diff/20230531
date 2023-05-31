@@ -22930,3 +22930,53 @@
 [2023-05-31 21:35:30] INFO root fetch - main [MainThread]: End processing [awscli]: success
 [2023-05-31 21:35:37] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-05-31 21:35:37] INFO root fetch - main [MainThread]: Store serial: [18321505]
+[2023-05-31 21:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321505]
+[2023-05-31 21:40:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anova-analysis
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fieldedge-utilities
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taisim
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavlab-python-utils
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dipex
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-ai
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2023-05-31 21:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flow-helpers-tps
+[2023-05-31 21:40:47] INFO root fetch - processPackages [anova-analysis]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [lavlab-python-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [taisim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [flow-helpers-tps]: New version: [2023.5.31.1939] Old Version: [2023.5.2.1540]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.704] Old Version: [0.0.703]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-31 21:40:47] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-31 21:40:47] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230531/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-31 21:40:47] INFO root fetch - processPackages [flow-helpers-tps]: Downloading https://files.pythonhosted.org/packages/c8/f6/a0361825ff3721cef659442d66f82bfe1aba0bfcf5239be808a4886e89bc/flow_helpers_tps-2023.5.2.1540.tar.gz
+[2023-05-31 21:40:47] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-31 21:40:47] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230531/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-31 21:40:47] INFO root fetch - processPackages [anova-analysis]: Downloading https://files.pythonhosted.org/packages/92/1d/44e9d6605e797cbaf0db178a732d50bbf2dd8450dcaf39870c84f75bba3d/anova_analysis-1.0.2.tar.gz
+[2023-05-31 21:40:47] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/18/aa/3fd6343afc346c24b053e80d206e6b9b97ee4d36a5836d09d24334cdde5c/abstract_ai-0.0.704.tar.gz
+[2023-05-31 21:40:47] INFO root fetch - processPackages [taisim]: Downloading https://files.pythonhosted.org/packages/ae/5f/272b00afea3f2574abac7af6a8133908951dff7e7653cb43bb5335208b37/taisim-0.0.9.tar.gz
+[2023-05-31 21:40:47] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/95/b6/ac68ee40db19f8952cce003cc38a136a391e9127db99912c690d2014e35a/lavlab-python-utils-1.0.2.tar.gz
+[2023-05-31 21:40:47] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-31 21:40:47] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230531/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-31 21:40:48] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-31 21:40:48] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-31 21:40:48] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 21:40:48] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.703.tar.gz tmp/abstract_ai-0.0.704.tar.gz --markdown 20230531/a/abstract-ai/0.0.703-0.0.704/diff.md --exclude *.pyd
+[2023-05-31 21:40:48] INFO root fetch - processPackages [taisim]: executing diffoscope
+[2023-05-31 21:40:48] INFO root fetch - processPackages [taisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taisim-0.0.8.tar.gz tmp/taisim-0.0.9.tar.gz --markdown 20230531/t/taisim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 21:40:48] INFO root fetch - processPackages [lavlab-python-utils]: executing diffoscope
+[2023-05-31 21:40:48] INFO root fetch - processPackages [lavlab-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavlab-python-utils-1.0.1.tar.gz tmp/lavlab-python-utils-1.0.2.tar.gz --markdown 20230531/l/lavlab-python-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 21:40:48] INFO root fetch - processPackages [anova-analysis]: Downloading https://files.pythonhosted.org/packages/82/68/8ade56f89b55b538907d524a4cf1f1afd8c6a4a2cbb3b310a37ff1802b05/anova_analysis-1.0.3.tar.gz
+[2023-05-31 21:40:48] INFO root fetch - processPackages [anova-analysis]: executing diffoscope
+[2023-05-31 21:40:48] INFO root fetch - processPackages [anova-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anova_analysis-1.0.2.tar.gz tmp/anova_analysis-1.0.3.tar.gz --markdown 20230531/a/anova-analysis/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 21:40:48] INFO root fetch - processPackages [flow-helpers-tps]: Downloading https://files.pythonhosted.org/packages/8e/01/bd3648164c14c8f9c499291cdf450d6b676beee2cbea5b41d42016d5a8cb/flow_helpers_tps-2023.5.31.1939.tar.gz
+[2023-05-31 21:40:48] INFO root fetch - processPackages [flow-helpers-tps]: executing diffoscope
+[2023-05-31 21:40:48] INFO root fetch - processPackages [flow-helpers-tps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_helpers_tps-2023.5.2.1540.tar.gz tmp/flow_helpers_tps-2023.5.31.1939.tar.gz --markdown 20230531/f/flow-helpers-tps/2023.5.2.1540-2023.5.31.1939/diff.md --exclude *.pyd
+[2023-05-31 21:40:49] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-31 21:40:49] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 21:40:49] INFO root fetch - main [MainThread]: End processing [anova-analysis]: success
+[2023-05-31 21:40:50] INFO root fetch - main [MainThread]: End processing [taisim]: success
+[2023-05-31 21:40:50] INFO root fetch - main [MainThread]: End processing [flow-helpers-tps]: success
+[2023-05-31 21:40:50] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
+[2023-05-31 21:40:50] INFO root fetch - main [MainThread]: Store serial: [18321529]
