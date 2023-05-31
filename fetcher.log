@@ -13502,3 +13502,60 @@
 [2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [pg-common]: success
 [2023-05-31 13:18:36] INFO root fetch - main [MainThread]: End processing [gyver]: success
 [2023-05-31 13:18:36] INFO root fetch - main [MainThread]: Store serial: [18315780]
+[2023-05-31 13:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315780]
+[2023-05-31 13:23:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-common
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wtpsplit
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpaAi
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genopyc
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: str-style
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numpyro
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HelpPython
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensordict-nightly
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchtnt-nightly
+[2023-05-31 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tb-nightly
+[2023-05-31 13:23:46] INFO root fetch - processPackages [pg-common]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 13:23:46] WARNING root fetch - processPackages [OpaAi]: Skipping, unable to determine old version
+[2023-05-31 13:23:46] INFO root fetch - main [MainThread]: End processing [OpaAi] error
+[2023-05-31 13:23:46] INFO root fetch - processPackages [wtpsplit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 13:23:46] INFO root fetch - processPackages [str-style]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-31 13:23:46] WARNING root fetch - processPackages [HelpPython]: Skipping, unable to determine old version
+[2023-05-31 13:23:46] INFO root fetch - main [MainThread]: End processing [HelpPython] error
+[2023-05-31 13:23:46] INFO root fetch - processPackages [numpyro]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 13:23:46] INFO root fetch - processPackages [genopyc]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-31 13:23:46] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-31 13:23:46] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-31 13:23:46] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230531/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-31 13:23:46] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-31 13:23:46] INFO root fetch - processPackages [wtpsplit]: Downloading https://files.pythonhosted.org/packages/80/33/d74a8327eb2d3ca05752998ca7779fe95b36ab7fee1165cb9d84acf66977/wtpsplit-1.0.0.tar.gz
+[2023-05-31 13:23:46] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230531/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-31 13:23:46] INFO root fetch - processPackages [str-style]: Downloading https://files.pythonhosted.org/packages/34/d3/b0f2ac67440f522d07967db9902c73f3e5dab21e495f7c73ac299aafd397/str_style-0.1.0.tar.gz
+[2023-05-31 13:23:46] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230531/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-31 13:23:46] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/6a/f9/2e499e48caea4d97a8c5a66e276d04ee06e0ebb7006249739751aacdcf03/genopyc-0.3.4-py3-none-any.whl
+[2023-05-31 13:23:46] INFO root fetch - processPackages [numpyro]: Downloading https://files.pythonhosted.org/packages/e4/ba/84f0d166dcd042c007bcf7ab08b18c57e787cef7524ebcb7c1a238fbd1f7/numpyro-0.9.1.tar.gz
+[2023-05-31 13:23:46] INFO root fetch - processPackages [pg-common]: Downloading https://files.pythonhosted.org/packages/73/8f/253261f8136c4d7af0719c192d841468c646ed53564baff98ef307dea163/pg_common-1.0.4.tar.gz
+[2023-05-31 13:23:46] INFO root fetch - processPackages [pg-common]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [pg-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_common-1.0.3.tar.gz tmp/pg_common-1.0.4.tar.gz --markdown 20230531/p/pg-common/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 13:23:46] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.3.3-py3-none-any.whl.zip tmp/genopyc-0.3.4-py3-none-any.whl.zip --markdown 20230531/g/genopyc/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-31 13:23:46] INFO root fetch - processPackages [wtpsplit]: Downloading https://files.pythonhosted.org/packages/90/8e/1b49cadcbb9567846d749ad4fc0c5f4764f2256a27df3b7924d15206b117/wtpsplit-1.0.1.tar.gz
+[2023-05-31 13:23:46] INFO root fetch - processPackages [wtpsplit]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [wtpsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtpsplit-1.0.0.tar.gz tmp/wtpsplit-1.0.1.tar.gz --markdown 20230531/w/wtpsplit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 13:23:46] INFO root fetch - processPackages [str-style]: Downloading https://files.pythonhosted.org/packages/e0/3d/273d9ea9c01cdef0249c8d4e87b6be4d12d4bdd6fd60b57803c65eb6ceb3/str_style-1.0.0.tar.gz
+[2023-05-31 13:23:46] INFO root fetch - processPackages [str-style]: executing diffoscope
+[2023-05-31 13:23:46] INFO root fetch - processPackages [str-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/str_style-0.1.0.tar.gz tmp/str_style-1.0.0.tar.gz --markdown 20230531/s/str-style/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 13:23:47] INFO root fetch - processPackages [numpyro]: Downloading https://files.pythonhosted.org/packages/fd/0f/9d625d28dd144dab6f37b7c7873086546213a460ebb9f1efdb997b0f4218/numpyro-0.9.2.tar.gz
+[2023-05-31 13:23:47] INFO root fetch - processPackages [numpyro]: executing diffoscope
+[2023-05-31 13:23:47] INFO root fetch - processPackages [numpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpyro-0.9.1.tar.gz tmp/numpyro-0.9.2.tar.gz --markdown 20230531/n/numpyro/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 13:23:47] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-31 13:23:48] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-05-31 13:23:48] INFO root fetch - main [MainThread]: End processing [pg-common]: success
+[2023-05-31 13:23:48] INFO root fetch - main [MainThread]: End processing [wtpsplit]: success
+[2023-05-31 13:23:48] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-31 13:23:48] INFO root fetch - main [MainThread]: End processing [str-style]: success
+[2023-05-31 13:23:49] INFO root fetch - main [MainThread]: End processing [numpyro]: success
+[2023-05-31 13:23:50] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-31 13:23:50] INFO root fetch - main [MainThread]: Store serial: [18315815]
