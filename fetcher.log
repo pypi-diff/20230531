@@ -1143,3 +1143,124 @@
 [2023-05-31 02:01:55] INFO root fetch - main [MainThread]: End processing [triton-model-analyzer]: success
 [2023-05-31 02:03:11] INFO root fetch - main [MainThread]: End processing [tritonclient]: success
 [2023-05-31 02:03:11] INFO root fetch - main [MainThread]: Store serial: [18308806]
+[2023-05-31 02:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18308806]
+[2023-05-31 02:08:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kttools
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kynaylibs
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elongation-simulators
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitbetter
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dynamic-listing
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-hub
+[2023-05-31 02:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nxs-analysis-tools
+[2023-05-31 02:08:49] INFO root fetch - processPackages [kttools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [kynaylibs]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [llama-hub]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [gitbetter]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [dynamic-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [elongation-simulators]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1685491387] Old Version: [1685404999]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-31 02:08:49] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230531/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-31 02:08:49] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-05-31 02:08:49] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230531/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 02:08:49] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-31 02:08:49] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230531/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-31 02:08:49] INFO root fetch - processPackages [dynamic-listing]: Downloading https://files.pythonhosted.org/packages/b9/1c/386f8a4d9898b556ac1ea77338b7dc938e5b793a1acda5043cdf28168227/dynamic_listing-0.0.8.tar.gz
+[2023-05-31 02:08:49] INFO root fetch - processPackages [kttools]: Downloading https://files.pythonhosted.org/packages/b5/1c/5e84a0c998a55a3abce3762f41a2f2aafb048176706abbab6ccb13cbe6c6/kttools-0.2.1.tar.gz
+[2023-05-31 02:08:49] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/76/69/271ffe27b623720cb0ca80b4a834a7a32d627660a2dd9586c1b171e49c68/llama_hub-0.0.1a1.tar.gz
+[2023-05-31 02:08:49] WARNING root fetch - processPackages [elongation-simulators]: fallback to get urls: [1.0.0]
+[2023-05-31 02:08:49] WARNING root fetch - processPackages [elongation-simulators]: None
+[2023-05-31 02:08:49] WARNING root fetch - processPackages [elongation-simulators]: None
+[2023-05-31 02:08:49] WARNING root fetch - processPackages [elongation-simulators]: unable to get url for both version [1.0.0]
+[2023-05-31 02:08:49] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/98/98/950b0144a62313d68cc3921d3016b6a126159eceec68681ba035a3d52f01/torchdatasets-nightly-1685404999.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/ea/12/8bb496b8d9ac1ac48a133632a644ea021e1baa2ba3b6a734421f25127115/kynaylibs-1.8.3.tar.gz
+[2023-05-31 02:08:50] WARNING root fetch - processPackages [elongation-simulators]: None
+[2023-05-31 02:08:50] INFO root fetch - processPackages [elongation-simulators]: Start processing: BatchParse
+[2023-05-31 02:08:50] INFO root fetch - main [MainThread]: End processing [elongation-simulators] error
+[2023-05-31 02:08:50] INFO root fetch - processPackages [BatchParse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 02:08:50] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/2c/92/c887d4fb60ef5c352bb0cc1a58335f4d56133381d19bd222a9af98574868/gitbetter-1.3.0.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.8.2.tar.gz tmp/kynaylibs-1.8.3.tar.gz --markdown 20230531/k/kynaylibs/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-31 02:08:50] INFO root fetch - processPackages [dynamic-listing]: Downloading https://files.pythonhosted.org/packages/ef/a9/9a0e51c2e2119793749260acf70d9f9c7b99354e26aab46693a058554382/dynamic_listing-0.0.9.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/99/28/1dfef05092dc85824c9b4881269e5351d5bb05187bcacfbe0467d8a55714/llama_hub-0.0.1a2.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-1.2.0.tar.gz tmp/gitbetter-1.3.0.tar.gz --markdown 20230531/g/gitbetter/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 02:08:50] INFO root fetch - processPackages [kttools]: Downloading https://files.pythonhosted.org/packages/79/7d/6aba1b7e78fcff5148e0f9e7646821c7f3f643ab629c19e711a94677d120/kttools-0.2.2.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/50/f6/1f0f5472706f887904496233f72ac3081ac6f345c99008e9b1a3eb29a7c2/torchdatasets-nightly-1685491387.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [BatchParse]: Downloading https://files.pythonhosted.org/packages/6f/f4/85ef497d711740a7e6f0e14dbeb49a5e144671e70776b3753255bc247b81/BatchParse-0.0.3.tar.gz
+[2023-05-31 02:08:50] INFO root fetch - processPackages [dynamic-listing]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [llama-hub]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [dynamic-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_listing-0.0.8.tar.gz tmp/dynamic_listing-0.0.9.tar.gz --markdown 20230531/d/dynamic-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 02:08:50] INFO root fetch - processPackages [llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_hub-0.0.1a1.tar.gz tmp/llama_hub-0.0.1a2.tar.gz --markdown 20230531/l/llama-hub/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-05-31 02:08:50] INFO root fetch - processPackages [kttools]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [kttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kttools-0.2.1.tar.gz tmp/kttools-0.2.2.tar.gz --markdown 20230531/k/kttools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 02:08:50] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1685404999.tar.gz tmp/torchdatasets-nightly-1685491387.tar.gz --markdown 20230531/t/torchdatasets-nightly/1685404999-1685491387/diff.md --exclude *.pyd
+[2023-05-31 02:08:50] INFO root fetch - processPackages [BatchParse]: executing diffoscope
+[2023-05-31 02:08:50] INFO root fetch - processPackages [BatchParse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BatchParse-0.0.2.tar.gz tmp/BatchParse-0.0.3.tar.gz --markdown 20230531/B/BatchParse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 02:08:51] INFO root fetch - processPackages [nxs-analysis-tools]: Start processing: vegafusion-python-embed
+[2023-05-31 02:08:51] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-05-31 02:08:51] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.3.0rc4] Old Version: [1.3.0rc3]
+[2023-05-31 02:08:51] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: jaxutils-nightly
+[2023-05-31 02:08:51] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-31 02:08:51] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230530] Old Version: [0.0.8.dev20230529]
+[2023-05-31 02:08:51] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/61/fc/2da387b42c7ed49f9b461d66a6098f8c400232ed1499ff5056d719cdfdd6/vegafusion_python_embed-1.3.0_rc4.tar.gz
+[2023-05-31 02:08:51] INFO root fetch - processPackages [kynaylibs]: Start processing: pyalarmdotcomajax
+[2023-05-31 02:08:51] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-31 02:08:51] INFO root fetch - processPackages [pyalarmdotcomajax]: New version: [0.5.1] Old Version: [0.5.0b6]
+[2023-05-31 02:08:51] INFO root fetch - processPackages [kttools]: Start processing: pdfCropMargins
+[2023-05-31 02:08:51] INFO root fetch - main [MainThread]: End processing [kttools]: success
+[2023-05-31 02:08:51] INFO root fetch - processPackages [pdfCropMargins]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-31 02:08:51] INFO root fetch - processPackages [torchdatasets-nightly]: Start processing: spida
+[2023-05-31 02:08:51] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-31 02:08:51] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/6e/55/71ec6755f40557f9364f3f7fa7d7b0a74b580cda1d07cc6cfba645ae49a8/jaxutils-nightly-0.0.8.dev20230530.tar.gz
+[2023-05-31 02:08:51] INFO root fetch - processPackages [spida]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-31 02:08:51] INFO root fetch - processPackages [BatchParse]: Start processing: torchlayers-nightly
+[2023-05-31 02:08:51] INFO root fetch - main [MainThread]: End processing [BatchParse]: success
+[2023-05-31 02:08:51] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-31 02:08:51] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230529.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230530.tar.gz --markdown 20230531/j/jaxutils-nightly/0.0.8.dev20230529-0.0.8.dev20230530/diff.md --exclude *.pyd
+[2023-05-31 02:08:51] INFO root fetch - processPackages [spida]: executing diffoscope
+[2023-05-31 02:08:51] INFO root fetch - processPackages [spida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spida-0.3.3.tar.gz tmp/spida-0.3.4.tar.gz --markdown 20230531/s/spida/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-31 02:08:51] INFO root fetch - processPackages [pdfCropMargins]: Downloading https://files.pythonhosted.org/packages/2f/0d/049c5fffd4d4e0b36b61e60844d896facf9dbe6b9e593885e3b1347f757a/pdfCropMargins-1.1.9-py2.py3-none-any.whl
+[2023-05-31 02:08:51] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1685405225] Old Version: [1685318844]
+[2023-05-31 02:08:52] INFO root fetch - processPackages [pyalarmdotcomajax]: Downloading https://files.pythonhosted.org/packages/b5/32/e12fa0313227c31460f652607338635d03db7825b262a52953fb6e8a390f/pyalarmdotcomajax-0.5.1.tar.gz
+[2023-05-31 02:08:52] INFO root fetch - processPackages [pyalarmdotcomajax]: executing diffoscope
+[2023-05-31 02:08:52] INFO root fetch - processPackages [pyalarmdotcomajax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalarmdotcomajax-0.5.0b6.tar.gz tmp/pyalarmdotcomajax-0.5.1.tar.gz --markdown 20230531/p/pyalarmdotcomajax/0.5.0b6-0.5.1/diff.md --exclude *.pyd
+[2023-05-31 02:08:52] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/0d/ac/bfd480c68f4cd1fbc31999ab9b8fcc290b9b52619a310ada2eb8d786e1ae/torchlayers-nightly-1685405225.tar.gz
+[2023-05-31 02:08:52] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-31 02:08:52] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1685318844.tar.gz tmp/torchlayers-nightly-1685405225.tar.gz --markdown 20230531/t/torchlayers-nightly/1685318844-1685405225/diff.md --exclude *.pyd
+[2023-05-31 02:08:52] INFO root fetch - processPackages [pdfCropMargins]: Downloading https://files.pythonhosted.org/packages/73/c9/deb58ed614a84837ecdca7c91bc4956e7fc5f61c868cc0ea63918c71693b/pdfCropMargins-1.2.0-py2.py3-none-any.whl
+[2023-05-31 02:08:52] INFO root fetch - processPackages [pdfCropMargins]: executing diffoscope
+[2023-05-31 02:08:52] INFO root fetch - processPackages [pdfCropMargins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfCropMargins-1.1.9-py2.py3-none-any.whl.zip tmp/pdfCropMargins-1.2.0-py2.py3-none-any.whl.zip --markdown 20230531/p/pdfCropMargins/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 02:08:52] INFO root fetch - processPackages [dynamic-listing]: Start processing: satori-ci
+[2023-05-31 02:08:52] INFO root fetch - main [MainThread]: End processing [dynamic-listing]: success
+[2023-05-31 02:08:52] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-31 02:08:52] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: ts2ml
+[2023-05-31 02:08:52] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-31 02:08:53] WARNING root fetch - processPackages [ts2ml]: Skipping, unable to determine old version
+[2023-05-31 02:08:53] INFO root fetch - processPackages [ts2ml]: Start processing: cdk8s-grafana
+[2023-05-31 02:08:53] INFO root fetch - main [MainThread]: End processing [ts2ml] error
+[2023-05-31 02:08:53] INFO root fetch - main [MainThread]: End processing [spida]: success
+[2023-05-31 02:08:53] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 02:08:53] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-05-31 02:08:53] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230531/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 02:08:53] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-05-31 02:08:53] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230531/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-31 02:08:53] INFO root fetch - main [MainThread]: End processing [pyalarmdotcomajax]: success
+[2023-05-31 02:08:53] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-05-31 02:08:53] INFO root fetch - processPackages [vegafusion-python-embed]: executing diffoscope
+[2023-05-31 02:08:53] INFO root fetch - processPackages [vegafusion-python-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion_python_embed-1.3.0_rc3.tar.gz tmp/vegafusion_python_embed-1.3.0_rc4.tar.gz --markdown 20230531/v/vegafusion-python-embed/1.3.0rc3-1.3.0rc4/diff.md --exclude *.pyd
+[2023-05-31 02:08:54] INFO root fetch - main [MainThread]: End processing [pdfCropMargins]: success
+[2023-05-31 02:08:54] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-31 02:08:55] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-05-31 02:08:56] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-05-31 02:08:56] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
+[2023-05-31 02:08:57] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-31 02:09:24] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
+[2023-05-31 02:09:24] INFO root fetch - main [MainThread]: Store serial: [18308937]
