@@ -22265,3 +22265,68 @@
 [2023-05-31 20:50:39] INFO root fetch - main [MainThread]: End processing [bacalhau-airflow]: success
 [2023-05-31 20:50:44] INFO root fetch - main [MainThread]: End processing [aleksis-core]: success
 [2023-05-31 20:50:44] INFO root fetch - main [MainThread]: Store serial: [18321113]
+[2023-05-31 20:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321113]
+[2023-05-31 20:55:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AoiPy
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabric-virt-tools
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-idaice
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trex-imager-readfile
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seaplayer
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: juriscraper
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enetython
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brainsurf
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: landingai
+[2023-05-31 20:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plasmapy
+[2023-05-31 20:55:55] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [fabric-virt-tools]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [seaplayer]: New version: [0.5.5] Old Version: [0.5.4.dev3]
+[2023-05-31 20:55:55] WARNING root fetch - processPackages [enetython]: Skipping, unable to determine old version
+[2023-05-31 20:55:55] INFO root fetch - processPackages [enetython]: Start processing: fabric-virt-tools
+[2023-05-31 20:55:55] INFO root fetch - main [MainThread]: End processing [enetython] error
+[2023-05-31 20:55:55] INFO root fetch - processPackages [juriscraper]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [plasmapy]: New version: [2023.5.0] Old Version: [2023.1.0rc1]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [honeybee-idaice]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [trex-imager-readfile]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [brainsurf]: New version: [6.0] Old Version: [3.0.0]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [fabric-virt-tools]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-05-31 20:55:55] INFO root fetch - processPackages [fabric-virt-tools]: Downloading https://files.pythonhosted.org/packages/8f/29/1f52fe5e87ca17490722730a8290507272f68994f59f583a04659d7eb2b5/fabric-virt-tools-1.0.0b3.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [fabric-virt-tools]: Downloading https://files.pythonhosted.org/packages/8f/29/1f52fe5e87ca17490722730a8290507272f68994f59f583a04659d7eb2b5/fabric-virt-tools-1.0.0b3.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [honeybee-idaice]: Downloading https://files.pythonhosted.org/packages/d7/f1/c66424ed326d47debbaed405688dc8486a896cad87485984737d834d9688/honeybee-idaice-0.3.2.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [plasmapy]: Downloading https://files.pythonhosted.org/packages/d4/11/9e4ab9d54cb4bd30ebde65b23ed0d8048a55eaf76461737c6d817eaa16bb/plasmapy-2023.1.0rc1.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-05-31 20:55:55] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230531/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-05-31 20:55:55] INFO root fetch - processPackages [trex-imager-readfile]: Downloading https://files.pythonhosted.org/packages/18/e0/4f22817b455ca6e780b008885d7fbc806f596c3b02519774abd547320ab4/trex_imager_readfile-1.3.0.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-31 20:55:55] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230531/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 20:55:55] INFO root fetch - processPackages [honeybee-idaice]: executing diffoscope
+[2023-05-31 20:55:55] INFO root fetch - processPackages [honeybee-idaice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-idaice-0.3.1.tar.gz tmp/honeybee-idaice-0.3.2.tar.gz --markdown 20230531/h/honeybee-idaice/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 20:55:55] INFO root fetch - processPackages [seaplayer]: Downloading https://files.pythonhosted.org/packages/63/d6/aa4a6e2782333ad2cad8b17c95a9ae36e463a7517ca9c0aa02a5c2758bbb/seaplayer-0.5.5.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [juriscraper]: executing diffoscope
+[2023-05-31 20:55:55] INFO root fetch - processPackages [juriscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juriscraper-2.5.8.tar.gz tmp/juriscraper-2.5.9.tar.gz --markdown 20230531/j/juriscraper/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-05-31 20:55:55] INFO root fetch - processPackages [fabric-virt-tools]: Downloading https://files.pythonhosted.org/packages/fe/e5/9abc99d7ef3b7738480dfeecfd87f56bd3f09a384c2e03cafae94b822050/fabric_virt_tools-1.0.0b4.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [fabric-virt-tools]: Downloading https://files.pythonhosted.org/packages/fe/e5/9abc99d7ef3b7738480dfeecfd87f56bd3f09a384c2e03cafae94b822050/fabric_virt_tools-1.0.0b4.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [brainsurf]: Downloading https://files.pythonhosted.org/packages/ba/bc/1cb27211b42e0d027f1ae6378cd43675b0629d7063a12c555d61fe88ad2a/brainsurf-3.0.0.tar.gz
+[2023-05-31 20:55:55] INFO root fetch - processPackages [seaplayer]: executing diffoscope
+[2023-05-31 20:55:55] INFO root fetch - processPackages [seaplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplayer-0.5.4.dev3.tar.gz tmp/seaplayer-0.5.5.tar.gz --markdown 20230531/s/seaplayer/0.5.4.dev3-0.5.5/diff.md --exclude *.pyd
+[2023-05-31 20:55:55] INFO root fetch - processPackages [trex-imager-readfile]: Downloading https://files.pythonhosted.org/packages/78/2b/49bde5bc0a7e622ba37ffd26beed26e93abff5513235334e2ff1d5932820/trex_imager_readfile-1.4.0.tar.gz
+[2023-05-31 20:55:56] INFO root fetch - processPackages [fabric-virt-tools]: executing diffoscope
+[2023-05-31 20:55:56] INFO root fetch - processPackages [fabric-virt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-virt-tools-1.0.0b3.tar.gz tmp/fabric_virt_tools-1.0.0b4.tar.gz --markdown 20230531/f/fabric-virt-tools/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-05-31 20:55:56] INFO root fetch - processPackages [fabric-virt-tools]: executing diffoscope
+[2023-05-31 20:55:56] INFO root fetch - processPackages [fabric-virt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-virt-tools-1.0.0b3.tar.gz tmp/fabric_virt_tools-1.0.0b4.tar.gz --markdown 20230531/f/fabric-virt-tools/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-05-31 20:55:56] INFO root fetch - processPackages [trex-imager-readfile]: executing diffoscope
+[2023-05-31 20:55:56] INFO root fetch - processPackages [trex-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex_imager_readfile-1.3.0.tar.gz tmp/trex_imager_readfile-1.4.0.tar.gz --markdown 20230531/t/trex-imager-readfile/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-31 20:55:56] INFO root fetch - processPackages [brainsurf]: executing diffoscope
+[2023-05-31 20:55:56] INFO root fetch - processPackages [brainsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainsurf-3.0.0.tar.gz tmp/brainsurf-6.0.tar.gz --markdown 20230531/b/brainsurf/3.0.0-6.0/diff.md --exclude *.pyd
+[2023-05-31 20:55:56] WARNING root fetch - processPackages [plasmapy]: Skipping package: exceeds size limit 11677415>=10485760
+[2023-05-31 20:55:56] INFO root fetch - main [MainThread]: End processing [plasmapy] error
+[2023-05-31 20:55:57] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-05-31 20:55:57] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-31 20:55:57] INFO root fetch - main [MainThread]: End processing [honeybee-idaice]: success
+[2023-05-31 20:55:57] INFO root fetch - main [MainThread]: End processing [trex-imager-readfile]: success
+[2023-05-31 20:55:57] INFO root fetch - main [MainThread]: End processing [fabric-virt-tools]: success
+[2023-05-31 20:55:57] INFO root fetch - main [MainThread]: End processing [fabric-virt-tools]: success
+[2023-05-31 20:55:58] INFO root fetch - main [MainThread]: End processing [brainsurf]: success
+[2023-05-31 20:55:58] INFO root fetch - main [MainThread]: End processing [seaplayer]: success
+[2023-05-31 20:56:01] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
+[2023-05-31 20:56:01] INFO root fetch - main [MainThread]: Store serial: [18321144]
