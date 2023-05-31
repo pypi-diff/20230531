@@ -13403,3 +13403,102 @@
 [2023-05-31 13:13:23] INFO root fetch - main [MainThread]: End processing [cfclient]: success
 [2023-05-31 13:13:23] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-31 13:13:23] INFO root fetch - main [MainThread]: Store serial: [18315728]
+[2023-05-31 13:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315728]
+[2023-05-31 13:18:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtgql
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-core
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djlds
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: license-authorize
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wave-venture
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CodraFT
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pg-environment
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyAllInOne
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: char-counter
+[2023-05-31 13:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-fiscal-year
+[2023-05-31 13:18:32] INFO root fetch - processPackages [qtgql]: New version: [0.119.5] Old Version: [0.119.4]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [policyengine-core]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [pg-environment]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [CodraFT]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [PyAllInOne]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [djlds]: New version: [2023.5.31] Old Version: [2023.5.11]
+[2023-05-31 13:18:32] WARNING root fetch - processPackages [char-counter]: Skipping, unable to determine old version
+[2023-05-31 13:18:32] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.1]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [char-counter]: Start processing: macrometa-target-bigquery
+[2023-05-31 13:18:32] INFO root fetch - processPackages [license-authorize]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-05-31 13:18:32] INFO root fetch - main [MainThread]: End processing [char-counter] error
+[2023-05-31 13:18:32] INFO root fetch - processPackages [wave-venture]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-05-31 13:18:32] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.8.tar.gz tmp/macrometa-target-bigquery-0.0.9.tar.gz --markdown 20230531/m/macrometa-target-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:18:32] INFO root fetch - processPackages [pg-environment]: Downloading https://files.pythonhosted.org/packages/d6/d0/633f13a543e59dc645f260173cb44d320e7a2b6147f2cf4cc866c2bbffdc/pg_environment-1.0.0.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [license-authorize]: Downloading https://files.pythonhosted.org/packages/40/48/bb96a00a1da12b0a039222fd8fc2c8956c0f3b071b3d2bedefc08ba65f3e/license_authorize-1.0.6.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [wave-venture]: Downloading https://files.pythonhosted.org/packages/86/63/14b399b719164dbb5ea50dd18c359c13aaec38ac61b47a8c0a7f0c976cf5/wave-venture-0.0.8.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [CodraFT]: Downloading https://files.pythonhosted.org/packages/c4/4a/ee118b081a7763029eafab04c5b9725b59ee2e88e561ef2f33da822e8c2e/CodraFT-2.2.0-py3-none-any.whl
+[2023-05-31 13:18:32] INFO root fetch - processPackages [djlds]: Downloading https://files.pythonhosted.org/packages/94/1d/3eefeabd069079521f6a497dd05515991b795473874fe1c5fa77f6b81ac4/djlds-2023.5.11.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: Downloading https://files.pythonhosted.org/packages/dd/ca/e23bd9064baa5e21b4333077175a267b5897caef3c6bc035a9f4dd9a9043/odoo_addon_account_fiscal_year-16.0.1.0.1.1-py3-none-any.whl
+[2023-05-31 13:18:32] WARNING root fetch - processPackages [CodraFT]: Skipping package: exceeds size limit 14672190>=10485760
+[2023-05-31 13:18:32] INFO root fetch - processPackages [CodraFT]: Start processing: langchain-chatgpt-browser-api
+[2023-05-31 13:18:32] INFO root fetch - main [MainThread]: End processing [CodraFT] error
+[2023-05-31 13:18:32] WARNING root fetch - processPackages [langchain-chatgpt-browser-api]: Skipping, unable to determine old version
+[2023-05-31 13:18:32] INFO root fetch - processPackages [langchain-chatgpt-browser-api]: Start processing: stream-read-xbrl
+[2023-05-31 13:18:32] INFO root fetch - main [MainThread]: End processing [langchain-chatgpt-browser-api] error
+[2023-05-31 13:18:32] INFO root fetch - processPackages [license-authorize]: executing diffoscope
+[2023-05-31 13:18:32] INFO root fetch - processPackages [license-authorize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_authorize-1.0.4.tar.gz tmp/license_authorize-1.0.6.tar.gz --markdown 20230531/l/license-authorize/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 13:18:32] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/46/4d/c4734a466151460f5760c8c7497a418aff5857d96d270c9885048b1f759f/qtgql-0.119.5.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [stream-read-xbrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 13:18:32] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/75/0b/8534640573272e6def135b2cf0a5b4e3d856fd6b91594685fd88269c5845/policyengine-core-2.2.0.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/5e/a2/f2cf84881f8c8c07413f67dc6a09eb411dcc3e860a9956ae6e73217fd049/PyAllInOne-1.0.3.tar.gz
+[2023-05-31 13:18:32] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-05-31 13:18:32] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.119.4.tar.gz tmp/qtgql-0.119.5.tar.gz --markdown 20230531/q/qtgql/0.119.4-0.119.5/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] WARNING root fetch - processPackages [PyAllInOne]: Skipping package: exceeds size limit 63002530>=10485760
+[2023-05-31 13:18:33] INFO root fetch - processPackages [PyAllInOne]: Start processing: exchange-calendars-extensions
+[2023-05-31 13:18:33] INFO root fetch - main [MainThread]: End processing [PyAllInOne] error
+[2023-05-31 13:18:33] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.1.1.tar.gz tmp/policyengine-core-2.2.0.tar.gz --markdown 20230531/p/policyengine-core/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] INFO root fetch - processPackages [pg-environment]: Downloading https://files.pythonhosted.org/packages/7c/e8/51bd5cb72b5a0b992fb31eba30f8f3879e8f38dd8d71b0cf4a3810982a6e/pg_environment-1.0.1.tar.gz
+[2023-05-31 13:18:33] INFO root fetch - processPackages [exchange-calendars-extensions]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-31 13:18:33] INFO root fetch - processPackages [pg-environment]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [pg-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_environment-1.0.0.tar.gz tmp/pg_environment-1.0.1.tar.gz --markdown 20230531/p/pg-environment/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] INFO root fetch - processPackages [djlds]: Downloading https://files.pythonhosted.org/packages/4c/34/e3e47e7246cbe6efe305e11e9c1923d4338be7b45e6e4dad2e70c0b17496/djlds-2023.5.31.tar.gz
+[2023-05-31 13:18:33] INFO root fetch - processPackages [wave-venture]: Downloading https://files.pythonhosted.org/packages/5a/a6/6033e5990114a1a5889a219b0e865c4a8e21c79d32e113b71c42f6b09cb3/wave-venture-0.0.9.tar.gz
+[2023-05-31 13:18:33] INFO root fetch - processPackages [stream-read-xbrl]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [stream-read-xbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_read_xbrl-0.0.8.tar.gz tmp/stream_read_xbrl-0.0.9.tar.gz --markdown 20230531/s/stream-read-xbrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] INFO root fetch - processPackages [exchange-calendars-extensions]: Downloading https://files.pythonhosted.org/packages/81/94/25cbdc1ad7ff0af6988310fa050b5a8ad5854625f25a30adcc33af451ed1/exchange_calendars_extensions-0.1.1.tar.gz
+[2023-05-31 13:18:33] INFO root fetch - processPackages [djlds]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [djlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlds-2023.5.11.tar.gz tmp/djlds-2023.5.31.tar.gz --markdown 20230531/d/djlds/2023.5.11-2023.5.31/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] INFO root fetch - processPackages [wave-venture]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [wave-venture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wave-venture-0.0.8.tar.gz tmp/wave-venture-0.0.9.tar.gz --markdown 20230531/w/wave-venture/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] INFO root fetch - processPackages [exchange-calendars-extensions]: Downloading https://files.pythonhosted.org/packages/be/a7/3ffa7daf71ec08687fa437a9f26bd9cf6ba52aea1ed0ae9c1335f00ae7de/exchange_calendars_extensions-0.2.1.tar.gz
+[2023-05-31 13:18:33] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: Downloading https://files.pythonhosted.org/packages/f9/f6/504832936d48a835961554c7c901b1b80e01707a48b1a19b1d92c3c25c07/odoo_addon_account_fiscal_year-16.0.1.0.1.3-py3-none-any.whl
+[2023-05-31 13:18:33] INFO root fetch - processPackages [exchange-calendars-extensions]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [exchange-calendars-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchange_calendars_extensions-0.1.1.tar.gz tmp/exchange_calendars_extensions-0.2.1.tar.gz --markdown 20230531/e/exchange-calendars-extensions/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 13:18:33] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: executing diffoscope
+[2023-05-31 13:18:33] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_fiscal_year-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_fiscal_year-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-account-fiscal-year/16.0.1.0.1.1-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-05-31 13:18:34] INFO root fetch - processPackages [macrometa-target-bigquery]: Start processing: python-selve-new
+[2023-05-31 13:18:34] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-05-31 13:18:34] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 13:18:34] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 13:18:34] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:18:34] INFO root fetch - processPackages [pg-environment]: Start processing: gyver
+[2023-05-31 13:18:34] INFO root fetch - main [MainThread]: End processing [pg-environment]: success
+[2023-05-31 13:18:34] INFO root fetch - processPackages [license-authorize]: Start processing: pg-common
+[2023-05-31 13:18:34] INFO root fetch - main [MainThread]: End processing [license-authorize]: success
+[2023-05-31 13:18:34] INFO root fetch - processPackages [pg-common]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 13:18:34] INFO root fetch - processPackages [gyver]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-31 13:18:34] INFO root fetch - main [MainThread]: End processing [stream-read-xbrl]: success
+[2023-05-31 13:18:34] INFO root fetch - processPackages [pg-common]: executing diffoscope
+[2023-05-31 13:18:34] INFO root fetch - processPackages [pg-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_common-1.0.2.tar.gz tmp/pg_common-1.0.3.tar.gz --markdown 20230531/p/pg-common/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 13:18:34] INFO root fetch - main [MainThread]: End processing [exchange-calendars-extensions]: success
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-05-31 13:18:35] INFO root fetch - processPackages [gyver]: Downloading https://files.pythonhosted.org/packages/4a/36/52014666efc940d023c5a6a34d2524fa90ca8667bf3ed056238c42d5aba5/gyver-2.1.1.tar.gz
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [djlds]: success
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [wave-venture]: success
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-fiscal-year]: success
+[2023-05-31 13:18:35] INFO root fetch - processPackages [gyver]: Downloading https://files.pythonhosted.org/packages/cc/cc/e08bbef9cd7e73130ac8f6bac3fd4061b4921ee28bba9ceb0cf82160ccda/gyver-2.1.2.tar.gz
+[2023-05-31 13:18:35] INFO root fetch - processPackages [gyver]: executing diffoscope
+[2023-05-31 13:18:35] INFO root fetch - processPackages [gyver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyver-2.1.1.tar.gz tmp/gyver-2.1.2.tar.gz --markdown 20230531/g/gyver/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 13:18:35] INFO root fetch - main [MainThread]: End processing [pg-common]: success
+[2023-05-31 13:18:36] INFO root fetch - main [MainThread]: End processing [gyver]: success
+[2023-05-31 13:18:36] INFO root fetch - main [MainThread]: Store serial: [18315780]
