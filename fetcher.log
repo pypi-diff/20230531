@@ -9740,3 +9740,95 @@
 [2023-05-31 09:22:57] INFO root fetch - main [MainThread]: End processing [cprint-jianjun]: success
 [2023-05-31 09:23:36] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-31 09:23:36] INFO root fetch - main [MainThread]: Store serial: [18313587]
+[2023-05-31 09:28:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313587]
+[2023-05-31 09:28:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webscapy
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ail-typo-squatting
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: animage-data-sorter
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablemaster
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moinNLP
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nice-sql
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sailboat-gym
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shakenfist-agent
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: carefree-toolkit
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yellowdog-sdk
+[2023-05-31 09:28:45] INFO root fetch - processPackages [webscapy]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [ail-typo-squatting]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [moinNLP]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 09:28:45] WARNING root fetch - processPackages [animage-data-sorter]: Skipping, unable to determine old version
+[2023-05-31 09:28:45] INFO root fetch - processPackages [animage-data-sorter]: Start processing: license-authorize
+[2023-05-31 09:28:45] INFO root fetch - main [MainThread]: End processing [animage-data-sorter] error
+[2023-05-31 09:28:45] INFO root fetch - processPackages [tablemaster]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [nice-sql]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [yellowdog-sdk]: New version: [6.2.0] Old Version: [6.1.0]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [carefree-toolkit]: New version: [0.3.6.1] Old Version: [0.3.5]
+[2023-05-31 09:28:45] INFO root fetch - processPackages [license-authorize]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-31 09:28:46] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/32/ca/456069d8188c2ae457d013207ea28b85049e65cc257fbc026d7ec58eef59/tablemaster-1.0.5.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [moinNLP]: Downloading https://files.pythonhosted.org/packages/72/11/23a3976b78d8a11193390bf7a7a7e764e3df88bd8598f8b19720f8728355/moinNLP-1.0.3-py3-none-any.whl
+[2023-05-31 09:28:46] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/8d/ec/77faee29d76aacce62c20361369ddce5b27b1405862e85b2dabd58535165/yellowdog_sdk-6.1.0-py3-none-any.whl
+[2023-05-31 09:28:46] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/6b/1e/982a2e9f6841bad059ef0953156281c48d8abbd935a035249dc5942b05a7/sailboat-gym-1.0.4.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/73/23/5880902c280c892f4f23c60e20aa520ad8935811ddcf53fb27510ae1bfd8/shakenfist-agent-0.3.5.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/d9/31/f8ea68042854866a26db5c85ef5a5922a360f9abf20e2693808b3ad9e305/carefree-toolkit-0.3.6.1.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.3.tar.gz tmp/sailboat-gym-1.0.4.tar.gz --markdown 20230531/s/sailboat-gym/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [carefree-toolkit]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [carefree-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-toolkit-0.3.5.tar.gz tmp/carefree-toolkit-0.3.6.1.tar.gz --markdown 20230531/c/carefree-toolkit/0.3.5-0.3.6.1/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/41/34/130cc4d563706e0a1619eed20f38364bfd1eda50900f74c5f66c9fffad9a/webscapy-1.4.4.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [ail-typo-squatting]: Downloading https://files.pythonhosted.org/packages/3d/0e/98d735000b7a6d557c98a174c73ebe83601d40ae29d75c8c3740b2d0e37d/ail_typo_squatting-2.4.2.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [nice-sql]: Downloading https://files.pythonhosted.org/packages/35/56/e30b4a5dc2a406cc12facdb87dfae095385340d160d688c2a403751114f3/nice-sql-2.0.0.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [license-authorize]: Downloading https://files.pythonhosted.org/packages/eb/55/e26c8b2287406be6169b07bd86b49486342c81681aed16e7429128b2a229/license_authorize-1.0.3.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/bf/76/65c153c27cec373f2c8f2d7f3e3cf34c7c4b6e40828a8bcd260385ff164c/yellowdog_sdk-6.2.0-py3-none-any.whl
+[2023-05-31 09:28:46] INFO root fetch - processPackages [webscapy]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [webscapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscapy-1.4.3.tar.gz tmp/webscapy-1.4.4.tar.gz --markdown 20230531/w/webscapy/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [nice-sql]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [nice-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice-sql-1.0.0.tar.gz tmp/nice-sql-2.0.0.tar.gz --markdown 20230531/n/nice-sql/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [license-authorize]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [license-authorize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_authorize-1.0.1.tar.gz tmp/license_authorize-1.0.3.tar.gz --markdown 20230531/l/license-authorize/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/f3/99/620a8f1a497a586072954da68656a2a3fedc9bd384d8800800a7682d75fb/tablemaster-1.0.6.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/a0/78/740abbc79012c0c2a79a4e74bfa257949642c4ec35a9e6a6623fcd539c69/shakenfist-agent-0.3.6.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [ail-typo-squatting]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [ail-typo-squatting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ail_typo_squatting-2.4.1.tar.gz tmp/ail_typo_squatting-2.4.2.tar.gz --markdown 20230531/a/ail-typo-squatting/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [yellowdog-sdk]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [yellowdog-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_sdk-6.1.0-py3-none-any.whl.zip tmp/yellowdog_sdk-6.2.0-py3-none-any.whl.zip --markdown 20230531/y/yellowdog-sdk/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [moinNLP]: Downloading https://files.pythonhosted.org/packages/e5/f7/65c87c46480292224937e2af0ca16e7b9c08df6976e1a5fb4e7b6e045ca4/moinNLP-1.0.4.macosx-10.7-x86_64.tar.gz
+[2023-05-31 09:28:46] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.5.tar.gz tmp/shakenfist-agent-0.3.6.tar.gz --markdown 20230531/s/shakenfist-agent/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.0.5.tar.gz tmp/tablemaster-1.0.6.tar.gz --markdown 20230531/t/tablemaster/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 09:28:46] INFO root fetch - processPackages [moinNLP]: executing diffoscope
+[2023-05-31 09:28:46] INFO root fetch - processPackages [moinNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moinNLP-1.0.3-py3-none-any.whl.zip tmp/moinNLP-1.0.4.macosx-10.7-x86_64.tar.gz --markdown 20230531/m/moinNLP/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 09:28:47] INFO root fetch - processPackages [sailboat-gym]: Start processing: pymatgen-analysis-defects
+[2023-05-31 09:28:47] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-05-31 09:28:47] INFO root fetch - processPackages [pymatgen-analysis-defects]: New version: [2023.6.1] Old Version: [2023.5.8]
+[2023-05-31 09:28:47] INFO root fetch - processPackages [license-authorize]: Start processing: collective.behavior.internalnumber
+[2023-05-31 09:28:47] INFO root fetch - main [MainThread]: End processing [license-authorize]: success
+[2023-05-31 09:28:47] INFO root fetch - processPackages [collective.behavior.internalnumber]: New version: [0.2] Old Version: [0.1]
+[2023-05-31 09:28:47] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/d4/53/e026b0e66c99920d4e2dfe2997f724711e6aa9b97577a85324866562c33c/pymatgen-analysis-defects-2023.5.8.tar.gz
+[2023-05-31 09:28:47] INFO root fetch - processPackages [webscapy]: Start processing: gauth
+[2023-05-31 09:28:47] INFO root fetch - main [MainThread]: End processing [webscapy]: success
+[2023-05-31 09:28:48] WARNING root fetch - processPackages [gauth]: Skipping, unable to determine old version
+[2023-05-31 09:28:48] INFO root fetch - processPackages [gauth]: Start processing: python-selve-new
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [gauth] error
+[2023-05-31 09:28:48] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [nice-sql]: success
+[2023-05-31 09:28:48] INFO root fetch - processPackages [collective.behavior.internalnumber]: Downloading https://files.pythonhosted.org/packages/10/5a/a4c7249402f6bbbce15f45179a55f74f54f693a0360ef9ddec10b0b7e04e/collective.behavior.internalnumber-0.1.tar.gz
+[2023-05-31 09:28:48] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 09:28:48] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [ail-typo-squatting]: success
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [moinNLP]: success
+[2023-05-31 09:28:48] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/75/16/14d80a7d53777434d74fc39a17dce5a6f85b1b5c9d7607c85b575eb03558/pymatgen-analysis-defects-2023.6.1.tar.gz
+[2023-05-31 09:28:48] INFO root fetch - main [MainThread]: End processing [carefree-toolkit]: success
+[2023-05-31 09:28:48] INFO root fetch - processPackages [collective.behavior.internalnumber]: Downloading https://files.pythonhosted.org/packages/d8/71/0d2cbb1e054de90a8f4e09adfa89cf6d858436c7f1630040344685da7655/collective.behavior.internalnumber-0.2.tar.gz
+[2023-05-31 09:28:48] INFO root fetch - processPackages [pymatgen-analysis-defects]: executing diffoscope
+[2023-05-31 09:28:48] INFO root fetch - processPackages [pymatgen-analysis-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-analysis-defects-2023.5.8.tar.gz tmp/pymatgen-analysis-defects-2023.6.1.tar.gz --markdown 20230531/p/pymatgen-analysis-defects/2023.5.8-2023.6.1/diff.md --exclude *.pyd
+[2023-05-31 09:28:48] INFO root fetch - processPackages [collective.behavior.internalnumber]: executing diffoscope
+[2023-05-31 09:28:48] INFO root fetch - processPackages [collective.behavior.internalnumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.behavior.internalnumber-0.1.tar.gz tmp/collective.behavior.internalnumber-0.2.tar.gz --markdown 20230531/c/collective.behavior.internalnumber/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-31 09:28:49] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 09:28:49] INFO root fetch - main [MainThread]: End processing [pymatgen-analysis-defects]: success
+[2023-05-31 09:28:51] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
+[2023-05-31 09:29:41] INFO root fetch - main [MainThread]: End processing [collective.behavior.internalnumber]: success
+[2023-05-31 09:29:41] INFO root fetch - main [MainThread]: Store serial: [18313633]
