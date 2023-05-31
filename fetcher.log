@@ -17885,3 +17885,210 @@
 [2023-05-31 16:32:24] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-05-31 16:33:12] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
 [2023-05-31 16:33:12] INFO root fetch - main [MainThread]: Store serial: [18318338]
+[2023-05-31 16:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18318338]
+[2023-05-31 16:38:21] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Qmlview
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uium
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nm-transformers-nightly
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nm-yolov5-nightly
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sesg
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwave-cloud-client
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EasyGlobals
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meerschaum
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepAttention
+[2023-05-31 16:38:21] INFO root fetch - processPackages [Qmlview]: New version: [3.2.2b0] Old Version: [3.2.1]
+[2023-05-31 16:38:21] WARNING root fetch - processPackages [EasyGlobals]: Skipping, unable to determine old version
+[2023-05-31 16:38:21] INFO root fetch - processPackages [EasyGlobals]: Start processing: checkmk-dev-tools
+[2023-05-31 16:38:21] INFO root fetch - main [MainThread]: End processing [EasyGlobals] error
+[2023-05-31 16:38:21] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [dwave-cloud-client]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [nm-transformers-nightly]: New version: [1.5.0.20230531] Old Version: [1.5.0.20230510]
+[2023-05-31 16:38:21] ERROR root fetch - processPackages [deepAttention]: Unable to get metadata: No such project 'deepAttention'
+[2023-05-31 16:38:21] INFO root fetch - processPackages [deepAttention]: Start processing: ramodels
+[2023-05-31 16:38:21] INFO root fetch - main [MainThread]: End processing [deepAttention] error
+[2023-05-31 16:38:21] INFO root fetch - processPackages [uium]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [nm-yolov5-nightly]: New version: [1.5.0.20230531] Old Version: [1.5.0.20230510]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [Qmlview]: Downloading https://files.pythonhosted.org/packages/87/c7/fa9f67c173dc4ddc61676baafd1c8d37f01a59561672323c299aaf1f8cf4/Qmlview-3.2.1.tar.gz
+[2023-05-31 16:38:21] INFO root fetch - processPackages [dwave-cloud-client]: Downloading https://files.pythonhosted.org/packages/00/28/73df40c7c455d27936fb674b3d16bed8b2ee6215d77478adfc2adc81a2e8/dwave-cloud-client-0.9.4.tar.gz
+[2023-05-31 16:38:21] WARNING root fetch - processPackages [Qmlview]: Skipping package: exceeds size limit 11342663>=10485760
+[2023-05-31 16:38:21] INFO root fetch - processPackages [Qmlview]: Start processing: triclustering
+[2023-05-31 16:38:21] INFO root fetch - main [MainThread]: End processing [Qmlview] error
+[2023-05-31 16:38:21] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-31 16:38:21] INFO root fetch - processPackages [uium]: Downloading https://files.pythonhosted.org/packages/00/51/c0d44c8d1f2c2c879300f96ccc8ae33db8e9826326b7b83876ab50778f44/uium-0.3.4.tar.gz
+[2023-05-31 16:38:22] INFO root fetch - processPackages [triclustering]: New version: [2023.5.31.1] Old Version: [2023.5.31.0]
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/5e/8d/8e3780132cb278e80ffc4f28e672965f423c998a6e40cee887009298178a/nm_yolov5_nightly-1.5.0.20230510-py3-none-any.whl
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/94/11/ecb6202f34ceeae8de8c81f22d2753ca3c81fc8b4d848546bf660353d750/nm_transformers_nightly-1.5.0.20230510-py3-none-any.whl
+[2023-05-31 16:38:22] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/3c/8a/6bdd794971f24d9a2bc456322e81e70af5ceb34acf933b03c0ed246cbf8e/checkmk_dev_tools-0.1.5.tar.gz
+[2023-05-31 16:38:22] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230531/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.4.tar.gz tmp/checkmk_dev_tools-0.1.5.tar.gz --markdown 20230531/c/checkmk-dev-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [dwave-cloud-client]: Downloading https://files.pythonhosted.org/packages/05/8e/4b2082d60832fd2a1697a9f7ad08eed7488d1f195836abb2fd0f0308a555/dwave-cloud-client-0.9.5.tar.gz
+[2023-05-31 16:38:22] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230531/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [uium]: Downloading https://files.pythonhosted.org/packages/19/e7/94b3a6e8847ab62c9f795f2d777459516d436fe71fcf32100c8928587b3e/uium-0.3.5.tar.gz
+[2023-05-31 16:38:22] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230531/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230531/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/0d/8a/568a557d6c5f56acec4779e3feebb9ad8da40636a4f662a0dffd6449978f/nm_yolov5_nightly-1.5.0.20230531-py3-none-any.whl
+[2023-05-31 16:38:22] INFO root fetch - processPackages [uium]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [uium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uium-0.3.4.tar.gz tmp/uium-0.3.5.tar.gz --markdown 20230531/u/uium/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [dwave-cloud-client]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [dwave-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave-cloud-client-0.9.4.tar.gz tmp/dwave-cloud-client-0.9.5.tar.gz --markdown 20230531/d/dwave-cloud-client/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [triclustering]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [triclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triclustering-2023.5.31.0.tar.gz tmp/triclustering-2023.5.31.1.tar.gz --markdown 20230531/t/triclustering/2023.5.31.0-2023.5.31.1/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-yolov5-nightly]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-yolov5-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_yolov5_nightly-1.5.0.20230510-py3-none-any.whl.zip tmp/nm_yolov5_nightly-1.5.0.20230531-py3-none-any.whl.zip --markdown 20230531/n/nm-yolov5-nightly/1.5.0.20230510-1.5.0.20230531/diff.md --exclude *.pyd
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/69/90/107b9006e3bb5f5f342e029a3c96c44dab4ca53e0b39b8e25c07a35e1c63/nm_transformers_nightly-1.5.0.20230531-py3-none-any.whl
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-transformers-nightly]: executing diffoscope
+[2023-05-31 16:38:22] INFO root fetch - processPackages [nm-transformers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_transformers_nightly-1.5.0.20230510-py3-none-any.whl.zip tmp/nm_transformers_nightly-1.5.0.20230531-py3-none-any.whl.zip --markdown 20230531/n/nm-transformers-nightly/1.5.0.20230510-1.5.0.20230531/diff.md --exclude *.pyd
+[2023-05-31 16:38:23] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: pyhttpx
+[2023-05-31 16:38:23] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-05-31 16:38:23] INFO root fetch - processPackages [pyhttpx]: New version: [2.10.5] Old Version: [2.10.4]
+[2023-05-31 16:38:23] INFO root fetch - processPackages [uium]: Start processing: sym-cli
+[2023-05-31 16:38:23] INFO root fetch - main [MainThread]: End processing [uium]: success
+[2023-05-31 16:38:24] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/49/06/eafb38bf012fa51f6aa3a4b38c832ff9874734e8a87198d5946c5b7b0df4/pyhttpx-2.10.5.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ramodels]: Start processing: ibm-cos-sdk-core
+[2023-05-31 16:38:24] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-31 16:38:24] INFO root fetch - processPackages [sesg]: Start processing: modo-data-science-helpers
+[2023-05-31 16:38:24] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-core]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 16:38:24] INFO root fetch - processPackages [modo-data-science-helpers]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 16:38:24] INFO root fetch - processPackages [pyhttpx]: executing diffoscope
+[2023-05-31 16:38:24] INFO root fetch - processPackages [pyhttpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhttpx-2.10.4.tar.gz tmp/pyhttpx-2.10.5.tar.gz --markdown 20230531/p/pyhttpx/2.10.4-2.10.5/diff.md --exclude *.pyd
+[2023-05-31 16:38:24] INFO root fetch - processPackages [sym-cli]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-core]: Downloading https://files.pythonhosted.org/packages/6a/06/a91ed08aa1296267bfbb5695c5d8916d674b236a4b60b17793a62cbbdea0/ibm-cos-sdk-core-2.8.0.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [triclustering]: Start processing: ibm-cos-sdk-s3transfer
+[2023-05-31 16:38:24] INFO root fetch - main [MainThread]: End processing [triclustering]: success
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-s3transfer]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 16:38:24] INFO root fetch - processPackages [sym-cli]: Downloading https://files.pythonhosted.org/packages/4a/a1/ea7ad887141be423716a9ce3fa75d2732054d96cb24a4ab11996fcabcbae/sym-cli-0.4.9.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [modo-data-science-helpers]: Downloading https://files.pythonhosted.org/packages/5d/5e/4131248becbcaf69c0d5b396434d4e63331d34b815e3431fe9613934f6ae/modo_data_science_helpers-0.4.0.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-s3transfer]: Downloading https://files.pythonhosted.org/packages/87/e4/a8734ee992d1afc4c77ad4ee644f2a203e8a0f075695ee054fa939668f21/ibm-cos-sdk-s3transfer-2.8.0.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [modo-data-science-helpers]: executing diffoscope
+[2023-05-31 16:38:24] INFO root fetch - processPackages [modo-data-science-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modo_data_science_helpers-0.3.0.tar.gz tmp/modo_data_science_helpers-0.4.0.tar.gz --markdown 20230531/m/modo-data-science-helpers/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-core]: Downloading https://files.pythonhosted.org/packages/1a/90/bb91ea2a889c977cb429ac6a7c2b4cb653d71528a7eae019c1f41a7b2a44/ibm-cos-sdk-core-2.9.0.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-core]: executing diffoscope
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-cos-sdk-core-2.8.0.tar.gz tmp/ibm-cos-sdk-core-2.9.0.tar.gz --markdown 20230531/i/ibm-cos-sdk-core/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:24] INFO root fetch - processPackages [sym-cli]: Downloading https://files.pythonhosted.org/packages/68/39/9c579f2fb2196666ada1d347713299065495d1bb4da59e1b6417e66ab936/sym_cli-0.5.0.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-s3transfer]: Downloading https://files.pythonhosted.org/packages/80/50/8bf89d509c68c79de08c8a2cb8e90e9235d0a20d4ebd6a2936efd505792a/ibm-cos-sdk-s3transfer-2.9.0.tar.gz
+[2023-05-31 16:38:24] INFO root fetch - processPackages [sym-cli]: executing diffoscope
+[2023-05-31 16:38:24] INFO root fetch - processPackages [sym-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sym-cli-0.4.9.tar.gz tmp/sym_cli-0.5.0.tar.gz --markdown 20230531/s/sym-cli/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-s3transfer]: executing diffoscope
+[2023-05-31 16:38:24] INFO root fetch - processPackages [ibm-cos-sdk-s3transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-cos-sdk-s3transfer-2.8.0.tar.gz tmp/ibm-cos-sdk-s3transfer-2.9.0.tar.gz --markdown 20230531/i/ibm-cos-sdk-s3transfer/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:25] INFO root fetch - processPackages [dwave-cloud-client]: Start processing: invoker-terminal
+[2023-05-31 16:38:25] INFO root fetch - main [MainThread]: End processing [dwave-cloud-client]: success
+[2023-05-31 16:38:25] INFO root fetch - processPackages [invoker-terminal]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-31 16:38:25] INFO root fetch - processPackages [meerschaum]: Start processing: ibm-cos-sdk
+[2023-05-31 16:38:25] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-31 16:38:25] INFO root fetch - processPackages [ibm-cos-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 16:38:25] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/45/8c/5f74005ea0c971ca661ec40eac078b5a80c9f686220066c51bf17973252e/invoker_terminal-0.0.24.tar.gz
+[2023-05-31 16:38:25] INFO root fetch - processPackages [pyhttpx]: Start processing: reader-toolbox
+[2023-05-31 16:38:25] INFO root fetch - main [MainThread]: End processing [pyhttpx]: success
+[2023-05-31 16:38:25] INFO root fetch - processPackages [ibm-cos-sdk]: Downloading https://files.pythonhosted.org/packages/6b/ad/6406fdc4a7efd9b823df72b9049a6df8c3862a8d7d84021f05a5e20c8e4d/ibm-cos-sdk-2.8.0.tar.gz
+[2023-05-31 16:38:25] INFO root fetch - processPackages [reader-toolbox]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-31 16:38:25] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/2f/e2/c6d5347517d764534bd9487bd92704bb50f09833a8bdf428d88c027943a3/invoker_terminal-0.0.25.tar.gz
+[2023-05-31 16:38:25] INFO root fetch - processPackages [modo-data-science-helpers]: Start processing: mech-client
+[2023-05-31 16:38:25] INFO root fetch - main [MainThread]: End processing [modo-data-science-helpers]: success
+[2023-05-31 16:38:25] INFO root fetch - processPackages [mech-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 16:38:25] INFO root fetch - processPackages [reader-toolbox]: Downloading https://files.pythonhosted.org/packages/6d/78/d3e993868de262b2bcae3fb1977fc387283836055c8bf0704c70626ac437/reader-toolbox-0.2.2.tar.gz
+[2023-05-31 16:38:25] INFO root fetch - processPackages [ibm-cos-sdk]: Downloading https://files.pythonhosted.org/packages/2c/67/b7ad979c4312de26997213e6a16842fcffce1b117864efbf147a98f52ed1/ibm-cos-sdk-2.9.0.tar.gz
+[2023-05-31 16:38:26] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-31 16:38:26] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.24.tar.gz tmp/invoker_terminal-0.0.25.tar.gz --markdown 20230531/i/invoker-terminal/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-31 16:38:26] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/68/d2/5b2b5bd794def8cef3f6a960cfda998e048a0189d7d8905bf3ac54a7a18e/mech_client-0.1.5.tar.gz
+[2023-05-31 16:38:26] INFO root fetch - processPackages [ibm-cos-sdk]: executing diffoscope
+[2023-05-31 16:38:26] INFO root fetch - processPackages [ibm-cos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-cos-sdk-2.8.0.tar.gz tmp/ibm-cos-sdk-2.9.0.tar.gz --markdown 20230531/i/ibm-cos-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:26] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2023-05-31 16:38:26] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.1.4.tar.gz tmp/mech_client-0.1.5.tar.gz --markdown 20230531/m/mech-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 16:38:26] INFO root fetch - processPackages [reader-toolbox]: Downloading https://files.pythonhosted.org/packages/b5/7b/8ba8deb63bc5db404604be0686c2aece6b32c6f221b09209e21d1c568325/reader-toolbox-0.2.3.tar.gz
+[2023-05-31 16:38:26] INFO root fetch - processPackages [reader-toolbox]: executing diffoscope
+[2023-05-31 16:38:26] INFO root fetch - processPackages [reader-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reader-toolbox-0.2.2.tar.gz tmp/reader-toolbox-0.2.3.tar.gz --markdown 20230531/r/reader-toolbox/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 16:38:26] INFO root fetch - processPackages [nm-yolov5-nightly]: Start processing: kcli
+[2023-05-31 16:38:26] INFO root fetch - main [MainThread]: End processing [nm-yolov5-nightly]: success
+[2023-05-31 16:38:26] INFO root fetch - processPackages [kcli]: New version: [99.0.202305311435] Old Version: [99.0.202305310556]
+[2023-05-31 16:38:26] INFO root fetch - processPackages [ibm-cos-sdk-s3transfer]: Start processing: langchain
+[2023-05-31 16:38:26] INFO root fetch - main [MainThread]: End processing [ibm-cos-sdk-s3transfer]: success
+[2023-05-31 16:38:26] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-31 16:38:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/38/bc/3179ed64127432c941f328b3749b102e4885db18c71c75fab1fcf4c909f7/kcli-99.0.202305311435-py3-none-any.whl
+[2023-05-31 16:38:27] INFO root fetch - processPackages [assisted-service-client]: Start processing: iris-pex-embedded-python
+[2023-05-31 16:38:27] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-31 16:38:27] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-31 16:38:27] INFO root fetch - processPackages [sym-cli]: Start processing: Simba-UW-tf-dev
+[2023-05-31 16:38:27] INFO root fetch - main [MainThread]: End processing [sym-cli]: success
+[2023-05-31 16:38:27] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.61.8] Old Version: [1.61.7]
+[2023-05-31 16:38:27] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-31 16:38:27] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230531/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-31 16:38:27] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-31 16:38:27] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305310556-py3-none-any.whl.zip tmp/kcli-99.0.202305311435-py3-none-any.whl.zip --markdown 20230531/k/kcli/99.0.202305310556-99.0.202305311435/diff.md --exclude *.pyd
+[2023-05-31 16:38:27] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/2c/23/1be0bcdc19f54ba2a602610ee4f6c691e85fa1a7c39740ad57e15494fc87/iris_pex_embedded_python-2.3.0.tar.gz
+[2023-05-31 16:38:27] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-05-31 16:38:27] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.2.0.tar.gz tmp/iris_pex_embedded_python-2.3.0.tar.gz --markdown 20230531/i/iris-pex-embedded-python/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:27] INFO root fetch - processPackages [mech-client]: Start processing: ReadLammpsTraj
+[2023-05-31 16:38:27] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/32/7d/df84a2f363921bfd89f63751a7ecb7a9065ba6d497e55ae03afd4a7660a2/Simba-UW-tf-dev-1.61.8.tar.gz
+[2023-05-31 16:38:27] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2023-05-31 16:38:27] INFO root fetch - processPackages [ReadLammpsTraj]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-31 16:38:27] INFO root fetch - processPackages [invoker-terminal]: Start processing: cos-alerter
+[2023-05-31 16:38:27] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-31 16:38:27] INFO root fetch - processPackages [cos-alerter]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 16:38:27] INFO root fetch - processPackages [ReadLammpsTraj]: Downloading https://files.pythonhosted.org/packages/ab/9b/fe83026dfd028817755fb6f2358826f4bbe09f0dc524a320fd0631e11075/ReadLammpsTraj-1.1.4.tar.gz
+[2023-05-31 16:38:27] INFO root fetch - processPackages [cos-alerter]: Downloading https://files.pythonhosted.org/packages/64/ef/ccaef362e44924434da71437635410d1081260da91063064adf38ab4db92/cos-alerter-0.3.0.tar.gz
+[2023-05-31 16:38:28] INFO root fetch - processPackages [ReadLammpsTraj]: executing diffoscope
+[2023-05-31 16:38:28] INFO root fetch - processPackages [ReadLammpsTraj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReadLammpsTraj-1.1.3.tar.gz tmp/ReadLammpsTraj-1.1.4.tar.gz --markdown 20230531/R/ReadLammpsTraj/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-31 16:38:28] INFO root fetch - processPackages [cos-alerter]: Downloading https://files.pythonhosted.org/packages/3e/52/49908dc5d8dadd152a09462ed4be2047887226a6744fcf43c271aa3c68aa/cos-alerter-0.4.0.tar.gz
+[2023-05-31 16:38:28] INFO root fetch - processPackages [cos-alerter]: executing diffoscope
+[2023-05-31 16:38:28] INFO root fetch - processPackages [cos-alerter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-alerter-0.3.0.tar.gz tmp/cos-alerter-0.4.0.tar.gz --markdown 20230531/c/cos-alerter/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:28] INFO root fetch - processPackages [ibm-cos-sdk]: Start processing: caluma-alexandria
+[2023-05-31 16:38:28] INFO root fetch - main [MainThread]: End processing [ibm-cos-sdk]: success
+[2023-05-31 16:38:28] WARNING root fetch - processPackages [caluma-alexandria]: Skipping, unable to determine old version
+[2023-05-31 16:38:28] INFO root fetch - processPackages [caluma-alexandria]: Start processing: dm-cli
+[2023-05-31 16:38:28] INFO root fetch - main [MainThread]: End processing [caluma-alexandria] error
+[2023-05-31 16:38:28] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-31 16:38:28] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.61.7.tar.gz tmp/Simba-UW-tf-dev-1.61.8.tar.gz --markdown 20230531/S/Simba-UW-tf-dev/1.61.7-1.61.8/diff.md --exclude *.pyd
+[2023-05-31 16:38:28] INFO root fetch - processPackages [dm-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 16:38:28] INFO root fetch - processPackages [reader-toolbox]: Start processing: omnisoot
+[2023-05-31 16:38:28] INFO root fetch - main [MainThread]: End processing [reader-toolbox]: success
+[2023-05-31 16:38:28] WARNING root fetch - processPackages [omnisoot]: Skipping, unable to determine old version
+[2023-05-31 16:38:28] INFO root fetch - processPackages [omnisoot]: Start processing: web-data-extraction
+[2023-05-31 16:38:28] INFO root fetch - main [MainThread]: End processing [omnisoot] error
+[2023-05-31 16:38:28] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/59/df/ca24977afe69b3ac5282172f3b9dd56ad46a72021accec09a7153b4d774c/dm-cli-1.0.8.tar.gz
+[2023-05-31 16:38:28] WARNING root fetch - processPackages [web-data-extraction]: Skipping, unable to determine old version
+[2023-05-31 16:38:28] INFO root fetch - processPackages [web-data-extraction]: Start processing: nssurge-api
+[2023-05-31 16:38:28] INFO root fetch - main [MainThread]: End processing [web-data-extraction] error
+[2023-05-31 16:38:28] INFO root fetch - processPackages [nssurge-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 16:38:28] INFO root fetch - processPackages [nssurge-api]: executing diffoscope
+[2023-05-31 16:38:28] INFO root fetch - processPackages [nssurge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nssurge-api-0.2.8.tar.gz tmp/nssurge-api-0.2.9.tar.gz --markdown 20230531/n/nssurge-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 16:38:29] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/ba/1a/e361c46097f8d3626943bb47fe4508776017a4d7677d1f3812b82cd64f1a/dm-cli-1.0.9.tar.gz
+[2023-05-31 16:38:29] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-05-31 16:38:29] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.8.tar.gz tmp/dm-cli-1.0.9.tar.gz --markdown 20230531/d/dm-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 16:38:29] INFO root fetch - processPackages [cos-alerter]: Start processing: nssurge-cli
+[2023-05-31 16:38:29] INFO root fetch - main [MainThread]: End processing [cos-alerter]: success
+[2023-05-31 16:38:29] INFO root fetch - processPackages [nssurge-cli]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 16:38:29] INFO root fetch - processPackages [nssurge-cli]: executing diffoscope
+[2023-05-31 16:38:29] INFO root fetch - processPackages [nssurge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nssurge_cli-2.0.8.tar.gz tmp/nssurge_cli-2.0.9.tar.gz --markdown 20230531/n/nssurge-cli/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 16:38:29] INFO root fetch - processPackages [ibm-cos-sdk-core]: Start processing: processview
+[2023-05-31 16:38:29] INFO root fetch - main [MainThread]: End processing [ibm-cos-sdk-core]: success
+[2023-05-31 16:38:29] INFO root fetch - processPackages [processview]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-31 16:38:30] INFO root fetch - processPackages [processview]: Downloading https://files.pythonhosted.org/packages/82/13/3b2999637aec052e8d49da25f405c0f3d8dc87ce259df3fd5f0fbe78f090/processview-1.1.0.tar.gz
+[2023-05-31 16:38:30] INFO root fetch - processPackages [nssurge-api]: Start processing: kfish
+[2023-05-31 16:38:30] INFO root fetch - main [MainThread]: End processing [nssurge-api]: success
+[2023-05-31 16:38:30] INFO root fetch - processPackages [kfish]: New version: [99.0.202305310559] Old Version: [99.0.202305300652]
+[2023-05-31 16:38:30] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-05-31 16:38:30] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-31 16:38:30] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305300652-py3-none-any.whl.zip tmp/kfish-99.0.202305310559-py3-none-any.whl.zip --markdown 20230531/k/kfish/99.0.202305300652-99.0.202305310559/diff.md --exclude *.pyd
+[2023-05-31 16:38:30] INFO root fetch - processPackages [processview]: Downloading https://files.pythonhosted.org/packages/15/57/7ca5a65d211fe37e2a891118dc93960c0eb29c3b9b32b4f651014338529e/processview-1.2.0.tar.gz
+[2023-05-31 16:38:30] INFO root fetch - processPackages [processview]: executing diffoscope
+[2023-05-31 16:38:30] INFO root fetch - processPackages [processview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processview-1.1.0.tar.gz tmp/processview-1.2.0.tar.gz --markdown 20230531/p/processview/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 16:38:31] INFO root fetch - main [MainThread]: End processing [nssurge-cli]: success
+[2023-05-31 16:38:31] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-31 16:38:31] INFO root fetch - main [MainThread]: End processing [processview]: success
+[2023-05-31 16:38:32] INFO root fetch - main [MainThread]: End processing [ReadLammpsTraj]: success
+[2023-05-31 16:38:33] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-05-31 16:38:33] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-31 16:38:35] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-31 16:38:38] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
+[2023-05-31 16:39:27] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-31 16:39:27] INFO root fetch - main [MainThread]: Store serial: [18318481]
