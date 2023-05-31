@@ -8434,3 +8434,64 @@
 [2023-05-31 07:22:38] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-31 07:22:40] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-05-31 07:22:40] INFO root fetch - main [MainThread]: Store serial: [18312741]
+[2023-05-31 07:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312741]
+[2023-05-31 07:27:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopcloud-serverless
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-free-quantity
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezdxf
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SPRT-TANDEM
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-spanner
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p4p
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fluctuate
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lifetimefitting
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-gui
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addons-oca-stock-logistics-workflow
+[2023-05-31 07:27:48] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [fluctuate]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: New version: [15.0.1.0.1.2] Old Version: [15.0.1.0.1]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [odoo12-addons-oca-stock-logistics-workflow]: New version: [12.0.20230530.0] Old Version: [12.0.20230405.0]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [ezdxf]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [lifetimefitting]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-31 07:27:48] INFO root fetch - processPackages [p4p]: New version: [4.1.7a1] Old Version: [4.1.6a1]
+[2023-05-31 07:27:48] ERROR root fetch - processPackages [SPRT-TANDEM]: Unable to get metadata: No such project 'SPRT-TANDEM'
+[2023-05-31 07:27:48] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM] error
+[2023-05-31 07:27:48] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 07:27:49] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230531/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/b3/71/e1b412f12ee471d81684888c837be0cc9638f5e802124605abce5578c47d/odoo_addon_stock_free_quantity-15.0.1.0.1-py3-none-any.whl
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo12-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/1a/cd/76a511e54f7253f686a56832f6ba205fcb7582f19de794f85fbe9f653cab/odoo12_addons_oca_stock_logistics_workflow-12.0.20230405.0-py3-none-any.whl
+[2023-05-31 07:27:49] INFO root fetch - processPackages [p4p]: Downloading https://files.pythonhosted.org/packages/80/a8/7e2b42e9fd0d6895c2f4272bef3d03cb60e5c2dd0b394d87a1c7ce5db716/p4p-4.1.6a1.tar.gz
+[2023-05-31 07:27:49] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/43/0e/d325ca6b0e8a168f1092aab32f4deb91311efaca5f26aaab97fd24574259/abstract_gui-0.0.3.tar.gz
+[2023-05-31 07:27:49] INFO root fetch - processPackages [fluctuate]: Downloading https://files.pythonhosted.org/packages/cb/b9/696d65fb64dddc317c739898dba8eb5811405077fe85cb754f68c8b71460/fluctuate-2.0.0b2.tar.gz
+[2023-05-31 07:27:49] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/b6/b9/6a397b958d6b69f7248d087d200724862bcfb9a2cc2a604d971c740dbb8b/lifetimefitting-0.0.23.tar.gz
+[2023-05-31 07:27:49] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20230531/g/google-cloud-spanner/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.2.tar.gz tmp/abstract_gui-0.0.3.tar.gz --markdown 20230531/a/abstract-gui/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [fluctuate]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [fluctuate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluctuate-2.0.0b1.tar.gz tmp/fluctuate-2.0.0b2.tar.gz --markdown 20230531/f/fluctuate/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo12-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/cc/f9/26fe20d23ee4b2f27834376eafdff5fb0d1a12601fb4cc7c49c45f783866/odoo12_addons_oca_stock_logistics_workflow-12.0.20230530.0-py3-none-any.whl
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/a5/57/11e93e10d4b10c8926827368fb82fe090d53593c28a7c5a1bd03a349e774/odoo_addon_stock_free_quantity-15.0.1.0.1.2-py3-none-any.whl
+[2023-05-31 07:27:49] INFO root fetch - processPackages [lifetimefitting]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [lifetimefitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifetimefitting-0.0.22.tar.gz tmp/lifetimefitting-0.0.23.tar.gz --markdown 20230531/l/lifetimefitting/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/53/74/62bc3e8fc7476e33a7017022daf125f69a932d5ed11e3154a582735edbac/ezdxf-1.1.0b3.zip
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo12-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo12-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addons_oca_stock_logistics_workflow-12.0.20230405.0-py3-none-any.whl.zip tmp/odoo12_addons_oca_stock_logistics_workflow-12.0.20230530.0-py3-none-any.whl.zip --markdown 20230531/o/odoo12-addons-oca-stock-logistics-workflow/12.0.20230405.0-12.0.20230530.0/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_free_quantity-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-stock-free-quantity/15.0.1.0.1-15.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [ezdxf]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [ezdxf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdxf-1.1.0b2.zip tmp/ezdxf-1.1.0b3.zip --markdown 20230531/e/ezdxf/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-05-31 07:27:49] INFO root fetch - processPackages [p4p]: Downloading https://files.pythonhosted.org/packages/c3/60/5cf482ef5b614e3350aaeac440aa72d38586a2821f689079a52eccb03502/p4p-4.1.7a1.tar.gz
+[2023-05-31 07:27:49] INFO root fetch - processPackages [p4p]: executing diffoscope
+[2023-05-31 07:27:49] INFO root fetch - processPackages [p4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4p-4.1.6a1.tar.gz tmp/p4p-4.1.7a1.tar.gz --markdown 20230531/p/p4p/4.1.6a1-4.1.7a1/diff.md --exclude *.pyd
+[2023-05-31 07:27:50] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-31 07:27:50] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-05-31 07:27:50] INFO root fetch - main [MainThread]: End processing [fluctuate]: success
+[2023-05-31 07:27:50] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-stock-logistics-workflow]: success
+[2023-05-31 07:27:50] INFO root fetch - main [MainThread]: End processing [lifetimefitting]: success
+[2023-05-31 07:27:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-free-quantity]: success
+[2023-05-31 07:27:51] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2023-05-31 07:27:52] INFO root fetch - main [MainThread]: End processing [p4p]: success
+[2023-05-31 07:28:00] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
+[2023-05-31 07:28:00] INFO root fetch - main [MainThread]: Store serial: [18312799]
