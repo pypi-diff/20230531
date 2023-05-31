@@ -18092,3 +18092,167 @@
 [2023-05-31 16:38:38] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
 [2023-05-31 16:39:27] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-31 16:39:27] INFO root fetch - main [MainThread]: Store serial: [18318481]
+[2023-05-31 16:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18318481]
+[2023-05-31 16:44:37] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Qmlview
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hummuspy
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-cdk
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: titan-iris
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-target-bigquery
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: merlin-core
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: merlin-systems
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abstract-gui
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: transformers4rec
+[2023-05-31 16:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: merlin-models
+[2023-05-31 16:44:37] INFO root fetch - processPackages [Qmlview]: New version: [3.2.2b2] Old Version: [3.2.2b0]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-models]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-systems]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [transformers4rec]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.41] Old Version: [0.0.4]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-core]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.8.tar.gz tmp/macrometa-target-bigquery-0.0.9.tar.gz --markdown 20230531/m/macrometa-target-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230531/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [Qmlview]: Downloading https://files.pythonhosted.org/packages/43/52/73b3baeafbd9f1f14ade88517f96c486666ddcee7ae325456e2f5ff4d9fe/Qmlview-3.2.2b0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-models]: Downloading https://files.pythonhosted.org/packages/97/cf/fe5442642e5bc06a9ad2ebbbb4f0fb69c74a37d20b13bcc4a2ca17368169/merlin-models-23.4.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/a4/ed/0df3eff23fe84a8cdfa4d6fc3c21c84aae6ac62519e5c9986439c3f9b5f9/abstract_gui-0.0.41.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [transformers4rec]: Downloading https://files.pythonhosted.org/packages/0a/90/e1ab6c57560f7677bb14264c3b7cd8c466cd0fbf0361b1ec064154f44eb6/transformers4rec-23.4.0.tar.gz
+[2023-05-31 16:44:37] WARNING root fetch - processPackages [Qmlview]: Skipping package: exceeds size limit 11342736>=10485760
+[2023-05-31 16:44:37] INFO root fetch - processPackages [Qmlview]: Start processing: sqdconvert
+[2023-05-31 16:44:37] INFO root fetch - main [MainThread]: End processing [Qmlview] error
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-core]: Downloading https://files.pythonhosted.org/packages/25/b8/8ed16505206ef6513d4006497cacfbd59a8dafbc53c70e8f3511d0363253/merlin-core-23.4.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [sqdconvert]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-systems]: Downloading https://files.pythonhosted.org/packages/68/2c/acb9e638e488002a3ac4c145bfccf9023ea7e5896f5498d07ff386ff14d8/merlin-systems-23.4.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.4.tar.gz tmp/abstract_gui-0.0.41.tar.gz --markdown 20230531/a/abstract-gui/0.0.4-0.0.41/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230531/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-models]: Downloading https://files.pythonhosted.org/packages/02/bd/3e204135ff175f81dca24a57445aa34564fdc4d9da60e142f53f76889324/merlin-models-23.5.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230531/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [transformers4rec]: Downloading https://files.pythonhosted.org/packages/73/48/2830a11368f4c5e6f7031ca1770a176dba6f22bd0ab7066b95a97221c573/transformers4rec-23.5.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/c9/f1/56aea45261016922f1d7dc138baf1a062fcfb6f53be09a89f178ddbb015e/sqdconvert-1.0.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-core]: Downloading https://files.pythonhosted.org/packages/e4/04/76ceb6e5471f3f20b10c7b5a6aec9db846d7315085ae9ff9e6abdea333c2/merlin-core-23.5.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-systems]: Downloading https://files.pythonhosted.org/packages/58/74/d33ffdb3b1e2f20882bd24976c76bb68e3390104430af9c0aa6b5f08b778/merlin-systems-23.5.0.tar.gz
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-models]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-models-23.4.0.tar.gz tmp/merlin-models-23.5.0.tar.gz --markdown 20230531/m/merlin-models/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [transformers4rec]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [transformers4rec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers4rec-23.4.0.tar.gz tmp/transformers4rec-23.5.0.tar.gz --markdown 20230531/t/transformers4rec/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-core]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-core-23.4.0.tar.gz tmp/merlin-core-23.5.0.tar.gz --markdown 20230531/m/merlin-core/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-systems]: executing diffoscope
+[2023-05-31 16:44:37] INFO root fetch - processPackages [merlin-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-systems-23.4.0.tar.gz tmp/merlin-systems-23.5.0.tar.gz --markdown 20230531/m/merlin-systems/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-31 16:44:38] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/56/d0/38c336c0be15dac799b427e6e2cc1e1b1204678adac0acef5f51a180d839/sqdconvert-1.0.1.tar.gz
+[2023-05-31 16:44:38] INFO root fetch - processPackages [sqdconvert]: executing diffoscope
+[2023-05-31 16:44:38] INFO root fetch - processPackages [sqdconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqdconvert-1.0.0.tar.gz tmp/sqdconvert-1.0.1.tar.gz --markdown 20230531/s/sqdconvert/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 16:44:38] INFO root fetch - processPackages [titan-iris]: Start processing: odh-core
+[2023-05-31 16:44:38] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-31 16:44:38] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.19]
+[2023-05-31 16:44:39] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/e5/4d/08c31ec2601c13065a0da620ca6f7a1d9cd499b35d3839d62b12e16f78f2/odh_core-0.1.19.tar.gz
+[2023-05-31 16:44:39] INFO root fetch - processPackages [abstract-gui]: Start processing: courlan
+[2023-05-31 16:44:39] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-05-31 16:44:39] INFO root fetch - processPackages [hummuspy]: Start processing: rkvst-samples
+[2023-05-31 16:44:39] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-31 16:44:39] INFO root fetch - processPackages [courlan]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 16:44:39] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-31 16:44:39] INFO root fetch - processPackages [macrometa-target-bigquery]: Start processing: invoker-terminal
+[2023-05-31 16:44:39] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-05-31 16:44:39] INFO root fetch - processPackages [invoker-terminal]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-31 16:44:39] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-05-31 16:44:39] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.19.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230531/o/odh-core/0.1.19-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 16:44:39] INFO root fetch - processPackages [courlan]: Downloading https://files.pythonhosted.org/packages/6f/b3/8e9fa5d8a8ee97b1f3011e9a23f64f62c48cfa481c21cc73074a280f9e6b/courlan-0.9.2.tar.gz
+[2023-05-31 16:44:39] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-05-31 16:44:39] INFO root fetch - processPackages [invoker-terminal]: Downloading https://files.pythonhosted.org/packages/48/1b/22df9469bcd4d51a687f485b94224ee8247d28a02e78914c8bf3b9756f0a/invoker_terminal-0.0.26.tar.gz
+[2023-05-31 16:44:39] INFO root fetch - processPackages [sqdconvert]: Start processing: pddl
+[2023-05-31 16:44:39] INFO root fetch - main [MainThread]: End processing [sqdconvert]: success
+[2023-05-31 16:44:39] INFO root fetch - processPackages [invoker-terminal]: executing diffoscope
+[2023-05-31 16:44:39] INFO root fetch - processPackages [invoker-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoker_terminal-0.0.25.tar.gz tmp/invoker_terminal-0.0.26.tar.gz --markdown 20230531/i/invoker-terminal/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-31 16:44:39] INFO root fetch - processPackages [pddl]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-05-31 16:44:39] INFO root fetch - processPackages [courlan]: Downloading https://files.pythonhosted.org/packages/72/60/e27bcf8ce65113071f2dd80ce28495010d182e9114c32cdf4d70dc8a31ce/courlan-0.9.3.tar.gz
+[2023-05-31 16:44:39] INFO root fetch - processPackages [courlan]: executing diffoscope
+[2023-05-31 16:44:39] INFO root fetch - processPackages [courlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/courlan-0.9.2.tar.gz tmp/courlan-0.9.3.tar.gz --markdown 20230531/c/courlan/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 16:44:39] INFO root fetch - processPackages [pddl]: Downloading https://files.pythonhosted.org/packages/bc/64/f4313df9b6547fedb8c7b254e086488c5918ecf2a1affbda20e1058340fc/pddl-0.2.0.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [merlin-systems]: Start processing: hdn-research-environment
+[2023-05-31 16:44:40] INFO root fetch - main [MainThread]: End processing [merlin-systems]: success
+[2023-05-31 16:44:40] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-31 16:44:40] INFO root fetch - processPackages [merlin-core]: Start processing: json-ntv
+[2023-05-31 16:44:40] INFO root fetch - main [MainThread]: End processing [merlin-core]: success
+[2023-05-31 16:44:40] INFO root fetch - processPackages [json-ntv]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-31 16:44:40] INFO root fetch - processPackages [pddl]: Downloading https://files.pythonhosted.org/packages/00/2a/401fb52295e053025162582bc3a3d23b8c29a12bc4efe76f1071fb6a2ba8/pddl-0.3.1.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/91/4e/7b1c686db51beec4f6685ad27dd2530a9f6a57bd46822dd5f7f34d0bc7a9/hdn-research-environment-2.0.2.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [json-ntv]: Downloading https://files.pythonhosted.org/packages/f7/6f/4e56d4c1cd30e1b15939d10c5af2aa3caa10d9d2077de6523af8c723ba45/json_ntv-0.0.5.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [pddl]: executing diffoscope
+[2023-05-31 16:44:40] INFO root fetch - processPackages [pddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-0.2.0.tar.gz tmp/pddl-0.3.1.tar.gz --markdown 20230531/p/pddl/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 16:44:40] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-05-31 16:44:40] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.0.1.tar.gz tmp/hdn-research-environment-2.0.2.tar.gz --markdown 20230531/h/hdn-research-environment/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-31 16:44:40] INFO root fetch - processPackages [transformers4rec]: Start processing: pdb-toolkit
+[2023-05-31 16:44:40] INFO root fetch - main [MainThread]: End processing [transformers4rec]: success
+[2023-05-31 16:44:40] INFO root fetch - processPackages [json-ntv]: Downloading https://files.pythonhosted.org/packages/cb/d6/8287da568e824c78550101dba5010f07d98d59c39350dbe8a6c8a5dcc5c2/json_ntv-0.1.0.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [pdb-toolkit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 16:44:40] INFO root fetch - processPackages [odh-core]: Start processing: EasyGlobals
+[2023-05-31 16:44:40] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-05-31 16:44:40] INFO root fetch - processPackages [json-ntv]: executing diffoscope
+[2023-05-31 16:44:40] INFO root fetch - processPackages [json-ntv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_ntv-0.0.5.tar.gz tmp/json_ntv-0.1.0.tar.gz --markdown 20230531/j/json-ntv/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 16:44:40] INFO root fetch - processPackages [EasyGlobals]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 16:44:40] INFO root fetch - processPackages [airbyte-cdk]: Start processing: lokii
+[2023-05-31 16:44:40] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-05-31 16:44:40] INFO root fetch - processPackages [lokii]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 16:44:40] INFO root fetch - processPackages [pdb-toolkit]: Downloading https://files.pythonhosted.org/packages/81/af/93e30b4a51c1f578c6f40c641b639c927f42b562082fdf5c3d6f71c3cbc1/pdb-toolkit-0.3.1.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/6d/36/4c3683d388c0754cfd5a097279783731860ed50231a7de9b447edfb064e9/easyglobals-0.0.1.tar.gz
+[2023-05-31 16:44:40] INFO root fetch - processPackages [invoker-terminal]: Start processing: hcai-nova-server-nightly
+[2023-05-31 16:44:40] INFO root fetch - main [MainThread]: End processing [invoker-terminal]: success
+[2023-05-31 16:44:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.7.dev202305310956] Old Version: [0.1.7.dev202305261329]
+[2023-05-31 16:44:41] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-05-31 16:44:41] INFO root fetch - processPackages [rkvst-samples]: Start processing: invenio-rdm-records
+[2023-05-31 16:44:41] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-05-31 16:44:41] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-05-31 16:44:41] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/96/25/9dde335f6c98eda20f1b1e1d046c9a64e634efa1f94232dca2771cbaec56/lokii-1.0.1.tar.gz
+[2023-05-31 16:44:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-31 16:44:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.7.dev202305261329.tar.gz tmp/hcai-nova-server-nightly-0.1.7.dev202305310956.tar.gz --markdown 20230531/h/hcai-nova-server-nightly/0.1.7.dev202305261329-0.1.7.dev202305310956/diff.md --exclude *.pyd
+[2023-05-31 16:44:41] INFO root fetch - processPackages [courlan]: Start processing: django-pg-copy
+[2023-05-31 16:44:41] INFO root fetch - main [MainThread]: End processing [courlan]: success
+[2023-05-31 16:44:41] INFO root fetch - processPackages [django-pg-copy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-31 16:44:41] INFO root fetch - processPackages [pdb-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/51/b9c96866bda630a878e3edff3cd9689cf9fb880b70ad8e0147aea15beabb/pdb-toolkit-0.3.2.tar.gz
+[2023-05-31 16:44:41] INFO root fetch - processPackages [lokii]: executing diffoscope
+[2023-05-31 16:44:41] INFO root fetch - processPackages [lokii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokii-1.0.0.tar.gz tmp/lokii-1.0.1.tar.gz --markdown 20230531/l/lokii/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 16:44:41] INFO root fetch - processPackages [pdb-toolkit]: executing diffoscope
+[2023-05-31 16:44:41] INFO root fetch - processPackages [pdb-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdb-toolkit-0.3.1.tar.gz tmp/pdb-toolkit-0.3.2.tar.gz --markdown 20230531/p/pdb-toolkit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 16:44:41] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/31/62/8917a647a9eb74cdc95530accd9875de8344f8e36158f4b3aba293490b7d/invenio-rdm-records-4.2.3.tar.gz
+[2023-05-31 16:44:41] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/58/65/fdf6b6b59eea384b147f3c32e3558cdc8339d787b5be0461c9125fa70c6d/easyglobals-0.0.2.tar.gz
+[2023-05-31 16:44:41] INFO root fetch - processPackages [django-pg-copy]: Downloading https://files.pythonhosted.org/packages/84/5d/5ef2a9a754c94b424c0afb9204f5d14df53e0e6dac1fee66a47206f96ba7/django-pg-copy-1.0.0.tar.gz
+[2023-05-31 16:44:41] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-05-31 16:44:41] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.2.2.tar.gz tmp/invenio-rdm-records-4.2.3.tar.gz --markdown 20230531/i/invenio-rdm-records/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-05-31 16:44:41] INFO root fetch - processPackages [EasyGlobals]: executing diffoscope
+[2023-05-31 16:44:41] INFO root fetch - processPackages [EasyGlobals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyglobals-0.0.1.tar.gz tmp/easyglobals-0.0.2.tar.gz --markdown 20230531/E/EasyGlobals/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 16:44:41] INFO root fetch - processPackages [django-pg-copy]: Downloading https://files.pythonhosted.org/packages/61/16/647eeba006586063d844f79bef2e4a46049e2697343d8595526ecb654501/django-pg-copy-1.1.0.tar.gz
+[2023-05-31 16:44:41] INFO root fetch - processPackages [django-pg-copy]: executing diffoscope
+[2023-05-31 16:44:41] INFO root fetch - processPackages [django-pg-copy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pg-copy-1.0.0.tar.gz tmp/django-pg-copy-1.1.0.tar.gz --markdown 20230531/d/django-pg-copy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-31 16:44:42] INFO root fetch - processPackages [json-ntv]: Start processing: debug-cmd
+[2023-05-31 16:44:42] INFO root fetch - main [MainThread]: End processing [json-ntv]: success
+[2023-05-31 16:44:42] INFO root fetch - processPackages [debug-cmd]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 16:44:42] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/48/b5/063b8ba8badf6ae23e21d6cd8040a9eb0ae05a515c82c929b71200d59176/debug_cmd-1.0.0-py3-none-any.whl
+[2023-05-31 16:44:42] INFO root fetch - processPackages [hdn-research-environment]: Start processing: asimov
+[2023-05-31 16:44:42] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-05-31 16:44:42] INFO root fetch - processPackages [asimov]: New version: [0.6.0b1] Old Version: [0.6.0a3]
+[2023-05-31 16:44:42] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/ab/42/5d610d58ce8b9711d3a3feb8ce47d8ee2bbf60c059c16ca4a05440101c2b/debug_cmd-1.0.1-py3-none-any.whl
+[2023-05-31 16:44:42] INFO root fetch - processPackages [debug-cmd]: executing diffoscope
+[2023-05-31 16:44:42] INFO root fetch - processPackages [debug-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debug_cmd-1.0.0-py3-none-any.whl.zip tmp/debug_cmd-1.0.1-py3-none-any.whl.zip --markdown 20230531/d/debug-cmd/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 16:44:42] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-31 16:44:43] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/98/95/6194570aceb799c702604b49d3327fe07f33cf20485affb63f840be8a89d/asimov-0.6.0b1-py2.py3-none-any.whl
+[2023-05-31 16:44:43] INFO root fetch - main [MainThread]: End processing [django-pg-copy]: success
+[2023-05-31 16:44:43] INFO root fetch - main [MainThread]: End processing [lokii]: success
+[2023-05-31 16:44:43] INFO root fetch - main [MainThread]: End processing [pdb-toolkit]: success
+[2023-05-31 16:44:43] INFO root fetch - main [MainThread]: End processing [EasyGlobals]: success
+[2023-05-31 16:44:43] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-31 16:44:43] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip --markdown 20230531/a/asimov/0.6.0a3-0.6.0b1/diff.md --exclude *.pyd
+[2023-05-31 16:44:43] INFO root fetch - main [MainThread]: End processing [debug-cmd]: success
+[2023-05-31 16:44:44] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-31 16:44:46] INFO root fetch - main [MainThread]: End processing [merlin-models]: success
+[2023-05-31 16:44:48] INFO root fetch - main [MainThread]: End processing [pddl]: success
+[2023-05-31 16:44:49] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-05-31 16:44:49] INFO root fetch - main [MainThread]: Store serial: [18318562]
