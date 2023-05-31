@@ -21793,3 +21793,71 @@
 [2023-05-31 20:19:12] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-model-disagreement]: success
 [2023-05-31 20:19:12] INFO root fetch - main [MainThread]: End processing [ndcube]: success
 [2023-05-31 20:19:12] INFO root fetch - main [MainThread]: Store serial: [18320866]
+[2023-05-31 20:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320866]
+[2023-05-31 20:24:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yml2cli
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yml2cli
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dropbox-api
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib310-lite
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-travelmanager
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynecone-admin
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ibm-platform-services
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crxcavatorpy
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-ai
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-matter-server
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ibm-platform-services]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: New version: [0.1.20230531181907] Old Version: [0.1.20230531181900]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: New version: [0.1.20230531181907] Old Version: [0.1.20230531181900]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [crxcavatorpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 20:24:22] WARNING root fetch - processPackages [pynecone-admin]: Skipping, unable to determine old version
+[2023-05-31 20:24:22] INFO root fetch - processPackages [pynecone-admin]: Start processing: eth-trader-api-proto
+[2023-05-31 20:24:22] INFO root fetch - main [MainThread]: End processing [pynecone-admin] error
+[2023-05-31 20:24:22] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-matter-server]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-travelmanager]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [dropbox-api]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [eth-trader-api-proto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 20:24:22] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [eth-trader-api-proto]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [eth-trader-api-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_trader_api_proto-0.0.2.tar.gz tmp/eth-trader-api-proto-0.0.3.tar.gz --markdown 20230531/e/eth-trader-api-proto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: Downloading https://files.pythonhosted.org/packages/b3/b1/1b3599a0bd6de7b5326c1aaf56b79ddf5eff66360bea20c9a61e06f10355/yml2cli-0.1.20230531181900.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: Downloading https://files.pythonhosted.org/packages/b3/b1/1b3599a0bd6de7b5326c1aaf56b79ddf5eff66360bea20c9a61e06f10355/yml2cli-0.1.20230531181900.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [dropbox-api]: Downloading https://files.pythonhosted.org/packages/51/fd/df70d85b78b49f94dfb17fd15e9982de4e41bbd70ca3c1d797d4964cf780/dropbox_api-0.1.9.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/1b/81/8c4c07e7e0483f1debeee7dde6e6a5b50d4f065ee2c2035b8e2eaa435b68/abstract_ai-0.0.4.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/86/fd/38a583c4bf3803a477a17b9be43e72b393cf8decd9dab05982dda03bd356/ibm-platform-services-0.9.2.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [crxcavatorpy]: Downloading https://files.pythonhosted.org/packages/e7/ef/0b29f2941cde3728ff863e58d47dd50aa4ae4b5e139e76454a82d2510a92/crxcavatorpy-0.1.2.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/cf/0a/8570ab62a45c5533bddf50e34f48a4c642c447ea64b7f6db2e82680ea016/python_travelmanager-1.0.2.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/ef/e2/41a7fc9708f95c1daaee0579b9b32a76e882918c60c340c4ee9f3e3f65d9/python-matter-server-3.4.2.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.3.tar.gz tmp/abstract_ai-0.0.4.tar.gz --markdown 20230531/a/abstract-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: Downloading https://files.pythonhosted.org/packages/f8/9a/bbda365200f2dd5c31da3f8e9c9cff51f1baa39bb6a57bd51727492c7b13/yml2cli-0.1.20230531181907-py3-none-any.whl
+[2023-05-31 20:24:22] INFO root fetch - processPackages [crxcavatorpy]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [crxcavatorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crxcavatorpy-0.1.1.tar.gz tmp/crxcavatorpy-0.1.2.tar.gz --markdown 20230531/c/crxcavatorpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-travelmanager]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: Downloading https://files.pythonhosted.org/packages/f8/9a/bbda365200f2dd5c31da3f8e9c9cff51f1baa39bb6a57bd51727492c7b13/yml2cli-0.1.20230531181907-py3-none-any.whl
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-travelmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_travelmanager-1.0.1.tar.gz tmp/python_travelmanager-1.0.2.tar.gz --markdown 20230531/p/python-travelmanager/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [dropbox-api]: Downloading https://files.pythonhosted.org/packages/13/15/a26a7170c722f18b7c8f621966ca15c13c69c10e044518e72fc82890663a/dropbox-api-0.2.0.tar.gz
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-matter-server-3.4.1.tar.gz tmp/python-matter-server-3.4.2.tar.gz --markdown 20230531/p/python-matter-server/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yml2cli-0.1.20230531181900.tar.gz tmp/yml2cli-0.1.20230531181907-py3-none-any.whl.zip --markdown 20230531/y/yml2cli/0.1.20230531181900-0.1.20230531181907/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [yml2cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yml2cli-0.1.20230531181900.tar.gz tmp/yml2cli-0.1.20230531181907-py3-none-any.whl.zip --markdown 20230531/y/yml2cli/0.1.20230531181900-0.1.20230531181907/diff.md --exclude *.pyd
+[2023-05-31 20:24:22] INFO root fetch - processPackages [dropbox-api]: executing diffoscope
+[2023-05-31 20:24:22] INFO root fetch - processPackages [dropbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropbox_api-0.1.9.tar.gz tmp/dropbox-api-0.2.0.tar.gz --markdown 20230531/d/dropbox-api/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 20:24:23] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/eb/cd/ec1224c39d96300a991247d2c33d28366f0f7eb4674391683396e51aa651/ibm-platform-services-0.9.3.tar.gz
+[2023-05-31 20:24:23] INFO root fetch - processPackages [ibm-platform-services]: executing diffoscope
+[2023-05-31 20:24:23] INFO root fetch - processPackages [ibm-platform-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-platform-services-0.9.2.tar.gz tmp/ibm-platform-services-0.9.3.tar.gz --markdown 20230531/i/ibm-platform-services/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 20:24:23] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 20:24:23] INFO root fetch - main [MainThread]: End processing [eth-trader-api-proto]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [crxcavatorpy]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [yml2cli]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [python-travelmanager]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [yml2cli]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [dropbox-api]: success
+[2023-05-31 20:24:24] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2023-05-31 20:24:25] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
+[2023-05-31 20:24:25] INFO root fetch - main [MainThread]: Store serial: [18320902]
