@@ -9125,3 +9125,49 @@
 [2023-05-31 08:34:51] INFO root fetch - main [MainThread]: End processing [ango]: success
 [2023-05-31 08:34:51] INFO root fetch - main [MainThread]: End processing [catgpt]: success
 [2023-05-31 08:34:51] INFO root fetch - main [MainThread]: Store serial: [18313245]
+[2023-05-31 08:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313245]
+[2023-05-31 08:40:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vodex
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autodistill
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: busy
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: katalytic-files
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-sparksql
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bdating-common
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: t2iapi
+[2023-05-31 08:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reddit-photo-aggregator
+[2023-05-31 08:40:00] INFO root fetch - processPackages [vodex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 08:40:00] INFO root fetch - processPackages [katalytic-files]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-31 08:40:00] INFO root fetch - processPackages [reddit-photo-aggregator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 08:40:00] WARNING root fetch - processPackages [jupyterlab-sparksql]: Skipping, unable to determine old version
+[2023-05-31 08:40:00] INFO root fetch - main [MainThread]: End processing [jupyterlab-sparksql] error
+[2023-05-31 08:40:00] INFO root fetch - processPackages [autodistill]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 08:40:00] INFO root fetch - processPackages [busy]: New version: [5.0.0] Old Version: [3.4.6]
+[2023-05-31 08:40:00] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-31 08:40:00] INFO root fetch - processPackages [vodex]: executing diffoscope
+[2023-05-31 08:40:00] INFO root fetch - processPackages [vodex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodex-1.0.8.tar.gz tmp/vodex-1.0.9.tar.gz --markdown 20230531/v/vodex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 08:40:00] INFO root fetch - processPackages [reddit-photo-aggregator]: executing diffoscope
+[2023-05-31 08:40:00] INFO root fetch - processPackages [reddit-photo-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_photo_aggregator-1.0.1.tar.gz tmp/reddit_photo_aggregator-1.0.2.tar.gz --markdown 20230531/r/reddit-photo-aggregator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 08:40:00] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-05-31 08:40:00] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230531/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-31 08:40:00] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev156] Old Version: [3.0.0.dev145]
+[2023-05-31 08:40:01] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/c7/40/3f083ae714bf5adf3ff1d8bb7b6514295061ce82de4744bf97d8eba791bc/busy-3.4.6.tar.gz
+[2023-05-31 08:40:01] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/29/97/fa02a8df7374323ae585744a7648be6c8f539a4d0ca5ab02e2e125d0e3c4/autodistill-0.1.1.tar.gz
+[2023-05-31 08:40:01] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/04/eb/fcac9abdb9adc934da4d9f47171c0c9fe7bbaab217985ad14dc8ac69d947/katalytic_files-0.9.1.tar.gz
+[2023-05-31 08:40:01] INFO root fetch - processPackages [autodistill]: executing diffoscope
+[2023-05-31 08:40:01] INFO root fetch - processPackages [autodistill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-0.1.0.tar.gz tmp/autodistill-0.1.1.tar.gz --markdown 20230531/a/autodistill/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 08:40:01] INFO root fetch - processPackages [katalytic-files]: executing diffoscope
+[2023-05-31 08:40:01] INFO root fetch - processPackages [katalytic-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_files-0.9.0.tar.gz tmp/katalytic_files-0.9.1.tar.gz --markdown 20230531/k/katalytic-files/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-31 08:40:01] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/a3/26/d22cf9043c08e7c54178e53c4c2557bacc4a5039c7877cdaec8de65ed311/busy-5.0.0.tar.gz
+[2023-05-31 08:40:01] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/0a/f0/823d4badc55ea9902ed30863564988dfc2362acd37862acba38bad563a75/t2iapi-3.0.0.dev156.tar.gz
+[2023-05-31 08:40:01] INFO root fetch - processPackages [busy]: executing diffoscope
+[2023-05-31 08:40:01] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-3.4.6.tar.gz tmp/busy-5.0.0.tar.gz --markdown 20230531/b/busy/3.4.6-5.0.0/diff.md --exclude *.pyd
+[2023-05-31 08:40:01] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-05-31 08:40:01] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev145.tar.gz tmp/t2iapi-3.0.0.dev156.tar.gz --markdown 20230531/t/t2iapi/3.0.0.dev145-3.0.0.dev156/diff.md --exclude *.pyd
+[2023-05-31 08:40:02] INFO root fetch - main [MainThread]: End processing [reddit-photo-aggregator]: success
+[2023-05-31 08:40:02] INFO root fetch - main [MainThread]: End processing [katalytic-files]: success
+[2023-05-31 08:40:02] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-05-31 08:40:02] INFO root fetch - main [MainThread]: End processing [autodistill]: success
+[2023-05-31 08:40:02] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2023-05-31 08:40:03] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-05-31 08:40:08] INFO root fetch - main [MainThread]: End processing [vodex]: success
+[2023-05-31 08:40:08] INFO root fetch - main [MainThread]: Store serial: [18313271]
