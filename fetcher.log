@@ -8400,3 +8400,37 @@
 [2023-05-31 07:17:27] INFO root fetch - main [MainThread]: End processing [tensorflow-similarity]: success
 [2023-05-31 07:17:27] INFO root fetch - main [MainThread]: End processing [winpwn]: success
 [2023-05-31 07:17:27] INFO root fetch - main [MainThread]: Store serial: [18312716]
+[2023-05-31 07:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312716]
+[2023-05-31 07:22:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winpwn
+[2023-05-31 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WebtoonScraper
+[2023-05-31 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2023-05-31 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snapstream
+[2023-05-31 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-screener
+[2023-05-31 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataquality
+[2023-05-31 07:22:36] INFO root fetch - processPackages [winpwn]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-31 07:22:36] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:22:36] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-31 07:22:36] INFO root fetch - processPackages [snapstream]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 07:22:36] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:22:36] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-05-31 07:22:36] INFO root fetch - processPackages [winpwn]: executing diffoscope
+[2023-05-31 07:22:36] INFO root fetch - processPackages [winpwn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winpwn-0.2.4-py3.7.egg tmp/winpwn-0.3.0-py2.py3-none-any.whl.zip --markdown 20230531/w/winpwn/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 07:22:36] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-31 07:22:36] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230531/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:22:36] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-31 07:22:36] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230531/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 07:22:36] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-31 07:22:36] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230531/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-05-31 07:22:36] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/cd/5b/803294bc9b28463cfbc6572dfc66e93b50bd52deb241741dc3b80b9e1532/snapstream-0.0.6.tar.gz
+[2023-05-31 07:22:36] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-31 07:22:36] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230531/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:22:37] INFO root fetch - processPackages [snapstream]: executing diffoscope
+[2023-05-31 07:22:37] INFO root fetch - processPackages [snapstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapstream-0.0.5.tar.gz tmp/snapstream-0.0.6.tar.gz --markdown 20230531/s/snapstream/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 07:22:37] INFO root fetch - main [MainThread]: End processing [winpwn]: success
+[2023-05-31 07:22:37] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-31 07:22:38] INFO root fetch - main [MainThread]: End processing [snapstream]: success
+[2023-05-31 07:22:38] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-31 07:22:38] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-31 07:22:40] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-31 07:22:40] INFO root fetch - main [MainThread]: Store serial: [18312741]
