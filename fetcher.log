@@ -21568,3 +21568,72 @@
 [2023-05-31 20:03:22] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
 [2023-05-31 20:03:28] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
 [2023-05-31 20:03:28] INFO root fetch - main [MainThread]: Store serial: [18320743]
+[2023-05-31 20:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320743]
+[2023-05-31 20:08:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-trader-api-proto
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bytez
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib310-lite
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emailcrawl1
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demosdkpypi
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-ai
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afscgap
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piperider-nightly
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csv-scavenger
+[2023-05-31 20:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: UnlimitedGPT
+[2023-05-31 20:08:37] INFO root fetch - processPackages [bytez]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [eth-trader-api-proto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [emailcrawl1]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [csv-scavenger]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [afscgap]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [demosdkpypi]: New version: [1.8.2b2] Old Version: [1.8.2b1]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [UnlimitedGPT]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.98.tar.gz tmp/bytez-0.1.99.tar.gz --markdown 20230531/b/bytez/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-31 20:08:37] INFO root fetch - processPackages [eth-trader-api-proto]: Downloading https://files.pythonhosted.org/packages/ba/5e/021e29c1dcc6f3a07969faf93d67d0de3e8a52af9f4e6b0eb698636e4c53/eth_trader_api_proto-0.0.2.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [csv-scavenger]: Downloading https://files.pythonhosted.org/packages/f4/8c/ee7f9f4cc5170baf73f295c49cee4613d0555bcd9da95d8cb1f24a1fc37f/csv_scavenger-1.0.0.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/1f/9d/bceda1f2484ee8681191a2cc2702fd690d3be600a9f138cbb218d85f658c/abstract_ai-0.0.2.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [demosdkpypi]: Downloading https://files.pythonhosted.org/packages/6e/a3/23cbecdeb965f664b055f258ddaf0435a5b0dd3e958c4996999aa6db769d/demosdkpypi-1.8.2b2.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [afscgap]: Downloading https://files.pythonhosted.org/packages/88/b4/a84ff0e7ad71913404d16ce7be75c6f27ac8b7a91b9908b6e8e7a6526f8d/afscgap-0.0.9.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.1.tar.gz tmp/abstract_ai-0.0.2.tar.gz --markdown 20230531/a/abstract-ai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [eth-trader-api-proto]: Downloading https://files.pythonhosted.org/packages/0a/0d/e1219ee5ff085454a3ca9ab5c882d5aaf258d27ed497889a771bf095bd31/eth-trader-api-proto-0.0.3.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [csv-scavenger]: Downloading https://files.pythonhosted.org/packages/04/6c/209d648afc96863989e14d3abab778371712ad4884c8dde9b82773deed5b/csv_scavenger-1.0.1.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [emailcrawl1]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [emailcrawl1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailcrawl1-0.0.2.tar.gz tmp/emailcrawl1-0.0.3.tar.gz --markdown 20230531/e/emailcrawl1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/c3/d9/39030dca294db73bc0797db0a48eaed2914bef591c92f0e649fc3844b1e5/UnlimitedGPT-0.1.1.tar.gz
+[2023-05-31 20:08:37] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230531/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [eth-trader-api-proto]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [demosdkpypi]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [eth-trader-api-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_trader_api_proto-0.0.2.tar.gz tmp/eth-trader-api-proto-0.0.3.tar.gz --markdown 20230531/e/eth-trader-api-proto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [demosdkpypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demosdkpypi-1.8.2b1.tar.gz tmp/demosdkpypi-1.8.2b2.tar.gz --markdown 20230531/d/demosdkpypi/1.8.2b1-1.8.2b2/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [csv-scavenger]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [csv-scavenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_scavenger-1.0.0.tar.gz tmp/csv_scavenger-1.0.1.tar.gz --markdown 20230531/c/csv-scavenger/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 20:08:37] INFO root fetch - processPackages [UnlimitedGPT]: executing diffoscope
+[2023-05-31 20:08:37] INFO root fetch - processPackages [UnlimitedGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnlimitedGPT-0.1.0.tar.gz tmp/UnlimitedGPT-0.1.1.tar.gz --markdown 20230531/U/UnlimitedGPT/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 20:08:38] INFO root fetch - processPackages [afscgap]: Downloading https://files.pythonhosted.org/packages/f2/3e/ee06f5712a2f33e1523d0e8600259808b723d5d9a41219fa8261af3b9f0f/afscgap-1.0.0.tar.gz
+[2023-05-31 20:08:38] INFO root fetch - processPackages [afscgap]: executing diffoscope
+[2023-05-31 20:08:38] INFO root fetch - processPackages [afscgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afscgap-0.0.9.tar.gz tmp/afscgap-1.0.0.tar.gz --markdown 20230531/a/afscgap/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 20:08:39] INFO root fetch - processPackages [lib310-lite]: Start processing: nascam-imager-readfile
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 20:08:39] INFO root fetch - processPackages [nascam-imager-readfile]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [emailcrawl1]: success
+[2023-05-31 20:08:39] INFO root fetch - processPackages [nascam-imager-readfile]: Downloading https://files.pythonhosted.org/packages/fc/14/cfaf920a34edff785757a91fa24cc081d007d3f8f5c463b815f308aea07d/nascam_imager_readfile-1.2.1.tar.gz
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [eth-trader-api-proto]: success
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [csv-scavenger]: success
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [UnlimitedGPT]: success
+[2023-05-31 20:08:39] INFO root fetch - processPackages [nascam-imager-readfile]: Downloading https://files.pythonhosted.org/packages/c5/4d/4df2fd7e868b006efda801fe3adf3829b361cdbd44193dd084bc0630ff91/nascam_imager_readfile-1.3.0.tar.gz
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [demosdkpypi]: success
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [afscgap]: success
+[2023-05-31 20:08:39] INFO root fetch - processPackages [nascam-imager-readfile]: executing diffoscope
+[2023-05-31 20:08:39] INFO root fetch - processPackages [nascam-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nascam_imager_readfile-1.2.1.tar.gz tmp/nascam_imager_readfile-1.3.0.tar.gz --markdown 20230531/n/nascam-imager-readfile/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-31 20:08:39] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-31 20:08:40] INFO root fetch - main [MainThread]: End processing [nascam-imager-readfile]: success
+[2023-05-31 20:08:43] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-31 20:08:43] INFO root fetch - main [MainThread]: Store serial: [18320779]
