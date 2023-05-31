@@ -22407,3 +22407,97 @@
 [2023-05-31 21:01:15] INFO root fetch - main [MainThread]: End processing [autora-theorist-bms]: success
 [2023-05-31 21:01:20] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
 [2023-05-31 21:01:20] INFO root fetch - main [MainThread]: Store serial: [18321186]
+[2023-05-31 21:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321186]
+[2023-05-31 21:06:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crxcavatorpy
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yml2cli
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: responsibleai-vision
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter2pytest
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-omnilogic-local
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: orbit-component-base
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liom-toolkit
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AoiPy
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-ai
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ctransformers
+[2023-05-31 21:06:30] INFO root fetch - processPackages [crxcavatorpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [responsibleai-vision]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [jupyter2pytest]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [orbit-component-base]: New version: [0.99.9] Old Version: [0.99.8]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-31 21:06:30] WARNING root fetch - processPackages [yml2cli]: Skipping, unable to determine old version
+[2023-05-31 21:06:30] INFO root fetch - processPackages [yml2cli]: Start processing: drtodo
+[2023-05-31 21:06:30] INFO root fetch - main [MainThread]: End processing [yml2cli] error
+[2023-05-31 21:06:30] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [ctransformers]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-31 21:06:30] INFO root fetch - processPackages [liom-toolkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 21:06:31] INFO root fetch - processPackages [drtodo]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-31 21:06:31] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230531/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/f2/e2/edf15af9ccf7af67fe22e1a8e2bea77226d2134ecb250368e3ca757cde36/orbit_component_base-0.99.9.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [responsibleai-vision]: Downloading https://files.pythonhosted.org/packages/73/3b/96064ca204d03c781503a72c13d794062168765ac897decca8e542bffb05/responsibleai_vision-0.2.0.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/01/67/3d254e9b5ffa73455fca542c6c117d7e734361e372f1f85247a57792b3c3/abstract_ai-0.0.66.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/61/66/5062ce4e1d7df22994c2cdf19758ac06b4fbfc5ad9be16d596c294e0ec8a/python_omnilogic_local-0.8.0.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/b9/d0/182b2714dc4832803e994149a13c895971c43f7023c6c810a737b4b49777/ctransformers-0.2.4.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [liom-toolkit]: Downloading https://files.pythonhosted.org/packages/4a/0e/4b7374050e09ce0a237ea7650ac26000031bbb1aa06e891f88ca515761b1/liom-toolkit-0.3.8.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [crxcavatorpy]: Downloading https://files.pythonhosted.org/packages/3c/5c/c9f2386eb29f14e22546c4675f500432df57666ff1d8bcd97583c8adbf56/crxcavatorpy-0.1.3.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-0.99.8.tar.gz tmp/orbit_component_base-0.99.9.tar.gz --markdown 20230531/o/orbit-component-base/0.99.8-0.99.9/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.7.0.tar.gz tmp/python_omnilogic_local-0.8.0.tar.gz --markdown 20230531/p/python-omnilogic-local/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [jupyter2pytest]: Downloading https://files.pythonhosted.org/packages/d3/07/aafe799c742161c6d4dd1443b2934211a22f52e5f2b777ced6d4b79b6b1a/jupyter2pytest-0.3.0.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [crxcavatorpy]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [crxcavatorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crxcavatorpy-0.1.2.tar.gz tmp/crxcavatorpy-0.1.3.tar.gz --markdown 20230531/c/crxcavatorpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.65.tar.gz tmp/abstract_ai-0.0.66.tar.gz --markdown 20230531/a/abstract-ai/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/a4/be/e2dd66c4ac11ba6ed6ebffe014c24cd8fad95ce4e387230c36c4341a2c9d/drtodo-0.6.5.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.3.tar.gz tmp/ctransformers-0.2.4.tar.gz --markdown 20230531/c/ctransformers/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [jupyter2pytest]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [jupyter2pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter2pytest-0.2.0.tar.gz tmp/jupyter2pytest-0.3.0.tar.gz --markdown 20230531/j/jupyter2pytest/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [drtodo]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [drtodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtodo-0.6.4.tar.gz tmp/drtodo-0.6.5.tar.gz --markdown 20230531/d/drtodo/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [liom-toolkit]: Downloading https://files.pythonhosted.org/packages/01/2b/3eeb2521e5be3f842de1f71e21eba4fec6aa667ed09760277fe76f14ad50/liom-toolkit-0.3.9.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [responsibleai-vision]: Downloading https://files.pythonhosted.org/packages/94/cd/a134f87d831197824748126eac7f6ed15e12fb7bdbf134a6d8731aa606ad/responsibleai_vision-0.2.1.tar.gz
+[2023-05-31 21:06:31] INFO root fetch - processPackages [liom-toolkit]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [liom-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liom-toolkit-0.3.8.tar.gz tmp/liom-toolkit-0.3.9.tar.gz --markdown 20230531/l/liom-toolkit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 21:06:31] INFO root fetch - processPackages [responsibleai-vision]: executing diffoscope
+[2023-05-31 21:06:31] INFO root fetch - processPackages [responsibleai-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsibleai_vision-0.2.0.tar.gz tmp/responsibleai_vision-0.2.1.tar.gz --markdown 20230531/r/responsibleai-vision/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 21:06:32] INFO root fetch - processPackages [AoiPy]: Start processing: carpo-student
+[2023-05-31 21:06:32] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-05-31 21:06:32] INFO root fetch - processPackages [carpo-student]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 21:06:32] INFO root fetch - processPackages [carpo-student]: executing diffoscope
+[2023-05-31 21:06:32] INFO root fetch - processPackages [carpo-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carpo_student-0.0.8.tar.gz tmp/carpo_student-0.0.9.tar.gz --markdown 20230531/c/carpo-student/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 21:06:32] INFO root fetch - processPackages [orbit-component-base]: Start processing: SoG-paper
+[2023-05-31 21:06:32] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-05-31 21:06:32] INFO root fetch - processPackages [SoG-paper]: New version: [0.9] Old Version: [0.8]
+[2023-05-31 21:06:33] INFO root fetch - processPackages [SoG-paper]: Downloading https://files.pythonhosted.org/packages/1a/16/962d8a310bc16f2f6225f5d284ae50f8bb7419733a22d4dacedfe3f2ccbb/SoG-paper-0.8.tar.gz
+[2023-05-31 21:06:33] INFO root fetch - processPackages [crxcavatorpy]: Start processing: PyQuantimClient
+[2023-05-31 21:06:33] INFO root fetch - main [MainThread]: End processing [crxcavatorpy]: success
+[2023-05-31 21:06:33] INFO root fetch - processPackages [python-omnilogic-local]: Start processing: landingai
+[2023-05-31 21:06:33] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-31 21:06:33] INFO root fetch - processPackages [PyQuantimClient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 21:06:33] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 21:06:33] INFO root fetch - processPackages [abstract-ai]: Start processing: autora-synthetic
+[2023-05-31 21:06:33] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 21:06:33] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-31 21:06:33] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230531/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 21:06:33] WARNING root fetch - processPackages [autora-synthetic]: Skipping, unable to determine old version
+[2023-05-31 21:06:33] INFO root fetch - main [MainThread]: End processing [autora-synthetic] error
+[2023-05-31 21:06:33] INFO root fetch - main [MainThread]: End processing [jupyter2pytest]: success
+[2023-05-31 21:06:33] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/84/61/69e33c48bf2891c86a9875218bb5ff8a11eabc6cba2fc5642b050ba3eaa8/PyQuantimClient-1.0.8.tar.gz
+[2023-05-31 21:06:33] INFO root fetch - processPackages [SoG-paper]: Downloading https://files.pythonhosted.org/packages/85/8f/18fc036eec1825c8649c6cd567bbf90efcbe9c034c6832bcd4836bdec555/SoG-paper-0.9.tar.gz
+[2023-05-31 21:06:33] INFO root fetch - main [MainThread]: End processing [drtodo]: success
+[2023-05-31 21:06:33] INFO root fetch - processPackages [SoG-paper]: executing diffoscope
+[2023-05-31 21:06:33] INFO root fetch - processPackages [SoG-paper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoG-paper-0.8.tar.gz tmp/SoG-paper-0.9.tar.gz --markdown 20230531/S/SoG-paper/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-31 21:06:33] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/12/4e/e55b5d82937e1306704467806d3a4daa4b5c4b6f73b5ade2c9e6fdcc08f5/PyQuantimClient-1.0.9.tar.gz
+[2023-05-31 21:06:33] INFO root fetch - processPackages [PyQuantimClient]: executing diffoscope
+[2023-05-31 21:06:33] INFO root fetch - processPackages [PyQuantimClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQuantimClient-1.0.8.tar.gz tmp/PyQuantimClient-1.0.9.tar.gz --markdown 20230531/P/PyQuantimClient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 21:06:34] INFO root fetch - main [MainThread]: End processing [liom-toolkit]: success
+[2023-05-31 21:06:34] INFO root fetch - main [MainThread]: End processing [responsibleai-vision]: success
+[2023-05-31 21:06:34] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-31 21:06:34] INFO root fetch - main [MainThread]: End processing [SoG-paper]: success
+[2023-05-31 21:06:34] INFO root fetch - main [MainThread]: End processing [PyQuantimClient]: success
+[2023-05-31 21:06:35] INFO root fetch - main [MainThread]: End processing [carpo-student]: success
+[2023-05-31 21:06:35] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-05-31 21:06:35] INFO root fetch - main [MainThread]: Store serial: [18321237]
