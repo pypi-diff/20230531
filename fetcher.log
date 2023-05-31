@@ -18483,3 +18483,86 @@
 [2023-05-31 16:55:21] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
 [2023-05-31 16:55:29] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
 [2023-05-31 16:55:29] INFO root fetch - main [MainThread]: Store serial: [18318718]
+[2023-05-31 17:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18318718]
+[2023-05-31 17:00:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EasyGlobals
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscrapbook
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celery
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zh-langchain
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cubicweb-eac
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keypact
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-es-ticketbai-api-batuz
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gadapt
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EasyGlobals
+[2023-05-31 17:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openwillis
+[2023-05-31 17:00:38] INFO root fetch - processPackages [webscrapbook]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [cubicweb-eac]: New version: [2.0.0] Old Version: [1.5.3]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [EasyGlobals]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [keypact]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [EasyGlobals]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [gadapt]: New version: [0.2.17] Old Version: [0.2.16]
+[2023-05-31 17:00:38] INFO root fetch - processPackages [celery]: New version: [5.3.0rc2] Old Version: [5.3.0rc1]
+[2023-05-31 17:00:39] INFO root fetch - processPackages [openwillis]: New version: [1.1] Old Version: [1.0]
+[2023-05-31 17:00:39] INFO root fetch - processPackages [cubicweb-eac]: Downloading https://files.pythonhosted.org/packages/04/80/2fecc6cc65bcda7020cc202fc3553a96f742db7eb3e7a6311f5e4482a8c1/cubicweb-eac-1.5.3.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/25/4c/952ff9cbff60238fdc0ba42d58385a733cca4e9023047dd327890d854084/celery-5.3.0rc1.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/ad/69/1e9f30e5f0e33bd76abe737a61b1d69dfa34dc62d68139f9a7a5940234da/zh-langchain-0.1.6.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Downloading https://files.pythonhosted.org/packages/6f/4e/e54f3544547ddb2b016aced84ecd9664bc2e2e0b62515777b8b4834d62d0/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/67/0c/b30f7fe77cf918cea762c65e15462f67820b54a05e9092f55964b808ed4b/easyglobals-0.0.3.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/67/0c/b30f7fe77cf918cea762c65e15462f67820b54a05e9092f55964b808ed4b/easyglobals-0.0.3.tar.gz
+[2023-05-31 17:00:39] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17370989>=10485760
+[2023-05-31 17:00:39] INFO root fetch - processPackages [zh-langchain]: Start processing: modo-data-science-helpers
+[2023-05-31 17:00:39] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-31 17:00:39] INFO root fetch - processPackages [openwillis]: Downloading https://files.pythonhosted.org/packages/96/8b/5ea4e91f1cf3dc44c71bcc5308a05fb45207e5ce6f16120425dd33f681fd/openwillis-1.0.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [modo-data-science-helpers]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 17:00:39] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-2.0.0b8.tar.gz tmp/webscrapbook-2.0.0b9.tar.gz --markdown 20230531/w/webscrapbook/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/c8/da/11231437f1f7e714c405431ea0776339478a06f8c6e805f28558ed7a0936/keypact-0.5.0.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [gadapt]: Downloading https://files.pythonhosted.org/packages/5b/fc/dc390a15d225386df10ce731572960b45007d4924d3581e68b1b99a29c47/gadapt-0.2.17.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/29/7d/49081f26edffbbad415c868ad234eb122165ff40da8d9df84fbe3834b0c3/easyglobals-0.0.4.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/29/7d/49081f26edffbbad415c868ad234eb122165ff40da8d9df84fbe3834b0c3/easyglobals-0.0.4.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [cubicweb-eac]: Downloading https://files.pythonhosted.org/packages/dc/cf/2afd72d7db2bceb582bf5841635c5bb87363b0d6af612e2f7e0380036173/cubicweb-eac-2.0.0.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [modo-data-science-helpers]: Downloading https://files.pythonhosted.org/packages/e1/33/7f8709eff7bdeca72db7a7da632d7e002cf25ed3b1ac9b1f3770a2a3e2e0/modo_data_science_helpers-0.5.0.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.4.0.tar.gz tmp/keypact-0.5.0.tar.gz --markdown 20230531/k/keypact/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: Downloading https://files.pythonhosted.org/packages/d3/ef/0c7df1bde113a1e1ef676e8917f56aa0da2f8622dc9d3c1f00a390f9a92b/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1-py3-none-any.whl
+[2023-05-31 17:00:39] INFO root fetch - processPackages [gadapt]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/22/1f/82510c8f7cf899be38ac2726f163ff852cd09d17cae067ed65f5fab36f34/celery-5.3.0rc2.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [gadapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gadapt-0.2.16.tar.gz tmp/gadapt-0.2.17.tar.gz --markdown 20230531/g/gadapt/0.2.16-0.2.17/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyglobals-0.0.3.tar.gz tmp/easyglobals-0.0.4.tar.gz --markdown 20230531/E/EasyGlobals/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [EasyGlobals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyglobals-0.0.3.tar.gz tmp/easyglobals-0.0.4.tar.gz --markdown 20230531/E/EasyGlobals/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [cubicweb-eac]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [cubicweb-eac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-eac-1.5.3.tar.gz tmp/cubicweb-eac-2.0.0.tar.gz --markdown 20230531/c/cubicweb-eac/1.5.3-2.0.0/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [modo-data-science-helpers]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [modo-data-science-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modo_data_science_helpers-0.4.0.tar.gz tmp/modo_data_science_helpers-0.5.0.tar.gz --markdown 20230531/m/modo-data-science-helpers/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [openwillis]: Downloading https://files.pythonhosted.org/packages/6a/c7/d7c2ced219ade4f6aef9d84783f6d105915d4b6b39adcd97f1baf55faf9c/openwillis-1.1.tar.gz
+[2023-05-31 17:00:39] INFO root fetch - processPackages [celery]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-5.3.0rc1.tar.gz tmp/celery-5.3.0rc2.tar.gz --markdown 20230531/c/celery/5.3.0rc1-5.3.0rc2/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-api-batuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_api_batuz-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-l10n-es-ticketbai-api-batuz/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-31 17:00:39] INFO root fetch - processPackages [openwillis]: executing diffoscope
+[2023-05-31 17:00:39] INFO root fetch - processPackages [openwillis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openwillis-1.0.tar.gz tmp/openwillis-1.1.tar.gz --markdown 20230531/o/openwillis/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-31 17:00:40] INFO root fetch - processPackages [keypact]: Start processing: veetility
+[2023-05-31 17:00:40] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-05-31 17:00:41] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 17:00:41] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-31 17:00:41] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230531/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 17:00:41] INFO root fetch - processPackages [EasyGlobals]: Start processing: bycon
+[2023-05-31 17:00:41] INFO root fetch - main [MainThread]: End processing [EasyGlobals]: success
+[2023-05-31 17:00:41] INFO root fetch - main [MainThread]: End processing [EasyGlobals]: success
+[2023-05-31 17:00:41] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 17:00:41] INFO root fetch - main [MainThread]: End processing [modo-data-science-helpers]: success
+[2023-05-31 17:00:41] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-05-31 17:00:41] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230531/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 17:00:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-api-batuz]: success
+[2023-05-31 17:00:42] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-31 17:00:42] INFO root fetch - main [MainThread]: End processing [gadapt]: success
+[2023-05-31 17:00:43] INFO root fetch - main [MainThread]: End processing [cubicweb-eac]: success
+[2023-05-31 17:00:43] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-31 17:00:47] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-05-31 17:00:49] INFO root fetch - main [MainThread]: End processing [celery]: success
+[2023-05-31 17:01:28] INFO root fetch - main [MainThread]: End processing [openwillis]: success
+[2023-05-31 17:01:28] INFO root fetch - main [MainThread]: Store serial: [18318774]
