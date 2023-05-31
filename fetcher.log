@@ -13052,3 +13052,145 @@
 [2023-05-31 12:57:28] INFO root fetch - main [MainThread]: End processing [bubble-sdk]: success
 [2023-05-31 12:57:28] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2023-05-31 12:57:28] INFO root fetch - main [MainThread]: Store serial: [18315549]
+[2023-05-31 13:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315549]
+[2023-05-31 13:02:37] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slcl1butils
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-community-maps
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domain-paas-sdk-python
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lesscode-charts
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytrino
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sisaptools
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-data-services
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bubble-sdk
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: balaboba
+[2023-05-31 13:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: komora-syncer
+[2023-05-31 13:02:37] INFO root fetch - processPackages [domain-paas-sdk-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.9.2] Old Version: [2023.5.9]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [pytrino]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [lesscode-charts]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [bubble-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.4] Old Version: [14.0.0.1.3]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [komora-syncer]: New version: [2.4] Old Version: [2.3]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [balaboba]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-31 13:02:37] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5131986477] Old Version: [2.0.0.dev5129283461]
+[2023-05-31 13:02:38] INFO root fetch - processPackages [komora-syncer]: Downloading https://files.pythonhosted.org/packages/d5/d6/3ac152a4d77b64a843bd6deaa771b2111e2e66ceac96fb24fa716e135016/komora_syncer-2.3.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/99/b9/1a949db4dcaf17dc6b5b423a0aceef1b28631f3c4b5254cd3007d42cf2f9/bubble-sdk-0.1.6.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/d6/9f/737c723dc4d36674c3e364edc1ce3007d4c1a21068c82ab826eacc874caf/th2_data_services-2.0.0.dev5131986477.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [balaboba]: Downloading https://files.pythonhosted.org/packages/ae/d9/98ec4e7854dd4cd0e925fc2d28826202daf26662ffd7d55454b2b8d2a73c/balaboba-3.0.0.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230531/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5129283461.tar.gz tmp/th2_data_services-2.0.0.dev5131986477.tar.gz --markdown 20230531/t/th2-data-services/2.0.0.dev5129283461-2.0.0.dev5131986477/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.9.tar.gz tmp/slcl1butils-2023.5.9.2.tar.gz --markdown 20230531/s/slcl1butils/2023.5.9-2023.5.9.2/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [pytrino]: Downloading https://files.pythonhosted.org/packages/0e/8e/04b5c4dd191d721420f0c17101cc9990adf7c9f4cb1106c2c02f344c1480/pytrino-0.0.6.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [domain-paas-sdk-python]: Downloading https://files.pythonhosted.org/packages/6a/aa/38d7fdd343356a6f6aa3e8f7f5f2b4be72bb51d07daecb87cd77e93342d4/domain-paas-sdk-python-1.0.5.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/2d/6c/be0ed351391f204b05f310a3615e422368aee3ec17753566c2e859990417/lesscode_charts-0.0.3.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/17/3d/f035ed6679e5750901f2520409caffa4083334e820096b8a3b387e517e7e/odoo14_addon_community_maps-14.0.0.1.4-py3-none-any.whl
+[2023-05-31 13:02:38] INFO root fetch - processPackages [bubble-sdk]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [bubble-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubble-sdk-0.1.5.tar.gz tmp/bubble-sdk-0.1.6.tar.gz --markdown 20230531/b/bubble-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [balaboba]: Downloading https://files.pythonhosted.org/packages/1b/f8/e2ea78ed031882391cc8487e2563a2c7661cfcc400c733245b213965284f/balaboba-3.0.1.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [pytrino]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [pytrino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrino-0.0.5.tar.gz tmp/pytrino-0.0.6.tar.gz --markdown 20230531/p/pytrino/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [lesscode-charts]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [lesscode-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_charts-0.0.2.tar.gz tmp/lesscode_charts-0.0.3.tar.gz --markdown 20230531/l/lesscode-charts/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [domain-paas-sdk-python]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [domain-paas-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-paas-sdk-python-1.0.4.tar.gz tmp/domain-paas-sdk-python-1.0.5.tar.gz --markdown 20230531/d/domain-paas-sdk-python/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.3-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.4-py3-none-any.whl.zip --markdown 20230531/o/odoo14-addon-community-maps/14.0.0.1.3-14.0.0.1.4/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [komora-syncer]: Downloading https://files.pythonhosted.org/packages/64/57/b93cdb971fead366c9e8f022ee2156fcabcf809b68984841d93e0eb8e29a/komora_syncer-2.4.tar.gz
+[2023-05-31 13:02:38] INFO root fetch - processPackages [balaboba]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [balaboba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balaboba-3.0.0.tar.gz tmp/balaboba-3.0.1.tar.gz --markdown 20230531/b/balaboba/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-31 13:02:38] INFO root fetch - processPackages [komora-syncer]: executing diffoscope
+[2023-05-31 13:02:38] INFO root fetch - processPackages [komora-syncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komora_syncer-2.3.tar.gz tmp/komora_syncer-2.4.tar.gz --markdown 20230531/k/komora-syncer/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-31 13:02:39] INFO root fetch - processPackages [sisaptools]: Start processing: aiobalaboba
+[2023-05-31 13:02:39] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-05-31 13:02:39] INFO root fetch - processPackages [aiobalaboba]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [pytrino]: Start processing: pretix
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [pytrino]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [aiobalaboba]: Downloading https://files.pythonhosted.org/packages/cb/d6/6cb1c9ce90602946aa3e7aaa5f0d4e58d6e2b784c7714342a72543e345cb/aiobalaboba-3.0.0.tar.gz
+[2023-05-31 13:02:40] INFO root fetch - processPackages [pretix]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [balaboba]: Start processing: odoo-addon-companyweb-base
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [balaboba]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [pretix]: Downloading https://files.pythonhosted.org/packages/1b/b2/e715cdf9a4d7da127ada5a36979183ae7f1e051153b886f3b1c5a9a82883/pretix-4.9.0.tar.gz
+[2023-05-31 13:02:40] INFO root fetch - processPackages [lesscode-charts]: Start processing: genopyc
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [lesscode-charts]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [slcl1butils]: Start processing: python-selve-new
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [odoo-addon-companyweb-base]: New version: [16.0.1.0.7] Old Version: [16.0.1.0.6]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [th2-data-services]: Start processing: matchms
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [genopyc]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [matchms]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [aiobalaboba]: Downloading https://files.pythonhosted.org/packages/a8/2c/6d79bb9741c0fd1d541141f2fecacb3e3360c50b798f3dc46f7dd8bbc874/aiobalaboba-3.0.1.tar.gz
+[2023-05-31 13:02:40] INFO root fetch - processPackages [aiobalaboba]: executing diffoscope
+[2023-05-31 13:02:40] INFO root fetch - processPackages [aiobalaboba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobalaboba-3.0.0.tar.gz tmp/aiobalaboba-3.0.1.tar.gz --markdown 20230531/a/aiobalaboba/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-31 13:02:40] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/d1/cd/8637b22633475fb0d573bd8356b36ded205357968cbf9b9f996c657dfa7d/genopyc-0.3.2-py3-none-any.whl
+[2023-05-31 13:02:40] INFO root fetch - processPackages [odoo14-addon-community-maps]: Start processing: mafese
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 13:02:40] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 13:02:40] INFO root fetch - processPackages [mafese]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/51/bd/605db45a0a62ee4023b298255615aeb236bc473f695e3ad48463d3c52790/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl
+[2023-05-31 13:02:40] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/94/f9/e417fc6b3d303bae0c45dd2a090977a0eaac69a7676ae6d9adf3125c53e7/matchms-0.9.1.tar.gz
+[2023-05-31 13:02:40] INFO root fetch - processPackages [komora-syncer]: Start processing: bubble-env
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [komora-syncer]: success
+[2023-05-31 13:02:40] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/51/a5/7bf81df592a59d41d2517b59738198a42086913a34532b5977cfafb36157/genopyc-0.3.3-py3-none-any.whl
+[2023-05-31 13:02:40] INFO root fetch - processPackages [bubble-env]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 13:02:40] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-05-31 13:02:40] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.3.2-py3-none-any.whl.zip tmp/genopyc-0.3.3-py3-none-any.whl.zip --markdown 20230531/g/genopyc/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-31 13:02:40] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/bf/8e/61c9a5b60f5f815960ac56d6c1602b736973dd7592965b64e59f046233a1/mafese-0.1.3.tar.gz
+[2023-05-31 13:02:40] INFO root fetch - processPackages [bubble-env]: Downloading https://files.pythonhosted.org/packages/7e/d9/6c6ab8254505795bee2cfbc1e6bb11941dab8b21de66b6755126304931c2/bubble-env-0.1.1.tar.gz
+[2023-05-31 13:02:40] INFO root fetch - processPackages [mafese]: executing diffoscope
+[2023-05-31 13:02:40] INFO root fetch - processPackages [mafese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafese-0.1.2.tar.gz tmp/mafese-0.1.3.tar.gz --markdown 20230531/m/mafese/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 13:02:40] INFO root fetch - processPackages [odoo-addon-companyweb-base]: executing diffoscope
+[2023-05-31 13:02:40] INFO root fetch - processPackages [odoo-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-companyweb-base/16.0.1.0.6-16.0.1.0.7/diff.md --exclude *.pyd
+[2023-05-31 13:02:40] WARNING root fetch - processPackages [bubble-env]: Skipping package: exceeds size limit 26060014>=10485760
+[2023-05-31 13:02:40] INFO root fetch - processPackages [bubble-env]: Start processing: colt
+[2023-05-31 13:02:40] INFO root fetch - main [MainThread]: End processing [bubble-env] error
+[2023-05-31 13:02:40] INFO root fetch - processPackages [colt]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-31 13:02:41] WARNING root fetch - processPackages [pretix]: Skipping package: exceeds size limit 30788431>=10485760
+[2023-05-31 13:02:41] INFO root fetch - processPackages [pretix]: Start processing: supervisely
+[2023-05-31 13:02:41] INFO root fetch - main [MainThread]: End processing [pretix] error
+[2023-05-31 13:02:41] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-31 13:02:41] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/a0/1f/afe76be976e1b3c3551112bf8a1ffff8624c26e9e230720c15c9138f7e6a/matchms-0.9.2.tar.gz
+[2023-05-31 13:02:41] INFO root fetch - processPackages [bubble-sdk]: Start processing: pythttp
+[2023-05-31 13:02:41] INFO root fetch - main [MainThread]: End processing [bubble-sdk]: success
+[2023-05-31 13:02:41] INFO root fetch - processPackages [pythttp]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-31 13:02:41] INFO root fetch - processPackages [colt]: executing diffoscope
+[2023-05-31 13:02:41] INFO root fetch - processPackages [colt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colt-0.9.2.tar.gz tmp/colt-0.9.3.tar.gz --markdown 20230531/c/colt/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-31 13:02:41] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-05-31 13:02:41] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230531/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-31 13:02:41] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/9e/45/4655fcbf521f44c4028e3afe4636950f0e5856dc069d7354d4a9a1b9f4b4/pythttp-0.1.0.tar.gz
+[2023-05-31 13:02:41] INFO root fetch - processPackages [matchms]: executing diffoscope
+[2023-05-31 13:02:41] INFO root fetch - processPackages [matchms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchms-0.9.1.tar.gz tmp/matchms-0.9.2.tar.gz --markdown 20230531/m/matchms/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 13:02:41] INFO root fetch - processPackages [pythttp]: executing diffoscope
+[2023-05-31 13:02:41] INFO root fetch - processPackages [pythttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythttp-0.0.9.tar.gz tmp/pythttp-0.1.0.tar.gz --markdown 20230531/p/pythttp/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 13:02:41] INFO root fetch - processPackages [aiobalaboba]: Start processing: samna
+[2023-05-31 13:02:41] INFO root fetch - main [MainThread]: End processing [aiobalaboba]: success
+[2023-05-31 13:02:41] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-31 13:02:41] INFO root fetch - processPackages [python-selve-new]: Start processing: biclustering
+[2023-05-31 13:02:41] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 13:02:42] INFO root fetch - processPackages [biclustering]: New version: [2023.5.31.3] Old Version: [2023.5.31.2]
+[2023-05-31 13:02:42] INFO root fetch - processPackages [genopyc]: Start processing: junkpy
+[2023-05-31 13:02:42] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-05-31 13:02:42] ERROR root fetch - processPackages [junkpy]: Unable to get metadata: No such project 'junkpy'
+[2023-05-31 13:02:42] INFO root fetch - main [MainThread]: End processing [junkpy] error
+[2023-05-31 13:02:42] INFO root fetch - processPackages [biclustering]: Downloading https://files.pythonhosted.org/packages/99/fa/ee02db74c3a0c71232ebecdf39e04896bb34cc308880bdbda4f530261623/biclustering-2023.5.31.2.tar.gz
+[2023-05-31 13:02:42] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-31 13:02:42] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230531/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-31 13:02:42] INFO root fetch - processPackages [biclustering]: Downloading https://files.pythonhosted.org/packages/19/26/d199f9f101f07f731998a1a732ffd73db7a6edd44342d16c8b3b46c1d8ee/biclustering-2023.5.31.3.tar.gz
+[2023-05-31 13:02:42] INFO root fetch - processPackages [biclustering]: executing diffoscope
+[2023-05-31 13:02:42] INFO root fetch - processPackages [biclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biclustering-2023.5.31.2.tar.gz tmp/biclustering-2023.5.31.3.tar.gz --markdown 20230531/b/biclustering/2023.5.31.2-2023.5.31.3/diff.md --exclude *.pyd
+[2023-05-31 13:02:42] INFO root fetch - main [MainThread]: End processing [mafese]: success
+[2023-05-31 13:02:42] INFO root fetch - main [MainThread]: End processing [colt]: success
+[2023-05-31 13:02:43] INFO root fetch - main [MainThread]: End processing [pythttp]: success
+[2023-05-31 13:02:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-companyweb-base]: success
+[2023-05-31 13:02:43] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-31 13:02:43] INFO root fetch - main [MainThread]: End processing [biclustering]: success
+[2023-05-31 13:02:44] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-05-31 13:02:44] INFO root fetch - main [MainThread]: End processing [matchms]: success
+[2023-05-31 13:02:53] INFO root fetch - main [MainThread]: End processing [domain-paas-sdk-python]: success
+[2023-05-31 13:02:53] INFO root fetch - main [MainThread]: Store serial: [18315616]
