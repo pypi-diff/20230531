@@ -2095,3 +2095,27 @@
 [2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [strongmind-platform-sdk]: success
 [2023-05-31 03:12:07] INFO root fetch - main [MainThread]: End processing [GenMine]: success
 [2023-05-31 03:12:07] INFO root fetch - main [MainThread]: Store serial: [18309406]
+[2023-05-31 03:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309406]
+[2023-05-31 03:17:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-31 03:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-05-31 03:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visier-connector
+[2023-05-31 03:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiofauna
+[2023-05-31 03:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arxivai
+[2023-05-31 03:17:16] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 03:17:16] INFO root fetch - processPackages [visier-connector]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 03:17:16] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 03:17:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-31 03:17:16] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-31 03:17:16] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230531/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 03:17:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-31 03:17:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230531/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-31 03:17:16] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-31 03:17:16] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230531/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 03:17:16] INFO root fetch - processPackages [visier-connector]: Downloading https://files.pythonhosted.org/packages/51/ab/cd3063bbd5489c4a1504ca601ab5dae2deac6993f793193e7a5b628d77e9/visier-connector-0.9.6.tar.gz
+[2023-05-31 03:17:16] INFO root fetch - processPackages [visier-connector]: executing diffoscope
+[2023-05-31 03:17:16] INFO root fetch - processPackages [visier-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visier-connector-0.9.5.tar.gz tmp/visier-connector-0.9.6.tar.gz --markdown 20230531/v/visier-connector/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 03:17:17] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-31 03:17:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-31 03:17:17] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-31 03:17:17] INFO root fetch - main [MainThread]: End processing [visier-connector]: success
+[2023-05-31 03:17:17] INFO root fetch - main [MainThread]: Store serial: [18309420]
