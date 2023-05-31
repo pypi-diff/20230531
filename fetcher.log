@@ -21694,3 +21694,102 @@
 [2023-05-31 20:13:56] INFO root fetch - main [MainThread]: End processing [rss-parser]: success
 [2023-05-31 20:13:57] INFO root fetch - main [MainThread]: End processing [mozregression]: success
 [2023-05-31 20:13:57] INFO root fetch - main [MainThread]: Store serial: [18320807]
+[2023-05-31 20:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320807]
+[2023-05-31 20:19:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experimentalist-sampler-model-disagreement
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thoughtful
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specinfer
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: urlopen2
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dwiqc
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdshoplib
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sugaru
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sosecrets-core
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numina-data-client
+[2023-05-31 20:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rain-orm
+[2023-05-31 20:19:07] INFO root fetch - processPackages [urlopen2]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-31 20:19:07] WARNING root fetch - processPackages [specinfer]: Skipping, unable to determine old version
+[2023-05-31 20:19:07] INFO root fetch - processPackages [specinfer]: Start processing: csv-scavenger
+[2023-05-31 20:19:07] INFO root fetch - main [MainThread]: End processing [specinfer] error
+[2023-05-31 20:19:07] INFO root fetch - processPackages [sosecrets-core]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [dwiqc]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 20:19:07] WARNING root fetch - processPackages [sugaru]: Skipping, unable to determine old version
+[2023-05-31 20:19:07] INFO root fetch - processPackages [sugaru]: Start processing: MPSPlots
+[2023-05-31 20:19:07] INFO root fetch - main [MainThread]: End processing [sugaru] error
+[2023-05-31 20:19:07] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [numina-data-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [rain-orm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [thoughtful]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [csv-scavenger]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [MPSPlots]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-31 20:19:07] INFO root fetch - processPackages [thoughtful]: executing diffoscope
+[2023-05-31 20:19:07] INFO root fetch - processPackages [thoughtful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtful-2.0.0rc1.tar.gz tmp/thoughtful-2.0.0rc2.tar.gz --markdown 20230531/t/thoughtful/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-05-31 20:19:07] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-05-31 20:19:07] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230531/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 20:19:07] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-05-31 20:19:07] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.8-py3-none-any.whl.zip tmp/MPSPlots-0.3.9-py3-none-any.whl.zip --markdown 20230531/M/MPSPlots/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 20:19:07] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: Downloading https://files.pythonhosted.org/packages/d0/62/50f941d5054441d7659eb04d98e2cf2572f5eafe57f32f33ad0804c648b8/autora-experimentalist-sampler-model-disagreement-1.0.0.tar.gz
+[2023-05-31 20:19:07] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/1d/07/546ae3624ca9bc16b69bb8796080bd092541025bb0604db3d15a4cacc3f3/dwiqc-0.3.9-py2.py3-none-any.whl
+[2023-05-31 20:19:07] INFO root fetch - processPackages [urlopen2]: Downloading https://files.pythonhosted.org/packages/59/03/cdfcc0177e7502b4910753867f7274820f5864fde1b8001f519150f6b9c5/urlopen2-1.2.0.tar.gz
+[2023-05-31 20:19:07] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/10/6a/269c2113340ac29d543eeaddd59f1626509e78eaf3851d5d74da5ef330e2/rain_orm-1.0.3.tar.gz
+[2023-05-31 20:19:07] INFO root fetch - processPackages [csv-scavenger]: Downloading https://files.pythonhosted.org/packages/1f/a8/3d57c9ecfede5855f1bd4aa8b14196ec4ebc267104cd30e8a1c9f8fe80c3/csv_scavenger-1.0.2.tar.gz
+[2023-05-31 20:19:08] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.3.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.3.9-py2.py3-none-any.whl.zip --markdown 20230531/d/dwiqc/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-31 20:19:08] INFO root fetch - processPackages [urlopen2]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [urlopen2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlopen2-1.1.0.tar.gz tmp/urlopen2-1.2.0.tar.gz --markdown 20230531/u/urlopen2/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-31 20:19:08] INFO root fetch - processPackages [csv-scavenger]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [csv-scavenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_scavenger-1.0.1.tar.gz tmp/csv_scavenger-1.0.2.tar.gz --markdown 20230531/c/csv-scavenger/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 20:19:08] INFO root fetch - processPackages [rain-orm]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [rain-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rain_orm-1.0.2.tar.gz tmp/rain_orm-1.0.3.tar.gz --markdown 20230531/r/rain-orm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 20:19:08] INFO root fetch - processPackages [sosecrets-core]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [sosecrets-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosecrets_core-1.0.4.tar.gz tmp/sosecrets_core-1.0.5.tar.gz --markdown 20230531/s/sosecrets-core/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-31 20:19:08] INFO root fetch - processPackages [numina-data-client]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [numina-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numina-data-client-0.8.0.tar.gz tmp/numina-data-client-0.9.0.tar.gz --markdown 20230531/n/numina-data-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 20:19:08] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: Downloading https://files.pythonhosted.org/packages/d1/73/65883a7e23c361651fa6d6a99562ff83bf5641fbd87187345a60a2e48cb5/autora-experimentalist-sampler-model-disagreement-1.0.1.tar.gz
+[2023-05-31 20:19:08] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: executing diffoscope
+[2023-05-31 20:19:08] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-sampler-model-disagreement-1.0.0.tar.gz tmp/autora-experimentalist-sampler-model-disagreement-1.0.1.tar.gz --markdown 20230531/a/autora-experimentalist-sampler-model-disagreement/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 20:19:09] INFO root fetch - processPackages [dwiqc]: Start processing: mespaint
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-31 20:19:09] INFO root fetch - processPackages [urlopen2]: Start processing: pyaarlo
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [urlopen2]: success
+[2023-05-31 20:19:09] INFO root fetch - processPackages [mespaint]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 20:19:09] INFO root fetch - processPackages [pyaarlo]: New version: [0.8.0b8] Old Version: [0.8.0b7]
+[2023-05-31 20:19:09] INFO root fetch - processPackages [MPSPlots]: Start processing: dxtils
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-05-31 20:19:09] WARNING root fetch - processPackages [dxtils]: Skipping, unable to determine old version
+[2023-05-31 20:19:09] INFO root fetch - processPackages [dxtils]: Start processing: annofabcli
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [dxtils] error
+[2023-05-31 20:19:09] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-31 20:19:09] INFO root fetch - processPackages [mespaint]: Downloading https://files.pythonhosted.org/packages/46/56/d7ffd1d2d1232bd29a0aa999caebdc648da22064744f055ff43405f4debb/mespaint-0.0.3.tar.gz
+[2023-05-31 20:19:09] INFO root fetch - processPackages [pyaarlo]: Downloading https://files.pythonhosted.org/packages/38/6c/77ae227ead8e69da5b3da87b6bec991acbd1815c3370f146428474490da2/pyaarlo-0.8.0b7.tar.gz
+[2023-05-31 20:19:09] INFO root fetch - processPackages [csv-scavenger]: Start processing: autora-experimentalist-sampler-model-disagreement
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [csv-scavenger]: success
+[2023-05-31 20:19:09] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-31 20:19:09] INFO root fetch - processPackages [rain-orm]: Start processing: ndcube
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [rain-orm]: success
+[2023-05-31 20:19:09] INFO root fetch - processPackages [ndcube]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-31 20:19:09] INFO root fetch - main [MainThread]: End processing [sosecrets-core]: success
+[2023-05-31 20:19:09] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: executing diffoscope
+[2023-05-31 20:19:09] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-sampler-model-disagreement-1.0.0.tar.gz tmp/autora-experimentalist-sampler-model-disagreement-1.0.1.tar.gz --markdown 20230531/a/autora-experimentalist-sampler-model-disagreement/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-31 20:19:10] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-05-31 20:19:10] INFO root fetch - processPackages [mespaint]: Downloading https://files.pythonhosted.org/packages/9b/33/12b53012c0ce6e67e5ef7a28ae68b611611ce289f2aecfdf4d24f54be285/mespaint-0.0.4.tar.gz
+[2023-05-31 20:19:10] INFO root fetch - main [MainThread]: End processing [thoughtful]: success
+[2023-05-31 20:19:10] INFO root fetch - processPackages [pyaarlo]: Downloading https://files.pythonhosted.org/packages/ad/f8/0078c87421b7a3bf4958cb497033cca473ed2a1bf197ce6c3f2da6ac0675/pyaarlo-0.8.0b8.tar.gz
+[2023-05-31 20:19:10] INFO root fetch - processPackages [mespaint]: executing diffoscope
+[2023-05-31 20:19:10] INFO root fetch - processPackages [mespaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mespaint-0.0.3.tar.gz tmp/mespaint-0.0.4.tar.gz --markdown 20230531/m/mespaint/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 20:19:10] INFO root fetch - processPackages [ndcube]: Downloading https://files.pythonhosted.org/packages/21/08/2378dea9b1cac17a1168a4a21c7536184b87b02983935e21666d139d214c/ndcube-2.1.1.tar.gz
+[2023-05-31 20:19:10] INFO root fetch - main [MainThread]: End processing [numina-data-client]: success
+[2023-05-31 20:19:10] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2023-05-31 20:19:10] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20230531/a/annofabcli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-31 20:19:10] INFO root fetch - processPackages [pyaarlo]: executing diffoscope
+[2023-05-31 20:19:10] INFO root fetch - processPackages [pyaarlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaarlo-0.8.0b7.tar.gz tmp/pyaarlo-0.8.0b8.tar.gz --markdown 20230531/p/pyaarlo/0.8.0b7-0.8.0b8/diff.md --exclude *.pyd
+[2023-05-31 20:19:10] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-model-disagreement]: success
+[2023-05-31 20:19:10] INFO root fetch - processPackages [ndcube]: Downloading https://files.pythonhosted.org/packages/17/7b/2bef4ce3b5ae7647d7d36461fc0397fab6a7aa9b3be02e89e732b5c1d1c2/ndcube-2.1.2.tar.gz
+[2023-05-31 20:19:10] INFO root fetch - processPackages [ndcube]: executing diffoscope
+[2023-05-31 20:19:10] INFO root fetch - processPackages [ndcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndcube-2.1.1.tar.gz tmp/ndcube-2.1.2.tar.gz --markdown 20230531/n/ndcube/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-31 20:19:11] INFO root fetch - main [MainThread]: End processing [mespaint]: success
+[2023-05-31 20:19:11] INFO root fetch - main [MainThread]: End processing [pyaarlo]: success
+[2023-05-31 20:19:11] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2023-05-31 20:19:12] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-model-disagreement]: success
+[2023-05-31 20:19:12] INFO root fetch - main [MainThread]: End processing [ndcube]: success
+[2023-05-31 20:19:12] INFO root fetch - main [MainThread]: Store serial: [18320866]
