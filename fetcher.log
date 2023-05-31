@@ -9832,3 +9832,79 @@
 [2023-05-31 09:28:51] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
 [2023-05-31 09:29:41] INFO root fetch - main [MainThread]: End processing [collective.behavior.internalnumber]: success
 [2023-05-31 09:29:41] INFO root fetch - main [MainThread]: Store serial: [18313633]
+[2023-05-31 09:34:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313633]
+[2023-05-31 09:34:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lrbenchmark
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picard
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zepben.evolve
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gauth
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muffin-peewee-aio
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otx
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytrino
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ProjectB-clientside-template-package
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mates-controller
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyNumeca
+[2023-05-31 09:34:50] INFO root fetch - processPackages [gauth]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-31 09:34:50] WARNING root fetch - processPackages [lrbenchmark]: Skipping, unable to determine old version
+[2023-05-31 09:34:50] INFO root fetch - processPackages [lrbenchmark]: Start processing: crio
+[2023-05-31 09:34:50] INFO root fetch - main [MainThread]: End processing [lrbenchmark] error
+[2023-05-31 09:34:50] INFO root fetch - processPackages [muffin-peewee-aio]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [otx]: New version: [1.3.1rc1] Old Version: [1.3.0rc1]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ProjectB-clientside-template-package]: New version: [0.6] Old Version: [0.5]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [pytrino]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [mates-controller]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [zepben.evolve]: New version: [0.35.0b9] Old Version: [0.35.0b8]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [picard]: New version: [2.9.0b1] Old Version: [2.9.0a1]
+[2023-05-31 09:34:50] ERROR root fetch - processPackages [crio]: Unable to get metadata: No such project 'crio'
+[2023-05-31 09:34:50] INFO root fetch - processPackages [crio]: Start processing: checkov
+[2023-05-31 09:34:50] INFO root fetch - main [MainThread]: End processing [crio] error
+[2023-05-31 09:34:50] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-31 09:34:50] INFO root fetch - processPackages [gauth]: Downloading https://files.pythonhosted.org/packages/97/d9/f9b4e55379b8873c03c372180526707b18fda3a4539a0a8270fe18714b16/gauth-1.0.1.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [pytrino]: Downloading https://files.pythonhosted.org/packages/f8/8d/c6513dfa010174f5fd250f041cc1d65981429fa6e131f33993823235b890/pytrino-0.0.1.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-31 09:34:50] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230531/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-31 09:34:50] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/d5/a636e8a8df10fc477e69a4d9d0bfb35ec2c82b689e08e2981018efdbc040/muffin-peewee-aio-0.9.5.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [mates-controller]: Downloading https://files.pythonhosted.org/packages/df/22/c488fab68852f196ec03bafc7bf935418d1f67f8b9926d59a2b72a2f955d/mates-controller-1.0.8.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [picard]: Downloading https://files.pythonhosted.org/packages/64/81/1f2f93bdf63221b29ae1745d7ae11fd170f5909c3c95f1442f487788a64f/picard-2.9.0a1.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/89/fb/5d31105c58a43eb63084420ac7fa65e3e3085361c4a479b698eaf25c8549/PyNumeca-v0.0.8.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Downloading https://files.pythonhosted.org/packages/81/38/eb0ceac33d9434055a1cd09501c438a24c7c9d625aef77c836565fdc91d4/ProjectB_clientside_template_package-0.6.tar.gz
+[2023-05-31 09:34:50] INFO root fetch - processPackages [pytrino]: Downloading https://files.pythonhosted.org/packages/52/44/eb3706f3422f434662a8b5f46de28d4cb14f783be878cf27e98b7d0e5c7b/pytrino-0.0.2.tar.gz
+[2023-05-31 09:34:51] INFO root fetch - processPackages [gauth]: Downloading https://files.pythonhosted.org/packages/11/27/5c61739364306c9981238c2299d91836e93e4bf3f8714a8e58dc9375317b/gauth-1.0.2.tar.gz
+[2023-05-31 09:34:51] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/87/9a/f58a53762523e0b43661880f38a5f5087f562c83c8f00ff65bcf085fdad0/otx-1.3.1rc1.tar.gz
+[2023-05-31 09:34:51] INFO root fetch - processPackages [zepben.evolve]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [zepben.evolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.evolve-0.35.0b8-py3-none-any.whl.zip tmp/zepben.evolve-0.35.0b9-py3-none-any.whl.zip --markdown 20230531/z/zepben.evolve/0.35.0b8-0.35.0b9/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [ProjectB-clientside-template-package]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [ProjectB-clientside-template-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjectB_clientside_template_package-0.5.tar.gz tmp/ProjectB_clientside_template_package-0.6.tar.gz --markdown 20230531/P/ProjectB-clientside-template-package/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [gauth]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [gauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth-1.0.1.tar.gz tmp/gauth-1.0.2.tar.gz --markdown 20230531/g/gauth/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/cb/4d/71bb3aa775b0b7b13bf2bbd7a68930a1eecebedea249b0604b0c4535c3b1/PyNumeca-v0.0.9.tar.gz
+[2023-05-31 09:34:51] INFO root fetch - processPackages [pytrino]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [pytrino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrino-0.0.1.tar.gz tmp/pytrino-0.0.2.tar.gz --markdown 20230531/p/pytrino/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [mates-controller]: Downloading https://files.pythonhosted.org/packages/71/f9/5480c8d079b54b47e82ed83e72ccc0a8585dbd5f2e68fd33b839ae0038dc/mates-controller-1.0.9.tar.gz
+[2023-05-31 09:34:51] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/39/ad/8d3dd8e528325c72abcd5e16c902b2a6a2b3ec882e5710e06cdbbcbd1a4b/muffin-peewee-aio-0.9.6.tar.gz
+[2023-05-31 09:34:51] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230531/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [mates-controller]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [mates-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mates-controller-1.0.8.tar.gz tmp/mates-controller-1.0.9.tar.gz --markdown 20230531/m/mates-controller/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [muffin-peewee-aio]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [muffin-peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-peewee-aio-0.9.5.tar.gz tmp/muffin-peewee-aio-0.9.6.tar.gz --markdown 20230531/m/muffin-peewee-aio/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 09:34:51] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-05-31 09:34:51] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.3.0rc1.tar.gz tmp/otx-1.3.1rc1.tar.gz --markdown 20230531/o/otx/1.3.0rc1-1.3.1rc1/diff.md --exclude *.pyd
+[2023-05-31 09:34:52] INFO root fetch - processPackages [picard]: Downloading https://files.pythonhosted.org/packages/45/90/720ce1e76e150b6efec668a9e9d6b93dea4cb3b9e1319fda6d4b86f2bbcc/picard-2.9.0b1.tar.gz
+[2023-05-31 09:34:52] INFO root fetch - processPackages [picard]: executing diffoscope
+[2023-05-31 09:34:52] INFO root fetch - processPackages [picard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picard-2.9.0a1.tar.gz tmp/picard-2.9.0b1.tar.gz --markdown 20230531/p/picard/2.9.0a1-2.9.0b1/diff.md --exclude *.pyd
+[2023-05-31 09:34:52] INFO root fetch - processPackages [gauth]: Start processing: crio
+[2023-05-31 09:34:52] INFO root fetch - main [MainThread]: End processing [gauth]: success
+[2023-05-31 09:34:52] ERROR root fetch - processPackages [crio]: Unable to get metadata: No such project 'crio'
+[2023-05-31 09:34:52] INFO root fetch - main [MainThread]: End processing [crio] error
+[2023-05-31 09:34:52] INFO root fetch - main [MainThread]: End processing [pytrino]: success
+[2023-05-31 09:34:52] INFO root fetch - main [MainThread]: End processing [ProjectB-clientside-template-package]: success
+[2023-05-31 09:34:52] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-05-31 09:34:52] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio]: success
+[2023-05-31 09:34:53] INFO root fetch - main [MainThread]: End processing [mates-controller]: success
+[2023-05-31 09:34:54] INFO root fetch - main [MainThread]: End processing [zepben.evolve]: success
+[2023-05-31 09:35:16] INFO root fetch - main [MainThread]: End processing [picard]: success
+[2023-05-31 09:35:30] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-05-31 09:35:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-31 09:35:34] INFO root fetch - main [MainThread]: Store serial: [18313677]
