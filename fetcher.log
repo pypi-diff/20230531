@@ -11783,3 +11783,90 @@
 [2023-05-31 11:30:28] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
 [2023-05-31 11:31:16] INFO root fetch - main [MainThread]: End processing [kodexa]: success
 [2023-05-31 11:31:16] INFO root fetch - main [MainThread]: Store serial: [18314772]
+[2023-05-31 11:36:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314772]
+[2023-05-31 11:36:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argparse-subcommand
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orkg
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlc-tools
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: empymod
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragger
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlopsrobotics
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-target-bigquery
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: playmolecule
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nextguild
+[2023-05-31 11:36:25] INFO root fetch - processPackages [empymod]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-31 11:36:25] WARNING root fetch - processPackages [argparse-subcommand]: Skipping, unable to determine old version
+[2023-05-31 11:36:25] INFO root fetch - processPackages [argparse-subcommand]: Start processing: titan-iris
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ragger]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-31 11:36:25] INFO root fetch - main [MainThread]: End processing [argparse-subcommand] error
+[2023-05-31 11:36:25] WARNING root fetch - processPackages [mlopsrobotics]: Skipping, unable to determine old version
+[2023-05-31 11:36:25] INFO root fetch - processPackages [mlopsrobotics]: Start processing: modelskill
+[2023-05-31 11:36:25] INFO root fetch - main [MainThread]: End processing [mlopsrobotics] error
+[2023-05-31 11:36:25] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [nextguild]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [orkg]: New version: [0.9.2] Old Version: [0.9]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [playmolecule]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-05-31 11:36:25] WARNING root fetch - processPackages [modelskill]: Skipping, unable to determine old version
+[2023-05-31 11:36:25] INFO root fetch - processPackages [modelskill]: Start processing: defi-services-lib
+[2023-05-31 11:36:25] INFO root fetch - main [MainThread]: End processing [modelskill] error
+[2023-05-31 11:36:25] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [defi-services-lib]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 11:36:25] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.8.tar.gz tmp/macrometa-target-bigquery-0.0.9.tar.gz --markdown 20230531/m/macrometa-target-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [empymod]: Downloading https://files.pythonhosted.org/packages/2f/a9/64a182b5b302ca6b2f99866c8b67abec33b934fabe94b1097a3add28e6b4/empymod-2.2.1.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/b9/27/afda88bd8fae9eb299f91247d63f4c59bdeb6559210a79843dc6cffe3b41/playmolecule-1.8.6.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/85/56/f1bb369a314da6c8861b07d1b76fbeb54d2d1109e8654eb239e8140b0c4c/ragger-1.8.0.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [defi-services-lib]: Downloading https://files.pythonhosted.org/packages/d4/96/bc25d731da66c54ec2f1d7f007b141cc60aa88abe1287bcc65918381514d/defi-services-lib-1.0.6.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230531/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230531/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230531/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [defi-services-lib]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [defi-services-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defi-services-lib-1.0.5.tar.gz tmp/defi-services-lib-1.0.6.tar.gz --markdown 20230531/d/defi-services-lib/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/50/dc/c62254fef40d23ef739365e02098f4ce20b6674d95741c06b7cff1141545/nextguild-1.1.5.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/54/3d/6d27d31ba8980c8dfe547750b5f76805bceeaa38a15b248a8a4071ab5b3c/playmolecule-1.8.7.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [orkg]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [orkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orkg-0.9.tar.gz tmp/orkg-0.9.2.tar.gz --markdown 20230531/o/orkg/0.9-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.1.4.tar.gz tmp/nextguild-1.1.5.tar.gz --markdown 20230531/n/nextguild/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/76/cd/5c3771acaf49a8750f5bbef410d85aa521ec40d52b70dbba369538e117b4/ragger-1.8.1.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.6.tar.gz tmp/playmolecule-1.8.7.tar.gz --markdown 20230531/p/playmolecule/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [empymod]: Downloading https://files.pythonhosted.org/packages/ca/04/c80c394d368728cc0bf50ac98d45d25ca24adf3b0456f53d3845995f8074/empymod-2.2.2.tar.gz
+[2023-05-31 11:36:25] INFO root fetch - processPackages [empymod]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [empymod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empymod-2.2.1.tar.gz tmp/empymod-2.2.2.tar.gz --markdown 20230531/e/empymod/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-05-31 11:36:25] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.8.0.tar.gz tmp/ragger-1.8.1.tar.gz --markdown 20230531/r/ragger/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-31 11:36:27] INFO root fetch - processPackages [titan-iris]: Start processing: kodexa
+[2023-05-31 11:36:27] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-31 11:36:27] INFO root fetch - processPackages [kodexa]: New version: [6.2.25131219962] Old Version: [6.2.25131147355]
+[2023-05-31 11:36:27] INFO root fetch - processPackages [orkg]: Start processing: clearml
+[2023-05-31 11:36:27] INFO root fetch - main [MainThread]: End processing [orkg]: success
+[2023-05-31 11:36:27] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2023-05-31 11:36:27] INFO root fetch - processPackages [nextguild]: Start processing: playmolecule
+[2023-05-31 11:36:27] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-05-31 11:36:27] INFO root fetch - processPackages [playmolecule]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-05-31 11:36:27] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2023-05-31 11:36:27] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20230531/c/clearml/1.9.2rc2-1.9.3/diff.md --exclude *.pyd
+[2023-05-31 11:36:27] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/92/c5/085d00a0f0589e6de2d99d1608be1baa60fe9f76d3db78abf5ade67422e5/kodexa-6.2.25131219962.tar.gz
+[2023-05-31 11:36:27] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-31 11:36:27] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.25131147355.tar.gz tmp/kodexa-6.2.25131219962.tar.gz --markdown 20230531/k/kodexa/6.2.25131147355-6.2.25131219962/diff.md --exclude *.pyd
+[2023-05-31 11:36:27] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/db/49/a3a3cc02e3fa2b99a1bd35d236a14280c78874ca8c4bea6360120e4cf254/playmolecule-1.8.8.tar.gz
+[2023-05-31 11:36:27] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-05-31 11:36:27] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-31 11:36:27] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.7.tar.gz tmp/playmolecule-1.8.8.tar.gz --markdown 20230531/p/playmolecule/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-05-31 11:36:27] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-31 11:36:27] INFO root fetch - main [MainThread]: End processing [empymod]: success
+[2023-05-31 11:36:28] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-31 11:36:28] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-31 11:36:28] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-31 11:36:28] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-31 11:36:29] INFO root fetch - main [MainThread]: End processing [defi-services-lib]: success
+[2023-05-31 11:36:29] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-05-31 11:36:30] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2023-05-31 11:36:30] INFO root fetch - main [MainThread]: Store serial: [18314833]
