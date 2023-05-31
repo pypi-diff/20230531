@@ -20468,3 +20468,80 @@
 [2023-05-31 18:47:23] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2023-05-31 18:47:24] INFO root fetch - main [MainThread]: End processing [chipsec]: success
 [2023-05-31 18:47:24] INFO root fetch - main [MainThread]: Store serial: [18320073]
+[2023-05-31 18:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320073]
+[2023-05-31 18:52:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oqtant
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-ansible
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphpro
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h2o-mlops-scoring-client
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morecantile
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DE-DataBaseConnect
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lib310-lite
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: x-transformers
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: truss
+[2023-05-31 18:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bert-schemas
+[2023-05-31 18:52:33] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [morecantile]: New version: [4.0.1] Old Version: [4.0.0a1]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [oqtant]: New version: [0.15.0] Old Version: [0.14.4]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [mkdocs-ansible]: New version: [0.1.dev2] Old Version: [0.1.6]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [h2o-mlops-scoring-client]: New version: [0.0.8b1] Old Version: [0.0.7b1]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [bert-schemas]: New version: [1.18.2] Old Version: [1.18.0]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [graphpro]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 18:52:33] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 18:52:33] INFO root fetch - processPackages [truss]: New version: [0.4.6rc3] Old Version: [0.4.6rc2]
+[2023-05-31 18:52:33] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-31 18:52:34] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DE_DataBaseConnect-0.0.66.tar.gz tmp/DE_DataBaseConnect-0.0.67.tar.gz --markdown 20230531/D/DE-DataBaseConnect/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-4.0.0a1.tar.gz tmp/morecantile-4.0.1.tar.gz --markdown 20230531/m/morecantile/4.0.0a1-4.0.1/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [mkdocs-ansible]: Downloading https://files.pythonhosted.org/packages/3c/94/a926f22ab39c980e1b24c5f231feac91d28853a32a16823eb628543ba63d/mkdocs-ansible-0.1.6.tar.gz
+[2023-05-31 18:52:34] INFO root fetch - processPackages [graphpro]: Downloading https://files.pythonhosted.org/packages/27/60/427b0209dbbf906c95a4db95b0c495e4b8a30e88aceaefa95f49e99ddabb/graphpro-0.3.3.tar.gz
+[2023-05-31 18:52:34] INFO root fetch - processPackages [oqtant]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [oqtant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oqtant-0.14.4.tar.gz tmp/oqtant-0.15.0.tar.gz --markdown 20230531/o/oqtant/0.14.4-0.15.0/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [bert-schemas]: Downloading https://files.pythonhosted.org/packages/ab/09/f1f408da221146393e036c49d1682ecfc1eb29c7e9349983597cb5537dd1/bert_schemas-1.18.2.tar.gz
+[2023-05-31 18:52:34] INFO root fetch - processPackages [h2o-mlops-scoring-client]: Downloading https://files.pythonhosted.org/packages/9c/e2/e1f41cffc0da34b2b566cf17e01b4923b1ab5a3c5e9555815569c0af97cc/h2o_mlops_scoring_client-0.0.8b1-py3-none-any.whl
+[2023-05-31 18:52:34] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230531/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [bert-schemas]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [bert-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert_schemas-1.18.0.tar.gz tmp/bert_schemas-1.18.2.tar.gz --markdown 20230531/b/bert-schemas/1.18.0-1.18.2/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [mkdocs-ansible]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [mkdocs-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ansible-0.1.6.tar.gz tmp/mkdocs-ansible-0.1.dev2.tar.gz --markdown 20230531/m/mkdocs-ansible/0.1.6-0.1.dev2/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.6rc2.tar.gz tmp/truss-0.4.6rc3.tar.gz --markdown 20230531/t/truss/0.4.6rc2-0.4.6rc3/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [h2o-mlops-scoring-client]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [h2o-mlops-scoring-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_mlops_scoring_client-0.0.7b1-py3-none-any.whl.zip tmp/h2o_mlops_scoring_client-0.0.8b1-py3-none-any.whl.zip --markdown 20230531/h/h2o-mlops-scoring-client/0.0.7b1-0.0.8b1/diff.md --exclude *.pyd
+[2023-05-31 18:52:34] INFO root fetch - processPackages [graphpro]: Downloading https://files.pythonhosted.org/packages/6d/7f/c17dd923589a59d7384d37893944841ae290891485c9c9de3d288433acdd/graphpro-0.3.4.tar.gz
+[2023-05-31 18:52:34] INFO root fetch - processPackages [graphpro]: executing diffoscope
+[2023-05-31 18:52:34] INFO root fetch - processPackages [graphpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphpro-0.3.3.tar.gz tmp/graphpro-0.3.4.tar.gz --markdown 20230531/g/graphpro/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-31 18:52:35] INFO root fetch - processPackages [lib310-lite]: Start processing: hm-framework
+[2023-05-31 18:52:35] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 18:52:35] INFO root fetch - processPackages [morecantile]: Start processing: rpamaker
+[2023-05-31 18:52:35] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-05-31 18:52:35] WARNING root fetch - processPackages [hm-framework]: Skipping, unable to determine old version
+[2023-05-31 18:52:35] INFO root fetch - processPackages [hm-framework]: Start processing: wifi-guard
+[2023-05-31 18:52:35] INFO root fetch - main [MainThread]: End processing [hm-framework] error
+[2023-05-31 18:52:35] WARNING root fetch - processPackages [wifi-guard]: Skipping, unable to determine old version
+[2023-05-31 18:52:35] INFO root fetch - processPackages [wifi-guard]: Start processing: mikan-card-downloader
+[2023-05-31 18:52:35] INFO root fetch - main [MainThread]: End processing [wifi-guard] error
+[2023-05-31 18:52:35] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 18:52:35] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2023-05-31 18:52:35] INFO root fetch - processPackages [mikan-card-downloader]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-31 18:52:35] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-05-31 18:52:35] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-31 18:52:36] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/a3/1e/5509a109d9e15010e040d4e70deba3e7bedc4229f39ef598fb640efb795b/mikan_card_downloader-1.1.2.tar.gz
+[2023-05-31 18:52:36] INFO root fetch - main [MainThread]: End processing [mkdocs-ansible]: success
+[2023-05-31 18:52:36] INFO root fetch - main [MainThread]: End processing [h2o-mlops-scoring-client]: success
+[2023-05-31 18:52:36] INFO root fetch - processPackages [mikan-card-downloader]: executing diffoscope
+[2023-05-31 18:52:36] INFO root fetch - processPackages [mikan-card-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikan_card_downloader-1.1.1.tar.gz tmp/mikan_card_downloader-1.1.2.tar.gz --markdown 20230531/m/mikan-card-downloader/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-31 18:52:36] INFO root fetch - main [MainThread]: End processing [bert-schemas]: success
+[2023-05-31 18:52:36] INFO root fetch - main [MainThread]: End processing [graphpro]: success
+[2023-05-31 18:52:36] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-05-31 18:52:36] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-05-31 18:52:36] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230531/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 18:52:36] INFO root fetch - main [MainThread]: End processing [oqtant]: success
+[2023-05-31 18:52:37] INFO root fetch - main [MainThread]: End processing [mikan-card-downloader]: success
+[2023-05-31 18:52:37] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-05-31 18:52:38] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-05-31 18:52:38] INFO root fetch - main [MainThread]: Store serial: [18320115]
