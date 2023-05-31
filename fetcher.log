@@ -14122,3 +14122,117 @@
 [2023-05-31 13:55:23] INFO root fetch - main [MainThread]: End processing [csle-cluster]: success
 [2023-05-31 13:55:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-pos]: success
 [2023-05-31 13:55:30] INFO root fetch - main [MainThread]: Store serial: [18316216]
+[2023-05-31 14:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316216]
+[2023-05-31 14:00:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnd-cr-object
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyone
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bvz-distributions
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cached-conv
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycrux
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paketmutfak
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hukudo
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: insight-python-linux
+[2023-05-31 14:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pginter
+[2023-05-31 14:00:39] INFO root fetch - processPackages [pyone]: New version: [6.6.2] Old Version: [6.6.1]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [insight-python-linux]: New version: [4.4.0] Old Version: [4.3.2]
+[2023-05-31 14:00:39] WARNING root fetch - processPackages [bvz-distributions]: Skipping, unable to determine old version
+[2023-05-31 14:00:39] INFO root fetch - processPackages [cached-conv]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [bvz-distributions]: Start processing: kaskada
+[2023-05-31 14:00:39] INFO root fetch - main [MainThread]: End processing [bvz-distributions] error
+[2023-05-31 14:00:39] INFO root fetch - processPackages [cnd-cr-object]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [pginter]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [pycrux]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [hukudo]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [kaskada]: New version: [0.4.0] Old Version: [0.2.0]
+[2023-05-31 14:00:39] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-05-31 14:00:39] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230531/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:00:39] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-31 14:00:39] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230531/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-31 14:00:39] INFO root fetch - processPackages [cached-conv]: Downloading https://files.pythonhosted.org/packages/83/61/2e1fc7c79c037408bf4b29f342370d68af0d64930b3103f2d34daf411408/cached_conv-2.4.1-py3-none-any.whl
+[2023-05-31 14:00:39] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/7c/e9/48d7bae48e2effd33dc95ba5e8f69ef03eacb2284ef4c3099d5c40b126b2/insight_python_linux-4.3.2.tar.gz
+[2023-05-31 14:00:39] INFO root fetch - processPackages [pyone]: Downloading https://files.pythonhosted.org/packages/4d/14/79e03275f836aabbd9178fd2facb2f38941087d4b8ff9a1657ad3a121d3d/pyone-6.6.1.tar.gz
+[2023-05-31 14:00:39] INFO root fetch - processPackages [pycrux]: Downloading https://files.pythonhosted.org/packages/77/75/aa9aea9ddc5acab6c353ad155eb830f44277fdacb9c5a884e7a8d87dca05/pycrux-0.4.0.tar.gz
+[2023-05-31 14:00:39] INFO root fetch - processPackages [pginter]: Downloading https://files.pythonhosted.org/packages/b2/54/3b3fc144b748e197c199e4733ec37517cb4e592f6daf2f6d4022309790b5/pginter-0.1.0.tar.gz
+[2023-05-31 14:00:39] INFO root fetch - processPackages [kaskada]: Downloading https://files.pythonhosted.org/packages/18/a3/a59c801b7d2b8f5604eae6398f09e25353c37669088ecf6b9845ec638f18/kaskada-0.2.0.tar.gz
+[2023-05-31 14:00:39] INFO root fetch - processPackages [hukudo]: Downloading https://files.pythonhosted.org/packages/b4/26/5ce360cc2d8480273bb9d73c921c50f2a394ed145a970046b1d8cdb97d61/hukudo-3.1.0.tar.gz
+[2023-05-31 14:00:39] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 81645687>=10485760
+[2023-05-31 14:00:39] INFO root fetch - processPackages [insight-python-linux]: Start processing: odoo-addon-account-fiscal-year
+[2023-05-31 14:00:39] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2023-05-31 14:00:39] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.3]
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pycrux]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pycrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrux-0.3.0.tar.gz tmp/pycrux-0.4.0.tar.gz --markdown 20230531/p/pycrux/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [cnd-cr-object]: Downloading https://files.pythonhosted.org/packages/4f/72/bfa2785573e79f108f9e3d8cdeb39ca2869011c82885a912869b4fb9e9b8/cnd_cr_object-0.2.1-py3-none-any.whl
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pginter]: Downloading https://files.pythonhosted.org/packages/f7/ed/967dad28ec4ed6bfc861ede494f14d14632f63c1f2b91abbf2207c56f16d/pginter-0.2.0.tar.gz
+[2023-05-31 14:00:40] INFO root fetch - processPackages [cnd-cr-object]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [cnd-cr-object]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnd_cr_object-0.2.0-py3-none-any.whl.zip tmp/cnd_cr_object-0.2.1-py3-none-any.whl.zip --markdown 20230531/c/cnd-cr-object/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pginter]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pginter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pginter-0.1.0.tar.gz tmp/pginter-0.2.0.tar.gz --markdown 20230531/p/pginter/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [cached-conv]: Downloading https://files.pythonhosted.org/packages/eb/bf/4828926731beea8c1863bcd71c101201612a0999b3d5cab85168022a9ca5/cached_conv-2.5.0.tar.gz
+[2023-05-31 14:00:40] INFO root fetch - processPackages [kaskada]: Downloading https://files.pythonhosted.org/packages/98/4a/67b15115409b122d23993aa60af7eeec40c021485311d9295b83ccc46098/kaskada-0.4.0.tar.gz
+[2023-05-31 14:00:40] INFO root fetch - processPackages [hukudo]: Downloading https://files.pythonhosted.org/packages/68/11/dedd00c7d19745238cad0e3c05cf49198bbe46c9cca2124d6f6d42d9acf8/hukudo-3.2.0.tar.gz
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pyone]: Downloading https://files.pythonhosted.org/packages/5e/1c/dd84293906f7c0b9c2e396687a1865bd9fae875de7bfb9b2fac78501acab/pyone-6.6.2.tar.gz
+[2023-05-31 14:00:40] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: Downloading https://files.pythonhosted.org/packages/64/db/9f45b476492e4176e44495d934274f89aa648ecea438fc321ee56ae34dee/odoo_addon_account_fiscal_year-16.0.1.1.0-py3-none-any.whl
+[2023-05-31 14:00:40] INFO root fetch - processPackages [kaskada]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [kaskada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaskada-0.2.0.tar.gz tmp/kaskada-0.4.0.tar.gz --markdown 20230531/k/kaskada/0.2.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [odoo-addon-account-fiscal-year]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_fiscal_year-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_account_fiscal_year-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-account-fiscal-year/16.0.1.0.1.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pyone]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [pyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyone-6.6.1.tar.gz tmp/pyone-6.6.2.tar.gz --markdown 20230531/p/pyone/6.6.1-6.6.2/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [cached-conv]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [cached-conv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cached_conv-2.4.1-py3-none-any.whl.zip tmp/cached_conv-2.5.0.tar.gz --markdown 20230531/c/cached-conv/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:40] INFO root fetch - processPackages [hukudo]: executing diffoscope
+[2023-05-31 14:00:40] INFO root fetch - processPackages [hukudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hukudo-3.1.0.tar.gz tmp/hukudo-3.2.0.tar.gz --markdown 20230531/h/hukudo/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:41] INFO root fetch - processPackages [paketmutfak]: Start processing: gmsad
+[2023-05-31 14:00:41] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-05-31 14:00:41] INFO root fetch - processPackages [gmsad]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 14:00:41] INFO root fetch - processPackages [gmsad]: Downloading https://files.pythonhosted.org/packages/d0/da/70a8294611d899634441002caf51caddc21667ef8314b6dfde52d9191085/gmsad-0.0.1.tar.gz
+[2023-05-31 14:00:41] INFO root fetch - processPackages [pycrux]: Start processing: xia-user
+[2023-05-31 14:00:41] INFO root fetch - main [MainThread]: End processing [pycrux]: success
+[2023-05-31 14:00:41] INFO root fetch - processPackages [xia-user]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 14:00:41] INFO root fetch - processPackages [cnd-cr-object]: Start processing: HierarchiaPy
+[2023-05-31 14:00:41] INFO root fetch - main [MainThread]: End processing [cnd-cr-object]: success
+[2023-05-31 14:00:41] INFO root fetch - processPackages [HierarchiaPy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-31 14:00:41] INFO root fetch - processPackages [gmsad]: Downloading https://files.pythonhosted.org/packages/74/1f/f049444ea7f220a8a7f3df1b33987b34edbf9e7db5c30645095f0693549d/gmsad-0.0.2.tar.gz
+[2023-05-31 14:00:41] INFO root fetch - processPackages [gmsad]: executing diffoscope
+[2023-05-31 14:00:41] INFO root fetch - processPackages [gmsad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsad-0.0.1.tar.gz tmp/gmsad-0.0.2.tar.gz --markdown 20230531/g/gmsad/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 14:00:41] INFO root fetch - processPackages [cached-conv]: Start processing: sequence-modelling
+[2023-05-31 14:00:41] INFO root fetch - main [MainThread]: End processing [cached-conv]: success
+[2023-05-31 14:00:41] INFO root fetch - processPackages [sequence-modelling]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 14:00:41] INFO root fetch - processPackages [HierarchiaPy]: Downloading https://files.pythonhosted.org/packages/d5/ba/5afd995002cdaf3554b9833810efe6f72a803c9ecda0001523a87848f78e/HierarchiaPy-0.2.5.tar.gz
+[2023-05-31 14:00:41] INFO root fetch - processPackages [xia-user]: executing diffoscope
+[2023-05-31 14:00:41] INFO root fetch - processPackages [xia-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_user-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_user-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230531/x/xia-user/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:00:41] INFO root fetch - processPackages [sequence-modelling]: Downloading https://files.pythonhosted.org/packages/79/f4/d059cb88fa7b72382d330c40554edbfbef6e5be81f82b59ccbcd59e596dd/sequence_modelling-0.1.2.tar.gz
+[2023-05-31 14:00:41] INFO root fetch - processPackages [hukudo]: Start processing: cimsparql
+[2023-05-31 14:00:41] INFO root fetch - main [MainThread]: End processing [hukudo]: success
+[2023-05-31 14:00:41] INFO root fetch - processPackages [cimsparql]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-05-31 14:00:41] INFO root fetch - processPackages [pginter]: Start processing: betfairutil
+[2023-05-31 14:00:41] INFO root fetch - main [MainThread]: End processing [pginter]: success
+[2023-05-31 14:00:42] INFO root fetch - processPackages [HierarchiaPy]: Downloading https://files.pythonhosted.org/packages/62/44/2a6d0c5d571b53cdf45089c18e9dfd2008e04455c48ccb665b25362bc2d0/HierarchiaPy-0.2.6.tar.gz
+[2023-05-31 14:00:42] INFO root fetch - processPackages [HierarchiaPy]: executing diffoscope
+[2023-05-31 14:00:42] INFO root fetch - processPackages [HierarchiaPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HierarchiaPy-0.2.5.tar.gz tmp/HierarchiaPy-0.2.6.tar.gz --markdown 20230531/H/HierarchiaPy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-31 14:00:42] INFO root fetch - processPackages [betfairutil]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-31 14:00:42] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/d3/e9/f67a5de0152c0893485baaad30e4808ee049c0cf240bb0da4c064a1be767/cimsparql-2.7.2.tar.gz
+[2023-05-31 14:00:42] INFO root fetch - processPackages [sequence-modelling]: Downloading https://files.pythonhosted.org/packages/65/04/f0ed9771b15fbe2539015eb39bd9ebf93336df4347ec1120183a47441b9a/sequence_modelling-0.1.3.tar.gz
+[2023-05-31 14:00:42] INFO root fetch - processPackages [sequence-modelling]: executing diffoscope
+[2023-05-31 14:00:42] INFO root fetch - processPackages [sequence-modelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequence_modelling-0.1.2.tar.gz tmp/sequence_modelling-0.1.3.tar.gz --markdown 20230531/s/sequence-modelling/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-31 14:00:42] INFO root fetch - processPackages [betfairutil]: Downloading https://files.pythonhosted.org/packages/c9/b4/954ee92cfea23888efac91fc99ebd42023db41d0de979c99ed3c8fbff3a0/betfairutil-0.5.1.tar.gz
+[2023-05-31 14:00:42] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/8b/5e/d94a02bb909b91d04d726a8b94205c7296bdf446ff5fa9be077969d74dbd/cimsparql-2.7.3.tar.gz
+[2023-05-31 14:00:42] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2023-05-31 14:00:42] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-2.7.2.tar.gz tmp/cimsparql-2.7.3.tar.gz --markdown 20230531/c/cimsparql/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-05-31 14:00:42] INFO root fetch - processPackages [betfairutil]: Downloading https://files.pythonhosted.org/packages/24/17/1b5b0ec25504d984440941215de45eb527ab50d262d010142dbffa6ae966/betfairutil-0.6.0.tar.gz
+[2023-05-31 14:00:42] INFO root fetch - processPackages [betfairutil]: executing diffoscope
+[2023-05-31 14:00:42] INFO root fetch - processPackages [betfairutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfairutil-0.5.1.tar.gz tmp/betfairutil-0.6.0.tar.gz --markdown 20230531/b/betfairutil/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-31 14:00:42] INFO root fetch - main [MainThread]: End processing [pyone]: success
+[2023-05-31 14:00:43] INFO root fetch - main [MainThread]: End processing [xia-user]: success
+[2023-05-31 14:00:43] INFO root fetch - main [MainThread]: End processing [kaskada]: success
+[2023-05-31 14:00:43] INFO root fetch - main [MainThread]: End processing [gmsad]: success
+[2023-05-31 14:00:43] INFO root fetch - main [MainThread]: End processing [HierarchiaPy]: success
+[2023-05-31 14:00:43] INFO root fetch - main [MainThread]: End processing [sequence-modelling]: success
+[2023-05-31 14:00:44] INFO root fetch - main [MainThread]: End processing [betfairutil]: success
+[2023-05-31 14:00:44] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2023-05-31 14:00:45] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-31 14:01:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-fiscal-year]: success
+[2023-05-31 14:01:30] INFO root fetch - main [MainThread]: Store serial: [18316270]
