@@ -8210,3 +8210,44 @@
 [2023-05-31 06:58:58] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-product-set]: success
 [2023-05-31 06:58:58] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
 [2023-05-31 06:58:58] INFO root fetch - main [MainThread]: Store serial: [18312585]
+[2023-05-31 07:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312585]
+[2023-05-31 07:04:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qlapi
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-utilities
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplicial-kuramoto
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cabinet
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SPRT-TANDEM
+[2023-05-31 07:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WebtoonScraper
+[2023-05-31 07:04:08] INFO root fetch - processPackages [simplicial-kuramoto]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 07:04:08] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 07:04:08] INFO root fetch - processPackages [cabinet]: New version: [2023.5.31.1] Old Version: [2023.5.30.1]
+[2023-05-31 07:04:08] INFO root fetch - processPackages [qlapi]: New version: [0.1.5.1] Old Version: [0.1.5]
+[2023-05-31 07:04:08] WARNING root fetch - processPackages [SPRT-TANDEM]: Skipping, unable to determine old version
+[2023-05-31 07:04:08] INFO root fetch - main [MainThread]: End processing [SPRT-TANDEM] error
+[2023-05-31 07:04:08] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230526] Old Version: [23.8.0a230525]
+[2023-05-31 07:04:08] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:04:08] INFO root fetch - processPackages [simplicial-kuramoto]: Downloading https://files.pythonhosted.org/packages/22/e3/e2ccbf2c0c0e534463cc3cf54706d11248c0f08e91f813e6f70b6b851928/simplicial-kuramoto-0.0.1.tar.gz
+[2023-05-31 07:04:08] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-31 07:04:08] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230525.tar.gz tmp/dask-cuda-23.8.0a230526.tar.gz --markdown 20230531/d/dask-cuda/23.8.0a230525-23.8.0a230526/diff.md --exclude *.pyd
+[2023-05-31 07:04:09] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/a9/c7/1f4fc382a45229bf84c65b35a93523fc241153c808cc31af441acd05efdf/cabinet-2023.5.31.1.tar.gz
+[2023-05-31 07:04:09] INFO root fetch - processPackages [qlapi]: Downloading https://files.pythonhosted.org/packages/cf/f2/0bb8ab34c938884bdf453311e87334b4f58947a0f68b3c546f2f2e4d4176/qlapi-0.1.5.1.tar.gz
+[2023-05-31 07:04:09] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/e0/2b/ce1d43af4b5abc2c6dfe690a4633f989b5361c6f265e87f51e18c24fbd80/abstract_utilities-0.0.8.tar.gz
+[2023-05-31 07:04:09] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-05-31 07:04:09] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.5.30.1.tar.gz tmp/cabinet-2023.5.31.1.tar.gz --markdown 20230531/c/cabinet/2023.5.30.1-2023.5.31.1/diff.md --exclude *.pyd
+[2023-05-31 07:04:09] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 07:04:09] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.7.tar.gz tmp/abstract_utilities-0.0.8.tar.gz --markdown 20230531/a/abstract-utilities/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 07:04:09] INFO root fetch - processPackages [simplicial-kuramoto]: Downloading https://files.pythonhosted.org/packages/45/36/d5509db03fd2cb02b5efd1b4fee0fb08afbb72c29e98e47354c87bd9c139/simplicial-kuramoto-0.0.2.tar.gz
+[2023-05-31 07:04:09] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-31 07:04:09] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230531/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:04:09] INFO root fetch - processPackages [simplicial-kuramoto]: executing diffoscope
+[2023-05-31 07:04:09] INFO root fetch - processPackages [simplicial-kuramoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplicial-kuramoto-0.0.1.tar.gz tmp/simplicial-kuramoto-0.0.2.tar.gz --markdown 20230531/s/simplicial-kuramoto/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 07:04:09] INFO root fetch - processPackages [qlapi]: executing diffoscope
+[2023-05-31 07:04:09] INFO root fetch - processPackages [qlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi-0.1.5.tar.gz tmp/qlapi-0.1.5.1.tar.gz --markdown 20230531/q/qlapi/0.1.5-0.1.5.1/diff.md --exclude *.pyd
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [simplicial-kuramoto]: success
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [qlapi]: success
+[2023-05-31 07:04:10] INFO root fetch - main [MainThread]: Store serial: [18312607]
