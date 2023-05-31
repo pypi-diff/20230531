@@ -19857,3 +19857,99 @@
 [2023-05-31 18:03:51] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
 [2023-05-31 18:03:51] INFO root fetch - main [MainThread]: End processing [voltha-protos]: success
 [2023-05-31 18:03:51] INFO root fetch - main [MainThread]: Store serial: [18319592]
+[2023-05-31 18:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319592]
+[2023-05-31 18:09:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Qmlview
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-build-tools
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RL-OM
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cro3n
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib310-lite
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easytorch
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miniscutil
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notification-service-nightly
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-flow-nightly
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logtrapz
+[2023-05-31 18:09:00] INFO root fetch - processPackages [amazon-braket-build-tools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [cro3n]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [Qmlview]: New version: [3.2.2b4] Old Version: [3.2.2b3]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [RL-OM]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [logtrapz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [easytorch]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-31 18:09:00] INFO root fetch - processPackages [miniscutil]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-31 18:09:01] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.8.tar.gz tmp/ai_flow_nightly-2023.5.9.tar.gz --markdown 20230531/a/ai-flow-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.8.tar.gz tmp/lib310_lite-0.0.9.tar.gz --markdown 20230531/l/lib310-lite/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.8.tar.gz tmp/notification_service_nightly-2023.5.9.tar.gz --markdown 20230531/n/notification-service-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [Qmlview]: Downloading https://files.pythonhosted.org/packages/a3/c7/8a0ebf0185950465d6f8eac9f216fbed1a8e6944deeb608fba4dd24dc156/Qmlview-3.2.2b3.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/a0/c1/d03a098d52a7e2be55cf95534ebd32f412071ebcd1785e6205a4609ccb89/RL_OM-0.0.7.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [cro3n]: Downloading https://files.pythonhosted.org/packages/a4/45/a810d7c9c0f6ff66d7a9ec0d19d08b170e1b74719ba4c137218fdcdf6ad3/cro3n-0.0.2.tar.gz
+[2023-05-31 18:09:01] WARNING root fetch - processPackages [Qmlview]: Skipping package: exceeds size limit 11342732>=10485760
+[2023-05-31 18:09:01] INFO root fetch - processPackages [Qmlview]: Start processing: pmemo
+[2023-05-31 18:09:01] INFO root fetch - processPackages [logtrapz]: Downloading https://files.pythonhosted.org/packages/ba/cb/2ea45e7eaa9c31f46b3344b8dc9669fa7dd0433c7c80a6246a4b87061bed/logtrapz-0.0.1.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - main [MainThread]: End processing [Qmlview] error
+[2023-05-31 18:09:01] INFO root fetch - processPackages [easytorch]: Downloading https://files.pythonhosted.org/packages/dd/70/0a12552dc66aff2c077a8d36182ddca56807a4689aeaeb77d93b3e99ab6c/easytorch-3.8.1.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [pmemo]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-31 18:09:01] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.0.6.tar.gz tmp/RL_OM-0.0.7.tar.gz --markdown 20230531/R/RL-OM/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [amazon-braket-build-tools]: Downloading https://files.pythonhosted.org/packages/b6/b2/365c0752e1d2286a51e38f1a3782e5f3c22ddfd6d1def0eda7a377ca9941/amazon-braket-build-tools-0.2.4.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [amazon-braket-build-tools]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [amazon-braket-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-build-tools-0.2.3.tar.gz tmp/amazon-braket-build-tools-0.2.4.tar.gz --markdown 20230531/a/amazon-braket-build-tools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/05/85/2492c7d19f03bbe09a733a2df74577b300c8e9f09d75f902f269cc5e645a/miniscutil-0.2.4.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [logtrapz]: Downloading https://files.pythonhosted.org/packages/e4/e6/4cd2502f7a8c72db1e547cb9409185efbbc5a1b9856feb5e0184f45e97f2/logtrapz-0.0.2.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [easytorch]: Downloading https://files.pythonhosted.org/packages/95/c7/3eeba7f9001ac2fe5f56c9191d1e1ffb6522a69f43be87be5d12646ddc59/easytorch-3.8.2.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [cro3n]: Downloading https://files.pythonhosted.org/packages/fb/e8/d6a55f9f103a112550db8f3ae268275410cc74ac1977cd82afc7acacc66c/cro3n-0.0.3.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.3.tar.gz tmp/miniscutil-0.2.4.tar.gz --markdown 20230531/m/miniscutil/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [logtrapz]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [logtrapz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtrapz-0.0.1.tar.gz tmp/logtrapz-0.0.2.tar.gz --markdown 20230531/l/logtrapz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [pmemo]: Downloading https://files.pythonhosted.org/packages/65/2e/72f127ada1177ea7abc523e5725cf866788c4424cc9b3d6e9a6214c60477/pmemo-0.3.0.tar.gz
+[2023-05-31 18:09:01] INFO root fetch - processPackages [cro3n]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [cro3n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cro3n-0.0.2.tar.gz tmp/cro3n-0.0.3.tar.gz --markdown 20230531/c/cro3n/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [easytorch]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [easytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytorch-3.8.1.tar.gz tmp/easytorch-3.8.2.tar.gz --markdown 20230531/e/easytorch/3.8.1-3.8.2/diff.md --exclude *.pyd
+[2023-05-31 18:09:01] INFO root fetch - processPackages [pmemo]: executing diffoscope
+[2023-05-31 18:09:01] INFO root fetch - processPackages [pmemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmemo-0.2.1.tar.gz tmp/pmemo-0.3.0.tar.gz --markdown 20230531/p/pmemo/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 18:09:02] INFO root fetch - processPackages [lib310-lite]: Start processing: pepperize.cdk-vpc
+[2023-05-31 18:09:02] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-31 18:09:02] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-31 18:09:02] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-31 18:09:02] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230531/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-31 18:09:02] INFO root fetch - processPackages [logtrapz]: Start processing: SunshineDB
+[2023-05-31 18:09:02] INFO root fetch - main [MainThread]: End processing [logtrapz]: success
+[2023-05-31 18:09:02] INFO root fetch - processPackages [SunshineDB]: New version: [1.2] Old Version: [1.1]
+[2023-05-31 18:09:03] INFO root fetch - processPackages [amazon-braket-build-tools]: Start processing: zh-langchain
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [amazon-braket-build-tools]: success
+[2023-05-31 18:09:03] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 18:09:03] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/71/e0/d8fae560637c63de2a6300081aa7fd97f0d9fd18883be31200ef725d3785/zh-langchain-0.1.8.tar.gz
+[2023-05-31 18:09:03] INFO root fetch - processPackages [miniscutil]: Start processing: moto
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-05-31 18:09:03] INFO root fetch - processPackages [SunshineDB]: Downloading https://files.pythonhosted.org/packages/01/98/72832143f49c908f5529ef3e47965056c6cd948546d45ccdb839c4cfef98/SunshineDB-1.1-py3.10.egg
+[2023-05-31 18:09:03] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17370952>=10485760
+[2023-05-31 18:09:03] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-31 18:09:03] INFO root fetch - processPackages [zh-langchain]: Start processing: entir
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-31 18:09:03] INFO root fetch - processPackages [easytorch]: Start processing: meritous
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [easytorch]: success
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [cro3n]: success
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [pmemo]: success
+[2023-05-31 18:09:03] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-31 18:09:03] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230531/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-31 18:09:03] WARNING root fetch - processPackages [meritous]: Skipping, unable to determine old version
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [meritous] error
+[2023-05-31 18:09:03] WARNING root fetch - processPackages [entir]: Skipping, unable to determine old version
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [entir] error
+[2023-05-31 18:09:03] INFO root fetch - processPackages [SunshineDB]: Downloading https://files.pythonhosted.org/packages/52/0c/0c15db6d0a9150e697a8a75a476547ea2204d9edee6cf7c4744f1bfb9ef7/SunshineDB-1.2-py3-none-any.whl
+[2023-05-31 18:09:03] INFO root fetch - processPackages [SunshineDB]: executing diffoscope
+[2023-05-31 18:09:03] INFO root fetch - processPackages [SunshineDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SunshineDB-1.1-py3.10.egg tmp/SunshineDB-1.2-py3-none-any.whl.zip --markdown 20230531/S/SunshineDB/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-31 18:09:03] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2023-05-31 18:09:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-31 18:09:04] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-31 18:09:04] INFO root fetch - main [MainThread]: End processing [SunshineDB]: success
+[2023-05-31 18:09:34] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-31 18:09:34] INFO root fetch - main [MainThread]: Store serial: [18319663]
