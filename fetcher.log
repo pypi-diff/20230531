@@ -10693,3 +10693,108 @@
 [2023-05-31 10:30:18] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-31 10:30:24] INFO root fetch - main [MainThread]: End processing [kayobe]: success
 [2023-05-31 10:30:24] INFO root fetch - main [MainThread]: Store serial: [18314137]
+[2023-05-31 10:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314137]
+[2023-05-31 10:35:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg-flake8-reporter
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpbn
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gauth
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hoyo-daily-logins-helper
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rafalmicro-matter-tool
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fp-NGFW-SMC-python
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: locust-plugins
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wagtailstreamforms
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-swissknife
+[2023-05-31 10:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wordlexord
+[2023-05-31 10:35:34] INFO root fetch - processPackages [mpbn]: New version: [3.1.1] Old Version: [3.0]
+[2023-05-31 10:35:34] WARNING root fetch - processPackages [cg-flake8-reporter]: Skipping, unable to determine old version
+[2023-05-31 10:35:34] INFO root fetch - processPackages [cg-flake8-reporter]: Start processing: fp-NGFW-SMC-python-monitoring
+[2023-05-31 10:35:34] INFO root fetch - main [MainThread]: End processing [cg-flake8-reporter] error
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wagtailstreamforms]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python-monitoring]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [gauth]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [ml-swissknife]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wordlexord]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 10:35:34] WARNING root fetch - processPackages [rafalmicro-matter-tool]: Skipping, unable to determine old version
+[2023-05-31 10:35:34] INFO root fetch - processPackages [rafalmicro-matter-tool]: Start processing: bmsdna-lakeapi
+[2023-05-31 10:35:34] INFO root fetch - main [MainThread]: End processing [rafalmicro-matter-tool] error
+[2023-05-31 10:35:34] INFO root fetch - processPackages [locust-plugins]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.5.1] Old Version: [0.4.7]
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wagtailstreamforms]: Downloading https://files.pythonhosted.org/packages/f7/a2/3338bb53aabbad2590cc8d3285c47b9bd27495240f807fab85b31c39e5be/wagtailstreamforms-4.0.4.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/55/74/109994d6869cae6001a787f78d354a649fff94a90f6336f53103074b8abf/hoyo-daily-logins-helper-2.5.1.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [gauth]: Downloading https://files.pythonhosted.org/packages/7c/5c/b0f59e943fae36d191a5d902c8b5e0c1fdc50e8807abbb32c16e7c95ed36/gauth-1.0.4.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wordlexord]: Downloading https://files.pythonhosted.org/packages/b6/30/0e79a857661130e868e54a095405556bc9518161627b8fec1cdae0f4d254/wordlexord-0.0.1.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [locust-plugins]: Downloading https://files.pythonhosted.org/packages/b8/0b/7d1bc7aa2720d8c03216868eef2aa3fda6f433722199666187d19a89c39c/locust-plugins-3.3.0.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [mpbn]: Downloading https://files.pythonhosted.org/packages/4d/ea/3f835b7b2a376119461b0fe8b19db80122c4940002b0e3e00e48b3907fc9/mpbn-3.1.1.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fp-NGFW-SMC-python-1.0.8.tar.gz tmp/fp-NGFW-SMC-python-1.0.9.tar.gz --markdown 20230531/f/fp-NGFW-SMC-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.5.0.tar.gz tmp/hoyo-daily-logins-helper-2.5.1.tar.gz --markdown 20230531/h/hoyo-daily-logins-helper/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/aa/00/7007c613db541c7e72d0587ae7af42db5eb3451bc77ea2acb99aa3c40a18/bmsdna_lakeapi-0.5.1.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [ml-swissknife]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [ml-swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-swissknife-0.1.8.tar.gz tmp/ml-swissknife-0.1.9.tar.gz --markdown 20230531/m/ml-swissknife/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [gauth]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [gauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauth-1.0.3.tar.gz tmp/gauth-1.0.4.tar.gz --markdown 20230531/g/gauth/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wagtailstreamforms]: Downloading https://files.pythonhosted.org/packages/d0/50/dcfdb714aa1671bd2533cf9041435043e0cebe06938e8108546ae3ecec4c/wagtailstreamforms-4.0.5.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python-monitoring]: Downloading https://files.pythonhosted.org/packages/7c/0a/c234e505b2d34e4721c4e093b476095a0524f194518c622f20578d4b1e9f/fp-NGFW-SMC-python-monitoring-1.5.0.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wordlexord]: Downloading https://files.pythonhosted.org/packages/bb/dc/db78cc1f6a736f33e149e3ff14843bf6ada432b21cc5c87107385c04ffac/wordlexord-0.0.2.tar.gz
+[2023-05-31 10:35:34] INFO root fetch - processPackages [mpbn]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [mpbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpbn-3.0.tar.gz tmp/mpbn-3.1.1.tar.gz --markdown 20230531/m/mpbn/3.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.4.7.tar.gz tmp/bmsdna_lakeapi-0.5.1.tar.gz --markdown 20230531/b/bmsdna-lakeapi/0.4.7-0.5.1/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wagtailstreamforms]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wagtailstreamforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailstreamforms-4.0.4.tar.gz tmp/wagtailstreamforms-4.0.5.tar.gz --markdown 20230531/w/wagtailstreamforms/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python-monitoring]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [fp-NGFW-SMC-python-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fp-NGFW-SMC-python-monitoring-1.4.1.tar.gz tmp/fp-NGFW-SMC-python-monitoring-1.5.0.tar.gz --markdown 20230531/f/fp-NGFW-SMC-python-monitoring/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wordlexord]: executing diffoscope
+[2023-05-31 10:35:34] INFO root fetch - processPackages [wordlexord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordlexord-0.0.1.tar.gz tmp/wordlexord-0.0.2.tar.gz --markdown 20230531/w/wordlexord/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 10:35:34] INFO root fetch - processPackages [locust-plugins]: Downloading https://files.pythonhosted.org/packages/0a/48/cb7ceb6a298b68ec00213737f700f2180a0fc5a2bc81aa0752952ca58e7f/locust-plugins-3.3.1.tar.gz
+[2023-05-31 10:35:35] INFO root fetch - processPackages [locust-plugins]: executing diffoscope
+[2023-05-31 10:35:35] INFO root fetch - processPackages [locust-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-plugins-3.3.0.tar.gz tmp/locust-plugins-3.3.1.tar.gz --markdown 20230531/l/locust-plugins/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-31 10:35:35] INFO root fetch - processPackages [gauth]: Start processing: macrometa-target-bigquery
+[2023-05-31 10:35:35] INFO root fetch - main [MainThread]: End processing [gauth]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 10:35:36] INFO root fetch - processPackages [mpbn]: Start processing: dxsp
+[2023-05-31 10:35:36] INFO root fetch - main [MainThread]: End processing [mpbn]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-05-31 10:35:36] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.8.tar.gz tmp/macrometa-target-bigquery-0.0.9.tar.gz --markdown 20230531/m/macrometa-target-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:35:36] INFO root fetch - processPackages [dxsp]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-05-31 10:35:36] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/94/66/3c63942b7a151a9786d1178a0f3173917a41c45d59c0021c50a93be879a8/dxsp-2.6.4.tar.gz
+[2023-05-31 10:35:36] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Start processing: sqlalchemy-spanner
+[2023-05-31 10:35:36] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [sqlalchemy-spanner]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-31 10:35:36] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-31 10:35:36] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.3.tar.gz tmp/dxsp-2.6.4.tar.gz --markdown 20230531/d/dxsp/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-05-31 10:35:36] INFO root fetch - processPackages [ml-swissknife]: Start processing: helios-opentelemetry-sdk
+[2023-05-31 10:35:36] INFO root fetch - main [MainThread]: End processing [ml-swissknife]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: xia-compiler-openapi
+[2023-05-31 10:35:36] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [wordlexord]: Start processing: ohmytmp-destination
+[2023-05-31 10:35:36] INFO root fetch - main [MainThread]: End processing [wordlexord]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 10:35:36] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.9] Old Version: [1.0.88]
+[2023-05-31 10:35:36] INFO root fetch - main [MainThread]: End processing [fp-NGFW-SMC-python-monitoring]: success
+[2023-05-31 10:35:36] INFO root fetch - processPackages [ohmytmp-destination]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 10:35:36] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/94/d9/2109776b0c2e0d7be3253c5d1b942652e98cd076b2c8f15a57f256a95432/helios-opentelemetry-sdk-1.0.88.tar.gz
+[2023-05-31 10:35:36] INFO root fetch - processPackages [ohmytmp-destination]: Downloading https://files.pythonhosted.org/packages/19/9e/8efd6e7f67a85aeba49033f1d134a0bd2a2aa0c751fb42145b99c0a029e1/ohmytmp-destination-0.0.1.tar.gz
+[2023-05-31 10:35:36] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/b6/31/93c82ddd74910fdd0834c26876314c96c031ed64f006bdfd59736499513e/sqlalchemy-spanner-1.6.2.tar.gz
+[2023-05-31 10:35:36] INFO root fetch - processPackages [sqlalchemy-spanner]: executing diffoscope
+[2023-05-31 10:35:36] INFO root fetch - processPackages [sqlalchemy-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-spanner-1.6.1.tar.gz tmp/sqlalchemy-spanner-1.6.2.tar.gz --markdown 20230531/s/sqlalchemy-spanner/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-31 10:35:36] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-05-31 10:35:36] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230531/x/xia-compiler-openapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 10:35:36] INFO root fetch - processPackages [ohmytmp-destination]: Downloading https://files.pythonhosted.org/packages/c3/83/a317a7a39ac9434ffdfc3e26dc08a6690fdfe65d951fe13855b7a023d7b9/ohmytmp-destination-0.0.2.tar.gz
+[2023-05-31 10:35:37] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-05-31 10:35:37] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.88.tar.gz tmp/helios-opentelemetry-sdk-1.0.9.tar.gz --markdown 20230531/h/helios-opentelemetry-sdk/1.0.88-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:35:37] INFO root fetch - processPackages [ohmytmp-destination]: executing diffoscope
+[2023-05-31 10:35:37] INFO root fetch - processPackages [ohmytmp-destination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohmytmp-destination-0.0.1.tar.gz tmp/ohmytmp-destination-0.0.2.tar.gz --markdown 20230531/o/ohmytmp-destination/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 10:35:37] INFO root fetch - main [MainThread]: End processing [wagtailstreamforms]: success
+[2023-05-31 10:35:37] INFO root fetch - main [MainThread]: End processing [locust-plugins]: success
+[2023-05-31 10:35:37] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-31 10:35:37] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-05-31 10:35:37] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-05-31 10:35:38] INFO root fetch - main [MainThread]: End processing [ohmytmp-destination]: success
+[2023-05-31 10:35:38] INFO root fetch - main [MainThread]: End processing [sqlalchemy-spanner]: success
+[2023-05-31 10:35:39] INFO root fetch - main [MainThread]: End processing [fp-NGFW-SMC-python]: success
+[2023-05-31 10:35:39] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-05-31 10:35:39] INFO root fetch - main [MainThread]: Store serial: [18314197]
