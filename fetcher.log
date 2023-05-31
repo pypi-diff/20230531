@@ -14386,3 +14386,127 @@
 [2023-05-31 14:07:02] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2023-05-31 14:07:35] INFO root fetch - main [MainThread]: End processing [eepackages]: success
 [2023-05-31 14:07:35] INFO root fetch - main [MainThread]: Store serial: [18316375]
+[2023-05-31 14:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316375]
+[2023-05-31 14:12:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-stt-http-server
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alnoda-wrk
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrestclient
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-attendance-rfid
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitzu
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycrux
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panel
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-agents-nightly
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: i8-terminal
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flamapy
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ovos-stt-http-server]: New version: [0.0.2a8] Old Version: [0.0.2a7]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pyrestclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [odoo-addon-hr-attendance-rfid]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pycrux]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [flamapy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [mitzu]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [panel]: New version: [1.0.4rc3] Old Version: [1.0.4rc2]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-31 14:12:49] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230531/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-31 14:12:49] INFO root fetch - processPackages [odoo-addon-hr-attendance-rfid]: Downloading https://files.pythonhosted.org/packages/dd/d4/41823261a297f9537e81297f6de53fa7ffa05abe5a20c19efc1ca2bf1f63/odoo_addon_hr_attendance_rfid-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-31 14:12:49] INFO root fetch - processPackages [ovos-stt-http-server]: Downloading https://files.pythonhosted.org/packages/ff/6e/e83d3b6b2bd58bd3acb15073483478b99cb57dbdac3a823d79a810f1794c/ovos-stt-http-server-0.0.2a8.tar.gz
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pyrestclient]: Downloading https://files.pythonhosted.org/packages/b9/ce/6f6edd0e53623b2eea8a9bf4cb39d09fcdd13bda32a77e9cfbaf493e9059/pyrestclient-1.1.8.tar.gz
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pycrux]: Downloading https://files.pythonhosted.org/packages/5e/48/c1921150d11dbca4f4859a6344625b1af6a225a3b34eb01969e38e023654/pycrux-0.5.0.tar.gz
+[2023-05-31 14:12:49] INFO root fetch - processPackages [flamapy]: Downloading https://files.pythonhosted.org/packages/cd/32/b7bd43620ef57fdd0f24dd431f4b4d8e35230ac38780a29915522e332cda/flamapy-1.1.3.tar.gz
+[2023-05-31 14:12:49] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/77/62/8bf3b5ba43fe8b59eee76691195d76d8960e488db0cbae7cfb3b0e5dcc8c/panel-1.0.4rc2.tar.gz
+[2023-05-31 14:12:49] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25686911>=10485760
+[2023-05-31 14:12:49] INFO root fetch - processPackages [panel]: Start processing: testit-api-client
+[2023-05-31 14:12:49] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-05-31 14:12:49] INFO root fetch - processPackages [testit-api-client]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-31 14:12:49] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/f7/66/643e488c8e1cf283b39b079d783ae1c699a8aa502337e8336f041bfe9cc1/mitzu-0.6.3.tar.gz
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pycrux]: executing diffoscope
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pycrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrux-0.4.0.tar.gz tmp/pycrux-0.5.0.tar.gz --markdown 20230531/p/pycrux/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 14:12:49] INFO root fetch - processPackages [flamapy]: executing diffoscope
+[2023-05-31 14:12:49] INFO root fetch - processPackages [flamapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-1.1.2.tar.gz tmp/flamapy-1.1.3.tar.gz --markdown 20230531/f/flamapy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-31 14:12:49] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-05-31 14:12:49] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230531/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-31 14:12:49] INFO root fetch - processPackages [pyrestclient]: Downloading https://files.pythonhosted.org/packages/06/c5/9fcecabfdda8f7d43cf71d6c2c6ff873efcbe4d31762b61c378b9935a274/pyrestclient-1.1.9.tar.gz
+[2023-05-31 14:12:49] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-05-31 14:12:49] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.8.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230531/i/i8-terminal/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 14:12:50] INFO root fetch - processPackages [ovos-stt-http-server]: executing diffoscope
+[2023-05-31 14:12:50] INFO root fetch - processPackages [ovos-stt-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-http-server-0.0.2a7.tar.gz tmp/ovos-stt-http-server-0.0.2a8.tar.gz --markdown 20230531/o/ovos-stt-http-server/0.0.2a7-0.0.2a8/diff.md --exclude *.pyd
+[2023-05-31 14:12:50] INFO root fetch - processPackages [testit-api-client]: Downloading https://files.pythonhosted.org/packages/06/ac/aa0b1384b80717e0f6a6ce3fc6c2d64b83db4e4360050796279adf9b67dd/testit-api-client-3.1.0.tar.gz
+[2023-05-31 14:12:50] INFO root fetch - processPackages [odoo-addon-hr-attendance-rfid]: Downloading https://files.pythonhosted.org/packages/0c/80/1021830ece703b9efef756eb2dd0f1fbacf79352b72b1d36cfe30d354667/odoo_addon_hr_attendance_rfid-15.0.1.0.1-py3-none-any.whl
+[2023-05-31 14:12:50] INFO root fetch - processPackages [pyrestclient]: executing diffoscope
+[2023-05-31 14:12:50] INFO root fetch - processPackages [pyrestclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestclient-1.1.8.tar.gz tmp/pyrestclient-1.1.9.tar.gz --markdown 20230531/p/pyrestclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:12:50] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-05-31 14:12:50] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.2.tar.gz tmp/mitzu-0.6.3.tar.gz --markdown 20230531/m/mitzu/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-31 14:12:50] INFO root fetch - processPackages [odoo-addon-hr-attendance-rfid]: executing diffoscope
+[2023-05-31 14:12:50] INFO root fetch - processPackages [odoo-addon-hr-attendance-rfid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_attendance_rfid-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_hr_attendance_rfid-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-hr-attendance-rfid/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-31 14:12:50] INFO root fetch - processPackages [testit-api-client]: Downloading https://files.pythonhosted.org/packages/f6/3c/ba83b598f4f9f0cc25f8d7874a77afacfc2abd0f2aed4be02bd0a162bc12/testit-api-client-3.1.1.tar.gz
+[2023-05-31 14:12:50] INFO root fetch - processPackages [testit-api-client]: executing diffoscope
+[2023-05-31 14:12:50] INFO root fetch - processPackages [testit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-api-client-3.1.0.tar.gz tmp/testit-api-client-3.1.1.tar.gz --markdown 20230531/t/testit-api-client/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-31 14:12:51] INFO root fetch - processPackages [pycrux]: Start processing: acids-rave
+[2023-05-31 14:12:51] INFO root fetch - main [MainThread]: End processing [pycrux]: success
+[2023-05-31 14:12:51] INFO root fetch - processPackages [acids-rave]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-31 14:12:51] INFO root fetch - processPackages [flamapy]: Start processing: pytest-logikal
+[2023-05-31 14:12:51] INFO root fetch - main [MainThread]: End processing [flamapy]: success
+[2023-05-31 14:12:51] INFO root fetch - processPackages [pytest-logikal]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-05-31 14:12:51] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2023-05-31 14:12:51] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-logikal-1.8.4.tar.gz tmp/pytest-logikal-1.9.0.tar.gz --markdown 20230531/p/pytest-logikal/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 14:12:51] INFO root fetch - processPackages [pyrestclient]: Start processing: ds-caselaw-marklogic-api-client
+[2023-05-31 14:12:51] INFO root fetch - main [MainThread]: End processing [pyrestclient]: success
+[2023-05-31 14:12:51] INFO root fetch - processPackages [acids-rave]: Downloading https://files.pythonhosted.org/packages/f7/43/47a4fb2df713a70f7a53dbf4dfeab812a4796810c69e137bdecf93a1e4d0/acids_rave-2.1.8-py3-none-any.whl
+[2023-05-31 14:12:51] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-31 14:12:51] INFO root fetch - processPackages [odoo-addon-hr-attendance-rfid]: Start processing: returnn
+[2023-05-31 14:12:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-attendance-rfid]: success
+[2023-05-31 14:12:51] INFO root fetch - processPackages [returnn]: New version: [1.20230531.135404] Old Version: [1.20230531.120344]
+[2023-05-31 14:12:52] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/68/ed/e1ae474608fefa6d656aed5262865c8781924b8c4de46d8f2ce4aab74e9d/returnn-1.20230531.135404.tar.gz
+[2023-05-31 14:12:52] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2023-05-31 14:12:52] INFO root fetch - processPackages [acids-rave]: Downloading https://files.pythonhosted.org/packages/92/fe/1d96d2ef02387e4f2e68e1685eae0114bb5042174b9633cff668d53a0d68/acids_rave-2.1.9-py3-none-any.whl
+[2023-05-31 14:12:52] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-05-31 14:12:52] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20230531/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-31 14:12:52] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-31 14:12:52] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230531.120344.tar.gz tmp/returnn-1.20230531.135404.tar.gz --markdown 20230531/r/returnn/1.20230531.120344-1.20230531.135404/diff.md --exclude *.pyd
+[2023-05-31 14:12:52] INFO root fetch - processPackages [acids-rave]: executing diffoscope
+[2023-05-31 14:12:52] INFO root fetch - processPackages [acids-rave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids_rave-2.1.8-py3-none-any.whl.zip tmp/acids_rave-2.1.9-py3-none-any.whl.zip --markdown 20230531/a/acids-rave/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:12:52] INFO root fetch - processPackages [ovos-stt-http-server]: Start processing: nscmd
+[2023-05-31 14:12:52] INFO root fetch - main [MainThread]: End processing [ovos-stt-http-server]: success
+[2023-05-31 14:12:53] INFO root fetch - processPackages [pytest-logikal]: Start processing: lusid-notifications-sdk-preview
+[2023-05-31 14:12:53] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2023-05-31 14:12:53] INFO root fetch - processPackages [nscmd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 14:12:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.715] Old Version: [0.1.714]
+[2023-05-31 14:12:53] INFO root fetch - processPackages [nscmd]: Downloading https://files.pythonhosted.org/packages/a1/b1/1576a996555ba2ffcaab441fc2b1e696e95f9afa62c143625c0fc5efdeac/nscmd-0.1.0.tar.gz
+[2023-05-31 14:12:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/e0/b1/f037eb9a3cc90c69ddf697a26ca774b8a94e23ef0f4ecdac833b12457e4f/lusid-notifications-sdk-preview-0.1.715.tar.gz
+[2023-05-31 14:12:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-31 14:12:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.714.tar.gz tmp/lusid-notifications-sdk-preview-0.1.715.tar.gz --markdown 20230531/l/lusid-notifications-sdk-preview/0.1.714-0.1.715/diff.md --exclude *.pyd
+[2023-05-31 14:12:53] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Start processing: django-notifications-hq
+[2023-05-31 14:12:53] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-05-31 14:12:53] INFO root fetch - processPackages [nscmd]: Downloading https://files.pythonhosted.org/packages/1b/93/b0f9d4e8433460ea959d7870e409e49b6dc23eb9daf8f4505a0c58e02afa/nscmd-0.1.1.tar.gz
+[2023-05-31 14:12:53] INFO root fetch - processPackages [django-notifications-hq]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-31 14:12:53] INFO root fetch - processPackages [nscmd]: executing diffoscope
+[2023-05-31 14:12:53] INFO root fetch - processPackages [nscmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nscmd-0.1.0.tar.gz tmp/nscmd-0.1.1.tar.gz --markdown 20230531/n/nscmd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 14:12:53] INFO root fetch - processPackages [django-notifications-hq]: Downloading https://files.pythonhosted.org/packages/34/be/f02efd692c3a0498cf4094c62f54e0c65f2e0a2b1746aaa78e723bdc7a27/django-notifications-hq-1.8.2.tar.gz
+[2023-05-31 14:12:53] INFO root fetch - processPackages [django-notifications-hq]: executing diffoscope
+[2023-05-31 14:12:53] INFO root fetch - processPackages [django-notifications-hq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-notifications-hq-1.8.1.tar.gz tmp/django-notifications-hq-1.8.2.tar.gz --markdown 20230531/d/django-notifications-hq/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-31 14:12:53] INFO root fetch - processPackages [acids-rave]: Start processing: odoo12-addon-hr-attendance-rfid
+[2023-05-31 14:12:53] INFO root fetch - main [MainThread]: End processing [acids-rave]: success
+[2023-05-31 14:12:54] INFO root fetch - processPackages [odoo12-addon-hr-attendance-rfid]: New version: [12.0.1.1.1] Old Version: [12.0.1.1.0.99.dev2]
+[2023-05-31 14:12:54] INFO root fetch - processPackages [mitzu]: Start processing: unblob
+[2023-05-31 14:12:54] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-05-31 14:12:54] INFO root fetch - processPackages [unblob]: New version: [23.5.9] Old Version: [23.5.5]
+[2023-05-31 14:12:54] INFO root fetch - processPackages [odoo12-addon-hr-attendance-rfid]: Downloading https://files.pythonhosted.org/packages/36/82/ed752ff45f45563229ff2a3c99cde5d96e5cc9b17a004fc3c8ebcfd2cae9/odoo12_addon_hr_attendance_rfid-12.0.1.1.1-py3-none-any.whl
+[2023-05-31 14:12:54] INFO root fetch - processPackages [odoo12-addon-hr-attendance-rfid]: executing diffoscope
+[2023-05-31 14:12:54] INFO root fetch - processPackages [odoo12-addon-hr-attendance-rfid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_attendance_rfid-12.0.1.1.0.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_hr_attendance_rfid-12.0.1.1.1-py3-none-any.whl.zip --markdown 20230531/o/odoo12-addon-hr-attendance-rfid/12.0.1.1.0.99.dev2-12.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-31 14:12:54] INFO root fetch - processPackages [unblob]: Downloading https://files.pythonhosted.org/packages/67/38/c8f98a3d1500f3be8ae8648c02f9d3b631b4c69725b2405feb2062cbf1f6/unblob-23.5.5.tar.gz
+[2023-05-31 14:12:54] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-05-31 14:12:54] INFO root fetch - main [MainThread]: End processing [testit-api-client]: success
+[2023-05-31 14:12:54] INFO root fetch - processPackages [unblob]: Downloading https://files.pythonhosted.org/packages/8b/46/2e1dc37cc166d1253b8981c412355e60b1c1b934e4ae24cc46f4b9019b91/unblob-23.5.9.tar.gz
+[2023-05-31 14:12:54] INFO root fetch - main [MainThread]: End processing [nscmd]: success
+[2023-05-31 14:12:54] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-05-31 14:12:54] INFO root fetch - processPackages [unblob]: executing diffoscope
+[2023-05-31 14:12:54] INFO root fetch - processPackages [unblob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unblob-23.5.5.tar.gz tmp/unblob-23.5.9.tar.gz --markdown 20230531/u/unblob/23.5.5-23.5.9/diff.md --exclude *.pyd
+[2023-05-31 14:12:55] INFO root fetch - main [MainThread]: End processing [django-notifications-hq]: success
+[2023-05-31 14:12:55] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-31 14:12:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-attendance-rfid]: success
+[2023-05-31 14:12:56] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-31 14:12:56] INFO root fetch - main [MainThread]: End processing [unblob]: success
+[2023-05-31 14:12:56] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-31 14:12:56] INFO root fetch - main [MainThread]: Store serial: [18316431]
