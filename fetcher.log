@@ -19569,3 +19569,74 @@
 [2023-05-31 17:47:21] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-31 17:47:30] INFO root fetch - main [MainThread]: End processing [domain-paas-sdk-python]: success
 [2023-05-31 17:47:30] INFO root fetch - main [MainThread]: Store serial: [18319417]
+[2023-05-31 17:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319417]
+[2023-05-31 17:52:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Qmlview
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-generation-api
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pokie
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: budy
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib-for-messanger
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inspqcommun
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylint-super-not-called
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: babs
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merge-dictionaries
+[2023-05-31 17:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rich
+[2023-05-31 17:52:39] INFO root fetch - processPackages [Pokie]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-31 17:52:39] INFO root fetch - processPackages [Qmlview]: New version: [3.2.2b3] Old Version: [3.2.2b2]
+[2023-05-31 17:52:39] INFO root fetch - processPackages [lib-for-messanger]: New version: [0.2] Old Version: [0.1]
+[2023-05-31 17:52:39] INFO root fetch - processPackages [merge-dictionaries]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-31 17:52:39] INFO root fetch - processPackages [budy]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-31 17:52:39] WARNING root fetch - processPackages [text-generation-api]: Skipping, unable to determine old version
+[2023-05-31 17:52:39] INFO root fetch - processPackages [text-generation-api]: Start processing: langflow
+[2023-05-31 17:52:39] INFO root fetch - processPackages [inspqcommun]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-31 17:52:39] INFO root fetch - main [MainThread]: End processing [text-generation-api] error
+[2023-05-31 17:52:39] INFO root fetch - processPackages [babs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 17:52:39] INFO root fetch - processPackages [rich]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-05-31 17:52:39] INFO root fetch - processPackages [langflow]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-05-31 17:52:40] WARNING root fetch - processPackages [pylint-super-not-called]: Skipping, unable to determine old version
+[2023-05-31 17:52:40] INFO root fetch - processPackages [pylint-super-not-called]: Start processing: orbit-component-base
+[2023-05-31 17:52:40] INFO root fetch - main [MainThread]: End processing [pylint-super-not-called] error
+[2023-05-31 17:52:40] INFO root fetch - processPackages [orbit-component-base]: New version: [0.99.6] Old Version: [0.99.5]
+[2023-05-31 17:52:40] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.78.tar.gz tmp/langflow-0.0.79.tar.gz --markdown 20230531/l/langflow/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [merge-dictionaries]: Downloading https://files.pythonhosted.org/packages/3f/5f/41ab88b64304b64f5b58db77c72c3f8e65db66982548a006b95164bf843e/merge-dictionaries-0.2.2.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [inspqcommun]: Downloading https://files.pythonhosted.org/packages/b2/32/63936a302d53e4b73dfe984408a0e015d9e229246d3c5f470523032a59eb/inspqcommun-1.6.2.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-0.99.5.tar.gz tmp/orbit_component_base-0.99.6.tar.gz --markdown 20230531/o/orbit-component-base/0.99.5-0.99.6/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/fa/a7/472e0a979b17e1a3f378f7e2de4ff80e6ad1f7707c0fa7a6152e5a5e42ce/lib_for_messanger-0.1.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [Qmlview]: Downloading https://files.pythonhosted.org/packages/1d/e2/d75c7e9bd01ce5337e5a16027dd0da509d61391028bd3c04cfa774352eea/Qmlview-3.2.2b2.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [babs]: Downloading https://files.pythonhosted.org/packages/2f/e9/179b0a87af047363d9c644add0956df499b17a63489675f23911cb4e4a28/babs-0.0.3.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/fb/96/b268c7ac622597f8660e14e01d8b66b84a34fbbaed3b920bfca440f742fe/rich-9.8.2.tar.gz
+[2023-05-31 17:52:40] WARNING root fetch - processPackages [Qmlview]: Skipping package: exceeds size limit 11342747>=10485760
+[2023-05-31 17:52:40] INFO root fetch - main [MainThread]: End processing [Qmlview] error
+[2023-05-31 17:52:40] INFO root fetch - processPackages [Pokie]: Downloading https://files.pythonhosted.org/packages/31/a5/386457c76bf127b4a56df186a8d9fb1147e161db6d10719b606a0e01e9d7/Pokie-0.4.3.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/49/cc/87c6eaf7777e6fa12236b08d9c3c077355fb27f5c07884ce9bd0fcfbfa99/budy-0.8.3.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [merge-dictionaries]: Downloading https://files.pythonhosted.org/packages/4d/45/54623ec84266c7009d93a81512d035eb477abbbcebe5c260d9590a04fd40/merge-dictionaries-0.3.0.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [inspqcommun]: Downloading https://files.pythonhosted.org/packages/02/11/72f3ea0926b23bbf77d5c3a6db235f6fa67ab3ec17e4eaaa95d0fdd08901/inspqcommun-1.6.3.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/61/13/998f015bbf2825d24c397208ffabdb08306ddef1fa4ea18f4241bcdb87d5/lib_for_messanger-0.2.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [Pokie]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [Pokie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pokie-0.4.2.tar.gz tmp/Pokie-0.4.3.tar.gz --markdown 20230531/P/Pokie/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [babs]: Downloading https://files.pythonhosted.org/packages/1c/eb/f81830d446e0184fd660285eb37abc8a5e24b6a6f44d83672daf640bb2c9/babs-0.0.4.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [budy]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [budy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budy-0.8.2.tar.gz tmp/budy-0.8.3.tar.gz --markdown 20230531/b/budy/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [merge-dictionaries]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [merge-dictionaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merge-dictionaries-0.2.2.tar.gz tmp/merge-dictionaries-0.3.0.tar.gz --markdown 20230531/m/merge-dictionaries/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [inspqcommun]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [inspqcommun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspqcommun-1.6.2.tar.gz tmp/inspqcommun-1.6.3.tar.gz --markdown 20230531/i/inspqcommun/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-0.1.tar.gz tmp/lib_for_messanger-0.2.tar.gz --markdown 20230531/l/lib-for-messanger/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/5a/2d/5e92c69f971cb2a373a5203fe2ff0a06751b3eea918c709318e19f7caf62/rich-9.9.0.tar.gz
+[2023-05-31 17:52:40] INFO root fetch - processPackages [babs]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [babs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babs-0.0.3.tar.gz tmp/babs-0.0.4.tar.gz --markdown 20230531/b/babs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 17:52:40] INFO root fetch - processPackages [rich]: executing diffoscope
+[2023-05-31 17:52:40] INFO root fetch - processPackages [rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-9.8.2.tar.gz tmp/rich-9.9.0.tar.gz --markdown 20230531/r/rich/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-05-31 17:52:41] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [merge-dictionaries]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [inspqcommun]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [budy]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [babs]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [rich]: success
+[2023-05-31 17:52:42] INFO root fetch - main [MainThread]: End processing [Pokie]: success
+[2023-05-31 17:53:04] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-31 17:53:04] INFO root fetch - main [MainThread]: Store serial: [18319455]
