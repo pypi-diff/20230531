@@ -8830,3 +8830,44 @@
 [2023-05-31 08:08:26] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
 [2023-05-31 08:08:30] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-31 08:08:30] INFO root fetch - main [MainThread]: Store serial: [18313056]
+[2023-05-31 08:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313056]
+[2023-05-31 08:13:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datayoga-core
+[2023-05-31 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datayoga
+[2023-05-31 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skulk
+[2023-05-31 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configwizard
+[2023-05-31 08:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-api-testka-dev
+[2023-05-31 08:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg-common
+[2023-05-31 08:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meta-matching-tool
+[2023-05-31 08:13:39] WARNING root fetch - processPackages [pg-common]: Skipping, unable to determine old version
+[2023-05-31 08:13:39] INFO root fetch - main [MainThread]: End processing [pg-common] error
+[2023-05-31 08:13:39] INFO root fetch - processPackages [configwizard]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 08:13:39] INFO root fetch - processPackages [meta-matching-tool]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga-core]: New version: [1.9.0] Old Version: [1.84.0]
+[2023-05-31 08:13:39] INFO root fetch - processPackages [skulk]: New version: [2.0.1] Old Version: [2.0.0rc1]
+[2023-05-31 08:13:39] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga]: New version: [1.9.0] Old Version: [1.84.0]
+[2023-05-31 08:13:39] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/d9/73/69117c594f42fb34a428b6db1814646ea0f802e000e66cb56750bc988fb5/meta_matching_tool-1.7.2.tar.gz
+[2023-05-31 08:13:39] WARNING root fetch - processPackages [meta-matching-tool]: Skipping package: exceeds size limit 23609883>=10485760
+[2023-05-31 08:13:39] INFO root fetch - main [MainThread]: End processing [meta-matching-tool] error
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/8d/47/d7b4a89f591f9e8f81f80e9ccbf15bbad1dfc983a5e396349e663f55d94f/datayoga_core-1.84.0.tar.gz
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/79/59/4fe6e79b0fdb07cf3cf59fbac753838f865fee0c2e2c8847c18056bee33b/datayoga-1.84.0.tar.gz
+[2023-05-31 08:13:39] INFO root fetch - processPackages [configwizard]: Downloading https://files.pythonhosted.org/packages/47/96/294b54ebef17ab05ed14ff0e7fc3908533e3f98c8d90ee1cbe6d64da0a59/configwizard-1.0.3.tar.gz
+[2023-05-31 08:13:39] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/26/ba/36b69f677e68baea6b4289a4a7acc10793f0b3cf5c1ca212d050d488b5b2/je_api_testka_dev-0.0.92.tar.gz
+[2023-05-31 08:13:39] INFO root fetch - processPackages [skulk]: Downloading https://files.pythonhosted.org/packages/93/eb/f3d929244e32459c34213ab17eed4311a3bfdb72584f589341c7ac2849bf/skulk-2.0.1-py2.py3-none-any.whl
+[2023-05-31 08:13:39] INFO root fetch - processPackages [configwizard]: executing diffoscope
+[2023-05-31 08:13:39] INFO root fetch - processPackages [configwizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configwizard-1.0.2.tar.gz tmp/configwizard-1.0.3.tar.gz --markdown 20230531/c/configwizard/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 08:13:39] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-05-31 08:13:39] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.91.tar.gz tmp/je_api_testka_dev-0.0.92.tar.gz --markdown 20230531/j/je-api-testka-dev/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-05-31 08:13:39] INFO root fetch - processPackages [skulk]: executing diffoscope
+[2023-05-31 08:13:39] INFO root fetch - processPackages [skulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skulk-2.0.0rc1-py2.py3-none-any.whl.zip tmp/skulk-2.0.1-py2.py3-none-any.whl.zip --markdown 20230531/s/skulk/2.0.0rc1-2.0.1/diff.md --exclude *.pyd
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga-core]: executing diffoscope
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga_core-1.84.0.tar.gz tmp/datayoga_core-1.9.0.tar.gz --markdown 20230531/d/datayoga-core/1.84.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga]: executing diffoscope
+[2023-05-31 08:13:39] INFO root fetch - processPackages [datayoga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga-1.84.0.tar.gz tmp/datayoga-1.9.0.tar.gz --markdown 20230531/d/datayoga/1.84.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 08:13:40] INFO root fetch - main [MainThread]: End processing [configwizard]: success
+[2023-05-31 08:13:40] INFO root fetch - main [MainThread]: End processing [skulk]: success
+[2023-05-31 08:13:40] INFO root fetch - main [MainThread]: End processing [datayoga]: success
+[2023-05-31 08:13:40] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-05-31 08:13:41] INFO root fetch - main [MainThread]: End processing [datayoga-core]: success
+[2023-05-31 08:13:41] INFO root fetch - main [MainThread]: Store serial: [18313078]
