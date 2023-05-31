@@ -18566,3 +18566,161 @@
 [2023-05-31 17:00:49] INFO root fetch - main [MainThread]: End processing [celery]: success
 [2023-05-31 17:01:28] INFO root fetch - main [MainThread]: End processing [openwillis]: success
 [2023-05-31 17:01:28] INFO root fetch - main [MainThread]: Store serial: [18318774]
+[2023-05-31 17:06:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18318774]
+[2023-05-31 17:06:37] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-relay
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sailboat-gym
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypgstac
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: together-web3
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytonconnect
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notification-sdk-preview
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfa-nightly
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: redturtle.tiles.management
+[2023-05-31 17:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gptw
+[2023-05-31 17:06:37] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.716] Old Version: [0.1.715]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [gptw]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [pypgstac]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [pytonconnect]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [redturtle.tiles.management]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [together-web3]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-05-31 17:06:37] INFO root fetch - processPackages [tfa-nightly]: New version: [0.9.0.dev20200409113748] Old Version: [0.9.0.dev20200409113542]
+[2023-05-31 17:06:37] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a5/d9/d7bc61b319111e3cf535e1edd0c2381780c1e3b56f580e2326253a8d8258/lusid-notification-sdk-preview-0.1.716.tar.gz
+[2023-05-31 17:06:37] INFO root fetch - processPackages [together-web3]: Downloading https://files.pythonhosted.org/packages/f0/68/0e41c27007ecfcd6e103cb94c517c9d2ec70823992dc3421985757364e2b/together_web3-0.1.5.tar.gz
+[2023-05-31 17:06:37] INFO root fetch - processPackages [redturtle.tiles.management]: Downloading https://files.pythonhosted.org/packages/62/8d/a56c28a7a217e6e760d05aaf3b64b611f624f6308b7d4a4771cfffc9fd54/redturtle.tiles.management-3.0.0.tar.gz
+[2023-05-31 17:06:37] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2023-05-31 17:06:38] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/34/17/7b8002ef7fdb4182d1c44a881b9ad71684473435ed0c14f28809a844d906/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl
+[2023-05-31 17:06:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.715.tar.gz tmp/lusid-notification-sdk-preview-0.1.716.tar.gz --markdown 20230531/l/lusid-notification-sdk-preview/0.1.715-0.1.716/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/bc/3b/55bb8f5429586c93f047bc5f1842dba6d6a9bc7165fbf061fdcf9074b692/gptw-0.4.2.tar.gz
+[2023-05-31 17:06:38] INFO root fetch - processPackages [pytonconnect]: Downloading https://files.pythonhosted.org/packages/d8/ab/1cd15af9ec9c12fa2004638dcc72f35f3c37aba77b7841c17f0504035400/pytonconnect-0.2.2.tar.gz
+[2023-05-31 17:06:38] INFO root fetch - processPackages [pypgstac]: Downloading https://files.pythonhosted.org/packages/fe/5b/6d2865eefead6d5048b305873694f0e92a00a238a31a76f40935fa8f68ae/pypgstac-0.7.8.tar.gz
+[2023-05-31 17:06:38] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230531/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-05-31 17:06:38] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.4.1.tar.gz tmp/gptw-0.4.2.tar.gz --markdown 20230531/g/gptw/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [together-web3]: Downloading https://files.pythonhosted.org/packages/89/03/a9ff1217f67e8110ae42eb48ec0d90933cf4e1d18600e96d46fee8f8b31c/together_web3-0.1.6.tar.gz
+[2023-05-31 17:06:38] INFO root fetch - processPackages [pytonconnect]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [pytonconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonconnect-0.2.1.tar.gz tmp/pytonconnect-0.2.2.tar.gz --markdown 20230531/p/pytonconnect/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230531/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [pypgstac]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [pypgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypgstac-0.7.7.tar.gz tmp/pypgstac-0.7.8.tar.gz --markdown 20230531/p/pypgstac/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [redturtle.tiles.management]: Downloading https://files.pythonhosted.org/packages/f3/7e/d2c8cea8308844c3b77486ee750843d8e2f5c3c232d5d90c077d02a2ee15/redturtle.tiles.management-3.0.1.tar.gz
+[2023-05-31 17:06:38] INFO root fetch - processPackages [together-web3]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [together-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together_web3-0.1.5.tar.gz tmp/together_web3-0.1.6.tar.gz --markdown 20230531/t/together-web3/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [redturtle.tiles.management]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [redturtle.tiles.management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.tiles.management-3.0.0.tar.gz tmp/redturtle.tiles.management-3.0.1.tar.gz --markdown 20230531/r/redturtle.tiles.management/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/40/b1/b86ad1d7db615313b9a26fcbfe48caaef6470ddde4eba57af69fdb7f0841/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl
+[2023-05-31 17:06:38] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2023-05-31 17:06:38] INFO root fetch - processPackages [sentry-relay]: Start processing: statwolfACME
+[2023-05-31 17:06:38] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2023-05-31 17:06:38] INFO root fetch - processPackages [statwolfACME]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-31 17:06:38] INFO root fetch - processPackages [tfa-nightly]: executing diffoscope
+[2023-05-31 17:06:38] INFO root fetch - processPackages [tfa-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl.zip tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip --markdown 20230531/t/tfa-nightly/0.9.0.dev20200409113542-0.9.0.dev20200409113748/diff.md --exclude *.pyd
+[2023-05-31 17:06:38] INFO root fetch - processPackages [statwolfACME]: Downloading https://files.pythonhosted.org/packages/c5/42/1cf2290bf176c7e836099115f318d7bcb634dcfcc16ebfab72933673deeb/statwolfACME-2.1.1-py2.py3-none-any.whl
+[2023-05-31 17:06:39] INFO root fetch - processPackages [statwolfACME]: Downloading https://files.pythonhosted.org/packages/bd/df/c086a4b8d1bc8ce5a1df00f88286cfe4eb1c3e651116a45641e46be20eab/statwolfACME-2.1.2-py2.py3-none-any.whl
+[2023-05-31 17:06:39] INFO root fetch - processPackages [statwolfACME]: executing diffoscope
+[2023-05-31 17:06:39] INFO root fetch - processPackages [statwolfACME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statwolfACME-2.1.1-py2.py3-none-any.whl.zip tmp/statwolfACME-2.1.2-py2.py3-none-any.whl.zip --markdown 20230531/s/statwolfACME/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-31 17:06:39] INFO root fetch - processPackages [pytonconnect]: Start processing: django-pfx
+[2023-05-31 17:06:39] INFO root fetch - main [MainThread]: End processing [pytonconnect]: success
+[2023-05-31 17:06:39] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-31 17:06:39] INFO root fetch - processPackages [gptw]: Start processing: xattrs
+[2023-05-31 17:06:39] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-05-31 17:06:39] WARNING root fetch - processPackages [xattrs]: Skipping, unable to determine old version
+[2023-05-31 17:06:39] INFO root fetch - processPackages [xattrs]: Start processing: libcove2
+[2023-05-31 17:06:39] INFO root fetch - main [MainThread]: End processing [xattrs] error
+[2023-05-31 17:06:39] INFO root fetch - processPackages [libcove2]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-31 17:06:39] INFO root fetch - processPackages [sailboat-gym]: Start processing: helptool
+[2023-05-31 17:06:39] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-05-31 17:06:39] WARNING root fetch - processPackages [helptool]: Skipping, unable to determine old version
+[2023-05-31 17:06:39] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-31 17:06:39] INFO root fetch - processPackages [helptool]: Start processing: empyric
+[2023-05-31 17:06:39] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230531/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-31 17:06:39] INFO root fetch - main [MainThread]: End processing [helptool] error
+[2023-05-31 17:06:39] INFO root fetch - processPackages [together-web3]: Start processing: edwh-demo-plugin
+[2023-05-31 17:06:39] INFO root fetch - main [MainThread]: End processing [together-web3]: success
+[2023-05-31 17:06:39] INFO root fetch - processPackages [empyric]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-05-31 17:06:39] INFO root fetch - processPackages [edwh-demo-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 17:06:40] INFO root fetch - processPackages [libcove2]: Downloading https://files.pythonhosted.org/packages/f7/62/55ae0a3f6559c6cf7756b3f6710c51de8861c8924ec34d599b34a6d7bac9/libcove2-0.0.0-py3-none-any.whl
+[2023-05-31 17:06:40] INFO root fetch - processPackages [edwh-demo-plugin]: Downloading https://files.pythonhosted.org/packages/f8/af/85b28d115bb76bb21371239de2812e22fcc275b13f4cadb17ddc8f8635dd/edwh_demo_plugin-0.1.0.tar.gz
+[2023-05-31 17:06:40] INFO root fetch - processPackages [redturtle.tiles.management]: Start processing: invenio-app-rdm
+[2023-05-31 17:06:40] INFO root fetch - main [MainThread]: End processing [redturtle.tiles.management]: success
+[2023-05-31 17:06:40] INFO root fetch - processPackages [libcove2]: Downloading https://files.pythonhosted.org/packages/0b/7e/34105c06efd91836543fbdb6692888e2dd67072bc663ede8ec364eaf1762/libcove2-0.1.0.tar.gz
+[2023-05-31 17:06:40] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-05-31 17:06:40] INFO root fetch - processPackages [empyric]: Downloading https://files.pythonhosted.org/packages/00/cd/e6ee5ca27e805d01c2b06449a2427683a93304f820b58e62126d0a24d914/empyric-0.2.3.tar.gz
+[2023-05-31 17:06:40] INFO root fetch - processPackages [statwolfACME]: Start processing: django-pfx
+[2023-05-31 17:06:40] INFO root fetch - main [MainThread]: End processing [statwolfACME]: success
+[2023-05-31 17:06:40] INFO root fetch - processPackages [libcove2]: executing diffoscope
+[2023-05-31 17:06:40] INFO root fetch - processPackages [libcove2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcove2-0.0.0-py3-none-any.whl.zip tmp/libcove2-0.1.0.tar.gz --markdown 20230531/l/libcove2/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 17:06:40] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-31 17:06:40] INFO root fetch - processPackages [empyric]: executing diffoscope
+[2023-05-31 17:06:40] INFO root fetch - processPackages [empyric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyric-0.2.0.tar.gz tmp/empyric-0.2.3.tar.gz --markdown 20230531/e/empyric/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-05-31 17:06:40] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-31 17:06:40] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230531/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-31 17:06:40] INFO root fetch - processPackages [edwh-demo-plugin]: Downloading https://files.pythonhosted.org/packages/e4/d1/f5ba28ab722729664fcdfad0568ff6a5bed31592f13c827acbe641a1bd91/edwh_demo_plugin-0.1.1.tar.gz
+[2023-05-31 17:06:40] INFO root fetch - processPackages [edwh-demo-plugin]: executing diffoscope
+[2023-05-31 17:06:40] INFO root fetch - processPackages [edwh-demo-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_demo_plugin-0.1.0.tar.gz tmp/edwh_demo_plugin-0.1.1.tar.gz --markdown 20230531/e/edwh-demo-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 17:06:40] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-05-31 17:06:40] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230531/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-05-31 17:06:41] INFO root fetch - processPackages [tfa-nightly]: Start processing: leukeleu-drf-tus
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [tfa-nightly]: success
+[2023-05-31 17:06:41] INFO root fetch - processPackages [pypgstac]: Start processing: dp4plus-app
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [pypgstac]: success
+[2023-05-31 17:06:41] INFO root fetch - processPackages [dp4plus-app]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-31 17:06:41] WARNING root fetch - processPackages [leukeleu-drf-tus]: Skipping, unable to determine old version
+[2023-05-31 17:06:41] INFO root fetch - processPackages [leukeleu-drf-tus]: Start processing: together-worker
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [leukeleu-drf-tus] error
+[2023-05-31 17:06:41] INFO root fetch - processPackages [together-worker]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-05-31 17:06:41] INFO root fetch - processPackages [dp4plus-app]: Downloading https://files.pythonhosted.org/packages/b7/3d/01500368712085a5a206f4601efa454f170855c97c8dc95c53243cc9d5b5/dp4plus_app-0.1.3.tar.gz
+[2023-05-31 17:06:41] INFO root fetch - processPackages [together-worker]: Downloading https://files.pythonhosted.org/packages/18/1c/e250416f15a751e0f087e3373943c330a2f23f15b85789fc8e2c044a94bf/together_worker-0.1.3.tar.gz
+[2023-05-31 17:06:41] INFO root fetch - processPackages [django-pfx]: Start processing: zh-langchain
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-31 17:06:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Start processing: aaronai
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-05-31 17:06:41] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-31 17:06:41] INFO root fetch - processPackages [dp4plus-app]: Downloading https://files.pythonhosted.org/packages/13/f5/000720136d8156988ba3c22725b1321a747eb4f33f8c0e7d813439576511/dp4plus_app-0.1.4.tar.gz
+[2023-05-31 17:06:41] WARNING root fetch - processPackages [aaronai]: Skipping, unable to determine old version
+[2023-05-31 17:06:41] INFO root fetch - processPackages [aaronai]: Start processing: asset-tracking-pepsico
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [aaronai] error
+[2023-05-31 17:06:41] INFO root fetch - processPackages [libcove2]: Start processing: tensorflow-text-nightly
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [libcove2]: success
+[2023-05-31 17:06:41] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-31 17:06:41] INFO root fetch - processPackages [together-worker]: Downloading https://files.pythonhosted.org/packages/2b/7b/d97fec22d9e1e91955c8ed1e47409c261e9b844b003d66a98a57c7a6d8b8/together_worker-0.1.9.tar.gz
+[2023-05-31 17:06:41] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/e7/c1/2ab0c904784b642abf96cf4378c3e06ff0693974f042946c20c4efaef667/zh-langchain-0.1.7.tar.gz
+[2023-05-31 17:06:41] INFO root fetch - processPackages [dp4plus-app]: executing diffoscope
+[2023-05-31 17:06:41] INFO root fetch - processPackages [dp4plus-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp4plus_app-0.1.3.tar.gz tmp/dp4plus_app-0.1.4.tar.gz --markdown 20230531/d/dp4plus-app/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-31 17:06:41] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230531] Old Version: [2.14.0.dev20230530]
+[2023-05-31 17:06:41] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17370960>=10485760
+[2023-05-31 17:06:41] INFO root fetch - processPackages [zh-langchain]: Start processing: weni-rp-apps
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-31 17:06:41] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/28/7c/265198ae38ccdc95cdeb44fcca244494351a5482515ceed521a67c847306/asset_tracking_pepsico-0.0.5.tar.gz
+[2023-05-31 17:06:41] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.3a0] Old Version: [2.4.3]
+[2023-05-31 17:06:41] INFO root fetch - processPackages [together-worker]: executing diffoscope
+[2023-05-31 17:06:41] INFO root fetch - processPackages [together-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together_worker-0.1.3.tar.gz tmp/together_worker-0.1.9.tar.gz --markdown 20230531/t/together-worker/0.1.3-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 17:06:41] INFO root fetch - main [MainThread]: End processing [edwh-demo-plugin]: success
+[2023-05-31 17:06:41] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-05-31 17:06:41] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-0.0.4.tar.gz tmp/asset_tracking_pepsico-0.0.5.tar.gz --markdown 20230531/a/asset-tracking-pepsico/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-31 17:06:42] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/cb/ca/735335d1e5283b5974189394c6260aba879a5bb2722c3958ca5bae66fc60/tensorflow_text_nightly-2.14.0.dev20230530-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 17:06:42] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/58/aa/db198480bfa5d5b9fd65d0aaf5ef39ff7a5ddecb2b14f7b024fa9d29b77c/weni_rp_apps-2.4.3.tar.gz
+[2023-05-31 17:06:42] INFO root fetch - main [MainThread]: End processing [empyric]: success
+[2023-05-31 17:06:42] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/0a/92/63db4f8dccd97030f672d1f76cde044fce0d7d60c5b716153d8b1a1ecf53/weni_rp_apps-2.4.3a0.tar.gz
+[2023-05-31 17:06:42] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/f7/4a/de9ae856dd1027e9af055d1738ec2816ac6375d73ee311ce87842e24a0ce/tensorflow_text_nightly-2.14.0.dev20230531-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 17:06:42] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-31 17:06:42] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.3.tar.gz tmp/weni_rp_apps-2.4.3a0.tar.gz --markdown 20230531/w/weni-rp-apps/2.4.3-2.4.3a0/diff.md --exclude *.pyd
+[2023-05-31 17:06:42] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-31 17:06:43] INFO root fetch - main [MainThread]: End processing [together-worker]: success
+[2023-05-31 17:06:43] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-05-31 17:06:43] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-31 17:06:43] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-31 17:06:43] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230530-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230531-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230531/t/tensorflow-text-nightly/2.14.0.dev20230530-2.14.0.dev20230531/diff.md --exclude *.pyd
+[2023-05-31 17:06:43] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-05-31 17:06:44] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-31 17:06:44] INFO root fetch - main [MainThread]: End processing [dp4plus-app]: success
+[2023-05-31 17:06:44] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-31 17:06:44] INFO root fetch - main [MainThread]: Store serial: [18318881]
