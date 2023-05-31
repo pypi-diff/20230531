@@ -10088,3 +10088,95 @@
 [2023-05-31 09:46:03] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
 [2023-05-31 09:46:33] INFO root fetch - main [MainThread]: End processing [umap-project]: success
 [2023-05-31 09:46:33] INFO root fetch - main [MainThread]: Store serial: [18313815]
+[2023-05-31 09:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313815]
+[2023-05-31 09:51:43] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vot-toolkit
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dialogy
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProjectB-clientside-template-package
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ggvlib
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auth-package
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Eikthyr
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitlab-arc-fs
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test123qwe123qwe
+[2023-05-31 09:51:43] INFO root fetch - processPackages [ProjectB-clientside-template-package]: New version: [0.8] Old Version: [0.7]
+[2023-05-31 09:51:43] INFO root fetch - processPackages [auth-package]: New version: [1.4] Old Version: [1.3]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [Eikthyr]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-05-31 09:51:44] WARNING root fetch - processPackages [test123qwe123qwe]: Skipping, unable to determine old version
+[2023-05-31 09:51:44] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [test123qwe123qwe]: Start processing: unified-planning
+[2023-05-31 09:51:44] INFO root fetch - main [MainThread]: End processing [test123qwe123qwe] error
+[2023-05-31 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.6.dev1] Old Version: [0.0.5.dev1]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [vot-toolkit]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [dialogy]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-31 09:51:44] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230531/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [Eikthyr]: Downloading https://files.pythonhosted.org/packages/30/be/c3ca26116b6e0d21f3242b3dc3f5e3e05f663000cfcf44f86935c5163454/Eikthyr-0.6.4.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [auth-package]: Downloading https://files.pythonhosted.org/packages/94/8d/e129eb50a0f41136a82a10f9a6a7e74b12de1a89e2e33841477ae21c7254/auth_package-1.4.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230531/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/25/25/747179e05d9008a75c423443e00f5d0d8b44de53567b8e0df91516c46d1c/gitlab_arc_fs-0.0.5.dev1.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Downloading https://files.pythonhosted.org/packages/b7/d3/a95ff5ac6a7e7111296c349b9b1b4f7417e34b313e842b8bb72cba16dc00/ProjectB_clientside_template_package-0.8.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230531/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [auth-package]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [auth-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_package-1.3.tar.gz tmp/auth_package-1.4.tar.gz --markdown 20230531/a/auth-package/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [vot-toolkit]: Downloading https://files.pythonhosted.org/packages/cd/e6/7e5f45579d22902db6071a5d6b9daf1c2a481fc22bd255d49c89bec8a8f3/vot-toolkit-0.6.4.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.6.tar.gz tmp/dialogy-2.0.7.tar.gz --markdown 20230531/d/dialogy/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjectB_clientside_template_package-0.7.tar.gz tmp/ProjectB_clientside_template_package-0.8.tar.gz --markdown 20230531/P/ProjectB-clientside-template-package/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/e4/c9/ad1bfbfe08eb649f51967d31cce94afaca11d47b3f88a76dfe741b226d54/gitlab_arc_fs-0.0.6.dev1.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [vot-toolkit]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [vot-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vot-toolkit-0.6.2.tar.gz tmp/vot-toolkit-0.6.4.tar.gz --markdown 20230531/v/vot-toolkit/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [Eikthyr]: Downloading https://files.pythonhosted.org/packages/6e/b0/3cd2cae39549130a648835abb16b787e4dca2f3b005aee5735e2e0451e29/Eikthyr-0.7.0.tar.gz
+[2023-05-31 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.5.dev1.tar.gz tmp/gitlab_arc_fs-0.0.6.dev1.tar.gz --markdown 20230531/g/gitlab-arc-fs/0.0.5.dev1-0.0.6.dev1/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230531/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-31 09:51:44] INFO root fetch - processPackages [Eikthyr]: executing diffoscope
+[2023-05-31 09:51:44] INFO root fetch - processPackages [Eikthyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eikthyr-0.6.4.tar.gz tmp/Eikthyr-0.7.0.tar.gz --markdown 20230531/E/Eikthyr/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-05-31 09:51:45] INFO root fetch - processPackages [ggvlib]: Start processing: optimas
+[2023-05-31 09:51:45] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-05-31 09:51:45] WARNING root fetch - processPackages [optimas]: Skipping, unable to determine old version
+[2023-05-31 09:51:45] INFO root fetch - processPackages [optimas]: Start processing: crio
+[2023-05-31 09:51:45] INFO root fetch - main [MainThread]: End processing [optimas] error
+[2023-05-31 09:51:45] INFO root fetch - processPackages [crio]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 09:51:45] INFO root fetch - processPackages [auth-package]: Start processing: gamutrf
+[2023-05-31 09:51:45] INFO root fetch - main [MainThread]: End processing [auth-package]: success
+[2023-05-31 09:51:45] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-31 09:51:45] INFO root fetch - processPackages [crio]: Downloading https://files.pythonhosted.org/packages/a7/c1/fd570b548b08da09740b18298b406494b8e7ae7292859140783dcc179e03/crio-0.0.3.tar.gz
+[2023-05-31 09:51:45] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Start processing: anaio
+[2023-05-31 09:51:45] INFO root fetch - main [MainThread]: End processing [ProjectB-clientside-template-package]: success
+[2023-05-31 09:51:46] INFO root fetch - processPackages [gitlab-arc-fs]: Start processing: steamship-langchain
+[2023-05-31 09:51:46] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-05-31 09:51:46] INFO root fetch - processPackages [anaio]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 09:51:46] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-31 09:51:46] INFO root fetch - processPackages [crio]: Downloading https://files.pythonhosted.org/packages/b2/7b/1ac0f90db66ecce36adbf4d7673845c7411143f8b42752a4309821893c07/crio-0.0.4.tar.gz
+[2023-05-31 09:51:46] INFO root fetch - processPackages [crio]: executing diffoscope
+[2023-05-31 09:51:46] INFO root fetch - processPackages [crio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crio-0.0.3.tar.gz tmp/crio-0.0.4.tar.gz --markdown 20230531/c/crio/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 09:51:46] INFO root fetch - processPackages [anaio]: Downloading https://files.pythonhosted.org/packages/31/da/7d12c4e0b93c591fc5df2917ebea3851c744332a6893b2ef95b5e6b0be4c/anaio-1.0.2.tar.gz
+[2023-05-31 09:51:46] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 09:51:46] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-05-31 09:51:46] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230531/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-31 09:51:46] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-05-31 09:51:46] INFO root fetch - processPackages [anaio]: Downloading https://files.pythonhosted.org/packages/21/ff/376b05b0b52ef8f61ab02962561e6a7266666daf098b0b8c13e9b0806cd9/anaio-1.0.3.tar.gz
+[2023-05-31 09:51:46] INFO root fetch - main [MainThread]: End processing [Eikthyr]: success
+[2023-05-31 09:51:46] INFO root fetch - main [MainThread]: End processing [vot-toolkit]: success
+[2023-05-31 09:51:46] INFO root fetch - processPackages [anaio]: executing diffoscope
+[2023-05-31 09:51:46] INFO root fetch - processPackages [anaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaio-1.0.2.tar.gz tmp/anaio-1.0.3.tar.gz --markdown 20230531/a/anaio/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 09:51:47] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-05-31 09:51:47] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-05-31 09:51:47] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-05-31 09:51:47] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230531/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 09:51:47] INFO root fetch - main [MainThread]: End processing [crio]: success
+[2023-05-31 09:51:47] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-05-31 09:51:47] INFO root fetch - main [MainThread]: End processing [anaio]: success
+[2023-05-31 09:51:48] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-05-31 09:51:51] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-31 09:51:52] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-31 09:51:52] INFO root fetch - main [MainThread]: Store serial: [18313867]
