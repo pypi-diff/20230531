@@ -8325,3 +8325,78 @@
 [2023-05-31 07:09:26] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-05-31 07:12:14] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-31 07:12:14] INFO root fetch - main [MainThread]: Store serial: [18312666]
+[2023-05-31 07:17:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312666]
+[2023-05-31 07:17:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-similarity
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmachine
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowclient
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WebtoonScraper
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cabinet
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: permutate
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zen3geo
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-utilities
+[2023-05-31 07:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: commonMethods-zhaozl-green
+[2023-05-31 07:17:23] INFO root fetch - processPackages [tensorflow-similarity]: New version: [0.17.1] Old Version: [0.16.9]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [permutate]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [cabinet]: New version: [2023.5.31.2] Old Version: [2023.5.31.1]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [zen3geo]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [commonMethods-zhaozl-green]: New version: [2.1] Old Version: [2.0]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-31 07:17:23] INFO root fetch - processPackages [zen3geo]: Downloading https://files.pythonhosted.org/packages/af/ca/f5b72dd330e7307eb82e1f00d2f9b8802276c7dba16ebe0f6a828bd0eb91/zen3geo-0.6.0.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [permutate]: Downloading https://files.pythonhosted.org/packages/f2/fb/cb1c0c92e145902547ac473c1cae30c48ae5a91409f95c354935bb23d6f1/permutate-0.0.1.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [tensorflow-similarity]: Downloading https://files.pythonhosted.org/packages/f6/4a/a36ba10fa01f69a5312bf4d4e072f96f6a6a7d47230f674d87dda6090648/tensorflow_similarity-0.16.9.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [abstract-utilities]: Downloading https://files.pythonhosted.org/packages/2d/bf/c73c46dd3455e0261203d2b9781bf2af9d495c25f437ec1f38833613373e/abstract_utilities-0.0.9.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-31 07:17:23] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230531/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:17:23] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/1f/0a/44c9cf738a1b5d6e13cd26502887b5acc5930b5deee59ad0526bfc0e6904/cabinet-2023.5.31.2.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 07:17:23] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230531/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230531/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-31 07:17:23] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-05-31 07:17:23] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.5.31.1.tar.gz tmp/cabinet-2023.5.31.2.tar.gz --markdown 20230531/c/cabinet/2023.5.31.1-2023.5.31.2/diff.md --exclude *.pyd
+[2023-05-31 07:17:23] INFO root fetch - processPackages [commonMethods-zhaozl-green]: Downloading https://files.pythonhosted.org/packages/0d/8a/d4e8fee4321d5ca52dd6e059a04cdaf9330192a3f8fac76a966360de378b/commonMethods_zhaozl_green-2.1.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230531/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-31 07:17:23] INFO root fetch - processPackages [permutate]: Downloading https://files.pythonhosted.org/packages/a3/cf/98664ba52552592b2c66a158986233d3e5325a56f6cd93f6bc37745e3790/permutate-0.0.2.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [zen3geo]: Downloading https://files.pythonhosted.org/packages/aa/48/0084ab419acf0e8e4490434d9d7be43a34d47534c266b938d908cdd07397/zen3geo-0.6.1.tar.gz
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-31 07:17:23] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230531/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-31 07:17:24] INFO root fetch - processPackages [commonMethods-zhaozl-green]: executing diffoscope
+[2023-05-31 07:17:24] INFO root fetch - processPackages [commonMethods-zhaozl-green]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonMethods_zhaozl_green-2.0.tar.gz tmp/commonMethods_zhaozl_green-2.1.tar.gz --markdown 20230531/c/commonMethods-zhaozl-green/2.0-2.1/diff.md --exclude *.pyd
+[2023-05-31 07:17:24] INFO root fetch - processPackages [permutate]: executing diffoscope
+[2023-05-31 07:17:24] INFO root fetch - processPackages [permutate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permutate-0.0.1.tar.gz tmp/permutate-0.0.2.tar.gz --markdown 20230531/p/permutate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 07:17:24] INFO root fetch - processPackages [zen3geo]: executing diffoscope
+[2023-05-31 07:17:24] INFO root fetch - processPackages [zen3geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen3geo-0.6.0.tar.gz tmp/zen3geo-0.6.1.tar.gz --markdown 20230531/z/zen3geo/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-31 07:17:24] INFO root fetch - processPackages [tensorflow-similarity]: Downloading https://files.pythonhosted.org/packages/84/ef/0cb2ca431a62b057446683b5839a39c51505c8d900928793afe1fe39cdfe/tensorflow_similarity-0.17.1.tar.gz
+[2023-05-31 07:17:24] INFO root fetch - processPackages [tensorflow-similarity]: executing diffoscope
+[2023-05-31 07:17:24] INFO root fetch - processPackages [tensorflow-similarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_similarity-0.16.9.tar.gz tmp/tensorflow_similarity-0.17.1.tar.gz --markdown 20230531/t/tensorflow-similarity/0.16.9-0.17.1/diff.md --exclude *.pyd
+[2023-05-31 07:17:25] INFO root fetch - processPackages [flowclient]: Start processing: KingdomsAndWarfare
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-31 07:17:25] INFO root fetch - processPackages [WebtoonScraper]: Start processing: winpwn
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [permutate]: success
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 07:17:25] INFO root fetch - processPackages [KingdomsAndWarfare]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-31 07:17:25] INFO root fetch - processPackages [winpwn]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [commonMethods-zhaozl-green]: success
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [zen3geo]: success
+[2023-05-31 07:17:25] INFO root fetch - processPackages [KingdomsAndWarfare]: Downloading https://files.pythonhosted.org/packages/79/43/a3efb6d09ea6709e5cf08ec9ee658720008a0f10dea7e0486ca66fecd2d9/KingdomsAndWarfare-0.2.2.tar.gz
+[2023-05-31 07:17:25] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-05-31 07:17:25] INFO root fetch - processPackages [winpwn]: Downloading https://files.pythonhosted.org/packages/2a/31/7511decc2037598d9c2244f09aad06e8a37a7a408529e9b9058e91e93550/winpwn-0.2.4-py3.7.egg
+[2023-05-31 07:17:25] INFO root fetch - processPackages [KingdomsAndWarfare]: executing diffoscope
+[2023-05-31 07:17:25] INFO root fetch - processPackages [KingdomsAndWarfare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KingdomsAndWarfare-0.2.1-py3-none-any.whl.zip tmp/KingdomsAndWarfare-0.2.2.tar.gz --markdown 20230531/K/KingdomsAndWarfare/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 07:17:26] INFO root fetch - processPackages [winpwn]: Downloading https://files.pythonhosted.org/packages/92/3e/ab5839f750e741248c1da9dee4dad7a9859dbc0b7cf5902a4cd950531b8f/winpwn-0.3.0-py2.py3-none-any.whl
+[2023-05-31 07:17:26] INFO root fetch - processPackages [winpwn]: executing diffoscope
+[2023-05-31 07:17:26] INFO root fetch - processPackages [winpwn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winpwn-0.2.4-py3.7.egg tmp/winpwn-0.3.0-py2.py3-none-any.whl.zip --markdown 20230531/w/winpwn/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 07:17:26] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-31 07:17:26] INFO root fetch - main [MainThread]: End processing [KingdomsAndWarfare]: success
+[2023-05-31 07:17:27] INFO root fetch - main [MainThread]: End processing [tensorflow-similarity]: success
+[2023-05-31 07:17:27] INFO root fetch - main [MainThread]: End processing [winpwn]: success
+[2023-05-31 07:17:27] INFO root fetch - main [MainThread]: Store serial: [18312716]
