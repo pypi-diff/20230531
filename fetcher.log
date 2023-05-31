@@ -22980,3 +22980,84 @@
 [2023-05-31 21:40:50] INFO root fetch - main [MainThread]: End processing [flow-helpers-tps]: success
 [2023-05-31 21:40:50] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
 [2023-05-31 21:40:50] INFO root fetch - main [MainThread]: Store serial: [18321529]
+[2023-05-31 21:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321529]
+[2023-05-31 21:46:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasklar
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robusta-cli
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip-rotator
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SciDataContainer
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AoiPy
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taisim
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-ai
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sliderule
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homeassistant
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ploomes-api-client
+[2023-05-31 21:46:00] INFO root fetch - processPackages [pandasklar]: New version: [0.3.1] Old Version: [0.2.5]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ip-rotator]: New version: [1.3] Old Version: [1.2]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [SciDataContainer]: New version: [1.0.0] Old Version: [0.5.3]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.705] Old Version: [0.0.704]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [taisim]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [sliderule]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.0b0] Old Version: [2023.5.4]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/fe/15/d949aa80ed15c392df65fa4415062e61b85cdbe7ee141c85724e8f6af59c/pandasklar-0.2.5.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230531/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] INFO root fetch - processPackages [SciDataContainer]: Downloading https://files.pythonhosted.org/packages/9a/30/93c0afed8d80fb16079c64c83b7bf10e10580b5c2750ae9804e9c6491a5c/SciDataContainer-0.5.3-py3-none-any.whl
+[2023-05-31 21:46:00] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230531/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ip-rotator]: Downloading https://files.pythonhosted.org/packages/53/f9/af3ce0d9e04bdb40a05943a6b3ecbbfe3262cd9657811f6042ffb73c8bfe/ip_rotator-1.3.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/9c/e2/7c905115676abed9d16fab90f56b2a378f6282f8c189290e9ffd97b5a611/sliderule-3.3.0.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/9c/73/95d78335cb7e8a42eea3d8f466f6c2f335177650502cfc197d8c9aaa5523/abstract_ai-0.0.705.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [taisim]: Downloading https://files.pythonhosted.org/packages/eb/4f/cf73be5e1315d16057a350b099ffdd82363bddc74ce3a9785fcf4b1e4c58/taisim-0.1.0.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.704.tar.gz tmp/abstract_ai-0.0.705.tar.gz --markdown 20230531/a/abstract-ai/0.0.704-0.0.705/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/23/fb/d42628e7a5e330515a5529a608809dca4778f22e2ad7614fe773d851b961/ploomes-api-client-0.1.6.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/60/87/d5319faa54feaaace312f0c7d35264f2b7b47a6ef816d5d0768b4e717eee/homeassistant-2023.5.4.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ip-rotator]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ip-rotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_rotator-1.2.tar.gz tmp/ip_rotator-1.3.tar.gz --markdown 20230531/i/ip-rotator/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 13942134>=10485760
+[2023-05-31 21:46:00] INFO root fetch - processPackages [homeassistant]: Start processing: orellm
+[2023-05-31 21:46:00] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-05-31 21:46:00] WARNING root fetch - processPackages [orellm]: Skipping, unable to determine old version
+[2023-05-31 21:46:00] INFO root fetch - processPackages [SciDataContainer]: Downloading https://files.pythonhosted.org/packages/3b/ef/103fbdb2f7feb2c25458a517f02baee6886f09a2300b0ba0aa3d5f5e290d/SciDataContainer-1.0.0-py3-none-any.whl
+[2023-05-31 21:46:00] INFO root fetch - processPackages [orellm]: Start processing: scipy
+[2023-05-31 21:46:00] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/0a/f5/ff99c204873a3e31cbecb9425db91f39533e9214055ed03903fdbd24f338/pandasklar-0.3.1.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - main [MainThread]: End processing [orellm] error
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.5.tar.gz tmp/ploomes-api-client-0.1.6.tar.gz --markdown 20230531/p/ploomes-api-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] INFO root fetch - processPackages [scipy]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-31 21:46:00] INFO root fetch - processPackages [taisim]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [taisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taisim-0.0.9.tar.gz tmp/taisim-0.1.0.tar.gz --markdown 20230531/t/taisim/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] INFO root fetch - processPackages [SciDataContainer]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [SciDataContainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciDataContainer-0.5.3-py3-none-any.whl.zip tmp/SciDataContainer-1.0.0-py3-none-any.whl.zip --markdown 20230531/S/SciDataContainer/0.5.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 21:46:00] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/00/7b/d9f17beeee1085779038166299c5f0a0273ba45554e839f7af9a307a1423/sliderule-3.4.0.tar.gz
+[2023-05-31 21:46:00] INFO root fetch - processPackages [pandasklar]: executing diffoscope
+[2023-05-31 21:46:00] INFO root fetch - processPackages [pandasklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasklar-0.2.5.tar.gz tmp/pandasklar-0.3.1.tar.gz --markdown 20230531/p/pandasklar/0.2.5-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 21:46:01] INFO root fetch - processPackages [sliderule]: executing diffoscope
+[2023-05-31 21:46:01] INFO root fetch - processPackages [sliderule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliderule-3.3.0.tar.gz tmp/sliderule-3.4.0.tar.gz --markdown 20230531/s/sliderule/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-31 21:46:01] INFO root fetch - processPackages [scipy]: Downloading https://files.pythonhosted.org/packages/17/07/68df07679ec4a4a24bff00147a14908aa73e9e8912d142886e8d0e1e3d64/scipy-1.9.2.tar.gz
+[2023-05-31 21:46:01] WARNING root fetch - processPackages [scipy]: Skipping package: exceeds size limit 42068300>=10485760
+[2023-05-31 21:46:01] INFO root fetch - processPackages [scipy]: Start processing: lib-for-messanger
+[2023-05-31 21:46:01] INFO root fetch - main [MainThread]: End processing [scipy] error
+[2023-05-31 21:46:01] INFO root fetch - processPackages [lib-for-messanger]: New version: [0.4] Old Version: [0.3]
+[2023-05-31 21:46:01] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-05-31 21:46:01] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-0.3.tar.gz tmp/lib_for_messanger-0.4.tar.gz --markdown 20230531/l/lib-for-messanger/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-31 21:46:01] INFO root fetch - processPackages [AoiPy]: Start processing: gdshoplib
+[2023-05-31 21:46:01] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-05-31 21:46:01] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-31 21:46:02] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-05-31 21:46:02] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230531/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [ip-rotator]: success
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [taisim]: success
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [SciDataContainer]: success
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [sliderule]: success
+[2023-05-31 21:46:02] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-05-31 21:46:03] INFO root fetch - main [MainThread]: End processing [pandasklar]: success
+[2023-05-31 21:46:03] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-05-31 21:46:04] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-05-31 21:46:04] INFO root fetch - main [MainThread]: Store serial: [18321572]
