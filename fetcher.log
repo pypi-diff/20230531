@@ -22501,3 +22501,78 @@
 [2023-05-31 21:06:35] INFO root fetch - main [MainThread]: End processing [carpo-student]: success
 [2023-05-31 21:06:35] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
 [2023-05-31 21:06:35] INFO root fetch - main [MainThread]: Store serial: [18321237]
+[2023-05-31 21:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18321237]
+[2023-05-31 21:11:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-walt
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yml2cli
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-utilities
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aim-ui
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logedit
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aim
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: summa-embed
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: annotated-types
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: defog
+[2023-05-31 21:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: isidore
+[2023-05-31 21:11:45] INFO root fetch - processPackages [mkdocs-walt]: New version: [0.1.0] Old Version: [0.0.4.dev0]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [summa-embed]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [logedit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [isidore]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [yml2cli]: New version: [0.0.1.post20230531185952] Old Version: [0.0.1]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [annotated-types]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [aim]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [yml2cli]: Downloading https://files.pythonhosted.org/packages/89/d4/f38fb5a6efd0e9c6b300812e6d683a996dd43ff938400e4b756540bb8112/yml2cli-0.0.1.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [mkdocs-walt]: Downloading https://files.pythonhosted.org/packages/5a/19/56d656de3b6a3d29ec7e8d3ddb0a2ce486961ecc015c08ff9fb4c48b0fca/mkdocs-walt-0.1.0.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/72/11/d6a599ec4ad003d59801200d43ab098d9e29c73b16b2ef5ae8c3913470e4/aim-ui-4.0.0a3.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [annotated-types]: Downloading https://files.pythonhosted.org/packages/ca/8e/b5223a88cdf4f9bc0d5e44d02ca9cd8c7e4a0d18b99d8b7ebd2f7dd7275f/annotated_types-0.4.0.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230531/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/d3/76/3e67274c41f886fe2825bbefd0a9ebc2779df36365933f28a39f025344f0/summa_embed-0.15.8.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [mkdocs-walt]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230531/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] INFO root fetch - processPackages [mkdocs-walt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-walt-0.0.4.dev0.tar.gz tmp/mkdocs-walt-0.1.0.tar.gz --markdown 20230531/m/mkdocs-walt/0.0.4.dev0-0.1.0/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.15.7.tar.gz tmp/summa_embed-0.15.8.tar.gz --markdown 20230531/s/summa-embed/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 20217136>=10485760
+[2023-05-31 21:11:45] INFO root fetch - processPackages [aim-ui]: Start processing: datadog-api-client
+[2023-05-31 21:11:45] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-31 21:11:45] INFO root fetch - processPackages [datadog-api-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 21:11:45] INFO root fetch - processPackages [logedit]: Downloading https://files.pythonhosted.org/packages/7d/f2/4d4a01fbcc5e5f97f4f8ec8baa8d49f7a452b708d2f30fd698416611d881/logedit-0.1.1.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [isidore]: Downloading https://files.pythonhosted.org/packages/71/3a/969406eb856469b654646eea1db5861958e3d9b0740944e7f705cb139bac/isidore-0.1.5.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [logedit]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [logedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logedit-0.1.0.tar.gz tmp/logedit-0.1.1.tar.gz --markdown 20230531/l/logedit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] INFO root fetch - processPackages [isidore]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [isidore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isidore-0.1.4.tar.gz tmp/isidore-0.1.5.tar.gz --markdown 20230531/i/isidore/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/14/a5/68ae7cd44b3b437544e0a9eb6034476083c3cd61ceb19a635c6064d445ed/aim-4.0.0a4.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [yml2cli]: Downloading https://files.pythonhosted.org/packages/03/82/8388038f88157204a4aa602c3dc67eaf1ac18feb6c599b078aeb6c451752/yml2cli-0.0.1.post20230531185952.tar.gz
+[2023-05-31 21:11:45] INFO root fetch - processPackages [yml2cli]: executing diffoscope
+[2023-05-31 21:11:45] INFO root fetch - processPackages [yml2cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yml2cli-0.0.1.tar.gz tmp/yml2cli-0.0.1.post20230531185952.tar.gz --markdown 20230531/y/yml2cli/0.0.1-0.0.1.post20230531185952/diff.md --exclude *.pyd
+[2023-05-31 21:11:45] INFO root fetch - processPackages [annotated-types]: Downloading https://files.pythonhosted.org/packages/42/97/41ccb6acac36fdd13592a686a21b311418f786f519e5794b957afbcea938/annotated_types-0.5.0.tar.gz
+[2023-05-31 21:11:46] INFO root fetch - processPackages [annotated-types]: executing diffoscope
+[2023-05-31 21:11:46] INFO root fetch - processPackages [annotated-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annotated_types-0.4.0.tar.gz tmp/annotated_types-0.5.0.tar.gz --markdown 20230531/a/annotated-types/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 21:11:46] INFO root fetch - processPackages [datadog-api-client]: Downloading https://files.pythonhosted.org/packages/86/2e/14d9ffd8e2df1929107d24c1420d88e95559f32f77e7ddf9f3b6d12d33b5/datadog-api-client-2.8.0.tar.gz
+[2023-05-31 21:11:46] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-31 21:11:46] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a3.tar.gz tmp/aim-4.0.0a4.tar.gz --markdown 20230531/a/aim/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-05-31 21:11:47] INFO root fetch - processPackages [mkdocs-walt]: Start processing: pymemuc
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [mkdocs-walt]: success
+[2023-05-31 21:11:47] INFO root fetch - processPackages [pymemuc]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-05-31 21:11:47] INFO root fetch - processPackages [datadog-api-client]: Downloading https://files.pythonhosted.org/packages/e9/60/cf6fcb7773d3a0f80cc39cbca4c58fadba180f77adb24d296e86a330d6f4/datadog-api-client-2.9.0.tar.gz
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 21:11:47] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/c8/46/e73ea7939177f755adbd40ff4f03305350d6b92210f5e03cf0f925e8a134/pymemuc-0.3.2.tar.gz
+[2023-05-31 21:11:47] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-05-31 21:11:47] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.3.1.tar.gz tmp/pymemuc-0.3.2.tar.gz --markdown 20230531/p/pymemuc/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [logedit]: success
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [isidore]: success
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [yml2cli]: success
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [annotated-types]: success
+[2023-05-31 21:11:47] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-05-31 21:11:48] INFO root fetch - processPackages [datadog-api-client]: executing diffoscope
+[2023-05-31 21:11:48] INFO root fetch - processPackages [datadog-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-api-client-2.8.0.tar.gz tmp/datadog-api-client-2.9.0.tar.gz --markdown 20230531/d/datadog-api-client/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 21:11:48] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-05-31 21:11:53] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-31 21:13:37] INFO root fetch - main [MainThread]: End processing [datadog-api-client]: success
+[2023-05-31 21:13:37] INFO root fetch - main [MainThread]: Store serial: [18321297]
