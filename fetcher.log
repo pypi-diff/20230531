@@ -11352,3 +11352,112 @@
 [2023-05-31 11:08:00] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
 [2023-05-31 11:08:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-31 11:08:03] INFO root fetch - main [MainThread]: Store serial: [18314527]
+[2023-05-31 11:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314527]
+[2023-05-31 11:13:12] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BingImageCreator
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: customized-chart
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autovf
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anaio
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-ai-cli
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.pm.locales
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starmerxauth-erp
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fw-storage
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fh-fablib
+[2023-05-31 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metdig
+[2023-05-31 11:13:12] INFO root fetch - processPackages [py-ai-cli]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [autovf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [anaio]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [imio.pm.locales]: New version: [4.2b9] Old Version: [4.2b8]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [BingImageCreator]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [fw-storage]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [fh-fablib]: New version: [1.0.20230531] Old Version: [1.0.20230411]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [customized-chart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 11:13:12] INFO root fetch - processPackages [starmerxauth-erp]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-31 11:13:13] INFO root fetch - processPackages [customized-chart]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [customized-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_chart-0.1.8.tar.gz tmp/customized_chart-0.1.9.tar.gz --markdown 20230531/c/customized-chart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/3c/68/0bfb40766f84bf8529f603f2c96c54d013e5e9b241977166efd3d4529938/py-ai-cli-0.3.3.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fh-fablib]: Downloading https://files.pythonhosted.org/packages/e6/c3/7047ca2dbbe01ee1c2944dc2568bb727856a9e171b3f3a506f64afa5cc26/fh_fablib-1.0.20230411.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [imio.pm.locales]: Downloading https://files.pythonhosted.org/packages/d7/02/3d263410fd331d6bc5cf51ee938ef2e76e3dc92812701f8d8b709e407ab0/imio.pm.locales-4.2b8.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [anaio]: Downloading https://files.pythonhosted.org/packages/cb/a5/94bb699643cd3319dac0a4adae319393ceba38187cf489c5d24d2b0e694e/anaio-1.0.4.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/7e/b9/f30a4eaf1f8e159dcc29d06ac6956919b5ca63391176c4e1280b06b2325b/starmerxauth_erp-0.2.4.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [starmerxauth-erp]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [starmerxauth-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerxauth_erp-0.2.3.tar.gz tmp/starmerxauth_erp-0.2.4.tar.gz --markdown 20230531/s/starmerxauth-erp/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [autovf]: Downloading https://files.pythonhosted.org/packages/26/bf/2802c4829bff20864a212995ffc02ecaf6fe61936151356e0ca5ec15b4a8/autovf-0.0.3-py3-none-any.whl
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fw-storage]: Downloading https://files.pythonhosted.org/packages/34/fb/161ecab9faee99bdfbdac5c8f16fa362f03f5718f5bed2ed3730195d2097/fw_storage-2.1.9-py3-none-any.whl
+[2023-05-31 11:13:13] INFO root fetch - processPackages [BingImageCreator]: Downloading https://files.pythonhosted.org/packages/dc/af/9de5e5150e64a99372f398dde15189ce67bf676f86b93bc5e24abcf1e5de/BingImageCreator-0.3.1.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230531/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [anaio]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [anaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaio-1.0.3.tar.gz tmp/anaio-1.0.4.tar.gz --markdown 20230531/a/anaio/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [autovf]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [autovf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autovf-0.0.2.tar.gz tmp/autovf-0.0.3-py3-none-any.whl.zip --markdown 20230531/a/autovf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [BingImageCreator]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fw-storage]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [BingImageCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BingImageCreator-0.3.0.tar.gz tmp/BingImageCreator-0.3.1.tar.gz --markdown 20230531/B/BingImageCreator/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_storage-2.1.8-py3-none-any.whl.zip tmp/fw_storage-2.1.9-py3-none-any.whl.zip --markdown 20230531/f/fw-storage/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/78/6d/3eb59dedbf7da0782457ca2da06cdb16611cf0c6eaf3cb4c2cbb691f9ab0/py-ai-cli-0.3.4.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fh-fablib]: Downloading https://files.pythonhosted.org/packages/f2/47/0b0ced4bca3559cd6cf6b580a58be394a24a6d5c458b483440738976d8e4/fh_fablib-1.0.20230531.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [py-ai-cli]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [py-ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ai-cli-0.3.3.tar.gz tmp/py-ai-cli-0.3.4.tar.gz --markdown 20230531/p/py-ai-cli/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fh-fablib]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [fh-fablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fh_fablib-1.0.20230411.tar.gz tmp/fh_fablib-1.0.20230531.tar.gz --markdown 20230531/f/fh-fablib/1.0.20230411-1.0.20230531/diff.md --exclude *.pyd
+[2023-05-31 11:13:13] INFO root fetch - processPackages [imio.pm.locales]: Downloading https://files.pythonhosted.org/packages/b1/95/695c6292d7b0958ebc705170cec321e424079c0716aaf0f09b29ae261c93/imio.pm.locales-4.2b9.tar.gz
+[2023-05-31 11:13:13] INFO root fetch - processPackages [imio.pm.locales]: executing diffoscope
+[2023-05-31 11:13:13] INFO root fetch - processPackages [imio.pm.locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.pm.locales-4.2b8.tar.gz tmp/imio.pm.locales-4.2b9.tar.gz --markdown 20230531/i/imio.pm.locales/4.2b8-4.2b9/diff.md --exclude *.pyd
+[2023-05-31 11:13:14] INFO root fetch - processPackages [customized-chart]: Start processing: ohmytmp-gui
+[2023-05-31 11:13:14] INFO root fetch - main [MainThread]: End processing [customized-chart]: success
+[2023-05-31 11:13:14] WARNING root fetch - processPackages [ohmytmp-gui]: Skipping, unable to determine old version
+[2023-05-31 11:13:14] INFO root fetch - processPackages [ohmytmp-gui]: Start processing: idoctor-nocode-ai
+[2023-05-31 11:13:14] INFO root fetch - main [MainThread]: End processing [ohmytmp-gui] error
+[2023-05-31 11:13:14] ERROR root fetch - processPackages [idoctor-nocode-ai]: Unable to get metadata: No such project 'idoctor-nocode-ai'
+[2023-05-31 11:13:14] INFO root fetch - processPackages [idoctor-nocode-ai]: Start processing: jupyterhub-kubespawner
+[2023-05-31 11:13:14] INFO root fetch - main [MainThread]: End processing [idoctor-nocode-ai] error
+[2023-05-31 11:13:14] INFO root fetch - processPackages [jupyterhub-kubespawner]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-05-31 11:13:14] INFO root fetch - processPackages [starmerxauth-erp]: Start processing: fourinsight-engineroom-utils
+[2023-05-31 11:13:14] INFO root fetch - main [MainThread]: End processing [starmerxauth-erp]: success
+[2023-05-31 11:13:14] INFO root fetch - processPackages [fourinsight-engineroom-utils]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-31 11:13:14] INFO root fetch - processPackages [fourinsight-engineroom-utils]: Downloading https://files.pythonhosted.org/packages/83/e1/cf3e181c0bdd93534f7f18dc348b63e687140700b33705e1690d9dfe7b12/fourinsight_engineroom_utils-0.7.1-py3-none-any.whl
+[2023-05-31 11:13:14] INFO root fetch - processPackages [BingImageCreator]: Start processing: rudderclient
+[2023-05-31 11:13:14] INFO root fetch - main [MainThread]: End processing [BingImageCreator]: success
+[2023-05-31 11:13:14] INFO root fetch - processPackages [rudderclient]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-31 11:13:15] INFO root fetch - processPackages [autovf]: Start processing: field-upload
+[2023-05-31 11:13:15] INFO root fetch - main [MainThread]: End processing [autovf]: success
+[2023-05-31 11:13:15] INFO root fetch - processPackages [anaio]: Start processing: shakenfist-agent
+[2023-05-31 11:13:15] INFO root fetch - main [MainThread]: End processing [anaio]: success
+[2023-05-31 11:13:15] WARNING root fetch - processPackages [field-upload]: Skipping, unable to determine old version
+[2023-05-31 11:13:15] INFO root fetch - processPackages [field-upload]: Start processing: findmyorder
+[2023-05-31 11:13:15] INFO root fetch - main [MainThread]: End processing [field-upload] error
+[2023-05-31 11:13:15] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-31 11:13:15] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-31 11:13:15] INFO root fetch - processPackages [fourinsight-engineroom-utils]: Downloading https://files.pythonhosted.org/packages/a7/e2/45682370d3f664eb9ef80a83790f9329460a6c67c323542b5c3879899c40/fourinsight_engineroom_utils-0.7.2-py3-none-any.whl
+[2023-05-31 11:13:15] INFO root fetch - processPackages [jupyterhub-kubespawner]: Downloading https://files.pythonhosted.org/packages/1d/ea/c2cdb230842dd76baac6e5d8a92efcb903bcabe3e352e088c15a58c4e3ca/jupyterhub_kubespawner-5.0.0.tar.gz
+[2023-05-31 11:13:15] INFO root fetch - processPackages [py-ai-cli]: Start processing: docarray
+[2023-05-31 11:13:15] INFO root fetch - main [MainThread]: End processing [py-ai-cli]: success
+[2023-05-31 11:13:15] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-31 11:13:15] INFO root fetch - main [MainThread]: End processing [fw-storage]: success
+[2023-05-31 11:13:15] INFO root fetch - processPackages [fourinsight-engineroom-utils]: executing diffoscope
+[2023-05-31 11:13:15] INFO root fetch - processPackages [fourinsight-engineroom-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fourinsight_engineroom_utils-0.7.1-py3-none-any.whl.zip tmp/fourinsight_engineroom_utils-0.7.2-py3-none-any.whl.zip --markdown 20230531/f/fourinsight-engineroom-utils/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-31 11:13:15] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/49/a6/dc6375dba9a40906d349b12faebe42144e7742d987b5a192291f0e692e84/rudderclient-1.7.0.tar.gz
+[2023-05-31 11:13:15] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/af/75/3101307f31488256611725b95199fce1404901ecc564246e854a6788f6e9/shakenfist-agent-0.3.7.tar.gz
+[2023-05-31 11:13:15] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-31 11:13:15] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230531/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-31 11:13:15] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-31 11:13:15] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.6.2.tar.gz tmp/rudderclient-1.7.0.tar.gz --markdown 20230531/r/rudderclient/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-31 11:13:15] INFO root fetch - processPackages [jupyterhub-kubespawner]: Downloading https://files.pythonhosted.org/packages/22/19/575b86f4a6c45c73b737cefe110774808a0bb38ab76d3fb5276b8180b038/jupyterhub_kubespawner-6.0.0.tar.gz
+[2023-05-31 11:13:15] INFO root fetch - main [MainThread]: End processing [fh-fablib]: success
+[2023-05-31 11:13:15] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-05-31 11:13:15] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.6.tar.gz tmp/shakenfist-agent-0.3.7.tar.gz --markdown 20230531/s/shakenfist-agent/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-31 11:13:15] INFO root fetch - processPackages [jupyterhub-kubespawner]: executing diffoscope
+[2023-05-31 11:13:15] INFO root fetch - processPackages [jupyterhub-kubespawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub_kubespawner-5.0.0.tar.gz tmp/jupyterhub_kubespawner-6.0.0.tar.gz --markdown 20230531/j/jupyterhub-kubespawner/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-05-31 11:13:15] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-31 11:13:15] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230531/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-31 11:13:16] INFO root fetch - main [MainThread]: End processing [fourinsight-engineroom-utils]: success
+[2023-05-31 11:13:16] INFO root fetch - main [MainThread]: End processing [imio.pm.locales]: success
+[2023-05-31 11:13:16] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-31 11:13:16] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-31 11:13:17] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-05-31 11:13:18] INFO root fetch - main [MainThread]: End processing [jupyterhub-kubespawner]: success
+[2023-05-31 11:13:25] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-05-31 11:14:07] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-31 11:14:07] INFO root fetch - main [MainThread]: Store serial: [18314594]
