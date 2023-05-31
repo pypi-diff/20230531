@@ -11050,3 +11050,57 @@
 [2023-05-31 10:51:58] INFO root fetch - main [MainThread]: End processing [Xponge]: success
 [2023-05-31 10:51:58] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-05-31 10:51:58] INFO root fetch - main [MainThread]: Store serial: [18314347]
+[2023-05-31 10:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314347]
+[2023-05-31 10:57:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-secret-reader
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juju
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-companyweb-base
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akshare
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: balder
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idoctor-nocode-ai
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imio.helpers
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openAIInsight
+[2023-05-31 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lib8relind
+[2023-05-31 10:57:07] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 10:57:07] WARNING root fetch - processPackages [google-secret-reader]: Skipping, unable to determine old version
+[2023-05-31 10:57:07] INFO root fetch - processPackages [google-secret-reader]: Start processing: qdadk4all
+[2023-05-31 10:57:07] WARNING root fetch - processPackages [idoctor-nocode-ai]: Skipping, unable to determine old version
+[2023-05-31 10:57:07] INFO root fetch - main [MainThread]: End processing [google-secret-reader] error
+[2023-05-31 10:57:07] INFO root fetch - main [MainThread]: End processing [idoctor-nocode-ai] error
+[2023-05-31 10:57:07] INFO root fetch - processPackages [juju]: New version: [3.1.2.0] Old Version: [3.1.0b1]
+[2023-05-31 10:57:07] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 10:57:07] INFO root fetch - processPackages [odoo-addon-companyweb-base]: New version: [16.0.1.0.6] Old Version: [16.0.1.0.5.1]
+[2023-05-31 10:57:07] WARNING root fetch - processPackages [lib8relind]: Skipping, unable to determine old version
+[2023-05-31 10:57:07] INFO root fetch - main [MainThread]: End processing [lib8relind] error
+[2023-05-31 10:57:07] INFO root fetch - processPackages [balder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-31 10:57:07] INFO root fetch - processPackages [imio.helpers]: New version: [0.9] Old Version: [0.8]
+[2023-05-31 10:57:07] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-31 10:57:07] INFO root fetch - processPackages [balder]: executing diffoscope
+[2023-05-31 10:57:07] INFO root fetch - processPackages [balder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balder-0.1.8.tar.gz tmp/balder-0.1.9.tar.gz --markdown 20230531/b/balder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 10:57:07] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-31 10:57:07] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230531/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-31 10:57:07] WARNING root fetch - processPackages [qdadk4all]: Skipping, unable to determine old version
+[2023-05-31 10:57:07] INFO root fetch - main [MainThread]: End processing [qdadk4all] error
+[2023-05-31 10:57:07] INFO root fetch - processPackages [imio.helpers]: Downloading https://files.pythonhosted.org/packages/c2/bb/5e5b2b7179ba4e1a44769569d220c67dedf6040a24a5f6f7a2ce70736f69/imio.helpers-0.8.tar.gz
+[2023-05-31 10:57:08] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2023-05-31 10:57:08] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/3c/f2/9a3aadb19be74ff4676e584bb5abd8c7bde835efeddd6ae4c50d82e9dc5d/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl
+[2023-05-31 10:57:08] INFO root fetch - processPackages [juju]: executing diffoscope
+[2023-05-31 10:57:08] INFO root fetch - processPackages [juju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juju-3.1.0b1-py3.10.egg tmp/juju-3.1.2.0.tar.gz --markdown 20230531/j/juju/3.1.0b1-3.1.2.0/diff.md --exclude *.pyd
+[2023-05-31 10:57:08] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2023-05-31 10:57:08] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20230531/o/openAIInsight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:57:08] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-31 10:57:08] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230531/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 10:57:08] INFO root fetch - processPackages [odoo-addon-companyweb-base]: executing diffoscope
+[2023-05-31 10:57:08] INFO root fetch - processPackages [odoo-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_companyweb_base-16.0.1.0.5.1-py3-none-any.whl.zip tmp/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-companyweb-base/16.0.1.0.5.1-16.0.1.0.6/diff.md --exclude *.pyd
+[2023-05-31 10:57:08] INFO root fetch - processPackages [imio.helpers]: Downloading https://files.pythonhosted.org/packages/fb/60/e683504d6c5a9c5abdcda6b00cac0911f64f7aaf2b1dbafca097d38d5c94/imio.helpers-0.9.tar.gz
+[2023-05-31 10:57:09] INFO root fetch - main [MainThread]: End processing [balder]: success
+[2023-05-31 10:57:09] INFO root fetch - processPackages [imio.helpers]: executing diffoscope
+[2023-05-31 10:57:09] INFO root fetch - processPackages [imio.helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.helpers-0.8.tar.gz tmp/imio.helpers-0.9.tar.gz --markdown 20230531/i/imio.helpers/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-31 10:57:09] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2023-05-31 10:57:09] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-31 10:57:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-companyweb-base]: success
+[2023-05-31 10:57:11] INFO root fetch - main [MainThread]: End processing [juju]: success
+[2023-05-31 10:57:11] INFO root fetch - main [MainThread]: End processing [imio.helpers]: success
+[2023-05-31 10:57:12] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-31 10:57:12] INFO root fetch - main [MainThread]: Store serial: [18314386]
