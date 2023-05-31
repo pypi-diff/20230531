@@ -10390,3 +10390,45 @@
 [2023-05-31 10:07:45] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-31 10:08:26] INFO root fetch - main [MainThread]: End processing [deepfinder]: success
 [2023-05-31 10:08:26] INFO root fetch - main [MainThread]: Store serial: [18313960]
+[2023-05-31 10:13:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313960]
+[2023-05-31 10:13:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnaclib
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-csv
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcnmc
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-utilities
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohmytmp
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-05-31 10:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4-api
+[2023-05-31 10:13:35] INFO root fetch - processPackages [cnaclib]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-05-31 10:13:35] INFO root fetch - processPackages [gpt4-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 10:13:35] INFO root fetch - processPackages [abstract-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 10:13:35] INFO root fetch - processPackages [pipeline-csv]: New version: [1.6] Old Version: [1.5]
+[2023-05-31 10:13:35] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-31 10:13:36] INFO root fetch - processPackages [ohmytmp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 10:13:36] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-31 10:13:36] INFO root fetch - processPackages [ohmytmp]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [ohmytmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohmytmp-0.0.5.tar.gz tmp/ohmytmp-0.0.6.tar.gz --markdown 20230531/o/ohmytmp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 10:13:36] INFO root fetch - processPackages [abstract-utilities]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [abstract-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_utilities-0.0.8.tar.gz tmp/abstract_utilities-0.0.9.tar.gz --markdown 20230531/a/abstract-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 10:13:36] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.0.1.tar.gz tmp/gpt4-api-0.0.2.tar.gz --markdown 20230531/g/gpt4-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 10:13:36] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230531/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-31 10:13:36] INFO root fetch - processPackages [cnaclib]: Downloading https://files.pythonhosted.org/packages/17/c9/abcc9d18701a582dd7db27ec9fe71b54b941561d4b4cb50da305bac6e422/cnaclib-0.1.15.tar.gz
+[2023-05-31 10:13:36] INFO root fetch - processPackages [pipeline-csv]: Downloading https://files.pythonhosted.org/packages/69/b5/0ea4c188f27fe581c6279fd205d5280ae7e9ac8ae1da5ed144953b90689d/pipeline_csv-1.5.tar.gz
+[2023-05-31 10:13:36] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230531/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-31 10:13:36] INFO root fetch - processPackages [cnaclib]: Downloading https://files.pythonhosted.org/packages/58/ea/a83402fcf77e1376e596a467bbad4447a961a29500efe611e212484eeb2c/cnaclib-0.1.16.tar.gz
+[2023-05-31 10:13:36] INFO root fetch - processPackages [cnaclib]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [cnaclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnaclib-0.1.15.tar.gz tmp/cnaclib-0.1.16.tar.gz --markdown 20230531/c/cnaclib/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-05-31 10:13:36] INFO root fetch - processPackages [pipeline-csv]: Downloading https://files.pythonhosted.org/packages/6d/5c/51a25335d7f532842b7ca352f2771f13948d00e07d940884e1e883fe7d01/pipeline_csv-1.6.tar.gz
+[2023-05-31 10:13:36] INFO root fetch - processPackages [pipeline-csv]: executing diffoscope
+[2023-05-31 10:13:36] INFO root fetch - processPackages [pipeline-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_csv-1.5.tar.gz tmp/pipeline_csv-1.6.tar.gz --markdown 20230531/p/pipeline-csv/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-31 10:13:37] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-05-31 10:13:37] INFO root fetch - main [MainThread]: End processing [ohmytmp]: success
+[2023-05-31 10:13:37] INFO root fetch - main [MainThread]: End processing [abstract-utilities]: success
+[2023-05-31 10:13:37] INFO root fetch - main [MainThread]: End processing [cnaclib]: success
+[2023-05-31 10:13:37] INFO root fetch - main [MainThread]: End processing [pipeline-csv]: success
+[2023-05-31 10:13:38] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-31 10:13:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-31 10:13:43] INFO root fetch - main [MainThread]: Store serial: [18313978]
