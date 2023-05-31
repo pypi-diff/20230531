@@ -12818,3 +12818,105 @@
 [2023-05-31 12:41:02] INFO root fetch - main [MainThread]: End processing [pyquickhelper]: success
 [2023-05-31 12:41:02] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-31 12:41:02] INFO root fetch - main [MainThread]: Store serial: [18315413]
+[2023-05-31 12:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18315413]
+[2023-05-31 12:46:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docstruct
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AeholdSerializer
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfaust
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust-openblaso
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfaust-torch
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: restfy
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: talisman-interfaces
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydoclint
+[2023-05-31 12:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyCG
+[2023-05-31 12:46:11] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [restfy]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-31 12:46:11] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230531/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-31 12:46:11] WARNING root fetch - processPackages [AeholdSerializer]: Skipping, unable to determine old version
+[2023-05-31 12:46:11] INFO root fetch - processPackages [AeholdSerializer]: Start processing: slcl1butils
+[2023-05-31 12:46:11] INFO root fetch - main [MainThread]: End processing [AeholdSerializer] error
+[2023-05-31 12:46:11] INFO root fetch - processPackages [talisman-interfaces]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [pydoclint]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [PyCG]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-05-31 12:46:11] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230531/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:46:11] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-31 12:46:11] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.9.2] Old Version: [2023.5.9]
+[2023-05-31 12:46:12] INFO root fetch - processPackages [talisman-interfaces]: Downloading https://files.pythonhosted.org/packages/46/3a/2aa9b0f0a1c69a7a505d82aba07e07c5d72a5ce88809ffa70034152851b4/talisman-interfaces-0.3.3.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-31 12:46:12] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.9.tar.gz tmp/slcl1butils-2023.5.9.2.tar.gz --markdown 20230531/s/slcl1butils/2023.5.9-2023.5.9.2/diff.md --exclude *.pyd
+[2023-05-31 12:46:12] INFO root fetch - processPackages [restfy]: Downloading https://files.pythonhosted.org/packages/d2/d8/bc0910d0d72d4bbfcab91c5e884f7d8434ba529bfdb7f1edbe336fd1f693/restfy-0.3.2.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [PyCG]: Downloading https://files.pythonhosted.org/packages/7e/37/7528e26c2e17db868cb97e6733dbf88e759f30d65cf60d898f346d1a5348/pycg-0.0.6.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/f7/68/47d782d6274d5ec4dc1c1fac26f66fada238de45ca5bedce2bbd3c49873c/pydoclint-0.0.5.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [PyCG]: Downloading https://files.pythonhosted.org/packages/63/fb/2ec58cac71b7f8190088487034427518582892486fb0812a3cc4c60f64f1/PyCG-0.0.7.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.4.tar.gz tmp/pydoclint-0.0.5.tar.gz --markdown 20230531/p/pydoclint/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-31 12:46:12] INFO root fetch - processPackages [talisman-interfaces]: Downloading https://files.pythonhosted.org/packages/d1/99/1fb9634ad0419cec766a8cb818ed5fc85e24d5c4074be9c186273b69b28f/talisman-interfaces-0.4.0.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [restfy]: Downloading https://files.pythonhosted.org/packages/cd/2c/b782d8aa7072970741e5173fb16b875c820f18413517ec51c7e329a2e559/restfy-0.4.0.tar.gz
+[2023-05-31 12:46:12] INFO root fetch - processPackages [PyCG]: executing diffoscope
+[2023-05-31 12:46:12] INFO root fetch - processPackages [PyCG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycg-0.0.6.tar.gz tmp/PyCG-0.0.7.tar.gz --markdown 20230531/P/PyCG/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-31 12:46:12] INFO root fetch - processPackages [talisman-interfaces]: executing diffoscope
+[2023-05-31 12:46:12] INFO root fetch - processPackages [talisman-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-interfaces-0.3.3.tar.gz tmp/talisman-interfaces-0.4.0.tar.gz --markdown 20230531/t/talisman-interfaces/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 12:46:12] INFO root fetch - processPackages [restfy]: executing diffoscope
+[2023-05-31 12:46:12] INFO root fetch - processPackages [restfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restfy-0.3.2.tar.gz tmp/restfy-0.4.0.tar.gz --markdown 20230531/r/restfy/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 12:46:12] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-05-31 12:46:12] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: Extractable
+[2023-05-31 12:46:12] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-05-31 12:46:12] INFO root fetch - processPackages [Extractable]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 12:46:12] INFO root fetch - processPackages [Extractable]: Downloading https://files.pythonhosted.org/packages/ed/5e/f965e0cef5ad74f684860d02472243104d86babcfe2123b01e40f49e12b1/Extractable-0.0.2.tar.gz
+[2023-05-31 12:46:12] WARNING root fetch - processPackages [Extractable]: Skipping package: exceeds size limit 19540147>=10485760
+[2023-05-31 12:46:12] INFO root fetch - processPackages [Extractable]: Start processing: qontract-reconcile
+[2023-05-31 12:46:12] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-05-31 12:46:12] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-31 12:46:13] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-31 12:46:13] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230531/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-31 12:46:13] INFO root fetch - processPackages [nwebclient]: Start processing: mb-pandas
+[2023-05-31 12:46:13] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-31 12:46:13] INFO root fetch - processPackages [mb-pandas]: New version: [1.0.202305311026] Old Version: [1.0.202305301635]
+[2023-05-31 12:46:13] INFO root fetch - processPackages [mb-pandas]: executing diffoscope
+[2023-05-31 12:46:13] INFO root fetch - processPackages [mb-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pandas-1.0.202305301635-py3-none-any.whl.zip tmp/mb_pandas-1.0.202305311026-py3-none-any.whl.zip --markdown 20230531/m/mb-pandas/1.0.202305301635-1.0.202305311026/diff.md --exclude *.pyd
+[2023-05-31 12:46:13] INFO root fetch - processPackages [docstruct]: Start processing: python-selve-new
+[2023-05-31 12:46:13] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-05-31 12:46:13] INFO root fetch - processPackages [python-selve-new]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-31 12:46:13] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-05-31 12:46:13] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.0.8.tar.gz tmp/python-selve-new-2.0.9.tar.gz --markdown 20230531/p/python-selve-new/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-31 12:46:13] INFO root fetch - processPackages [slcl1butils]: Start processing: sri-dictionary-mt
+[2023-05-31 12:46:13] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-31 12:46:13] WARNING root fetch - processPackages [sri-dictionary-mt]: Skipping, unable to determine old version
+[2023-05-31 12:46:13] INFO root fetch - processPackages [sri-dictionary-mt]: Start processing: slcl1butils
+[2023-05-31 12:46:13] INFO root fetch - main [MainThread]: End processing [sri-dictionary-mt] error
+[2023-05-31 12:46:13] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.9.2] Old Version: [2023.5.9]
+[2023-05-31 12:46:13] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-05-31 12:46:13] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-31 12:46:13] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.9.tar.gz tmp/slcl1butils-2023.5.9.2.tar.gz --markdown 20230531/s/slcl1butils/2023.5.9-2023.5.9.2/diff.md --exclude *.pyd
+[2023-05-31 12:46:13] INFO root fetch - processPackages [restfy]: Start processing: mb-pandas
+[2023-05-31 12:46:13] INFO root fetch - main [MainThread]: End processing [restfy]: success
+[2023-05-31 12:46:13] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/6b/7a/69cf6ad676c709b11407df6a8f180ea20bb9f143ecca990b23dda5f76ca2/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-31 12:46:13] INFO root fetch - processPackages [mb-pandas]: New version: [1.0.202305311045] Old Version: [1.0.202305311044]
+[2023-05-31 12:46:14] INFO root fetch - processPackages [mb-pandas]: Downloading https://files.pythonhosted.org/packages/84/c6/e1ffbf6f886f0f53f044dfd03e79eca529431e620ce3a23e1647547ae102/mb_pandas-1.0.202305311044-py3-none-any.whl
+[2023-05-31 12:46:14] INFO root fetch - main [MainThread]: End processing [talisman-interfaces]: success
+[2023-05-31 12:46:14] INFO root fetch - processPackages [mb-pandas]: Downloading https://files.pythonhosted.org/packages/cc/2e/e568c4f09210dc49b4902d0fc05637d7575f0d41e4dbffffb6755d7b6725/mb_pandas-1.0.202305311045-py3-none-any.whl
+[2023-05-31 12:46:14] INFO root fetch - main [MainThread]: End processing [mb-pandas]: success
+[2023-05-31 12:46:14] INFO root fetch - processPackages [mb-pandas]: executing diffoscope
+[2023-05-31 12:46:14] INFO root fetch - processPackages [mb-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pandas-1.0.202305311044-py3-none-any.whl.zip tmp/mb_pandas-1.0.202305311045-py3-none-any.whl.zip --markdown 20230531/m/mb-pandas/1.0.202305311044-1.0.202305311045/diff.md --exclude *.pyd
+[2023-05-31 12:46:14] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-05-31 12:46:15] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-05-31 12:46:15] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-31 12:46:15] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-05-31 12:46:15] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230531/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-05-31 12:46:15] INFO root fetch - main [MainThread]: End processing [mb-pandas]: success
+[2023-05-31 12:46:15] INFO root fetch - main [MainThread]: End processing [PyCG]: success
+[2023-05-31 12:46:16] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-05-31 12:46:16] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230531/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-31 12:46:18] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-31 12:46:52] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-05-31 12:46:55] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-05-31 12:46:55] INFO root fetch - main [MainThread]: Store serial: [18315475]
