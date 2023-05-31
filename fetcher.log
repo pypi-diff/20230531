@@ -15987,3 +15987,126 @@
 [2023-05-31 15:19:56] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
 [2023-05-31 15:20:35] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
 [2023-05-31 15:20:35] INFO root fetch - main [MainThread]: Store serial: [18317258]
+[2023-05-31 15:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18317258]
+[2023-05-31 15:25:45] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbit-component-zerodocs
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosmian-py-ggml
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morastrja
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawler-commons
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etsy-apiv3
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hj-common-utils
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntmpackage
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grismconf
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-delivery-automatic-package
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imio.smartweb.core
+[2023-05-31 15:25:45] INFO root fetch - processPackages [cosmian-py-ggml]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [morastrja]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ntmpackage]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 15:25:45] WARNING root fetch - processPackages [hj-common-utils]: Skipping, unable to determine old version
+[2023-05-31 15:25:45] INFO root fetch - processPackages [hj-common-utils]: Start processing: fbgemm-gpu-nightly
+[2023-05-31 15:25:45] INFO root fetch - main [MainThread]: End processing [hj-common-utils] error
+[2023-05-31 15:25:45] WARNING root fetch - processPackages [odoo-addon-delivery-automatic-package]: Skipping, unable to determine old version
+[2023-05-31 15:25:45] INFO root fetch - processPackages [grismconf]: New version: [1.42] Old Version: [1.41]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [odoo-addon-delivery-automatic-package]: Start processing: oleg-d-custom-serializer
+[2023-05-31 15:25:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-automatic-package] error
+[2023-05-31 15:25:45] WARNING root fetch - processPackages [oleg-d-custom-serializer]: Skipping, unable to determine old version
+[2023-05-31 15:25:45] INFO root fetch - processPackages [oleg-d-custom-serializer]: Start processing: easys-ordermanager
+[2023-05-31 15:25:45] INFO root fetch - main [MainThread]: End processing [oleg-d-custom-serializer] error
+[2023-05-31 15:25:45] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.30] Old Version: [2023.5.29]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/5c/14/0eba6536b820e6512dad65bfe0cd4c815664d139790ac6a7b0472ccc0e11/fbgemm_gpu_nightly-2023.5.29-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-31 15:25:45] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 287272256>=10485760
+[2023-05-31 15:25:45] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: coiled
+[2023-05-31 15:25:45] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-31 15:25:45] INFO root fetch - processPackages [orbit-component-zerodocs]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/09/db/c9ca9b61c2bb993e5a7436864991a4956f8e29fe31c7aa00ad3dc2da0f76/cosmian_py_ggml-0.1.0-1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 15:25:45] INFO root fetch - processPackages [grismconf]: Downloading https://files.pythonhosted.org/packages/38/a7/3dfd4a2cdc6e74b72119ecc134b7f7824a782ab554c0613ee7ea09a6d8d2/grismconf-1.41.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [morastrja]: Downloading https://files.pythonhosted.org/packages/ae/60/428494700524d885979a031d6832c15a93113542a7e27212b7898716b26d/morastrja-0.8.8.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-05-31 15:25:45] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/23/93/97a6c9a1fb389e9a10fa3a50f06831b3054b0304066b3520bb6c699fa75e/etsy-apiv3-1.8.6.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ntmpackage]: Downloading https://files.pythonhosted.org/packages/80/5c/68e226871782a66f4354d60e8801f63219cae216bc245c5d93ca66624f42/ntmpackage-0.5.0.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230531/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ntmpackage]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [ntmpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntmpackage-0.4.0.tar.gz tmp/ntmpackage-0.5.0.tar.gz --markdown 20230531/n/ntmpackage/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230531/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/2a/79/9a425e8824e4a6d6dc99f580732b5c80bc5dd1958aad574d58f641c0fc33/orbit_component_zerodocs-0.99.1.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.1.8.tar.gz tmp/imio.smartweb.core-1.1.9.tar.gz --markdown 20230531/i/imio.smartweb.core/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/ff/33/77eb44c51d4afaa51cc00eda5c9190fec9125a706752b6c32a116a14dd3a/cosmian_py_ggml-0.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 15:25:45] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.2.0.tar.gz tmp/easys-ordermanager-2.2.1.tar.gz --markdown 20230531/e/easys-ordermanager/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [grismconf]: Downloading https://files.pythonhosted.org/packages/9e/ab/23e9de729de8fc984485512414a4c0073b35b812ddb0b488a8c2471112ce/grismconf-1.42.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/38/07/ffb200e1597a24c797283795ceb846222b4a2a1d20e95702dcb1deb0a605/etsy-apiv3-1.8.7.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [morastrja]: Downloading https://files.pythonhosted.org/packages/fd/6b/5772a7de46ef0d488f5223b773aab1ee429d36cb031f32f75008954ba059/morastrja-0.8.9.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [morastrja]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [morastrja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morastrja-0.8.8.tar.gz tmp/morastrja-0.8.9.tar.gz --markdown 20230531/m/morastrja/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/9a/e2/456adcee95e7bd78eaf4538216ff87c6278b6d967188b02ff46cce735c12/orbit_component_zerodocs-0.99.2.tar.gz
+[2023-05-31 15:25:45] INFO root fetch - processPackages [cosmian-py-ggml]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [cosmian-py-ggml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_py_ggml-0.1.0-1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cosmian_py_ggml-0.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230531/c/cosmian-py-ggml/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [grismconf]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [grismconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grismconf-1.41.tar.gz tmp/grismconf-1.42.tar.gz --markdown 20230531/g/grismconf/1.41-1.42/diff.md --exclude *.pyd
+[2023-05-31 15:25:45] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-31 15:25:45] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.6.tar.gz tmp/etsy-apiv3-1.8.7.tar.gz --markdown 20230531/e/etsy-apiv3/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-05-31 15:25:46] INFO root fetch - processPackages [orbit-component-zerodocs]: executing diffoscope
+[2023-05-31 15:25:46] INFO root fetch - processPackages [orbit-component-zerodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_zerodocs-0.99.1.tar.gz tmp/orbit_component_zerodocs-0.99.2.tar.gz --markdown 20230531/o/orbit-component-zerodocs/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-05-31 15:25:47] INFO root fetch - processPackages [ntmpackage]: Start processing: odoo-addon-product-attribute-company-favorite
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [ntmpackage]: success
+[2023-05-31 15:25:47] WARNING root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: Skipping, unable to determine old version
+[2023-05-31 15:25:47] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: Start processing: cg-flake8-reporter
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attribute-company-favorite] error
+[2023-05-31 15:25:47] INFO root fetch - processPackages [crawler-commons]: Start processing: data-dictionary-cui-mapping
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-31 15:25:47] INFO root fetch - processPackages [cg-flake8-reporter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-31 15:25:47] INFO root fetch - processPackages [data-dictionary-cui-mapping]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-31 15:25:47] INFO root fetch - processPackages [data-dictionary-cui-mapping]: Downloading https://files.pythonhosted.org/packages/99/48/82278ea0ea0b8f704abb8749a70c2bad002a1ffeb0d934e64f22aae9ca95/data_dictionary_cui_mapping-1.1.5.tar.gz
+[2023-05-31 15:25:47] INFO root fetch - processPackages [cg-flake8-reporter]: Downloading https://files.pythonhosted.org/packages/19/b0/f03ffef69500ea2597f8576d4c63d480368642a4ee62cb5b3f34e85b7ebb/cg_flake8_reporter-0.1.0.tar.gz
+[2023-05-31 15:25:47] WARNING root fetch - processPackages [data-dictionary-cui-mapping]: Skipping package: exceeds size limit 20322393>=10485760
+[2023-05-31 15:25:47] INFO root fetch - processPackages [data-dictionary-cui-mapping]: Start processing: brownian-stock
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [data-dictionary-cui-mapping] error
+[2023-05-31 15:25:47] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 15:25:47] INFO root fetch - processPackages [easys-ordermanager]: Start processing: chartart
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2023-05-31 15:25:47] INFO root fetch - processPackages [chartart]: New version: [0.0.3.dev15] Old Version: [0.0.3.dev14]
+[2023-05-31 15:25:47] INFO root fetch - processPackages [orbit-component-zerodocs]: Start processing: etsy-apiv3
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs]: success
+[2023-05-31 15:25:47] INFO root fetch - processPackages [cg-flake8-reporter]: Downloading https://files.pythonhosted.org/packages/73/c5/7ba670f5eec6249643efb700e24d47039c543e3021ee5d2106ce44c46560/cg_flake8_reporter-0.1.1.tar.gz
+[2023-05-31 15:25:47] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-05-31 15:25:47] INFO root fetch - processPackages [cosmian-py-ggml]: Start processing: scikit-explain
+[2023-05-31 15:25:47] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml]: success
+[2023-05-31 15:25:47] INFO root fetch - processPackages [scikit-explain]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-31 15:25:47] INFO root fetch - processPackages [cg-flake8-reporter]: executing diffoscope
+[2023-05-31 15:25:47] INFO root fetch - processPackages [cg-flake8-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_flake8_reporter-0.1.0.tar.gz tmp/cg_flake8_reporter-0.1.1.tar.gz --markdown 20230531/c/cg-flake8-reporter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-31 15:25:47] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-31 15:25:47] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.6.tar.gz tmp/etsy-apiv3-1.8.7.tar.gz --markdown 20230531/e/etsy-apiv3/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-05-31 15:25:47] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/58/ac/05ea5f15d0a942c436f9d33fd4736f0618060b41d5353920d8bb493cc090/chartart-0.0.3.dev14.tar.gz
+[2023-05-31 15:25:47] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-05-31 15:25:47] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230531/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 15:25:47] INFO root fetch - processPackages [scikit-explain]: Downloading https://files.pythonhosted.org/packages/0e/4b/e2f09927938b6305c893a704c966de785f9ce7223a63a2d2b24511889ebc/scikit-explain-0.1.2.tar.gz
+[2023-05-31 15:25:47] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/7e/67/11649c59d7327b7a79baa4c083e2f11f10093a82c2180fe8654ff2e8b296/chartart-0.0.3.dev15.tar.gz
+[2023-05-31 15:25:48] INFO root fetch - processPackages [chartart]: executing diffoscope
+[2023-05-31 15:25:48] INFO root fetch - processPackages [chartart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartart-0.0.3.dev14.tar.gz tmp/chartart-0.0.3.dev15.tar.gz --markdown 20230531/c/chartart/0.0.3.dev14-0.0.3.dev15/diff.md --exclude *.pyd
+[2023-05-31 15:25:48] WARNING root fetch - processPackages [scikit-explain]: Skipping package: exceeds size limit 34850944>=10485760
+[2023-05-31 15:25:48] INFO root fetch - processPackages [scikit-explain]: Start processing: mokka
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [scikit-explain] error
+[2023-05-31 15:25:48] WARNING root fetch - processPackages [mokka]: Skipping, unable to determine old version
+[2023-05-31 15:25:48] INFO root fetch - processPackages [mokka]: Start processing: apify-client
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [mokka] error
+[2023-05-31 15:25:48] INFO root fetch - processPackages [apify-client]: New version: [1.2.2b1] Old Version: [1.2.1b2]
+[2023-05-31 15:25:48] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-31 15:25:48] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.2.1b2.tar.gz tmp/apify_client-1.2.2b1.tar.gz --markdown 20230531/a/apify-client/1.2.1b2-1.2.2b1/diff.md --exclude *.pyd
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [morastrja]: success
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [cg-flake8-reporter]: success
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-31 15:25:48] INFO root fetch - main [MainThread]: End processing [grismconf]: success
+[2023-05-31 15:25:49] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-31 15:25:49] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-31 15:25:49] INFO root fetch - main [MainThread]: End processing [chartart]: success
+[2023-05-31 15:25:50] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-05-31 15:25:52] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2023-05-31 15:25:52] INFO root fetch - main [MainThread]: Store serial: [18317348]
