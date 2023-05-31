@@ -20197,3 +20197,69 @@
 [2023-05-31 18:30:45] INFO root fetch - main [MainThread]: End processing [chiapos]: success
 [2023-05-31 18:31:15] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-05-31 18:31:15] INFO root fetch - main [MainThread]: Store serial: [18319871]
+[2023-05-31 18:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319871]
+[2023-05-31 18:36:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saspy
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athanasios
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: termux-api
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ValidX
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPartMC
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TRAPT
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ooo-dev-tools
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: orbit-component-base
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lana
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2023-05-31 18:36:24] WARNING root fetch - processPackages [athanasios]: Skipping, unable to determine old version
+[2023-05-31 18:36:24] INFO root fetch - processPackages [athanasios]: Start processing: relativedate
+[2023-05-31 18:36:24] INFO root fetch - main [MainThread]: End processing [athanasios] error
+[2023-05-31 18:36:24] INFO root fetch - processPackages [saspy]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [termux-api]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [TRAPT]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [orbit-component-base]: New version: [0.99.8] Old Version: [0.99.7]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [lana]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [PyPartMC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ValidX]: New version: [0.8] Old Version: [0.7]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230531/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-31 18:36:24] INFO root fetch - processPackages [termux-api]: Downloading https://files.pythonhosted.org/packages/6a/b2/8b7022781026bdd74b2554f445fcbaedc7a864af481600ef2ba47258ae99/termux-api-1.2.3.tar.gz
+[2023-05-31 18:36:24] INFO root fetch - processPackages [TRAPT]: Downloading https://files.pythonhosted.org/packages/1a/83/df8999b1b8ec713671fc1e611f0a788c453d4e17599476dca07705965730/TRAPT-0.0.4.tar.gz
+[2023-05-31 18:36:24] INFO root fetch - processPackages [relativedate]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-31 18:36:24] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/61/e5/6592ba5a5db7c5ea009a579951dbf7a757f1e907ba8b074183a3c9cae6c5/lana-0.1.6.tar.gz
+[2023-05-31 18:36:24] INFO root fetch - processPackages [TRAPT]: executing diffoscope
+[2023-05-31 18:36:24] INFO root fetch - processPackages [TRAPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TRAPT-0.0.3.tar.gz tmp/TRAPT-0.0.4.tar.gz --markdown 20230531/T/TRAPT/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-31 18:36:24] INFO root fetch - processPackages [saspy]: Downloading https://files.pythonhosted.org/packages/32/31/928b6da8d782619744905056aeb1d80dbf5a60fe0e23646065c6341143cd/saspy-5.2.1.tar.gz
+[2023-05-31 18:36:24] INFO root fetch - processPackages [ValidX]: Downloading https://files.pythonhosted.org/packages/1a/c0/4eb8b8856b99c5f425fe57bc91112da126511a21419655adab57c5178cd8/ValidX-0.7.tar.gz
+[2023-05-31 18:36:24] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/fe/d6/4b0b47d2a4456919ea8495ea5d3d575cd60fd4bbc6893f70a490060ed1ca/orbit_component_base-0.99.7.tar.gz
+[2023-05-31 18:36:24] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-31 18:36:24] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230531/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.1.5.tar.gz tmp/lana-0.1.6.tar.gz --markdown 20230531/l/lana/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [termux-api]: Downloading https://files.pythonhosted.org/packages/37/a8/47c8b39c408e56ddb51600d090ef22023c80def1dff0d43531c47e995a61/termux-api-1.2.4.tar.gz
+[2023-05-31 18:36:25] INFO root fetch - processPackages [PyPartMC]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [PyPartMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPartMC-0.0.8.tar.gz tmp/PyPartMC-0.0.9.tar.gz --markdown 20230531/P/PyPartMC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [ValidX]: Downloading https://files.pythonhosted.org/packages/57/4b/9bfbaa9d378bed0a638f162ff5496ab8098c03aa1646eb583be9a04af934/ValidX-0.8.tar.gz
+[2023-05-31 18:36:25] INFO root fetch - processPackages [saspy]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [saspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saspy-5.2.0.tar.gz tmp/saspy-5.2.1.tar.gz --markdown 20230531/s/saspy/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [termux-api]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [termux-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termux-api-1.2.3.tar.gz tmp/termux-api-1.2.4.tar.gz --markdown 20230531/t/termux-api/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/db/f6/587e11c93a9c2f0bea9f50bd0c8380ec75a2c24216a55ac9f99f4732fd7f/orbit_component_base-0.99.8.tar.gz
+[2023-05-31 18:36:25] INFO root fetch - processPackages [relativedate]: Downloading https://files.pythonhosted.org/packages/f0/f5/f93f805951c5e8217b0f9eedb9d32e2d2c73d74e60b384f4a20d7614ecde/relativedate-1.3.3-py3-none-any.whl
+[2023-05-31 18:36:25] INFO root fetch - processPackages [ValidX]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [ValidX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ValidX-0.7.tar.gz tmp/ValidX-0.8.tar.gz --markdown 20230531/V/ValidX/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-0.99.7.tar.gz tmp/orbit_component_base-0.99.8.tar.gz --markdown 20230531/o/orbit-component-base/0.99.7-0.99.8/diff.md --exclude *.pyd
+[2023-05-31 18:36:25] INFO root fetch - processPackages [relativedate]: executing diffoscope
+[2023-05-31 18:36:25] INFO root fetch - processPackages [relativedate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relativedate-1.3.2.tar.gz tmp/relativedate-1.3.3-py3-none-any.whl.zip --markdown 20230531/r/relativedate/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-31 18:36:26] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-31 18:36:26] INFO root fetch - main [MainThread]: End processing [TRAPT]: success
+[2023-05-31 18:36:26] INFO root fetch - main [MainThread]: End processing [relativedate]: success
+[2023-05-31 18:36:27] INFO root fetch - main [MainThread]: End processing [termux-api]: success
+[2023-05-31 18:36:27] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-05-31 18:36:28] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-31 18:36:28] INFO root fetch - main [MainThread]: End processing [ValidX]: success
+[2023-05-31 18:36:30] INFO root fetch - main [MainThread]: End processing [saspy]: success
+[2023-05-31 18:36:35] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-05-31 18:36:38] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
+[2023-05-31 18:36:38] INFO root fetch - main [MainThread]: Store serial: [18319961]
