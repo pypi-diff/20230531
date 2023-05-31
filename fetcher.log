@@ -15088,3 +15088,136 @@
 [2023-05-31 14:46:21] INFO root fetch - main [MainThread]: End processing [spinetoolbox]: success
 [2023-05-31 14:46:21] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-05-31 14:46:21] INFO root fetch - main [MainThread]: Store serial: [18316792]
+[2023-05-31 14:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18316792]
+[2023-05-31 14:51:30] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libtw2
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swagger-petstore-3-sdk
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revolution-eda
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qrogue
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huntflow-api-client
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygwalker
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gbp
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thipster
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manticore
+[2023-05-31 14:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cq23
+[2023-05-31 14:51:30] INFO root fetch - processPackages [qrogue]: New version: [0.6.3] Old Version: [0.6.2.1]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [pygwalker]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [gbp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [revolution-eda]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-31 14:51:30] WARNING root fetch - processPackages [libtw2]: Skipping, unable to determine old version
+[2023-05-31 14:51:30] INFO root fetch - processPackages [libtw2]: Start processing: finbourne-access-sdk
+[2023-05-31 14:51:30] INFO root fetch - main [MainThread]: End processing [libtw2] error
+[2023-05-31 14:51:30] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [thipster]: New version: [0.13.4] Old Version: [0.13.3]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [swagger-petstore-3-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230531] Old Version: [0.3.8.dev230530]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [cq23]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-31 14:51:30] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/56/5f/092220261723eee75d4fb22f6d6784e991b59c2a8973f80eac8e696ecfe3/cq23-1.6.1.tar.gz
+[2023-05-31 14:51:30] INFO root fetch - processPackages [revolution-eda]: Downloading https://files.pythonhosted.org/packages/ad/38/a0c166e3183ff7c6eb7fbea719b65b02b2ba19c8475c6485c2ef3c68f412/revolution-eda-0.4.1.tar.gz
+[2023-05-31 14:51:30] INFO root fetch - processPackages [gbp]: Downloading https://files.pythonhosted.org/packages/85/56/8aaed9186628743910010eb573f54867a5aefec118f59a5f478de34813ef/gbp-0.9.8.tar.gz
+[2023-05-31 14:51:30] INFO root fetch - processPackages [qrogue]: Downloading https://files.pythonhosted.org/packages/e9/65/66d81a3ae5dc0a0925baa11548748b0fcc143cb049b56d89cd7cfc83c7c7/qrogue-0.6.2.1.tar.gz
+[2023-05-31 14:51:30] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/f6/fc/f8365a110d370b5909996acc7af31fa02e6d6fa4952b5346b61a6ca3b4ad/thipster-0.13.4.tar.gz
+[2023-05-31 14:51:30] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Downloading https://files.pythonhosted.org/packages/b1/79/9d0016a29296c22c13acbe7293ac77b880dadb5cf0072523cd45872ca3ea/swagger-petstore-3-sdk-1.0.3.tar.gz
+[2023-05-31 14:51:30] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-05-31 14:51:30] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.6.0.tar.gz tmp/cq23-1.6.1.tar.gz --markdown 20230531/c/cq23/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/31/8c/e8da2569902cccf2ec59dca0a2c1d8f83b94c75fdcbe705dd7903deb25e3/pygwalker-0.1.9.1.tar.gz
+[2023-05-31 14:51:31] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.13.3.tar.gz tmp/thipster-0.13.4.tar.gz --markdown 20230531/t/thipster/0.13.3-0.13.4/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/ae/1d503f46af98d56f5fb74e3dd81613d2f05393d88b22d969e9cd60b52e13/huntflow_api_client-0.0.8.tar.gz
+[2023-05-31 14:51:31] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.1.9.tar.gz tmp/pygwalker-0.1.9.1.tar.gz --markdown 20230531/p/pygwalker/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [swagger-petstore-3-sdk]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [swagger-petstore-3-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger-petstore-3-sdk-1.0.2.tar.gz tmp/swagger-petstore-3-sdk-1.0.3.tar.gz --markdown 20230531/s/swagger-petstore-3-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/6c/04/f506672550f08830f4dda73aa31805b5351c2322d127d0bbe392cf9dcabd/manticore-0.3.8.dev230531.tar.gz
+[2023-05-31 14:51:31] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.7.tar.gz tmp/huntflow_api_client-0.0.8.tar.gz --markdown 20230531/h/huntflow-api-client/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230531/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [revolution-eda]: Downloading https://files.pythonhosted.org/packages/e2/55/476514e591eb5dc8dac98dae4f5f7c1aeef372ad393742ed2d34c7d11ea0/revolution-eda-0.5.0.tar.gz
+[2023-05-31 14:51:31] INFO root fetch - processPackages [qrogue]: Downloading https://files.pythonhosted.org/packages/e4/b9/771779a2ff6afa074cfba20204d95427d6f97efba5f609065ea061fd9851/qrogue-0.6.3.tar.gz
+[2023-05-31 14:51:31] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230530.tar.gz tmp/manticore-0.3.8.dev230531.tar.gz --markdown 20230531/m/manticore/0.3.8.dev230530-0.3.8.dev230531/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [gbp]: Downloading https://files.pythonhosted.org/packages/bd/65/01858c0cb052df216a20bca7aaa9de1900746557fc1df6490353ddf1b98f/gbp-0.9.9.tar.gz
+[2023-05-31 14:51:31] INFO root fetch - processPackages [qrogue]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [qrogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrogue-0.6.2.1.tar.gz tmp/qrogue-0.6.3.tar.gz --markdown 20230531/q/qrogue/0.6.2.1-0.6.3/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [gbp]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [gbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbp-0.9.8.tar.gz tmp/gbp-0.9.9.tar.gz --markdown 20230531/g/gbp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-31 14:51:31] INFO root fetch - processPackages [revolution-eda]: executing diffoscope
+[2023-05-31 14:51:31] INFO root fetch - processPackages [revolution-eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution-eda-0.4.1.tar.gz tmp/revolution-eda-0.5.0.tar.gz --markdown 20230531/r/revolution-eda/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 14:51:32] INFO root fetch - processPackages [cq23]: Start processing: datareuse
+[2023-05-31 14:51:32] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-05-31 14:51:32] WARNING root fetch - processPackages [datareuse]: Skipping, unable to determine old version
+[2023-05-31 14:51:32] INFO root fetch - processPackages [datareuse]: Start processing: oarepo
+[2023-05-31 14:51:32] INFO root fetch - main [MainThread]: End processing [datareuse] error
+[2023-05-31 14:51:32] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-05-31 14:51:32] INFO root fetch - processPackages [swagger-petstore-3-sdk]: Start processing: scpkit
+[2023-05-31 14:51:32] INFO root fetch - main [MainThread]: End processing [swagger-petstore-3-sdk]: success
+[2023-05-31 14:51:32] INFO root fetch - processPackages [scpkit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-31 14:51:32] INFO root fetch - processPackages [pygwalker]: Start processing: spine-items
+[2023-05-31 14:51:32] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-05-31 14:51:32] INFO root fetch - processPackages [spine-items]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-31 14:51:33] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-05-31 14:51:33] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230531/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-05-31 14:51:33] INFO root fetch - processPackages [spine-items]: Downloading https://files.pythonhosted.org/packages/09/3e/fe9f9843f278bcb14622db34ffe624766e4894b8d7f0f627f3ebe38dde4f/spine_items-0.8.0.tar.gz
+[2023-05-31 14:51:33] INFO root fetch - processPackages [scpkit]: Downloading https://files.pythonhosted.org/packages/30/16/e1663e5b13c48a64d60c98dd3798676db794bac4f61ef764585746d3bbc5/scpkit-0.3.1.tar.gz
+[2023-05-31 14:51:33] INFO root fetch - processPackages [scpkit]: executing diffoscope
+[2023-05-31 14:51:33] INFO root fetch - processPackages [scpkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scpkit-0.3.0.tar.gz tmp/scpkit-0.3.1.tar.gz --markdown 20230531/s/scpkit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-31 14:51:33] INFO root fetch - processPackages [thipster]: Start processing: pylzy
+[2023-05-31 14:51:33] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-05-31 14:51:33] INFO root fetch - processPackages [pylzy]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-05-31 14:51:33] INFO root fetch - processPackages [manticore]: Start processing: goodai-ltm
+[2023-05-31 14:51:33] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-31 14:51:33] INFO root fetch - processPackages [goodai-ltm]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 14:51:33] INFO root fetch - processPackages [spine-items]: Downloading https://files.pythonhosted.org/packages/d0/ab/f73cf2e24832abcdd7afa07114716db753e33e6fa9a5ed444d59339533ea/spine_items-0.9.0.tar.gz
+[2023-05-31 14:51:33] INFO root fetch - processPackages [qrogue]: Start processing: docarray
+[2023-05-31 14:51:33] INFO root fetch - main [MainThread]: End processing [qrogue]: success
+[2023-05-31 14:51:33] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-31 14:51:33] INFO root fetch - processPackages [revolution-eda]: Start processing: tensorcircuit-nightly
+[2023-05-31 14:51:33] INFO root fetch - main [MainThread]: End processing [revolution-eda]: success
+[2023-05-31 14:51:33] INFO root fetch - processPackages [spine-items]: executing diffoscope
+[2023-05-31 14:51:33] INFO root fetch - processPackages [spine-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_items-0.8.0.tar.gz tmp/spine_items-0.9.0.tar.gz --markdown 20230531/s/spine-items/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-31 14:51:33] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-31 14:51:33] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230531/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-31 14:51:33] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230531] Old Version: [0.9.1.dev20230530]
+[2023-05-31 14:51:33] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/fe/52/4cd2e3f3caf4c406e7b6710a7d362976f6d6b6ae49f377fd5ae0351acf80/goodai-ltm-0.2.0.tar.gz
+[2023-05-31 14:51:33] INFO root fetch - processPackages [pylzy]: executing diffoscope
+[2023-05-31 14:51:33] INFO root fetch - processPackages [pylzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylzy-1.8.7.tar.gz tmp/pylzy-1.8.8.tar.gz --markdown 20230531/p/pylzy/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-05-31 14:51:33] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: quao
+[2023-05-31 14:51:33] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-31 14:51:33] INFO root fetch - processPackages [huntflow-api-client]: Start processing: leadguru-jobs
+[2023-05-31 14:51:33] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-05-31 14:51:33] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-05-31 14:51:33] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.1.0.tar.gz tmp/goodai-ltm-0.2.0.tar.gz --markdown 20230531/g/goodai-ltm/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 14:51:33] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-05-31 14:51:34] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-31 14:51:34] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-05-31 14:51:34] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230531/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 14:51:34] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-31 14:51:34] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230531/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-31 14:51:34] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/ff/a0/10223829babb0ec60aa7fdcd017c249dcbb0affab16cf3e1e9ff59245f06/tensorcircuit-nightly-0.9.1.dev20230531.tar.gz
+[2023-05-31 14:51:34] INFO root fetch - processPackages [oarepo]: Start processing: th2-common-utils
+[2023-05-31 14:51:34] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-05-31 14:51:34] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-31 14:51:34] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230530.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230531.tar.gz --markdown 20230531/t/tensorcircuit-nightly/0.9.1.dev20230530-0.9.1.dev20230531/diff.md --exclude *.pyd
+[2023-05-31 14:51:34] INFO root fetch - processPackages [th2-common-utils]: New version: [2.0.1] Old Version: [2.0.0.dev4574477823]
+[2023-05-31 14:51:34] INFO root fetch - processPackages [th2-common-utils]: executing diffoscope
+[2023-05-31 14:51:34] INFO root fetch - processPackages [th2-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_common_utils-2.0.0.dev4574477823.tar.gz tmp/th2_common_utils-2.0.1.tar.gz --markdown 20230531/t/th2-common-utils/2.0.0.dev4574477823-2.0.1/diff.md --exclude *.pyd
+[2023-05-31 14:51:35] INFO root fetch - processPackages [scpkit]: Start processing: oelint-adv
+[2023-05-31 14:51:35] INFO root fetch - main [MainThread]: End processing [scpkit]: success
+[2023-05-31 14:51:35] INFO root fetch - processPackages [oelint-adv]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-05-31 14:51:35] INFO root fetch - main [MainThread]: End processing [gbp]: success
+[2023-05-31 14:51:35] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/5e/9b/6e693a66319b81e460459bb792223a38e12abb584d60f7b9a4063cda4e97/oelint_adv-3.9.3.tar.gz
+[2023-05-31 14:51:35] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/70/ef/260ffeeb3fd7470716269a3178856ea12e48647662bfc79127822419e048/oelint_adv-3.9.4.tar.gz
+[2023-05-31 14:51:35] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-31 14:51:35] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2023-05-31 14:51:35] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-3.9.3.tar.gz tmp/oelint_adv-3.9.4.tar.gz --markdown 20230531/o/oelint-adv/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-05-31 14:51:35] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-05-31 14:51:35] INFO root fetch - main [MainThread]: End processing [th2-common-utils]: success
+[2023-05-31 14:51:36] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-05-31 14:51:36] INFO root fetch - main [MainThread]: End processing [pylzy]: success
+[2023-05-31 14:51:36] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-31 14:51:36] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-31 14:51:37] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2023-05-31 14:51:38] INFO root fetch - main [MainThread]: End processing [spine-items]: success
+[2023-05-31 14:51:38] INFO root fetch - main [MainThread]: Store serial: [18316866]
