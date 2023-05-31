@@ -19953,3 +19953,64 @@
 [2023-05-31 18:09:04] INFO root fetch - main [MainThread]: End processing [SunshineDB]: success
 [2023-05-31 18:09:34] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-31 18:09:34] INFO root fetch - main [MainThread]: Store serial: [18319663]
+[2023-05-31 18:14:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18319663]
+[2023-05-31 18:14:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogilo-array
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyAllInOne
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corsikaio
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainbench
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qoqo-iqm
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chyp
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-reconciliation-widget
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-access-control
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enderchest
+[2023-05-31 18:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrq-custom
+[2023-05-31 18:14:44] INFO root fetch - processPackages [chainbench]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [corsikaio]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [PyAllInOne]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [nonebot-plugin-access-control]: New version: [0.5.0.post1] Old Version: [0.5.0]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [qoqo-iqm]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-31 18:14:44] WARNING root fetch - processPackages [ogilo-array]: Skipping, unable to determine old version
+[2023-05-31 18:14:44] INFO root fetch - main [MainThread]: End processing [ogilo-array] error
+[2023-05-31 18:14:44] INFO root fetch - processPackages [chyp]: New version: [0.5] Old Version: [0.4.2]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.6] Old Version: [15.0.1.2.5]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [enderchest]: New version: [0.1.0rc7] Old Version: [0.1.0rc6]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.34.1] Old Version: [0.9.34]
+[2023-05-31 18:14:44] INFO root fetch - processPackages [chyp]: Downloading https://files.pythonhosted.org/packages/7a/8e/57f301a50466d76bd5ce269b8f4069edd6110589b8981b44cfc553f55497/chyp-0.4.2.tar.gz
+[2023-05-31 18:14:44] INFO root fetch - processPackages [corsikaio]: Downloading https://files.pythonhosted.org/packages/8f/ea/3c8c9c20e46c69ac8bf56cebbb1078a5e0a1e21760e3918c92f3e953157f/corsikaio-0.3.2.tar.gz
+[2023-05-31 18:14:44] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/29/53/e1e009bfaf54c8b70a42ed31286d891c60eacb58b53fb40b1a04a0be6c1d/odoo_addon_account_reconciliation_widget-15.0.1.2.5-py3-none-any.whl
+[2023-05-31 18:14:44] INFO root fetch - processPackages [PyAllInOne]: Downloading https://files.pythonhosted.org/packages/29/c2/e3a96fadc8e82dc6ee4aca9fe296d8f9939648242834734a10a4b2d67af4/PyAllInOne-1.0.4.tar.gz
+[2023-05-31 18:14:44] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/ca/cf/64f38a65f0b947a95d57964f853b88b6e6fc08a13dd984fdf97cbe123769/chainbench-0.2.0.tar.gz
+[2023-05-31 18:14:44] WARNING root fetch - processPackages [PyAllInOne]: Skipping package: exceeds size limit 38812437>=10485760
+[2023-05-31 18:14:44] INFO root fetch - main [MainThread]: End processing [PyAllInOne] error
+[2023-05-31 18:14:44] INFO root fetch - processPackages [qoqo-iqm]: Downloading https://files.pythonhosted.org/packages/cc/0f/82ab907a8add00d7784f17387bc910f93d7007a965222d8730ecbdefc48e/qoqo_iqm-0.6.4.tar.gz
+[2023-05-31 18:14:44] INFO root fetch - processPackages [qoqo-iqm]: executing diffoscope
+[2023-05-31 18:14:44] INFO root fetch - processPackages [qoqo-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_iqm-0.6.3.tar.gz tmp/qoqo_iqm-0.6.4.tar.gz --markdown 20230531/q/qoqo-iqm/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-31 18:14:44] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/7b/23/8de15eb09f02817f718562edd725644e13b4a0a112b25de919fc95234680/nonebot_plugin_access_control-0.5.0.post1.tar.gz
+[2023-05-31 18:14:44] INFO root fetch - processPackages [chyp]: Downloading https://files.pythonhosted.org/packages/88/0c/9aeb1bc0b6372acb61341ca317b0f33d2716fe34688ff2cf41564943cade/chyp-0.5.tar.gz
+[2023-05-31 18:14:44] INFO root fetch - processPackages [enderchest]: executing diffoscope
+[2023-05-31 18:14:44] INFO root fetch - processPackages [enderchest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enderchest-0.1.0rc6.tar.gz tmp/enderchest-0.1.0rc7.tar.gz --markdown 20230531/e/enderchest/0.1.0rc6-0.1.0rc7/diff.md --exclude *.pyd
+[2023-05-31 18:14:45] INFO root fetch - processPackages [chyp]: executing diffoscope
+[2023-05-31 18:14:45] INFO root fetch - processPackages [chyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chyp-0.4.2.tar.gz tmp/chyp-0.5.tar.gz --markdown 20230531/c/chyp/0.4.2-0.5/diff.md --exclude *.pyd
+[2023-05-31 18:14:45] INFO root fetch - processPackages [corsikaio]: Downloading https://files.pythonhosted.org/packages/56/f5/dcf77eec6e19ed0c55ee98c813081ed542770d6438849c3b0a4ee485da85/corsikaio-0.3.3.tar.gz
+[2023-05-31 18:14:45] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/b3/3a/ed87f587508880936a64952b81ca94283f661bf3927f18a07962c7e585aa/odoo_addon_account_reconciliation_widget-15.0.1.2.6-py3-none-any.whl
+[2023-05-31 18:14:45] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-31 18:14:45] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.34.tar.gz tmp/mrq-custom-0.9.34.1.tar.gz --markdown 20230531/m/mrq-custom/0.9.34-0.9.34.1/diff.md --exclude *.pyd
+[2023-05-31 18:14:45] INFO root fetch - processPackages [corsikaio]: executing diffoscope
+[2023-05-31 18:14:45] INFO root fetch - processPackages [corsikaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corsikaio-0.3.2.tar.gz tmp/corsikaio-0.3.3.tar.gz --markdown 20230531/c/corsikaio/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-31 18:14:45] INFO root fetch - processPackages [nonebot-plugin-access-control]: executing diffoscope
+[2023-05-31 18:14:45] INFO root fetch - processPackages [nonebot-plugin-access-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_access_control-0.5.0.tar.gz tmp/nonebot_plugin_access_control-0.5.0.post1.tar.gz --markdown 20230531/n/nonebot-plugin-access-control/0.5.0-0.5.0.post1/diff.md --exclude *.pyd
+[2023-05-31 18:14:45] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/86/70/0b6c95105498261ce874467f2a4980890582887e9bd564decf2bcf447e05/chainbench-0.3.0.tar.gz
+[2023-05-31 18:14:45] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2023-05-31 18:14:45] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.5-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.6-py3-none-any.whl.zip --markdown 20230531/o/odoo-addon-account-reconciliation-widget/15.0.1.2.5-15.0.1.2.6/diff.md --exclude *.pyd
+[2023-05-31 18:14:45] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2023-05-31 18:14:45] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.2.0.tar.gz tmp/chainbench-0.3.0.tar.gz --markdown 20230531/c/chainbench/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 18:14:46] INFO root fetch - main [MainThread]: End processing [corsikaio]: success
+[2023-05-31 18:14:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2023-05-31 18:14:46] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-31 18:14:46] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2023-05-31 18:14:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
+[2023-05-31 18:14:47] INFO root fetch - main [MainThread]: End processing [enderchest]: success
+[2023-05-31 18:14:47] INFO root fetch - main [MainThread]: End processing [chyp]: success
+[2023-05-31 18:14:50] INFO root fetch - main [MainThread]: End processing [qoqo-iqm]: success
+[2023-05-31 18:14:50] INFO root fetch - main [MainThread]: Store serial: [18319717]
