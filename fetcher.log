@@ -9908,3 +9908,116 @@
 [2023-05-31 09:35:30] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-05-31 09:35:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-31 09:35:34] INFO root fetch - main [MainThread]: Store serial: [18313677]
+[2023-05-31 09:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18313677]
+[2023-05-31 09:40:44] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimization-problem-inspector
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sailboat-gym
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tablemaster
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-datta
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flux-s3-uploads
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lalsuite
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ProjectB-clientside-template-package
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: savant-rs
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: color-palette-extract
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: h2o-llm-client
+[2023-05-31 09:40:44] INFO root fetch - processPackages [tablemaster]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [optimization-problem-inspector]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [django-admin-datta]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-31 09:40:44] WARNING root fetch - processPackages [flux-s3-uploads]: Skipping, unable to determine old version
+[2023-05-31 09:40:44] INFO root fetch - processPackages [flux-s3-uploads]: Start processing: change-proc-priority
+[2023-05-31 09:40:44] INFO root fetch - main [MainThread]: End processing [flux-s3-uploads] error
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: New version: [0.7] Old Version: [0.6]
+[2023-05-31 09:40:44] ERROR root fetch - processPackages [h2o-llm-client]: Unable to get metadata: No such project 'h2o-llm-client'
+[2023-05-31 09:40:44] INFO root fetch - processPackages [h2o-llm-client]: Start processing: sailboat-gym
+[2023-05-31 09:40:44] INFO root fetch - processPackages [color-palette-extract]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-31 09:40:44] INFO root fetch - main [MainThread]: End processing [h2o-llm-client] error
+[2023-05-31 09:40:44] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-31 09:40:44] WARNING root fetch - processPackages [change-proc-priority]: Skipping, unable to determine old version
+[2023-05-31 09:40:44] INFO root fetch - processPackages [change-proc-priority]: Start processing: starmerxauth-erp
+[2023-05-31 09:40:44] INFO root fetch - main [MainThread]: End processing [change-proc-priority] error
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [starmerxauth-erp]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-31 09:40:44] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230531/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-31 09:40:44] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-31 09:40:44] INFO root fetch - processPackages [django-admin-datta]: Downloading https://files.pythonhosted.org/packages/04/b6/93a552baf4b3be4b2511e29321ecf1a3453455ee62e7e40cf7ff6a83b402/django-admin-datta-1.0.7.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/ae/a8/babd04f851881a01ed843d6ff543e414fac3bbf4ccd402f966c7907908a6/sailboat-gym-1.0.5.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/ae/a8/babd04f851881a01ed843d6ff543e414fac3bbf4ccd402f966c7907908a6/sailboat-gym-1.0.5.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [color-palette-extract]: Downloading https://files.pythonhosted.org/packages/ab/e0/dda7a258a83e45b0a9b8cdbd4ee638da82040f6cf7fe45f9aa23f59860d2/color_palette_extract-0.3.0.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [optimization-problem-inspector]: Downloading https://files.pythonhosted.org/packages/37/f9/c5f99b1f3587d89242e5faa32322f822df5e76a1e4a8485e2770a3d94383/optimization_problem_inspector-0.2.0-py3-none-any.whl
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Downloading https://files.pythonhosted.org/packages/6b/e4/bca2eccabe86ff4056d023e75e60dfdaabf2116707a935e67abeab0ccb49/ProjectB_clientside_template_package-0.7.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: executing diffoscope
+[2023-05-31 09:40:44] INFO root fetch - processPackages [ProjectB-clientside-template-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjectB_clientside_template_package-0.6.tar.gz tmp/ProjectB_clientside_template_package-0.7.tar.gz --markdown 20230531/P/ProjectB-clientside-template-package/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-31 09:40:44] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/5a/e7/0650b7c683fad917cecf538c2cf195040b6fcc53102b2346691886ac9440/tablemaster-1.0.7.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/b6/82/f12a1ac6db16ece5cc95192d151945752109a088828274bee3534c740a3a/starmerxauth_erp-0.2.1.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/6c/fb/ef87cba1ea7a94c313a3f88faa04ba10b7c5ef77bb015fb61efe34e6dcab/sailboat-gym-1.0.6.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2023-05-31 09:40:44] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.0.6.tar.gz tmp/tablemaster-1.0.7.tar.gz --markdown 20230531/t/tablemaster/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/6c/fb/ef87cba1ea7a94c313a3f88faa04ba10b7c5ef77bb015fb61efe34e6dcab/sailboat-gym-1.0.6.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [optimization-problem-inspector]: Downloading https://files.pythonhosted.org/packages/1b/3b/d6270162d9ced94140ee7b270abf7ea82be96ea62e69f8c6f8540ab9b40e/optimization_problem_inspector-0.2.1-py3-none-any.whl
+[2023-05-31 09:40:44] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-31 09:40:44] INFO root fetch - processPackages [lalsuite]: Start processing: nice-sql
+[2023-05-31 09:40:44] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-31 09:40:44] INFO root fetch - processPackages [color-palette-extract]: Downloading https://files.pythonhosted.org/packages/a3/fb/bc5c830ab9fe70cb2f24ac037902534a188d6f1baa5ac9580372f2426f4c/color_palette_extract-0.4.0.tar.gz
+[2023-05-31 09:40:44] INFO root fetch - processPackages [nice-sql]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.5.tar.gz tmp/sailboat-gym-1.0.6.tar.gz --markdown 20230531/s/sailboat-gym/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-05-31 09:40:44] ERROR root fetch - processPackages [tablemaster]: Diffoscope failed: Error: error creating container storage: the container name "interesting_antonelli" is already in use by "03c76ee9e3d4433fc7bdaffb3c9a91b7192704e6024f1a92d3dac4a935474f5b". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-31 09:40:44] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.5.tar.gz tmp/sailboat-gym-1.0.6.tar.gz --markdown 20230531/s/sailboat-gym/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-31 09:40:44] INFO root fetch - processPackages [tablemaster]: Start processing: pp-translator
+[2023-05-31 09:40:44] INFO root fetch - main [MainThread]: End processing [tablemaster] error
+[2023-05-31 09:40:45] INFO root fetch - processPackages [pp-translator]: New version: [0.7.0b3] Old Version: [0.7.0b2]
+[2023-05-31 09:40:45] INFO root fetch - processPackages [optimization-problem-inspector]: executing diffoscope
+[2023-05-31 09:40:45] INFO root fetch - processPackages [optimization-problem-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimization_problem_inspector-0.2.0-py3-none-any.whl.zip tmp/optimization_problem_inspector-0.2.1-py3-none-any.whl.zip --markdown 20230531/o/optimization-problem-inspector/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-31 09:40:45] INFO root fetch - processPackages [django-admin-datta]: Downloading https://files.pythonhosted.org/packages/d1/1a/27eaf42d0f17c5d3a90a551d168bdde9d81cf0ab9683583357a95acc3ad3/django-admin-datta-1.0.8.tar.gz
+[2023-05-31 09:40:45] INFO root fetch - processPackages [starmerxauth-erp]: Downloading https://files.pythonhosted.org/packages/ec/13/50d4b45283791278adc91bc760d7ccee0d5d85b7c4701b592d23334b7ad0/starmerxauth_erp-0.2.2.tar.gz
+[2023-05-31 09:40:45] INFO root fetch - processPackages [color-palette-extract]: executing diffoscope
+[2023-05-31 09:40:45] INFO root fetch - processPackages [color-palette-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/color_palette_extract-0.3.0.tar.gz tmp/color_palette_extract-0.4.0.tar.gz --markdown 20230531/c/color-palette-extract/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 09:40:45] INFO root fetch - processPackages [nice-sql]: Downloading https://files.pythonhosted.org/packages/a1/a8/084ccd417fb11c3e85263ab735571a1d341b9b6ea9caae59877a0fd8a4da/nice-sql-2.0.1.tar.gz
+[2023-05-31 09:40:45] INFO root fetch - processPackages [starmerxauth-erp]: executing diffoscope
+[2023-05-31 09:40:45] INFO root fetch - processPackages [starmerxauth-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerxauth_erp-0.2.1.tar.gz tmp/starmerxauth_erp-0.2.2.tar.gz --markdown 20230531/s/starmerxauth-erp/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-31 09:40:45] INFO root fetch - processPackages [pp-translator]: Downloading https://files.pythonhosted.org/packages/26/57/5825634ab52b9771c5fee53d9fc98807f40126c9aa1fd9aad76be80b2a33/pp_translator-0.7.0b2-py3-none-any.whl
+[2023-05-31 09:40:45] INFO root fetch - processPackages [django-admin-datta]: executing diffoscope
+[2023-05-31 09:40:45] INFO root fetch - processPackages [django-admin-datta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-datta-1.0.7.tar.gz tmp/django-admin-datta-1.0.8.tar.gz --markdown 20230531/d/django-admin-datta/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-31 09:40:45] INFO root fetch - processPackages [nice-sql]: executing diffoscope
+[2023-05-31 09:40:45] INFO root fetch - processPackages [nice-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice-sql-2.0.0.tar.gz tmp/nice-sql-2.0.1.tar.gz --markdown 20230531/n/nice-sql/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-31 09:40:45] INFO root fetch - processPackages [pp-translator]: Downloading https://files.pythonhosted.org/packages/5a/61/9d408813ddaa5b0b3b5729bf6a5c9ea87200893de29e44e0aee6d4d68cee/pp_translator-0.7.0b3-py3-none-any.whl
+[2023-05-31 09:40:45] INFO root fetch - processPackages [pp-translator]: executing diffoscope
+[2023-05-31 09:40:45] INFO root fetch - processPackages [pp-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_translator-0.7.0b2-py3-none-any.whl.zip tmp/pp_translator-0.7.0b3-py3-none-any.whl.zip --markdown 20230531/p/pp-translator/0.7.0b2-0.7.0b3/diff.md --exclude *.pyd
+[2023-05-31 09:40:46] INFO root fetch - processPackages [ProjectB-clientside-template-package]: Start processing: django-atomic-migrations
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [ProjectB-clientside-template-package]: success
+[2023-05-31 09:40:46] INFO root fetch - processPackages [django-atomic-migrations]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-05-31 09:40:46] INFO root fetch - processPackages [django-atomic-migrations]: Downloading https://files.pythonhosted.org/packages/bb/74/15b3b8a4f744c9818d0f3e2a4a3c7340daedf4e41b70705074946b491fe3/django-atomic-migrations-0.1.7.tar.gz
+[2023-05-31 09:40:46] INFO root fetch - processPackages [sailboat-gym]: Start processing: lmclient-core
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-05-31 09:40:46] INFO root fetch - processPackages [lmclient-core]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-31 09:40:46] INFO root fetch - processPackages [sailboat-gym]: Start processing: peewee-migrate
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-05-31 09:40:46] INFO root fetch - processPackages [peewee-migrate]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-31 09:40:46] INFO root fetch - processPackages [django-atomic-migrations]: Downloading https://files.pythonhosted.org/packages/31/ed/b25da858e71e952501ef4b0d8fab7192eec3b36609470046c14c7ca03ed4/django-atomic-migrations-0.2.0.tar.gz
+[2023-05-31 09:40:46] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/28/48/c22381b9f8ba18bbf12a26f68ff59b5cb7586981cb77e4ec1ab06e19bfd7/lmclient-core-0.1.0.tar.gz
+[2023-05-31 09:40:46] INFO root fetch - processPackages [optimization-problem-inspector]: Start processing: mon-nom-de-projet
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [optimization-problem-inspector]: success
+[2023-05-31 09:40:46] INFO root fetch - processPackages [django-atomic-migrations]: executing diffoscope
+[2023-05-31 09:40:46] INFO root fetch - processPackages [django-atomic-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-atomic-migrations-0.1.7.tar.gz tmp/django-atomic-migrations-0.2.0.tar.gz --markdown 20230531/d/django-atomic-migrations/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 09:40:46] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-05-31 09:40:46] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.8.1.tar.gz tmp/peewee_migrate-1.9.0.tar.gz --markdown 20230531/p/peewee-migrate/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [starmerxauth-erp]: success
+[2023-05-31 09:40:46] WARNING root fetch - processPackages [mon-nom-de-projet]: Skipping, unable to determine old version
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [mon-nom-de-projet] error
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [nice-sql]: success
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [color-palette-extract]: success
+[2023-05-31 09:40:46] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/12/fd/df51f4aadc6bac42df45fa7860f8272ace8fa9e05bf5debcfccae761ab96/lmclient-core-0.2.0.tar.gz
+[2023-05-31 09:40:46] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-31 09:40:47] INFO root fetch - main [MainThread]: End processing [pp-translator]: success
+[2023-05-31 09:40:47] INFO root fetch - processPackages [lmclient-core]: executing diffoscope
+[2023-05-31 09:40:47] INFO root fetch - processPackages [lmclient-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmclient-core-0.1.0.tar.gz tmp/lmclient-core-0.2.0.tar.gz --markdown 20230531/l/lmclient-core/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 09:40:47] INFO root fetch - main [MainThread]: End processing [django-atomic-migrations]: success
+[2023-05-31 09:40:47] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-05-31 09:40:47] INFO root fetch - main [MainThread]: End processing [lmclient-core]: success
+[2023-05-31 09:40:48] INFO root fetch - main [MainThread]: End processing [django-admin-datta]: success
+[2023-05-31 09:40:48] INFO root fetch - main [MainThread]: Store serial: [18313776]
