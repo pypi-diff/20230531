@@ -8713,3 +8713,34 @@
 [2023-05-31 07:52:40] INFO root fetch - main [MainThread]: End processing [userfs]: success
 [2023-05-31 07:52:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-31 07:52:44] INFO root fetch - main [MainThread]: Store serial: [18312985]
+[2023-05-31 07:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312985]
+[2023-05-31 07:57:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-31 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplegeomap
+[2023-05-31 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meta-matching-tool
+[2023-05-31 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netsuitesdk
+[2023-05-31 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prefai
+[2023-05-31 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: make-room
+[2023-05-31 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-05-31 07:57:53] INFO root fetch - processPackages [meta-matching-tool]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-31 07:57:53] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-31 07:57:53] WARNING root fetch - processPackages [prefai]: Skipping, unable to determine old version
+[2023-05-31 07:57:53] INFO root fetch - main [MainThread]: End processing [prefai] error
+[2023-05-31 07:57:53] WARNING root fetch - processPackages [make-room]: Skipping, unable to determine old version
+[2023-05-31 07:57:53] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 07:57:53] INFO root fetch - main [MainThread]: End processing [make-room] error
+[2023-05-31 07:57:53] INFO root fetch - processPackages [kcli]: New version: [99.0.202305310556] Old Version: [99.0.202305300649]
+[2023-05-31 07:57:53] INFO root fetch - processPackages [meta-matching-tool]: Downloading https://files.pythonhosted.org/packages/59/fc/57c39f431af736b9a879a6c9557f5e8a48e24a726884249343cda41736c3/meta_matching_tool-1.7.1.tar.gz
+[2023-05-31 07:57:53] WARNING root fetch - processPackages [meta-matching-tool]: Skipping package: exceeds size limit 23609873>=10485760
+[2023-05-31 07:57:53] INFO root fetch - main [MainThread]: End processing [meta-matching-tool] error
+[2023-05-31 07:57:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/30/22/787599842d3912deac3d1e8cdb9021b6aba3650c691e66a8116bff56122f/kcli-99.0.202305310556-py3-none-any.whl
+[2023-05-31 07:57:53] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/dd/7b/df54cf57a3cf75c1e7c8c1f8e16dfd4a5f5c5bc7eb648839ef336336ef2a/simplegeomap-0.0.25.tar.gz
+[2023-05-31 07:57:54] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-05-31 07:57:54] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.24.tar.gz tmp/simplegeomap-0.0.25.tar.gz --markdown 20230531/s/simplegeomap/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-31 07:57:54] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2023-05-31 07:57:54] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20230531/n/netsuitesdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 07:57:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-31 07:57:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305300649-py3-none-any.whl.zip tmp/kcli-99.0.202305310556-py3-none-any.whl.zip --markdown 20230531/k/kcli/99.0.202305300649-99.0.202305310556/diff.md --exclude *.pyd
+[2023-05-31 07:57:55] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-05-31 07:57:55] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2023-05-31 07:58:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-31 07:58:02] INFO root fetch - main [MainThread]: Store serial: [18313006]
