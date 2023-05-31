@@ -1932,3 +1932,70 @@
 [2023-05-31 02:56:07] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
 [2023-05-31 02:56:07] INFO root fetch - main [MainThread]: End processing [langdash]: success
 [2023-05-31 02:56:07] INFO root fetch - main [MainThread]: Store serial: [18309299]
+[2023-05-31 03:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18309299]
+[2023-05-31 03:01:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opvious
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylance
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nshuman-python
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Files.com
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeFretboard
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-storage-file-datalake
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: icatcher
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lifetimefitting
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prismstudio-dev
+[2023-05-31 03:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mach2viz
+[2023-05-31 03:01:15] INFO root fetch - processPackages [pylance]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [seeFretboard]: New version: [0.1.5.5] Old Version: [0.1.5.4]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [azure-storage-file-datalake]: New version: [12.9.1] Old Version: [12.9.0b1]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [icatcher]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-31 03:01:15] WARNING root fetch - processPackages [mach2viz]: Skipping, unable to determine old version
+[2023-05-31 03:01:15] INFO root fetch - processPackages [mach2viz]: Start processing: bioversions
+[2023-05-31 03:01:15] INFO root fetch - main [MainThread]: End processing [mach2viz] error
+[2023-05-31 03:01:15] WARNING root fetch - processPackages [prismstudio-dev]: Skipping, unable to determine old version
+[2023-05-31 03:01:15] INFO root fetch - processPackages [lifetimefitting]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-31 03:01:15] INFO root fetch - processPackages [prismstudio-dev]: Start processing: docrawl
+[2023-05-31 03:01:15] INFO root fetch - main [MainThread]: End processing [prismstudio-dev] error
+[2023-05-31 03:01:15] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-31 03:01:16] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/60/2e/dfc6d4bfccff4831f6eff6dd3751164a60a3c61d9eadfef6ab4db7215166/nshuman_python-0.0.2-py3-none-any.whl
+[2023-05-31 03:01:16] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/60/55/5ae53138222ba37fbfe1f21ab52fe6cea482b24f0eeac33232b7684642a7/seeFretboard-0.1.5.5.tar.gz
+[2023-05-31 03:01:16] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/1d/3d/b7f8dbc01ee9f99333c1a157af27411304e05950acd0a0a594cacfeb1537/pylance-0.4.8-cp38-abi3-win_amd64.whl
+[2023-05-31 03:01:16] INFO root fetch - processPackages [docrawl]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-31 03:01:16] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/48/35/9d5104064ab77bfa67acfdbf7c12996e7ad2ee5beba6dd4568896170627b/lifetimefitting-0.0.20.tar.gz
+[2023-05-31 03:01:16] WARNING root fetch - processPackages [seeFretboard]: Skipping package: exceeds size limit 99447969>=10485760
+[2023-05-31 03:01:16] INFO root fetch - main [MainThread]: End processing [seeFretboard] error
+[2023-05-31 03:01:16] INFO root fetch - processPackages [azure-storage-file-datalake]: Downloading https://files.pythonhosted.org/packages/be/69/ca18cbfcc175046da49df768a085a16e0f0e550df3aad42b5fa25533b47e/azure-storage-file-datalake-12.9.0b1.zip
+[2023-05-31 03:01:16] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 20868431>=10485760
+[2023-05-31 03:01:16] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-05-31 03:01:16] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230531/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/bd/ef/4a786b147b17ad68588b56fa049f3b01aa6056d838d5effb917deb24fef5/docrawl-0.4.5.tar.gz
+[2023-05-31 03:01:16] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230531/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [icatcher]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [icatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icatcher-0.0.8.tar.gz tmp/icatcher-0.0.9.tar.gz --markdown 20230531/i/icatcher/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230531/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/ed/f1/9a5ae1a4af90a150e3fd78648b48dfdf0ad9a237308241b03344310ec88a/lifetimefitting-0.0.21.tar.gz
+[2023-05-31 03:01:16] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/a8/6a/99212cc766d4dd5c87282a25558a4062d626677928ca2d399c0cdc29c130/nshuman_python-0.0.3-py3-none-any.whl
+[2023-05-31 03:01:16] INFO root fetch - processPackages [lifetimefitting]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [lifetimefitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifetimefitting-0.0.20.tar.gz tmp/lifetimefitting-0.0.21.tar.gz --markdown 20230531/l/lifetimefitting/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.2-py3-none-any.whl.zip tmp/nshuman_python-0.0.3-py3-none-any.whl.zip --markdown 20230531/n/nshuman-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [azure-storage-file-datalake]: Downloading https://files.pythonhosted.org/packages/a9/3a/6a1f4e6e2b09159f3e4da0dc39c1c52f3b85c83cb4f005b3b0772bdaf630/azure-storage-file-datalake-12.9.1.zip
+[2023-05-31 03:01:16] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/71/cb/c42ad1da95bb3a575acb3c25a4e019e9f3b44a953ae9f8281b890dcf3965/docrawl-0.4.6-py3-none-any.whl
+[2023-05-31 03:01:16] INFO root fetch - processPackages [azure-storage-file-datalake]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [azure-storage-file-datalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-storage-file-datalake-12.9.0b1.zip tmp/azure-storage-file-datalake-12.9.1.zip --markdown 20230531/a/azure-storage-file-datalake/12.9.0b1-12.9.1/diff.md --exclude *.pyd
+[2023-05-31 03:01:16] INFO root fetch - processPackages [docrawl]: executing diffoscope
+[2023-05-31 03:01:16] INFO root fetch - processPackages [docrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrawl-0.4.5.tar.gz tmp/docrawl-0.4.6-py3-none-any.whl.zip --markdown 20230531/d/docrawl/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-31 03:01:17] INFO root fetch - main [MainThread]: End processing [lifetimefitting]: success
+[2023-05-31 03:01:17] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-31 03:01:17] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-31 03:01:18] INFO root fetch - main [MainThread]: End processing [docrawl]: success
+[2023-05-31 03:01:18] INFO root fetch - main [MainThread]: End processing [icatcher]: success
+[2023-05-31 03:01:18] INFO root fetch - main [MainThread]: End processing [azure-storage-file-datalake]: success
+[2023-05-31 03:01:19] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-05-31 03:01:37] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-31 03:01:37] INFO root fetch - main [MainThread]: Store serial: [18309345]
