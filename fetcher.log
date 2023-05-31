@@ -8251,3 +8251,77 @@
 [2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [simplicial-kuramoto]: success
 [2023-05-31 07:04:10] INFO root fetch - main [MainThread]: End processing [qlapi]: success
 [2023-05-31 07:04:10] INFO root fetch - main [MainThread]: Store serial: [18312607]
+[2023-05-31 07:09:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18312607]
+[2023-05-31 07:09:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hubitatcontrol
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pvxslibs
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robodyno
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravitas
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multi-model-server
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-model-maker-nightly
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-runtime-nightly
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rayyan-store
+[2023-05-31 07:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auth-package
+[2023-05-31 07:09:21] INFO root fetch - processPackages [hubitatcontrol]: New version: [3.0.0] Old Version: [2.3.3]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [robodyno]: New version: [1.6.1b1] Old Version: [1.6.1b0]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [pvxslibs]: New version: [1.2.1a1] Old Version: [1.2.0a1]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [auth-package]: New version: [1.1] Old Version: [1.0]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [gravitas]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-31 07:09:21] WARNING root fetch - processPackages [rayyan-store]: Skipping, unable to determine old version
+[2023-05-31 07:09:21] INFO root fetch - processPackages [rayyan-store]: Start processing: kombu
+[2023-05-31 07:09:21] INFO root fetch - main [MainThread]: End processing [rayyan-store] error
+[2023-05-31 07:09:21] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230531] Old Version: [1.1.8b20230530]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230531] Old Version: [0.1.1.dev20230530]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230529] Old Version: [2.14.0.dev20230528]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [kombu]: New version: [5.3.0rc2] Old Version: [5.3.0rc1]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305310506] Old Version: [0.4.3.dev202305290508]
+[2023-05-31 07:09:21] INFO root fetch - processPackages [hubitatcontrol]: Downloading https://files.pythonhosted.org/packages/ba/2b/de6dc5460b75ec5c211dac042cac49fd50d5bc2f60fcfa1b08c193625549/hubitatcontrol-2.3.3.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [auth-package]: Downloading https://files.pythonhosted.org/packages/f9/74/e40630639a7ee300df97cb56ec511dfefd76b9e752914d687726329805fd/auth_package-1.0.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/a9/1d/105a449be408d8103ea58dbd47bba46eca48557142238e7f9edf7b70e99b/multi_model_server-1.1.8b20230531-py2.py3-none-any.whl
+[2023-05-31 07:09:21] INFO root fetch - processPackages [pvxslibs]: Downloading https://files.pythonhosted.org/packages/28/8d/3c5c709b7c17856d9782f9f064619d7675fdfa480397f122b9d27e1752dd/pvxslibs-1.2.0a1.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [gravitas]: Downloading https://files.pythonhosted.org/packages/d6/96/df36e778384afaa71652b41a8d4a3f27fb1dac00657e6a65574f57de8626/gravitas-0.1.4.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/e1/b5/811453f0fa0c99ac88b404fd1b2b8e5c559836959233bba8fe340b2e9e52/rapid_pe-0.1.1.dev20230531.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [kombu]: Downloading https://files.pythonhosted.org/packages/9d/ea/478c828fdf382a20cf792af3d0c03525ecba570f9aeb7d5ebe6fed426600/kombu-5.3.0rc1.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/81/c9/ccd9a55a4148c00b29f1af5db99b555d0bd92f1ea0dbfec103b391cbb59e/tflite_runtime_nightly-2.14.0.dev20230529-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-31 07:09:21] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230530.tar.gz tmp/rapid_pe-0.1.1.dev20230531.tar.gz --markdown 20230531/r/rapid-pe/0.1.1.dev20230530-0.1.1.dev20230531/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230530-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230531-py2.py3-none-any.whl.zip --markdown 20230531/m/multi-model-server/1.1.8b20230530-1.1.8b20230531/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [robodyno]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [robodyno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robodyno-1.6.1b0.tar.gz tmp/robodyno-1.6.1b1.tar.gz --markdown 20230531/r/robodyno/1.6.1b0-1.6.1b1/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [auth-package]: Downloading https://files.pythonhosted.org/packages/0b/55/17501708763314fd8c20c3c4e522009ed91f56c09440cdf8548855be6843/auth_package-1.1.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [hubitatcontrol]: Downloading https://files.pythonhosted.org/packages/9b/08/da1f888f8ec204bdf7b8fdb201fe9e07f17a4ab3e54f932eb736e9143dcb/hubitatcontrol-3.0.0.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/7e/e3/f83b05ea24fcc9c38a7a4d597c9de25174cf535092ad242d475aa6d86b98/tflite-model-maker-nightly-0.4.3.dev202305310506.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230528-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230529-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230531/t/tflite-runtime-nightly/2.14.0.dev20230528-2.14.0.dev20230529/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [auth-package]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [auth-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_package-1.0.tar.gz tmp/auth_package-1.1.tar.gz --markdown 20230531/a/auth-package/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [hubitatcontrol]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [hubitatcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubitatcontrol-2.3.3.tar.gz tmp/hubitatcontrol-3.0.0.tar.gz --markdown 20230531/h/hubitatcontrol/2.3.3-3.0.0/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305290508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305310506.tar.gz --markdown 20230531/t/tflite-model-maker-nightly/0.4.3.dev202305290508-0.4.3.dev202305310506/diff.md --exclude *.pyd
+[2023-05-31 07:09:21] INFO root fetch - processPackages [pvxslibs]: Downloading https://files.pythonhosted.org/packages/52/99/e0392a3367e830ee47ffed415642d9fdac89d1bcabea776ea148222d5ce7/pvxslibs-1.2.1a1-cp37-cp37m-manylinux1_x86_64.whl
+[2023-05-31 07:09:21] INFO root fetch - processPackages [kombu]: Downloading https://files.pythonhosted.org/packages/5c/e7/bec8cffa8aaa9c1c850f76cabcb737489b098272c4a6e084ed6f0f3d0f1d/kombu-5.3.0rc2.tar.gz
+[2023-05-31 07:09:21] INFO root fetch - processPackages [gravitas]: executing diffoscope
+[2023-05-31 07:09:21] INFO root fetch - processPackages [gravitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitas-0.1.3.tar.gz tmp/gravitas-0.1.4.tar.gz --markdown 20230531/g/gravitas/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-31 07:09:22] INFO root fetch - processPackages [kombu]: executing diffoscope
+[2023-05-31 07:09:22] INFO root fetch - processPackages [kombu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kombu-5.3.0rc1.tar.gz tmp/kombu-5.3.0rc2.tar.gz --markdown 20230531/k/kombu/5.3.0rc1-5.3.0rc2/diff.md --exclude *.pyd
+[2023-05-31 07:09:22] INFO root fetch - processPackages [pvxslibs]: executing diffoscope
+[2023-05-31 07:09:22] INFO root fetch - processPackages [pvxslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvxslibs-1.2.0a1.tar.gz tmp/pvxslibs-1.2.1a1-cp37-cp37m-manylinux1_x86_64.whl.zip --markdown 20230531/p/pvxslibs/1.2.0a1-1.2.1a1/diff.md --exclude *.pyd
+[2023-05-31 07:09:23] INFO root fetch - processPackages [auth-package]: Start processing: WebtoonScraper
+[2023-05-31 07:09:23] INFO root fetch - main [MainThread]: End processing [auth-package]: success
+[2023-05-31 07:09:23] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 07:09:23] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-31 07:09:23] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230531/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 07:09:23] INFO root fetch - main [MainThread]: End processing [hubitatcontrol]: success
+[2023-05-31 07:09:23] INFO root fetch - main [MainThread]: End processing [pvxslibs]: success
+[2023-05-31 07:09:23] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-31 07:09:24] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-31 07:09:24] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-31 07:09:24] INFO root fetch - main [MainThread]: End processing [robodyno]: success
+[2023-05-31 07:09:24] INFO root fetch - main [MainThread]: End processing [kombu]: success
+[2023-05-31 07:09:25] INFO root fetch - main [MainThread]: End processing [gravitas]: success
+[2023-05-31 07:09:26] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-31 07:12:14] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-31 07:12:14] INFO root fetch - main [MainThread]: Store serial: [18312666]
