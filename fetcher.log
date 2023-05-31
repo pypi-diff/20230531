@@ -21637,3 +21637,60 @@
 [2023-05-31 20:08:40] INFO root fetch - main [MainThread]: End processing [nascam-imager-readfile]: success
 [2023-05-31 20:08:43] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-05-31 20:08:43] INFO root fetch - main [MainThread]: Store serial: [18320779]
+[2023-05-31 20:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18320779]
+[2023-05-31 20:13:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-ai
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slamcore-utils
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rss-parser
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongo-ninja-python
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crankshaft
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arxivai
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mozregression
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pilgram2
+[2023-05-31 20:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antimeridian
+[2023-05-31 20:13:53] INFO root fetch - processPackages [abstract-ai]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [slamcore-utils]: New version: [0.1.6] Old Version: [0.1.5a0]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [rss-parser]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [antimeridian]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [mongo-ninja-python]: New version: [1.11.1.4] Old Version: [1.11.1.3]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [crankshaft]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 20:13:53] INFO root fetch - processPackages [mozregression]: New version: [5.3.3.dev1] Old Version: [5.3.3.dev0]
+[2023-05-31 20:13:53] WARNING root fetch - processPackages [pilgram2]: Skipping, unable to determine old version
+[2023-05-31 20:13:53] INFO root fetch - main [MainThread]: End processing [pilgram2] error
+[2023-05-31 20:13:53] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-31 20:13:53] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230531/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [antimeridian]: Downloading https://files.pythonhosted.org/packages/0b/1d/8cbb14f249611115d91b24cc5027c7f626cf6b3f323fc59c527c384f16f4/antimeridian-0.2.6.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/d2/bd/a5a41c6886e51774dc2a0870217d4622db7d00d228808f67dff4bf644418/crankshaft-0.1.1.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mongo-ninja-python]: Downloading https://files.pythonhosted.org/packages/68/61/48c531fe955cca47151c5111a25e1c4ea87540ca8dca4409e35acdac272e/mongo_ninja_python-1.11.1.3-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-31 20:13:54] INFO root fetch - processPackages [rss-parser]: Downloading https://files.pythonhosted.org/packages/89/56/f8f1330323c0c2828071f1024375452da716b6bcf01cdded465c054a6ced/rss-parser-0.2.4.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/16/03/d2ec7d20f303ecfc3fd9d4437d177e2e2b91ec7d73e8c3cfb669ef99c229/mozregression-5.3.3.dev1.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [slamcore-utils]: Downloading https://files.pythonhosted.org/packages/58/ae/db712f5b556cc76cec2efa618b9673983d0641206c0845268dff29249e61/slamcore_utils-0.1.5a0.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/52/d0/fc3e52ef039642a1611c19244014dfb8552574cd5b227bbc49592ac1f73c/abstract_ai-0.0.3.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [antimeridian]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [antimeridian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimeridian-0.2.5.tar.gz tmp/antimeridian-0.2.6.tar.gz --markdown 20230531/a/antimeridian/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.0.2.tar.gz tmp/abstract_ai-0.0.3.tar.gz --markdown 20230531/a/abstract-ai/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mozregression]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mozregression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozregression-5.3.3.dev0.tar.gz tmp/mozregression-5.3.3.dev1.tar.gz --markdown 20230531/m/mozregression/5.3.3.dev0-5.3.3.dev1/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/23/6c/30e29bc13075355b57931eb7389e2724541504e3c39712c690b945a963d8/crankshaft-0.2.0.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [rss-parser]: Downloading https://files.pythonhosted.org/packages/d1/bf/662e818701a03cc46c4557576c72ac46c9681bb4e4e04c8874b583f92e86/rss_parser-1.0.0.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [slamcore-utils]: Downloading https://files.pythonhosted.org/packages/57/9d/c823bf16cc0a3cec6171fd177035c83747818de0bcdfa374c7408548bf2a/slamcore_utils-0.1.6.tar.gz
+[2023-05-31 20:13:54] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.1.1.tar.gz tmp/crankshaft-0.2.0.tar.gz --markdown 20230531/c/crankshaft/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [rss-parser]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [rss-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rss-parser-0.2.4.tar.gz tmp/rss_parser-1.0.0.tar.gz --markdown 20230531/r/rss-parser/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [slamcore-utils]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [slamcore-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slamcore_utils-0.1.5a0.tar.gz tmp/slamcore_utils-0.1.6.tar.gz --markdown 20230531/s/slamcore-utils/0.1.5a0-0.1.6/diff.md --exclude *.pyd
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mongo-ninja-python]: Downloading https://files.pythonhosted.org/packages/31/54/0da1c388033d600006feaa470be19f482421c6d8da1c8eb219ee770af5ba/mongo_ninja_python-1.11.1.4-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mongo-ninja-python]: executing diffoscope
+[2023-05-31 20:13:54] INFO root fetch - processPackages [mongo-ninja-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_ninja_python-1.11.1.3-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/mongo_ninja_python-1.11.1.4-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230531/m/mongo-ninja-python/1.11.1.3-1.11.1.4/diff.md --exclude *.pyd
+[2023-05-31 20:13:55] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-31 20:13:55] INFO root fetch - main [MainThread]: End processing [antimeridian]: success
+[2023-05-31 20:13:55] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-05-31 20:13:55] INFO root fetch - main [MainThread]: End processing [slamcore-utils]: success
+[2023-05-31 20:13:56] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-05-31 20:13:56] INFO root fetch - main [MainThread]: End processing [mongo-ninja-python]: success
+[2023-05-31 20:13:56] INFO root fetch - main [MainThread]: End processing [rss-parser]: success
+[2023-05-31 20:13:57] INFO root fetch - main [MainThread]: End processing [mozregression]: success
+[2023-05-31 20:13:57] INFO root fetch - main [MainThread]: Store serial: [18320807]
