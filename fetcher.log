@@ -11599,3 +11599,108 @@
 [2023-05-31 11:19:38] INFO root fetch - main [MainThread]: End processing [ifly-uiautotest]: success
 [2023-05-31 11:19:59] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-31 11:19:59] INFO root fetch - main [MainThread]: Store serial: [18314680]
+[2023-05-31 11:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18314680]
+[2023-05-31 11:25:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ohmytmp-gui
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yuptools
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmctl
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biom3d
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WebtoonScraper
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: googlesecretsmanager
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlc-tools
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlilliput
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ohmytmp-gui]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [tmctl]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-31 11:25:09] WARNING root fetch - processPackages [googlesecretsmanager]: Skipping, unable to determine old version
+[2023-05-31 11:25:09] INFO root fetch - processPackages [googlesecretsmanager]: Start processing: unravel-python
+[2023-05-31 11:25:09] INFO root fetch - main [MainThread]: End processing [googlesecretsmanager] error
+[2023-05-31 11:25:09] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [yuptools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [mlc-tools]: New version: [0.4.675] Old Version: [0.4.674]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230531/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] WARNING root fetch - processPackages [sqlilliput]: Skipping, unable to determine old version
+[2023-05-31 11:25:09] INFO root fetch - processPackages [sqlilliput]: Start processing: scikit-rt
+[2023-05-31 11:25:09] INFO root fetch - main [MainThread]: End processing [sqlilliput] error
+[2023-05-31 11:25:09] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230531/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [unravel-python]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ohmytmp-gui]: Downloading https://files.pythonhosted.org/packages/50/ae/5b17945157df3058a8cf2398262e3b9d60a2be4af5f39e121ce62c2ec37d/ohmytmp-gui-0.0.1.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [mlc-tools]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [mlc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlc-tools-0.4.674.tar.gz tmp/mlc-tools-0.4.675.tar.gz --markdown 20230531/m/mlc-tools/0.4.674-0.4.675/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [scikit-rt]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-31 11:25:09] INFO root fetch - processPackages [tmctl]: Downloading https://files.pythonhosted.org/packages/78/8a/e8d03daf01d4e5c8973fb366de70c80b64f52b177dbd7e72bb35849577f6/tmctl-0.2.0.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/1b/1f/33fad4162d2b87761132630fabefc93cba6f44b8a6dce422d282d2113602/yuptools-0.1.1.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230531/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230531/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ohmytmp-gui]: Downloading https://files.pythonhosted.org/packages/4f/50/daa3f420a067c54a5e613aae4679dfd6a901afa9e75d3101536edb55a501/ohmytmp-gui-0.0.2.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/30/2a/1d48a970264efb81841628742b8defefed70465b299c9d2176a28e349295/yuptools-0.1.2.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [tmctl]: Downloading https://files.pythonhosted.org/packages/89/db/15e08f8dc44448d62f6a0b204235247f1acb06006fc99c495196c6f643bf/tmctl-0.3.0.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/d8/62/cc7e25ab8a7fd55b28d66e1b174897c0cad0d0d8e56a6d5d4e23d45e57c0/unravel-python-1.2.9.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [yuptools]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [yuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuptools-0.1.1.tar.gz tmp/yuptools-0.1.2.tar.gz --markdown 20230531/y/yuptools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/1b/3d/eb89bbee6b5c8d365fe39dfbc82850cc30ea0f2fc375c5451a0d6c0c43c7/scikit-rt-0.4.9.tar.gz
+[2023-05-31 11:25:09] INFO root fetch - processPackages [tmctl]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [tmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmctl-0.2.0.tar.gz tmp/tmctl-0.3.0.tar.gz --markdown 20230531/t/tmctl/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ohmytmp-gui]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [ohmytmp-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohmytmp-gui-0.0.1.tar.gz tmp/ohmytmp-gui-0.0.2.tar.gz --markdown 20230531/o/ohmytmp-gui/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-31 11:25:09] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2023-05-31 11:25:09] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel-python-1.2.8.tar.gz tmp/unravel-python-1.2.9.tar.gz --markdown 20230531/u/unravel-python/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-31 11:25:10] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-05-31 11:25:10] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.8.tar.gz tmp/scikit-rt-0.4.9.tar.gz --markdown 20230531/s/scikit-rt/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-31 11:25:11] INFO root fetch - processPackages [spanishconjugator]: Start processing: bridgecrew
+[2023-05-31 11:25:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-31 11:25:11] INFO root fetch - processPackages [spanishconjugator]: Start processing: typedb-client
+[2023-05-31 11:25:11] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-31 11:25:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-31 11:25:11] INFO root fetch - processPackages [WebtoonScraper]: Start processing: freeplot
+[2023-05-31 11:25:11] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-31 11:25:11] INFO root fetch - processPackages [typedb-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-31 11:25:11] INFO root fetch - processPackages [freeplot]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-31 11:25:11] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-31 11:25:11] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230531/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-31 11:25:11] INFO root fetch - processPackages [unravel-python]: Start processing: redbrick-sdk
+[2023-05-31 11:25:11] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2023-05-31 11:25:11] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-31 11:25:11] INFO root fetch - processPackages [tmctl]: Start processing: mango
+[2023-05-31 11:25:11] INFO root fetch - main [MainThread]: End processing [tmctl]: success
+[2023-05-31 11:25:11] INFO root fetch - processPackages [mango]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-31 11:25:11] INFO root fetch - processPackages [typedb-client]: Downloading https://files.pythonhosted.org/packages/f9/85/ebd6f2555861e6e53500024d27e77bd9323ca59b207c9db1a72d22c8cd69/typedb-client-2.8.0.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [ohmytmp-gui]: Start processing: shakenfist-utilities
+[2023-05-31 11:25:11] INFO root fetch - main [MainThread]: End processing [ohmytmp-gui]: success
+[2023-05-31 11:25:11] INFO root fetch - processPackages [freeplot]: Downloading https://files.pythonhosted.org/packages/55/71/27da1817a5208f155dad60c0ac32d260b18b8fcc1e5e41d9e3a39a6d37ce/freeplot-0.3.3.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [shakenfist-utilities]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-31 11:25:11] INFO root fetch - processPackages [mango]: Downloading https://files.pythonhosted.org/packages/1e/92/890a3cc18278a2599d5f9ef36b588134b735fdde75d867ac86905e6d0fb6/mango-0.0.5.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [shakenfist-utilities]: Downloading https://files.pythonhosted.org/packages/af/af/0af681a44d4be81d499f54a2ea38b6ec4dec082576e8e202baf4a83221b1/shakenfist-utilities-0.4.0.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [freeplot]: Downloading https://files.pythonhosted.org/packages/50/38/e1c1bd46230aaff1bd5b0b0258957c4dae3a556827895aef167fb39e5248/freeplot-0.4.0.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2023-05-31 11:25:11] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20230531/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-31 11:25:11] INFO root fetch - processPackages [typedb-client]: Downloading https://files.pythonhosted.org/packages/f5/e6/be428af4d6c3f50dcda0b0b57980a3862fde86e5a4136a88fbb38cadbde5/typedb-client-2.9.0.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [mango]: Downloading https://files.pythonhosted.org/packages/8b/88/13b95d830efd08dec382cf104c2c5eac15a6c910d72e5086e7eca8f44c89/mango-0.0.6.tar.gz
+[2023-05-31 11:25:11] INFO root fetch - processPackages [freeplot]: executing diffoscope
+[2023-05-31 11:25:11] INFO root fetch - processPackages [freeplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeplot-0.3.3.tar.gz tmp/freeplot-0.4.0.tar.gz --markdown 20230531/f/freeplot/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-31 11:25:12] INFO root fetch - processPackages [typedb-client]: executing diffoscope
+[2023-05-31 11:25:12] INFO root fetch - processPackages [typedb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedb-client-2.8.0.tar.gz tmp/typedb-client-2.9.0.tar.gz --markdown 20230531/t/typedb-client/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-31 11:25:12] INFO root fetch - processPackages [shakenfist-utilities]: Downloading https://files.pythonhosted.org/packages/0e/74/47035b9f9bd05aa4385242935a7318f14249a62ae735128719525afdaf71/shakenfist-utilities-0.5.0.tar.gz
+[2023-05-31 11:25:12] INFO root fetch - processPackages [mango]: executing diffoscope
+[2023-05-31 11:25:12] INFO root fetch - processPackages [mango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-0.0.5.tar.gz tmp/mango-0.0.6.tar.gz --markdown 20230531/m/mango/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-31 11:25:12] INFO root fetch - processPackages [shakenfist-utilities]: executing diffoscope
+[2023-05-31 11:25:12] INFO root fetch - processPackages [shakenfist-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230531:/home/abi/fetcher/20230531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-utilities-0.4.0.tar.gz tmp/shakenfist-utilities-0.5.0.tar.gz --markdown 20230531/s/shakenfist-utilities/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-31 11:25:12] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-05-31 11:25:12] INFO root fetch - main [MainThread]: End processing [mlc-tools]: success
+[2023-05-31 11:25:12] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-31 11:25:12] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-05-31 11:25:12] INFO root fetch - main [MainThread]: End processing [yuptools]: success
+[2023-05-31 11:25:13] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2023-05-31 11:25:13] INFO root fetch - main [MainThread]: End processing [freeplot]: success
+[2023-05-31 11:25:13] INFO root fetch - main [MainThread]: End processing [shakenfist-utilities]: success
+[2023-05-31 11:25:14] INFO root fetch - main [MainThread]: End processing [mango]: success
+[2023-05-31 11:25:14] INFO root fetch - main [MainThread]: End processing [typedb-client]: success
+[2023-05-31 11:25:14] INFO root fetch - main [MainThread]: Store serial: [18314733]
